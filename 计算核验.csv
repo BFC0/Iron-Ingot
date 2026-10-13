@@ -1,0 +1,33 @@
+﻿项目,公式或读取方法,结果,单位,数据来源
+需求预测总量,5 + 11,16.0,千单位,round1_demand.json
+预测供给覆盖率,3.4 / (5 + 11) * 100,21.25,%,round1_demand.json; round1_production.json
+预测供给缺口,(5 + 11) - 3.4,12.6,千单位,round1_demand.json; round1_production.json
+无新增投资下回合产能,17 * (1 - 15 / 100),14.45,千单位,round1_investments.json; round1_outlook.json
+当前产能满足预测需求所需利用率,(5 + 11) / 17 * 100,94.11764705882352,%,round1_demand.json; round1_production.json
+预测工人数,3.4 / 0.15,22.666666666666668,人,round1_production.json
+按平台当前销售分配的预算收入,3.4 * 3000 + 0 * 2000,10200.0,千美元,round1_sales_thailand.json; round1_sales_indonesia.json
+长期利息预算,17000 * 3 / 100,510.0,千美元,round1_finance.json
+预算税前利润,-2301 + 148 - 510 - 0,-2663,千美元,round1_budget_income.json
+预算现金变化,14563 - 15004,-441,千美元,round1_budget_cashflow.json
+累计收益差分推算当期利润,-1370.3 - 1292.8,-2663.1,千美元,round1_budget_ratios.json
+练习1竞争者泰国价格中位数,median(剔除营销团队后的9队价格),1800.0,美元/单位,practice1_printable.json
+练习1本队泰国价格溢价,(3000 / 1800 - 1) * 100,66.66666666666667,%,practice1_printable.json
+练习1印尼需求满足率,3.01 / 13.07 * 100,23.02983932670237,%,practice1_printable.json
+"initial0 营业收入净额, 千 美元",原始报告第6队（营销团队）单元格；直接读取，不是预测,31136.0,千美元,initial0_printable.json
+"initial0 本回合利润, 千 美元",原始报告第6队（营销团队）单元格；直接读取，不是预测,1293.0,千美元,initial0_printable.json
+"initial0 累计收益, 千 美元",原始报告第6队（营销团队）单元格；直接读取，不是预测,1293.0,千美元,initial0_printable.json
+initial0 现金及现金等价物,原始报告第6队（营销团队）单元格；直接读取，不是预测,15004.0,千美元,initial0_printable.json
+initial0 短期贷款,原始报告第6队（营销团队）单元格；直接读取，不是预测,0.0,千美元,initial0_printable.json
+initial0 净现金,原始报告第6队（营销团队）单元格；直接读取，不是预测,15004.0,千美元,initial0_printable.json
+"practice1 营业收入净额, 千 美元",原始报告第6队（营销团队）单元格；直接读取，不是预测,7187.0,千美元,practice1_printable.json
+"practice1 本回合利润, 千 美元",原始报告第6队（营销团队）单元格；直接读取，不是预测,-5958.0,千美元,practice1_printable.json
+"practice1 累计收益, 千 美元",原始报告第6队（营销团队）单元格；直接读取，不是预测,-4665.0,千美元,practice1_printable.json
+practice1 现金及现金等价物,原始报告第6队（营销团队）单元格；直接读取，不是预测,11516.0,千美元,practice1_printable.json
+practice1 短期贷款,原始报告第6队（营销团队）单元格；直接读取，不是预测,0.0,千美元,practice1_printable.json
+practice1 净现金,原始报告第6队（营销团队）单元格；直接读取，不是预测,11516.0,千美元,practice1_printable.json
+"practice2 营业收入净额, 千 美元",原始报告第6队（营销团队）单元格；直接读取，不是预测,15309.0,千美元,practice2_printable.json
+"practice2 本回合利润, 千 美元",原始报告第6队（营销团队）单元格；直接读取，不是预测,-3342.0,千美元,practice2_printable.json
+"practice2 累计收益, 千 美元",原始报告第6队（营销团队）单元格；直接读取，不是预测,-8007.0,千美元,practice2_printable.json
+practice2 现金及现金等价物,原始报告第6队（营销团队）单元格；直接读取，不是预测,2000.0,千美元,practice2_printable.json
+practice2 短期贷款,原始报告第6队（营销团队）单元格；直接读取，不是预测,11217.0,千美元,practice2_printable.json
+practice2 净现金,原始报告第6队（营销团队）单元格；直接读取，不是预测,-9217.0,千美元,practice2_printable.json

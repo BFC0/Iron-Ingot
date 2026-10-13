@@ -1,0 +1,375 @@
+{
+  "reviewed_at": "20261012T112446993158+0800",
+  "scope": "归档与现有实现只读核验；未采集当前平台",
+  "counts": {
+    "部分完成": 15,
+    "已解决": 1,
+    "未解决": 4
+  },
+  "all_resolved": false,
+  "checks": {
+    "archive_frozen_and_loss_equivalence": {
+      "status": "PASS",
+      "result": {
+        "checks": {
+          "loss_equivalence": true,
+          "share_conservation": true,
+          "unique_keys": true,
+          "fitted_beta_max_difference": 5.551115123125783e-17,
+          "frozen_coefficients": true,
+          "frozen_predictions": true,
+          "sources_traceable": true,
+          "actual_budget_separated": true,
+          "missing_not_zero": true
+        },
+        "n_rows": 600,
+        "n_fit": 400,
+        "frozen_coefficients": {
+          "A": {
+            "max_difference": 1.1102230246251565e-16,
+            "n": 40,
+            "coefficients": [
+              3.7397687959318033,
+              0.7345809474305046,
+              0.47787192907137777,
+              0.2657464788320063,
+              2.5971535917405315e-13
+            ]
+          },
+          "B": {
+            "max_difference": 1.3322676295501878e-15,
+            "n": 400,
+            "coefficients": [
+              2.015625537355807,
+              2.2121047237212927,
+              0.43786488793021694,
+              0.4580531398269376,
+              0.2960057789750337
+            ]
+          }
+        },
+        "frozen_predictions": {
+          "n": 1600,
+          "max_difference": 0.0
+        },
+        "loss_equivalence": [
+          {
+            "model": "A",
+            "n": 40,
+            "mean_lambda": 0.01,
+            "weighted_sum_lambda": 0.4,
+            "max_difference": 5.551115123125783e-17,
+            "note": "B为n倍市场/国家等权损失，不等于未加权原始残差总和"
+          },
+          {
+            "model": "B",
+            "n": 400,
+            "mean_lambda": 0.01,
+            "weighted_sum_lambda": 4.0,
+            "max_difference": 1.7763568394002505e-15,
+            "note": "B为n倍市场/国家等权损失，不等于未加权原始残差总和"
+          }
+        ]
+      }
+    },
+    "formal1_actual_data": {
+      "status": "PASS",
+      "result": {
+        "rows": 200,
+        "markets": 10,
+        "verified_context_rows": 20,
+        "unique_keys": 200
+      }
+    },
+    "formal2_initial_states": {
+      "status": "PASS",
+      "result": {
+        "teams_checked": 100,
+        "closing_state_preserved": true,
+        "missing_state_not_zero": true,
+        "formal1_only": true,
+        "selector_mismatch_rejected": true
+      }
+    },
+    "formal_report_source_hashes": {
+      "status": "PASS",
+      "result": {
+        "records": 77,
+        "files_checked": 154
+      }
+    },
+    "git_original_recovery": {
+      "status": "PASS",
+      "result": {
+        "status": "RECOVERED_EXACT_ORIGINALS_FROM_GIT_OBJECTS",
+        "files": 2
+      }
+    },
+    "round2_json_svg_pair_and_fit": {
+      "status": "PASS",
+      "result": {
+        "rd": {
+          "unique_points": 200,
+          "y_max_difference": 2.220446049250313e-16,
+          "held_mae": 0.00025562083506323717
+        },
+        "operations": {
+          "unique_points": 200,
+          "y_max_difference": 2.220446049250313e-16,
+          "held_mae": 9.200768901859557e-05
+        }
+      }
+    },
+    "finite_horizon": {
+      "status": "PASS",
+      "result": {
+        "six_start_rounds": true,
+        "unknown_profit_not_zero": true,
+        "round7_and_missing_or_duplicate_rejected": true,
+        "terminal_state_preserved": true,
+        "terminal_reward_not_invented": true
+      }
+    },
+    "operations_synthetic_and_holdout": {
+      "status": "PASS",
+      "result": {
+        "synthetic_recovery": true,
+        "duplicate_strategy_invariance": true,
+        "single_strategy_nonidentifiability": true,
+        "heldout_disjoint": true
+      }
+    },
+    "python_syntax": {
+      "status": "PASS",
+      "result": {
+        "files": 36
+      }
+    }
+  },
+  "issues": [
+    {
+      "number": 1,
+      "status": "部分完成",
+      "finding": "标准化、惩罚路径和留出已实现；系数作用与跨期稳定性仍未验证",
+      "next_evidence": "独立投入变化及后续回合留出"
+    },
+    {
+      "number": 2,
+      "status": "已解决",
+      "finding": "平均损失与对应加权总和惩罚重标定后系数复现；本次重新断言",
+      "next_evidence": "无需新增资料；新增消费者须沿用统一口径"
+    },
+    {
+      "number": 3,
+      "status": "部分完成",
+      "finding": "极端价格影响和分段候选已有；高价尾部稀疏，阈值与外部性能未确证",
+      "next_evidence": "高价及普通价格区间的独立实际需求"
+    },
+    {
+      "number": 4,
+      "status": "未解决",
+      "finding": "投入共变与内生性未消除；现有回归不能证明因果回报",
+      "next_evidence": "独立投入变化或可识别的实验设计"
+    },
+    {
+      "number": 5,
+      "status": "部分完成",
+      "finding": "国别独立系数已比较；竞争队营销仍为两国合计代理",
+      "next_evidence": "逐国家实际营销预算"
+    },
+    {
+      "number": 6,
+      "status": "部分完成",
+      "finding": "零值显示精度与保留零的份额候选已处理；响应形式及真实零值未确证",
+      "next_evidence": "未取整零值及独立响应验证"
+    },
+    {
+      "number": 7,
+      "status": "未解决",
+      "finding": "行业总量仍外生；正式1实际总量不等于独立识别行业响应",
+      "next_evidence": "多回合行业价格、营销及总需求变化"
+    },
+    {
+      "number": 8,
+      "status": "部分完成",
+      "finding": "正式1实际已取得并有冻结评分；条件份额仍使用已实现对手，正式2无外部标签",
+      "next_evidence": "正式2实际及事前冻结完整预测"
+    },
+    {
+      "number": 9,
+      "status": "部分完成",
+      "finding": "运营ρ独立分析及正式1重拟合、研发ρ敏感性已有；完整存量未识别",
+      "next_evidence": "研发运营历史存量与独立变化"
+    },
+    {
+      "number": 10,
+      "status": "部分完成",
+      "finding": "正式2 JSON/SVG各200点配对去重及拟合复现通过；其他市场曲线及经营验证不足",
+      "next_evidence": "各市场各回合独立曲线及实际结果"
+    },
+    {
+      "number": 11,
+      "status": "部分完成",
+      "finding": "研发外推已标记；历史回算仍须匹配历史曲线，高投入经营效果未验证",
+      "next_evidence": "对应历史回合高投入曲线与需求"
+    },
+    {
+      "number": 12,
+      "status": "部分完成",
+      "finding": "重复策略等权与效率舍入诊断已有；低运营400仍缺验证",
+      "next_evidence": "低运营投入有效预算或实际效率"
+    },
+    {
+      "number": 13,
+      "status": "部分完成",
+      "finding": "两风险函数和正式1条件期末状态留队拟合已有；还贷风险联动未验证",
+      "next_evidence": "独立贷款变化、利率与计息样本"
+    },
+    {
+      "number": 14,
+      "status": "部分完成",
+      "finding": "正式2前景和初值已归档；五部分及逐回合曲线未完整接入，训练仍取冻结研发曲线",
+      "next_evidence": "当期参数接入、失效参数拒绝及回合选择检查"
+    },
+    {
+      "number": 15,
+      "status": "部分完成",
+      "finding": "错误单位已更正、材料舍入区间已重审；差额机制未解释，不可固定跨情境使用",
+      "next_evidence": "独立材料成本明细与未取整预算"
+    },
+    {
+      "number": 16,
+      "status": "部分完成",
+      "finding": "11项旧预算重放和正式1期末数据可核；完整财务独立前瞻未验收",
+      "next_evidence": "期初加决策的整链财务留出"
+    },
+    {
+      "number": 17,
+      "status": "未解决",
+      "finding": "财务入口要求零库存、零期初短贷；大客户、税亏与厂房跨期分支尚不完整",
+      "next_evidence": "非零订单库存短贷与亏后转盈独立样本"
+    },
+    {
+      "number": 18,
+      "status": "未解决",
+      "finding": "正式6期限自检通过，但搜索仍GATED_NOT_RUN；完整滚动链未建立",
+      "next_evidence": "合法候选、状态结转和各期前景，完成前三阶段验收"
+    },
+    {
+      "number": 19,
+      "status": "部分完成",
+      "finding": "扩充单因子、组合及2000样本压力；对手、库存、短贷、订单及跨期覆盖仍false",
+      "next_evidence": "完整可验收候选和全部经营融资分支"
+    },
+    {
+      "number": 20,
+      "status": "部分完成",
+      "finding": "版本与快照隔离可追溯，两份被覆盖原件已精确恢复；旧入口截止点和旧缺口文字仍过时",
+      "next_evidence": "统一当前入口与截止点；旧预测保留原版本"
+    }
+  ],
+  "data_unverifiable": [
+    {
+      "number": 1,
+      "status": "部分完成",
+      "finding": "标准化、惩罚路径和留出已实现；系数作用与跨期稳定性仍未验证",
+      "next_evidence": "独立投入变化及后续回合留出"
+    },
+    {
+      "number": 3,
+      "status": "部分完成",
+      "finding": "极端价格影响和分段候选已有；高价尾部稀疏，阈值与外部性能未确证",
+      "next_evidence": "高价及普通价格区间的独立实际需求"
+    },
+    {
+      "number": 4,
+      "status": "未解决",
+      "finding": "投入共变与内生性未消除；现有回归不能证明因果回报",
+      "next_evidence": "独立投入变化或可识别的实验设计"
+    },
+    {
+      "number": 5,
+      "status": "部分完成",
+      "finding": "国别独立系数已比较；竞争队营销仍为两国合计代理",
+      "next_evidence": "逐国家实际营销预算"
+    },
+    {
+      "number": 6,
+      "status": "部分完成",
+      "finding": "零值显示精度与保留零的份额候选已处理；响应形式及真实零值未确证",
+      "next_evidence": "未取整零值及独立响应验证"
+    },
+    {
+      "number": 7,
+      "status": "未解决",
+      "finding": "行业总量仍外生；正式1实际总量不等于独立识别行业响应",
+      "next_evidence": "多回合行业价格、营销及总需求变化"
+    },
+    {
+      "number": 8,
+      "status": "部分完成",
+      "finding": "正式1实际已取得并有冻结评分；条件份额仍使用已实现对手，正式2无外部标签",
+      "next_evidence": "正式2实际及事前冻结完整预测"
+    },
+    {
+      "number": 9,
+      "status": "部分完成",
+      "finding": "运营ρ独立分析及正式1重拟合、研发ρ敏感性已有；完整存量未识别",
+      "next_evidence": "研发运营历史存量与独立变化"
+    },
+    {
+      "number": 10,
+      "status": "部分完成",
+      "finding": "正式2 JSON/SVG各200点配对去重及拟合复现通过；其他市场曲线及经营验证不足",
+      "next_evidence": "各市场各回合独立曲线及实际结果"
+    },
+    {
+      "number": 11,
+      "status": "部分完成",
+      "finding": "研发外推已标记；历史回算仍须匹配历史曲线，高投入经营效果未验证",
+      "next_evidence": "对应历史回合高投入曲线与需求"
+    },
+    {
+      "number": 12,
+      "status": "部分完成",
+      "finding": "重复策略等权与效率舍入诊断已有；低运营400仍缺验证",
+      "next_evidence": "低运营投入有效预算或实际效率"
+    },
+    {
+      "number": 13,
+      "status": "部分完成",
+      "finding": "两风险函数和正式1条件期末状态留队拟合已有；还贷风险联动未验证",
+      "next_evidence": "独立贷款变化、利率与计息样本"
+    },
+    {
+      "number": 15,
+      "status": "部分完成",
+      "finding": "错误单位已更正、材料舍入区间已重审；差额机制未解释，不可固定跨情境使用",
+      "next_evidence": "独立材料成本明细与未取整预算"
+    },
+    {
+      "number": 16,
+      "status": "部分完成",
+      "finding": "11项旧预算重放和正式1期末数据可核；完整财务独立前瞻未验收",
+      "next_evidence": "期初加决策的整链财务留出"
+    },
+    {
+      "number": 17,
+      "status": "未解决",
+      "finding": "财务入口要求零库存、零期初短贷；大客户、税亏与厂房跨期分支尚不完整",
+      "next_evidence": "非零订单库存短贷与亏后转盈独立样本"
+    },
+    {
+      "number": 18,
+      "status": "未解决",
+      "finding": "正式6期限自检通过，但搜索仍GATED_NOT_RUN；完整滚动链未建立",
+      "next_evidence": "合法候选、状态结转和各期前景，完成前三阶段验收"
+    },
+    {
+      "number": 19,
+      "status": "部分完成",
+      "finding": "扩充单因子、组合及2000样本压力；对手、库存、短贷、订单及跨期覆盖仍false",
+      "next_evidence": "完整可验收候选和全部经营融资分支"
+    }
+  ]
+}

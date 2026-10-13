@@ -1,0 +1,1660 @@
+{
+  "status": "CONDITIONAL_ROUNDING_DIAGNOSTIC_NOT_MECHANISM_VALIDATION",
+  "records": [
+    {
+      "case": "baseline",
+      "metric": "厂房",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 3,
+        "column": 1,
+        "label": "厂房",
+        "text": "13 039"
+      },
+      "actual": 13039.0,
+      "predicted": 13038.8,
+      "residual": -0.2000000000007276,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        13038.335,
+        13039.265
+      ],
+      "target_interval": [
+        13038.5,
+        13039.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.0,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.0,
+        "machine_book": 0.0,
+        "building_book": 0.4650000000001455,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "baseline",
+      "metric": "机器",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 4,
+        "column": 1,
+        "label": "机器",
+        "text": "7 442"
+      },
+      "actual": 7442.0,
+      "predicted": 7441.75,
+      "residual": -0.25,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        7441.325,
+        7442.175
+      ],
+      "target_interval": [
+        7441.5,
+        7442.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.0,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.0,
+        "machine_book": 0.4250000000001819,
+        "building_book": 0.0,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "baseline",
+      "metric": "应收帐款",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 8,
+        "column": 1,
+        "label": "应收帐款",
+        "text": "764"
+      },
+      "actual": 764.0,
+      "predicted": 764.3835616438356,
+      "residual": 0.38356164383560554,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        764.2438356164384,
+        764.5232876712328
+      ],
+      "target_interval": [
+        763.5,
+        764.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.1397260273972165,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.0,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "baseline",
+      "metric": "现金及现金等价物",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 9,
+        "column": 1,
+        "label": "现金及现金等价物",
+        "text": "13 651"
+      },
+      "actual": 13651.0,
+      "predicted": 13651.54223262433,
+      "residual": 0.5422326243296993,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": false,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        13649.317408962641,
+        13653.767056286018
+      ],
+      "target_interval": [
+        13650.5,
+        13651.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.6553764255077112,
+        "workers": 0.04432160803935403,
+        "cash": 0.5050251256279807,
+        "ar": 0.5025125628144451,
+        "ap": 0.5025125628144451,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.015075376883942226
+      }
+    },
+    {
+      "case": "baseline",
+      "metric": "资产总和",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 11,
+        "column": 1,
+        "label": "资产总和",
+        "text": "34 896"
+      },
+      "actual": 34896.0,
+      "predicted": 34896.47579426817,
+      "residual": 0.47579426816810155,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        34893.221244579094,
+        34899.73034395724
+      ],
+      "target_interval": [
+        34895.5,
+        34896.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.7951024529029382,
+        "workers": 0.04432160803844454,
+        "cash": 0.5050251256252523,
+        "ar": 0.5025125628126261,
+        "ap": 0.5025125628126261,
+        "machine_book": 0.4249999999992724,
+        "building_book": 0.4650000000001455,
+        "long_debt": 0.015075376883032732
+      }
+    },
+    {
+      "case": "baseline",
+      "metric": "本回合利润",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 18,
+        "column": 1,
+        "label": "本回合利润",
+        "text": "-3 649"
+      },
+      "actual": -3649.0,
+      "predicted": -3648.359822170191,
+      "residual": 0.6401778298090903,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": false,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        -3649.271412955166,
+        -3647.448231385216
+      ],
+      "target_interval": [
+        -3649.5,
+        -3648.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.7321435487942836,
+        "workers": 0.04432160804026353,
+        "cash": 0.005025125628208116,
+        "ar": 0.002512562813990371,
+        "ap": 0.002512562813990371,
+        "machine_book": 0.0749999999998181,
+        "building_book": 0.035000000000081855,
+        "long_debt": 0.015075376884396974
+      }
+    },
+    {
+      "case": "baseline",
+      "metric": "股东权益合计",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 19,
+        "column": 1,
+        "label": "股东权益合计",
+        "text": "17 644"
+      },
+      "actual": 17644.0,
+      "predicted": 17644.64017782981,
+      "residual": 0.6401778298095451,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": false,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        17640.948587044833,
+        17648.331768614786
+      ],
+      "target_interval": [
+        17643.5,
+        17644.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.7321435487938288,
+        "workers": 0.04432160804026353,
+        "cash": 0.5050251256288902,
+        "ar": 0.5025125628144451,
+        "ap": 0.5025125628144451,
+        "machine_book": 0.4249999999992724,
+        "building_book": 0.4650000000001455,
+        "long_debt": 0.5150753768830327
+      }
+    },
+    {
+      "case": "baseline",
+      "metric": "长期贷款",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 22,
+        "column": 1,
+        "label": "长期贷款",
+        "text": "17 000"
+      },
+      "actual": 17000.0,
+      "predicted": 17000.0,
+      "residual": 0.0,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        16999.5,
+        17000.5
+      ],
+      "target_interval": [
+        16999.5,
+        17000.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.0,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.0,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.5
+      }
+    },
+    {
+      "case": "baseline",
+      "metric": "应付账款",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 26,
+        "column": 1,
+        "label": "应付账款",
+        "text": "252"
+      },
+      "actual": 252.0,
+      "predicted": 251.83561643835617,
+      "residual": -0.16438356164383094,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        251.7726575342466,
+        251.89857534246573
+      ],
+      "target_interval": [
+        251.5,
+        252.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.06295890410954996,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.0,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "baseline",
+      "metric": "税息折旧及摊销前利润（EBITDA）",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+        "table_row_index": 2,
+        "column": 1,
+        "label": "税息折旧及摊销前利润（EBITDA）",
+        "text": "-1 047"
+      },
+      "actual": -1047.0,
+      "predicted": -1047.1875333333337,
+      "residual": -0.18753333333370392,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        -1047.9605000000006,
+        -1046.4145666666668
+      ],
+      "target_interval": [
+        -1047.5,
+        -1046.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.7288666666668178,
+        "workers": 0.044100000000071304,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.0,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "baseline",
+      "metric": "财务收入和支出",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+        "table_row_index": 3,
+        "column": 1,
+        "label": "财务收入和支出",
+        "text": "-367"
+      },
+      "actual": -367.0,
+      "predicted": -366.72228883685733,
+      "residual": 0.2777111631426692,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        -366.75091295516575,
+        -366.6936647185489
+      ],
+      "target_interval": [
+        -367.5,
+        -366.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.00327688212752264,
+        "workers": 0.0002216080402206444,
+        "cash": 0.005025125628151272,
+        "ar": 0.0025125628140472145,
+        "ap": 0.0025125628140472145,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.015075376884425395
+      }
+    },
+    {
+      "case": "baseline",
+      "metric": "直接税",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+        "table_row_index": 4,
+        "column": 1,
+        "label": "直接税",
+        "text": "0"
+      },
+      "actual": 0.0,
+      "predicted": -0.0,
+      "residual": -0.0,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        -0.0,
+        0.0
+      ],
+      "target_interval": [
+        -0.5,
+        0.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.0,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.0,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "baseline",
+      "metric": "应收帐变化(增 - / 减 +)",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+        "table_row_index": 9,
+        "column": 1,
+        "label": "应收帐变化(增 - / 减 +)",
+        "text": "1 795"
+      },
+      "actual": 1795.0,
+      "predicted": 1794.6164383561645,
+      "residual": -0.38356164383549185,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        1793.9767123287675,
+        1795.2561643835616
+      ],
+      "target_interval": [
+        1794.5,
+        1795.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.13972602739715967,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.5,
+        "ap": 0.0,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "baseline",
+      "metric": "应付账变化(增 + / 减 -)",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+        "table_row_index": 10,
+        "column": 1,
+        "label": "应付账变化(增 + / 减 -)",
+        "text": "-933"
+      },
+      "actual": -933.0,
+      "predicted": -933.1643835616438,
+      "residual": -0.16438356164383094,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        -933.7273424657534,
+        -932.6014246575343
+      ],
+      "target_interval": [
+        -933.5,
+        -932.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.06295890410956417,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.5,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "baseline",
+      "metric": "资本支出总计",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+        "table_row_index": 17,
+        "column": 1,
+        "label": "资本支出总计",
+        "text": "-800"
+      },
+      "actual": -800.0,
+      "predicted": -800,
+      "residual": 0.0,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        -800.0,
+        -800.0
+      ],
+      "target_interval": [
+        -800.5,
+        -799.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.0,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.0,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "baseline",
+      "metric": "流动资产变动",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+        "table_row_index": 24,
+        "column": 1,
+        "label": "流动资产变动",
+        "text": "-1 353"
+      },
+      "actual": -1353.0,
+      "predicted": -1352.4577673756703,
+      "residual": 0.5422326243296993,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": false,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        -1354.1825910373582,
+        -1350.7329437139824
+      ],
+      "target_interval": [
+        -1353.5,
+        -1352.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.6553764255077112,
+        "workers": 0.04432160803935403,
+        "cash": 0.005025125627980742,
+        "ar": 0.5025125628144451,
+        "ap": 0.5025125628144451,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.015075376883942226
+      }
+    },
+    {
+      "case": "baseline",
+      "metric": "流动资产 12月31日",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+        "table_row_index": 26,
+        "column": 1,
+        "label": "流动资产 12月31日",
+        "text": "13 651"
+      },
+      "actual": 13651.0,
+      "predicted": 13651.54223262433,
+      "residual": 0.5422326243296993,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": false,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        13649.317408962641,
+        13653.767056286018
+      ],
+      "target_interval": [
+        13650.5,
+        13651.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.6553764255077112,
+        "workers": 0.04432160803935403,
+        "cash": 0.5050251256279807,
+        "ar": 0.5025125628144451,
+        "ap": 0.5025125628144451,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.015075376883942226
+      }
+    },
+    {
+      "case": "machine1",
+      "metric": "厂房",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 3,
+        "column": 1,
+        "label": "厂房",
+        "text": "13 039"
+      },
+      "actual": 13039.0,
+      "predicted": 13038.8,
+      "residual": -0.2000000000007276,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        13038.335,
+        13039.265
+      ],
+      "target_interval": [
+        13038.5,
+        13039.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.0,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.0,
+        "machine_book": 0.0,
+        "building_book": 0.4650000000001455,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "machine1",
+      "metric": "机器",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 4,
+        "column": 1,
+        "label": "机器",
+        "text": "7 527"
+      },
+      "actual": 7527.0,
+      "predicted": 7526.75,
+      "residual": -0.25,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        7526.325,
+        7527.175
+      ],
+      "target_interval": [
+        7526.5,
+        7527.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.0,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.0,
+        "machine_book": 0.4250000000001819,
+        "building_book": 0.0,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "machine1",
+      "metric": "应收帐款",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 8,
+        "column": 1,
+        "label": "应收帐款",
+        "text": "797"
+      },
+      "actual": 797.0,
+      "predicted": 797.2602739726027,
+      "residual": 0.2602739726027039,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        797.1205479452055,
+        797.3999999999999
+      ],
+      "target_interval": [
+        796.5,
+        797.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.13972602739715967,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.0,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "machine1",
+      "metric": "现金及现金等价物",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 9,
+        "column": 1,
+        "label": "现金及现金等价物",
+        "text": "13 705"
+      },
+      "actual": 13705.0,
+      "predicted": 13705.245937827756,
+      "residual": 0.24593782775627915,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        13703.021114166073,
+        13707.47076148944
+      ],
+      "target_interval": [
+        13704.5,
+        13705.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.6553764255058923,
+        "workers": 0.04432160803935403,
+        "cash": 0.5050251256279807,
+        "ar": 0.5025125628135356,
+        "ap": 0.5025125628135356,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.015075376883942226
+      }
+    },
+    {
+      "case": "machine1",
+      "metric": "资产总和",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 11,
+        "column": 1,
+        "label": "资产总和",
+        "text": "35 068"
+      },
+      "actual": 35068.0,
+      "predicted": 35068.05621180036,
+      "residual": 0.05621180035814177,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        35064.80166211128,
+        35071.31076148944
+      ],
+      "target_interval": [
+        35067.5,
+        35068.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.7951024529029382,
+        "workers": 0.04432160803844454,
+        "cash": 0.5050251256288902,
+        "ar": 0.5025125628162641,
+        "ap": 0.5025125628162641,
+        "machine_book": 0.4250000000029104,
+        "building_book": 0.46499999999650754,
+        "long_debt": 0.015075376883032732
+      }
+    },
+    {
+      "case": "machine1",
+      "metric": "本回合利润",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 18,
+        "column": 1,
+        "label": "本回合利润",
+        "text": "-3 492"
+      },
+      "actual": -3492.0,
+      "predicted": -3491.5932644284876,
+      "residual": 0.4067355715123995,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        -3492.504855213463,
+        -3490.681673643512
+      ],
+      "target_interval": [
+        -3492.5,
+        -3491.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.7321435487940562,
+        "workers": 0.04432160804026353,
+        "cash": 0.005025125628208116,
+        "ar": 0.0025125628142177447,
+        "ap": 0.0025125628142177447,
+        "machine_book": 0.0749999999998181,
+        "building_book": 0.03500000000030923,
+        "long_debt": 0.0150753768841696
+      }
+    },
+    {
+      "case": "machine1",
+      "metric": "股东权益合计",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 19,
+        "column": 1,
+        "label": "股东权益合计",
+        "text": "17 801"
+      },
+      "actual": 17801.0,
+      "predicted": 17801.406735571512,
+      "residual": 0.4067355715123995,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        17797.71514478654,
+        17805.098326356485
+      ],
+      "target_interval": [
+        17800.5,
+        17801.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.7321435487938288,
+        "workers": 0.044321608042082516,
+        "cash": 0.5050251256288902,
+        "ar": 0.5025125628126261,
+        "ap": 0.5025125628126261,
+        "machine_book": 0.4249999999992724,
+        "building_book": 0.4650000000001455,
+        "long_debt": 0.5150753768830327
+      }
+    },
+    {
+      "case": "machine1",
+      "metric": "长期贷款",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 22,
+        "column": 1,
+        "label": "长期贷款",
+        "text": "17 000"
+      },
+      "actual": 17000.0,
+      "predicted": 17000.0,
+      "residual": 0.0,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        16999.5,
+        17000.5
+      ],
+      "target_interval": [
+        16999.5,
+        17000.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.0,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.0,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.5
+      }
+    },
+    {
+      "case": "machine1",
+      "metric": "应付账款",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 26,
+        "column": 1,
+        "label": "应付账款",
+        "text": "267"
+      },
+      "actual": 267.0,
+      "predicted": 266.64947622884773,
+      "residual": -0.3505237711522682,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        266.58651732473817,
+        266.7124351329573
+      ],
+      "target_interval": [
+        266.5,
+        267.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.06295890410956417,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.0,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "machine1",
+      "metric": "税息折旧及摊销前利润（EBITDA）",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+        "table_row_index": 2,
+        "column": 1,
+        "label": "税息折旧及摊销前利润（EBITDA）",
+        "text": "-876"
+      },
+      "actual": -876.0,
+      "predicted": -875.689494117647,
+      "residual": 0.3105058823530271,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        -876.4624607843134,
+        -874.9165274509805
+      ],
+      "target_interval": [
+        -876.5,
+        -875.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.728866666666363,
+        "workers": 0.044100000000071304,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.0,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "machine1",
+      "metric": "财务收入和支出",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+        "table_row_index": 3,
+        "column": 1,
+        "label": "财务收入和支出",
+        "text": "-366"
+      },
+      "actual": -366.0,
+      "predicted": -366.45377031084104,
+      "residual": -0.4537703108410369,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        -366.4823944291494,
+        -366.4251461925327
+      ],
+      "target_interval": [
+        -366.5,
+        -365.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.0032768821274942184,
+        "workers": 0.0002216080401922227,
+        "cash": 0.005025125628122851,
+        "ar": 0.0025125628140472145,
+        "ap": 0.0025125628140472145,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.015075376884453817
+      }
+    },
+    {
+      "case": "machine1",
+      "metric": "直接税",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+        "table_row_index": 4,
+        "column": 1,
+        "label": "直接税",
+        "text": "0"
+      },
+      "actual": 0.0,
+      "predicted": -0.0,
+      "residual": -0.0,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        -0.0,
+        0.0
+      ],
+      "target_interval": [
+        -0.5,
+        0.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.0,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.0,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "machine1",
+      "metric": "应收帐变化(增 - / 减 +)",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+        "table_row_index": 9,
+        "column": 1,
+        "label": "应收帐变化(增 - / 减 +)",
+        "text": "1 762"
+      },
+      "actual": 1762.0,
+      "predicted": 1761.7397260273974,
+      "residual": -0.2602739726025902,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        1761.1000000000001,
+        1762.3794520547947
+      ],
+      "target_interval": [
+        1761.5,
+        1762.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.13972602739727336,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.5,
+        "ap": 0.0,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "machine1",
+      "metric": "应付账变化(增 + / 减 -)",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+        "table_row_index": 10,
+        "column": 1,
+        "label": "应付账变化(增 + / 减 -)",
+        "text": "-919"
+      },
+      "actual": -919.0,
+      "predicted": -918.3505237711522,
+      "residual": 0.6494762288477887,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": false,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        -918.9134826752618,
+        -917.7875648670426
+      ],
+      "target_interval": [
+        -919.5,
+        -918.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.06295890410956417,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.5,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "machine1",
+      "metric": "资本支出总计",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+        "table_row_index": 17,
+        "column": 1,
+        "label": "资本支出总计",
+        "text": "-900"
+      },
+      "actual": -900.0,
+      "predicted": -900,
+      "residual": 0.0,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        -900.0,
+        -900.0
+      ],
+      "target_interval": [
+        -900.5,
+        -899.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.0,
+        "workers": 0.0,
+        "cash": 0.0,
+        "ar": 0.0,
+        "ap": 0.0,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.0
+      }
+    },
+    {
+      "case": "machine1",
+      "metric": "流动资产变动",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+        "table_row_index": 24,
+        "column": 1,
+        "label": "流动资产变动",
+        "text": "-1 299"
+      },
+      "actual": -1299.0,
+      "predicted": -1298.7540621722437,
+      "residual": 0.24593782775627915,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        -1300.478885833928,
+        -1297.0292385105595
+      ],
+      "target_interval": [
+        -1299.5,
+        -1298.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.6553764255058923,
+        "workers": 0.04432160803935403,
+        "cash": 0.005025125627980742,
+        "ar": 0.5025125628135356,
+        "ap": 0.5025125628135356,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.015075376883942226
+      }
+    },
+    {
+      "case": "machine1",
+      "metric": "流动资产 12月31日",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+        "table_row_index": 26,
+        "column": 1,
+        "label": "流动资产 12月31日",
+        "text": "13 705"
+      },
+      "actual": 13705.0,
+      "predicted": 13705.245937827756,
+      "residual": 0.24593782775627915,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝",
+      "predicted_interval": [
+        13703.021114166073,
+        13707.47076148944
+      ],
+      "target_interval": [
+        13704.5,
+        13705.5
+      ],
+      "intervals_overlap": true,
+      "contributions": {
+        "capacity": 0.6553764255058923,
+        "workers": 0.04432160803935403,
+        "cash": 0.5050251256279807,
+        "ar": 0.5025125628135356,
+        "ap": 0.5025125628135356,
+        "machine_book": 0.0,
+        "building_book": 0.0,
+        "long_debt": 0.015075376883942226
+      }
+    }
+  ],
+  "input_intervals": {
+    "capacity": {
+      "value": 20.0,
+      "half_width": 0.005,
+      "source": {
+        "value": 20.0,
+        "file": "raw/initial0_printable.json",
+        "line": 1210,
+        "column": 6,
+        "label": "生产能力, 千单位",
+        "occurrence": 0
+      }
+    },
+    "workers": {
+      "value": 106.31,
+      "half_width": 0.005,
+      "source": {
+        "value": 106.31,
+        "file": "raw/initial0_printable.json",
+        "line": 1269,
+        "column": 6,
+        "label": "生产线人工数量",
+        "occurrence": 0
+      }
+    },
+    "cash": {
+      "value": 15004.0,
+      "half_width": 0.5,
+      "source": {
+        "value": 15004.0,
+        "file": "raw/initial0_printable.json",
+        "line": 2633,
+        "column": 6,
+        "label": "现金及现金等价物",
+        "occurrence": 1
+      }
+    },
+    "ar": {
+      "value": 2559.0,
+      "half_width": 0.5,
+      "source": {
+        "value": 2559.0,
+        "file": "raw/initial0_printable.json",
+        "line": 2610,
+        "column": 6,
+        "label": "应收帐款",
+        "occurrence": 0
+      }
+    },
+    "ap": {
+      "value": 1185.0,
+      "half_width": 0.5,
+      "source": {
+        "value": 1185.0,
+        "file": "raw/initial0_printable.json",
+        "line": 2952,
+        "column": 6,
+        "label": "应付账款",
+        "occurrence": 0
+      }
+    },
+    "machine_book": {
+      "value": 8755.0,
+      "half_width": 0.5,
+      "source": {
+        "value": 8755.0,
+        "file": "raw/initial0_printable.json",
+        "line": 2528,
+        "column": 6,
+        "label": "机器",
+        "occurrence": 1
+      }
+    },
+    "building_book": {
+      "value": 13160.0,
+      "half_width": 0.5,
+      "source": {
+        "value": 13160.0,
+        "file": "raw/initial0_printable.json",
+        "line": 2505,
+        "column": 6,
+        "label": "厂房",
+        "occurrence": 1
+      }
+    },
+    "long_debt": {
+      "value": 17000.0,
+      "half_width": 0.5,
+      "source": {
+        "value": 17000.0,
+        "file": "raw/initial0_printable.json",
+        "line": 2870,
+        "column": 6,
+        "label": "长期贷款",
+        "occurrence": 0
+      }
+    }
+  },
+  "parameters": {
+    "wage": {
+      "value": 28.0,
+      "source": {
+        "value": 28.0,
+        "file": "raw/20261011_model_v2_round1_outlook.json",
+        "line": 213,
+        "column": 1,
+        "label": "泰国",
+        "occurrence": 0
+      },
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE",
+      "status": "当期公布参数"
+    },
+    "second_shift": {
+      "value": 1.65,
+      "source": {
+        "value": 1.65,
+        "file": "raw/20261011_model_v2_round1_outlook.json",
+        "line": 220,
+        "column": 1,
+        "label": "两班倒",
+        "occurrence": 0
+      },
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE",
+      "status": "当期公布参数"
+    },
+    "third_shift": {
+      "value": 2.56,
+      "source": {
+        "value": 2.56,
+        "file": "raw/20261011_model_v2_round1_outlook.json",
+        "line": 225,
+        "column": 1,
+        "label": "三班倒",
+        "occurrence": 0
+      },
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE",
+      "status": "当期公布参数"
+    },
+    "attrition": {
+      "value": 0.1,
+      "source": {
+        "value": 10.0,
+        "file": "raw/20261011_model_v2_round1_outlook.json",
+        "line": 232,
+        "column": 1,
+        "label": "年人员离职率（without costs），%",
+        "occurrence": 0
+      },
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE",
+      "status": "当期公布参数"
+    },
+    "severance": {
+      "value": 0.35000000000000003,
+      "source": {
+        "value": 35.0,
+        "file": "raw/20261011_model_v2_round1_outlook.json",
+        "line": 237,
+        "column": 1,
+        "label": "裁员成本，占薪资%",
+        "occurrence": 0
+      },
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE",
+      "status": "当期公布参数"
+    },
+    "material_cost": {
+      "value": 900.0,
+      "source": {
+        "value": 900.0,
+        "file": "raw/20261011_model_v2_round1_outlook.json",
+        "line": 192,
+        "column": 1,
+        "label": "复合梁",
+        "occurrence": 0
+      },
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE",
+      "status": "当期公布参数"
+    },
+    "marketing_fixed": {
+      "value": 50.0,
+      "source": {
+        "value": 50.0,
+        "file": "raw/20261011_model_v2_round1_outlook.json",
+        "line": 156,
+        "column": 1,
+        "label": "市场调研",
+        "occurrence": 0
+      },
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE",
+      "status": "当期公布参数"
+    },
+    "overhead_fixed": {
+      "value": 4000.0,
+      "source": {
+        "value": 4000.0,
+        "file": "raw/20261011_model_v2_round1_outlook.json",
+        "line": 168,
+        "column": 1,
+        "label": "基础成本",
+        "occurrence": 0
+      },
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE",
+      "status": "当期公布参数"
+    },
+    "machine_unit_capex": {
+      "value": 100.0,
+      "source": {
+        "value": 100.0,
+        "file": "raw/20261011_model_v2_round1_outlook.json",
+        "line": 246,
+        "column": 1,
+        "label": "机器, 复合梁",
+        "occurrence": 0
+      },
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE",
+      "status": "当期公布参数"
+    },
+    "machine_depreciation": {
+      "value": 0.15,
+      "source": {
+        "value": 15.0,
+        "file": "raw/20261011_model_v2_round1_outlook.json",
+        "line": 149,
+        "column": 1,
+        "label": "机器",
+        "occurrence": 0
+      },
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE",
+      "status": "当期公布参数"
+    },
+    "machine_capacity_decline": {
+      "value": 0.15,
+      "source": {
+        "value": 15.0,
+        "file": "raw/20261011_model_v2_round1_outlook.json",
+        "line": 253,
+        "column": 1,
+        "label": "机器",
+        "occurrence": 1
+      },
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE",
+      "status": "当期公布参数"
+    },
+    "cash_rate": {
+      "value": 0.01,
+      "source": {
+        "value": 1.0,
+        "file": "raw/20261011_model_v2_round1_outlook.json",
+        "line": 142,
+        "column": 1,
+        "label": "现金及现金等价物",
+        "occurrence": 0
+      },
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE",
+      "status": "当期公布参数"
+    },
+    "tax_rate": {
+      "value": 0.29,
+      "source": {
+        "value": 29.0,
+        "file": "raw/20261011_model_v2_round1_outlook.json",
+        "line": 120,
+        "column": 1,
+        "label": "企业所得税率, %",
+        "occurrence": 0
+      },
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE",
+      "status": "当期公布参数"
+    },
+    "minimum_cash": {
+      "value": 2000.0,
+      "source": {
+        "value": 2000.0,
+        "file": "raw/20261011_model_v2_round1_outlook.json",
+        "line": 125,
+        "column": 1,
+        "label": "最低现金, 千 美元",
+        "occurrence": 0
+      },
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE",
+      "status": "当期公布参数"
+    },
+    "transport": {
+      "value": [
+        30,
+        120
+      ],
+      "source": [
+        {
+          "value": 30.0,
+          "file": "raw/20261011_model_v2_round1_outlook.json",
+          "line": 199,
+          "column": 1,
+          "label": "泰国 -> 泰国",
+          "occurrence": 0
+        },
+        {
+          "value": 120.0,
+          "file": "raw/20261011_model_v2_round1_outlook.json",
+          "line": 204,
+          "column": 1,
+          "label": "泰国 -> 印尼",
+          "occurrence": 0
+        }
+      ],
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE",
+      "status": "当期公布参数"
+    },
+    "uplift": {
+      "value": 1.176470588235361,
+      "status": "经验或条件关系，未完成独立试验",
+      "source": "分步模型拟合与验证.json",
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE"
+    },
+    "building_capex": {
+      "value": 800,
+      "status": "经验或条件关系，未完成独立试验",
+      "source": "分步模型拟合与验证.json",
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE"
+    },
+    "building_depreciation": {
+      "value": 0.07,
+      "status": "经验或条件关系，未完成独立试验",
+      "source": "分步模型拟合与验证.json",
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE"
+    },
+    "ar_days": {
+      "value": 30,
+      "status": "经验或条件关系，未完成独立试验",
+      "source": "分步模型拟合与验证.json",
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE"
+    },
+    "ap_days": {
+      "value": 30,
+      "status": "经验或条件关系，未完成独立试验",
+      "source": "分步模型拟合与验证.json",
+      "phase": "formal",
+      "round": 1,
+      "context_id": "M5_P1_FORMAL1_VISIBLE"
+    }
+  },
+  "checks": {
+    "corner_cases": 512,
+    "affine_max_error": 2.1827872842550278e-11,
+    "comparisons": 34,
+    "interval_overlaps": 34
+  },
+  "live_mutations": 0,
+  "html_changes": 0,
+  "gate_passed": false,
+  "assumptions": [
+    "整数金额显示为最近整数±0.5千美元；两位小数数量为±0.005千单位，显示舍入规则尚未独立证明",
+    "当前玩家输入需求/效率/利率及官方参数固定；经验材料差额、厂房800、折旧率和周转天数也固定",
+    "期初权益从会计恒等式推导；未额外施加其显示区间，独立输入盒范围为保守外包络",
+    "仅当前两个历史预算点的一班、正解聘、亏损无税、无短贷分支；不延伸跨期"
+  ],
+  "limitations": [
+    "区间相交只说明在所列条件舍入范围下不能排除；不能证明隐藏机制、唯一校准或真实概率",
+    "经验参数及未识别分支误差没有包含；正式需求、独立低运营投入及完整无并发预算验证仍缺"
+  ]
+}

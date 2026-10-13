@@ -1,0 +1,49 @@
+{
+  "captured_at": "2026-10-12T14:03:48.352Z",
+  "reason": "USER_STOP_ROUND_ENDED",
+  "state": {
+    "chart_lines": [
+      "Chart.create(\"Graphs.Sales.Market1.Product1\", \"scatter\", {\"chart\":{\"yAxisName\":\"较于其他竞争对手，%\",\"xaxisminvalue\":\"0.00\",\"xAxisName\":\"Relative importance (3 - highest)\",\"yaxisminvalue\":\"-10.00\",\"caption\":\" \",\"yaxismaxvalue\":\"10.00\",\"xaxismaxvalue\":\"3.00\"},\"dataset\":[{\"seriesname\":\"价格\",\"data\":[{\"x\":3,\"y\":-2.264297961511097}]},{\"seriesname\":\"一般营销\",\"data\":[{\"x\":0.22045993028007538,\"y\":-3.751368313264747}]},{\"seriesname\":\"设计师营销\",\"data\":[{\"x\":0.33289344969531526,\"y\":-19.85121905534053}]},{\"seriesname\":\"研发\",\"data\":[{\"x\":0.5618618149505239,\"y\":-4.42685475763348}]}]}, \"cc-Graphs-Sales-Market1-Product1\");;",
+      "Chart.create(\"Graphs.Sales.Market1.Product2\", \"scatter\", {\"chart\":{\"yAxisName\":\"较于其他竞争对手，%\",\"xaxisminvalue\":\"0.00\",\"xAxisName\":\"Relative importance (3 - highest)\",\"yaxisminvalue\":\"-10.00\",\"caption\":\" \",\"yaxismaxvalue\":\"10.00\",\"xaxismaxvalue\":\"3.00\"},\"dataset\":[{\"seriesname\":\"价格\",\"data\":[{\"x\":3,\"y\":0}]},{\"seriesname\":\"一般营销\",\"data\":[{\"x\":0.33289344969531526,\"y\":0}]},{\"seriesname\":\"设计师营销\",\"data\":[{\"x\":0.22045993028007538,\"y\":0}]},{\"seriesname\":\"研发\",\"data\":[{\"x\":0.5618618149505239,\"y\":0}]}]}, \"cc-Graphs-Sales-Market1-Product2\");;"
+    ],
+    "inputs": [
+      {
+        "disabled": false,
+        "id": "decision108",
+        "value": "1 950.0"
+      },
+      {
+        "disabled": false,
+        "id": "decision10a",
+        "value": "475"
+      },
+      {
+        "disabled": false,
+        "id": "decision10b",
+        "value": "100"
+      },
+      {
+        "disabled": false,
+        "id": "decision10d",
+        "value": "0.0"
+      },
+      {
+        "disabled": false,
+        "id": "decision10f",
+        "value": "0"
+      },
+      {
+        "disabled": false,
+        "id": "decision110",
+        "value": "0"
+      }
+    ],
+    "rows": [
+      "每单位价格, 美元\t\t-\t+0\t1 950.0",
+      "总收入, 千 美元\t6 638\t100\t-13\t7 626",
+      "每单位价格, 美元\t\t-\tNA\t0.0",
+      "总收入, 千 美元\t0\t0\tNA\t0"
+    ]
+  },
+  "no_fits_created": true
+}

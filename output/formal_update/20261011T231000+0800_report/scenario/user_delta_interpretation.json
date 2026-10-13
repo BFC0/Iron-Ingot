@@ -1,0 +1,14 @@
+{
+  "topic": "formal1_short_premium_display_delta",
+  "origin": "User interpretation supplied via parent agent",
+  "raw_formal1_this_year_percent": 1.5,
+  "raw_formal1_last_year_percent": 0.6,
+  "raw_displayed_delta": "+90%",
+  "user_interpretation": "0.6% + 0.9 percentage points = 1.5%; +90% may encode the absolute 0.9 percentage-point increase",
+  "percentage_point_change": 0.9,
+  "relative_percent_change": 150.0,
+  "display_semantics_status": "UNCONFIRMED",
+  "model_policy": "Use numeric rate columns: formal1 short premium 1.5%, formal2 short premium 2.0%; do not infer or repair display-delta semantics",
+  "preserve_original_assessment": true,
+  "revised_description": "Possible display convention ambiguity rather than a confirmed erroneous absolute rate"
+}

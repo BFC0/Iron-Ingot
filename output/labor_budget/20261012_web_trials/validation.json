@@ -1,0 +1,244 @@
+{
+  "market": 5,
+  "phase": "formal",
+  "round": 2,
+  "personal_area": "PYT",
+  "published": {
+    "wage": 28,
+    "second_shift": 1.65,
+    "third_shift": 2.56,
+    "attrition": 0.1,
+    "severance": 0.35
+  },
+  "previous_workers": 96.09,
+  "previous_state_source": "output\\formal_update\\20261011T224300+0800_state\\formal2_initial_states.json",
+  "previous_state_sha256": "55b80bec18d27ce0e6fcb70d6fa955962520176a9a3fed991cd9ecb5158be76e",
+  "fitted": {
+    "wage": 28.0,
+    "second_shift": 1.6500000000000001,
+    "third_shift": 2.5595238095238106,
+    "severance": 0.3498677248677248,
+    "retained_workers": 86.47826086956522,
+    "attrition": 0.10002850588442902
+  },
+  "samples": [
+    {
+      "file": "train_a20_budget.txt",
+      "sha256": "e6dc159ea4630373fe75c3cab1d7cb4733df8e2422002bb553ff738fe01e9fa7",
+      "captured_at": "2026-10-12T18:23:52.698431+08:00",
+      "split": "train",
+      "allocation": 20,
+      "capacity": 15.3,
+      "efficiency": 0.17,
+      "q": 3.06,
+      "n": 18.0,
+      "band_workers": [
+        18.0,
+        0.0,
+        0.0
+      ],
+      "observed_q": 3.06,
+      "observed_n": 18.0,
+      "payroll": 504.0,
+      "firing": 671.0,
+      "profit": -7304.0,
+      "category": "platform_budget_not_actual_result",
+      "fitted_payroll": 504.0,
+      "fitted_firing": 670.8333333333333,
+      "official_payroll": 504.0,
+      "official_firing": 671.1138000000001,
+      "checks": {
+        "production": true,
+        "workers": true,
+        "published_payroll": true,
+        "published_firing": true,
+        "fitted_payroll": true,
+        "fitted_firing": true
+      }
+    },
+    {
+      "file": "train_a50_budget_valid.txt",
+      "sha256": "2528a1cb3a8509525c191f35a80497a5178c45c8d73f5da03a3cc8f4dfd4c9a9",
+      "captured_at": "2026-10-12T18:39:03.599076+08:00",
+      "split": "train",
+      "allocation": 50,
+      "capacity": 15.3,
+      "efficiency": 0.17,
+      "q": 7.65,
+      "n": 45.0,
+      "band_workers": [
+        30.0,
+        14.999999999999998,
+        0.0
+      ],
+      "observed_q": 7.65,
+      "observed_n": 45.0,
+      "payroll": 1533.0,
+      "firing": 406.0,
+      "profit": -4425.0,
+      "category": "platform_budget_not_actual_result",
+      "fitted_payroll": 1533.0,
+      "fitted_firing": 406.3333333333333,
+      "official_payroll": 1533.0,
+      "official_firing": 406.51380000000006,
+      "checks": {
+        "production": true,
+        "workers": true,
+        "published_payroll": true,
+        "published_firing": true,
+        "fitted_payroll": true,
+        "fitted_firing": true
+      }
+    },
+    {
+      "file": "train_a80_budget.txt",
+      "sha256": "9f72e0a35608544822dc92c9926c7640b487c3fdc8423d51a950cee93a3e3b31",
+      "captured_at": "2026-10-12T18:35:43.463876+08:00",
+      "split": "train",
+      "allocation": 80,
+      "capacity": 15.3,
+      "efficiency": 0.17,
+      "q": 12.24,
+      "n": 72.0,
+      "band_workers": [
+        30.0,
+        30.0,
+        11.999999999999995
+      ],
+      "observed_q": 12.24,
+      "observed_n": 72.0,
+      "payroll": 3086.0,
+      "firing": 142.0,
+      "profit": -1913.0,
+      "category": "platform_budget_not_actual_result",
+      "fitted_payroll": 3086.0,
+      "fitted_firing": 141.83333333333337,
+      "official_payroll": 3086.16,
+      "official_firing": 141.91380000000007,
+      "checks": {
+        "production": true,
+        "workers": true,
+        "published_payroll": true,
+        "published_firing": true,
+        "fitted_payroll": true,
+        "fitted_firing": true
+      }
+    },
+    {
+      "file": "validation_a33_4_budget.txt",
+      "sha256": "0236c46802570b4c9b884f96e428965cc016db3cf6bf19ab329ba3eccc5e6a95",
+      "captured_at": "2026-10-12T18:43:27.821811+08:00",
+      "split": "validation",
+      "allocation": 33.4,
+      "capacity": 15.3,
+      "efficiency": 0.17,
+      "q": 5.1102,
+      "n": 30.06,
+      "band_workers": [
+        30.0,
+        0.059999999999996,
+        0.0
+      ],
+      "observed_q": 5.11,
+      "observed_n": 30.1,
+      "payroll": 843.0,
+      "firing": 553.0,
+      "profit": -5984.0,
+      "category": "platform_budget_not_actual_result",
+      "fitted_payroll": 842.7719999999998,
+      "fitted_firing": 552.69,
+      "official_payroll": 842.7719999999998,
+      "official_firing": 552.9258000000001,
+      "checks": {
+        "production": true,
+        "workers": true,
+        "published_payroll": true,
+        "published_firing": true,
+        "fitted_payroll": true,
+        "fitted_firing": true
+      }
+    },
+    {
+      "file": "validation_a66_7_budget.txt",
+      "sha256": "e12022a17b8c3b1590d3c942d2cdf14ff19ce5c6521f2d8d87008cf7425297d6",
+      "captured_at": "2026-10-12T18:46:39.596028+08:00",
+      "split": "validation",
+      "allocation": 66.7,
+      "capacity": 15.3,
+      "efficiency": 0.17,
+      "q": 10.205100000000002,
+      "n": 60.03000000000001,
+      "band_workers": [
+        30.0,
+        30.0,
+        0.030000000000003225
+      ],
+      "observed_q": 10.21,
+      "observed_n": 60.0,
+      "payroll": 2228.0,
+      "firing": 259.0,
+      "profit": -2856.0,
+      "category": "platform_budget_not_actual_result",
+      "fitted_payroll": 2228.15,
+      "fitted_firing": 259.0949999999999,
+      "official_payroll": 2228.1504,
+      "official_firing": 259.2198,
+      "checks": {
+        "production": true,
+        "workers": true,
+        "published_payroll": true,
+        "published_firing": true,
+        "fitted_payroll": true,
+        "fitted_firing": true
+      }
+    },
+    {
+      "file": "validation_a100_restored_budget.txt",
+      "sha256": "f4384a058cb1660bc72e398f6b33d57ace7ce782160117c76a74b0b84c49c4e4",
+      "captured_at": "2026-10-12T19:00:28.685193+08:00",
+      "split": "validation",
+      "allocation": 100,
+      "capacity": 15.3,
+      "efficiency": 0.17,
+      "q": 15.3,
+      "n": 90.0,
+      "band_workers": [
+        30.0,
+        30.0,
+        29.999999999999996
+      ],
+      "observed_q": 15.3,
+      "observed_n": 90.0,
+      "payroll": 4376.0,
+      "firing": 0.0,
+      "profit": -530.0,
+      "category": "platform_budget_not_actual_result",
+      "fitted_payroll": 4376.000000000001,
+      "fitted_firing": 0,
+      "official_payroll": 4376.400000000001,
+      "official_firing": 0.0,
+      "checks": {
+        "production": true,
+        "workers": true,
+        "published_payroll": true,
+        "published_firing": true,
+        "fitted_payroll": true,
+        "fitted_firing": true
+      }
+    }
+  ],
+  "all_checks_passed": true,
+  "restoration_checked": true,
+  "exclusions": [
+    "train_a50_budget.txt",
+    "train_a50_budget_saved.txt",
+    "validation_eta25_plan.txt"
+  ],
+  "limits": [
+    "One capacity, efficiency, opening workforce and current context only.",
+    "Budget outputs are not realized results or operating-efficiency training labels.",
+    "Boundary points only cover the upper side of each nominal threshold.",
+    "Firing fit identifies a conditional line and zero floor, not unique event timing.",
+    "No machine investment or multi-round labor dynamics tested."
+  ]
+}

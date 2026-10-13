@@ -1,0 +1,30 @@
+{
+  "status": "CONDITIONAL_FORECAST",
+  "long_rate_percent": 2.576479881817571,
+  "short_rate_percent": 4.576479881817571,
+  "long_rate_empirical_error_band_percent": [
+    2.5701677074940585,
+    2.5827920561410833
+  ],
+  "features": {
+    "equity_ratio": 0.5851001996411513,
+    "leverage": 0.6565023970975683
+  },
+  "inputs": {
+    "predicted_closing_state": {
+      "equity": 23153.0,
+      "assets": 39571.0,
+      "long_debt": 15200.0,
+      "short_debt": 0.0
+    },
+    "base_rate_percent": 2.5,
+    "short_spread_percent": 2
+  },
+  "limitation": "Band is empirical conditional residual spread, not a confidence interval; excludes financial-state forecast error and future rule changes",
+  "scenario_only": true,
+  "state_assumption": "formal1 closing state held constant; not an actual round2 closing forecast",
+  "rate_assumption": "archived round2 outlook parameters",
+  "market_id": 5,
+  "team_column": 6,
+  "rate_parameter_source": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json"
+}

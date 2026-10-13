@@ -1,0 +1,39 @@
+{
+  "form": "leverage_power",
+  "parameters": [
+    0.0020160670186389353,
+    2.303289953297536
+  ],
+  "candidate_cv_mae_basis_points": {
+    "solvency_exponential": 0.3594927576401901,
+    "leverage_power": 0.35912264071784666
+  },
+  "training_phase": "formal",
+  "training_round": 1,
+  "training_n": 100,
+  "shared_market_assumption": true,
+  "nested_market_holdout_mae_basis_points": 0.3766069457632948,
+  "nested_market_holdout_max_error_basis_points": 1.284543409135481,
+  "conditional_error_p90_basis_points": 0.6312174323512342,
+  "ranges": {
+    "equity_ratio": [
+      0.44368193826921837,
+      0.8584623836829997
+    ],
+    "leverage": [
+      0.11999520019199232,
+      1.2344782513978652
+    ]
+  },
+  "formulas": {
+    "solvency_exponential": "r_long = r_base + a * exp(-b * equity/assets)",
+    "leverage_power": "r_long = r_base + a * ((long_debt+short_debt)/equity)^b",
+    "short": "r_short = r_long + published_short_spread"
+  },
+  "units": {
+    "internal_rate": "decimal",
+    "output_rate": "percent",
+    "financial_state": "thousand USD"
+  },
+  "validation_scope": "Same-round conditional validation on actual closing states; not prospective round2 validation"
+}

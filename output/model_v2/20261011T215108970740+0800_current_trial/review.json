@@ -1,0 +1,1427 @@
+{
+  "status": "RESTORED_PERSONAL_BUDGET_TRIAL_NOT_DEMAND_VALIDATION",
+  "decision": {
+    "prices": [
+      2200.0,
+      2400.0
+    ],
+    "general": [
+      50.0,
+      200.0
+    ],
+    "designer": [
+      0.0,
+      150.0
+    ],
+    "rd": 600.0,
+    "operations": 400.0,
+    "allocation": 60.0,
+    "machine_investment": 10.0,
+    "priority": [
+      0,
+      1
+    ],
+    "long_change": -10000.0,
+    "long_rate": 0.03
+  },
+  "demand": [
+    2.5,
+    11.0
+  ],
+  "efficiency": 0.15,
+  "state": {
+    "capacity": 20.0,
+    "workers": 106.31,
+    "inventory": 0.0,
+    "cash": 15004.0,
+    "ar": 2559.0,
+    "ap": 1185.0,
+    "machine_book": 8755.0,
+    "building_book": 13160.0,
+    "long_debt": 17000.0,
+    "short_debt": 0.0,
+    "equity": 21293.0,
+    "tax_loss": 0
+  },
+  "parameters": {
+    "wage": 28,
+    "second_shift": 1.65,
+    "third_shift": 2.56,
+    "attrition": 0.1,
+    "severance": 0.35,
+    "material_cost": 900,
+    "uplift": 1.176470588235361,
+    "transport": [
+      30,
+      120
+    ],
+    "marketing_fixed": 50,
+    "overhead_fixed": 4000,
+    "machine_unit_capex": 100,
+    "building_capex": 800,
+    "machine_depreciation": 0.15,
+    "machine_capacity_decline": 0.15,
+    "building_depreciation": 0.07,
+    "ar_days": 30,
+    "ap_days": 30,
+    "cash_rate": 0.01,
+    "tax_rate": 0.29,
+    "minimum_cash": 2000
+  },
+  "outputs": {
+    "baseline400": {
+      "production": {
+        "production": 13.5,
+        "workers": 90.0,
+        "payroll": 3066.0000000000005,
+        "firing": 55.65420000000002,
+        "sales": [
+          2.5,
+          11.0
+        ]
+      },
+      "capacity": 27.0,
+      "sales": [
+        2.5,
+        11.0
+      ],
+      "efficiency": 0.15,
+      "revenue": 31900.0,
+      "materials": 12165.882352941177,
+      "transport": 1395.0,
+      "marketing": 450.0,
+      "overhead": 5055.6542,
+      "ebitda": 9767.463447058824,
+      "machine_capex": 1000,
+      "building_capex": 800,
+      "machine_depreciation": 1463.25,
+      "building_depreciation": 921.2,
+      "ebit": 7383.013447058825,
+      "long_interest": 360.0,
+      "cash_interest": 127.10526004843867,
+      "pretax": 7150.118707107264,
+      "tax": 2073.5344250611065,
+      "profit": 5076.584282046157,
+      "ar": 2621.917808219178,
+      "ap": 999.9355358581789,
+      "cash": 10417.052009685154,
+      "long_debt": 7000.0,
+      "short_debt_needed_before_unidentified_short_interest": 0,
+      "equity": 26369.584282046155,
+      "assets": 34369.51981790434,
+      "balance_error": 0.0,
+      "tax_loss_end": 0,
+      "fully_computed_in_scope": true,
+      "iterations": 6,
+      "delivered_fraction": 1.0,
+      "end_inventory": 0,
+      "scope": "零期初库存/零大客户；低现金为未识别短贷分支；税亏与厂房时序仍为条件假设"
+    },
+    "machine20": {
+      "production": {
+        "production": 13.5,
+        "workers": 90.0,
+        "payroll": 2661.5555555555557,
+        "firing": 55.65420000000002,
+        "sales": [
+          2.5,
+          11.0
+        ]
+      },
+      "capacity": 37.0,
+      "sales": [
+        2.5,
+        11.0
+      ],
+      "efficiency": 0.15,
+      "revenue": 31900.0,
+      "materials": 12165.882352941177,
+      "transport": 1395.0,
+      "marketing": 450.0,
+      "overhead": 5055.6542,
+      "ebitda": 10171.90789150327,
+      "machine_capex": 2000,
+      "building_capex": 800,
+      "machine_depreciation": 1613.25,
+      "building_depreciation": 921.2,
+      "ebit": 7637.45789150327,
+      "long_interest": 360.0,
+      "cash_interest": 123.74661463500063,
+      "pretax": 7401.2045061382705,
+      "tax": 2146.3493067800982,
+      "profit": 5254.855199358172,
+      "ar": 2621.917808219178,
+      "ap": 999.9355358581789,
+      "cash": 9745.32292699717,
+      "long_debt": 7000.0,
+      "short_debt_needed_before_unidentified_short_interest": 0,
+      "equity": 26547.85519935817,
+      "assets": 34547.790735216346,
+      "balance_error": -7.275957614183426e-12,
+      "tax_loss_end": 0,
+      "fully_computed_in_scope": true,
+      "iterations": 6,
+      "delivered_fraction": 1.0,
+      "end_inventory": 0,
+      "scope": "零期初库存/零大客户；低现金为未识别短贷分支；税亏与厂房时序仍为条件假设"
+    }
+  },
+  "records": [
+    {
+      "case": "baseline400",
+      "statement": "income",
+      "metric": "净销售额",
+      "predicted": 31900.0,
+      "observed": 31900.0,
+      "error": 0.0,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_income.json",
+        "table": 0,
+        "row": 4,
+        "column": 1,
+        "label": "净销售额",
+        "text": "31 900"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "income",
+      "metric": "原材料购买",
+      "predicted": 12165.882352941177,
+      "observed": 12167.0,
+      "error": -1.1176470588234224,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_income.json",
+        "table": 0,
+        "row": 8,
+        "column": 1,
+        "label": "原材料购买",
+        "text": "12 167"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "income",
+      "metric": "运输",
+      "predicted": 1395.0,
+      "observed": 1395.0,
+      "error": 0.0,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_income.json",
+        "table": 0,
+        "row": 10,
+        "column": 1,
+        "label": "运输",
+        "text": "1 395"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "income",
+      "metric": "营销和销售成本总和",
+      "predicted": 450.0,
+      "observed": 450.0,
+      "error": 0.0,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_income.json",
+        "table": 0,
+        "row": 19,
+        "column": 1,
+        "label": "营销和销售成本总和",
+        "text": "450"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "income",
+      "metric": "杂费成本总和",
+      "predicted": 5055.6542,
+      "observed": 5056.0,
+      "error": -0.34580000000005384,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_income.json",
+        "table": 0,
+        "row": 27,
+        "column": 1,
+        "label": "杂费成本总和",
+        "text": "5 056"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "income",
+      "metric": "税息折旧及摊销前利润（EBITDA）",
+      "predicted": 9767.463447058824,
+      "observed": 9766.0,
+      "error": 1.4634470588243857,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_income.json",
+        "table": 0,
+        "row": 28,
+        "column": 1,
+        "label": "税息折旧及摊销前利润（EBITDA）",
+        "text": "9 766"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "income",
+      "metric": "机器",
+      "predicted": 1463.25,
+      "observed": 1463.0,
+      "error": 0.25,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_income.json",
+        "table": 0,
+        "row": 32,
+        "column": 1,
+        "label": "机器",
+        "text": "1 463"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "income",
+      "metric": "厂房",
+      "predicted": 921.2,
+      "observed": 921.0,
+      "error": 0.20000000000004547,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_income.json",
+        "table": 0,
+        "row": 31,
+        "column": 1,
+        "label": "厂房",
+        "text": "921"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "income",
+      "metric": "长期贷款利息",
+      "predicted": 360.0,
+      "observed": 360.0,
+      "error": 0.0,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_income.json",
+        "table": 0,
+        "row": 37,
+        "column": 1,
+        "label": "长期贷款利息",
+        "text": "360"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "income",
+      "metric": "利息收入",
+      "predicted": 127.10526004843867,
+      "observed": 127.0,
+      "error": 0.10526004843866588,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_income.json",
+        "table": 0,
+        "row": 36,
+        "column": 1,
+        "label": "利息收入",
+        "text": "127"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "income",
+      "metric": "直接税",
+      "predicted": 2073.5344250611065,
+      "observed": 2073.0,
+      "error": 0.5344250611065036,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_income.json",
+        "table": 0,
+        "row": 40,
+        "column": 1,
+        "label": "直接税",
+        "text": "2 073"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "income",
+      "metric": "本回合利润",
+      "predicted": 5076.584282046157,
+      "observed": 5076.0,
+      "error": 0.5842820461566589,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_income.json",
+        "table": 0,
+        "row": 41,
+        "column": 1,
+        "label": "本回合利润",
+        "text": "5 076"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "balance",
+      "metric": "厂房",
+      "predicted": 13038.8,
+      "observed": 13039.0,
+      "error": -0.2000000000007276,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_balance.json",
+        "table": 0,
+        "row": 3,
+        "column": 1,
+        "label": "厂房",
+        "text": "13 039"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "balance",
+      "metric": "机器",
+      "predicted": 8291.75,
+      "observed": 8292.0,
+      "error": -0.25,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_balance.json",
+        "table": 0,
+        "row": 4,
+        "column": 1,
+        "label": "机器",
+        "text": "8 292"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "balance",
+      "metric": "应收帐款",
+      "predicted": 2621.917808219178,
+      "observed": 2622.0,
+      "error": -0.082191780822086,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_balance.json",
+        "table": 0,
+        "row": 8,
+        "column": 1,
+        "label": "应收帐款",
+        "text": "2 622"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "balance",
+      "metric": "现金及现金等价物",
+      "predicted": 10417.052009685154,
+      "observed": 10416.0,
+      "error": 1.0520096851541894,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_balance.json",
+        "table": 0,
+        "row": 9,
+        "column": 1,
+        "label": "现金及现金等价物",
+        "text": "10 416"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "balance",
+      "metric": "资产总和",
+      "predicted": 34369.51981790434,
+      "observed": 34369.0,
+      "error": 0.519817904336378,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_balance.json",
+        "table": 0,
+        "row": 11,
+        "column": 1,
+        "label": "资产总和",
+        "text": "34 369"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "balance",
+      "metric": "本回合利润",
+      "predicted": 5076.584282046157,
+      "observed": 5076.0,
+      "error": 0.5842820461566589,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_balance.json",
+        "table": 0,
+        "row": 18,
+        "column": 1,
+        "label": "本回合利润",
+        "text": "5 076"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "balance",
+      "metric": "股东权益合计",
+      "predicted": 26369.584282046155,
+      "observed": 26369.0,
+      "error": 0.5842820461548399,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_balance.json",
+        "table": 0,
+        "row": 19,
+        "column": 1,
+        "label": "股东权益合计",
+        "text": "26 369"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "balance",
+      "metric": "长期贷款",
+      "predicted": 7000.0,
+      "observed": 7000.0,
+      "error": 0.0,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_balance.json",
+        "table": 0,
+        "row": 22,
+        "column": 1,
+        "label": "长期贷款",
+        "text": "7 000"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "balance",
+      "metric": "应付账款",
+      "predicted": 999.9355358581789,
+      "observed": 1000.0,
+      "error": -0.06446414182107674,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_balance.json",
+        "table": 0,
+        "row": 26,
+        "column": 1,
+        "label": "应付账款",
+        "text": "1 000"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "cashflow",
+      "metric": "税息折旧及摊销前利润（EBITDA）",
+      "predicted": 9767.463447058824,
+      "observed": 9766.0,
+      "error": 1.4634470588243857,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_cashflow.json",
+        "table": 0,
+        "row": 2,
+        "column": 1,
+        "label": "税息折旧及摊销前利润（EBITDA）",
+        "text": "9 766"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "cashflow",
+      "metric": "财务收入和支出",
+      "predicted": -232.89473995156135,
+      "observed": -233.0,
+      "error": 0.10526004843865167,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_cashflow.json",
+        "table": 0,
+        "row": 3,
+        "column": 1,
+        "label": "财务收入和支出",
+        "text": "-233"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "cashflow",
+      "metric": "直接税",
+      "predicted": -2073.5344250611065,
+      "observed": -2073.0,
+      "error": -0.5344250611065036,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_cashflow.json",
+        "table": 0,
+        "row": 4,
+        "column": 1,
+        "label": "直接税",
+        "text": "-2 073"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "cashflow",
+      "metric": "应收帐变化(增 - / 减 +)",
+      "predicted": -62.917808219177914,
+      "observed": -63.0,
+      "error": 0.082191780822086,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_cashflow.json",
+        "table": 0,
+        "row": 9,
+        "column": 1,
+        "label": "应收帐变化(增 - / 减 +)",
+        "text": "-63"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "cashflow",
+      "metric": "应付账变化(增 + / 减 -)",
+      "predicted": -185.06446414182108,
+      "observed": -185.0,
+      "error": -0.06446414182107674,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_cashflow.json",
+        "table": 0,
+        "row": 10,
+        "column": 1,
+        "label": "应付账变化(增 + / 减 -)",
+        "text": "-185"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "cashflow",
+      "metric": "资本支出总计",
+      "predicted": -1800,
+      "observed": -1800.0,
+      "error": 0.0,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_cashflow.json",
+        "table": 0,
+        "row": 17,
+        "column": 1,
+        "label": "资本支出总计",
+        "text": "-1 800"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "cashflow",
+      "metric": "流动资产变动",
+      "predicted": -4586.947990314846,
+      "observed": -4588.0,
+      "error": 1.0520096851541894,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_cashflow.json",
+        "table": 0,
+        "row": 24,
+        "column": 1,
+        "label": "流动资产变动",
+        "text": "-4 588"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "baseline400",
+      "statement": "cashflow",
+      "metric": "流动资产 12月31日",
+      "predicted": 10417.052009685154,
+      "observed": 10416.0,
+      "error": 1.0520096851541894,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/baseline400_cashflow.json",
+        "table": 0,
+        "row": 26,
+        "column": 1,
+        "label": "流动资产 12月31日",
+        "text": "10 416"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "income",
+      "metric": "净销售额",
+      "predicted": 31900.0,
+      "observed": 31900.0,
+      "error": 0.0,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_income.json",
+        "table": 0,
+        "row": 4,
+        "column": 1,
+        "label": "净销售额",
+        "text": "31 900"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "income",
+      "metric": "原材料购买",
+      "predicted": 12165.882352941177,
+      "observed": 12167.0,
+      "error": -1.1176470588234224,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_income.json",
+        "table": 0,
+        "row": 8,
+        "column": 1,
+        "label": "原材料购买",
+        "text": "12 167"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "income",
+      "metric": "运输",
+      "predicted": 1395.0,
+      "observed": 1395.0,
+      "error": 0.0,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_income.json",
+        "table": 0,
+        "row": 10,
+        "column": 1,
+        "label": "运输",
+        "text": "1 395"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "income",
+      "metric": "营销和销售成本总和",
+      "predicted": 450.0,
+      "observed": 450.0,
+      "error": 0.0,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_income.json",
+        "table": 0,
+        "row": 19,
+        "column": 1,
+        "label": "营销和销售成本总和",
+        "text": "450"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "income",
+      "metric": "杂费成本总和",
+      "predicted": 5055.6542,
+      "observed": 5056.0,
+      "error": -0.34580000000005384,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_income.json",
+        "table": 0,
+        "row": 27,
+        "column": 1,
+        "label": "杂费成本总和",
+        "text": "5 056"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "income",
+      "metric": "税息折旧及摊销前利润（EBITDA）",
+      "predicted": 10171.90789150327,
+      "observed": 10171.0,
+      "error": 0.9078915032696386,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_income.json",
+        "table": 0,
+        "row": 28,
+        "column": 1,
+        "label": "税息折旧及摊销前利润（EBITDA）",
+        "text": "10 171"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "income",
+      "metric": "机器",
+      "predicted": 1613.25,
+      "observed": 1613.0,
+      "error": 0.25,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_income.json",
+        "table": 0,
+        "row": 32,
+        "column": 1,
+        "label": "机器",
+        "text": "1 613"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "income",
+      "metric": "厂房",
+      "predicted": 921.2,
+      "observed": 921.0,
+      "error": 0.20000000000004547,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_income.json",
+        "table": 0,
+        "row": 31,
+        "column": 1,
+        "label": "厂房",
+        "text": "921"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "income",
+      "metric": "长期贷款利息",
+      "predicted": 360.0,
+      "observed": 360.0,
+      "error": 0.0,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_income.json",
+        "table": 0,
+        "row": 37,
+        "column": 1,
+        "label": "长期贷款利息",
+        "text": "360"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "income",
+      "metric": "利息收入",
+      "predicted": 123.74661463500063,
+      "observed": 124.0,
+      "error": -0.2533853649993745,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_income.json",
+        "table": 0,
+        "row": 36,
+        "column": 1,
+        "label": "利息收入",
+        "text": "124"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "income",
+      "metric": "直接税",
+      "predicted": 2146.3493067800982,
+      "observed": 2146.0,
+      "error": 0.3493067800982317,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_income.json",
+        "table": 0,
+        "row": 40,
+        "column": 1,
+        "label": "直接税",
+        "text": "2 146"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "income",
+      "metric": "本回合利润",
+      "predicted": 5254.855199358172,
+      "observed": 5254.0,
+      "error": 0.8551993581722854,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_income.json",
+        "table": 0,
+        "row": 41,
+        "column": 1,
+        "label": "本回合利润",
+        "text": "5 254"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "balance",
+      "metric": "厂房",
+      "predicted": 13038.8,
+      "observed": 13039.0,
+      "error": -0.2000000000007276,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_balance.json",
+        "table": 0,
+        "row": 3,
+        "column": 1,
+        "label": "厂房",
+        "text": "13 039"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "balance",
+      "metric": "机器",
+      "predicted": 9141.75,
+      "observed": 9142.0,
+      "error": -0.25,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_balance.json",
+        "table": 0,
+        "row": 4,
+        "column": 1,
+        "label": "机器",
+        "text": "9 142"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "balance",
+      "metric": "应收帐款",
+      "predicted": 2621.917808219178,
+      "observed": 2622.0,
+      "error": -0.082191780822086,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_balance.json",
+        "table": 0,
+        "row": 8,
+        "column": 1,
+        "label": "应收帐款",
+        "text": "2 622"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "balance",
+      "metric": "现金及现金等价物",
+      "predicted": 9745.32292699717,
+      "observed": 9745.0,
+      "error": 0.32292699717072537,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_balance.json",
+        "table": 0,
+        "row": 9,
+        "column": 1,
+        "label": "现金及现金等价物",
+        "text": "9 745"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "balance",
+      "metric": "资产总和",
+      "predicted": 34547.790735216346,
+      "observed": 34547.0,
+      "error": 0.790735216345638,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_balance.json",
+        "table": 0,
+        "row": 11,
+        "column": 1,
+        "label": "资产总和",
+        "text": "34 547"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "balance",
+      "metric": "本回合利润",
+      "predicted": 5254.855199358172,
+      "observed": 5254.0,
+      "error": 0.8551993581722854,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_balance.json",
+        "table": 0,
+        "row": 18,
+        "column": 1,
+        "label": "本回合利润",
+        "text": "5 254"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "balance",
+      "metric": "股东权益合计",
+      "predicted": 26547.85519935817,
+      "observed": 26547.0,
+      "error": 0.8551993581713759,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_balance.json",
+        "table": 0,
+        "row": 19,
+        "column": 1,
+        "label": "股东权益合计",
+        "text": "26 547"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "balance",
+      "metric": "长期贷款",
+      "predicted": 7000.0,
+      "observed": 7000.0,
+      "error": 0.0,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_balance.json",
+        "table": 0,
+        "row": 22,
+        "column": 1,
+        "label": "长期贷款",
+        "text": "7 000"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "balance",
+      "metric": "应付账款",
+      "predicted": 999.9355358581789,
+      "observed": 1000.0,
+      "error": -0.06446414182107674,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_balance.json",
+        "table": 0,
+        "row": 26,
+        "column": 1,
+        "label": "应付账款",
+        "text": "1 000"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "cashflow",
+      "metric": "税息折旧及摊销前利润（EBITDA）",
+      "predicted": 10171.90789150327,
+      "observed": 10171.0,
+      "error": 0.9078915032696386,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": false,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_cashflow.json",
+        "table": 0,
+        "row": 2,
+        "column": 1,
+        "label": "税息折旧及摊销前利润（EBITDA）",
+        "text": "10 171"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "cashflow",
+      "metric": "财务收入和支出",
+      "predicted": -236.25338536499936,
+      "observed": -236.0,
+      "error": -0.25338536499936026,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_cashflow.json",
+        "table": 0,
+        "row": 3,
+        "column": 1,
+        "label": "财务收入和支出",
+        "text": "-236"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "cashflow",
+      "metric": "直接税",
+      "predicted": -2146.3493067800982,
+      "observed": -2146.0,
+      "error": -0.3493067800982317,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_cashflow.json",
+        "table": 0,
+        "row": 4,
+        "column": 1,
+        "label": "直接税",
+        "text": "-2 146"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "cashflow",
+      "metric": "应收帐变化(增 - / 减 +)",
+      "predicted": -62.917808219177914,
+      "observed": -63.0,
+      "error": 0.082191780822086,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_cashflow.json",
+        "table": 0,
+        "row": 9,
+        "column": 1,
+        "label": "应收帐变化(增 - / 减 +)",
+        "text": "-63"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "cashflow",
+      "metric": "应付账变化(增 + / 减 -)",
+      "predicted": -185.06446414182108,
+      "observed": -185.0,
+      "error": -0.06446414182107674,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_cashflow.json",
+        "table": 0,
+        "row": 10,
+        "column": 1,
+        "label": "应付账变化(增 + / 减 -)",
+        "text": "-185"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "cashflow",
+      "metric": "资本支出总计",
+      "predicted": -2800,
+      "observed": -2800.0,
+      "error": 0.0,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_cashflow.json",
+        "table": 0,
+        "row": 17,
+        "column": 1,
+        "label": "资本支出总计",
+        "text": "-2 800"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "cashflow",
+      "metric": "流动资产变动",
+      "predicted": -5258.677073002829,
+      "observed": -5259.0,
+      "error": 0.32292699717072537,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_cashflow.json",
+        "table": 0,
+        "row": 24,
+        "column": 1,
+        "label": "流动资产变动",
+        "text": "-5 259"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    },
+    {
+      "case": "machine20",
+      "statement": "cashflow",
+      "metric": "流动资产 12月31日",
+      "predicted": 9745.32292699717,
+      "observed": 9745.0,
+      "error": 0.32292699717072537,
+      "target_display_half_width": 0.5,
+      "inside_target_display_interval": true,
+      "unit": "千美元",
+      "source": {
+        "file": "output/model_v2/20261011T211500_live_finance/machine20_cashflow.json",
+        "table": 0,
+        "row": 26,
+        "column": 1,
+        "label": "流动资产 12月31日",
+        "text": "9 745"
+      },
+      "usage": "固定既有参数的保留预算点，不用于校准；输入误差传播仍需条件核验"
+    }
+  ],
+  "production_checks": [
+    {
+      "metric": "生产, 千单位",
+      "predicted": 13.5,
+      "observed": 13.5,
+      "display_half_width": 0.005,
+      "passed": true
+    },
+    {
+      "metric": "产能, 千单位",
+      "predicted": 37.0,
+      "observed": 37.0,
+      "display_half_width": 0.005,
+      "passed": true
+    },
+    {
+      "metric": "生产线人工数量",
+      "predicted": 90.0,
+      "observed": 90.0,
+      "display_half_width": 0.05,
+      "passed": true
+    },
+    {
+      "metric": "生产工资合计, 千 美元",
+      "predicted": 2661.5555555555557,
+      "observed": 2662.0,
+      "display_half_width": 0.5,
+      "passed": true
+    }
+  ],
+  "personal_restored": true,
+  "group_column_unchanged": true,
+  "personal_only_changes": [
+    {
+      "field": "利润, 千 美元",
+      "before": "5 076",
+      "during": "5 254"
+    },
+    {
+      "field": "机器, 复合梁",
+      "before": "10",
+      "during": "20"
+    }
+  ],
+  "mutations": {
+    "test_changes": 1,
+    "restorations": 1,
+    "group_submissions": 0,
+    "other_member_writes": 0
+  },
+  "own_trial_valid": true,
+  "calibration_performed": false,
+  "full_mechanism_gate_passed": false,
+  "interpretation": "本人整列及小组列保持；其他成员各自列变化不影响本人预算，本点保留作独立参考",
+  "source_integrity_incident": {
+    "status": "DISCLOSED_RAW_BASELINE_OVERWRITE",
+    "cause": "旧capture函数闭包仍指向原目录；两次复用基准文件名覆盖旧原件",
+    "affected": [
+      {
+        "file": "output/model_v2/20261011T195500_live/checklist_before.json",
+        "expected_sha256": "e1d7ef27f6a56158e701df4c9e703b1994eb31efe53228c5daef60f3357a716c",
+        "current_sha256": "40d603521bea8042ab1b9438c49f7e1d8a764098d76d2aa204d1a84762b03945"
+      },
+      {
+        "file": "output/model_v2/20261011T195500_live/production_before.json",
+        "expected_sha256": "cfea2ea19db8e75c52622467615b093a78136ff23d3cc088805fb839c2bafedb",
+        "current_sha256": "62886b0ac4414ca2e88c4c6a0613037a15b561e869b8d487fb0c6f9847f85c14"
+      }
+    ],
+    "raw_originals_recovered": false,
+    "remediation": "本次文件复制到新独立目录；后续写入显式路径并使用wx；旧派生报告及其他原件保留，旧基准缺口不伪装复原",
+    "frozen_derived_record": "output/model_v2/20261011T204411978414+0800/live_trials.json"
+  },
+  "horizon_checks": {
+    "six_start_rounds": true,
+    "unknown_profit_not_zero": true,
+    "round7_and_missing_or_duplicate_rejected": true,
+    "terminal_state_preserved": true,
+    "terminal_reward_not_invented": true
+  },
+  "future_profit_path": {
+    "start_round": 1,
+    "end_round": 6,
+    "remaining_rounds": 6,
+    "remaining_profit": null,
+    "complete_profit_path": false,
+    "terminal_state": null,
+    "terminal_reward": null,
+    "ranking_eligible": false,
+    "scope": "仅剩余回合利润小计；需独立验证状态结转和计分规则才可用于完整决策排名；无自动变现、清债或第7回合收益"
+  },
+  "limitations": [
+    "运营400成功保留，但效率0.15仍为玩家手填，不是真实效率标签",
+    "机器20不是推荐；班次边界、第三班、贷款现金触发及完整独立财务套件仍缺",
+    "正式仅6回合，未来前景和状态未知；不计第7以后收益或自动终值"
+  ]
+}

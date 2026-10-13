@@ -1,0 +1,1205 @@
+{
+  "self_checks_passed": true,
+  "nested_market_holdouts": [
+    {
+      "market_id": 1,
+      "team_column": 1,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35291242903846787,
+        "leverage_power": 0.35889638503597643
+      },
+      "predicted_rate_percent": 3.0828106204962458,
+      "actual_rate_percent": 3.08,
+      "error_bp": 0.28106204962455283
+    },
+    {
+      "market_id": 1,
+      "team_column": 2,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35291242903846787,
+        "leverage_power": 0.35889638503597643
+      },
+      "predicted_rate_percent": 3.0843531939095317,
+      "actual_rate_percent": 3.08,
+      "error_bp": 0.4353193909531483
+    },
+    {
+      "market_id": 1,
+      "team_column": 3,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35291242903846787,
+        "leverage_power": 0.35889638503597643
+      },
+      "predicted_rate_percent": 3.1142816665575093,
+      "actual_rate_percent": 3.12,
+      "error_bp": -0.5718333442491109
+    },
+    {
+      "market_id": 1,
+      "team_column": 4,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35291242903846787,
+        "leverage_power": 0.35889638503597643
+      },
+      "predicted_rate_percent": 3.012644459136811,
+      "actual_rate_percent": 3.01,
+      "error_bp": 0.2644459136811353
+    },
+    {
+      "market_id": 1,
+      "team_column": 5,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35291242903846787,
+        "leverage_power": 0.35889638503597643
+      },
+      "predicted_rate_percent": 3.1638224903260186,
+      "actual_rate_percent": 3.17,
+      "error_bp": -0.6177509673981302
+    },
+    {
+      "market_id": 1,
+      "team_column": 6,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35291242903846787,
+        "leverage_power": 0.35889638503597643
+      },
+      "predicted_rate_percent": 3.091768470131949,
+      "actual_rate_percent": 3.09,
+      "error_bp": 0.17684701319490995
+    },
+    {
+      "market_id": 1,
+      "team_column": 7,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35291242903846787,
+        "leverage_power": 0.35889638503597643
+      },
+      "predicted_rate_percent": 3.0130416813385756,
+      "actual_rate_percent": 3.01,
+      "error_bp": 0.30416813385758446
+    },
+    {
+      "market_id": 1,
+      "team_column": 8,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35291242903846787,
+        "leverage_power": 0.35889638503597643
+      },
+      "predicted_rate_percent": 3.0908529460882566,
+      "actual_rate_percent": 3.09,
+      "error_bp": 0.08529460882569806
+    },
+    {
+      "market_id": 1,
+      "team_column": 9,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35291242903846787,
+        "leverage_power": 0.35889638503597643
+      },
+      "predicted_rate_percent": 3.005918726416798,
+      "actual_rate_percent": 3.0,
+      "error_bp": 0.5918726416798129
+    },
+    {
+      "market_id": 1,
+      "team_column": 10,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35291242903846787,
+        "leverage_power": 0.35889638503597643
+      },
+      "predicted_rate_percent": 3.0373660977400556,
+      "actual_rate_percent": 3.03,
+      "error_bp": 0.7366097740055932
+    },
+    {
+      "market_id": 2,
+      "team_column": 1,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3624603521351672,
+        "leverage_power": 0.3539534445980752
+      },
+      "predicted_rate_percent": 3.0882956767824035,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.17043232175961515
+    },
+    {
+      "market_id": 2,
+      "team_column": 2,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3624603521351672,
+        "leverage_power": 0.3539534445980752
+      },
+      "predicted_rate_percent": 3.079994612396145,
+      "actual_rate_percent": 3.08,
+      "error_bp": -0.0005387603855221395
+    },
+    {
+      "market_id": 2,
+      "team_column": 3,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3624603521351672,
+        "leverage_power": 0.3539534445980752
+      },
+      "predicted_rate_percent": 3.084603623948917,
+      "actual_rate_percent": 3.08,
+      "error_bp": 0.4603623948916673
+    },
+    {
+      "market_id": 2,
+      "team_column": 4,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3624603521351672,
+        "leverage_power": 0.3539534445980752
+      },
+      "predicted_rate_percent": 3.0048106293063888,
+      "actual_rate_percent": 3.0,
+      "error_bp": 0.48106293063887423
+    },
+    {
+      "market_id": 2,
+      "team_column": 5,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3624603521351672,
+        "leverage_power": 0.3539534445980752
+      },
+      "predicted_rate_percent": 3.2654294315798715,
+      "actual_rate_percent": 3.27,
+      "error_bp": -0.45705684201283786
+    },
+    {
+      "market_id": 2,
+      "team_column": 6,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3624603521351672,
+        "leverage_power": 0.3539534445980752
+      },
+      "predicted_rate_percent": 3.0913408443194497,
+      "actual_rate_percent": 3.08,
+      "error_bp": 1.1340844319449355
+    },
+    {
+      "market_id": 2,
+      "team_column": 7,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3624603521351672,
+        "leverage_power": 0.3539534445980752
+      },
+      "predicted_rate_percent": 3.30386248912274,
+      "actual_rate_percent": 3.3,
+      "error_bp": 0.3862489122739713
+    },
+    {
+      "market_id": 2,
+      "team_column": 8,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3624603521351672,
+        "leverage_power": 0.3539534445980752
+      },
+      "predicted_rate_percent": 3.085713207324817,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.42867926751825597
+    },
+    {
+      "market_id": 2,
+      "team_column": 9,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3624603521351672,
+        "leverage_power": 0.3539534445980752
+      },
+      "predicted_rate_percent": 3.081581881008181,
+      "actual_rate_percent": 3.08,
+      "error_bp": 0.15818810081807858
+    },
+    {
+      "market_id": 2,
+      "team_column": 10,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3624603521351672,
+        "leverage_power": 0.3539534445980752
+      },
+      "predicted_rate_percent": 3.10639694012099,
+      "actual_rate_percent": 3.11,
+      "error_bp": -0.36030598790100016
+    },
+    {
+      "market_id": 3,
+      "team_column": 1,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3586100850200848,
+        "leverage_power": 0.3594677623584317
+      },
+      "predicted_rate_percent": 3.0547633383148463,
+      "actual_rate_percent": 3.05,
+      "error_bp": 0.4763338314846201
+    },
+    {
+      "market_id": 3,
+      "team_column": 2,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3586100850200848,
+        "leverage_power": 0.3594677623584317
+      },
+      "predicted_rate_percent": 3.0932292137113344,
+      "actual_rate_percent": 3.09,
+      "error_bp": 0.3229213711334494
+    },
+    {
+      "market_id": 3,
+      "team_column": 3,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3586100850200848,
+        "leverage_power": 0.3594677623584317
+      },
+      "predicted_rate_percent": 3.063374978436727,
+      "actual_rate_percent": 3.06,
+      "error_bp": 0.3374978436726484
+    },
+    {
+      "market_id": 3,
+      "team_column": 4,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3586100850200848,
+        "leverage_power": 0.3594677623584317
+      },
+      "predicted_rate_percent": 3.00443848925732,
+      "actual_rate_percent": 3.0,
+      "error_bp": 0.4438489257319755
+    },
+    {
+      "market_id": 3,
+      "team_column": 5,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3586100850200848,
+        "leverage_power": 0.3594677623584317
+      },
+      "predicted_rate_percent": 3.0838423643719355,
+      "actual_rate_percent": 3.08,
+      "error_bp": 0.38423643719353096
+    },
+    {
+      "market_id": 3,
+      "team_column": 6,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3586100850200848,
+        "leverage_power": 0.3594677623584317
+      },
+      "predicted_rate_percent": 3.1153486926694933,
+      "actual_rate_percent": 3.12,
+      "error_bp": -0.4651307330507206
+    },
+    {
+      "market_id": 3,
+      "team_column": 7,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3586100850200848,
+        "leverage_power": 0.3594677623584317
+      },
+      "predicted_rate_percent": 3.0943810726594747,
+      "actual_rate_percent": 3.09,
+      "error_bp": 0.43810726594750543
+    },
+    {
+      "market_id": 3,
+      "team_column": 8,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3586100850200848,
+        "leverage_power": 0.3594677623584317
+      },
+      "predicted_rate_percent": 3.0882680685658546,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.17319314341450562
+    },
+    {
+      "market_id": 3,
+      "team_column": 9,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3586100850200848,
+        "leverage_power": 0.3594677623584317
+      },
+      "predicted_rate_percent": 3.0825748664532524,
+      "actual_rate_percent": 3.08,
+      "error_bp": 0.25748664532522025
+    },
+    {
+      "market_id": 3,
+      "team_column": 10,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3586100850200848,
+        "leverage_power": 0.3594677623584317
+      },
+      "predicted_rate_percent": 3.0964717642704374,
+      "actual_rate_percent": 3.1,
+      "error_bp": -0.352823572956285
+    },
+    {
+      "market_id": 4,
+      "team_column": 1,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.36565167349711414,
+        "leverage_power": 0.36525194392540455
+      },
+      "predicted_rate_percent": 3.0894052828118292,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.059471718817073964
+    },
+    {
+      "market_id": 4,
+      "team_column": 2,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.36565167349711414,
+        "leverage_power": 0.36525194392540455
+      },
+      "predicted_rate_percent": 3.0956304772412544,
+      "actual_rate_percent": 3.1,
+      "error_bp": -0.4369522758745881
+    },
+    {
+      "market_id": 4,
+      "team_column": 3,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.36565167349711414,
+        "leverage_power": 0.36525194392540455
+      },
+      "predicted_rate_percent": 3.102340210476417,
+      "actual_rate_percent": 3.1,
+      "error_bp": 0.23402104764169837
+    },
+    {
+      "market_id": 4,
+      "team_column": 4,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.36565167349711414,
+        "leverage_power": 0.36525194392540455
+      },
+      "predicted_rate_percent": 3.0965783274901706,
+      "actual_rate_percent": 3.1,
+      "error_bp": -0.3421672509829499
+    },
+    {
+      "market_id": 4,
+      "team_column": 5,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.36565167349711414,
+        "leverage_power": 0.36525194392540455
+      },
+      "predicted_rate_percent": 3.135442133836275,
+      "actual_rate_percent": 3.14,
+      "error_bp": -0.45578661637258333
+    },
+    {
+      "market_id": 4,
+      "team_column": 6,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.36565167349711414,
+        "leverage_power": 0.36525194392540455
+      },
+      "predicted_rate_percent": 3.0937926576187915,
+      "actual_rate_percent": 3.1,
+      "error_bp": -0.620734238120865
+    },
+    {
+      "market_id": 4,
+      "team_column": 7,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.36565167349711414,
+        "leverage_power": 0.36525194392540455
+      },
+      "predicted_rate_percent": 3.09761719763624,
+      "actual_rate_percent": 3.1,
+      "error_bp": -0.23828023637600818
+    },
+    {
+      "market_id": 4,
+      "team_column": 8,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.36565167349711414,
+        "leverage_power": 0.36525194392540455
+      },
+      "predicted_rate_percent": 3.304239515125305,
+      "actual_rate_percent": 3.3,
+      "error_bp": 0.42395151253048907
+    },
+    {
+      "market_id": 4,
+      "team_column": 9,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.36565167349711414,
+        "leverage_power": 0.36525194392540455
+      },
+      "predicted_rate_percent": 3.1284035551669973,
+      "actual_rate_percent": 3.13,
+      "error_bp": -0.15964448330028522
+    },
+    {
+      "market_id": 4,
+      "team_column": 10,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.36565167349711414,
+        "leverage_power": 0.36525194392540455
+      },
+      "predicted_rate_percent": 3.092973984304111,
+      "actual_rate_percent": 3.09,
+      "error_bp": 0.2973984304110988
+    },
+    {
+      "market_id": 5,
+      "team_column": 1,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3535027419115051,
+        "leverage_power": 0.35360192936004764
+      },
+      "predicted_rate_percent": 3.3044177347093253,
+      "actual_rate_percent": 3.3,
+      "error_bp": 0.44177347093251557
+    },
+    {
+      "market_id": 5,
+      "team_column": 2,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3535027419115051,
+        "leverage_power": 0.35360192936004764
+      },
+      "predicted_rate_percent": 3.087295393111913,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.27046068880868646
+    },
+    {
+      "market_id": 5,
+      "team_column": 3,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3535027419115051,
+        "leverage_power": 0.35360192936004764
+      },
+      "predicted_rate_percent": 3.0874789166739838,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.25210833260160104
+    },
+    {
+      "market_id": 5,
+      "team_column": 4,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3535027419115051,
+        "leverage_power": 0.35360192936004764
+      },
+      "predicted_rate_percent": 3.0959460896560285,
+      "actual_rate_percent": 3.1,
+      "error_bp": -0.4053910343971754
+    },
+    {
+      "market_id": 5,
+      "team_column": 5,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3535027419115051,
+        "leverage_power": 0.35360192936004764
+      },
+      "predicted_rate_percent": 3.0926920375163807,
+      "actual_rate_percent": 3.09,
+      "error_bp": 0.26920375163810545
+    },
+    {
+      "market_id": 5,
+      "team_column": 6,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3535027419115051,
+        "leverage_power": 0.35360192936004764
+      },
+      "predicted_rate_percent": 3.075915188700527,
+      "actual_rate_percent": 3.07,
+      "error_bp": 0.5915188700527112
+    },
+    {
+      "market_id": 5,
+      "team_column": 7,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3535027419115051,
+        "leverage_power": 0.35360192936004764
+      },
+      "predicted_rate_percent": 3.0558096028917427,
+      "actual_rate_percent": 3.05,
+      "error_bp": 0.5809602891742823
+    },
+    {
+      "market_id": 5,
+      "team_column": 8,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3535027419115051,
+        "leverage_power": 0.35360192936004764
+      },
+      "predicted_rate_percent": 3.1013574848242156,
+      "actual_rate_percent": 3.1,
+      "error_bp": 0.1357484824215287
+    },
+    {
+      "market_id": 5,
+      "team_column": 9,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3535027419115051,
+        "leverage_power": 0.35360192936004764
+      },
+      "predicted_rate_percent": 3.0865680678660805,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.3431932133919158
+    },
+    {
+      "market_id": 5,
+      "team_column": 10,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3535027419115051,
+        "leverage_power": 0.35360192936004764
+      },
+      "predicted_rate_percent": 3.1606906585916428,
+      "actual_rate_percent": 3.17,
+      "error_bp": -0.9309341408357129
+    },
+    {
+      "market_id": 6,
+      "team_column": 1,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3540707892879289,
+        "leverage_power": 0.3436682772137541
+      },
+      "predicted_rate_percent": 3.0922022203545034,
+      "actual_rate_percent": 3.09,
+      "error_bp": 0.22022203545038152
+    },
+    {
+      "market_id": 6,
+      "team_column": 2,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3540707892879289,
+        "leverage_power": 0.3436682772137541
+      },
+      "predicted_rate_percent": 3.0877914452012685,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.22085547987314952
+    },
+    {
+      "market_id": 6,
+      "team_column": 3,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3540707892879289,
+        "leverage_power": 0.3436682772137541
+      },
+      "predicted_rate_percent": 3.1110059206347804,
+      "actual_rate_percent": 3.11,
+      "error_bp": 0.10059206347804492
+    },
+    {
+      "market_id": 6,
+      "team_column": 4,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3540707892879289,
+        "leverage_power": 0.3436682772137541
+      },
+      "predicted_rate_percent": 3.019362611141313,
+      "actual_rate_percent": 3.01,
+      "error_bp": 0.9362611141313208
+    },
+    {
+      "market_id": 6,
+      "team_column": 5,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3540707892879289,
+        "leverage_power": 0.3436682772137541
+      },
+      "predicted_rate_percent": 3.092317640545159,
+      "actual_rate_percent": 3.09,
+      "error_bp": 0.231764054515936
+    },
+    {
+      "market_id": 6,
+      "team_column": 6,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3540707892879289,
+        "leverage_power": 0.3436682772137541
+      },
+      "predicted_rate_percent": 3.0882812042131316,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.17187957868681614
+    },
+    {
+      "market_id": 6,
+      "team_column": 7,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3540707892879289,
+        "leverage_power": 0.3436682772137541
+      },
+      "predicted_rate_percent": 3.0898767603349753,
+      "actual_rate_percent": 3.08,
+      "error_bp": 0.9876760334975225
+    },
+    {
+      "market_id": 6,
+      "team_column": 8,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3540707892879289,
+        "leverage_power": 0.3436682772137541
+      },
+      "predicted_rate_percent": 3.037255661804245,
+      "actual_rate_percent": 3.03,
+      "error_bp": 0.7255661804245471
+    },
+    {
+      "market_id": 6,
+      "team_column": 9,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3540707892879289,
+        "leverage_power": 0.3436682772137541
+      },
+      "predicted_rate_percent": 3.1471545659086457,
+      "actual_rate_percent": 3.16,
+      "error_bp": -1.284543409135481
+    },
+    {
+      "market_id": 6,
+      "team_column": 10,
+      "form": "leverage_power",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3540707892879289,
+        "leverage_power": 0.3436682772137541
+      },
+      "predicted_rate_percent": 3.1000009221930984,
+      "actual_rate_percent": 3.1,
+      "error_bp": 9.221930983389567e-05
+    },
+    {
+      "market_id": 7,
+      "team_column": 1,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35700526109877634,
+        "leverage_power": 0.3570766194335681
+      },
+      "predicted_rate_percent": 3.087752937158006,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.2247062841994002
+    },
+    {
+      "market_id": 7,
+      "team_column": 2,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35700526109877634,
+        "leverage_power": 0.3570766194335681
+      },
+      "predicted_rate_percent": 3.304051143249395,
+      "actual_rate_percent": 3.3,
+      "error_bp": 0.40511432493946925
+    },
+    {
+      "market_id": 7,
+      "team_column": 3,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35700526109877634,
+        "leverage_power": 0.3570766194335681
+      },
+      "predicted_rate_percent": 3.111805309771555,
+      "actual_rate_percent": 3.11,
+      "error_bp": 0.1805309771554819
+    },
+    {
+      "market_id": 7,
+      "team_column": 4,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35700526109877634,
+        "leverage_power": 0.3570766194335681
+      },
+      "predicted_rate_percent": 3.0955246429858736,
+      "actual_rate_percent": 3.1,
+      "error_bp": -0.4475357014126484
+    },
+    {
+      "market_id": 7,
+      "team_column": 5,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35700526109877634,
+        "leverage_power": 0.3570766194335681
+      },
+      "predicted_rate_percent": 3.0942930829452817,
+      "actual_rate_percent": 3.09,
+      "error_bp": 0.42930829452819413
+    },
+    {
+      "market_id": 7,
+      "team_column": 6,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35700526109877634,
+        "leverage_power": 0.3570766194335681
+      },
+      "predicted_rate_percent": 3.1156521153414825,
+      "actual_rate_percent": 3.12,
+      "error_bp": -0.4347884658517805
+    },
+    {
+      "market_id": 7,
+      "team_column": 7,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35700526109877634,
+        "leverage_power": 0.3570766194335681
+      },
+      "predicted_rate_percent": 3.096955872119684,
+      "actual_rate_percent": 3.1,
+      "error_bp": -0.30441278803159677
+    },
+    {
+      "market_id": 7,
+      "team_column": 8,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35700526109877634,
+        "leverage_power": 0.3570766194335681
+      },
+      "predicted_rate_percent": 3.0140448351499383,
+      "actual_rate_percent": 3.01,
+      "error_bp": 0.4044835149938459
+    },
+    {
+      "market_id": 7,
+      "team_column": 9,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35700526109877634,
+        "leverage_power": 0.3570766194335681
+      },
+      "predicted_rate_percent": 3.0139807960910634,
+      "actual_rate_percent": 3.01,
+      "error_bp": 0.3980796091063407
+    },
+    {
+      "market_id": 7,
+      "team_column": 10,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.35700526109877634,
+        "leverage_power": 0.3570766194335681
+      },
+      "predicted_rate_percent": 3.2840417952016594,
+      "actual_rate_percent": 3.29,
+      "error_bp": -0.5958204798340487
+    },
+    {
+      "market_id": 8,
+      "team_column": 1,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3705119494811206,
+        "leverage_power": 0.3740230012370002
+      },
+      "predicted_rate_percent": 3.088784797886816,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.12152021131836924
+    },
+    {
+      "market_id": 8,
+      "team_column": 2,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3705119494811206,
+        "leverage_power": 0.3740230012370002
+      },
+      "predicted_rate_percent": 3.1068786143372122,
+      "actual_rate_percent": 3.11,
+      "error_bp": -0.3121385662787821
+    },
+    {
+      "market_id": 8,
+      "team_column": 3,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3705119494811206,
+        "leverage_power": 0.3740230012370002
+      },
+      "predicted_rate_percent": 3.3325050276696633,
+      "actual_rate_percent": 3.33,
+      "error_bp": 0.250502766966274
+    },
+    {
+      "market_id": 8,
+      "team_column": 4,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3705119494811206,
+        "leverage_power": 0.3740230012370002
+      },
+      "predicted_rate_percent": 3.060497702799399,
+      "actual_rate_percent": 3.06,
+      "error_bp": 0.049770279939867705
+    },
+    {
+      "market_id": 8,
+      "team_column": 5,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3705119494811206,
+        "leverage_power": 0.3740230012370002
+      },
+      "predicted_rate_percent": 3.0936145729758997,
+      "actual_rate_percent": 3.09,
+      "error_bp": 0.36145729758999773
+    },
+    {
+      "market_id": 8,
+      "team_column": 6,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3705119494811206,
+        "leverage_power": 0.3740230012370002
+      },
+      "predicted_rate_percent": 3.3050604863382747,
+      "actual_rate_percent": 3.3,
+      "error_bp": 0.50604863382743
+    },
+    {
+      "market_id": 8,
+      "team_column": 7,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3705119494811206,
+        "leverage_power": 0.3740230012370002
+      },
+      "predicted_rate_percent": 3.087492379769501,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.2507620230499097
+    },
+    {
+      "market_id": 8,
+      "team_column": 8,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3705119494811206,
+        "leverage_power": 0.3740230012370002
+      },
+      "predicted_rate_percent": 3.1029062868995037,
+      "actual_rate_percent": 3.1,
+      "error_bp": 0.2906286899503441
+    },
+    {
+      "market_id": 8,
+      "team_column": 9,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3705119494811206,
+        "leverage_power": 0.3740230012370002
+      },
+      "predicted_rate_percent": 3.0837641898893255,
+      "actual_rate_percent": 3.08,
+      "error_bp": 0.37641898893254794
+    },
+    {
+      "market_id": 8,
+      "team_column": 10,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3705119494811206,
+        "leverage_power": 0.3740230012370002
+      },
+      "predicted_rate_percent": 3.0881180985218757,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.18819014781239815
+    },
+    {
+      "market_id": 9,
+      "team_column": 1,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3750686917511235,
+        "leverage_power": 0.37997604118724637
+      },
+      "predicted_rate_percent": 3.0879366355088127,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.20633644911869287
+    },
+    {
+      "market_id": 9,
+      "team_column": 2,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3750686917511235,
+        "leverage_power": 0.37997604118724637
+      },
+      "predicted_rate_percent": 3.268892725184958,
+      "actual_rate_percent": 3.27,
+      "error_bp": -0.11072748150422249
+    },
+    {
+      "market_id": 9,
+      "team_column": 3,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3750686917511235,
+        "leverage_power": 0.37997604118724637
+      },
+      "predicted_rate_percent": 3.08661804601773,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.33819539822698297
+    },
+    {
+      "market_id": 9,
+      "team_column": 4,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3750686917511235,
+        "leverage_power": 0.37997604118724637
+      },
+      "predicted_rate_percent": 3.091072953947145,
+      "actual_rate_percent": 3.09,
+      "error_bp": 0.10729539471452222
+    },
+    {
+      "market_id": 9,
+      "team_column": 5,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3750686917511235,
+        "leverage_power": 0.37997604118724637
+      },
+      "predicted_rate_percent": 3.0901854593918157,
+      "actual_rate_percent": 3.09,
+      "error_bp": 0.0185459391816023
+    },
+    {
+      "market_id": 9,
+      "team_column": 6,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3750686917511235,
+        "leverage_power": 0.37997604118724637
+      },
+      "predicted_rate_percent": 3.085481791191423,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.4518208808576682
+    },
+    {
+      "market_id": 9,
+      "team_column": 7,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3750686917511235,
+        "leverage_power": 0.37997604118724637
+      },
+      "predicted_rate_percent": 3.086694864531446,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.33051354685538514
+    },
+    {
+      "market_id": 9,
+      "team_column": 8,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3750686917511235,
+        "leverage_power": 0.37997604118724637
+      },
+      "predicted_rate_percent": 3.090806232099095,
+      "actual_rate_percent": 3.09,
+      "error_bp": 0.08062320990955366
+    },
+    {
+      "market_id": 9,
+      "team_column": 9,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3750686917511235,
+        "leverage_power": 0.37997604118724637
+      },
+      "predicted_rate_percent": 3.1176838009364163,
+      "actual_rate_percent": 3.12,
+      "error_bp": -0.23161990635841212
+    },
+    {
+      "market_id": 9,
+      "team_column": 10,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.3750686917511235,
+        "leverage_power": 0.37997604118724637
+      },
+      "predicted_rate_percent": 3.304651215339868,
+      "actual_rate_percent": 3.3,
+      "error_bp": 0.4651215339867643
+    },
+    {
+      "market_id": 10,
+      "team_column": 1,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.34683384023560665,
+        "leverage_power": 0.35057953794641983
+      },
+      "predicted_rate_percent": 3.0061032884587355,
+      "actual_rate_percent": 3.0,
+      "error_bp": 0.610328845873541
+    },
+    {
+      "market_id": 10,
+      "team_column": 2,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.34683384023560665,
+        "leverage_power": 0.35057953794641983
+      },
+      "predicted_rate_percent": 3.0353765616762134,
+      "actual_rate_percent": 3.03,
+      "error_bp": 0.5376561676213377
+    },
+    {
+      "market_id": 10,
+      "team_column": 3,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.34683384023560665,
+        "leverage_power": 0.35057953794641983
+      },
+      "predicted_rate_percent": 3.0856143608854096,
+      "actual_rate_percent": 3.09,
+      "error_bp": -0.4385639114590158
+    },
+    {
+      "market_id": 10,
+      "team_column": 4,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.34683384023560665,
+        "leverage_power": 0.35057953794641983
+      },
+      "predicted_rate_percent": 3.090945019538563,
+      "actual_rate_percent": 3.09,
+      "error_bp": 0.09450195385631
+    },
+    {
+      "market_id": 10,
+      "team_column": 5,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.34683384023560665,
+        "leverage_power": 0.35057953794641983
+      },
+      "predicted_rate_percent": 3.007843508329727,
+      "actual_rate_percent": 3.0,
+      "error_bp": 0.7843508329726893
+    },
+    {
+      "market_id": 10,
+      "team_column": 6,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.34683384023560665,
+        "leverage_power": 0.35057953794641983
+      },
+      "predicted_rate_percent": 3.092205354515123,
+      "actual_rate_percent": 3.09,
+      "error_bp": 0.220535451512326
+    },
+    {
+      "market_id": 10,
+      "team_column": 7,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.34683384023560665,
+        "leverage_power": 0.35057953794641983
+      },
+      "predicted_rate_percent": 3.0814046303791223,
+      "actual_rate_percent": 3.08,
+      "error_bp": 0.14046303791220024
+    },
+    {
+      "market_id": 10,
+      "team_column": 8,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.34683384023560665,
+        "leverage_power": 0.35057953794641983
+      },
+      "predicted_rate_percent": 3.079056288165894,
+      "actual_rate_percent": 3.08,
+      "error_bp": -0.09437118341064864
+    },
+    {
+      "market_id": 10,
+      "team_column": 9,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.34683384023560665,
+        "leverage_power": 0.35057953794641983
+      },
+      "predicted_rate_percent": 3.1313462298860406,
+      "actual_rate_percent": 3.14,
+      "error_bp": -0.8653770113959932
+    },
+    {
+      "market_id": 10,
+      "team_column": 10,
+      "form": "solvency_exponential",
+      "inner_scores_bp": {
+        "solvency_exponential": 0.34683384023560665,
+        "leverage_power": 0.35057953794641983
+      },
+      "predicted_rate_percent": 3.058786325831731,
+      "actual_rate_percent": 3.05,
+      "error_bp": 0.8786325831730774
+    }
+  ]
+}

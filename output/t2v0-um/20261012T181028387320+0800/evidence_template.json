@@ -1,0 +1,1050 @@
+{
+  "model_id": "t2v0-um",
+  "required_items": {
+    "outlook/narrative/0": {
+      "unit": "文字",
+      "source_line": 87
+    },
+    "outlook/narrative/1": {
+      "unit": "文字",
+      "source_line": 91
+    },
+    "outlook/narrative/2": {
+      "unit": "文字",
+      "source_line": 95
+    },
+    "outlook/narrative/3": {
+      "unit": "文字",
+      "source_line": 99
+    },
+    "outlook/narrative/4": {
+      "unit": "文字",
+      "source_line": 103
+    },
+    "outlook/parameter/0": {
+      "unit": "美元/美元",
+      "label": "1 美元 =",
+      "section": "货币汇率"
+    },
+    "outlook/parameter/1": {
+      "unit": "%",
+      "label": "企业所得税率, %",
+      "section": "财务"
+    },
+    "outlook/parameter/2": {
+      "unit": "千美元",
+      "label": "最低现金, 千 美元",
+      "section": "财务"
+    },
+    "outlook/parameter/3": {
+      "unit": "%",
+      "label": "基准利率",
+      "section": "利率"
+    },
+    "outlook/parameter/4": {
+      "unit": "%",
+      "label": "高于基准的短期利率溢价",
+      "section": "利率"
+    },
+    "outlook/parameter/5": {
+      "unit": "%",
+      "label": "现金及现金等价物",
+      "section": "利率"
+    },
+    "outlook/parameter/6": {
+      "unit": "%",
+      "label": "机器",
+      "section": "年折旧"
+    },
+    "outlook/parameter/7": {
+      "unit": "千美元",
+      "label": "市场调研",
+      "section": "固定成本"
+    },
+    "outlook/parameter/8": {
+      "unit": "千美元",
+      "label": "固定库存持有成本",
+      "section": "固定成本"
+    },
+    "outlook/parameter/9": {
+      "unit": "千美元",
+      "label": "基础成本",
+      "section": "行政管理"
+    },
+    "outlook/parameter/10": {
+      "unit": "千美元",
+      "label": "复合梁, 泰国",
+      "section": "行政管理"
+    },
+    "outlook/parameter/11": {
+      "unit": "千美元",
+      "label": "复合梁, 印尼",
+      "section": "行政管理"
+    },
+    "outlook/parameter/12": {
+      "unit": "美元/单位",
+      "label": "库存持有成本",
+      "section": "可变成本"
+    },
+    "outlook/parameter/13": {
+      "unit": "美元/单位",
+      "label": "复合梁",
+      "section": "原材料成本"
+    },
+    "outlook/parameter/14": {
+      "unit": "美元/单位",
+      "label": "泰国 -> 泰国",
+      "section": "运输成本"
+    },
+    "outlook/parameter/15": {
+      "unit": "美元/单位",
+      "label": "泰国 -> 印尼",
+      "section": "运输成本"
+    },
+    "outlook/parameter/16": {
+      "unit": "千美元",
+      "label": "泰国",
+      "section": "生产工资"
+    },
+    "outlook/parameter/17": {
+      "unit": "乘数",
+      "label": "两班倒",
+      "section": "工资乘数"
+    },
+    "outlook/parameter/18": {
+      "unit": "乘数",
+      "label": "三班倒",
+      "section": "工资乘数"
+    },
+    "outlook/parameter/19": {
+      "unit": "%",
+      "label": "年人员离职率（without costs），%",
+      "section": "人员流动"
+    },
+    "outlook/parameter/20": {
+      "unit": "%",
+      "label": "裁员成本，占薪资%",
+      "section": "人员流动"
+    },
+    "outlook/parameter/21": {
+      "unit": "美元/单位",
+      "label": "机器, 复合梁",
+      "section": "投资成本"
+    },
+    "outlook/parameter/22": {
+      "unit": "%",
+      "label": "机器",
+      "section": "年产能下降"
+    },
+    "outlook/parameter/23": {
+      "unit": "kg/单位",
+      "label": "每单位碳排放, kg, 泰国",
+      "section": "生产环境影响"
+    },
+    "outlook/parameter/24": {
+      "unit": "kWh/单位",
+      "label": "每单位能源消耗, kWh, 泰国",
+      "section": "生产环境影响"
+    },
+    "outlook/parameter/25": {
+      "unit": "l/单位",
+      "label": "每单位用水量, l, 泰国",
+      "section": "生产环境影响"
+    },
+    "outlook/parameter/26": {
+      "unit": "克/单位",
+      "label": "泰国 -> 泰国",
+      "section": "运输碳排量"
+    },
+    "outlook/parameter/27": {
+      "unit": "克/单位",
+      "label": "泰国 -> 印尼",
+      "section": "运输碳排量"
+    },
+    "curve/rd": {
+      "unit": "有效投入千美元/无量纲"
+    },
+    "curve/operations": {
+      "unit": "有效投入千美元/无量纲"
+    },
+    "sales/泰国/price": {
+      "unit": "无量纲"
+    },
+    "sales/泰国/general": {
+      "unit": "无量纲"
+    },
+    "sales/泰国/designer": {
+      "unit": "无量纲"
+    },
+    "sales/泰国/rd": {
+      "unit": "无量纲"
+    },
+    "sales/印尼/price": {
+      "unit": "无量纲"
+    },
+    "sales/印尼/general": {
+      "unit": "无量纲"
+    },
+    "sales/印尼/designer": {
+      "unit": "无量纲"
+    },
+    "sales/印尼/rd": {
+      "unit": "无量纲"
+    },
+    "given/production": {
+      "unit": "各字段注明单位",
+      "requires_full_given_parameter_inventory": true
+    },
+    "given/investments": {
+      "unit": "各字段注明单位",
+      "requires_full_given_parameter_inventory": true
+    },
+    "given/logistics": {
+      "unit": "各字段注明单位",
+      "requires_full_given_parameter_inventory": true
+    },
+    "given/orders": {
+      "unit": "各字段注明单位",
+      "requires_full_given_parameter_inventory": true
+    },
+    "given/finance": {
+      "unit": "各字段注明单位",
+      "requires_full_given_parameter_inventory": true
+    }
+  },
+  "practice": {
+    "identity": null,
+    "items": {
+      "outlook/narrative/0": {
+        "value": "由于财政刺激政策的实施，泰国和印度尼西亚的经济活动有所增加，因此今年是建筑业蓬勃发展的一年。这两个市场地区对复合梁的需求应该会增加 5-10%。最近的市场研究表明，设计师促销和一般营销在客户购买决策中发挥着越来越重要的作用。",
+        "unit": "文字",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 87,
+          "column": 0
+        }
+      },
+      "outlook/narrative/1": {
+        "value": "香港将使用复合梁或类似解决方案建造一座大型停车场，他们要求提供 2000 单位的报价。出价为单位价格，中标者必须提供完整标书。明年交货。",
+        "unit": "文字",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 91,
+          "column": 0
+        }
+      },
+      "outlook/narrative/2": {
+        "value": "由于一家韩国公司发布了新技术解决方案的信息，预计在不久的将来，生产复合梁所需机械的价格将大幅下降，机械价格降幅可达 40%。这将导致这两种产品的原材料成本增加约 20%。",
+        "unit": "文字",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 95,
+          "column": 0
+        }
+      },
+      "outlook/narrative/3": {
+        "value": "-",
+        "unit": "文字",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 99,
+          "column": 0
+        }
+      },
+      "outlook/narrative/4": {
+        "value": "货币市场总体看来相对稳定。借款利率预计将下降约半个百分点。",
+        "unit": "文字",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 103,
+          "column": 0
+        }
+      },
+      "outlook/parameter/0": {
+        "value": "1 美元",
+        "unit": "美元/美元",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 116,
+          "column": 1
+        }
+      },
+      "outlook/parameter/1": {
+        "value": "29.00",
+        "unit": "%",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 123,
+          "column": 1
+        }
+      },
+      "outlook/parameter/2": {
+        "value": "2 000",
+        "unit": "千美元",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 128,
+          "column": 1
+        }
+      },
+      "outlook/parameter/3": {
+        "value": "2.50",
+        "unit": "%",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 135,
+          "column": 1
+        }
+      },
+      "outlook/parameter/4": {
+        "value": "2.00",
+        "unit": "%",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 140,
+          "column": 1
+        }
+      },
+      "outlook/parameter/5": {
+        "value": "1.00",
+        "unit": "%",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 145,
+          "column": 1
+        }
+      },
+      "outlook/parameter/6": {
+        "value": "15.00",
+        "unit": "%",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 152,
+          "column": 1
+        }
+      },
+      "outlook/parameter/7": {
+        "value": "50",
+        "unit": "千美元",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 159,
+          "column": 1
+        }
+      },
+      "outlook/parameter/8": {
+        "value": "0.00",
+        "unit": "千美元",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 164,
+          "column": 1
+        }
+      },
+      "outlook/parameter/9": {
+        "value": "4 000",
+        "unit": "千美元",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 171,
+          "column": 1
+        }
+      },
+      "outlook/parameter/10": {
+        "value": "0",
+        "unit": "千美元",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 176,
+          "column": 1
+        }
+      },
+      "outlook/parameter/11": {
+        "value": "0",
+        "unit": "千美元",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 181,
+          "column": 1
+        }
+      },
+      "outlook/parameter/12": {
+        "value": "0.60",
+        "unit": "美元/单位",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 188,
+          "column": 1
+        }
+      },
+      "outlook/parameter/13": {
+        "value": "1 053.00",
+        "unit": "美元/单位",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 195,
+          "column": 1
+        }
+      },
+      "outlook/parameter/14": {
+        "value": "30.00",
+        "unit": "美元/单位",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 202,
+          "column": 1
+        }
+      },
+      "outlook/parameter/15": {
+        "value": "120.00",
+        "unit": "美元/单位",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 207,
+          "column": 1
+        }
+      },
+      "outlook/parameter/16": {
+        "value": "28.00",
+        "unit": "千美元",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 216,
+          "column": 1
+        }
+      },
+      "outlook/parameter/17": {
+        "value": "1.65",
+        "unit": "乘数",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 223,
+          "column": 1
+        }
+      },
+      "outlook/parameter/18": {
+        "value": "2.56",
+        "unit": "乘数",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 228,
+          "column": 1
+        }
+      },
+      "outlook/parameter/19": {
+        "value": "10.00",
+        "unit": "%",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 235,
+          "column": 1
+        }
+      },
+      "outlook/parameter/20": {
+        "value": "35.00",
+        "unit": "%",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 240,
+          "column": 1
+        }
+      },
+      "outlook/parameter/21": {
+        "value": "100.00",
+        "unit": "美元/单位",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 249,
+          "column": 1
+        }
+      },
+      "outlook/parameter/22": {
+        "value": "15.00",
+        "unit": "%",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 256,
+          "column": 1
+        }
+      },
+      "outlook/parameter/23": {
+        "value": "1 355.32",
+        "unit": "kg/单位",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 265,
+          "column": 1
+        }
+      },
+      "outlook/parameter/24": {
+        "value": "4 778.38",
+        "unit": "kWh/单位",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 270,
+          "column": 1
+        }
+      },
+      "outlook/parameter/25": {
+        "value": "10 307.14",
+        "unit": "l/单位",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 275,
+          "column": 1
+        }
+      },
+      "outlook/parameter/26": {
+        "value": "3 920.5",
+        "unit": "克/单位",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 284,
+          "column": 1
+        }
+      },
+      "outlook/parameter/27": {
+        "value": "47 084.4",
+        "unit": "克/单位",
+        "reference": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "phase": "practice",
+          "round": 2,
+          "line": 289,
+          "column": 1
+        }
+      }
+    }
+  },
+  "formal": {
+    "identity": null,
+    "items": {
+      "outlook/narrative/0": {
+        "value": "由于财政刺激政策的实施，泰国和印度尼西亚的经济活动有所增加，因此今年是建筑业蓬勃发展的一年。这两个市场地区对复合梁的需求应该会增加 5-10%。最近的市场研究表明，设计师促销和一般营销在客户购买决策中发挥着越来越重要的作用。",
+        "unit": "文字",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 84,
+          "column": 0
+        }
+      },
+      "outlook/narrative/1": {
+        "value": "香港将使用复合梁或类似解决方案建造一座大型停车场，他们要求提供 2000 单位的报价。出价为单位价格，中标者必须提供完整标书。明年交货。",
+        "unit": "文字",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 88,
+          "column": 0
+        }
+      },
+      "outlook/narrative/2": {
+        "value": "由于一家韩国公司发布了新技术解决方案的信息，预计在不久的将来，生产复合梁所需机械的价格将大幅下降，机械价格降幅可达 40%。这将导致这两种产品的原材料成本增加约 20%。",
+        "unit": "文字",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 92,
+          "column": 0
+        }
+      },
+      "outlook/narrative/3": {
+        "value": "-",
+        "unit": "文字",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 96,
+          "column": 0
+        }
+      },
+      "outlook/narrative/4": {
+        "value": "货币市场总体看来相对稳定。借款利率预计将下降约半个百分点。",
+        "unit": "文字",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 100,
+          "column": 0
+        }
+      },
+      "outlook/parameter/0": {
+        "value": "1 美元",
+        "unit": "美元/美元",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 113,
+          "column": 1
+        }
+      },
+      "outlook/parameter/1": {
+        "value": "29.00",
+        "unit": "%",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 120,
+          "column": 1
+        }
+      },
+      "outlook/parameter/2": {
+        "value": "2 000",
+        "unit": "千美元",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 125,
+          "column": 1
+        }
+      },
+      "outlook/parameter/3": {
+        "value": "2.50",
+        "unit": "%",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 132,
+          "column": 1
+        }
+      },
+      "outlook/parameter/4": {
+        "value": "2.00",
+        "unit": "%",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 137,
+          "column": 1
+        }
+      },
+      "outlook/parameter/5": {
+        "value": "1.00",
+        "unit": "%",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 142,
+          "column": 1
+        }
+      },
+      "outlook/parameter/6": {
+        "value": "15.00",
+        "unit": "%",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 149,
+          "column": 1
+        }
+      },
+      "outlook/parameter/7": {
+        "value": "50",
+        "unit": "千美元",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 156,
+          "column": 1
+        }
+      },
+      "outlook/parameter/8": {
+        "value": "0.00",
+        "unit": "千美元",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 161,
+          "column": 1
+        }
+      },
+      "outlook/parameter/9": {
+        "value": "4 000",
+        "unit": "千美元",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 168,
+          "column": 1
+        }
+      },
+      "outlook/parameter/10": {
+        "value": "0",
+        "unit": "千美元",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 173,
+          "column": 1
+        }
+      },
+      "outlook/parameter/11": {
+        "value": "0",
+        "unit": "千美元",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 178,
+          "column": 1
+        }
+      },
+      "outlook/parameter/12": {
+        "value": "0.60",
+        "unit": "美元/单位",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 185,
+          "column": 1
+        }
+      },
+      "outlook/parameter/13": {
+        "value": "1 053.00",
+        "unit": "美元/单位",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 192,
+          "column": 1
+        }
+      },
+      "outlook/parameter/14": {
+        "value": "30.00",
+        "unit": "美元/单位",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 199,
+          "column": 1
+        }
+      },
+      "outlook/parameter/15": {
+        "value": "120.00",
+        "unit": "美元/单位",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 204,
+          "column": 1
+        }
+      },
+      "outlook/parameter/16": {
+        "value": "28.00",
+        "unit": "千美元",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 213,
+          "column": 1
+        }
+      },
+      "outlook/parameter/17": {
+        "value": "1.65",
+        "unit": "乘数",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 220,
+          "column": 1
+        }
+      },
+      "outlook/parameter/18": {
+        "value": "2.56",
+        "unit": "乘数",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 225,
+          "column": 1
+        }
+      },
+      "outlook/parameter/19": {
+        "value": "10.00",
+        "unit": "%",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 232,
+          "column": 1
+        }
+      },
+      "outlook/parameter/20": {
+        "value": "35.00",
+        "unit": "%",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 237,
+          "column": 1
+        }
+      },
+      "outlook/parameter/21": {
+        "value": "100.00",
+        "unit": "美元/单位",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 246,
+          "column": 1
+        }
+      },
+      "outlook/parameter/22": {
+        "value": "15.00",
+        "unit": "%",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 253,
+          "column": 1
+        }
+      },
+      "outlook/parameter/23": {
+        "value": "1 355.32",
+        "unit": "kg/单位",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 262,
+          "column": 1
+        }
+      },
+      "outlook/parameter/24": {
+        "value": "4 778.38",
+        "unit": "kWh/单位",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 267,
+          "column": 1
+        }
+      },
+      "outlook/parameter/25": {
+        "value": "10 307.14",
+        "unit": "l/单位",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 272,
+          "column": 1
+        }
+      },
+      "outlook/parameter/26": {
+        "value": "3 920.5",
+        "unit": "克/单位",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 281,
+          "column": 1
+        }
+      },
+      "outlook/parameter/27": {
+        "value": "47 084.4",
+        "unit": "克/单位",
+        "reference": {
+          "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+          "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+          "phase": "formal",
+          "round": 2,
+          "identity_basis": "archived phase/round metadata and market5 page footer; not live verification",
+          "line": 286,
+          "column": 1
+        }
+      }
+    }
+  }
+}

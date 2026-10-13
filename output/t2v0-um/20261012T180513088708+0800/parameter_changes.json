@@ -1,0 +1,493 @@
+{
+  "model_id": "t2v0-um",
+  "interest_rate": {
+    "before": [
+      0.0020160670186389353,
+      2.303289953297536
+    ],
+    "before_training": "formal/1 comparison only",
+    "after": [
+      0.12281068318353833,
+      8.180868311208613
+    ],
+    "form_before": "leverage_power",
+    "form_after": "solvency_exponential",
+    "training": "practice/2"
+  },
+  "material_unit_cost": {
+    "before": 0.0013798365755954614,
+    "before_training": "practice1/practice2/formal1 comparison only",
+    "after": 0.0013845739435914967,
+    "unit_cost_after": 1054.4579563626019,
+    "training": "practice/2"
+  },
+  "given_parameters": {
+    "status": "28 items rebound to practice2 and compared with formal2 archive",
+    "records": [
+      {
+        "section": "货币汇率",
+        "label": "1 美元 =",
+        "value": 1.0,
+        "display_value": "1 美元",
+        "unit": "美元/美元",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 116,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "财务",
+        "label": "企业所得税率, %",
+        "value": 29.0,
+        "display_value": "29.00",
+        "unit": "%",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 123,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "财务",
+        "label": "最低现金, 千 美元",
+        "value": 2000.0,
+        "display_value": "2 000",
+        "unit": "千美元",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 128,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "利率",
+        "label": "基准利率",
+        "value": 2.5,
+        "display_value": "2.50",
+        "unit": "%",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 135,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "利率",
+        "label": "高于基准的短期利率溢价",
+        "value": 2.0,
+        "display_value": "2.00",
+        "unit": "%",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 140,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "利率",
+        "label": "现金及现金等价物",
+        "value": 1.0,
+        "display_value": "1.00",
+        "unit": "%",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 145,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "年折旧",
+        "label": "机器",
+        "value": 15.0,
+        "display_value": "15.00",
+        "unit": "%",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 152,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "固定成本",
+        "label": "市场调研",
+        "value": 50.0,
+        "display_value": "50",
+        "unit": "千美元",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 159,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "固定成本",
+        "label": "固定库存持有成本",
+        "value": 0.0,
+        "display_value": "0.00",
+        "unit": "千美元",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 164,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "行政管理",
+        "label": "基础成本",
+        "value": 4000.0,
+        "display_value": "4 000",
+        "unit": "千美元",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 171,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "行政管理",
+        "label": "复合梁, 泰国",
+        "value": 0.0,
+        "display_value": "0",
+        "unit": "千美元",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 176,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "行政管理",
+        "label": "复合梁, 印尼",
+        "value": 0.0,
+        "display_value": "0",
+        "unit": "千美元",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 181,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "可变成本",
+        "label": "库存持有成本",
+        "value": 0.6,
+        "display_value": "0.60",
+        "unit": "美元/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 188,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "原材料成本",
+        "label": "复合梁",
+        "value": 1053.0,
+        "display_value": "1 053.00",
+        "unit": "美元/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 195,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "运输成本",
+        "label": "泰国 -> 泰国",
+        "value": 30.0,
+        "display_value": "30.00",
+        "unit": "美元/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 202,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "运输成本",
+        "label": "泰国 -> 印尼",
+        "value": 120.0,
+        "display_value": "120.00",
+        "unit": "美元/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 207,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "生产工资",
+        "label": "泰国",
+        "value": 28.0,
+        "display_value": "28.00",
+        "unit": "千美元",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 216,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "工资乘数",
+        "label": "两班倒",
+        "value": 1.65,
+        "display_value": "1.65",
+        "unit": "乘数",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 223,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "工资乘数",
+        "label": "三班倒",
+        "value": 2.56,
+        "display_value": "2.56",
+        "unit": "乘数",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 228,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "人员流动",
+        "label": "年人员离职率（without costs），%",
+        "value": 10.0,
+        "display_value": "10.00",
+        "unit": "%",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 235,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "人员流动",
+        "label": "裁员成本，占薪资%",
+        "value": 35.0,
+        "display_value": "35.00",
+        "unit": "%",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 240,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "投资成本",
+        "label": "机器, 复合梁",
+        "value": 100.0,
+        "display_value": "100.00",
+        "unit": "美元/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 249,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "年产能下降",
+        "label": "机器",
+        "value": 15.0,
+        "display_value": "15.00",
+        "unit": "%",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 256,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "生产环境影响",
+        "label": "每单位碳排放, kg, 泰国",
+        "value": 1355.32,
+        "display_value": "1 355.32",
+        "unit": "kg/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 265,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "生产环境影响",
+        "label": "每单位能源消耗, kWh, 泰国",
+        "value": 4778.38,
+        "display_value": "4 778.38",
+        "unit": "kWh/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 270,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "生产环境影响",
+        "label": "每单位用水量, l, 泰国",
+        "value": 10307.14,
+        "display_value": "10 307.14",
+        "unit": "l/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 275,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "运输碳排量",
+        "label": "泰国 -> 泰国",
+        "value": 3920.5,
+        "display_value": "3 920.5",
+        "unit": "克/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 284,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "运输碳排量",
+        "label": "泰国 -> 印尼",
+        "value": 47084.4,
+        "display_value": "47 084.4",
+        "unit": "克/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 289,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      }
+    ]
+  },
+  "legacy_uplift": {
+    "status": "REPLACED_FOR_NEW_FINANCIAL_CALLS",
+    "after": 1.4579563626018626,
+    "rule": "new material cost already includes adjustment; never add old residual again"
+  },
+  "demand_coefficients": {
+    "status": "NOT_RETRAINED_MISSING_PRACTICE2_CURVE_BINDING",
+    "reason": "Interest and material cost are not demand feature inputs; no old coefficients silently inherited"
+  },
+  "efficiency": {
+    "status": "NOT_RETRAINED_MISSING_PRACTICE2_OPERATIONS_CURVE",
+    "reason": "Technology scale and operations carry need the matching upstream curve"
+  },
+  "fixed_assumptions": {
+    "rd_rho": 0.5,
+    "marketing_scale": 1000,
+    "status": "UNCHANGED_DEFINITION_NOT_NEW_ESTIMATE"
+  },
+  "financial_feedback": [
+    "production→new materials→EBITDA→profit/cash/equity/assets",
+    "predicted closing debt/equity/assets→new rate→interest→profit/cash/equity/assets"
+  ],
+  "incomplete_finance": [
+    "building_capex",
+    "building_depreciation",
+    "ar_days",
+    "ap_days",
+    "tax_loss",
+    "technology_stocks",
+    "inventory/short-debt/bulk branches",
+    "interest timing"
+  ],
+  "baseline_sources": [
+    {
+      "file": "output/interest_rate/20261012T174038098990+0800/model.json",
+      "sha256": "aaf428807a2e9569a711f41cf6b3532e04d7f4342b19b8a5ab190a2ca7586551",
+      "use": "parameter comparison only, excluded from fitting"
+    },
+    {
+      "file": "output/material_unit_cost/20261012T175213319382+0800/model.json",
+      "sha256": "0edf8681d83adede6487cc6c84aa975e236c5b236eb3a07755ab0330e055a6ef",
+      "use": "parameter comparison only, excluded from fitting"
+    }
+  ]
+}

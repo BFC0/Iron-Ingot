@@ -1,0 +1,226 @@
+[
+  {
+    "model_code": "ABS",
+    "status": "仅历史对照",
+    "help_rules": [
+      "需求要素",
+      "研发",
+      "营销"
+    ],
+    "finding": "缺少显式竞争归一化；0.5研发延续及合计营销代理不是帮助确认的权重。旧fit_demand初期无上期资料时填0，不能代表已知初始研发600。",
+    "implementation": "code/fit_demand.py"
+  },
+  {
+    "model_code": "SHARE",
+    "status": "部分符合",
+    "help_rules": [
+      "需求要素",
+      "研发",
+      "营销"
+    ],
+    "finding": "相对竞争份额守恒；softmax、投入对数及系数为经验结构。两国共用投入系数及公司合计营销代理仍需国别证据。",
+    "implementation": "code/model_v2/core.py"
+  },
+  {
+    "model_code": "COUNTRY",
+    "status": "部分符合",
+    "help_rules": [
+      "需求要素",
+      "研发",
+      "营销"
+    ],
+    "finding": "分国系数与不同市场重视程度方向相容；固定曲线与R+rho*上期R不能确认历史条件变动后的真实函数。",
+    "implementation": "code/model_v2/country_demand.py"
+  },
+  {
+    "model_code": "RD",
+    "status": "当期与单期滞后代理未获机制确认",
+    "help_rules": [
+      "研发"
+    ],
+    "finding": "已有R_t+0.5R_(t-1)；不是完全遗漏下期影响，但时间权重、短期/延期曲线结构及历史条件未经确认，跨期收益链未接通。",
+    "implementation": "code/fit_chart_json.py"
+  },
+  {
+    "model_code": "OPS",
+    "status": "当期曲线相容；累计调用缺失",
+    "help_rules": [
+      "运营改进"
+    ],
+    "finding": "饱和形状相容，不代表累计机制成立；调用只读取本期与上期运营支出。",
+    "implementation": "code/stepwise_model.py"
+  },
+  {
+    "model_code": "EFF",
+    "status": "累计机制未实现",
+    "help_rules": [
+      "运营改进"
+    ],
+    "finding": "只读取O_t与O_(t-1)，更早历史被忽略；单次投入第二个后续回合恢复零投入乘数，没有持续可更新的累计状态。",
+    "implementation": "code/operations_rho.py"
+  },
+  {
+    "model_code": "RISK_POWER",
+    "status": "提示不足以验证",
+    "help_rules": [
+      "负债"
+    ],
+    "finding": "幂函数是期末状态条件关联；帮助未规定幂函数、风险状态时点或平均本金计息。",
+    "implementation": "code/model_v2/finance.py"
+  },
+  {
+    "model_code": "RISK_EXP",
+    "status": "提示不足以验证",
+    "help_rules": [
+      "负债"
+    ],
+    "finding": "指数函数是经验拟合；当期基准及期末状态需正确绑定，帮助未确认函数形式。",
+    "implementation": "code/model_v2/finance.py"
+  },
+  {
+    "model_code": "MATERIAL",
+    "status": "提示不足以验证",
+    "help_rules": [
+      "生产策略"
+    ],
+    "finding": "单位差额是经验校准；只计复合梁，不能叠加比例校准，也不能扩展到连接件库存成本。",
+    "implementation": "code/stepwise_model.py"
+  },
+  {
+    "model_code": "MATERIAL_PROP",
+    "status": "提示不足以验证",
+    "help_rules": [
+      "生产策略"
+    ],
+    "finding": "比例参数不是官方材料附加费；练习2单基价不能独立识别跨价位比例关系；连接件未训练。",
+    "implementation": "code/material_unit_cost_model.py"
+  },
+  {
+    "model_code": "INTEREST",
+    "status": "部分符合",
+    "help_rules": [
+      "负债"
+    ],
+    "finding": "接受当期基准与短贷附加溢价；帮助未确认短贷=长贷+溢价或计息时点；未实现自动短贷借还。",
+    "implementation": "code/interest_rate_model.py"
+  },
+  {
+    "model_code": "TOTAL",
+    "status": "提示不足以验证",
+    "help_rules": [
+      "需求预估"
+    ],
+    "finding": "行业增长仍需独立情景，玩家增长输入和预算需求不能训练实际总量；历史增长外推不是官方需求函数。",
+    "implementation": "code/cross_market_validation.py"
+  },
+  {
+    "model_code": "BASELINE",
+    "status": "条件诊断",
+    "help_rules": [
+      "需求要素",
+      "需求预估"
+    ],
+    "finding": "等份额只是基线；使用实际总量的oracle仅为条件诊断，不能当事前预测成绩。",
+    "implementation": "code/cross_market_validation.py"
+  },
+  {
+    "model_code": "CAPACITY",
+    "status": "仅限定范围符合",
+    "help_rules": [
+      "生产策略",
+      "产品销售优先级",
+      "大客户订单"
+    ],
+    "finding": "需求驱动且零库存零订单时产量截断、顺序交付符合；连接件自由生产不可截断，需库存和跨期订单。",
+    "implementation": "code/build_model_inputs.py"
+  },
+  {
+    "model_code": "LABOR",
+    "status": "条件符合",
+    "help_rules": [
+      "运营改进",
+      "生产策略"
+    ],
+    "finding": "q/效率及班次工资在给定正确产量效率时可计算；帮助未确认具体班次比例。新产品及当期工资必须重新绑定。",
+    "implementation": "code/build_model_inputs.py"
+  },
+  {
+    "model_code": "OPERATING",
+    "status": "仅限定范围符合",
+    "help_rules": [
+      "营销",
+      "研发",
+      "运营改进",
+      "大客户订单"
+    ],
+    "finding": "本期投入作为费用与帮助相容；自由生产的库存改变、持有费、连接件、订单收入尚未实现。正式3管理费不可继续用4000。",
+    "implementation": "code/model_v2/finance.py"
+  },
+  {
+    "model_code": "FINANCE",
+    "status": "完整规则未实现",
+    "help_rules": [
+      "负债",
+      "结转亏损",
+      "已收预付款",
+      "额外实收资本"
+    ],
+    "finding": "税亏抵扣方向符合；缺自动短贷借还利息、10%预付款及交付清算、库存和股权变化。只有零相关状态的条件链。",
+    "implementation": "code/model_v2/finance.py"
+  },
+  {
+    "model_code": "GROWTH",
+    "status": "条件公式",
+    "help_rules": [
+      "研发",
+      "大客户订单"
+    ],
+    "finding": "增长比值本身成立；下期需求依赖前景、历史条件、竞争和产品，新订单下一回合交付不能混进普通需求增长。",
+    "implementation": "code/stepwise_model.py"
+  },
+  {
+    "model_code": "HORIZON",
+    "status": "跨期收益模型未建立",
+    "help_rules": [
+      "研发",
+      "运营改进",
+      "大客户订单",
+      "已收预付款"
+    ],
+    "finding": "只对外部利润求和，不计算研发延期、运营累计和逐期经营；字典保留存量字段不是状态转移实现。",
+    "implementation": "code/model_v2/horizon.py"
+  },
+  {
+    "model_code": "METRICS",
+    "status": "计算口径相容",
+    "help_rules": [
+      "需求预估"
+    ],
+    "finding": "误差公式可核；必须区分实际、预算和条件回算，不能以预算重放证明需求预测有效。",
+    "implementation": "code/fit_demand.py"
+  },
+  {
+    "model_code": "UNIFIED",
+    "status": "组合未完整符合",
+    "help_rules": [
+      "研发",
+      "运营改进",
+      "生产策略",
+      "负债"
+    ],
+    "finding": "正式1同期共享为用户假设；登记正式2曲线不代表完整迁移。历史条件、非零财务分支和正式3多产品仍缺。",
+    "implementation": "code/unified_market.py"
+  },
+  {
+    "model_code": "T2V0",
+    "status": "正式3不适用",
+    "help_rules": [
+      "研发",
+      "运营改进",
+      "负债",
+      "生产策略"
+    ],
+    "finding": "练习2利率材料两组件已训练，迁移门槛仍关闭；代码明确只支持回合2，不可用于正式3。",
+    "implementation": "code/t2v0_um/calibrated.py"
+  }
+]

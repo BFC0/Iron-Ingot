@@ -1,0 +1,21 @@
+{
+  "evidence_gate_missing_rejects": true,
+  "source_bound_complete_gate_accepts": true,
+  "forged_and_incomplete_evidence_rejects": true,
+  "source_hash_and_period_rejects": true,
+  "curve_and_row_binding_rejects": true,
+  "wrong_country_context_period_rejects": true,
+  "duplicate_and_incomplete_competitors_rejects": true,
+  "shares_sum_to_one": true,
+  "upstream_curve_changes_features_without_changing_downstream_beta": true,
+  "operations_affects_efficiency_only": true,
+  "nested_market_splits_disjoint": true,
+  "nonfinite_and_negative_inputs_rejects": true,
+  "displayed_rounding_only_when_declared": true,
+  "synthetic_nested_training_replay": true,
+  "synthetic_mechanism_recovery": true,
+  "practice2_actual_rows": 200,
+  "formal2_state_rows": 100,
+  "actual_training_performed": true,
+  "protected_hashes_unchanged": true
+}

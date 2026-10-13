@@ -1,0 +1,148 @@
+{
+  "sources": {
+    "1": {
+      "path": "output\\formal_update\\20261011T223000+0800_sources\\formal1_outlook.json",
+      "sha256": "8a7fe50a7d048c2463fd06eb8a0447c531d5753219dbf0f4924e72b7b9668c54",
+      "captured_at": "2026-10-11T14:27:38.171Z",
+      "source_round": 1,
+      "market_id": 5,
+      "phase": "formal",
+      "source_url": "http://sim.cesim.cn/ul/Decisions?panel=outlook&sim=se"
+    },
+    "2": {
+      "path": "output\\formal_update\\20261011T223000+0800_sources\\formal2_outlook.json",
+      "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+      "captured_at": "2026-10-11T14:28:51.583Z",
+      "source_round": 2,
+      "market_id": 5,
+      "phase": "formal",
+      "source_url": "http://sim.cesim.cn/ul/Decisions?panel=outlook"
+    }
+  },
+  "events": [
+    {
+      "topic": "demand",
+      "source_round": 1,
+      "time_anchor": "不久的将来",
+      "effective_round": null,
+      "status": "FORWARD_SIGNAL",
+      "statement": "泰国难回升、印尼略增；建筑领域将普遍增长",
+      "followup_round": 2,
+      "followup": "正式2已发布两国需求增加5–10%的今年预测；不是已实现增长标签"
+    },
+    {
+      "topic": "demand",
+      "source_round": 2,
+      "time_anchor": "今年",
+      "effective_round": 2,
+      "status": "CURRENT_FORECAST_NOT_OBSERVED_LABEL",
+      "countries": [
+        "Thailand",
+        "Indonesia"
+      ],
+      "growth_range": [
+        0.05,
+        0.1
+      ]
+    },
+    {
+      "topic": "marketing",
+      "source_round": 2,
+      "time_anchor": "最近/今年",
+      "effective_round": 2,
+      "status": "CURRENT_QUALITATIVE_SIGNAL",
+      "statement": "设计师促销、一般营销越来越重要",
+      "identifiable_coefficients": false
+    },
+    {
+      "topic": "materials",
+      "source_round": 1,
+      "time_anchor": "预计上升",
+      "effective_round": null,
+      "status": "FORWARD_SIGNAL",
+      "followup_round": 2,
+      "followup": "今年表价900→1053，+17%已确认"
+    },
+    {
+      "topic": "materials",
+      "source_round": 2,
+      "time_anchor": "新技术相关未来变化",
+      "effective_round": null,
+      "status": "UNCONFIRMED_FUTURE",
+      "narrative_increase_approximately": 0.2,
+      "current_price": 1053,
+      "current_change": 0.17,
+      "conflict": "未来叙述约20%与当期表格17%并列；不擅自追加20%或以1080代替1053"
+    },
+    {
+      "topic": "machines",
+      "source_round": 1,
+      "time_anchor": "长远来看",
+      "effective_round": null,
+      "status": "FORWARD_SIGNAL",
+      "statement": "供应商竞争可能带来产品创新",
+      "followup_round": 2,
+      "followup": "正式2信号变为不久的将来可能降价，时间锚前移，但生效期仍未知"
+    },
+    {
+      "topic": "machines",
+      "source_round": 2,
+      "time_anchor": "不久的将来",
+      "effective_round": null,
+      "status": "UNCONFIRMED_FUTURE",
+      "price_decline_up_to": 0.4,
+      "current_price": 100,
+      "hypothetical_lower_bound_price": 60,
+      "hypothetical_price_is_current": false
+    },
+    {
+      "topic": "bulk_order",
+      "source_round": 1,
+      "time_anchor": "本年度",
+      "effective_round": 1,
+      "status": "NO_CURRENT_ORDER",
+      "units": 0
+    },
+    {
+      "topic": "bulk_order",
+      "source_round": 2,
+      "time_anchor": "今年报价/明年交货",
+      "bid_round": 2,
+      "delivery_round": 3,
+      "status": "OFFER_NOT_AWARDED_ORDER",
+      "location": "Hong Kong",
+      "units": 2000,
+      "bid_unit": "USD/unit",
+      "full_tender_required": true,
+      "winner": null
+    },
+    {
+      "topic": "interest",
+      "source_round": 2,
+      "time_anchor": "预计下降半个百分点",
+      "effective_round": 2,
+      "status": "BASE_RATE_TABLE_CONFIRMED_NOT_ALL_BORROWING",
+      "prior_base_rate": 0.03,
+      "base_rate": 0.025,
+      "prior_short_premium": 0.015,
+      "short_premium": 0.02,
+      "prior_base_plus_short": 0.045,
+      "current_base_plus_short": 0.045,
+      "caveat": "基准下降被短期溢价上升抵消；长期实际借款成本尚未知"
+    }
+  ],
+  "horizon": {
+    "start_round": 2,
+    "end_round": 6,
+    "remaining_rounds": 5,
+    "terminal_reward": null,
+    "unavailable_future_profit": null,
+    "preserve_terminal_state": true
+  },
+  "rules": [
+    "保留正式1来源及当时相对时间锚；正式2更新追加而非抹除旧前瞻",
+    "同可见前景不证明隐藏机制相同，不未经核验扩展到其他市场",
+    "正式2市场5可与练习2相同可见情境作候选迁移，需正式1留出验证；不可作为已证实机制",
+    "需求预测、报价邀请、未来价格信号均不能充当正式已实现训练标签"
+  ]
+}

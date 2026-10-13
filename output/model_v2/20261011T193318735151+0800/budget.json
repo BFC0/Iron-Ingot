@@ -1,0 +1,789 @@
+{
+  "archived_only": true,
+  "latest_personal_baseline_verified": false,
+  "units": {
+    "quantity": "千单位",
+    "finance": "千美元",
+    "price": "美元/单位",
+    "interest": "小数",
+    "efficiency": "千单位/人"
+  },
+  "decision": {
+    "prices": [
+      3000.0,
+      2000.0
+    ],
+    "general": [
+      50.0,
+      200.0
+    ],
+    "designer": [
+      0.0,
+      150.0
+    ],
+    "rd": 600.0,
+    "operations": 700.0,
+    "allocation": 20.0,
+    "machine_investment": 0.0,
+    "priority": [
+      0,
+      1
+    ],
+    "long_change": 0.0,
+    "long_rate": 0.03
+  },
+  "input_demand": [
+    2.5,
+    11.0
+  ],
+  "input_efficiency": 0.15,
+  "old_replay_max_difference": 0.0,
+  "output": {
+    "production": {
+      "production": 3.4,
+      "workers": 22.666666666666668,
+      "payroll": 634.6666666666667,
+      "firing": 715.5208666666666,
+      "sales": [
+        2.5,
+        0.8999999999999999
+      ]
+    },
+    "capacity": 17.0,
+    "sales": [
+      2.5,
+      0.8999999999999999
+    ],
+    "efficiency": 0.15,
+    "revenue": 9300.0,
+    "materials": 3064.0,
+    "transport": 183.0,
+    "marketing": 450.0,
+    "overhead": 6015.520866666667,
+    "ebitda": -1047.1875333333337,
+    "machine_capex": 0.0,
+    "building_capex": 800,
+    "machine_depreciation": 1313.25,
+    "building_depreciation": 921.2,
+    "ebit": -3281.6375333333335,
+    "long_interest": 510.0,
+    "cash_interest": 143.27771116314267,
+    "pretax": -3648.359822170191,
+    "tax": 0.0,
+    "profit": -3648.359822170191,
+    "ar": 764.3835616438356,
+    "ap": 251.83561643835617,
+    "cash": 13651.54223262433,
+    "long_debt": 17000.0,
+    "short_debt_needed_before_unidentified_short_interest": 0,
+    "equity": 17644.64017782981,
+    "assets": 34896.47579426817,
+    "balance_error": 7.275957614183426e-12,
+    "tax_loss_end": 3648.359822170191,
+    "fully_computed_in_scope": true,
+    "limit": "若现金低于2000，短贷计息未识别，该结果不是完整融资后利润；库存和大客户非零需扩展"
+  },
+  "checks": [
+    {
+      "metric": "revenue",
+      "predicted": 9300.0,
+      "observed": 9300.0,
+      "source": {
+        "value": 9300.0,
+        "file": "raw/20261011_model_v2_round1_budget_income.json",
+        "line": 113,
+        "column": 1,
+        "label": "净销售额",
+        "occurrence": 0
+      },
+      "error": 0.0,
+      "rounding_envelope_kusd": 0.5,
+      "within_display_envelope": true,
+      "envelope_basis": [
+        "target_integer_display"
+      ],
+      "limit": "显示舍入包络为诊断；来源输入、隐藏连续值和机制仍须独立试验"
+    },
+    {
+      "metric": "materials",
+      "predicted": 3064.0,
+      "observed": 3064.0,
+      "source": {
+        "value": 3064.0,
+        "file": "raw/20261011_model_v2_round1_budget_income.json",
+        "line": 129,
+        "column": 1,
+        "label": "原材料购买",
+        "occurrence": 0
+      },
+      "error": 0.0,
+      "rounding_envelope_kusd": 0.5,
+      "within_display_envelope": true,
+      "envelope_basis": [
+        "target_integer_display"
+      ],
+      "limit": "显示舍入包络为诊断；来源输入、隐藏连续值和机制仍须独立试验"
+    },
+    {
+      "metric": "transport",
+      "predicted": 183.0,
+      "observed": 183.0,
+      "source": {
+        "value": 183.0,
+        "file": "raw/20261011_model_v2_round1_budget_income.json",
+        "line": 141,
+        "column": 1,
+        "label": "运输",
+        "occurrence": 0
+      },
+      "error": 0.0,
+      "rounding_envelope_kusd": 0.5,
+      "within_display_envelope": true,
+      "envelope_basis": [
+        "target_integer_display"
+      ],
+      "limit": "显示舍入包络为诊断；来源输入、隐藏连续值和机制仍须独立试验"
+    },
+    {
+      "metric": "long_interest",
+      "predicted": 510.0,
+      "observed": 510.0,
+      "source": {
+        "value": 510.0,
+        "file": "raw/20261011_model_v2_round1_budget_income.json",
+        "line": 287,
+        "column": 1,
+        "label": "长期贷款利息",
+        "occurrence": 0
+      },
+      "error": 0.0,
+      "rounding_envelope_kusd": 0.5,
+      "within_display_envelope": true,
+      "envelope_basis": [
+        "target_integer_display"
+      ],
+      "limit": "显示舍入包络为诊断；来源输入、隐藏连续值和机制仍须独立试验"
+    },
+    {
+      "metric": "cash_interest",
+      "predicted": 143.27771116314267,
+      "observed": 143.0,
+      "source": {
+        "value": 143.0,
+        "file": "raw/20261011_model_v2_round1_budget_income.json",
+        "line": 281,
+        "column": 1,
+        "label": "利息收入",
+        "occurrence": 0
+      },
+      "error": 0.2777111631426692,
+      "rounding_envelope_kusd": 0.5,
+      "within_display_envelope": true,
+      "envelope_basis": [
+        "target_integer_display"
+      ],
+      "limit": "显示舍入包络为诊断；来源输入、隐藏连续值和机制仍须独立试验"
+    },
+    {
+      "metric": "profit",
+      "predicted": -3648.359822170191,
+      "observed": -3649.0,
+      "source": {
+        "value": -3649.0,
+        "file": "raw/20261011_model_v2_round1_budget_income.json",
+        "line": 314,
+        "column": 1,
+        "label": "本回合利润",
+        "occurrence": 0
+      },
+      "error": 0.6401778298090903,
+      "rounding_envelope_kusd": 5.5,
+      "within_display_envelope": true,
+      "envelope_basis": [
+        "revenue",
+        "materials",
+        "payroll",
+        "transport",
+        "marketing",
+        "overhead",
+        "machine_depreciation",
+        "building_depreciation",
+        "cash_interest",
+        "long_interest",
+        "tax"
+      ],
+      "limit": "显示舍入包络为诊断；来源输入、隐藏连续值和机制仍须独立试验"
+    },
+    {
+      "metric": "machine_depreciation",
+      "predicted": 1313.25,
+      "observed": 1313.0,
+      "source": {
+        "value": 1313.0,
+        "file": "raw/20261011_model_v2_round1_budget_income.json",
+        "line": 261,
+        "column": 1,
+        "label": "机器",
+        "occurrence": 0
+      },
+      "error": 0.25,
+      "rounding_envelope_kusd": 0.5,
+      "within_display_envelope": true,
+      "envelope_basis": [
+        "target_integer_display"
+      ],
+      "limit": "显示舍入包络为诊断；来源输入、隐藏连续值和机制仍须独立试验"
+    },
+    {
+      "metric": "building_depreciation",
+      "predicted": 921.2,
+      "observed": 921.0,
+      "source": {
+        "value": 921.0,
+        "file": "raw/20261011_model_v2_round1_budget_income.json",
+        "line": 255,
+        "column": 1,
+        "label": "厂房",
+        "occurrence": 0
+      },
+      "error": 0.20000000000004547,
+      "rounding_envelope_kusd": 0.5,
+      "within_display_envelope": true,
+      "envelope_basis": [
+        "target_integer_display"
+      ],
+      "limit": "显示舍入包络为诊断；来源输入、隐藏连续值和机制仍须独立试验"
+    },
+    {
+      "metric": "cash",
+      "predicted": 13651.54223262433,
+      "observed": 13651.0,
+      "source": {
+        "value": 13651.0,
+        "file": "raw/20261011_model_v2_round1_budget_balance.json",
+        "line": 135,
+        "column": 1,
+        "label": "现金及现金等价物",
+        "occurrence": 0
+      },
+      "error": 0.5422326243296993,
+      "rounding_envelope_kusd": 4.5,
+      "within_display_envelope": true,
+      "envelope_basis": [
+        "opening_cash",
+        "ebitda",
+        "interest",
+        "opening_ar",
+        "closing_ar",
+        "opening_ap",
+        "closing_ap",
+        "capex",
+        "tax"
+      ],
+      "limit": "显示舍入包络为诊断；来源输入、隐藏连续值和机制仍须独立试验"
+    },
+    {
+      "metric": "ar",
+      "predicted": 764.3835616438356,
+      "observed": 764.0,
+      "source": {
+        "value": 764.0,
+        "file": "raw/20261011_model_v2_round1_budget_balance.json",
+        "line": 129,
+        "column": 1,
+        "label": "应收帐款",
+        "occurrence": 0
+      },
+      "error": 0.38356164383560554,
+      "rounding_envelope_kusd": 0.5,
+      "within_display_envelope": true,
+      "envelope_basis": [
+        "target_integer_display"
+      ],
+      "limit": "显示舍入包络为诊断；来源输入、隐藏连续值和机制仍须独立试验"
+    },
+    {
+      "metric": "ap",
+      "predicted": 251.83561643835617,
+      "observed": 252.0,
+      "source": {
+        "value": 252.0,
+        "file": "raw/20261011_model_v2_round1_budget_balance.json",
+        "line": 220,
+        "column": 1,
+        "label": "应付账款",
+        "occurrence": 0
+      },
+      "error": -0.16438356164383094,
+      "rounding_envelope_kusd": 0.5,
+      "within_display_envelope": true,
+      "envelope_basis": [
+        "target_integer_display"
+      ],
+      "limit": "显示舍入包络为诊断；来源输入、隐藏连续值和机制仍须独立试验"
+    }
+  ],
+  "materials": [
+    {
+      "round": 1,
+      "team": "花儿与少年",
+      "displayed_quantity": 3.4,
+      "official_base_unit_cost": 900,
+      "raw_base_error_kusd": -4.0,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.0,
+      "explained_by_rounding": true,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": 0.0,
+      "source": {
+        "value": 3064.0,
+        "file": "raw/practice1_printable.json",
+        "line": 1721,
+        "column": 1,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 1,
+      "team": "市不可挡",
+      "displayed_quantity": 9.14,
+      "official_base_unit_cost": 900,
+      "raw_base_error_kusd": -15.0,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.0,
+      "explained_by_rounding": false,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": -4.247058823528278,
+      "source": {
+        "value": 8241.0,
+        "file": "raw/practice1_printable.json",
+        "line": 1721,
+        "column": 2,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 1,
+      "team": "WePlay",
+      "displayed_quantity": 18.07,
+      "official_base_unit_cost": 900,
+      "raw_base_error_kusd": -19.0,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.0,
+      "explained_by_rounding": false,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": 2.2588235294133483,
+      "source": {
+        "value": 16282.0,
+        "file": "raw/practice1_printable.json",
+        "line": 1721,
+        "column": 3,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 1,
+      "team": "赢是因为拼",
+      "displayed_quantity": 3.4,
+      "official_base_unit_cost": 900,
+      "raw_base_error_kusd": -4.0,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.0,
+      "explained_by_rounding": true,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": 0.0,
+      "source": {
+        "value": 3064.0,
+        "file": "raw/practice1_printable.json",
+        "line": 1721,
+        "column": 4,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 1,
+      "team": "合法印钞队",
+      "displayed_quantity": 20.66,
+      "official_base_unit_cost": 900,
+      "raw_base_error_kusd": -26.0,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.0,
+      "explained_by_rounding": false,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": -1.6941176470572827,
+      "source": {
+        "value": 18620.0,
+        "file": "raw/practice1_printable.json",
+        "line": 1721,
+        "column": 5,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 1,
+      "team": "营销团队",
+      "displayed_quantity": 3.4,
+      "official_base_unit_cost": 900,
+      "raw_base_error_kusd": -4.0,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.0,
+      "explained_by_rounding": true,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": 0.0,
+      "source": {
+        "value": 3064.0,
+        "file": "raw/practice1_printable.json",
+        "line": 1721,
+        "column": 6,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 1,
+      "team": "好运连连队",
+      "displayed_quantity": 21.14,
+      "official_base_unit_cost": 900,
+      "raw_base_error_kusd": -23.0,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.0,
+      "explained_by_rounding": false,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": 1.8705882352951448,
+      "source": {
+        "value": 19049.0,
+        "file": "raw/practice1_printable.json",
+        "line": 1721,
+        "column": 7,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 1,
+      "team": "鱼你一起",
+      "displayed_quantity": 12.24,
+      "official_base_unit_cost": 900,
+      "raw_base_error_kusd": -15.0,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.0,
+      "explained_by_rounding": false,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": -0.5999999999985448,
+      "source": {
+        "value": 11031.0,
+        "file": "raw/practice1_printable.json",
+        "line": 1721,
+        "column": 8,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 1,
+      "team": "从容应队",
+      "displayed_quantity": 18.55,
+      "official_base_unit_cost": 900,
+      "raw_base_error_kusd": -24.0,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.0,
+      "explained_by_rounding": false,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": -2.176470588234224,
+      "source": {
+        "value": 16719.0,
+        "file": "raw/practice1_printable.json",
+        "line": 1721,
+        "column": 9,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 1,
+      "team": "你说得不对我说得队",
+      "displayed_quantity": 17.12,
+      "official_base_unit_cost": 900,
+      "raw_base_error_kusd": -19.0,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.0,
+      "explained_by_rounding": false,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": 1.1411764705899259,
+      "source": {
+        "value": 15427.0,
+        "file": "raw/practice1_printable.json",
+        "line": 1721,
+        "column": 10,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 2,
+      "team": "花儿与少年",
+      "displayed_quantity": 2.89,
+      "official_base_unit_cost": 1053,
+      "raw_base_error_kusd": -3.8299999999999272,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.765,
+      "explained_by_rounding": true,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": -0.4299999999998363,
+      "source": {
+        "value": 3047.0,
+        "file": "raw/practice2_printable.json",
+        "line": 1721,
+        "column": 1,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 2,
+      "team": "市不可挡",
+      "displayed_quantity": 18.11,
+      "official_base_unit_cost": 1053,
+      "raw_base_error_kusd": -24.17000000000189,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.765,
+      "explained_by_rounding": false,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": -2.8641176470591745,
+      "source": {
+        "value": 19094.0,
+        "file": "raw/practice2_printable.json",
+        "line": 1721,
+        "column": 2,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 2,
+      "team": "WePlay",
+      "displayed_quantity": 17.95,
+      "official_base_unit_cost": 1053,
+      "raw_base_error_kusd": -29.650000000001455,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.765,
+      "explained_by_rounding": false,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": -8.532352941176214,
+      "source": {
+        "value": 18931.0,
+        "file": "raw/practice2_printable.json",
+        "line": 1721,
+        "column": 3,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 2,
+      "team": "赢是因为拼",
+      "displayed_quantity": 2.89,
+      "official_base_unit_cost": 1053,
+      "raw_base_error_kusd": -3.8299999999999272,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.765,
+      "explained_by_rounding": true,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": -0.4299999999998363,
+      "source": {
+        "value": 3047.0,
+        "file": "raw/practice2_printable.json",
+        "line": 1721,
+        "column": 4,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 2,
+      "team": "合法印钞队",
+      "displayed_quantity": 28.64,
+      "official_base_unit_cost": 1053,
+      "raw_base_error_kusd": -37.07999999999811,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.765,
+      "explained_by_rounding": false,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": -3.3858823529371875,
+      "source": {
+        "value": 30195.0,
+        "file": "raw/practice2_printable.json",
+        "line": 1721,
+        "column": 5,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 2,
+      "team": "营销团队",
+      "displayed_quantity": 7.61,
+      "official_base_unit_cost": 1053,
+      "raw_base_error_kusd": -13.670000000000073,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.765,
+      "explained_by_rounding": false,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": -4.717058823528532,
+      "source": {
+        "value": 8027.0,
+        "file": "raw/practice2_printable.json",
+        "line": 1721,
+        "column": 6,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 2,
+      "team": "好运连连队",
+      "displayed_quantity": 29.1,
+      "official_base_unit_cost": 1053,
+      "raw_base_error_kusd": -43.69999999999709,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.765,
+      "explained_by_rounding": false,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": -9.464705882350245,
+      "source": {
+        "value": 30686.0,
+        "file": "raw/practice2_printable.json",
+        "line": 1721,
+        "column": 7,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 2,
+      "team": "鱼你一起",
+      "displayed_quantity": 19.22,
+      "official_base_unit_cost": 1053,
+      "raw_base_error_kusd": -31.340000000000146,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.765,
+      "explained_by_rounding": false,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": -8.728235294118349,
+      "source": {
+        "value": 20270.0,
+        "file": "raw/practice2_printable.json",
+        "line": 1721,
+        "column": 8,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 2,
+      "team": "从容应队",
+      "displayed_quantity": 15.21,
+      "official_base_unit_cost": 1053,
+      "raw_base_error_kusd": -25.86999999999898,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.765,
+      "explained_by_rounding": false,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": -7.975882352939152,
+      "source": {
+        "value": 16042.0,
+        "file": "raw/practice2_printable.json",
+        "line": 1721,
+        "column": 9,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    },
+    {
+      "round": 2,
+      "team": "你说得不对我说得队",
+      "displayed_quantity": 17.02,
+      "official_base_unit_cost": 1053,
+      "raw_base_error_kusd": -19.93999999999869,
+      "quantity_half_width": 0.005,
+      "output_half_width_kusd": 0.5,
+      "rounding_envelope_kusd": 5.765,
+      "explained_by_rounding": false,
+      "empirical_uplift_usd_per_unit": 1.176470588235361,
+      "calibrated_error_kusd": 0.08352941176417517,
+      "source": {
+        "value": 17942.0,
+        "file": "raw/practice2_printable.json",
+        "line": 1721,
+        "column": 10,
+        "label": "原材料购买",
+        "occurrence": 0
+      }
+    }
+  ],
+  "correction": "旧报告约±5美元为错误单位；0.005千单位×900/1053美元每单位为±4.5/5.265千美元，再加报表0.5千美元",
+  "parameters": {
+    "material_cost": {
+      "value": 900,
+      "unit": "美元/单位",
+      "status": "当期前景",
+      "source": "raw/20261011_model_v2_round1_outlook.json"
+    },
+    "uplift": {
+      "value": 1.176470588235361,
+      "unit": "美元/单位",
+      "status": "练习1经验校准",
+      "source": "分步模型拟合与验证.json"
+    },
+    "building_capex": {
+      "value": 800,
+      "unit": "千美元",
+      "status": "历史经验，时序未试验",
+      "source": "raw/practice1_printable.json"
+    }
+  },
+  "unidentified": [
+    "短贷计息",
+    "亏后转盈税亏",
+    "非零库存计价结转",
+    "大客户中标交付",
+    "厂房投资时序",
+    "未来当期参数"
+  ],
+  "live_trials": {
+    "attempts": [
+      "新建Cesim主页标签页30秒超时",
+      "绑定已打开主页30秒超时"
+    ],
+    "mutation_count": 0,
+    "saved_samples": 0,
+    "restored_samples": 0,
+    "status": "ACCESS_TIMEOUT_NO_CURRENT_BASELINE"
+  },
+  "stage3_gate": false,
+  "stage3_gate_reason": "实时身份/回合/基准及独立保留预算试验尚未取得；历史回算不等于机制通过"
+}

@@ -1,0 +1,1728 @@
+{
+  "model_id": "t2v0-um",
+  "training_phase": "practice",
+  "training_round": 2,
+  "target_phase": "formal",
+  "target_round": 2,
+  "interest_rate": {
+    "form": "solvency_exponential",
+    "parameters": [
+      0.12281068318353833,
+      8.180868311208613
+    ],
+    "candidate_cv_mae_basis_points": {
+      "solvency_exponential": 2.8325081183017446,
+      "leverage_power": 5.944431811733186
+    },
+    "model_id": "t2v0-um/interest_rate",
+    "training_phase": "practice",
+    "training_round": 2,
+    "training_n": 100,
+    "target_phase": "formal",
+    "target_round": 2,
+    "base_rate_percent": 2.5,
+    "training_keys": [
+      [
+        5,
+        "practice",
+        2,
+        1
+      ],
+      [
+        5,
+        "practice",
+        2,
+        2
+      ],
+      [
+        5,
+        "practice",
+        2,
+        3
+      ],
+      [
+        5,
+        "practice",
+        2,
+        4
+      ],
+      [
+        5,
+        "practice",
+        2,
+        5
+      ],
+      [
+        5,
+        "practice",
+        2,
+        6
+      ],
+      [
+        5,
+        "practice",
+        2,
+        7
+      ],
+      [
+        5,
+        "practice",
+        2,
+        8
+      ],
+      [
+        5,
+        "practice",
+        2,
+        9
+      ],
+      [
+        5,
+        "practice",
+        2,
+        10
+      ],
+      [
+        1,
+        "practice",
+        2,
+        1
+      ],
+      [
+        1,
+        "practice",
+        2,
+        2
+      ],
+      [
+        1,
+        "practice",
+        2,
+        3
+      ],
+      [
+        1,
+        "practice",
+        2,
+        4
+      ],
+      [
+        1,
+        "practice",
+        2,
+        5
+      ],
+      [
+        1,
+        "practice",
+        2,
+        6
+      ],
+      [
+        1,
+        "practice",
+        2,
+        7
+      ],
+      [
+        1,
+        "practice",
+        2,
+        8
+      ],
+      [
+        1,
+        "practice",
+        2,
+        9
+      ],
+      [
+        1,
+        "practice",
+        2,
+        10
+      ],
+      [
+        2,
+        "practice",
+        2,
+        1
+      ],
+      [
+        2,
+        "practice",
+        2,
+        2
+      ],
+      [
+        2,
+        "practice",
+        2,
+        3
+      ],
+      [
+        2,
+        "practice",
+        2,
+        4
+      ],
+      [
+        2,
+        "practice",
+        2,
+        5
+      ],
+      [
+        2,
+        "practice",
+        2,
+        6
+      ],
+      [
+        2,
+        "practice",
+        2,
+        7
+      ],
+      [
+        2,
+        "practice",
+        2,
+        8
+      ],
+      [
+        2,
+        "practice",
+        2,
+        9
+      ],
+      [
+        2,
+        "practice",
+        2,
+        10
+      ],
+      [
+        3,
+        "practice",
+        2,
+        1
+      ],
+      [
+        3,
+        "practice",
+        2,
+        2
+      ],
+      [
+        3,
+        "practice",
+        2,
+        3
+      ],
+      [
+        3,
+        "practice",
+        2,
+        4
+      ],
+      [
+        3,
+        "practice",
+        2,
+        5
+      ],
+      [
+        3,
+        "practice",
+        2,
+        6
+      ],
+      [
+        3,
+        "practice",
+        2,
+        7
+      ],
+      [
+        3,
+        "practice",
+        2,
+        8
+      ],
+      [
+        3,
+        "practice",
+        2,
+        9
+      ],
+      [
+        3,
+        "practice",
+        2,
+        10
+      ],
+      [
+        4,
+        "practice",
+        2,
+        1
+      ],
+      [
+        4,
+        "practice",
+        2,
+        2
+      ],
+      [
+        4,
+        "practice",
+        2,
+        3
+      ],
+      [
+        4,
+        "practice",
+        2,
+        4
+      ],
+      [
+        4,
+        "practice",
+        2,
+        5
+      ],
+      [
+        4,
+        "practice",
+        2,
+        6
+      ],
+      [
+        4,
+        "practice",
+        2,
+        7
+      ],
+      [
+        4,
+        "practice",
+        2,
+        8
+      ],
+      [
+        4,
+        "practice",
+        2,
+        9
+      ],
+      [
+        4,
+        "practice",
+        2,
+        10
+      ],
+      [
+        6,
+        "practice",
+        2,
+        1
+      ],
+      [
+        6,
+        "practice",
+        2,
+        2
+      ],
+      [
+        6,
+        "practice",
+        2,
+        3
+      ],
+      [
+        6,
+        "practice",
+        2,
+        4
+      ],
+      [
+        6,
+        "practice",
+        2,
+        5
+      ],
+      [
+        6,
+        "practice",
+        2,
+        6
+      ],
+      [
+        6,
+        "practice",
+        2,
+        7
+      ],
+      [
+        6,
+        "practice",
+        2,
+        8
+      ],
+      [
+        6,
+        "practice",
+        2,
+        9
+      ],
+      [
+        6,
+        "practice",
+        2,
+        10
+      ],
+      [
+        7,
+        "practice",
+        2,
+        1
+      ],
+      [
+        7,
+        "practice",
+        2,
+        2
+      ],
+      [
+        7,
+        "practice",
+        2,
+        3
+      ],
+      [
+        7,
+        "practice",
+        2,
+        4
+      ],
+      [
+        7,
+        "practice",
+        2,
+        5
+      ],
+      [
+        7,
+        "practice",
+        2,
+        6
+      ],
+      [
+        7,
+        "practice",
+        2,
+        7
+      ],
+      [
+        7,
+        "practice",
+        2,
+        8
+      ],
+      [
+        7,
+        "practice",
+        2,
+        9
+      ],
+      [
+        7,
+        "practice",
+        2,
+        10
+      ],
+      [
+        8,
+        "practice",
+        2,
+        1
+      ],
+      [
+        8,
+        "practice",
+        2,
+        2
+      ],
+      [
+        8,
+        "practice",
+        2,
+        3
+      ],
+      [
+        8,
+        "practice",
+        2,
+        4
+      ],
+      [
+        8,
+        "practice",
+        2,
+        5
+      ],
+      [
+        8,
+        "practice",
+        2,
+        6
+      ],
+      [
+        8,
+        "practice",
+        2,
+        7
+      ],
+      [
+        8,
+        "practice",
+        2,
+        8
+      ],
+      [
+        8,
+        "practice",
+        2,
+        9
+      ],
+      [
+        8,
+        "practice",
+        2,
+        10
+      ],
+      [
+        9,
+        "practice",
+        2,
+        1
+      ],
+      [
+        9,
+        "practice",
+        2,
+        2
+      ],
+      [
+        9,
+        "practice",
+        2,
+        3
+      ],
+      [
+        9,
+        "practice",
+        2,
+        4
+      ],
+      [
+        9,
+        "practice",
+        2,
+        5
+      ],
+      [
+        9,
+        "practice",
+        2,
+        6
+      ],
+      [
+        9,
+        "practice",
+        2,
+        7
+      ],
+      [
+        9,
+        "practice",
+        2,
+        8
+      ],
+      [
+        9,
+        "practice",
+        2,
+        9
+      ],
+      [
+        9,
+        "practice",
+        2,
+        10
+      ],
+      [
+        10,
+        "practice",
+        2,
+        1
+      ],
+      [
+        10,
+        "practice",
+        2,
+        2
+      ],
+      [
+        10,
+        "practice",
+        2,
+        3
+      ],
+      [
+        10,
+        "practice",
+        2,
+        4
+      ],
+      [
+        10,
+        "practice",
+        2,
+        5
+      ],
+      [
+        10,
+        "practice",
+        2,
+        6
+      ],
+      [
+        10,
+        "practice",
+        2,
+        7
+      ],
+      [
+        10,
+        "practice",
+        2,
+        8
+      ],
+      [
+        10,
+        "practice",
+        2,
+        9
+      ],
+      [
+        10,
+        "practice",
+        2,
+        10
+      ]
+    ],
+    "nested_market_holdout_mae_basis_points": 2.832508118301744,
+    "nested_market_holdout_max_error_basis_points": 18.791567590473143,
+    "conditional_error_p90_basis_points": 4.413602464262247,
+    "ranges": {
+      "equity_ratio": [
+        0.1856665764058128,
+        0.9503030303030303
+      ],
+      "leverage": [
+        0.0,
+        4.384054448225571
+      ]
+    },
+    "formula": "r_long = r_base + a*exp(-b*equity/assets)",
+    "short_formula": "r_short = r_long + published_short_spread",
+    "validation_scope": "Practice2 actual end-state conditional validation; not prospective formal2 validation",
+    "short_rate_status": "published rule; actual short interest not independently fitted"
+  },
+  "material_unit_cost": {
+    "form": "proportional",
+    "parameter": 0.0013845739435914967,
+    "compatible_interval": [
+      0.0013418176683484635,
+      0.0013979402751963061
+    ],
+    "model_id": "t2v0-um/material_unit_cost",
+    "training_phase": "practice",
+    "training_round": 2,
+    "target_phase": "formal",
+    "target_round": 2,
+    "training_n": 100,
+    "training_keys": [
+      [
+        5,
+        "practice",
+        2,
+        1
+      ],
+      [
+        5,
+        "practice",
+        2,
+        2
+      ],
+      [
+        5,
+        "practice",
+        2,
+        3
+      ],
+      [
+        5,
+        "practice",
+        2,
+        4
+      ],
+      [
+        5,
+        "practice",
+        2,
+        5
+      ],
+      [
+        5,
+        "practice",
+        2,
+        6
+      ],
+      [
+        5,
+        "practice",
+        2,
+        7
+      ],
+      [
+        5,
+        "practice",
+        2,
+        8
+      ],
+      [
+        5,
+        "practice",
+        2,
+        9
+      ],
+      [
+        5,
+        "practice",
+        2,
+        10
+      ],
+      [
+        1,
+        "practice",
+        2,
+        1
+      ],
+      [
+        1,
+        "practice",
+        2,
+        2
+      ],
+      [
+        1,
+        "practice",
+        2,
+        3
+      ],
+      [
+        1,
+        "practice",
+        2,
+        4
+      ],
+      [
+        1,
+        "practice",
+        2,
+        5
+      ],
+      [
+        1,
+        "practice",
+        2,
+        6
+      ],
+      [
+        1,
+        "practice",
+        2,
+        7
+      ],
+      [
+        1,
+        "practice",
+        2,
+        8
+      ],
+      [
+        1,
+        "practice",
+        2,
+        9
+      ],
+      [
+        1,
+        "practice",
+        2,
+        10
+      ],
+      [
+        2,
+        "practice",
+        2,
+        1
+      ],
+      [
+        2,
+        "practice",
+        2,
+        2
+      ],
+      [
+        2,
+        "practice",
+        2,
+        3
+      ],
+      [
+        2,
+        "practice",
+        2,
+        4
+      ],
+      [
+        2,
+        "practice",
+        2,
+        5
+      ],
+      [
+        2,
+        "practice",
+        2,
+        6
+      ],
+      [
+        2,
+        "practice",
+        2,
+        7
+      ],
+      [
+        2,
+        "practice",
+        2,
+        8
+      ],
+      [
+        2,
+        "practice",
+        2,
+        9
+      ],
+      [
+        2,
+        "practice",
+        2,
+        10
+      ],
+      [
+        3,
+        "practice",
+        2,
+        1
+      ],
+      [
+        3,
+        "practice",
+        2,
+        2
+      ],
+      [
+        3,
+        "practice",
+        2,
+        3
+      ],
+      [
+        3,
+        "practice",
+        2,
+        4
+      ],
+      [
+        3,
+        "practice",
+        2,
+        5
+      ],
+      [
+        3,
+        "practice",
+        2,
+        6
+      ],
+      [
+        3,
+        "practice",
+        2,
+        7
+      ],
+      [
+        3,
+        "practice",
+        2,
+        8
+      ],
+      [
+        3,
+        "practice",
+        2,
+        9
+      ],
+      [
+        3,
+        "practice",
+        2,
+        10
+      ],
+      [
+        4,
+        "practice",
+        2,
+        1
+      ],
+      [
+        4,
+        "practice",
+        2,
+        2
+      ],
+      [
+        4,
+        "practice",
+        2,
+        3
+      ],
+      [
+        4,
+        "practice",
+        2,
+        4
+      ],
+      [
+        4,
+        "practice",
+        2,
+        5
+      ],
+      [
+        4,
+        "practice",
+        2,
+        6
+      ],
+      [
+        4,
+        "practice",
+        2,
+        7
+      ],
+      [
+        4,
+        "practice",
+        2,
+        8
+      ],
+      [
+        4,
+        "practice",
+        2,
+        9
+      ],
+      [
+        4,
+        "practice",
+        2,
+        10
+      ],
+      [
+        6,
+        "practice",
+        2,
+        1
+      ],
+      [
+        6,
+        "practice",
+        2,
+        2
+      ],
+      [
+        6,
+        "practice",
+        2,
+        3
+      ],
+      [
+        6,
+        "practice",
+        2,
+        4
+      ],
+      [
+        6,
+        "practice",
+        2,
+        5
+      ],
+      [
+        6,
+        "practice",
+        2,
+        6
+      ],
+      [
+        6,
+        "practice",
+        2,
+        7
+      ],
+      [
+        6,
+        "practice",
+        2,
+        8
+      ],
+      [
+        6,
+        "practice",
+        2,
+        9
+      ],
+      [
+        6,
+        "practice",
+        2,
+        10
+      ],
+      [
+        7,
+        "practice",
+        2,
+        1
+      ],
+      [
+        7,
+        "practice",
+        2,
+        2
+      ],
+      [
+        7,
+        "practice",
+        2,
+        3
+      ],
+      [
+        7,
+        "practice",
+        2,
+        4
+      ],
+      [
+        7,
+        "practice",
+        2,
+        5
+      ],
+      [
+        7,
+        "practice",
+        2,
+        6
+      ],
+      [
+        7,
+        "practice",
+        2,
+        7
+      ],
+      [
+        7,
+        "practice",
+        2,
+        8
+      ],
+      [
+        7,
+        "practice",
+        2,
+        9
+      ],
+      [
+        7,
+        "practice",
+        2,
+        10
+      ],
+      [
+        8,
+        "practice",
+        2,
+        1
+      ],
+      [
+        8,
+        "practice",
+        2,
+        2
+      ],
+      [
+        8,
+        "practice",
+        2,
+        3
+      ],
+      [
+        8,
+        "practice",
+        2,
+        4
+      ],
+      [
+        8,
+        "practice",
+        2,
+        5
+      ],
+      [
+        8,
+        "practice",
+        2,
+        6
+      ],
+      [
+        8,
+        "practice",
+        2,
+        7
+      ],
+      [
+        8,
+        "practice",
+        2,
+        8
+      ],
+      [
+        8,
+        "practice",
+        2,
+        9
+      ],
+      [
+        8,
+        "practice",
+        2,
+        10
+      ],
+      [
+        9,
+        "practice",
+        2,
+        1
+      ],
+      [
+        9,
+        "practice",
+        2,
+        2
+      ],
+      [
+        9,
+        "practice",
+        2,
+        3
+      ],
+      [
+        9,
+        "practice",
+        2,
+        4
+      ],
+      [
+        9,
+        "practice",
+        2,
+        5
+      ],
+      [
+        9,
+        "practice",
+        2,
+        6
+      ],
+      [
+        9,
+        "practice",
+        2,
+        7
+      ],
+      [
+        9,
+        "practice",
+        2,
+        8
+      ],
+      [
+        9,
+        "practice",
+        2,
+        9
+      ],
+      [
+        9,
+        "practice",
+        2,
+        10
+      ],
+      [
+        10,
+        "practice",
+        2,
+        1
+      ],
+      [
+        10,
+        "practice",
+        2,
+        2
+      ],
+      [
+        10,
+        "practice",
+        2,
+        3
+      ],
+      [
+        10,
+        "practice",
+        2,
+        4
+      ],
+      [
+        10,
+        "practice",
+        2,
+        5
+      ],
+      [
+        10,
+        "practice",
+        2,
+        6
+      ],
+      [
+        10,
+        "practice",
+        2,
+        7
+      ],
+      [
+        10,
+        "practice",
+        2,
+        8
+      ],
+      [
+        10,
+        "practice",
+        2,
+        9
+      ],
+      [
+        10,
+        "practice",
+        2,
+        10
+      ]
+    ],
+    "published_price_range": [
+      1053.0,
+      1053.0
+    ],
+    "unit_cost_usd": 1054.4579563626019,
+    "formula": "unit_cost = published_price*(1+parameter)",
+    "cost_formula": "cost_kusd = production_kunits*unit_cost",
+    "market_holdout_mae_kusd": 2.3237431263204305,
+    "market_holdout_max_error_kusd": 5.68098923562502,
+    "validation_scope": "Practice2 actual production conditional validation; not prospective formal2 validation",
+    "identification_limit": "A single published price cannot distinguish proportional from additive adjustments",
+    "rounding_assumption": "production ±0.005 kunits and cost ±0.5 kusd; not a confidence interval"
+  },
+  "published": {
+    "records": [
+      {
+        "section": "货币汇率",
+        "label": "1 美元 =",
+        "value": 1.0,
+        "display_value": "1 美元",
+        "unit": "美元/美元",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 116,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "财务",
+        "label": "企业所得税率, %",
+        "value": 29.0,
+        "display_value": "29.00",
+        "unit": "%",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 123,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "财务",
+        "label": "最低现金, 千 美元",
+        "value": 2000.0,
+        "display_value": "2 000",
+        "unit": "千美元",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 128,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "利率",
+        "label": "基准利率",
+        "value": 2.5,
+        "display_value": "2.50",
+        "unit": "%",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 135,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "利率",
+        "label": "高于基准的短期利率溢价",
+        "value": 2.0,
+        "display_value": "2.00",
+        "unit": "%",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 140,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "利率",
+        "label": "现金及现金等价物",
+        "value": 1.0,
+        "display_value": "1.00",
+        "unit": "%",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 145,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "年折旧",
+        "label": "机器",
+        "value": 15.0,
+        "display_value": "15.00",
+        "unit": "%",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 152,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "固定成本",
+        "label": "市场调研",
+        "value": 50.0,
+        "display_value": "50",
+        "unit": "千美元",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 159,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "固定成本",
+        "label": "固定库存持有成本",
+        "value": 0.0,
+        "display_value": "0.00",
+        "unit": "千美元",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 164,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "行政管理",
+        "label": "基础成本",
+        "value": 4000.0,
+        "display_value": "4 000",
+        "unit": "千美元",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 171,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "行政管理",
+        "label": "复合梁, 泰国",
+        "value": 0.0,
+        "display_value": "0",
+        "unit": "千美元",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 176,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "行政管理",
+        "label": "复合梁, 印尼",
+        "value": 0.0,
+        "display_value": "0",
+        "unit": "千美元",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 181,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "可变成本",
+        "label": "库存持有成本",
+        "value": 0.6,
+        "display_value": "0.60",
+        "unit": "美元/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 188,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "原材料成本",
+        "label": "复合梁",
+        "value": 1053.0,
+        "display_value": "1 053.00",
+        "unit": "美元/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 195,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "运输成本",
+        "label": "泰国 -> 泰国",
+        "value": 30.0,
+        "display_value": "30.00",
+        "unit": "美元/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 202,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "运输成本",
+        "label": "泰国 -> 印尼",
+        "value": 120.0,
+        "display_value": "120.00",
+        "unit": "美元/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 207,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "生产工资",
+        "label": "泰国",
+        "value": 28.0,
+        "display_value": "28.00",
+        "unit": "千美元",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 216,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "工资乘数",
+        "label": "两班倒",
+        "value": 1.65,
+        "display_value": "1.65",
+        "unit": "乘数",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 223,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "工资乘数",
+        "label": "三班倒",
+        "value": 2.56,
+        "display_value": "2.56",
+        "unit": "乘数",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 228,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "人员流动",
+        "label": "年人员离职率（without costs），%",
+        "value": 10.0,
+        "display_value": "10.00",
+        "unit": "%",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 235,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "人员流动",
+        "label": "裁员成本，占薪资%",
+        "value": 35.0,
+        "display_value": "35.00",
+        "unit": "%",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 240,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "投资成本",
+        "label": "机器, 复合梁",
+        "value": 100.0,
+        "display_value": "100.00",
+        "unit": "美元/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 249,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "年产能下降",
+        "label": "机器",
+        "value": 15.0,
+        "display_value": "15.00",
+        "unit": "%",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 256,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "生产环境影响",
+        "label": "每单位碳排放, kg, 泰国",
+        "value": 1355.32,
+        "display_value": "1 355.32",
+        "unit": "kg/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 265,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "生产环境影响",
+        "label": "每单位能源消耗, kWh, 泰国",
+        "value": 4778.38,
+        "display_value": "4 778.38",
+        "unit": "kWh/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 270,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "生产环境影响",
+        "label": "每单位用水量, l, 泰国",
+        "value": 10307.14,
+        "display_value": "10 307.14",
+        "unit": "l/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 275,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "运输碳排量",
+        "label": "泰国 -> 泰国",
+        "value": 3920.5,
+        "display_value": "3 920.5",
+        "unit": "克/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 284,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      },
+      {
+        "section": "运输碳排量",
+        "label": "泰国 -> 印尼",
+        "value": 47084.4,
+        "display_value": "47 084.4",
+        "unit": "克/单位",
+        "source": {
+          "file": "raw/20261011_practice2_outlook.json",
+          "sha256": "41476840c6022a34b155ef24329d1593e649bd37b4b5f04c2df983d932347b01",
+          "line": 289,
+          "column": 1
+        },
+        "phase": "practice",
+        "round": 2
+      }
+    ],
+    "financial_parameters": {
+      "wage": 28.0,
+      "second_shift": 1.65,
+      "third_shift": 2.56,
+      "attrition": 0.1,
+      "severance": 0.35000000000000003,
+      "material_cost": 1053.0,
+      "transport": [
+        30.0,
+        120.0
+      ],
+      "marketing_fixed": 50.0,
+      "overhead_fixed": 4000.0,
+      "machine_unit_capex": 100.0,
+      "machine_depreciation": 0.15,
+      "machine_capacity_decline": 0.15,
+      "cash_rate": 0.01,
+      "tax_rate": 0.29,
+      "minimum_cash": 2000.0
+    },
+    "base_rate_percent": 2.5,
+    "short_spread_percent": 2.0,
+    "unknown_financial_parameters": [
+      "building_capex",
+      "building_depreciation",
+      "ar_days",
+      "ap_days"
+    ]
+  },
+  "migration_gate_passed": false,
+  "formal2_prediction_enabled": false,
+  "whole_model_trained": false,
+  "market_sharing": "user-authorized same-round unified-market assumption"
+}

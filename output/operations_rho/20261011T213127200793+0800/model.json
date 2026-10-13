@@ -1,0 +1,753 @@
+{
+  "version": "OPERATIONS_RHO_V1",
+  "category": "independent_operations_efficiency_research",
+  "scope": "market5 practice1 fitted; practice2 separate cross-context retrospective diagnosis",
+  "formula": "efficiency=theta*(a+b*(O+rho*Oprev)/(c+O+rho*Oprev))",
+  "grid": {
+    "lower": 0,
+    "upper": 1,
+    "step": 0.001,
+    "assumption": "carry fraction bounded 0..1, not proven platform limit"
+  },
+  "curve_parameters": [
+    0.44999999999999984,
+    0.7499999999999997,
+    400.1058201058195
+  ],
+  "rows": [
+    {
+      "round": 1,
+      "team": "花儿与少年",
+      "operations": 700.0,
+      "previous_operations": 700.0,
+      "effective_observed": 0.16983016983016982,
+      "source": {
+        "production": {
+          "value": 3.4,
+          "file": "raw/practice1_printable.json",
+          "line": 1315,
+          "column": 1,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 20.02,
+          "file": "raw/practice1_printable.json",
+          "line": 1269,
+          "column": 1,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 1,
+      "team": "市不可挡",
+      "operations": 700.0,
+      "previous_operations": 700.0,
+      "effective_observed": 0.1697937952814416,
+      "source": {
+        "production": {
+          "value": 9.14,
+          "file": "raw/practice1_printable.json",
+          "line": 1315,
+          "column": 2,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 53.83,
+          "file": "raw/practice1_printable.json",
+          "line": 1269,
+          "column": 2,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 1,
+      "team": "WePlay",
+      "operations": 900.0,
+      "previous_operations": 700.0,
+      "effective_observed": 0.17393396862065647,
+      "source": {
+        "production": {
+          "value": 18.07,
+          "file": "raw/practice1_printable.json",
+          "line": 1315,
+          "column": 3,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 103.89,
+          "file": "raw/practice1_printable.json",
+          "line": 1269,
+          "column": 3,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 1,
+      "team": "赢是因为拼",
+      "operations": 700.0,
+      "previous_operations": 700.0,
+      "effective_observed": 0.16983016983016982,
+      "source": {
+        "production": {
+          "value": 3.4,
+          "file": "raw/practice1_printable.json",
+          "line": 1315,
+          "column": 4,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 20.02,
+          "file": "raw/practice1_printable.json",
+          "line": 1269,
+          "column": 4,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 1,
+      "team": "合法印钞队",
+      "operations": 700.0,
+      "previous_operations": 700.0,
+      "effective_observed": 0.1698594096851106,
+      "source": {
+        "production": {
+          "value": 20.66,
+          "file": "raw/practice1_printable.json",
+          "line": 1315,
+          "column": 5,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 121.63,
+          "file": "raw/practice1_printable.json",
+          "line": 1269,
+          "column": 5,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 1,
+      "team": "营销团队",
+      "operations": 700.0,
+      "previous_operations": 700.0,
+      "effective_observed": 0.16983016983016982,
+      "source": {
+        "production": {
+          "value": 3.4,
+          "file": "raw/practice1_printable.json",
+          "line": 1315,
+          "column": 6,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 20.02,
+          "file": "raw/practice1_printable.json",
+          "line": 1269,
+          "column": 6,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 1,
+      "team": "好运连连队",
+      "operations": 1300.0,
+      "previous_operations": 700.0,
+      "effective_observed": 0.17967023627400988,
+      "source": {
+        "production": {
+          "value": 21.14,
+          "file": "raw/practice1_printable.json",
+          "line": 1315,
+          "column": 7,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 117.66,
+          "file": "raw/practice1_printable.json",
+          "line": 1269,
+          "column": 7,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 1,
+      "team": "鱼你一起",
+      "operations": 700.0,
+      "previous_operations": 700.0,
+      "effective_observed": 0.16985845129059118,
+      "source": {
+        "production": {
+          "value": 12.24,
+          "file": "raw/practice1_printable.json",
+          "line": 1315,
+          "column": 8,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 72.06,
+          "file": "raw/practice1_printable.json",
+          "line": 1269,
+          "column": 8,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 1,
+      "team": "从容应队",
+      "operations": 600.0,
+      "previous_operations": 700.0,
+      "effective_observed": 0.16740366392924827,
+      "source": {
+        "production": {
+          "value": 18.55,
+          "file": "raw/practice1_printable.json",
+          "line": 1315,
+          "column": 9,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 110.81,
+          "file": "raw/practice1_printable.json",
+          "line": 1269,
+          "column": 9,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 1,
+      "team": "你说得不对我说得队",
+      "operations": 700.0,
+      "previous_operations": 700.0,
+      "effective_observed": 0.1698749751934908,
+      "source": {
+        "production": {
+          "value": 17.12,
+          "file": "raw/practice1_printable.json",
+          "line": 1315,
+          "column": 10,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 100.78,
+          "file": "raw/practice1_printable.json",
+          "line": 1269,
+          "column": 10,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 2,
+      "team": "花儿与少年",
+      "operations": 700.0,
+      "previous_operations": 700.0,
+      "effective_observed": 0.16960093896713616,
+      "source": {
+        "production": {
+          "value": 2.89,
+          "file": "raw/practice2_printable.json",
+          "line": 1315,
+          "column": 1,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 17.04,
+          "file": "raw/practice2_printable.json",
+          "line": 1269,
+          "column": 1,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 2,
+      "team": "市不可挡",
+      "operations": 700.0,
+      "previous_operations": 700.0,
+      "effective_observed": 0.16963282128137877,
+      "source": {
+        "production": {
+          "value": 18.11,
+          "file": "raw/practice2_printable.json",
+          "line": 1315,
+          "column": 2,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 106.76,
+          "file": "raw/practice2_printable.json",
+          "line": 1269,
+          "column": 2,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 2,
+      "team": "WePlay",
+      "operations": 1000.0,
+      "previous_operations": 900.0,
+      "effective_observed": 0.17644745895999212,
+      "source": {
+        "production": {
+          "value": 17.95,
+          "file": "raw/practice2_printable.json",
+          "line": 1315,
+          "column": 3,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 101.73,
+          "file": "raw/practice2_printable.json",
+          "line": 1269,
+          "column": 3,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 2,
+      "team": "赢是因为拼",
+      "operations": 700.0,
+      "previous_operations": 700.0,
+      "effective_observed": 0.16960093896713616,
+      "source": {
+        "production": {
+          "value": 2.89,
+          "file": "raw/practice2_printable.json",
+          "line": 1315,
+          "column": 4,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 17.04,
+          "file": "raw/practice2_printable.json",
+          "line": 1269,
+          "column": 4,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 2,
+      "team": "合法印钞队",
+      "operations": 2000.0,
+      "previous_operations": 700.0,
+      "effective_observed": 0.18569668676651754,
+      "source": {
+        "production": {
+          "value": 28.64,
+          "file": "raw/practice2_printable.json",
+          "line": 1315,
+          "column": 5,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 154.23,
+          "file": "raw/practice2_printable.json",
+          "line": 1269,
+          "column": 5,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 2,
+      "team": "营销团队",
+      "operations": 720.0,
+      "previous_operations": 700.0,
+      "effective_observed": 0.17001787310098304,
+      "source": {
+        "production": {
+          "value": 7.61,
+          "file": "raw/practice2_printable.json",
+          "line": 1315,
+          "column": 6,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 44.76,
+          "file": "raw/practice2_printable.json",
+          "line": 1269,
+          "column": 6,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 2,
+      "team": "好运连连队",
+      "operations": 1300.0,
+      "previous_operations": 1300.0,
+      "effective_observed": 0.18175004684279558,
+      "source": {
+        "production": {
+          "value": 29.1,
+          "file": "raw/practice2_printable.json",
+          "line": 1315,
+          "column": 7,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 160.11,
+          "file": "raw/practice2_printable.json",
+          "line": 1269,
+          "column": 7,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 2,
+      "team": "鱼你一起",
+      "operations": 770.0,
+      "previous_operations": 700.0,
+      "effective_observed": 0.17113346986020833,
+      "source": {
+        "production": {
+          "value": 19.22,
+          "file": "raw/practice2_printable.json",
+          "line": 1315,
+          "column": 8,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 112.31,
+          "file": "raw/practice2_printable.json",
+          "line": 1269,
+          "column": 8,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 2,
+      "team": "从容应队",
+      "operations": 800.0,
+      "previous_operations": 600.0,
+      "effective_observed": 0.17101416685405893,
+      "source": {
+        "production": {
+          "value": 15.21,
+          "file": "raw/practice2_printable.json",
+          "line": 1315,
+          "column": 9,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 88.94,
+          "file": "raw/practice2_printable.json",
+          "line": 1269,
+          "column": 9,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    },
+    {
+      "round": 2,
+      "team": "你说得不对我说得队",
+      "operations": 800.0,
+      "previous_operations": 700.0,
+      "effective_observed": 0.1718324078748107,
+      "source": {
+        "production": {
+          "value": 17.02,
+          "file": "raw/practice2_printable.json",
+          "line": 1315,
+          "column": 10,
+          "label": "生产规模, 千单位",
+          "occurrence": 0
+        },
+        "workers": {
+          "value": 99.05,
+          "file": "raw/practice2_printable.json",
+          "line": 1269,
+          "column": 10,
+          "label": "生产线人工数量",
+          "occurrence": 0
+        }
+      }
+    }
+  ],
+  "chosen": {
+    "rho": 0.559,
+    "theta": 0.17006603520028907,
+    "weighted_rmse": 2.1582132124567026e-05,
+    "index": 559
+  },
+  "baseline": {
+    "rho": 0.5,
+    "theta": 0.17088572199586327
+  },
+  "training_optimized": {
+    "strategy_weighted_mae": 1.543688378918432e-05,
+    "strategy_weighted_rmse": 2.1582132124567026e-05,
+    "team_mae": 2.1409174146636013e-05
+  },
+  "training_fixed_05": {
+    "strategy_weighted_mae": 0.0002234536514818431,
+    "strategy_weighted_rmse": 0.00026022302420423835,
+    "team_mae": 0.00017288010645312711
+  },
+  "strategy_cv": [
+    {
+      "held_strategy": [
+        600.0,
+        700.0
+      ],
+      "train_teams": [
+        "花儿与少年",
+        "市不可挡",
+        "WePlay",
+        "赢是因为拼",
+        "合法印钞队",
+        "营销团队",
+        "好运连连队",
+        "鱼你一起",
+        "你说得不对我说得队"
+      ],
+      "held_teams": [
+        "从容应队"
+      ],
+      "fitted": {
+        "rho": 0.558,
+        "theta": 0.17007728724559282,
+        "weighted_rmse": 2.4495620735344017e-05,
+        "index": 558
+      },
+      "optimized": {
+        "strategy_weighted_mae": 9.323478789541317e-06,
+        "strategy_weighted_rmse": 9.323478789541317e-06,
+        "team_mae": 9.323478789541317e-06
+      },
+      "fixed_05": {
+        "strategy_weighted_mae": 0.00042086903194171743,
+        "strategy_weighted_rmse": 0.00042086903194171743,
+        "team_mae": 0.00042086903194171743
+      }
+    },
+    {
+      "held_strategy": [
+        700.0,
+        700.0
+      ],
+      "train_teams": [
+        "WePlay",
+        "好运连连队",
+        "从容应队"
+      ],
+      "held_teams": [
+        "花儿与少年",
+        "市不可挡",
+        "赢是因为拼",
+        "合法印钞队",
+        "营销团队",
+        "鱼你一起",
+        "你说得不对我说得队"
+      ],
+      "fitted": {
+        "rho": 0.56,
+        "theta": 0.17006023017710592,
+        "weighted_rmse": 1.4386925996021561e-05,
+        "index": 560
+      },
+      "optimized": {
+        "strategy_weighted_mae": 3.2715295027471326e-05,
+        "strategy_weighted_rmse": 4.0311659303406365e-05,
+        "team_mae": 3.2715295027471326e-05
+      },
+      "fixed_05": {
+        "strategy_weighted_mae": 0.00018339676150240712,
+        "strategy_weighted_rmse": 0.00018508865059581404,
+        "team_mae": 0.00018339676150240712
+      }
+    },
+    {
+      "held_strategy": [
+        900.0,
+        700.0
+      ],
+      "train_teams": [
+        "花儿与少年",
+        "市不可挡",
+        "赢是因为拼",
+        "合法印钞队",
+        "营销团队",
+        "好运连连队",
+        "鱼你一起",
+        "从容应队",
+        "你说得不对我说得队"
+      ],
+      "held_teams": [
+        "WePlay"
+      ],
+      "fitted": {
+        "rho": 0.559,
+        "theta": 0.1700571282131579,
+        "weighted_rmse": 1.729729426175946e-05,
+        "index": 559
+      },
+      "optimized": {
+        "strategy_weighted_mae": 3.595955951121721e-05,
+        "strategy_weighted_rmse": 3.595955951121721e-05,
+        "team_mae": 3.595955951121721e-05
+      },
+      "fixed_05": {
+        "strategy_weighted_mae": 7.038364267455965e-05,
+        "strategy_weighted_rmse": 7.038364267455965e-05,
+        "team_mae": 7.038364267455965e-05
+      }
+    },
+    {
+      "held_strategy": [
+        1300.0,
+        700.0
+      ],
+      "train_teams": [
+        "花儿与少年",
+        "市不可挡",
+        "WePlay",
+        "赢是因为拼",
+        "合法印钞队",
+        "营销团队",
+        "鱼你一起",
+        "从容应队",
+        "你说得不对我说得队"
+      ],
+      "held_teams": [
+        "好运连连队"
+      ],
+      "fitted": {
+        "rho": 0.555,
+        "theta": 0.17013120820867644,
+        "weighted_rmse": 2.1257014240270408e-05,
+        "index": 555
+      },
+      "optimized": {
+        "strategy_weighted_mae": 4.3699894697046826e-05,
+        "strategy_weighted_rmse": 4.3699894697046826e-05,
+        "team_mae": 4.3699894697046826e-05
+      },
+      "fixed_05": {
+        "strategy_weighted_mae": 0.0005211232841403624,
+        "strategy_weighted_rmse": 0.0005211232841403624,
+        "team_mae": 0.0005211232841403624
+      }
+    }
+  ],
+  "cv_optimized_rmse": 3.5052559996763034e-05,
+  "cv_fixed_05_rmse": 0.0003492534484641185,
+  "rounding_compatibility": {
+    "display_rounding_assumption": "nearest two decimals, independently unverified",
+    "feasible_grid_rhos": [
+      0.551,
+      0.552,
+      0.553,
+      0.554,
+      0.555,
+      0.556,
+      0.557,
+      0.558,
+      0.559,
+      0.56,
+      0.561,
+      0.562,
+      0.5630000000000001,
+      0.5640000000000001,
+      0.5650000000000001,
+      0.5660000000000001,
+      0.5670000000000001,
+      0.5680000000000001,
+      0.5690000000000001
+    ],
+    "feasible_range": [
+      0.551,
+      0.5690000000000001
+    ],
+    "interpretation": "共同技术尺度与舍入区间同时兼容的网格集合；不是统计置信区间"
+  },
+  "round2_frozen_scale_diagnostic": {
+    "optimized": {
+      "strategy_weighted_mae": 0.0004217419569621644,
+      "strategy_weighted_rmse": 0.0005753367955892653,
+      "team_mae": 0.00038727730298725724
+    },
+    "fixed_05": {
+      "strategy_weighted_mae": 0.0004804309782133395,
+      "strategy_weighted_rmse": 0.0006770924931819751,
+      "team_mae": 0.0004021169321779067
+    }
+  },
+  "round2_separate_fit_diagnostic": {
+    "rho": 0.5660000000000001,
+    "theta": 0.169605991487711,
+    "weighted_rmse": 0.0004259641618276973,
+    "index": 566
+  },
+  "formal_candidate_status": "RESEARCH_CANDIDATE_NOT_DEPLOYED",
+  "checks": {
+    "synthetic_recovery": true,
+    "duplicate_strategy_invariance": true,
+    "single_strategy_nonidentifiability": true,
+    "heldout_disjoint": true
+  },
+  "limitations": [
+    "仅4种练习1投入策略，上期投入均700；技术尺度与rho存在混杂",
+    "留出整种投入策略，外层训练内独立选择rho和theta；不是正式外部验证",
+    "练习2情境改变，不能以回溯误差选择正式1参数",
+    "曲线参数冻结；图形读数精度与曲线形式不确定性未传播",
+    "仅保留上一期投入；更早历史存量、技术变化、交互及大于1的rho未识别",
+    "运营400仍低于练习1投入范围600–1300；不输出利润最优投入"
+  ],
+  "operations_400_efficiency": {
+    "optimized": 0.1612447126424178,
+    "fixed_05": 0.16047629178494535
+  }
+}

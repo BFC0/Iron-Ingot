@@ -1,0 +1,19 @@
+{
+  "status": "DISCLOSED_RAW_BASELINE_OVERWRITE",
+  "cause": "旧capture函数闭包仍指向原目录；两次复用基准文件名覆盖旧原件",
+  "affected": [
+    {
+      "file": "output/model_v2/20261011T195500_live/checklist_before.json",
+      "expected_sha256": "e1d7ef27f6a56158e701df4c9e703b1994eb31efe53228c5daef60f3357a716c",
+      "current_sha256": "40d603521bea8042ab1b9438c49f7e1d8a764098d76d2aa204d1a84762b03945"
+    },
+    {
+      "file": "output/model_v2/20261011T195500_live/production_before.json",
+      "expected_sha256": "cfea2ea19db8e75c52622467615b093a78136ff23d3cc088805fb839c2bafedb",
+      "current_sha256": "62886b0ac4414ca2e88c4c6a0613037a15b561e869b8d487fb0c6f9847f85c14"
+    }
+  ],
+  "raw_originals_recovered": false,
+  "remediation": "本次文件复制到新独立目录；后续写入显式路径并使用wx；旧派生报告及其他原件保留，旧基准缺口不伪装复原",
+  "frozen_derived_record": "output/model_v2/20261011T204411978414+0800/live_trials.json"
+}

@@ -1,0 +1,295 @@
+[
+  {
+    "name": "需求预测总量",
+    "formula": "5 + 11",
+    "value": 16.0,
+    "unit": "千单位",
+    "sources": [
+      "round1_demand.json"
+    ]
+  },
+  {
+    "name": "预测供给覆盖率",
+    "formula": "3.4 / (5 + 11) * 100",
+    "value": 21.25,
+    "unit": "%",
+    "sources": [
+      "round1_demand.json",
+      "round1_production.json"
+    ]
+  },
+  {
+    "name": "预测供给缺口",
+    "formula": "(5 + 11) - 3.4",
+    "value": 12.6,
+    "unit": "千单位",
+    "sources": [
+      "round1_demand.json",
+      "round1_production.json"
+    ]
+  },
+  {
+    "name": "无新增投资下回合产能",
+    "formula": "17 * (1 - 15 / 100)",
+    "value": 14.45,
+    "unit": "千单位",
+    "sources": [
+      "round1_investments.json",
+      "round1_outlook.json"
+    ]
+  },
+  {
+    "name": "当前产能满足预测需求所需利用率",
+    "formula": "(5 + 11) / 17 * 100",
+    "value": 94.11764705882352,
+    "unit": "%",
+    "sources": [
+      "round1_demand.json",
+      "round1_production.json"
+    ]
+  },
+  {
+    "name": "预测工人数",
+    "formula": "3.4 / 0.15",
+    "value": 22.666666666666668,
+    "unit": "人",
+    "sources": [
+      "round1_production.json"
+    ]
+  },
+  {
+    "name": "按平台当前销售分配的预算收入",
+    "formula": "3.4 * 3000 + 0 * 2000",
+    "value": 10200.0,
+    "unit": "千美元",
+    "sources": [
+      "round1_sales_thailand.json",
+      "round1_sales_indonesia.json"
+    ]
+  },
+  {
+    "name": "长期利息预算",
+    "formula": "17000 * 3 / 100",
+    "value": 510.0,
+    "unit": "千美元",
+    "sources": [
+      "round1_finance.json"
+    ]
+  },
+  {
+    "name": "预算税前利润",
+    "formula": "-2301 + 148 - 510 - 0",
+    "value": -2663,
+    "unit": "千美元",
+    "sources": [
+      "round1_budget_income.json"
+    ]
+  },
+  {
+    "name": "预算现金变化",
+    "formula": "14563 - 15004",
+    "value": -441,
+    "unit": "千美元",
+    "sources": [
+      "round1_budget_cashflow.json"
+    ]
+  },
+  {
+    "name": "累计收益差分推算当期利润",
+    "formula": "-1370.3 - 1292.8",
+    "value": -2663.1,
+    "unit": "千美元",
+    "sources": [
+      "round1_budget_ratios.json"
+    ]
+  },
+  {
+    "name": "练习1竞争者泰国价格中位数",
+    "formula": "median(剔除营销团队后的9队价格)",
+    "value": 1800.0,
+    "unit": "美元/单位",
+    "sources": [
+      "practice1_printable.json"
+    ]
+  },
+  {
+    "name": "练习1本队泰国价格溢价",
+    "formula": "(3000 / 1800 - 1) * 100",
+    "value": 66.66666666666667,
+    "unit": "%",
+    "sources": [
+      "practice1_printable.json"
+    ]
+  },
+  {
+    "name": "练习1印尼需求满足率",
+    "formula": "3.01 / 13.07 * 100",
+    "value": 23.02983932670237,
+    "unit": "%",
+    "sources": [
+      "practice1_printable.json"
+    ]
+  },
+  {
+    "name": "initial0 营业收入净额, 千 美元",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": 31136.0,
+    "unit": "千美元",
+    "sources": [
+      "initial0_printable.json"
+    ]
+  },
+  {
+    "name": "initial0 本回合利润, 千 美元",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": 1293.0,
+    "unit": "千美元",
+    "sources": [
+      "initial0_printable.json"
+    ]
+  },
+  {
+    "name": "initial0 累计收益, 千 美元",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": 1293.0,
+    "unit": "千美元",
+    "sources": [
+      "initial0_printable.json"
+    ]
+  },
+  {
+    "name": "initial0 现金及现金等价物",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": 15004.0,
+    "unit": "千美元",
+    "sources": [
+      "initial0_printable.json"
+    ]
+  },
+  {
+    "name": "initial0 短期贷款",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": 0.0,
+    "unit": "千美元",
+    "sources": [
+      "initial0_printable.json"
+    ]
+  },
+  {
+    "name": "initial0 净现金",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": 15004.0,
+    "unit": "千美元",
+    "sources": [
+      "initial0_printable.json"
+    ]
+  },
+  {
+    "name": "practice1 营业收入净额, 千 美元",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": 7187.0,
+    "unit": "千美元",
+    "sources": [
+      "practice1_printable.json"
+    ]
+  },
+  {
+    "name": "practice1 本回合利润, 千 美元",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": -5958.0,
+    "unit": "千美元",
+    "sources": [
+      "practice1_printable.json"
+    ]
+  },
+  {
+    "name": "practice1 累计收益, 千 美元",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": -4665.0,
+    "unit": "千美元",
+    "sources": [
+      "practice1_printable.json"
+    ]
+  },
+  {
+    "name": "practice1 现金及现金等价物",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": 11516.0,
+    "unit": "千美元",
+    "sources": [
+      "practice1_printable.json"
+    ]
+  },
+  {
+    "name": "practice1 短期贷款",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": 0.0,
+    "unit": "千美元",
+    "sources": [
+      "practice1_printable.json"
+    ]
+  },
+  {
+    "name": "practice1 净现金",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": 11516.0,
+    "unit": "千美元",
+    "sources": [
+      "practice1_printable.json"
+    ]
+  },
+  {
+    "name": "practice2 营业收入净额, 千 美元",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": 15309.0,
+    "unit": "千美元",
+    "sources": [
+      "practice2_printable.json"
+    ]
+  },
+  {
+    "name": "practice2 本回合利润, 千 美元",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": -3342.0,
+    "unit": "千美元",
+    "sources": [
+      "practice2_printable.json"
+    ]
+  },
+  {
+    "name": "practice2 累计收益, 千 美元",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": -8007.0,
+    "unit": "千美元",
+    "sources": [
+      "practice2_printable.json"
+    ]
+  },
+  {
+    "name": "practice2 现金及现金等价物",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": 2000.0,
+    "unit": "千美元",
+    "sources": [
+      "practice2_printable.json"
+    ]
+  },
+  {
+    "name": "practice2 短期贷款",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": 11217.0,
+    "unit": "千美元",
+    "sources": [
+      "practice2_printable.json"
+    ]
+  },
+  {
+    "name": "practice2 净现金",
+    "formula": "原始报告第6队（营销团队）单元格；直接读取，不是预测",
+    "value": -9217.0,
+    "unit": "千美元",
+    "sources": [
+      "practice2_printable.json"
+    ]
+  }
+]

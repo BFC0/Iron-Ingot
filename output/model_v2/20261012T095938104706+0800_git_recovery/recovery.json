@@ -1,0 +1,22 @@
+{
+  "status": "RECOVERED_EXACT_ORIGINALS_FROM_GIT_OBJECTS",
+  "recovered_at": "20261012T095938104706+0800",
+  "files": [
+    {
+      "file": "output/model_v2/20261011T195500_live/checklist_before.json",
+      "git_blob": "3c683074738c48bcee6ee8ac14a9fd4cc55e0bf4",
+      "restored_sha256": "e1d7ef27f6a56158e701df4c9e703b1994eb31efe53228c5daef60f3357a716c",
+      "overwritten_sha256": "48dec8e990cf796ce6ea7232c6b29a6258cd27d7ed4acc09a3c85052dfebebd4",
+      "backup": "output\\model_v2\\20261012T095938104706+0800_git_recovery\\checklist_before_overwritten_backup.json"
+    },
+    {
+      "file": "output/model_v2/20261011T195500_live/production_before.json",
+      "git_blob": "274e28806d23a4a49d178b9d4d97e4df64bc1f98",
+      "restored_sha256": "cfea2ea19db8e75c52622467615b093a78136ff23d3cc088805fb839c2bafedb",
+      "overwritten_sha256": "1ebe15e3b2f6192e2eab11fc6f83fbaa9c3087ff2ecf0c1d5e8867901bdede09",
+      "backup": "output\\model_v2\\20261012T095938104706+0800_git_recovery\\production_before_overwritten_backup.json"
+    }
+  ],
+  "original_incident_preserved": true,
+  "verification": "Both restored files match pre-overwrite SHA-256 and parse as JSON"
+}

@@ -1,0 +1,6327 @@
+{
+  "generated_at": "2026-10-11T03:47:22.550380+00:00",
+  "status": "EXPLORATORY_NOT_DECISION_READY",
+  "coefficient_names": [
+    "泰国截距",
+    "印尼截距",
+    "泰国价格弹性",
+    "印尼价格弹性",
+    "合计一般营销代理",
+    "合计设计师营销代理",
+    "研发投入代理"
+  ],
+  "coefficients": [
+    1.1899569547124214,
+    2.2172243406619287,
+    2.4736664773370927,
+    0.35971438092483204,
+    0.412871115267101,
+    0.33506138762544496,
+    1.0722075366156027e-19
+  ],
+  "penalty": 1.0,
+  "rd_persistence": 0.5,
+  "formula": "D=exp(country_intercept - country_elasticity*log(P/P0) + bg*log1p(G/1000) + bd*log1p(M/1000) + br*log1p((R+rho*Rprev)/1000))",
+  "reference_prices": {
+    "泰国": 1800,
+    "印尼": 2000
+  },
+  "units": {
+    "demand": "千单位",
+    "price": "美元/单位",
+    "spend": "千美元"
+  },
+  "objective": "sum((log(D)-Xb)^2)+lambda*sum(b[2:]^2)",
+  "source_hashes": {
+    "结构化模型输入.json": "5b3d04c8d57bcbe651b155ff6aad81a6c177976baf1c76b7968ef05a914aaa19",
+    "raw/practice1_printable.json": "a8338d525ec6455ab7a14dba89d8631e1f73452347ac181e503a64d1b811d4e3",
+    "raw/practice2_printable.json": "95c28cfee1e78d8a62bf3d4be80ad3aa8fb18e2724356d85aa035133a70aaf9d"
+  },
+  "source_cell_check_count": 140,
+  "input_rows": [
+    {
+      "team": "花儿与少年",
+      "round": 1,
+      "market": "泰国",
+      "price": 1800.0,
+      "demand": 5.03,
+      "general": 400.0,
+      "designer": 300.0,
+      "rd": 600.0,
+      "previous_rd": 0.0,
+      "supply_limited": true,
+      "demand_source": {
+        "value": 5.03,
+        "file": "raw/practice1_printable.json",
+        "line": 912,
+        "column": 1,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1800.0,
+        "file": "raw/practice1_printable.json",
+        "line": 674,
+        "column": 1,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 400.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 1,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 300.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 1,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 1,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "花儿与少年",
+      "round": 1,
+      "market": "印尼",
+      "price": 2000.0,
+      "demand": 13.07,
+      "general": 400.0,
+      "designer": 300.0,
+      "rd": 600.0,
+      "previous_rd": 0.0,
+      "supply_limited": true,
+      "demand_source": {
+        "value": 13.07,
+        "file": "raw/practice1_printable.json",
+        "line": 935,
+        "column": 1,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2000.0,
+        "file": "raw/practice1_printable.json",
+        "line": 697,
+        "column": 1,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 400.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 1,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 300.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 1,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 1,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "市不可挡",
+      "round": 1,
+      "market": "泰国",
+      "price": 1900.0,
+      "demand": 4.18,
+      "general": 300.0,
+      "designer": 400.0,
+      "rd": 600.0,
+      "previous_rd": 0.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 4.18,
+        "file": "raw/practice1_printable.json",
+        "line": 912,
+        "column": 2,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1900.0,
+        "file": "raw/practice1_printable.json",
+        "line": 674,
+        "column": 2,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 300.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 2,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 400.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 2,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 2,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "市不可挡",
+      "round": 1,
+      "market": "印尼",
+      "price": 2900.0,
+      "demand": 4.96,
+      "general": 300.0,
+      "designer": 400.0,
+      "rd": 600.0,
+      "previous_rd": 0.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 4.96,
+        "file": "raw/practice1_printable.json",
+        "line": 935,
+        "column": 2,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2900.0,
+        "file": "raw/practice1_printable.json",
+        "line": 697,
+        "column": 2,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 300.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 2,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 400.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 2,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 2,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "WePlay",
+      "round": 1,
+      "market": "泰国",
+      "price": 1830.0,
+      "demand": 5.04,
+      "general": 550.0,
+      "designer": 400.0,
+      "rd": 800.0,
+      "previous_rd": 0.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 5.04,
+        "file": "raw/practice1_printable.json",
+        "line": 912,
+        "column": 3,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1830.0,
+        "file": "raw/practice1_printable.json",
+        "line": 674,
+        "column": 3,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 550.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 3,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 400.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 3,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 800.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 3,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "WePlay",
+      "round": 1,
+      "market": "印尼",
+      "price": 2080.0,
+      "demand": 13.03,
+      "general": 550.0,
+      "designer": 400.0,
+      "rd": 800.0,
+      "previous_rd": 0.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 13.03,
+        "file": "raw/practice1_printable.json",
+        "line": 935,
+        "column": 3,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2080.0,
+        "file": "raw/practice1_printable.json",
+        "line": 697,
+        "column": 3,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 550.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 3,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 400.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 3,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 800.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 3,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "赢是因为拼",
+      "round": 1,
+      "market": "泰国",
+      "price": 1800.0,
+      "demand": 5.03,
+      "general": 400.0,
+      "designer": 300.0,
+      "rd": 600.0,
+      "previous_rd": 0.0,
+      "supply_limited": true,
+      "demand_source": {
+        "value": 5.03,
+        "file": "raw/practice1_printable.json",
+        "line": 912,
+        "column": 4,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1800.0,
+        "file": "raw/practice1_printable.json",
+        "line": 674,
+        "column": 4,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 400.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 4,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 300.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 4,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 4,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "赢是因为拼",
+      "round": 1,
+      "market": "印尼",
+      "price": 2000.0,
+      "demand": 13.07,
+      "general": 400.0,
+      "designer": 300.0,
+      "rd": 600.0,
+      "previous_rd": 0.0,
+      "supply_limited": true,
+      "demand_source": {
+        "value": 13.07,
+        "file": "raw/practice1_printable.json",
+        "line": 935,
+        "column": 4,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2000.0,
+        "file": "raw/practice1_printable.json",
+        "line": 697,
+        "column": 4,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 400.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 4,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 300.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 4,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 4,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "合法印钞队",
+      "round": 1,
+      "market": "泰国",
+      "price": 1800.0,
+      "demand": 5.03,
+      "general": 450.0,
+      "designer": 450.0,
+      "rd": 600.0,
+      "previous_rd": 0.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 5.03,
+        "file": "raw/practice1_printable.json",
+        "line": 912,
+        "column": 5,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1800.0,
+        "file": "raw/practice1_printable.json",
+        "line": 674,
+        "column": 5,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 450.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 5,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 450.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 5,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 5,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "合法印钞队",
+      "round": 1,
+      "market": "印尼",
+      "price": 1888.0,
+      "demand": 15.63,
+      "general": 450.0,
+      "designer": 450.0,
+      "rd": 600.0,
+      "previous_rd": 0.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 15.63,
+        "file": "raw/practice1_printable.json",
+        "line": 935,
+        "column": 5,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1888.0,
+        "file": "raw/practice1_printable.json",
+        "line": 697,
+        "column": 5,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 450.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 5,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 450.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 5,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 5,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "营销团队",
+      "round": 1,
+      "market": "泰国",
+      "price": 3000.0,
+      "demand": 0.39,
+      "general": 250.0,
+      "designer": 150.0,
+      "rd": 600.0,
+      "previous_rd": 0.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 0.39,
+        "file": "raw/practice1_printable.json",
+        "line": 912,
+        "column": 6,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 3000.0,
+        "file": "raw/practice1_printable.json",
+        "line": 674,
+        "column": 6,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 250.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 6,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 150.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 6,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 6,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "营销团队",
+      "round": 1,
+      "market": "印尼",
+      "price": 2000.0,
+      "demand": 13.07,
+      "general": 250.0,
+      "designer": 150.0,
+      "rd": 600.0,
+      "previous_rd": 0.0,
+      "supply_limited": true,
+      "demand_source": {
+        "value": 13.07,
+        "file": "raw/practice1_printable.json",
+        "line": 935,
+        "column": 6,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2000.0,
+        "file": "raw/practice1_printable.json",
+        "line": 697,
+        "column": 6,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 250.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 6,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 150.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 6,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 6,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "好运连连队",
+      "round": 1,
+      "market": "泰国",
+      "price": 1800.0,
+      "demand": 6.27,
+      "general": 1350.0,
+      "designer": 2650.0,
+      "rd": 900.0,
+      "previous_rd": 0.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 6.27,
+        "file": "raw/practice1_printable.json",
+        "line": 912,
+        "column": 7,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1800.0,
+        "file": "raw/practice1_printable.json",
+        "line": 674,
+        "column": 7,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 1350.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 7,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 2650.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 7,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 900.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 7,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "好运连连队",
+      "round": 1,
+      "market": "印尼",
+      "price": 2200.0,
+      "demand": 14.87,
+      "general": 1350.0,
+      "designer": 2650.0,
+      "rd": 900.0,
+      "previous_rd": 0.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 14.87,
+        "file": "raw/practice1_printable.json",
+        "line": 935,
+        "column": 7,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2200.0,
+        "file": "raw/practice1_printable.json",
+        "line": 697,
+        "column": 7,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 1350.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 7,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 2650.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 7,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 900.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 7,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "鱼你一起",
+      "round": 1,
+      "market": "泰国",
+      "price": 1790.0,
+      "demand": 5.25,
+      "general": 385.0,
+      "designer": 330.0,
+      "rd": 700.0,
+      "previous_rd": 0.0,
+      "supply_limited": true,
+      "demand_source": {
+        "value": 5.25,
+        "file": "raw/practice1_printable.json",
+        "line": 912,
+        "column": 8,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1790.0,
+        "file": "raw/practice1_printable.json",
+        "line": 674,
+        "column": 8,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 385.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 8,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 330.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 8,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 700.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 8,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "鱼你一起",
+      "round": 1,
+      "market": "印尼",
+      "price": 2020.0,
+      "demand": 13.04,
+      "general": 385.0,
+      "designer": 330.0,
+      "rd": 700.0,
+      "previous_rd": 0.0,
+      "supply_limited": true,
+      "demand_source": {
+        "value": 13.04,
+        "file": "raw/practice1_printable.json",
+        "line": 935,
+        "column": 8,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2020.0,
+        "file": "raw/practice1_printable.json",
+        "line": 697,
+        "column": 8,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 385.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 8,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 330.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 8,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 700.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 8,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "从容应队",
+      "round": 1,
+      "market": "泰国",
+      "price": 1790.0,
+      "demand": 4.96,
+      "general": 370.0,
+      "designer": 260.0,
+      "rd": 500.0,
+      "previous_rd": 0.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 4.96,
+        "file": "raw/practice1_printable.json",
+        "line": 912,
+        "column": 9,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1790.0,
+        "file": "raw/practice1_printable.json",
+        "line": 674,
+        "column": 9,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 370.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 9,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 260.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 9,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 500.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 9,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "从容应队",
+      "round": 1,
+      "market": "印尼",
+      "price": 1930.0,
+      "demand": 13.59,
+      "general": 370.0,
+      "designer": 260.0,
+      "rd": 500.0,
+      "previous_rd": 0.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 13.59,
+        "file": "raw/practice1_printable.json",
+        "line": 935,
+        "column": 9,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1930.0,
+        "file": "raw/practice1_printable.json",
+        "line": 697,
+        "column": 9,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 370.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 9,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 260.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 9,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 500.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 9,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "你说得不对我说得队",
+      "round": 1,
+      "market": "泰国",
+      "price": 1790.0,
+      "demand": 5.23,
+      "general": 450.0,
+      "designer": 350.0,
+      "rd": 600.0,
+      "previous_rd": 0.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 5.23,
+        "file": "raw/practice1_printable.json",
+        "line": 912,
+        "column": 10,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1790.0,
+        "file": "raw/practice1_printable.json",
+        "line": 674,
+        "column": 10,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 450.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 10,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 350.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 10,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 10,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "你说得不对我说得队",
+      "round": 1,
+      "market": "印尼",
+      "price": 2100.0,
+      "demand": 11.89,
+      "general": 450.0,
+      "designer": 350.0,
+      "rd": 600.0,
+      "previous_rd": 0.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 11.89,
+        "file": "raw/practice1_printable.json",
+        "line": 935,
+        "column": 10,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2100.0,
+        "file": "raw/practice1_printable.json",
+        "line": 697,
+        "column": 10,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 450.0,
+          "file": "raw/practice1_printable.json",
+          "line": 344,
+          "column": 10,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 350.0,
+          "file": "raw/practice1_printable.json",
+          "line": 367,
+          "column": 10,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice1_printable.json",
+          "line": 390,
+          "column": 10,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": null
+    },
+    {
+      "team": "花儿与少年",
+      "round": 2,
+      "market": "泰国",
+      "price": 1800.0,
+      "demand": 5.79,
+      "general": 400.0,
+      "designer": 300.0,
+      "rd": 600.0,
+      "previous_rd": 600.0,
+      "supply_limited": true,
+      "demand_source": {
+        "value": 5.79,
+        "file": "raw/practice2_printable.json",
+        "line": 912,
+        "column": 1,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1800.0,
+        "file": "raw/practice2_printable.json",
+        "line": 674,
+        "column": 1,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 400.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 1,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 300.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 1,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 1,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 600.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 1,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "花儿与少年",
+      "round": 2,
+      "market": "印尼",
+      "price": 2000.0,
+      "demand": 12.59,
+      "general": 400.0,
+      "designer": 300.0,
+      "rd": 600.0,
+      "previous_rd": 600.0,
+      "supply_limited": true,
+      "demand_source": {
+        "value": 12.59,
+        "file": "raw/practice2_printable.json",
+        "line": 935,
+        "column": 1,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2000.0,
+        "file": "raw/practice2_printable.json",
+        "line": 697,
+        "column": 1,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 400.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 1,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 300.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 1,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 1,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 600.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 1,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "市不可挡",
+      "round": 2,
+      "market": "泰国",
+      "price": 1850.0,
+      "demand": 4.75,
+      "general": 380.0,
+      "designer": 820.0,
+      "rd": 600.0,
+      "previous_rd": 600.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 4.75,
+        "file": "raw/practice2_printable.json",
+        "line": 912,
+        "column": 2,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1850.0,
+        "file": "raw/practice2_printable.json",
+        "line": 674,
+        "column": 2,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 380.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 2,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 820.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 2,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 2,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 600.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 2,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "市不可挡",
+      "round": 2,
+      "market": "印尼",
+      "price": 2100.0,
+      "demand": 13.35,
+      "general": 380.0,
+      "designer": 820.0,
+      "rd": 600.0,
+      "previous_rd": 600.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 13.35,
+        "file": "raw/practice2_printable.json",
+        "line": 935,
+        "column": 2,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2100.0,
+        "file": "raw/practice2_printable.json",
+        "line": 697,
+        "column": 2,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 380.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 2,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 820.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 2,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 2,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 600.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 2,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "WePlay",
+      "round": 2,
+      "market": "泰国",
+      "price": 1990.0,
+      "demand": 5.0,
+      "general": 800.0,
+      "designer": 880.0,
+      "rd": 900.0,
+      "previous_rd": 800.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 5.0,
+        "file": "raw/practice2_printable.json",
+        "line": 912,
+        "column": 3,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1990.0,
+        "file": "raw/practice2_printable.json",
+        "line": 674,
+        "column": 3,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 800.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 3,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 880.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 3,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 900.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 3,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 800.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 3,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "WePlay",
+      "round": 2,
+      "market": "印尼",
+      "price": 2260.0,
+      "demand": 12.96,
+      "general": 800.0,
+      "designer": 880.0,
+      "rd": 900.0,
+      "previous_rd": 800.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 12.96,
+        "file": "raw/practice2_printable.json",
+        "line": 935,
+        "column": 3,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2260.0,
+        "file": "raw/practice2_printable.json",
+        "line": 697,
+        "column": 3,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 800.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 3,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 880.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 3,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 900.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 3,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 800.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 3,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "赢是因为拼",
+      "round": 2,
+      "market": "泰国",
+      "price": 1800.0,
+      "demand": 5.79,
+      "general": 400.0,
+      "designer": 300.0,
+      "rd": 600.0,
+      "previous_rd": 600.0,
+      "supply_limited": true,
+      "demand_source": {
+        "value": 5.79,
+        "file": "raw/practice2_printable.json",
+        "line": 912,
+        "column": 4,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1800.0,
+        "file": "raw/practice2_printable.json",
+        "line": 674,
+        "column": 4,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 400.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 4,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 300.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 4,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 4,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 600.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 4,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "赢是因为拼",
+      "round": 2,
+      "market": "印尼",
+      "price": 2000.0,
+      "demand": 12.59,
+      "general": 400.0,
+      "designer": 300.0,
+      "rd": 600.0,
+      "previous_rd": 600.0,
+      "supply_limited": true,
+      "demand_source": {
+        "value": 12.59,
+        "file": "raw/practice2_printable.json",
+        "line": 935,
+        "column": 4,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2000.0,
+        "file": "raw/practice2_printable.json",
+        "line": 697,
+        "column": 4,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 400.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 4,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 300.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 4,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 600.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 4,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 600.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 4,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "合法印钞队",
+      "round": 2,
+      "market": "泰国",
+      "price": 1900.0,
+      "demand": 9.36,
+      "general": 2500.0,
+      "designer": 3100.0,
+      "rd": 2000.0,
+      "previous_rd": 600.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 9.36,
+        "file": "raw/practice2_printable.json",
+        "line": 912,
+        "column": 5,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1900.0,
+        "file": "raw/practice2_printable.json",
+        "line": 674,
+        "column": 5,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 2500.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 5,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 3100.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 5,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 2000.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 5,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 600.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 5,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "合法印钞队",
+      "round": 2,
+      "market": "印尼",
+      "price": 2200.0,
+      "demand": 19.28,
+      "general": 2500.0,
+      "designer": 3100.0,
+      "rd": 2000.0,
+      "previous_rd": 600.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 19.28,
+        "file": "raw/practice2_printable.json",
+        "line": 935,
+        "column": 5,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2200.0,
+        "file": "raw/practice2_printable.json",
+        "line": 697,
+        "column": 5,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 2500.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 5,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 3100.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 5,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 2000.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 5,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 600.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 5,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "营销团队",
+      "round": 2,
+      "market": "泰国",
+      "price": 4000.0,
+      "demand": 0.04,
+      "general": 210.0,
+      "designer": 150.0,
+      "rd": 750.0,
+      "previous_rd": 600.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 0.04,
+        "file": "raw/practice2_printable.json",
+        "line": 912,
+        "column": 6,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 4000.0,
+        "file": "raw/practice2_printable.json",
+        "line": 674,
+        "column": 6,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 210.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 6,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 150.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 6,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 750.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 6,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 600.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 6,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "营销团队",
+      "round": 2,
+      "market": "印尼",
+      "price": 2000.0,
+      "demand": 12.8,
+      "general": 210.0,
+      "designer": 150.0,
+      "rd": 750.0,
+      "previous_rd": 600.0,
+      "supply_limited": true,
+      "demand_source": {
+        "value": 12.8,
+        "file": "raw/practice2_printable.json",
+        "line": 935,
+        "column": 6,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2000.0,
+        "file": "raw/practice2_printable.json",
+        "line": 697,
+        "column": 6,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 210.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 6,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 150.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 6,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 750.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 6,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 600.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 6,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "好运连连队",
+      "round": 2,
+      "market": "泰国",
+      "price": 1850.0,
+      "demand": 8.24,
+      "general": 1700.0,
+      "designer": 2750.0,
+      "rd": 1200.0,
+      "previous_rd": 900.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 8.24,
+        "file": "raw/practice2_printable.json",
+        "line": 912,
+        "column": 7,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1850.0,
+        "file": "raw/practice2_printable.json",
+        "line": 674,
+        "column": 7,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 1700.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 7,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 2750.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 7,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 1200.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 7,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 900.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 7,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "好运连连队",
+      "round": 2,
+      "market": "印尼",
+      "price": 2150.0,
+      "demand": 20.87,
+      "general": 1700.0,
+      "designer": 2750.0,
+      "rd": 1200.0,
+      "previous_rd": 900.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 20.87,
+        "file": "raw/practice2_printable.json",
+        "line": 935,
+        "column": 7,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2150.0,
+        "file": "raw/practice2_printable.json",
+        "line": 697,
+        "column": 7,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 1700.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 7,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 2750.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 7,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 1200.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 7,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 900.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 7,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "鱼你一起",
+      "round": 2,
+      "market": "泰国",
+      "price": 1810.0,
+      "demand": 6.15,
+      "general": 420.0,
+      "designer": 640.0,
+      "rd": 800.0,
+      "previous_rd": 700.0,
+      "supply_limited": true,
+      "demand_source": {
+        "value": 6.15,
+        "file": "raw/practice2_printable.json",
+        "line": 912,
+        "column": 8,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1810.0,
+        "file": "raw/practice2_printable.json",
+        "line": 674,
+        "column": 8,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 420.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 8,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 640.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 8,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 800.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 8,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 700.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 8,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "鱼你一起",
+      "round": 2,
+      "market": "印尼",
+      "price": 2040.0,
+      "demand": 13.18,
+      "general": 420.0,
+      "designer": 640.0,
+      "rd": 800.0,
+      "previous_rd": 700.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 13.18,
+        "file": "raw/practice2_printable.json",
+        "line": 935,
+        "column": 8,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2040.0,
+        "file": "raw/practice2_printable.json",
+        "line": 697,
+        "column": 8,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 420.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 8,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 640.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 8,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 800.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 8,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 700.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 8,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "从容应队",
+      "round": 2,
+      "market": "泰国",
+      "price": 1849.9,
+      "demand": 5.35,
+      "general": 445.0,
+      "designer": 322.0,
+      "rd": 610.0,
+      "previous_rd": 500.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 5.35,
+        "file": "raw/practice2_printable.json",
+        "line": 912,
+        "column": 9,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 1849.9,
+        "file": "raw/practice2_printable.json",
+        "line": 674,
+        "column": 9,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 445.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 9,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 322.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 9,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 610.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 9,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 500.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 9,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "从容应队",
+      "round": 2,
+      "market": "印尼",
+      "price": 2229.9,
+      "demand": 9.86,
+      "general": 445.0,
+      "designer": 322.0,
+      "rd": 610.0,
+      "previous_rd": 500.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 9.86,
+        "file": "raw/practice2_printable.json",
+        "line": 935,
+        "column": 9,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2229.9,
+        "file": "raw/practice2_printable.json",
+        "line": 697,
+        "column": 9,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 445.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 9,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 322.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 9,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 610.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 9,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 500.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 9,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "你说得不对我说得队",
+      "round": 2,
+      "market": "泰国",
+      "price": 2000.0,
+      "demand": 5.3,
+      "general": 600.0,
+      "designer": 1300.0,
+      "rd": 900.0,
+      "previous_rd": 600.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 5.3,
+        "file": "raw/practice2_printable.json",
+        "line": 912,
+        "column": 10,
+        "label": "泰国",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2000.0,
+        "file": "raw/practice2_printable.json",
+        "line": 674,
+        "column": 10,
+        "label": "泰国, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 600.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 10,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 1300.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 10,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 900.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 10,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 600.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 10,
+        "label": "研发",
+        "occurrence": 0
+      }
+    },
+    {
+      "team": "你说得不对我说得队",
+      "round": 2,
+      "market": "印尼",
+      "price": 2200.0,
+      "demand": 11.71,
+      "general": 600.0,
+      "designer": 1300.0,
+      "rd": 900.0,
+      "previous_rd": 600.0,
+      "supply_limited": false,
+      "demand_source": {
+        "value": 11.71,
+        "file": "raw/practice2_printable.json",
+        "line": 935,
+        "column": 10,
+        "label": "印尼",
+        "occurrence": 1
+      },
+      "price_source": {
+        "value": 2200.0,
+        "file": "raw/practice2_printable.json",
+        "line": 697,
+        "column": 10,
+        "label": "印尼, 美元",
+        "occurrence": 0
+      },
+      "spend_sources": {
+        "general_marketing": {
+          "value": 600.0,
+          "file": "raw/practice2_printable.json",
+          "line": 344,
+          "column": 10,
+          "label": "一般营销",
+          "occurrence": 0
+        },
+        "designer_marketing": {
+          "value": 1300.0,
+          "file": "raw/practice2_printable.json",
+          "line": 367,
+          "column": 10,
+          "label": "设计师营销",
+          "occurrence": 0
+        },
+        "rd": {
+          "value": 900.0,
+          "file": "raw/practice2_printable.json",
+          "line": 390,
+          "column": 10,
+          "label": "研发",
+          "occurrence": 0
+        }
+      },
+      "previous_rd_source": {
+        "value": 600.0,
+        "file": "raw/practice1_printable.json",
+        "line": 390,
+        "column": 10,
+        "label": "研发",
+        "occurrence": 0
+      }
+    }
+  ],
+  "training": {
+    "n": 40,
+    "MAE": 1.4899019076137434,
+    "WAPE": 0.16212648957955803
+  },
+  "team_holdout": [
+    {
+      "fold": "WePlay",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 0.9354904810378132,
+        "WAPE": 0.1038568394157994
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 0.20249999999999901,
+        "WAPE": 0.022481265611989897
+      },
+      "coefficients": [
+        1.1692895016722185,
+        2.218169277595914,
+        2.4679081711770765,
+        0.3557554695198811,
+        0.394220498995045,
+        0.3487287999542549,
+        8.628982714030674e-20
+      ],
+      "records": [
+        {
+          "team": "WePlay",
+          "round": 1,
+          "market": "泰国",
+          "price": 1830.0,
+          "actual": 5.04,
+          "predicted": 4.131346319393332,
+          "baseline": 5.118888888888888,
+          "supply_limited": false,
+          "source": {
+            "value": 5.04,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 3,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "WePlay",
+          "round": 1,
+          "market": "印尼",
+          "price": 2080.0,
+          "actual": 13.03,
+          "predicted": 12.113529049154467,
+          "baseline": 13.30111111111111,
+          "supply_limited": false,
+          "source": {
+            "value": 13.03,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 3,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "WePlay",
+          "round": 2,
+          "market": "泰国",
+          "price": 1990.0,
+          "actual": 5.0,
+          "predicted": 3.949149023477918,
+          "baseline": 5.118888888888888,
+          "supply_limited": false,
+          "source": {
+            "value": 5.0,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 3,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "WePlay",
+          "round": 2,
+          "market": "印尼",
+          "price": 2260.0,
+          "actual": 12.96,
+          "predicted": 13.825986316176971,
+          "baseline": 13.30111111111111,
+          "supply_limited": false,
+          "source": {
+            "value": 12.96,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 3,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ]
+    },
+    {
+      "fold": "从容应队",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 1.5458083865147052,
+        "WAPE": 0.1831526524306523
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 1.03,
+        "WAPE": 0.12203791469194314
+      },
+      "coefficients": [
+        1.148205766505179,
+        2.2028998115120353,
+        2.446112456087832,
+        0.3434707974989088,
+        0.406486847430266,
+        0.3621815947529423,
+        1.0153743865701335e-18
+      ],
+      "records": [
+        {
+          "team": "从容应队",
+          "round": 1,
+          "market": "泰国",
+          "price": 1790.0,
+          "actual": 4.96,
+          "predicted": 3.94916437552655,
+          "baseline": 5.103888888888889,
+          "supply_limited": false,
+          "source": {
+            "value": 4.96,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 9,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "从容应队",
+          "round": 1,
+          "market": "印尼",
+          "price": 1930.0,
+          "actual": 13.59,
+          "predicted": 11.322677164780336,
+          "baseline": 13.442222222222222,
+          "supply_limited": false,
+          "source": {
+            "value": 13.59,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 9,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "从容应队",
+          "round": 2,
+          "market": "泰国",
+          "price": 1849.9,
+          "actual": 5.35,
+          "predicted": 3.78880273359203,
+          "baseline": 5.103888888888889,
+          "supply_limited": false,
+          "source": {
+            "value": 5.35,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 9,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "从容应队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2229.9,
+          "actual": 9.86,
+          "predicted": 11.203877819957736,
+          "baseline": 13.442222222222222,
+          "supply_limited": false,
+          "source": {
+            "value": 9.86,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 9,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ]
+    },
+    {
+      "fold": "你说得不对我说得队",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 1.303714887155381,
+        "WAPE": 0.152794009628524
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 0.9036111111111109,
+        "WAPE": 0.10590226910180027
+      },
+      "coefficients": [
+        1.161152332338669,
+        2.224168980980206,
+        2.464658127125357,
+        0.3523578731196432,
+        0.41717046961699616,
+        0.3358178856391148,
+        4.280330090186604e-20
+      ],
+      "records": [
+        {
+          "team": "你说得不对我说得队",
+          "round": 1,
+          "market": "泰国",
+          "price": 1790.0,
+          "actual": 5.23,
+          "predicted": 4.181495203795942,
+          "baseline": 5.091666666666667,
+          "supply_limited": false,
+          "source": {
+            "value": 5.23,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 10,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "你说得不对我说得队",
+          "round": 1,
+          "market": "印尼",
+          "price": 2100.0,
+          "actual": 11.89,
+          "predicted": 11.737199183545806,
+          "baseline": 13.43388888888889,
+          "supply_limited": false,
+          "source": {
+            "value": 11.89,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 10,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "你说得不对我说得队",
+          "round": 2,
+          "market": "泰国",
+          "price": 2000.0,
+          "actual": 5.3,
+          "predicted": 3.9639939747423365,
+          "baseline": 5.091666666666667,
+          "supply_limited": false,
+          "source": {
+            "value": 5.3,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 10,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "你说得不对我说得队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2200.0,
+          "actual": 11.71,
+          "predicted": 14.387547910705608,
+          "baseline": 13.43388888888889,
+          "supply_limited": false,
+          "source": {
+            "value": 11.71,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 10,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ]
+    },
+    {
+      "fold": "合法印钞队",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 2.6739822170899137,
+        "WAPE": 0.21695596081865426
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 3.483611111111111,
+        "WAPE": 0.2826459319359928
+      },
+      "coefficients": [
+        1.1631307088739176,
+        2.2077678349334895,
+        2.459394168424819,
+        0.3302924191651249,
+        0.42154083879799803,
+        0.3419665099267994,
+        9.544921098780349e-20
+      ],
+      "records": [
+        {
+          "team": "合法印钞队",
+          "round": 1,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 5.03,
+          "predicted": 4.249588755014525,
+          "baseline": 4.877222222222222,
+          "supply_limited": false,
+          "source": {
+            "value": 5.03,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 5,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "合法印钞队",
+          "round": 1,
+          "market": "印尼",
+          "price": 1888.0,
+          "actual": 15.63,
+          "predicted": 12.311007733965738,
+          "baseline": 12.805555555555557,
+          "supply_limited": false,
+          "source": {
+            "value": 15.63,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 5,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "合法印钞队",
+          "round": 2,
+          "market": "泰国",
+          "price": 1900.0,
+          "actual": 9.36,
+          "predicted": 7.696449692895404,
+          "baseline": 4.877222222222222,
+          "supply_limited": false,
+          "source": {
+            "value": 9.36,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 5,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "合法印钞队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2200.0,
+          "actual": 19.28,
+          "predicted": 24.212975050235322,
+          "baseline": 12.805555555555557,
+          "supply_limited": false,
+          "source": {
+            "value": 19.28,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 5,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ]
+    },
+    {
+      "fold": "好运连连队",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 2.385589583621356,
+        "WAPE": 0.1898976782982174
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 3.7474999999999987,
+        "WAPE": 0.2983084577114427
+      },
+      "coefficients": [
+        1.1673594016211244,
+        2.2098401426375127,
+        2.468536402642329,
+        0.3551851350804364,
+        0.40304393055831234,
+        0.39902207788227534,
+        1.0116572953912616e-18
+      ],
+      "records": [
+        {
+          "team": "好运连连队",
+          "round": 1,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 6.27,
+          "predicted": 7.601541369572163,
+          "baseline": 4.870555555555555,
+          "supply_limited": false,
+          "source": {
+            "value": 6.27,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 7,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "好运连连队",
+          "round": 1,
+          "market": "印尼",
+          "price": 2200.0,
+          "actual": 14.87,
+          "predicted": 20.842184220592284,
+          "baseline": 12.759444444444448,
+          "supply_limited": false,
+          "source": {
+            "value": 14.87,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 7,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "好运连连队",
+          "round": 2,
+          "market": "泰国",
+          "price": 1850.0,
+          "actual": 8.24,
+          "predicted": 7.594755146811504,
+          "baseline": 4.870555555555555,
+          "supply_limited": false,
+          "source": {
+            "value": 8.24,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 7,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "好运连连队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2150.0,
+          "actual": 20.87,
+          "predicted": 22.46338789113248,
+          "baseline": 12.759444444444448,
+          "supply_limited": false,
+          "source": {
+            "value": 20.87,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 7,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ]
+    },
+    {
+      "fold": "市不可挡",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 1.924559109893723,
+        "WAPE": 0.2826077988096509
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 2.6441666666666657,
+        "WAPE": 0.388277043563387
+      },
+      "coefficients": [
+        1.1919032145216577,
+        2.2613751443132224,
+        2.4727661873650812,
+        0.12809226039014232,
+        0.3902393577580696,
+        0.3240466117753556,
+        1.9635339377205863e-19
+      ],
+      "records": [
+        {
+          "team": "市不可挡",
+          "round": 1,
+          "market": "泰国",
+          "price": 1900.0,
+          "actual": 4.18,
+          "predicted": 3.5595180917599536,
+          "baseline": 5.1805555555555545,
+          "supply_limited": false,
+          "source": {
+            "value": 4.18,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 2,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "市不可挡",
+          "round": 1,
+          "market": "印尼",
+          "price": 2900.0,
+          "actual": 4.96,
+          "predicted": 11.304470633829714,
+          "baseline": 13.727777777777778,
+          "supply_limited": false,
+          "source": {
+            "value": 4.96,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 2,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "市不可挡",
+          "round": 2,
+          "market": "泰国",
+          "price": 1850.0,
+          "actual": 4.75,
+          "predicted": 4.237157123507206,
+          "baseline": 5.1805555555555545,
+          "supply_limited": false,
+          "source": {
+            "value": 4.75,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 2,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "市不可挡",
+          "round": 2,
+          "market": "印尼",
+          "price": 2100.0,
+          "actual": 13.35,
+          "predicted": 13.129558978987662,
+          "baseline": 13.727777777777778,
+          "supply_limited": false,
+          "source": {
+            "value": 13.35,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 2,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ]
+    },
+    {
+      "fold": "花儿与少年",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 1.501710568861061,
+        "WAPE": 0.16466124658564263
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 0.4347222222222231,
+        "WAPE": 0.04766691033138411
+      },
+      "coefficients": [
+        1.141104956837566,
+        2.1893754859028003,
+        2.437565998111316,
+        0.3533667857168278,
+        0.40618284004230965,
+        0.3702761022936148,
+        8.721823398032095e-20
+      ],
+      "records": [
+        {
+          "team": "花儿与少年",
+          "round": 1,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 5.03,
+          "predicted": 3.954765956006379,
+          "baseline": 5.075555555555555,
+          "supply_limited": true,
+          "source": {
+            "value": 5.03,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 1,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "花儿与少年",
+          "round": 1,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 13.07,
+          "predicted": 11.2818129062715,
+          "baseline": 13.319444444444446,
+          "supply_limited": true,
+          "source": {
+            "value": 13.07,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 1,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "花儿与少年",
+          "round": 2,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 5.79,
+          "predicted": 3.954765956006379,
+          "baseline": 5.075555555555555,
+          "supply_limited": true,
+          "source": {
+            "value": 5.79,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 1,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "花儿与少年",
+          "round": 2,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 12.59,
+          "predicted": 11.2818129062715,
+          "baseline": 13.319444444444446,
+          "supply_limited": true,
+          "source": {
+            "value": 12.59,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 1,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ]
+    },
+    {
+      "fold": "营销团队",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 3.0134093832944533,
+        "WAPE": 0.45831321418927046
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 2.905277777777777,
+        "WAPE": 0.4418673426277988
+      },
+      "coefficients": [
+        1.417117062491311,
+        2.274666997644843,
+        0.030162947395817034,
+        0.3125885262446346,
+        0.26004701832441246,
+        0.13286259575502113,
+        0.15422407016020112
+      ],
+      "records": [
+        {
+          "team": "营销团队",
+          "round": 1,
+          "market": "泰国",
+          "price": 3000.0,
+          "actual": 0.39,
+          "predicted": 4.7152025716405115,
+          "baseline": 5.652777777777777,
+          "supply_limited": false,
+          "source": {
+            "value": 0.39,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 6,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "营销团队",
+          "round": 1,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 13.07,
+          "predicted": 11.288108426456342,
+          "baseline": 13.307777777777778,
+          "supply_limited": true,
+          "source": {
+            "value": 13.07,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 6,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "营销团队",
+          "round": 2,
+          "market": "泰国",
+          "price": 4000.0,
+          "actual": 0.04,
+          "predicted": 4.815689734721099,
+          "baseline": 5.652777777777777,
+          "supply_limited": false,
+          "source": {
+            "value": 0.04,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 6,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "营销团队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 12.8,
+          "predicted": 11.629146346727456,
+          "baseline": 13.307777777777778,
+          "supply_limited": true,
+          "source": {
+            "value": 12.8,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 6,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ]
+    },
+    {
+      "fold": "赢是因为拼",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 1.501710568861061,
+        "WAPE": 0.16466124658564263
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 0.4347222222222231,
+        "WAPE": 0.04766691033138411
+      },
+      "coefficients": [
+        1.141104956837566,
+        2.1893754859028003,
+        2.437565998111316,
+        0.3533667857168279,
+        0.4061828400423095,
+        0.37027610229361485,
+        8.721672179076362e-20
+      ],
+      "records": [
+        {
+          "team": "赢是因为拼",
+          "round": 1,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 5.03,
+          "predicted": 3.954765956006379,
+          "baseline": 5.075555555555555,
+          "supply_limited": true,
+          "source": {
+            "value": 5.03,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 4,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "赢是因为拼",
+          "round": 1,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 13.07,
+          "predicted": 11.2818129062715,
+          "baseline": 13.319444444444446,
+          "supply_limited": true,
+          "source": {
+            "value": 13.07,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 4,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "赢是因为拼",
+          "round": 2,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 5.79,
+          "predicted": 3.954765956006379,
+          "baseline": 5.075555555555555,
+          "supply_limited": true,
+          "source": {
+            "value": 5.79,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 4,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "赢是因为拼",
+          "round": 2,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 12.59,
+          "predicted": 11.2818129062715,
+          "baseline": 13.319444444444446,
+          "supply_limited": true,
+          "source": {
+            "value": 12.59,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 4,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ]
+    },
+    {
+      "fold": "鱼你一起",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 1.423868620710027,
+        "WAPE": 0.1513948560031927
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 0.41750000000000087,
+        "WAPE": 0.04439128123338659
+      },
+      "coefficients": [
+        1.1433441190693618,
+        2.1942059331792927,
+        2.439762860646925,
+        0.3547229232194347,
+        0.4410586919916907,
+        0.33409760075413497,
+        2.137751616409208e-19
+      ],
+      "records": [
+        {
+          "team": "鱼你一起",
+          "round": 1,
+          "market": "泰国",
+          "price": 1790.0,
+          "actual": 5.25,
+          "predicted": 4.038472901483277,
+          "baseline": 5.043333333333333,
+          "supply_limited": true,
+          "source": {
+            "value": 5.25,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 8,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "鱼你一起",
+          "round": 1,
+          "market": "印尼",
+          "price": 2020.0,
+          "actual": 13.04,
+          "predicted": 11.354416653349865,
+          "baseline": 13.288333333333334,
+          "supply_limited": true,
+          "source": {
+            "value": 13.04,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 8,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "鱼你一起",
+          "round": 2,
+          "market": "泰国",
+          "price": 1810.0,
+          "actual": 6.15,
+          "predicted": 4.262110590542231,
+          "baseline": 5.043333333333333,
+          "supply_limited": true,
+          "source": {
+            "value": 6.15,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 8,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "鱼你一起",
+          "round": 2,
+          "market": "印尼",
+          "price": 2040.0,
+          "actual": 13.18,
+          "predicted": 12.269525371784518,
+          "baseline": 13.288333333333334,
+          "supply_limited": false,
+          "source": {
+            "value": 13.18,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 8,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ]
+    }
+  ],
+  "team_holdout_pooled": {
+    "model": {
+      "n": 40,
+      "MAE": 1.8209843807039494,
+      "WAPE": 0.1981538540987458
+    },
+    "baseline": {
+      "n": 40,
+      "MAE": 1.620361111111111,
+      "WAPE": 0.1763226541648152
+    }
+  },
+  "round_holdout": [
+    {
+      "fold": "练习1训练→练习2验证",
+      "train_n": 20,
+      "model": {
+        "n": 20,
+        "MAE": 1.4193640051857135,
+        "WAPE": 0.14560566323201818
+      },
+      "baseline": {
+        "n": 20,
+        "MAE": 1.9503999999999997,
+        "WAPE": 0.2000820681165367
+      },
+      "coefficients": [
+        1.2257627783265048,
+        2.3163664476660677,
+        0.9154652730451694,
+        0.3053324360971886,
+        0.2665690764253863,
+        0.21102726889262824,
+        0.026707212495033383
+      ],
+      "records": [
+        {
+          "team": "花儿与少年",
+          "round": 2,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 5.79,
+          "predicted": 4.006684190105342,
+          "baseline": 4.641,
+          "supply_limited": true,
+          "source": {
+            "value": 5.79,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 1,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "花儿与少年",
+          "round": 2,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 12.59,
+          "predicted": 11.924172988965154,
+          "baseline": 12.622000000000002,
+          "supply_limited": true,
+          "source": {
+            "value": 12.59,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 1,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "市不可挡",
+          "round": 2,
+          "market": "泰国",
+          "price": 1850.0,
+          "actual": 4.75,
+          "predicted": 4.178909926163468,
+          "baseline": 4.641,
+          "supply_limited": false,
+          "source": {
+            "value": 4.75,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 2,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "市不可挡",
+          "round": 2,
+          "market": "印尼",
+          "price": 2100.0,
+          "actual": 13.35,
+          "predicted": 12.56405159641256,
+          "baseline": 12.622000000000002,
+          "supply_limited": false,
+          "source": {
+            "value": 13.35,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 2,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "WePlay",
+          "round": 2,
+          "market": "泰国",
+          "price": 1990.0,
+          "actual": 5.0,
+          "predicted": 4.246281596028337,
+          "baseline": 4.641,
+          "supply_limited": false,
+          "source": {
+            "value": 5.0,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 3,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "WePlay",
+          "round": 2,
+          "market": "印尼",
+          "price": 2260.0,
+          "actual": 12.96,
+          "predicted": 13.345715919803977,
+          "baseline": 12.622000000000002,
+          "supply_limited": false,
+          "source": {
+            "value": 12.96,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 3,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "赢是因为拼",
+          "round": 2,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 5.79,
+          "predicted": 4.006684190105342,
+          "baseline": 4.641,
+          "supply_limited": true,
+          "source": {
+            "value": 5.79,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 4,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "赢是因为拼",
+          "round": 2,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 12.59,
+          "predicted": 11.924172988965154,
+          "baseline": 12.622000000000002,
+          "supply_limited": true,
+          "source": {
+            "value": 12.59,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 4,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "合法印钞队",
+          "round": 2,
+          "market": "泰国",
+          "price": 1900.0,
+          "actual": 9.36,
+          "predicted": 6.295638240932666,
+          "baseline": 4.641,
+          "supply_limited": false,
+          "source": {
+            "value": 9.36,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 5,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "合法印钞队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2200.0,
+          "actual": 19.28,
+          "predicted": 19.12231723055491,
+          "baseline": 12.622000000000002,
+          "supply_limited": false,
+          "source": {
+            "value": 19.28,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 5,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "营销团队",
+          "round": 2,
+          "market": "泰国",
+          "price": 4000.0,
+          "actual": 0.04,
+          "predicted": 1.8116450252983052,
+          "baseline": 4.641,
+          "supply_limited": false,
+          "source": {
+            "value": 0.04,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 6,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "营销团队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 12.8,
+          "predicted": 11.199229953240708,
+          "baseline": 12.622000000000002,
+          "supply_limited": true,
+          "source": {
+            "value": 12.8,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 6,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "好运连连队",
+          "round": 2,
+          "market": "泰国",
+          "price": 1850.0,
+          "actual": 8.24,
+          "predicted": 5.873228444397425,
+          "baseline": 4.641,
+          "supply_limited": false,
+          "source": {
+            "value": 8.24,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 7,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "好运连连队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2150.0,
+          "actual": 20.87,
+          "predicted": 17.531672602903416,
+          "baseline": 12.622000000000002,
+          "supply_limited": false,
+          "source": {
+            "value": 20.87,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 7,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "鱼你一起",
+          "round": 2,
+          "market": "泰国",
+          "price": 1810.0,
+          "actual": 6.15,
+          "predicted": 4.216490399571954,
+          "baseline": 4.641,
+          "supply_limited": true,
+          "source": {
+            "value": 6.15,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 8,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "鱼你一起",
+          "round": 2,
+          "market": "印尼",
+          "price": 2040.0,
+          "actual": 13.18,
+          "predicted": 12.536347825563311,
+          "baseline": 12.622000000000002,
+          "supply_limited": false,
+          "source": {
+            "value": 13.18,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 8,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "从容应队",
+          "round": 2,
+          "market": "泰国",
+          "price": 1849.9,
+          "actual": 5.35,
+          "predicted": 3.952456357615476,
+          "baseline": 4.641,
+          "supply_limited": false,
+          "source": {
+            "value": 5.35,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 9,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "从容应队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2229.9,
+          "actual": 9.86,
+          "predicted": 11.666846101315834,
+          "baseline": 12.622000000000002,
+          "supply_limited": false,
+          "source": {
+            "value": 9.86,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 9,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "你说得不对我说得队",
+          "round": 2,
+          "market": "泰国",
+          "price": 2000.0,
+          "actual": 5.3,
+          "predicted": 4.269178219083195,
+          "baseline": 4.641,
+          "supply_limited": false,
+          "source": {
+            "value": 5.3,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 10,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "你说得不对我说得队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2200.0,
+          "actual": 11.71,
+          "predicted": 13.590589807904573,
+          "baseline": 12.622000000000002,
+          "supply_limited": false,
+          "source": {
+            "value": 11.71,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 10,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ]
+    },
+    {
+      "fold": "练习2训练→练习1回看",
+      "train_n": 20,
+      "model": {
+        "n": 20,
+        "MAE": 2.200440869029846,
+        "WAPE": 0.25493145676068424
+      },
+      "baseline": {
+        "n": 20,
+        "MAE": 1.4520000000000002,
+        "WAPE": 0.16822105080229394
+      },
+      "coefficients": [
+        1.0495122728043504,
+        2.125885471341222,
+        2.09538177663308,
+        0.06931829300071124,
+        0.3430387110327507,
+        0.4952069406960182,
+        3.742601945950902e-20
+      ],
+      "records": [
+        {
+          "team": "花儿与少年",
+          "round": 1,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 5.03,
+          "predicted": 3.6504844320893644,
+          "baseline": 5.577,
+          "supply_limited": true,
+          "source": {
+            "value": 5.03,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 1,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "花儿与少年",
+          "round": 1,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 13.07,
+          "predicted": 10.710591143896416,
+          "baseline": 13.919,
+          "supply_limited": true,
+          "source": {
+            "value": 13.07,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 1,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "市不可挡",
+          "round": 1,
+          "market": "泰国",
+          "price": 1900.0,
+          "actual": 4.18,
+          "predicted": 3.2964472204924227,
+          "baseline": 5.577,
+          "supply_limited": false,
+          "source": {
+            "value": 4.18,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 2,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "市不可挡",
+          "round": 1,
+          "market": "印尼",
+          "price": 2900.0,
+          "actual": 4.96,
+          "predicted": 10.556626910503043,
+          "baseline": 13.919,
+          "supply_limited": false,
+          "source": {
+            "value": 4.96,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 2,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "WePlay",
+          "round": 1,
+          "market": "泰国",
+          "price": 1830.0,
+          "actual": 5.04,
+          "predicted": 3.7880026248129113,
+          "baseline": 5.577,
+          "supply_limited": false,
+          "source": {
+            "value": 5.04,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 3,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "WePlay",
+          "round": 1,
+          "market": "印尼",
+          "price": 2080.0,
+          "actual": 13.03,
+          "predicted": 11.47451571983876,
+          "baseline": 13.919,
+          "supply_limited": false,
+          "source": {
+            "value": 13.03,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 3,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "赢是因为拼",
+          "round": 1,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 5.03,
+          "predicted": 3.6504844320893644,
+          "baseline": 5.577,
+          "supply_limited": true,
+          "source": {
+            "value": 5.03,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 4,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "赢是因为拼",
+          "round": 1,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 13.07,
+          "predicted": 10.710591143896416,
+          "baseline": 13.919,
+          "supply_limited": true,
+          "source": {
+            "value": 13.07,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 4,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "合法印钞队",
+          "round": 1,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 5.03,
+          "predicted": 3.8999892952523987,
+          "baseline": 5.577,
+          "supply_limited": false,
+          "source": {
+            "value": 5.03,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 5,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "合法印钞队",
+          "round": 1,
+          "market": "印尼",
+          "price": 1888.0,
+          "actual": 15.63,
+          "predicted": 11.488445125942528,
+          "baseline": 13.919,
+          "supply_limited": false,
+          "source": {
+            "value": 15.63,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 5,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "营销团队",
+          "round": 1,
+          "market": "泰国",
+          "price": 3000.0,
+          "actual": 0.39,
+          "predicted": 1.1330300790673502,
+          "baseline": 5.577,
+          "supply_limited": false,
+          "source": {
+            "value": 0.39,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 6,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "营销团队",
+          "round": 1,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 13.07,
+          "predicted": 9.695321324519073,
+          "baseline": 13.919,
+          "supply_limited": true,
+          "source": {
+            "value": 13.07,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 6,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "好运连连队",
+          "round": 1,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 6.27,
+          "predicted": 7.270082833518927,
+          "baseline": 5.577,
+          "supply_limited": false,
+          "source": {
+            "value": 6.27,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 7,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "好运连连队",
+          "round": 1,
+          "market": "印尼",
+          "price": 2200.0,
+          "actual": 14.87,
+          "predicted": 21.190101132676045,
+          "baseline": 13.919,
+          "supply_limited": false,
+          "source": {
+            "value": 14.87,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 7,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "鱼你一起",
+          "round": 1,
+          "market": "泰国",
+          "price": 1790.0,
+          "actual": 5.25,
+          "predicted": 3.7215345129024606,
+          "baseline": 5.577,
+          "supply_limited": true,
+          "source": {
+            "value": 5.25,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 8,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "鱼你一起",
+          "round": 1,
+          "market": "印尼",
+          "price": 2020.0,
+          "actual": 13.04,
+          "predicted": 10.784889984610436,
+          "baseline": 13.919,
+          "supply_limited": true,
+          "source": {
+            "value": 13.04,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 8,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "从容应队",
+          "round": 1,
+          "market": "泰国",
+          "price": 1790.0,
+          "actual": 4.96,
+          "predicted": 3.6097053112823114,
+          "baseline": 5.577,
+          "supply_limited": false,
+          "source": {
+            "value": 4.96,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 9,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "从容应队",
+          "round": 1,
+          "market": "印尼",
+          "price": 1930.0,
+          "actual": 13.59,
+          "predicted": 10.493914158661052,
+          "baseline": 13.919,
+          "supply_limited": false,
+          "source": {
+            "value": 13.59,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 9,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "你说得不对我说得队",
+          "round": 1,
+          "market": "泰国",
+          "price": 1790.0,
+          "actual": 5.23,
+          "predicted": 3.8085947902832387,
+          "baseline": 5.577,
+          "supply_limited": false,
+          "source": {
+            "value": 5.23,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 10,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "你说得不对我说得队",
+          "round": 1,
+          "market": "印尼",
+          "price": 2100.0,
+          "actual": 11.89,
+          "predicted": 11.0075123545993,
+          "baseline": 13.919,
+          "supply_limited": false,
+          "source": {
+            "value": 11.89,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 10,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ]
+    }
+  ],
+  "nested_team_holdout": [
+    {
+      "fold": "WePlay",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 0.45041785252923083,
+        "WAPE": 0.05000475742761375
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 0.20249999999999901,
+        "WAPE": 0.022481265611989897
+      },
+      "coefficients": [
+        1.3656284869099,
+        2.2434328216277413,
+        5.063105138248602,
+        1.5667795289439195,
+        0.4320831845584501,
+        0.19367266311317732,
+        0.14998554189544344
+      ],
+      "records": [
+        {
+          "team": "WePlay",
+          "round": 1,
+          "market": "泰国",
+          "price": 1830.0,
+          "actual": 5.04,
+          "predicted": 5.076522373704898,
+          "baseline": 5.118888888888888,
+          "supply_limited": false,
+          "source": {
+            "value": 5.04,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 3,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "WePlay",
+          "round": 1,
+          "market": "印尼",
+          "price": 2080.0,
+          "actual": 13.03,
+          "predicted": 12.48677610766357,
+          "baseline": 13.30111111111111,
+          "supply_limited": false,
+          "source": {
+            "value": 13.03,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 3,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "WePlay",
+          "round": 2,
+          "market": "泰国",
+          "price": 1990.0,
+          "actual": 5.0,
+          "predicted": 3.8911832599425606,
+          "baseline": 5.118888888888888,
+          "supply_limited": false,
+          "source": {
+            "value": 5.0,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 3,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "WePlay",
+          "round": 2,
+          "market": "印尼",
+          "price": 2260.0,
+          "actual": 12.96,
+          "predicted": 12.846891595981845,
+          "baseline": 13.30111111111111,
+          "supply_limited": false,
+          "source": {
+            "value": 12.96,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 3,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ],
+      "selected_penalty": 0.1,
+      "inner_scores": {
+        "0.1": 0.11847514627130701,
+        "1.0": 0.21459573955654482,
+        "10.0": 0.232484687772
+      }
+    },
+    {
+      "fold": "从容应队",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 0.7210308856674563,
+        "WAPE": 0.08543019972363228
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 1.03,
+        "WAPE": 0.12203791469194314
+      },
+      "coefficients": [
+        1.3428832557795618,
+        2.214986945938351,
+        5.060698840692115,
+        1.518499853229573,
+        0.4448472213843089,
+        0.17172066275145004,
+        0.20448580709211894
+      ],
+      "records": [
+        {
+          "team": "从容应队",
+          "round": 1,
+          "market": "泰国",
+          "price": 1790.0,
+          "actual": 4.96,
+          "predicted": 5.122885413594114,
+          "baseline": 5.103888888888889,
+          "supply_limited": false,
+          "source": {
+            "value": 4.96,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 9,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "从容应队",
+          "round": 1,
+          "market": "印尼",
+          "price": 1930.0,
+          "actual": 13.59,
+          "predicted": 12.57521748181624,
+          "baseline": 13.442222222222222,
+          "supply_limited": false,
+          "source": {
+            "value": 13.59,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 9,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "从容应队",
+          "round": 2,
+          "market": "泰国",
+          "price": 1849.9,
+          "actual": 5.35,
+          "predicted": 4.679004820349144,
+          "baseline": 5.103888888888889,
+          "supply_limited": false,
+          "source": {
+            "value": 5.35,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 9,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "从容应队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2229.9,
+          "actual": 9.86,
+          "predicted": 10.895460431241096,
+          "baseline": 13.442222222222222,
+          "supply_limited": false,
+          "source": {
+            "value": 9.86,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 9,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ],
+      "selected_penalty": 0.1,
+      "inner_scores": {
+        "0.1": 0.1193456599805873,
+        "1.0": 0.21488029294655395,
+        "10.0": 0.22017549922494223
+      }
+    },
+    {
+      "fold": "你说得不对我说得队",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 0.7626926973918239,
+        "WAPE": 0.08938677965330487
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 0.9036111111111109,
+        "WAPE": 0.10590226910180027
+      },
+      "coefficients": [
+        1.3446834069588727,
+        2.232336180759102,
+        5.070877472945706,
+        1.5228370639129736,
+        0.5876202359638922,
+        0.08031843038894748,
+        0.15382860563524914
+      ],
+      "records": [
+        {
+          "team": "你说得不对我说得队",
+          "round": 1,
+          "market": "泰国",
+          "price": 1790.0,
+          "actual": 5.23,
+          "predicted": 5.406898786535691,
+          "baseline": 5.091666666666667,
+          "supply_limited": false,
+          "source": {
+            "value": 5.23,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 10,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "你说得不对我说得队",
+          "round": 1,
+          "market": "印尼",
+          "price": 2100.0,
+          "actual": 11.89,
+          "predicted": 11.855346032880798,
+          "baseline": 13.43388888888889,
+          "supply_limited": false,
+          "source": {
+            "value": 11.89,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 10,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "你说得不对我说得队",
+          "round": 2,
+          "market": "泰国",
+          "price": 2000.0,
+          "actual": 5.3,
+          "predicted": 3.5779214629206346,
+          "baseline": 5.091666666666667,
+          "supply_limited": false,
+          "source": {
+            "value": 5.3,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 10,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "你说得不对我说得队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2200.0,
+          "actual": 11.71,
+          "predicted": 12.827139498833038,
+          "baseline": 13.43388888888889,
+          "supply_limited": false,
+          "source": {
+            "value": 11.71,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 10,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ],
+      "selected_penalty": 0.1,
+      "inner_scores": {
+        "0.1": 0.11510421499028796,
+        "1.0": 0.21031216912514317,
+        "10.0": 0.2225202747426399
+      }
+    },
+    {
+      "fold": "合法印钞队",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 1.7081688350335709,
+        "WAPE": 0.13859382028669948
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 3.483611111111111,
+        "WAPE": 0.2826459319359928
+      },
+      "coefficients": [
+        1.3251284665613952,
+        2.193553351662004,
+        5.067395043427288,
+        1.482990005401601,
+        0.4834162752576303,
+        0.1473399819284109,
+        0.22936005000164816
+      ],
+      "records": [
+        {
+          "team": "合法印钞队",
+          "round": 1,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 5.03,
+          "predicted": 5.297815472699347,
+          "baseline": 4.877222222222222,
+          "supply_limited": false,
+          "source": {
+            "value": 5.03,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 5,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "合法印钞队",
+          "round": 1,
+          "market": "印尼",
+          "price": 1888.0,
+          "actual": 15.63,
+          "predicted": 13.751980417237379,
+          "baseline": 12.805555555555557,
+          "supply_limited": false,
+          "source": {
+            "value": 15.63,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 5,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "合法印钞队",
+          "round": 2,
+          "market": "泰国",
+          "price": 1900.0,
+          "actual": 9.36,
+          "predicted": 8.486591248615007,
+          "baseline": 4.877222222222222,
+          "supply_limited": false,
+          "source": {
+            "value": 9.36,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 5,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "合法印钞队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2200.0,
+          "actual": 19.28,
+          "predicted": 23.093431533287323,
+          "baseline": 12.805555555555557,
+          "supply_limited": false,
+          "source": {
+            "value": 19.28,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 5,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ],
+      "selected_penalty": 0.1,
+      "inner_scores": {
+        "0.1": 0.1585589240735755,
+        "1.0": 0.21897297615337125,
+        "10.0": 0.2280709970854815
+      }
+    },
+    {
+      "fold": "好运连连队",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 2.092075040464175,
+        "WAPE": 0.1665333365543622
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 3.7474999999999987,
+        "WAPE": 0.2983084577114427
+      },
+      "coefficients": [
+        1.419231546019142,
+        2.2824189142414726,
+        5.030000480484567,
+        1.6066110105910791,
+        0.3976825833547347,
+        0.37435463956379994,
+        6.4841641139725245e-15
+      ],
+      "records": [
+        {
+          "team": "好运连连队",
+          "round": 1,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 6.27,
+          "predicted": 9.428195897608536,
+          "baseline": 4.870555555555555,
+          "supply_limited": false,
+          "source": {
+            "value": 6.27,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 7,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "好运连连队",
+          "round": 1,
+          "market": "印尼",
+          "price": 2200.0,
+          "actual": 14.87,
+          "predicted": 19.178037556931567,
+          "baseline": 12.759444444444448,
+          "supply_limited": false,
+          "source": {
+            "value": 14.87,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 7,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "好运连连队",
+          "round": 2,
+          "market": "泰国",
+          "price": 1850.0,
+          "actual": 8.24,
+          "predicted": 8.768967379128648,
+          "baseline": 4.870555555555555,
+          "supply_limited": false,
+          "source": {
+            "value": 8.24,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 7,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "好运连连队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2150.0,
+          "actual": 20.87,
+          "predicted": 21.24309932818795,
+          "baseline": 12.759444444444448,
+          "supply_limited": false,
+          "source": {
+            "value": 20.87,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 7,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ],
+      "selected_penalty": 0.1,
+      "inner_scores": {
+        "0.1": 0.14553397710954624,
+        "1.0": 0.21294066088131905,
+        "10.0": 0.22860910396514633
+      }
+    },
+    {
+      "fold": "市不可挡",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 1.2602754093327455,
+        "WAPE": 0.18506246833079962
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 2.6441666666666657,
+        "WAPE": 0.388277043563387
+      },
+      "coefficients": [
+        1.3976868295240714,
+        2.255223511354515,
+        5.068874266560095,
+        0.8038472110154615,
+        0.4337718084509681,
+        0.1638928845252403,
+        0.13834581391338663
+      ],
+      "records": [
+        {
+          "team": "市不可挡",
+          "round": 1,
+          "market": "泰国",
+          "price": 1900.0,
+          "actual": 4.18,
+          "predicted": 3.886859653133749,
+          "baseline": 5.1805555555555545,
+          "supply_limited": false,
+          "source": {
+            "value": 4.18,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 2,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "市不可挡",
+          "round": 1,
+          "market": "印尼",
+          "price": 2900.0,
+          "actual": 4.96,
+          "predicted": 8.939841362355377,
+          "baseline": 13.727777777777778,
+          "supply_limited": false,
+          "source": {
+            "value": 4.96,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 2,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "市不可挡",
+          "round": 2,
+          "market": "泰国",
+          "price": 1850.0,
+          "actual": 4.75,
+          "predicted": 4.8815288320470325,
+          "baseline": 5.1805555555555545,
+          "supply_limited": false,
+          "source": {
+            "value": 4.75,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 2,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "市不可挡",
+          "round": 2,
+          "market": "印尼",
+          "price": 2100.0,
+          "actual": 13.35,
+          "predicted": 12.713408903937678,
+          "baseline": 13.727777777777778,
+          "supply_limited": false,
+          "source": {
+            "value": 13.35,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 2,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ],
+      "selected_penalty": 0.1,
+      "inner_scores": {
+        "0.1": 0.1272301161370349,
+        "1.0": 0.19549317788521356,
+        "10.0": 0.19358654801547423
+      }
+    },
+    {
+      "fold": "花儿与少年",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 0.36952559662286455,
+        "WAPE": 0.040518157524436896
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 0.4347222222222231,
+        "WAPE": 0.04766691033138411
+      },
+      "coefficients": [
+        1.34809956074127,
+        2.2167424790559482,
+        5.055653094415806,
+        1.5576532265113798,
+        0.4449290116388822,
+        0.17967482113564315,
+        0.19197663177460167
+      ],
+      "records": [
+        {
+          "team": "花儿与少年",
+          "round": 1,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 5.03,
+          "predicted": 5.130359765137217,
+          "baseline": 5.075555555555555,
+          "supply_limited": true,
+          "source": {
+            "value": 5.03,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 1,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "花儿与少年",
+          "round": 1,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 13.07,
+          "predicted": 12.22910424640235,
+          "baseline": 13.319444444444446,
+          "supply_limited": true,
+          "source": {
+            "value": 13.07,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 1,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "花儿与少年",
+          "round": 2,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 5.79,
+          "predicted": 5.302439617689009,
+          "baseline": 5.075555555555555,
+          "supply_limited": true,
+          "source": {
+            "value": 5.79,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 1,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "花儿与少年",
+          "round": 2,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 12.59,
+          "predicted": 12.6392864854456,
+          "baseline": 13.319444444444446,
+          "supply_limited": true,
+          "source": {
+            "value": 12.59,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 1,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ],
+      "selected_penalty": 0.1,
+      "inner_scores": {
+        "0.1": 0.12481256456087457,
+        "1.0": 0.21859648888052305,
+        "10.0": 0.22821944526460064
+      }
+    },
+    {
+      "fold": "营销团队",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 2.326739720175391,
+        "WAPE": 0.3538767635247743
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 2.905277777777777,
+        "WAPE": 0.4418673426277988
+      },
+      "coefficients": [
+        1.3256312911325494,
+        2.2422376336225978,
+        0.2996996581152231,
+        1.4451161906828995,
+        0.48113209992666806,
+        0.016749408435075663,
+        0.2387624423066701
+      ],
+      "records": [
+        {
+          "team": "营销团队",
+          "round": 1,
+          "market": "泰国",
+          "price": 3000.0,
+          "actual": 0.39,
+          "predicted": 4.032791015916553,
+          "baseline": 5.652777777777777,
+          "supply_limited": false,
+          "source": {
+            "value": 0.39,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 6,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "营销团队",
+          "round": 1,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 13.07,
+          "predicted": 11.753596787465563,
+          "baseline": 13.307777777777778,
+          "supply_limited": true,
+          "source": {
+            "value": 13.07,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 6,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "营销团队",
+          "round": 2,
+          "market": "泰国",
+          "price": 4000.0,
+          "actual": 0.04,
+          "predicted": 3.8642456700512158,
+          "baseline": 5.652777777777777,
+          "supply_limited": false,
+          "source": {
+            "value": 0.04,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 6,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "营销团队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 12.8,
+          "predicted": 12.276481017800641,
+          "baseline": 13.307777777777778,
+          "supply_limited": true,
+          "source": {
+            "value": 12.8,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 6,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ],
+      "selected_penalty": 0.1,
+      "inner_scores": {
+        "0.1": 0.08615759120005737,
+        "1.0": 0.11662486720672638,
+        "10.0": 0.1419495060349923
+      }
+    },
+    {
+      "fold": "赢是因为拼",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 0.3695255966228639,
+        "WAPE": 0.040518157524436826
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 0.4347222222222231,
+        "WAPE": 0.04766691033138411
+      },
+      "coefficients": [
+        1.3480995607412725,
+        2.2167424790559496,
+        5.055653094415809,
+        1.5576532265113783,
+        0.4449290116388822,
+        0.17967482113564226,
+        0.19197663177459945
+      ],
+      "records": [
+        {
+          "team": "赢是因为拼",
+          "round": 1,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 5.03,
+          "predicted": 5.130359765137223,
+          "baseline": 5.075555555555555,
+          "supply_limited": true,
+          "source": {
+            "value": 5.03,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 4,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "赢是因为拼",
+          "round": 1,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 13.07,
+          "predicted": 12.22910424640235,
+          "baseline": 13.319444444444446,
+          "supply_limited": true,
+          "source": {
+            "value": 13.07,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 4,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "赢是因为拼",
+          "round": 2,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 5.79,
+          "predicted": 5.3024396176890125,
+          "baseline": 5.075555555555555,
+          "supply_limited": true,
+          "source": {
+            "value": 5.79,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 4,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "赢是因为拼",
+          "round": 2,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 12.59,
+          "predicted": 12.639286485445595,
+          "baseline": 13.319444444444446,
+          "supply_limited": true,
+          "source": {
+            "value": 12.59,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 4,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ],
+      "selected_penalty": 0.1,
+      "inner_scores": {
+        "0.1": 0.12481256456087458,
+        "1.0": 0.21859648888052313,
+        "10.0": 0.2282194452646005
+      }
+    },
+    {
+      "fold": "鱼你一起",
+      "train_n": 36,
+      "model": {
+        "n": 4,
+        "MAE": 0.43103855509994426,
+        "WAPE": 0.04583078735778249
+      },
+      "baseline": {
+        "n": 4,
+        "MAE": 0.41750000000000087,
+        "WAPE": 0.04439128123338659
+      },
+      "coefficients": [
+        1.3533094038729847,
+        2.2231563590225414,
+        5.047567186958007,
+        1.5523890284266764,
+        0.487510035670496,
+        0.16001012741520926,
+        0.16575941705847264
+      ],
+      "records": [
+        {
+          "team": "鱼你一起",
+          "round": 1,
+          "market": "泰国",
+          "price": 1790.0,
+          "actual": 5.25,
+          "predicted": 5.332391707865839,
+          "baseline": 5.043333333333333,
+          "supply_limited": true,
+          "source": {
+            "value": 5.25,
+            "file": "raw/practice1_printable.json",
+            "line": 912,
+            "column": 8,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "鱼你一起",
+          "round": 1,
+          "market": "印尼",
+          "price": 2020.0,
+          "actual": 13.04,
+          "predicted": 12.183466280984806,
+          "baseline": 13.288333333333334,
+          "supply_limited": true,
+          "source": {
+            "value": 13.04,
+            "file": "raw/practice1_printable.json",
+            "line": 935,
+            "column": 8,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "鱼你一起",
+          "round": 2,
+          "market": "泰国",
+          "price": 1810.0,
+          "actual": 6.15,
+          "predicted": 5.486736460718684,
+          "baseline": 5.043333333333333,
+          "supply_limited": true,
+          "source": {
+            "value": 6.15,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 8,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "鱼你一起",
+          "round": 2,
+          "market": "印尼",
+          "price": 2040.0,
+          "actual": 13.18,
+          "predicted": 13.058034745762571,
+          "baseline": 13.288333333333334,
+          "supply_limited": false,
+          "source": {
+            "value": 13.18,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 8,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ],
+      "selected_penalty": 0.1,
+      "inner_scores": {
+        "0.1": 0.12269717936838984,
+        "1.0": 0.21537356603247126,
+        "10.0": 0.22973705443290124
+      }
+    }
+  ],
+  "nested_team_pooled": {
+    "model": {
+      "n": 40,
+      "MAE": 1.0491490188940067,
+      "WAPE": 0.11416513168410528
+    },
+    "baseline": {
+      "n": 40,
+      "MAE": 1.620361111111111,
+      "WAPE": 0.1763226541648152
+    }
+  },
+  "nested_forward_holdout": {
+    "fold": "练习1训练→练习2验证",
+    "train_n": 20,
+    "model": {
+      "n": 20,
+      "MAE": 1.4193640051857135,
+      "WAPE": 0.14560566323201818
+    },
+    "baseline": {
+      "n": 20,
+      "MAE": 1.9503999999999997,
+      "WAPE": 0.2000820681165367
+    },
+    "coefficients": [
+      1.2257627783265048,
+      2.3163664476660677,
+      0.9154652730451694,
+      0.3053324360971886,
+      0.2665690764253863,
+      0.21102726889262824,
+      0.026707212495033383
+    ],
+    "records": [
+      {
+        "team": "花儿与少年",
+        "round": 2,
+        "market": "泰国",
+        "price": 1800.0,
+        "actual": 5.79,
+        "predicted": 4.006684190105342,
+        "baseline": 4.641,
+        "supply_limited": true,
+        "source": {
+          "value": 5.79,
+          "file": "raw/practice2_printable.json",
+          "line": 912,
+          "column": 1,
+          "label": "泰国",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "花儿与少年",
+        "round": 2,
+        "market": "印尼",
+        "price": 2000.0,
+        "actual": 12.59,
+        "predicted": 11.924172988965154,
+        "baseline": 12.622000000000002,
+        "supply_limited": true,
+        "source": {
+          "value": 12.59,
+          "file": "raw/practice2_printable.json",
+          "line": 935,
+          "column": 1,
+          "label": "印尼",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "市不可挡",
+        "round": 2,
+        "market": "泰国",
+        "price": 1850.0,
+        "actual": 4.75,
+        "predicted": 4.178909926163468,
+        "baseline": 4.641,
+        "supply_limited": false,
+        "source": {
+          "value": 4.75,
+          "file": "raw/practice2_printable.json",
+          "line": 912,
+          "column": 2,
+          "label": "泰国",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "市不可挡",
+        "round": 2,
+        "market": "印尼",
+        "price": 2100.0,
+        "actual": 13.35,
+        "predicted": 12.56405159641256,
+        "baseline": 12.622000000000002,
+        "supply_limited": false,
+        "source": {
+          "value": 13.35,
+          "file": "raw/practice2_printable.json",
+          "line": 935,
+          "column": 2,
+          "label": "印尼",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "WePlay",
+        "round": 2,
+        "market": "泰国",
+        "price": 1990.0,
+        "actual": 5.0,
+        "predicted": 4.246281596028337,
+        "baseline": 4.641,
+        "supply_limited": false,
+        "source": {
+          "value": 5.0,
+          "file": "raw/practice2_printable.json",
+          "line": 912,
+          "column": 3,
+          "label": "泰国",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "WePlay",
+        "round": 2,
+        "market": "印尼",
+        "price": 2260.0,
+        "actual": 12.96,
+        "predicted": 13.345715919803977,
+        "baseline": 12.622000000000002,
+        "supply_limited": false,
+        "source": {
+          "value": 12.96,
+          "file": "raw/practice2_printable.json",
+          "line": 935,
+          "column": 3,
+          "label": "印尼",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "赢是因为拼",
+        "round": 2,
+        "market": "泰国",
+        "price": 1800.0,
+        "actual": 5.79,
+        "predicted": 4.006684190105342,
+        "baseline": 4.641,
+        "supply_limited": true,
+        "source": {
+          "value": 5.79,
+          "file": "raw/practice2_printable.json",
+          "line": 912,
+          "column": 4,
+          "label": "泰国",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "赢是因为拼",
+        "round": 2,
+        "market": "印尼",
+        "price": 2000.0,
+        "actual": 12.59,
+        "predicted": 11.924172988965154,
+        "baseline": 12.622000000000002,
+        "supply_limited": true,
+        "source": {
+          "value": 12.59,
+          "file": "raw/practice2_printable.json",
+          "line": 935,
+          "column": 4,
+          "label": "印尼",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "合法印钞队",
+        "round": 2,
+        "market": "泰国",
+        "price": 1900.0,
+        "actual": 9.36,
+        "predicted": 6.295638240932666,
+        "baseline": 4.641,
+        "supply_limited": false,
+        "source": {
+          "value": 9.36,
+          "file": "raw/practice2_printable.json",
+          "line": 912,
+          "column": 5,
+          "label": "泰国",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "合法印钞队",
+        "round": 2,
+        "market": "印尼",
+        "price": 2200.0,
+        "actual": 19.28,
+        "predicted": 19.12231723055491,
+        "baseline": 12.622000000000002,
+        "supply_limited": false,
+        "source": {
+          "value": 19.28,
+          "file": "raw/practice2_printable.json",
+          "line": 935,
+          "column": 5,
+          "label": "印尼",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "营销团队",
+        "round": 2,
+        "market": "泰国",
+        "price": 4000.0,
+        "actual": 0.04,
+        "predicted": 1.8116450252983052,
+        "baseline": 4.641,
+        "supply_limited": false,
+        "source": {
+          "value": 0.04,
+          "file": "raw/practice2_printable.json",
+          "line": 912,
+          "column": 6,
+          "label": "泰国",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "营销团队",
+        "round": 2,
+        "market": "印尼",
+        "price": 2000.0,
+        "actual": 12.8,
+        "predicted": 11.199229953240708,
+        "baseline": 12.622000000000002,
+        "supply_limited": true,
+        "source": {
+          "value": 12.8,
+          "file": "raw/practice2_printable.json",
+          "line": 935,
+          "column": 6,
+          "label": "印尼",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "好运连连队",
+        "round": 2,
+        "market": "泰国",
+        "price": 1850.0,
+        "actual": 8.24,
+        "predicted": 5.873228444397425,
+        "baseline": 4.641,
+        "supply_limited": false,
+        "source": {
+          "value": 8.24,
+          "file": "raw/practice2_printable.json",
+          "line": 912,
+          "column": 7,
+          "label": "泰国",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "好运连连队",
+        "round": 2,
+        "market": "印尼",
+        "price": 2150.0,
+        "actual": 20.87,
+        "predicted": 17.531672602903416,
+        "baseline": 12.622000000000002,
+        "supply_limited": false,
+        "source": {
+          "value": 20.87,
+          "file": "raw/practice2_printable.json",
+          "line": 935,
+          "column": 7,
+          "label": "印尼",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "鱼你一起",
+        "round": 2,
+        "market": "泰国",
+        "price": 1810.0,
+        "actual": 6.15,
+        "predicted": 4.216490399571954,
+        "baseline": 4.641,
+        "supply_limited": true,
+        "source": {
+          "value": 6.15,
+          "file": "raw/practice2_printable.json",
+          "line": 912,
+          "column": 8,
+          "label": "泰国",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "鱼你一起",
+        "round": 2,
+        "market": "印尼",
+        "price": 2040.0,
+        "actual": 13.18,
+        "predicted": 12.536347825563311,
+        "baseline": 12.622000000000002,
+        "supply_limited": false,
+        "source": {
+          "value": 13.18,
+          "file": "raw/practice2_printable.json",
+          "line": 935,
+          "column": 8,
+          "label": "印尼",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "从容应队",
+        "round": 2,
+        "market": "泰国",
+        "price": 1849.9,
+        "actual": 5.35,
+        "predicted": 3.952456357615476,
+        "baseline": 4.641,
+        "supply_limited": false,
+        "source": {
+          "value": 5.35,
+          "file": "raw/practice2_printable.json",
+          "line": 912,
+          "column": 9,
+          "label": "泰国",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "从容应队",
+        "round": 2,
+        "market": "印尼",
+        "price": 2229.9,
+        "actual": 9.86,
+        "predicted": 11.666846101315834,
+        "baseline": 12.622000000000002,
+        "supply_limited": false,
+        "source": {
+          "value": 9.86,
+          "file": "raw/practice2_printable.json",
+          "line": 935,
+          "column": 9,
+          "label": "印尼",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "你说得不对我说得队",
+        "round": 2,
+        "market": "泰国",
+        "price": 2000.0,
+        "actual": 5.3,
+        "predicted": 4.269178219083195,
+        "baseline": 4.641,
+        "supply_limited": false,
+        "source": {
+          "value": 5.3,
+          "file": "raw/practice2_printable.json",
+          "line": 912,
+          "column": 10,
+          "label": "泰国",
+          "occurrence": 1
+        }
+      },
+      {
+        "team": "你说得不对我说得队",
+        "round": 2,
+        "market": "印尼",
+        "price": 2200.0,
+        "actual": 11.71,
+        "predicted": 13.590589807904573,
+        "baseline": 12.622000000000002,
+        "supply_limited": false,
+        "source": {
+          "value": 11.71,
+          "file": "raw/practice2_printable.json",
+          "line": 935,
+          "column": 10,
+          "label": "印尼",
+          "occurrence": 1
+        }
+      }
+    ],
+    "selected_penalty": 1.0,
+    "inner_scores": {
+      "0.1": 0.21402184848992553,
+      "1.0": 0.20445675639233427,
+      "10.0": 0.2208997508942568
+    }
+  },
+  "residual_groups": [
+    {
+      "market": "泰国",
+      "supply_limited": false,
+      "n": 14,
+      "MAE": 1.5407866596726483,
+      "WAPE": 0.31199035631207805,
+      "mean_error": -0.050438991682108955
+    },
+    {
+      "market": "泰国",
+      "supply_limited": true,
+      "n": 6,
+      "MAE": 1.4867254473248295,
+      "WAPE": 0.269986461378601,
+      "mean_error": -1.4867254473248295
+    },
+    {
+      "market": "印尼",
+      "supply_limited": false,
+      "n": 13,
+      "MAE": 2.4243794123393525,
+      "WAPE": 0.17991170430649378,
+      "mean_error": 1.2264559480652801
+    },
+    {
+      "market": "印尼",
+      "supply_limited": true,
+      "n": 7,
+      "MAE": 1.5472967069114774,
+      "WAPE": 0.12003853428327986,
+      "mean_error": -1.5472967069114774
+    }
+  ],
+  "price_groups": [
+    {
+      "market": "泰国",
+      "price_band": "不高于初始价",
+      "n": 9,
+      "MAE": 1.2448618121918171,
+      "WAPE": 0.2315782618794203
+    },
+    {
+      "market": "泰国",
+      "price_band": "高于初始价",
+      "n": 11,
+      "MAE": 1.7534190554217906,
+      "WAPE": 0.35850575482601665
+    },
+    {
+      "market": "印尼",
+      "price_band": "不高于初始价",
+      "n": 8,
+      "MAE": 1.8414760878730168,
+      "WAPE": 0.13844383707343422
+    },
+    {
+      "market": "印尼",
+      "price_band": "高于初始价",
+      "n": 12,
+      "MAE": 2.301350050483983,
+      "WAPE": 0.1736867962629421
+    }
+  ],
+  "price_only_ablation": {
+    "team_holdout": {
+      "model": {
+        "n": 40,
+        "MAE": 1.7685407009571528,
+        "WAPE": 0.1924470960534457
+      },
+      "baseline": {
+        "n": 40,
+        "MAE": 1.620361111111111,
+        "WAPE": 0.1763226541648152
+      }
+    },
+    "forward_holdout": {
+      "fold": "练习1训练→练习2验证",
+      "train_n": 20,
+      "model": {
+        "n": 20,
+        "MAE": 2.209923941445866,
+        "WAPE": 0.2267053694548488
+      },
+      "baseline": {
+        "n": 20,
+        "MAE": 1.9503999999999997,
+        "WAPE": 0.2000820681165367
+      },
+      "coefficients": [
+        1.4242034554828065,
+        2.5118553462699196,
+        0.9559690962102185,
+        0.2912416550284708,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "records": [
+        {
+          "team": "花儿与少年",
+          "round": 2,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 5.79,
+          "predicted": 4.154547242583341,
+          "baseline": 4.641,
+          "supply_limited": true,
+          "source": {
+            "value": 5.79,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 1,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "花儿与少年",
+          "round": 2,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 12.59,
+          "predicted": 12.327781158394366,
+          "baseline": 12.622000000000002,
+          "supply_limited": true,
+          "source": {
+            "value": 12.59,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 1,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "市不可挡",
+          "round": 2,
+          "market": "泰国",
+          "price": 1850.0,
+          "actual": 4.75,
+          "predicted": 4.047141716269619,
+          "baseline": 4.641,
+          "supply_limited": false,
+          "source": {
+            "value": 4.75,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 2,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "市不可挡",
+          "round": 2,
+          "market": "印尼",
+          "price": 2100.0,
+          "actual": 13.35,
+          "predicted": 12.153845455518663,
+          "baseline": 12.622000000000002,
+          "supply_limited": false,
+          "source": {
+            "value": 13.35,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 2,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "WePlay",
+          "round": 2,
+          "market": "泰国",
+          "price": 1990.0,
+          "actual": 5.0,
+          "predicted": 3.7745225339544777,
+          "baseline": 4.641,
+          "supply_limited": false,
+          "source": {
+            "value": 5.0,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 3,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "WePlay",
+          "round": 2,
+          "market": "印尼",
+          "price": 2260.0,
+          "actual": 12.96,
+          "predicted": 11.896693217768423,
+          "baseline": 12.622000000000002,
+          "supply_limited": false,
+          "source": {
+            "value": 12.96,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 3,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "赢是因为拼",
+          "round": 2,
+          "market": "泰国",
+          "price": 1800.0,
+          "actual": 5.79,
+          "predicted": 4.154547242583341,
+          "baseline": 4.641,
+          "supply_limited": true,
+          "source": {
+            "value": 5.79,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 4,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "赢是因为拼",
+          "round": 2,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 12.59,
+          "predicted": 12.327781158394366,
+          "baseline": 12.622000000000002,
+          "supply_limited": true,
+          "source": {
+            "value": 12.59,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 4,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "合法印钞队",
+          "round": 2,
+          "market": "泰国",
+          "price": 1900.0,
+          "actual": 9.36,
+          "predicted": 3.9452679082577324,
+          "baseline": 4.641,
+          "supply_limited": false,
+          "source": {
+            "value": 9.36,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 5,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "合法印钞队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2200.0,
+          "actual": 19.28,
+          "predicted": 11.990288755328448,
+          "baseline": 12.622000000000002,
+          "supply_limited": false,
+          "source": {
+            "value": 19.28,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 5,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "营销团队",
+          "round": 2,
+          "market": "泰国",
+          "price": 4000.0,
+          "actual": 0.04,
+          "predicted": 1.9364468531768388,
+          "baseline": 4.641,
+          "supply_limited": false,
+          "source": {
+            "value": 0.04,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 6,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "营销团队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2000.0,
+          "actual": 12.8,
+          "predicted": 12.327781158394366,
+          "baseline": 12.622000000000002,
+          "supply_limited": true,
+          "source": {
+            "value": 12.8,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 6,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "好运连连队",
+          "round": 2,
+          "market": "泰国",
+          "price": 1850.0,
+          "actual": 8.24,
+          "predicted": 4.047141716269619,
+          "baseline": 4.641,
+          "supply_limited": false,
+          "source": {
+            "value": 8.24,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 7,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "好运连连队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2150.0,
+          "actual": 20.87,
+          "predicted": 12.070839159580236,
+          "baseline": 12.622000000000002,
+          "supply_limited": false,
+          "source": {
+            "value": 20.87,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 7,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "鱼你一起",
+          "round": 2,
+          "market": "泰国",
+          "price": 1810.0,
+          "actual": 6.15,
+          "predicted": 4.132601923349354,
+          "baseline": 4.641,
+          "supply_limited": true,
+          "source": {
+            "value": 6.15,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 8,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "鱼你一起",
+          "round": 2,
+          "market": "印尼",
+          "price": 2040.0,
+          "actual": 13.18,
+          "predicted": 12.25688716212683,
+          "baseline": 12.622000000000002,
+          "supply_limited": false,
+          "source": {
+            "value": 13.18,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 8,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "从容应队",
+          "round": 2,
+          "market": "泰国",
+          "price": 1849.9,
+          "actual": 5.35,
+          "predicted": 4.047350859347862,
+          "baseline": 4.641,
+          "supply_limited": false,
+          "source": {
+            "value": 5.35,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 9,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "从容应队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2229.9,
+          "actual": 9.86,
+          "predicted": 11.943240498572274,
+          "baseline": 12.622000000000002,
+          "supply_limited": false,
+          "source": {
+            "value": 9.86,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 9,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "你说得不对我说得队",
+          "round": 2,
+          "market": "泰国",
+          "price": 2000.0,
+          "actual": 5.3,
+          "predicted": 3.7564789100391973,
+          "baseline": 4.641,
+          "supply_limited": false,
+          "source": {
+            "value": 5.3,
+            "file": "raw/practice2_printable.json",
+            "line": 912,
+            "column": 10,
+            "label": "泰国",
+            "occurrence": 1
+          }
+        },
+        {
+          "team": "你说得不对我说得队",
+          "round": 2,
+          "market": "印尼",
+          "price": 2200.0,
+          "actual": 11.71,
+          "predicted": 11.990288755328448,
+          "baseline": 12.622000000000002,
+          "supply_limited": false,
+          "source": {
+            "value": 11.71,
+            "file": "raw/practice2_printable.json",
+            "line": 935,
+            "column": 10,
+            "label": "印尼",
+            "occurrence": 1
+          }
+        }
+      ]
+    }
+  },
+  "sensitivity": [
+    {
+      "rd_persistence": 0.0,
+      "penalty": 0.1,
+      "coefficients": [
+        1.3941567555912975,
+        2.264756298289454,
+        5.037021670230511,
+        1.5701040632252692,
+        0.47612110710848676,
+        0.19543940424817574,
+        0.10123997865140444
+      ],
+      "team_holdout": {
+        "model": {
+          "n": 40,
+          "MAE": 1.0679708463990347,
+          "WAPE": 0.11621326438684781
+        },
+        "baseline": {
+          "n": 40,
+          "MAE": 1.620361111111111,
+          "WAPE": 0.1763226541648152
+        }
+      },
+      "forward_holdout": {
+        "n": 20,
+        "MAE": 1.118968147230954,
+        "WAPE": 0.11478951038479217
+      }
+    },
+    {
+      "rd_persistence": 0.0,
+      "penalty": 1.0,
+      "coefficients": [
+        1.1899569547124211,
+        2.2172243406619287,
+        2.4736664773370927,
+        0.35971438092483204,
+        0.4128711152671011,
+        0.3350613876254451,
+        7.262061581907967e-20
+      ],
+      "team_holdout": {
+        "model": {
+          "n": 40,
+          "MAE": 1.8232869670492593,
+          "WAPE": 0.1984044143800712
+        },
+        "baseline": {
+          "n": 40,
+          "MAE": 1.620361111111111,
+          "WAPE": 0.1763226541648152
+        }
+      },
+      "forward_holdout": {
+        "n": 20,
+        "MAE": 1.4398491044041832,
+        "WAPE": 0.1477071301194279
+      }
+    },
+    {
+      "rd_persistence": 0.0,
+      "penalty": 10.0,
+      "coefficients": [
+        1.1447898238799477,
+        2.331256356671064,
+        0.41759520923210713,
+        0.03742934419160088,
+        0.18828647131342846,
+        0.24073064489607132,
+        0.03265432934438173
+      ],
+      "team_holdout": {
+        "model": {
+          "n": 40,
+          "MAE": 1.9463146196468635,
+          "WAPE": 0.21179190072057055
+        },
+        "baseline": {
+          "n": 40,
+          "MAE": 1.620361111111111,
+          "WAPE": 0.1763226541648152
+        }
+      },
+      "forward_holdout": {
+        "n": 20,
+        "MAE": 2.132669072161761,
+        "WAPE": 0.218780167435552
+      }
+    },
+    {
+      "rd_persistence": 0.5,
+      "penalty": 0.1,
+      "coefficients": [
+        1.351431537800425,
+        2.219348870178658,
+        5.06556841743155,
+        1.5654528671578336,
+        0.4508525998730635,
+        0.16816608503260366,
+        0.1982769764159351
+      ],
+      "team_holdout": {
+        "model": {
+          "n": 40,
+          "MAE": 1.0491490188940067,
+          "WAPE": 0.11416513168410528
+        },
+        "baseline": {
+          "n": 40,
+          "MAE": 1.620361111111111,
+          "WAPE": 0.1763226541648152
+        }
+      },
+      "forward_holdout": {
+        "n": 20,
+        "MAE": 1.1076216340037928,
+        "WAPE": 0.11362552667252694
+      }
+    },
+    {
+      "rd_persistence": 0.5,
+      "penalty": 1.0,
+      "coefficients": [
+        1.1899569547124214,
+        2.2172243406619287,
+        2.4736664773370927,
+        0.35971438092483204,
+        0.412871115267101,
+        0.33506138762544496,
+        1.0722075366156027e-19
+      ],
+      "team_holdout": {
+        "model": {
+          "n": 40,
+          "MAE": 1.8209843807039494,
+          "WAPE": 0.1981538540987458
+        },
+        "baseline": {
+          "n": 40,
+          "MAE": 1.620361111111111,
+          "WAPE": 0.1763226541648152
+        }
+      },
+      "forward_holdout": {
+        "n": 20,
+        "MAE": 1.4193640051857135,
+        "WAPE": 0.14560566323201818
+      }
+    },
+    {
+      "rd_persistence": 0.5,
+      "penalty": 10.0,
+      "coefficients": [
+        1.1467915887576405,
+        2.3332507560403752,
+        0.4176683323437835,
+        0.037407857485984075,
+        0.18879828863325288,
+        0.24110739849469165,
+        0.02476220862182288
+      ],
+      "team_holdout": {
+        "model": {
+          "n": 40,
+          "MAE": 1.948464148036385,
+          "WAPE": 0.21202580571140506
+        },
+        "baseline": {
+          "n": 40,
+          "MAE": 1.620361111111111,
+          "WAPE": 0.1763226541648152
+        }
+      },
+      "forward_holdout": {
+        "n": 20,
+        "MAE": 2.1221126848463343,
+        "WAPE": 0.21769723890504042
+      }
+    },
+    {
+      "rd_persistence": 1.0,
+      "penalty": 0.1,
+      "coefficients": [
+        1.3598541550013055,
+        2.2276059488289324,
+        5.064998699175484,
+        1.5613089645298892,
+        0.47924590421127844,
+        0.15969709953169553,
+        0.1548870030387841
+      ],
+      "team_holdout": {
+        "model": {
+          "n": 40,
+          "MAE": 1.0487483365210908,
+          "WAPE": 0.11412153067505544
+        },
+        "baseline": {
+          "n": 40,
+          "MAE": 1.620361111111111,
+          "WAPE": 0.1763226541648152
+        }
+      },
+      "forward_holdout": {
+        "n": 20,
+        "MAE": 1.0981524064709158,
+        "WAPE": 0.1126541245866758
+      }
+    },
+    {
+      "rd_persistence": 1.0,
+      "penalty": 1.0,
+      "coefficients": [
+        1.1899569547124211,
+        2.2172243406619287,
+        2.4736664773370927,
+        0.35971438092483193,
+        0.41287111526710124,
+        0.3350613876254449,
+        6.96820308435909e-20
+      ],
+      "team_holdout": {
+        "model": {
+          "n": 40,
+          "MAE": 1.8202633732384719,
+          "WAPE": 0.19807539630985302
+        },
+        "baseline": {
+          "n": 40,
+          "MAE": 1.620361111111111,
+          "WAPE": 0.1763226541648152
+        }
+      },
+      "forward_holdout": {
+        "n": 20,
+        "MAE": 1.4017127319989693,
+        "WAPE": 0.1437949048008791
+      }
+    },
+    {
+      "rd_persistence": 1.0,
+      "penalty": 10.0,
+      "coefficients": [
+        1.1496854519907536,
+        2.3361438178339053,
+        0.4176657712115862,
+        0.03738812121778762,
+        0.18935524265568182,
+        0.24172382816657878,
+        0.01747416783111344
+      ],
+      "team_holdout": {
+        "model": {
+          "n": 40,
+          "MAE": 1.950691451498863,
+          "WAPE": 0.21226817394367234
+        },
+        "baseline": {
+          "n": 40,
+          "MAE": 1.620361111111111,
+          "WAPE": 0.1763226541648152
+        }
+      },
+      "forward_holdout": {
+        "n": 20,
+        "MAE": 2.113102148464809,
+        "WAPE": 0.21677289171776865
+      }
+    }
+  ],
+  "self_checks": "synthetic recovery, monotonicity, metrics, invalid input and fold disjointness passed",
+  "limitations": [
+    "营销为两国合计代理，不是国别实际投入；不得用于国别营销优化",
+    "研发延续仅用已知练习投入，不代表完整历史存量；rho是假设",
+    "团队留出仍共享市场环境；只有两个回合，非独立市场泛化证明",
+    "回合2研发滞后使用预测时已发生的回合1投入，不使用回合2需求",
+    "回看验证使用后期样本，不是未来预测；前向验证仅一个时间切分",
+    "未建模行业需求增长、竞争者投入、营销延续和市场份额约束",
+    "截距代表训练环境；正式1重置状态，不能直接用全练习拟合预测",
+    "参数为关联而非因果；约束不证明平台真实机制；敏感性网格不用于择优报分",
+    "嵌套验证只在外层训练样本内选lambda；rho固定0.5，未从验证集选择",
+    "未采集正式实际结果，未修改网页，未建立六回合优化器"
+  ]
+}

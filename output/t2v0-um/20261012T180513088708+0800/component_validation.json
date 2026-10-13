@@ -1,0 +1,4065 @@
+{
+  "interest_nested_market_holdouts": [
+    {
+      "held_market": 1,
+      "training_markets": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "form": "solvency_exponential",
+      "parameters": [
+        0.12207832505071688,
+        8.16829020708116
+      ],
+      "inner_scores_bp": {
+        "solvency_exponential": 2.850106666013379,
+        "leverage_power": 5.960018791042383
+      },
+      "records": [
+        {
+          "market_id": 1,
+          "team_column": 1,
+          "actual_rate_percent": 2.57,
+          "predicted_rate_percent": 2.5964880953843807,
+          "error_bp": 2.6488095384381265
+        },
+        {
+          "market_id": 1,
+          "team_column": 2,
+          "actual_rate_percent": 2.51,
+          "predicted_rate_percent": 2.5371991901013855,
+          "error_bp": 2.7199190101385855
+        },
+        {
+          "market_id": 1,
+          "team_column": 3,
+          "actual_rate_percent": 2.73,
+          "predicted_rate_percent": 2.739991380581383,
+          "error_bp": 0.9991380581383068
+        },
+        {
+          "market_id": 1,
+          "team_column": 4,
+          "actual_rate_percent": 2.51,
+          "predicted_rate_percent": 2.5371599708145838,
+          "error_bp": 2.715997081458406
+        },
+        {
+          "market_id": 1,
+          "team_column": 5,
+          "actual_rate_percent": 3.65,
+          "predicted_rate_percent": 3.605685358017223,
+          "error_bp": -4.431464198277682
+        },
+        {
+          "market_id": 1,
+          "team_column": 6,
+          "actual_rate_percent": 2.59,
+          "predicted_rate_percent": 2.6163106113423833,
+          "error_bp": 2.631061134238362
+        },
+        {
+          "market_id": 1,
+          "team_column": 7,
+          "actual_rate_percent": 2.58,
+          "predicted_rate_percent": 2.6069326254253307,
+          "error_bp": 2.6932625425330596
+        },
+        {
+          "market_id": 1,
+          "team_column": 8,
+          "actual_rate_percent": 3.65,
+          "predicted_rate_percent": 3.605685358017223,
+          "error_bp": -4.431464198277682
+        },
+        {
+          "market_id": 1,
+          "team_column": 9,
+          "actual_rate_percent": 2.51,
+          "predicted_rate_percent": 2.5393253301651915,
+          "error_bp": 2.9325330165191796
+        },
+        {
+          "market_id": 1,
+          "team_column": 10,
+          "actual_rate_percent": 2.59,
+          "predicted_rate_percent": 2.617185582991702,
+          "error_bp": 2.7185582991702346
+        }
+      ]
+    },
+    {
+      "held_market": 2,
+      "training_markets": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "form": "solvency_exponential",
+      "parameters": [
+        0.12244554798589316,
+        8.177895448676278
+      ],
+      "inner_scores_bp": {
+        "solvency_exponential": 2.85196549352325,
+        "leverage_power": 6.000667879328409
+      },
+      "records": [
+        {
+          "market_id": 2,
+          "team_column": 1,
+          "actual_rate_percent": 2.86,
+          "predicted_rate_percent": 2.8530833760308516,
+          "error_bp": -0.6916623969148179
+        },
+        {
+          "market_id": 2,
+          "team_column": 2,
+          "actual_rate_percent": 2.55,
+          "predicted_rate_percent": 2.5825948009034656,
+          "error_bp": 3.259480090346585
+        },
+        {
+          "market_id": 2,
+          "team_column": 3,
+          "actual_rate_percent": 2.61,
+          "predicted_rate_percent": 2.6334440508675985,
+          "error_bp": 2.344405086759885
+        },
+        {
+          "market_id": 2,
+          "team_column": 4,
+          "actual_rate_percent": 2.5,
+          "predicted_rate_percent": 2.5227907128039284,
+          "error_bp": 2.2790712803928233
+        },
+        {
+          "market_id": 2,
+          "team_column": 5,
+          "actual_rate_percent": 3.3,
+          "predicted_rate_percent": 3.2621781494560738,
+          "error_bp": -3.782185054392604
+        },
+        {
+          "market_id": 2,
+          "team_column": 6,
+          "actual_rate_percent": 2.51,
+          "predicted_rate_percent": 2.5324962943388623,
+          "error_bp": 2.2496294338862497
+        },
+        {
+          "market_id": 2,
+          "team_column": 7,
+          "actual_rate_percent": 3.65,
+          "predicted_rate_percent": 3.605883821728505,
+          "error_bp": -4.4116178271494215
+        },
+        {
+          "market_id": 2,
+          "team_column": 8,
+          "actual_rate_percent": 2.52,
+          "predicted_rate_percent": 2.5426823189205376,
+          "error_bp": 2.2682318920537865
+        },
+        {
+          "market_id": 2,
+          "team_column": 9,
+          "actual_rate_percent": 2.55,
+          "predicted_rate_percent": 2.579217746536016,
+          "error_bp": 2.921774653601624
+        },
+        {
+          "market_id": 2,
+          "team_column": 10,
+          "actual_rate_percent": 2.55,
+          "predicted_rate_percent": 2.5823212016419013,
+          "error_bp": 3.232120164190156
+        }
+      ]
+    },
+    {
+      "held_market": 3,
+      "training_markets": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "form": "solvency_exponential",
+      "parameters": [
+        0.12493662140779263,
+        8.215700172973015
+      ],
+      "inner_scores_bp": {
+        "solvency_exponential": 2.894251839803209,
+        "leverage_power": 6.538710529915326
+      },
+      "records": [
+        {
+          "market_id": 3,
+          "team_column": 1,
+          "actual_rate_percent": 2.5,
+          "predicted_rate_percent": 2.5085476944950624,
+          "error_bp": 0.8547694495062598
+        },
+        {
+          "market_id": 3,
+          "team_column": 2,
+          "actual_rate_percent": 2.66,
+          "predicted_rate_percent": 2.681509903459224,
+          "error_bp": 2.15099034592238
+        },
+        {
+          "market_id": 3,
+          "team_column": 3,
+          "actual_rate_percent": 2.58,
+          "predicted_rate_percent": 2.6063518748108443,
+          "error_bp": 2.6351874810844316
+        },
+        {
+          "market_id": 3,
+          "team_column": 4,
+          "actual_rate_percent": 2.57,
+          "predicted_rate_percent": 2.5995031347099906,
+          "error_bp": 2.9503134709990833
+        },
+        {
+          "market_id": 3,
+          "team_column": 5,
+          "actual_rate_percent": 2.61,
+          "predicted_rate_percent": 2.630483345732822,
+          "error_bp": 2.0483345732822364
+        },
+        {
+          "market_id": 3,
+          "team_column": 6,
+          "actual_rate_percent": 4.86,
+          "predicted_rate_percent": 4.951093874304529,
+          "error_bp": 9.10938743045285
+        },
+        {
+          "market_id": 3,
+          "team_column": 7,
+          "actual_rate_percent": 2.6,
+          "predicted_rate_percent": 2.6288363480283325,
+          "error_bp": 2.883634802833227
+        },
+        {
+          "market_id": 3,
+          "team_column": 8,
+          "actual_rate_percent": 2.53,
+          "predicted_rate_percent": 2.562967056815151,
+          "error_bp": 3.2967056815151183
+        },
+        {
+          "market_id": 3,
+          "team_column": 9,
+          "actual_rate_percent": 2.56,
+          "predicted_rate_percent": 2.591340775173338,
+          "error_bp": 3.1340775173338065
+        },
+        {
+          "market_id": 3,
+          "team_column": 10,
+          "actual_rate_percent": 2.53,
+          "predicted_rate_percent": 2.562299652387772,
+          "error_bp": 3.229965238777212
+        }
+      ]
+    },
+    {
+      "held_market": 4,
+      "training_markets": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "form": "solvency_exponential",
+      "parameters": [
+        0.12221179281632936,
+        8.175133509210022
+      ],
+      "inner_scores_bp": {
+        "solvency_exponential": 2.82142081900381,
+        "leverage_power": 5.753474253568635
+      },
+      "records": [
+        {
+          "market_id": 4,
+          "team_column": 1,
+          "actual_rate_percent": 2.58,
+          "predicted_rate_percent": 2.6096841201707606,
+          "error_bp": 2.968412017076089
+        },
+        {
+          "market_id": 4,
+          "team_column": 2,
+          "actual_rate_percent": 3.2,
+          "predicted_rate_percent": 3.1635826347309526,
+          "error_bp": -3.641736526904726
+        },
+        {
+          "market_id": 4,
+          "team_column": 3,
+          "actual_rate_percent": 2.6,
+          "predicted_rate_percent": 2.628532725126841,
+          "error_bp": 2.8532725126841116
+        },
+        {
+          "market_id": 4,
+          "team_column": 4,
+          "actual_rate_percent": 2.69,
+          "predicted_rate_percent": 2.7042912674646153,
+          "error_bp": 1.4291267464615647
+        },
+        {
+          "market_id": 4,
+          "team_column": 5,
+          "actual_rate_percent": 3.65,
+          "predicted_rate_percent": 3.604669318811875,
+          "error_bp": -4.533068118812468
+        },
+        {
+          "market_id": 4,
+          "team_column": 6,
+          "actual_rate_percent": 2.62,
+          "predicted_rate_percent": 2.644635603311689,
+          "error_bp": 2.4635603311689063
+        },
+        {
+          "market_id": 4,
+          "team_column": 7,
+          "actual_rate_percent": 2.52,
+          "predicted_rate_percent": 2.5473895081406996,
+          "error_bp": 2.738950814069995
+        },
+        {
+          "market_id": 4,
+          "team_column": 8,
+          "actual_rate_percent": 3.65,
+          "predicted_rate_percent": 3.604669318811875,
+          "error_bp": -4.533068118812468
+        },
+        {
+          "market_id": 4,
+          "team_column": 9,
+          "actual_rate_percent": 2.61,
+          "predicted_rate_percent": 2.6357890628414467,
+          "error_bp": 2.57890628414468
+        },
+        {
+          "market_id": 4,
+          "team_column": 10,
+          "actual_rate_percent": 2.58,
+          "predicted_rate_percent": 2.6092166309516696,
+          "error_bp": 2.9216630951669673
+        }
+      ]
+    },
+    {
+      "held_market": 5,
+      "training_markets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "form": "solvency_exponential",
+      "parameters": [
+        0.12197225313956654,
+        8.164424286828652
+      ],
+      "inner_scores_bp": {
+        "solvency_exponential": 2.8670456193567695,
+        "leverage_power": 5.958540865076165
+      },
+      "records": [
+        {
+          "market_id": 5,
+          "team_column": 1,
+          "actual_rate_percent": 3.65,
+          "predicted_rate_percent": 3.605981038695595,
+          "error_bp": -4.401896130440449
+        },
+        {
+          "market_id": 5,
+          "team_column": 2,
+          "actual_rate_percent": 2.59,
+          "predicted_rate_percent": 2.6132653105946795,
+          "error_bp": 2.3265310594679494
+        },
+        {
+          "market_id": 5,
+          "team_column": 3,
+          "actual_rate_percent": 2.52,
+          "predicted_rate_percent": 2.551688146366904,
+          "error_bp": 3.16881463669038
+        },
+        {
+          "market_id": 5,
+          "team_column": 4,
+          "actual_rate_percent": 3.65,
+          "predicted_rate_percent": 3.605981038695595,
+          "error_bp": -4.401896130440449
+        },
+        {
+          "market_id": 5,
+          "team_column": 5,
+          "actual_rate_percent": 2.62,
+          "predicted_rate_percent": 2.644756880460184,
+          "error_bp": 2.4756880460183948
+        },
+        {
+          "market_id": 5,
+          "team_column": 6,
+          "actual_rate_percent": 2.69,
+          "predicted_rate_percent": 2.7017266331234406,
+          "error_bp": 1.1726633123440577
+        },
+        {
+          "market_id": 5,
+          "team_column": 7,
+          "actual_rate_percent": 2.54,
+          "predicted_rate_percent": 2.5697266302830166,
+          "error_bp": 2.972663028301671
+        },
+        {
+          "market_id": 5,
+          "team_column": 8,
+          "actual_rate_percent": 2.62,
+          "predicted_rate_percent": 2.6398455915334704,
+          "error_bp": 1.9845591533470273
+        },
+        {
+          "market_id": 5,
+          "team_column": 9,
+          "actual_rate_percent": 2.57,
+          "predicted_rate_percent": 2.6002598451166152,
+          "error_bp": 3.0259845116615636
+        },
+        {
+          "market_id": 5,
+          "team_column": 10,
+          "actual_rate_percent": 2.66,
+          "predicted_rate_percent": 2.6789472496101263,
+          "error_bp": 1.8947249610126335
+        }
+      ]
+    },
+    {
+      "held_market": 6,
+      "training_markets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "form": "solvency_exponential",
+      "parameters": [
+        0.12175283650483767,
+        8.14509963910265
+      ],
+      "inner_scores_bp": {
+        "solvency_exponential": 2.916184835716254,
+        "leverage_power": 6.118934805454877
+      },
+      "records": [
+        {
+          "market_id": 6,
+          "team_column": 1,
+          "actual_rate_percent": 2.6,
+          "predicted_rate_percent": 2.6309642733308034,
+          "error_bp": 3.0964273330803143
+        },
+        {
+          "market_id": 6,
+          "team_column": 2,
+          "actual_rate_percent": 2.6,
+          "predicted_rate_percent": 2.625329479090438,
+          "error_bp": 2.5329479090437523
+        },
+        {
+          "market_id": 6,
+          "team_column": 3,
+          "actual_rate_percent": 2.6,
+          "predicted_rate_percent": 2.624075114151002,
+          "error_bp": 2.4075114151002026
+        },
+        {
+          "market_id": 6,
+          "team_column": 4,
+          "actual_rate_percent": 2.53,
+          "predicted_rate_percent": 2.5560896746468864,
+          "error_bp": 2.6089674646886722
+        },
+        {
+          "market_id": 6,
+          "team_column": 5,
+          "actual_rate_percent": 2.57,
+          "predicted_rate_percent": 2.6005934374022748,
+          "error_bp": 3.059343740227534
+        },
+        {
+          "market_id": 6,
+          "team_column": 6,
+          "actual_rate_percent": 2.86,
+          "predicted_rate_percent": 2.8559687678972083,
+          "error_bp": -0.40312321027914133
+        },
+        {
+          "market_id": 6,
+          "team_column": 7,
+          "actual_rate_percent": 2.69,
+          "predicted_rate_percent": 2.7110597626835538,
+          "error_bp": 2.105976268355369
+        },
+        {
+          "market_id": 6,
+          "team_column": 8,
+          "actual_rate_percent": 2.53,
+          "predicted_rate_percent": 2.5614279556639805,
+          "error_bp": 3.1427955663980565
+        },
+        {
+          "market_id": 6,
+          "team_column": 9,
+          "actual_rate_percent": 2.68,
+          "predicted_rate_percent": 2.6994544808362577,
+          "error_bp": 1.9454480836257875
+        },
+        {
+          "market_id": 6,
+          "team_column": 10,
+          "actual_rate_percent": 2.58,
+          "predicted_rate_percent": 2.6094346562138555,
+          "error_bp": 2.9434656213855814
+        }
+      ]
+    },
+    {
+      "held_market": 7,
+      "training_markets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "form": "solvency_exponential",
+      "parameters": [
+        0.12258343732074105,
+        8.184785062646304
+      ],
+      "inner_scores_bp": {
+        "solvency_exponential": 2.8769815695447005,
+        "leverage_power": 6.066533612015469
+      },
+      "records": [
+        {
+          "market_id": 7,
+          "team_column": 1,
+          "actual_rate_percent": 2.58,
+          "predicted_rate_percent": 2.607480445948989,
+          "error_bp": 2.748044594898917
+        },
+        {
+          "market_id": 7,
+          "team_column": 2,
+          "actual_rate_percent": 3.65,
+          "predicted_rate_percent": 3.6048887903668225,
+          "error_bp": -4.51112096331769
+        },
+        {
+          "market_id": 7,
+          "team_column": 3,
+          "actual_rate_percent": 2.95,
+          "predicted_rate_percent": 2.930334429334791,
+          "error_bp": -1.9665570665208885
+        },
+        {
+          "market_id": 7,
+          "team_column": 4,
+          "actual_rate_percent": 2.59,
+          "predicted_rate_percent": 2.619854601030273,
+          "error_bp": 2.985460103027285
+        },
+        {
+          "market_id": 7,
+          "team_column": 5,
+          "actual_rate_percent": 2.72,
+          "predicted_rate_percent": 2.7284935989973804,
+          "error_bp": 0.8493598997380385
+        },
+        {
+          "market_id": 7,
+          "team_column": 6,
+          "actual_rate_percent": 2.52,
+          "predicted_rate_percent": 2.5431167152040843,
+          "error_bp": 2.3116715204084537
+        },
+        {
+          "market_id": 7,
+          "team_column": 7,
+          "actual_rate_percent": 2.58,
+          "predicted_rate_percent": 2.602905007774156,
+          "error_bp": 2.29050077741561
+        },
+        {
+          "market_id": 7,
+          "team_column": 8,
+          "actual_rate_percent": 2.51,
+          "predicted_rate_percent": 2.525474887237579,
+          "error_bp": 1.5474887237579353
+        },
+        {
+          "market_id": 7,
+          "team_column": 9,
+          "actual_rate_percent": 2.5,
+          "predicted_rate_percent": 2.5071734299954267,
+          "error_bp": 0.7173429995426859
+        },
+        {
+          "market_id": 7,
+          "team_column": 10,
+          "actual_rate_percent": 3.48,
+          "predicted_rate_percent": 3.434465643348334,
+          "error_bp": -4.553435665166535
+        }
+      ]
+    },
+    {
+      "held_market": 8,
+      "training_markets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "form": "solvency_exponential",
+      "parameters": [
+        0.12216049244654921,
+        8.170650331622465
+      ],
+      "inner_scores_bp": {
+        "solvency_exponential": 2.8528689473754354,
+        "leverage_power": 5.938850267072491
+      },
+      "records": [
+        {
+          "market_id": 8,
+          "team_column": 1,
+          "actual_rate_percent": 2.57,
+          "predicted_rate_percent": 2.6024619266061295,
+          "error_bp": 3.246192660612997
+        },
+        {
+          "market_id": 8,
+          "team_column": 2,
+          "actual_rate_percent": 2.58,
+          "predicted_rate_percent": 2.6068569332527756,
+          "error_bp": 2.68569332527759
+        },
+        {
+          "market_id": 8,
+          "team_column": 3,
+          "actual_rate_percent": 3.53,
+          "predicted_rate_percent": 3.481410491089257,
+          "error_bp": -4.8589508910742465
+        },
+        {
+          "market_id": 8,
+          "team_column": 4,
+          "actual_rate_percent": 2.51,
+          "predicted_rate_percent": 2.531786402993242,
+          "error_bp": 2.1786402993242473
+        },
+        {
+          "market_id": 8,
+          "team_column": 5,
+          "actual_rate_percent": 2.58,
+          "predicted_rate_percent": 2.608678075871533,
+          "error_bp": 2.8678075871532984
+        },
+        {
+          "market_id": 8,
+          "team_column": 6,
+          "actual_rate_percent": 3.65,
+          "predicted_rate_percent": 3.6056620604527883,
+          "error_bp": -4.433793954721106
+        },
+        {
+          "market_id": 8,
+          "team_column": 7,
+          "actual_rate_percent": 2.59,
+          "predicted_rate_percent": 2.621254281434664,
+          "error_bp": 3.1254281434664164
+        },
+        {
+          "market_id": 8,
+          "team_column": 8,
+          "actual_rate_percent": 2.62,
+          "predicted_rate_percent": 2.640578831040985,
+          "error_bp": 2.057883104098527
+        },
+        {
+          "market_id": 8,
+          "team_column": 9,
+          "actual_rate_percent": 2.88,
+          "predicted_rate_percent": 2.8742608215245378,
+          "error_bp": -0.5739178475461975
+        },
+        {
+          "market_id": 8,
+          "team_column": 10,
+          "actual_rate_percent": 2.6,
+          "predicted_rate_percent": 2.6227829626486603,
+          "error_bp": 2.2782962648660385
+        }
+      ]
+    },
+    {
+      "held_market": 9,
+      "training_markets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "form": "solvency_exponential",
+      "parameters": [
+        0.13035022811353691,
+        8.345849069898815
+      ],
+      "inner_scores_bp": {
+        "solvency_exponential": 2.5362654104360316,
+        "leverage_power": 5.452508085572257
+      },
+      "records": [
+        {
+          "market_id": 9,
+          "team_column": 1,
+          "actual_rate_percent": 2.57,
+          "predicted_rate_percent": 2.59552327254306,
+          "error_bp": 2.5523272543060447
+        },
+        {
+          "market_id": 9,
+          "team_column": 2,
+          "actual_rate_percent": 5.08,
+          "predicted_rate_percent": 5.267915675904732,
+          "error_bp": 18.791567590473143
+        },
+        {
+          "market_id": 9,
+          "team_column": 3,
+          "actual_rate_percent": 2.59,
+          "predicted_rate_percent": 2.6102735398767103,
+          "error_bp": 2.0273539876710474
+        },
+        {
+          "market_id": 9,
+          "team_column": 4,
+          "actual_rate_percent": 2.75,
+          "predicted_rate_percent": 2.749861917937949,
+          "error_bp": -0.01380820620511692
+        },
+        {
+          "market_id": 9,
+          "team_column": 5,
+          "actual_rate_percent": 2.56,
+          "predicted_rate_percent": 2.586848345191936,
+          "error_bp": 2.6848345191936427
+        },
+        {
+          "market_id": 9,
+          "team_column": 6,
+          "actual_rate_percent": 2.57,
+          "predicted_rate_percent": 2.593333801448433,
+          "error_bp": 2.3333801448433475
+        },
+        {
+          "market_id": 9,
+          "team_column": 7,
+          "actual_rate_percent": 2.61,
+          "predicted_rate_percent": 2.628475792720486,
+          "error_bp": 1.8475792720486541
+        },
+        {
+          "market_id": 9,
+          "team_column": 8,
+          "actual_rate_percent": 2.59,
+          "predicted_rate_percent": 2.614399792661034,
+          "error_bp": 2.4399792661033937
+        },
+        {
+          "market_id": 9,
+          "team_column": 9,
+          "actual_rate_percent": 2.57,
+          "predicted_rate_percent": 2.595282859053994,
+          "error_bp": 2.5282859053994438
+        },
+        {
+          "market_id": 9,
+          "team_column": 10,
+          "actual_rate_percent": 3.65,
+          "predicted_rate_percent": 3.6205528479461853,
+          "error_bp": -2.9447152053814136
+        }
+      ]
+    },
+    {
+      "held_market": 10,
+      "training_markets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "form": "solvency_exponential",
+      "parameters": [
+        0.12224185385696927,
+        8.16517345612428
+      ],
+      "inner_scores_bp": {
+        "solvency_exponential": 2.935608047404793,
+        "leverage_power": 6.188444563047094
+      },
+      "records": [
+        {
+          "market_id": 10,
+          "team_column": 1,
+          "actual_rate_percent": 2.5,
+          "predicted_rate_percent": 2.505216270060576,
+          "error_bp": 0.5216270060576201
+        },
+        {
+          "market_id": 10,
+          "team_column": 2,
+          "actual_rate_percent": 2.53,
+          "predicted_rate_percent": 2.5571866463835424,
+          "error_bp": 2.718664638354267
+        },
+        {
+          "market_id": 10,
+          "team_column": 3,
+          "actual_rate_percent": 2.74,
+          "predicted_rate_percent": 2.748222358847979,
+          "error_bp": 0.8222358847979157
+        },
+        {
+          "market_id": 10,
+          "team_column": 4,
+          "actual_rate_percent": 2.62,
+          "predicted_rate_percent": 2.6428654842656276,
+          "error_bp": 2.286548426562753
+        },
+        {
+          "market_id": 10,
+          "team_column": 5,
+          "actual_rate_percent": 2.57,
+          "predicted_rate_percent": 2.598035542475042,
+          "error_bp": 2.8035542475042594
+        },
+        {
+          "market_id": 10,
+          "team_column": 6,
+          "actual_rate_percent": 2.57,
+          "predicted_rate_percent": 2.6009051027728494,
+          "error_bp": 3.0905102772849906
+        },
+        {
+          "market_id": 10,
+          "team_column": 7,
+          "actual_rate_percent": 2.77,
+          "predicted_rate_percent": 2.7724436715390217,
+          "error_bp": 0.2443671539022153
+        },
+        {
+          "market_id": 10,
+          "team_column": 8,
+          "actual_rate_percent": 2.58,
+          "predicted_rate_percent": 2.605563053315613,
+          "error_bp": 2.556305331561312
+        },
+        {
+          "market_id": 10,
+          "team_column": 9,
+          "actual_rate_percent": 3.37,
+          "predicted_rate_percent": 3.3297287734136995,
+          "error_bp": -4.027122658630013
+        },
+        {
+          "market_id": 10,
+          "team_column": 10,
+          "actual_rate_percent": 2.64,
+          "predicted_rate_percent": 2.6583951536616404,
+          "error_bp": 1.8395153661640617
+        }
+      ]
+    }
+  ],
+  "material_market_holdouts": [
+    {
+      "held_market": 1,
+      "training_markets": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "fitted": {
+        "form": "proportional",
+        "parameter": 0.0013745242070697635,
+        "compatible_interval": [
+          0.00133603294629697,
+          0.0013979402751963061
+        ]
+      },
+      "evaluation": {
+        "n": 10,
+        "mae_kusd": 2.5963634469791943,
+        "max_abs_error_kusd": 5.122526547762391,
+        "display_compatible_n": 10,
+        "records": [
+          {
+            "phase": "practice",
+            "market": 1,
+            "team": "M1:T1",
+            "actual_cost_kusd": 15438.0,
+            "unit_cost_usd": 1054.4473739900445,
+            "material_cost_kusd": 15437.109555214252,
+            "published_price_usd": 1053.0,
+            "production_kunits": 14.64,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -0.8904447857476043,
+            "display_tolerance_kusd": 5.7722368699502224,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 1,
+            "team": "M1:T2",
+            "actual_cost_kusd": 16230.0,
+            "unit_cost_usd": 1054.4473739900445,
+            "material_cost_kusd": 16227.945085706786,
+            "published_price_usd": 1053.0,
+            "production_kunits": 15.39,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -2.0549142932140967,
+            "display_tolerance_kusd": 5.7722368699502224,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 1,
+            "team": "M1:T3",
+            "actual_cost_kusd": 17911.0,
+            "unit_cost_usd": 1054.4473739900445,
+            "material_cost_kusd": 17915.060884090854,
+            "published_price_usd": 1053.0,
+            "production_kunits": 16.99,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 4.060884090853506,
+            "display_tolerance_kusd": 5.7722368699502224,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 1,
+            "team": "M1:T4",
+            "actual_cost_kusd": 18425.0,
+            "unit_cost_usd": 1054.4473739900445,
+            "material_cost_kusd": 18421.195623606076,
+            "published_price_usd": 1053.0,
+            "production_kunits": 17.47,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -3.8043763939240307,
+            "display_tolerance_kusd": 5.7722368699502224,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 1,
+            "team": "M1:T5",
+            "actual_cost_kusd": 3047.0,
+            "unit_cost_usd": 1054.4473739900445,
+            "material_cost_kusd": 3047.3529108312287,
+            "published_price_usd": 1053.0,
+            "production_kunits": 2.89,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.3529108312286553,
+            "display_tolerance_kusd": 5.7722368699502224,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 1,
+            "team": "M1:T6",
+            "actual_cost_kusd": 24878.0,
+            "unit_cost_usd": 1054.4473739900445,
+            "material_cost_kusd": 24874.41355242515,
+            "published_price_usd": 1053.0,
+            "production_kunits": 23.59,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -3.586447574849444,
+            "display_tolerance_kusd": 5.7722368699502224,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 1,
+            "team": "M1:T7",
+            "actual_cost_kusd": 20131.0,
+            "unit_cost_usd": 1054.4473739900445,
+            "material_cost_kusd": 20129.40036946995,
+            "published_price_usd": 1053.0,
+            "production_kunits": 19.09,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -1.59963053005049,
+            "display_tolerance_kusd": 5.7722368699502224,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 1,
+            "team": "M1:T8",
+            "actual_cost_kusd": 3047.0,
+            "unit_cost_usd": 1054.4473739900445,
+            "material_cost_kusd": 3047.3529108312287,
+            "published_price_usd": 1053.0,
+            "production_kunits": 2.89,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.3529108312286553,
+            "display_tolerance_kusd": 5.7722368699502224,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 1,
+            "team": "M1:T9",
+            "actual_cost_kusd": 18109.0,
+            "unit_cost_usd": 1054.4473739900445,
+            "material_cost_kusd": 18104.861411409067,
+            "published_price_usd": 1053.0,
+            "production_kunits": 17.17,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -4.138588590933068,
+            "display_tolerance_kusd": 5.7722368699502224,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 1,
+            "team": "M1:T10",
+            "actual_cost_kusd": 19892.0,
+            "unit_cost_usd": 1054.4473739900445,
+            "material_cost_kusd": 19886.877473452238,
+            "published_price_usd": 1053.0,
+            "production_kunits": 18.86,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -5.122526547762391,
+            "display_tolerance_kusd": 5.7722368699502224,
+            "display_compatible": true
+          }
+        ]
+      }
+    },
+    {
+      "held_market": 2,
+      "training_markets": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "fitted": {
+        "form": "proportional",
+        "parameter": 0.0013749452597535273,
+        "compatible_interval": [
+          0.0013418176683484635,
+          0.0013979402751963061
+        ]
+      },
+      "evaluation": {
+        "n": 10,
+        "mae_kusd": 3.004269460893556,
+        "max_abs_error_kusd": 5.221334701484011,
+        "display_compatible_n": 10,
+        "records": [
+          {
+            "phase": "practice",
+            "market": 2,
+            "team": "M2:T1",
+            "actual_cost_kusd": 26608.0,
+            "unit_cost_usd": 1054.4478173585205,
+            "material_cost_kusd": 26603.718431955473,
+            "published_price_usd": 1053.0,
+            "production_kunits": 25.23,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -4.281568044527376,
+            "display_tolerance_kusd": 5.772239086792602,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 2,
+            "team": "M2:T2",
+            "actual_cost_kusd": 16868.0,
+            "unit_cost_usd": 1054.4478173585205,
+            "material_cost_kusd": 16871.16507773633,
+            "published_price_usd": 1053.0,
+            "production_kunits": 16.0,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 3.165077736328385,
+            "display_tolerance_kusd": 5.772239086792602,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 2,
+            "team": "M2:T3",
+            "actual_cost_kusd": 17287.0,
+            "unit_cost_usd": 1054.4478173585205,
+            "material_cost_kusd": 17282.39972650615,
+            "published_price_usd": 1053.0,
+            "production_kunits": 16.39,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -4.600273493848363,
+            "display_tolerance_kusd": 5.772239086792602,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 2,
+            "team": "M2:T4",
+            "actual_cost_kusd": 14177.0,
+            "unit_cost_usd": 1054.4478173585205,
+            "material_cost_kusd": 14171.778665298516,
+            "published_price_usd": 1053.0,
+            "production_kunits": 13.44,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -5.221334701484011,
+            "display_tolerance_kusd": 5.772239086792602,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 2,
+            "team": "M2:T5",
+            "actual_cost_kusd": 5336.0,
+            "unit_cost_usd": 1054.4478173585205,
+            "material_cost_kusd": 5335.505955834114,
+            "published_price_usd": 1053.0,
+            "production_kunits": 5.06,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -0.4940441658864074,
+            "display_tolerance_kusd": 5.772239086792602,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 2,
+            "team": "M2:T6",
+            "actual_cost_kusd": 16831.0,
+            "unit_cost_usd": 1054.4478173585205,
+            "material_cost_kusd": 16828.98716504199,
+            "published_price_usd": 1053.0,
+            "production_kunits": 15.96,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -2.0128349580118083,
+            "display_tolerance_kusd": 5.772239086792602,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 2,
+            "team": "M2:T7",
+            "actual_cost_kusd": 3047.0,
+            "unit_cost_usd": 1054.4478173585205,
+            "material_cost_kusd": 3047.3541921661244,
+            "published_price_usd": 1053.0,
+            "production_kunits": 2.89,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.3541921661244487,
+            "display_tolerance_kusd": 5.772239086792602,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 2,
+            "team": "M2:T8",
+            "actual_cost_kusd": 17627.0,
+            "unit_cost_usd": 1054.4478173585205,
+            "material_cost_kusd": 17630.367506234463,
+            "published_price_usd": 1053.0,
+            "production_kunits": 16.72,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 3.3675062344627804,
+            "display_tolerance_kusd": 5.772239086792602,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 2,
+            "team": "M2:T9",
+            "actual_cost_kusd": 20142.0,
+            "unit_cost_usd": 1054.4478173585205,
+            "material_cost_kusd": 20139.953311547742,
+            "published_price_usd": 1053.0,
+            "production_kunits": 19.1,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -2.046688452257513,
+            "display_tolerance_kusd": 5.772239086792602,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 2,
+            "team": "M2:T10",
+            "actual_cost_kusd": 21104.0,
+            "unit_cost_usd": 1054.4478173585205,
+            "material_cost_kusd": 21099.500825343996,
+            "published_price_usd": 1053.0,
+            "production_kunits": 20.01,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -4.49917465600447,
+            "display_tolerance_kusd": 5.772239086792602,
+            "display_compatible": true
+          }
+        ]
+      }
+    },
+    {
+      "held_market": 3,
+      "training_markets": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "fitted": {
+        "form": "proportional",
+        "parameter": 0.001379464576925763,
+        "compatible_interval": [
+          0.0013418176683484635,
+          0.0013979402751963061
+        ]
+      },
+      "evaluation": {
+        "n": 10,
+        "mae_kusd": 2.3991799620872007,
+        "max_abs_error_kusd": 4.7226288099751415,
+        "display_compatible_n": 10,
+        "records": [
+          {
+            "phase": "practice",
+            "market": 3,
+            "team": "M3:T1",
+            "actual_cost_kusd": 21336.0,
+            "unit_cost_usd": 1054.4525761995028,
+            "material_cost_kusd": 21331.575616515944,
+            "published_price_usd": 1053.0,
+            "production_kunits": 20.23,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -4.424383484056307,
+            "display_tolerance_kusd": 5.7722628809975145,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 3,
+            "team": "M3:T2",
+            "actual_cost_kusd": 18851.0,
+            "unit_cost_usd": 1054.4525761995028,
+            "material_cost_kusd": 18853.612062447108,
+            "published_price_usd": 1053.0,
+            "production_kunits": 17.88,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 2.6120624471077463,
+            "display_tolerance_kusd": 5.7722628809975145,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 3,
+            "team": "M3:T3",
+            "actual_cost_kusd": 32013.0,
+            "unit_cost_usd": 1054.4525761995028,
+            "material_cost_kusd": 32013.180213416905,
+            "published_price_usd": 1053.0,
+            "production_kunits": 30.36,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.1802134169047349,
+            "display_tolerance_kusd": 5.7722628809975145,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 3,
+            "team": "M3:T4",
+            "actual_cost_kusd": 5449.0,
+            "unit_cost_usd": 1054.4525761995028,
+            "material_cost_kusd": 5451.519818951429,
+            "published_price_usd": 1053.0,
+            "production_kunits": 5.17,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 2.5198189514294427,
+            "display_tolerance_kusd": 5.7722628809975145,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 3,
+            "team": "M3:T5",
+            "actual_cost_kusd": 23977.0,
+            "unit_cost_usd": 1054.4525761995028,
+            "material_cost_kusd": 23978.25158277669,
+            "published_price_usd": 1053.0,
+            "production_kunits": 22.74,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 1.251582776691066,
+            "display_tolerance_kusd": 5.7722628809975145,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 3,
+            "team": "M3:T6",
+            "actual_cost_kusd": 48.0,
+            "unit_cost_usd": 1054.4525761995028,
+            "material_cost_kusd": 52.72262880997514,
+            "published_price_usd": 1053.0,
+            "production_kunits": 0.05,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 4.7226288099751415,
+            "display_tolerance_kusd": 5.7722628809975145,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 3,
+            "team": "M3:T7",
+            "actual_cost_kusd": 31634.0,
+            "unit_cost_usd": 1054.4525761995028,
+            "material_cost_kusd": 31633.577285985084,
+            "published_price_usd": 1053.0,
+            "production_kunits": 30.0,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -0.42271401491598226,
+            "display_tolerance_kusd": 5.7722628809975145,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 3,
+            "team": "M3:T8",
+            "actual_cost_kusd": 31370.0,
+            "unit_cost_usd": 1054.4525761995028,
+            "material_cost_kusd": 31369.96414193521,
+            "published_price_usd": 1053.0,
+            "production_kunits": 29.75,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -0.03585806479168241,
+            "display_tolerance_kusd": 5.7722628809975145,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 3,
+            "team": "M3:T9",
+            "actual_cost_kusd": 23635.0,
+            "unit_cost_usd": 1054.4525761995028,
+            "material_cost_kusd": 23630.28223263086,
+            "published_price_usd": 1053.0,
+            "production_kunits": 22.41,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -4.717767369140347,
+            "display_tolerance_kusd": 5.7722628809975145,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 3,
+            "team": "M3:T10",
+            "actual_cost_kusd": 16674.0,
+            "unit_cost_usd": 1054.4525761995028,
+            "material_cost_kusd": 16670.89522971414,
+            "published_price_usd": 1053.0,
+            "production_kunits": 15.81,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -3.1047702858595585,
+            "display_tolerance_kusd": 5.7722628809975145,
+            "display_compatible": true
+          }
+        ]
+      }
+    },
+    {
+      "held_market": 4,
+      "training_markets": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "fitted": {
+        "form": "proportional",
+        "parameter": 0.001391364664630277,
+        "compatible_interval": [
+          0.0013418176683484635,
+          0.0013979402751963061
+        ]
+      },
+      "evaluation": {
+        "n": 10,
+        "mae_kusd": 2.3795561911103507,
+        "max_abs_error_kusd": 4.96960630869944,
+        "display_compatible_n": 10,
+        "records": [
+          {
+            "phase": "practice",
+            "market": 4,
+            "team": "M4:T1",
+            "actual_cost_kusd": 21383.0,
+            "unit_cost_usd": 1054.4651069918557,
+            "material_cost_kusd": 21384.552369794834,
+            "published_price_usd": 1053.0,
+            "production_kunits": 20.28,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 1.552369794833794,
+            "display_tolerance_kusd": 5.772325534959278,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 4,
+            "team": "M4:T2",
+            "actual_cost_kusd": 22618.0,
+            "unit_cost_usd": 1054.4651069918557,
+            "material_cost_kusd": 22618.276544975302,
+            "published_price_usd": 1053.0,
+            "production_kunits": 21.45,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.27654497530238586,
+            "display_tolerance_kusd": 5.772325534959278,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 4,
+            "team": "M4:T3",
+            "actual_cost_kusd": 21380.0,
+            "unit_cost_usd": 1054.4651069918557,
+            "material_cost_kusd": 21384.552369794834,
+            "published_price_usd": 1053.0,
+            "production_kunits": 20.28,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 4.552369794833794,
+            "display_tolerance_kusd": 5.772325534959278,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 4,
+            "team": "M4:T4",
+            "actual_cost_kusd": 19069.0,
+            "unit_cost_usd": 1054.4651069918557,
+            "material_cost_kusd": 19064.729134412748,
+            "published_price_usd": 1053.0,
+            "production_kunits": 18.08,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -4.270865587252047,
+            "display_tolerance_kusd": 5.772325534959278,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 4,
+            "team": "M4:T5",
+            "actual_cost_kusd": 3047.0,
+            "unit_cost_usd": 1054.4651069918557,
+            "material_cost_kusd": 3047.404159206463,
+            "published_price_usd": 1053.0,
+            "production_kunits": 2.89,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.40415920646319137,
+            "display_tolerance_kusd": 5.772325534959278,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 4,
+            "team": "M4:T6",
+            "actual_cost_kusd": 20542.0,
+            "unit_cost_usd": 1054.4651069918557,
+            "material_cost_kusd": 20540.98028420135,
+            "published_price_usd": 1053.0,
+            "production_kunits": 19.48,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -1.0197157986513048,
+            "display_tolerance_kusd": 5.772325534959278,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 4,
+            "team": "M4:T7",
+            "actual_cost_kusd": 16677.0,
+            "unit_cost_usd": 1054.4651069918557,
+            "material_cost_kusd": 16681.63799261116,
+            "published_price_usd": 1053.0,
+            "production_kunits": 15.82,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 4.637992611158552,
+            "display_tolerance_kusd": 5.772325534959278,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 4,
+            "team": "M4:T8",
+            "actual_cost_kusd": 3047.0,
+            "unit_cost_usd": 1054.4651069918557,
+            "material_cost_kusd": 3047.404159206463,
+            "published_price_usd": 1053.0,
+            "production_kunits": 2.89,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.40415920646319137,
+            "display_tolerance_kusd": 5.772325534959278,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 4,
+            "team": "M4:T9",
+            "actual_cost_kusd": 18290.0,
+            "unit_cost_usd": 1054.4651069918557,
+            "material_cost_kusd": 18294.9696063087,
+            "published_price_usd": 1053.0,
+            "production_kunits": 17.35,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 4.96960630869944,
+            "display_tolerance_kusd": 5.772325534959278,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 4,
+            "team": "M4:T10",
+            "actual_cost_kusd": 14571.0,
+            "unit_cost_usd": 1054.4651069918557,
+            "material_cost_kusd": 14572.707778627446,
+            "published_price_usd": 1053.0,
+            "production_kunits": 13.82,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 1.7077786274458049,
+            "display_tolerance_kusd": 5.772325534959278,
+            "display_compatible": true
+          }
+        ]
+      }
+    },
+    {
+      "held_market": 5,
+      "training_markets": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "fitted": {
+        "form": "proportional",
+        "parameter": 0.0013852876955121353,
+        "compatible_interval": [
+          0.0013418176683484635,
+          0.0013979402751963061
+        ]
+      },
+      "evaluation": {
+        "n": 10,
+        "mae_kusd": 2.6876846786465647,
+        "max_abs_error_kusd": 4.887209196229378,
+        "display_compatible_n": 10,
+        "records": [
+          {
+            "phase": "practice",
+            "market": 5,
+            "team": "M5:T1",
+            "actual_cost_kusd": 3047.0,
+            "unit_cost_usd": 1054.4587079433743,
+            "material_cost_kusd": 3047.3856659563517,
+            "published_price_usd": 1053.0,
+            "production_kunits": 2.89,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.3856659563516587,
+            "display_tolerance_kusd": 5.7722935397168715,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 5,
+            "team": "M5:T2",
+            "actual_cost_kusd": 19094.0,
+            "unit_cost_usd": 1054.4587079433743,
+            "material_cost_kusd": 19096.24720085451,
+            "published_price_usd": 1053.0,
+            "production_kunits": 18.11,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 2.2472008545082645,
+            "display_tolerance_kusd": 5.7722935397168715,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 5,
+            "team": "M5:T3",
+            "actual_cost_kusd": 18931.0,
+            "unit_cost_usd": 1054.4587079433743,
+            "material_cost_kusd": 18927.533807583568,
+            "published_price_usd": 1053.0,
+            "production_kunits": 17.95,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -3.4661924164320226,
+            "display_tolerance_kusd": 5.7722935397168715,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 5,
+            "team": "M5:T4",
+            "actual_cost_kusd": 3047.0,
+            "unit_cost_usd": 1054.4587079433743,
+            "material_cost_kusd": 3047.3856659563517,
+            "published_price_usd": 1053.0,
+            "production_kunits": 2.89,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.3856659563516587,
+            "display_tolerance_kusd": 5.7722935397168715,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 5,
+            "team": "M5:T5",
+            "actual_cost_kusd": 30195.0,
+            "unit_cost_usd": 1054.4587079433743,
+            "material_cost_kusd": 30199.69739549824,
+            "published_price_usd": 1053.0,
+            "production_kunits": 28.64,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 4.69739549823862,
+            "display_tolerance_kusd": 5.7722935397168715,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 5,
+            "team": "M5:T6",
+            "actual_cost_kusd": 8027.0,
+            "unit_cost_usd": 1054.4587079433743,
+            "material_cost_kusd": 8024.430767449078,
+            "published_price_usd": 1053.0,
+            "production_kunits": 7.61,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -2.569232550921697,
+            "display_tolerance_kusd": 5.7722935397168715,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 5,
+            "team": "M5:T7",
+            "actual_cost_kusd": 30686.0,
+            "unit_cost_usd": 1054.4587079433743,
+            "material_cost_kusd": 30684.748401152192,
+            "published_price_usd": 1053.0,
+            "production_kunits": 29.1,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -1.2515988478080544,
+            "display_tolerance_kusd": 5.7722935397168715,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 5,
+            "team": "M5:T8",
+            "actual_cost_kusd": 20270.0,
+            "unit_cost_usd": 1054.4587079433743,
+            "material_cost_kusd": 20266.69636667165,
+            "published_price_usd": 1053.0,
+            "production_kunits": 19.22,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -3.303633328348951,
+            "display_tolerance_kusd": 5.7722935397168715,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 5,
+            "team": "M5:T9",
+            "actual_cost_kusd": 16042.0,
+            "unit_cost_usd": 1054.4587079433743,
+            "material_cost_kusd": 16038.316947818725,
+            "published_price_usd": 1053.0,
+            "production_kunits": 15.21,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -3.683052181275343,
+            "display_tolerance_kusd": 5.7722935397168715,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 5,
+            "team": "M5:T10",
+            "actual_cost_kusd": 17942.0,
+            "unit_cost_usd": 1054.4587079433743,
+            "material_cost_kusd": 17946.88720919623,
+            "published_price_usd": 1053.0,
+            "production_kunits": 17.02,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 4.887209196229378,
+            "display_tolerance_kusd": 5.7722935397168715,
+            "display_compatible": true
+          }
+        ]
+      }
+    },
+    {
+      "held_market": 6,
+      "training_markets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "fitted": {
+        "form": "proportional",
+        "parameter": 0.0013927505620547236,
+        "compatible_interval": [
+          0.0013418176683484635,
+          0.0014209362326468697
+        ]
+      },
+      "evaluation": {
+        "n": 10,
+        "mae_kusd": 2.664270932936597,
+        "max_abs_error_kusd": 5.68098923562502,
+        "display_compatible_n": 10,
+        "records": [
+          {
+            "phase": "practice",
+            "market": 6,
+            "team": "M6:T1",
+            "actual_cost_kusd": 14816.0,
+            "unit_cost_usd": 1054.4665663418436,
+            "material_cost_kusd": 14815.255257102905,
+            "published_price_usd": 1053.0,
+            "production_kunits": 14.05,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -0.7447428970954206,
+            "display_tolerance_kusd": 5.772332831709218,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 6,
+            "team": "M6:T2",
+            "actual_cost_kusd": 18538.0,
+            "unit_cost_usd": 1054.4665663418436,
+            "material_cost_kusd": 18537.52223628961,
+            "published_price_usd": 1053.0,
+            "production_kunits": 17.58,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -0.4777637103907182,
+            "display_tolerance_kusd": 5.772332831709218,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 6,
+            "team": "M6:T3",
+            "actual_cost_kusd": 21540.0,
+            "unit_cost_usd": 1054.4665663418436,
+            "material_cost_kusd": 21542.751950363865,
+            "published_price_usd": 1053.0,
+            "production_kunits": 20.43,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 2.751950363865035,
+            "display_tolerance_kusd": 5.772332831709218,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 6,
+            "team": "M6:T4",
+            "actual_cost_kusd": 17291.0,
+            "unit_cost_usd": 1054.4665663418436,
+            "material_cost_kusd": 17293.251688006236,
+            "published_price_usd": 1053.0,
+            "production_kunits": 16.4,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 2.2516880062357814,
+            "display_tolerance_kusd": 5.772332831709218,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 6,
+            "team": "M6:T5",
+            "actual_cost_kusd": 17454.0,
+            "unit_cost_usd": 1054.4665663418436,
+            "material_cost_kusd": 17451.421672957513,
+            "published_price_usd": 1053.0,
+            "production_kunits": 16.55,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -2.578327042487217,
+            "display_tolerance_kusd": 5.772332831709218,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 6,
+            "team": "M6:T6",
+            "actual_cost_kusd": 23686.0,
+            "unit_cost_usd": 1054.4665663418436,
+            "material_cost_kusd": 23683.31908003781,
+            "published_price_usd": 1053.0,
+            "production_kunits": 22.46,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -2.680919962189364,
+            "display_tolerance_kusd": 5.772332831709218,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 6,
+            "team": "M6:T7",
+            "actual_cost_kusd": 6095.0,
+            "unit_cost_usd": 1054.4665663418436,
+            "material_cost_kusd": 6094.816753455856,
+            "published_price_usd": 1053.0,
+            "production_kunits": 5.78,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -0.18324654414391262,
+            "display_tolerance_kusd": 5.772332831709218,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 6,
+            "team": "M6:T8",
+            "actual_cost_kusd": 17625.0,
+            "unit_cost_usd": 1054.4665663418436,
+            "material_cost_kusd": 17630.680989235625,
+            "published_price_usd": 1053.0,
+            "production_kunits": 16.72,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 5.68098923562502,
+            "display_tolerance_kusd": 5.772332831709218,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 6,
+            "team": "M6:T9",
+            "actual_cost_kusd": 28487.0,
+            "unit_cost_usd": 1054.4665663418436,
+            "material_cost_kusd": 28491.686622556615,
+            "published_price_usd": 1053.0,
+            "production_kunits": 27.02,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 4.686622556615475,
+            "display_tolerance_kusd": 5.772332831709218,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 6,
+            "team": "M6:T10",
+            "actual_cost_kusd": 16192.0,
+            "unit_cost_usd": 1054.4665663418436,
+            "material_cost_kusd": 16196.606459010718,
+            "published_price_usd": 1053.0,
+            "production_kunits": 15.36,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 4.6064590107180265,
+            "display_tolerance_kusd": 5.772332831709218,
+            "display_compatible": true
+          }
+        ]
+      }
+    },
+    {
+      "held_market": 7,
+      "training_markets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "fitted": {
+        "form": "proportional",
+        "parameter": 0.0013859035825054082,
+        "compatible_interval": [
+          0.0013418176683484635,
+          0.0013979402751963061
+        ]
+      },
+      "evaluation": {
+        "n": 10,
+        "mae_kusd": 1.5513086277972434,
+        "max_abs_error_kusd": 3.5382176993225585,
+        "display_compatible_n": 10,
+        "records": [
+          {
+            "phase": "practice",
+            "market": 7,
+            "team": "M7:T1",
+            "actual_cost_kusd": 24982.0,
+            "unit_cost_usd": 1054.4593564723782,
+            "material_cost_kusd": 24980.142154830643,
+            "published_price_usd": 1053.0,
+            "production_kunits": 23.69,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -1.8578451693574607,
+            "display_tolerance_kusd": 5.772296782361891,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 7,
+            "team": "M7:T2",
+            "actual_cost_kusd": 3047.0,
+            "unit_cost_usd": 1054.4593564723782,
+            "material_cost_kusd": 3047.387540205173,
+            "published_price_usd": 1053.0,
+            "production_kunits": 2.89,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.38754020517308163,
+            "display_tolerance_kusd": 5.772296782361891,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 7,
+            "team": "M7:T3",
+            "actual_cost_kusd": 13877.0,
+            "unit_cost_usd": 1054.4593564723782,
+            "material_cost_kusd": 13876.685131176497,
+            "published_price_usd": 1053.0,
+            "production_kunits": 13.16,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -0.31486882350327505,
+            "display_tolerance_kusd": 5.772296782361891,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 7,
+            "team": "M7:T4",
+            "actual_cost_kusd": 17729.0,
+            "unit_cost_usd": 1054.4593564723782,
+            "material_cost_kusd": 17725.461782300677,
+            "published_price_usd": 1053.0,
+            "production_kunits": 16.81,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -3.5382176993225585,
+            "display_tolerance_kusd": 5.772296782361891,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 7,
+            "team": "M7:T5",
+            "actual_cost_kusd": 12918.0,
+            "unit_cost_usd": 1054.4593564723782,
+            "material_cost_kusd": 12917.127116786633,
+            "published_price_usd": 1053.0,
+            "production_kunits": 12.25,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -0.8728832133674587,
+            "display_tolerance_kusd": 5.772296782361891,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 7,
+            "team": "M7:T6",
+            "actual_cost_kusd": 16700.0,
+            "unit_cost_usd": 1054.4593564723782,
+            "material_cost_kusd": 16702.63620652247,
+            "published_price_usd": 1053.0,
+            "production_kunits": 15.84,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 2.636206522471184,
+            "display_tolerance_kusd": 5.772296782361891,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 7,
+            "team": "M7:T7",
+            "actual_cost_kusd": 19749.0,
+            "unit_cost_usd": 1054.4593564723782,
+            "material_cost_kusd": 19750.023746727646,
+            "published_price_usd": 1053.0,
+            "production_kunits": 18.73,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 1.02374672764563,
+            "display_tolerance_kusd": 5.772296782361891,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 7,
+            "team": "M7:T8",
+            "actual_cost_kusd": 26707.0,
+            "unit_cost_usd": 1054.4593564723782,
+            "material_cost_kusd": 26709.45549944534,
+            "published_price_usd": 1053.0,
+            "production_kunits": 25.33,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 2.4554994453392283,
+            "display_tolerance_kusd": 5.772296782361891,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 7,
+            "team": "M7:T9",
+            "actual_cost_kusd": 18451.0,
+            "unit_cost_usd": 1054.4593564723782,
+            "material_cost_kusd": 18453.03873826662,
+            "published_price_usd": 1053.0,
+            "production_kunits": 17.5,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 2.0387382666194753,
+            "display_tolerance_kusd": 5.772296782361891,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 7,
+            "team": "M7:T10",
+            "actual_cost_kusd": 3047.0,
+            "unit_cost_usd": 1054.4593564723782,
+            "material_cost_kusd": 3047.387540205173,
+            "published_price_usd": 1053.0,
+            "production_kunits": 2.89,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.38754020517308163,
+            "display_tolerance_kusd": 5.772296782361891,
+            "display_compatible": true
+          }
+        ]
+      }
+    },
+    {
+      "held_market": 8,
+      "training_markets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "fitted": {
+        "form": "proportional",
+        "parameter": 0.0013894550818172953,
+        "compatible_interval": [
+          0.0013418176683484635,
+          0.0013979402751963061
+        ]
+      },
+      "evaluation": {
+        "n": 10,
+        "mae_kusd": 1.5496937016189805,
+        "max_abs_error_kusd": 5.017586105581358,
+        "display_compatible_n": 10,
+        "records": [
+          {
+            "phase": "practice",
+            "market": 8,
+            "team": "M8:T1",
+            "actual_cost_kusd": 16065.0,
+            "unit_cost_usd": 1054.4630962011536,
+            "material_cost_kusd": 16070.017586105581,
+            "published_price_usd": 1053.0,
+            "production_kunits": 15.24,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 5.017586105581358,
+            "display_tolerance_kusd": 5.772315481005768,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 8,
+            "team": "M8:T2",
+            "actual_cost_kusd": 13964.0,
+            "unit_cost_usd": 1054.4630962011536,
+            "material_cost_kusd": 13961.091393703273,
+            "published_price_usd": 1053.0,
+            "production_kunits": 13.24,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -2.9086062967271573,
+            "display_tolerance_kusd": 5.772315481005768,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 8,
+            "team": "M8:T3",
+            "actual_cost_kusd": 3406.0,
+            "unit_cost_usd": 1054.4630962011536,
+            "material_cost_kusd": 3405.915800729726,
+            "published_price_usd": 1053.0,
+            "production_kunits": 3.23,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -0.08419927027398444,
+            "display_tolerance_kusd": 5.772315481005768,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 8,
+            "team": "M8:T4",
+            "actual_cost_kusd": 15553.0,
+            "unit_cost_usd": 1054.4630962011536,
+            "material_cost_kusd": 15553.330668967015,
+            "published_price_usd": 1053.0,
+            "production_kunits": 14.75,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.33066896701529913,
+            "display_tolerance_kusd": 5.772315481005768,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 8,
+            "team": "M8:T5",
+            "actual_cost_kusd": 19854.0,
+            "unit_cost_usd": 1054.4630962011536,
+            "material_cost_kusd": 19855.54010146772,
+            "published_price_usd": 1053.0,
+            "production_kunits": 18.83,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 1.5401014677190688,
+            "display_tolerance_kusd": 5.772315481005768,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 8,
+            "team": "M8:T6",
+            "actual_cost_kusd": 3047.0,
+            "unit_cost_usd": 1054.4630962011536,
+            "material_cost_kusd": 3047.398348021334,
+            "published_price_usd": 1053.0,
+            "production_kunits": 2.89,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.39834802133418634,
+            "display_tolerance_kusd": 5.772315481005768,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 8,
+            "team": "M8:T7",
+            "actual_cost_kusd": 22618.0,
+            "unit_cost_usd": 1054.4630962011536,
+            "material_cost_kusd": 22618.233413514743,
+            "published_price_usd": 1053.0,
+            "production_kunits": 21.45,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.2334135147430061,
+            "display_tolerance_kusd": 5.772315481005768,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 8,
+            "team": "M8:T8",
+            "actual_cost_kusd": 18284.0,
+            "unit_cost_usd": 1054.4630962011536,
+            "material_cost_kusd": 18284.390088128002,
+            "published_price_usd": 1053.0,
+            "production_kunits": 17.34,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.39008812800238957,
+            "display_tolerance_kusd": 5.772315481005768,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 8,
+            "team": "M8:T9",
+            "actual_cost_kusd": 18938.0,
+            "unit_cost_usd": 1054.4630962011536,
+            "material_cost_kusd": 18938.157207772718,
+            "published_price_usd": 1053.0,
+            "production_kunits": 17.96,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.15720777271781117,
+            "display_tolerance_kusd": 5.772315481005768,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 8,
+            "team": "M8:T10",
+            "actual_cost_kusd": 16519.0,
+            "unit_cost_usd": 1054.4630962011536,
+            "material_cost_kusd": 16523.436717472076,
+            "published_price_usd": 1053.0,
+            "production_kunits": 15.67,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 4.436717472075543,
+            "display_tolerance_kusd": 5.772315481005768,
+            "display_compatible": true
+          }
+        ]
+      }
+    },
+    {
+      "held_market": 9,
+      "training_markets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "fitted": {
+        "form": "proportional",
+        "parameter": 0.0013849643181241393,
+        "compatible_interval": [
+          0.0013418176683484635,
+          0.0013979402751963061
+        ]
+      },
+      "evaluation": {
+        "n": 10,
+        "mae_kusd": 2.2275583085933635,
+        "max_abs_error_kusd": 4.246798352654878,
+        "display_compatible_n": 10,
+        "records": [
+          {
+            "phase": "practice",
+            "market": 9,
+            "team": "M9:T1",
+            "actual_cost_kusd": 17680.0,
+            "unit_cost_usd": 1054.4583674269848,
+            "material_cost_kusd": 17683.266821750534,
+            "published_price_usd": 1053.0,
+            "production_kunits": 16.77,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 3.266821750534291,
+            "display_tolerance_kusd": 5.772291837134924,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 9,
+            "team": "M9:T2",
+            "actual_cost_kusd": 113.0,
+            "unit_cost_usd": 1054.4583674269848,
+            "material_cost_kusd": 115.99042041696832,
+            "published_price_usd": 1053.0,
+            "production_kunits": 0.11,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 2.9904204169683197,
+            "display_tolerance_kusd": 5.772291837134924,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 9,
+            "team": "M9:T3",
+            "actual_cost_kusd": 23240.0,
+            "unit_cost_usd": 1054.4583674269848,
+            "material_cost_kusd": 23240.262418090744,
+            "published_price_usd": 1053.0,
+            "production_kunits": 22.04,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.2624180907441769,
+            "display_tolerance_kusd": 5.772291837134924,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 9,
+            "team": "M9:T4",
+            "actual_cost_kusd": 30474.0,
+            "unit_cost_usd": 1054.4583674269848,
+            "material_cost_kusd": 30473.846818639857,
+            "published_price_usd": 1053.0,
+            "production_kunits": 28.9,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -0.1531813601432077,
+            "display_tolerance_kusd": 5.772291837134924,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 9,
+            "team": "M9:T5",
+            "actual_cost_kusd": 17701.0,
+            "unit_cost_usd": 1054.4583674269848,
+            "material_cost_kusd": 17704.355989099073,
+            "published_price_usd": 1053.0,
+            "production_kunits": 16.79,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 3.355989099072758,
+            "display_tolerance_kusd": 5.772291837134924,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 9,
+            "team": "M9:T6",
+            "actual_cost_kusd": 21705.0,
+            "unit_cost_usd": 1054.4583674269848,
+            "material_cost_kusd": 21700.753201647345,
+            "published_price_usd": 1053.0,
+            "production_kunits": 20.58,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -4.246798352654878,
+            "display_tolerance_kusd": 5.772291837134924,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 9,
+            "team": "M9:T7",
+            "actual_cost_kusd": 16936.0,
+            "unit_cost_usd": 1054.4583674269848,
+            "material_cost_kusd": 16934.601380877375,
+            "published_price_usd": 1053.0,
+            "production_kunits": 16.06,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -1.3986191226249503,
+            "display_tolerance_kusd": 5.772291837134924,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 9,
+            "team": "M9:T8",
+            "actual_cost_kusd": 17549.0,
+            "unit_cost_usd": 1054.4583674269848,
+            "material_cost_kusd": 17546.187233985027,
+            "published_price_usd": 1053.0,
+            "production_kunits": 16.64,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -2.812766014973022,
+            "display_tolerance_kusd": 5.772291837134924,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 9,
+            "team": "M9:T9",
+            "actual_cost_kusd": 17121.0,
+            "unit_cost_usd": 1054.4583674269848,
+            "material_cost_kusd": 17124.403887014232,
+            "published_price_usd": 1053.0,
+            "production_kunits": 16.24,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 3.4038870142321684,
+            "display_tolerance_kusd": 5.772291837134924,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 9,
+            "team": "M9:T10",
+            "actual_cost_kusd": 3047.0,
+            "unit_cost_usd": 1054.4583674269848,
+            "material_cost_kusd": 3047.384681863986,
+            "published_price_usd": 1053.0,
+            "production_kunits": 2.89,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 0.3846818639858611,
+            "display_tolerance_kusd": 5.772291837134924,
+            "display_compatible": true
+          }
+        ]
+      }
+    },
+    {
+      "held_market": 10,
+      "training_markets": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fitted": {
+        "form": "proportional",
+        "parameter": 0.0013868958550630032,
+        "compatible_interval": [
+          0.0013418176683484635,
+          0.0013979402751963061
+        ]
+      },
+      "evaluation": {
+        "n": 10,
+        "mae_kusd": 2.177545952541254,
+        "max_abs_error_kusd": 4.967581936302622,
+        "display_compatible_n": 10,
+        "records": [
+          {
+            "phase": "practice",
+            "market": 10,
+            "team": "M10:T1",
+            "actual_cost_kusd": 17458.0,
+            "unit_cost_usd": 1054.4604013353812,
+            "material_cost_kusd": 17461.864246113913,
+            "published_price_usd": 1053.0,
+            "production_kunits": 16.56,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 3.8642461139133957,
+            "display_tolerance_kusd": 5.772302006676906,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 10,
+            "team": "M10:T2",
+            "actual_cost_kusd": 18643.0,
+            "unit_cost_usd": 1054.4604013353812,
+            "material_cost_kusd": 18642.85989560954,
+            "published_price_usd": 1053.0,
+            "production_kunits": 17.68,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -0.14010439045887324,
+            "display_tolerance_kusd": 5.772302006676906,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 10,
+            "team": "M10:T3",
+            "actual_cost_kusd": 11117.0,
+            "unit_cost_usd": 1054.4604013353812,
+            "material_cost_kusd": 11114.012630074918,
+            "published_price_usd": 1053.0,
+            "production_kunits": 10.54,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -2.987369925082021,
+            "display_tolerance_kusd": 5.772302006676906,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 10,
+            "team": "M10:T4",
+            "actual_cost_kusd": 24852.0,
+            "unit_cost_usd": 1054.4604013353812,
+            "material_cost_kusd": 24853.631659474937,
+            "published_price_usd": 1053.0,
+            "production_kunits": 23.57,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 1.631659474936896,
+            "display_tolerance_kusd": 5.772302006676906,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 10,
+            "team": "M10:T5",
+            "actual_cost_kusd": 21789.0,
+            "unit_cost_usd": 1054.4604013353812,
+            "material_cost_kusd": 21785.151891588976,
+            "published_price_usd": 1053.0,
+            "production_kunits": 20.66,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -3.848108411024441,
+            "display_tolerance_kusd": 5.772302006676906,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 10,
+            "team": "M10:T6",
+            "actual_cost_kusd": 16226.0,
+            "unit_cost_usd": 1054.4604013353812,
+            "material_cost_kusd": 16228.145576551518,
+            "published_price_usd": 1053.0,
+            "production_kunits": 15.39,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 2.1455765515183884,
+            "display_tolerance_kusd": 5.772302006676906,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 10,
+            "team": "M10:T7",
+            "actual_cost_kusd": 15237.0,
+            "unit_cost_usd": 1054.4604013353812,
+            "material_cost_kusd": 15236.952799296258,
+            "published_price_usd": 1053.0,
+            "production_kunits": 14.45,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -0.04720070374241914,
+            "display_tolerance_kusd": 5.772302006676906,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 10,
+            "team": "M10:T8",
+            "actual_cost_kusd": 26465.0,
+            "unit_cost_usd": 1054.4604013353812,
+            "material_cost_kusd": 26466.95607351807,
+            "published_price_usd": 1053.0,
+            "production_kunits": 25.1,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 1.9560735180712072,
+            "display_tolerance_kusd": 5.772302006676906,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 10,
+            "team": "M10:T9",
+            "actual_cost_kusd": 1524.0,
+            "unit_cost_usd": 1054.4604013353812,
+            "material_cost_kusd": 1528.9675819363026,
+            "published_price_usd": 1053.0,
+            "production_kunits": 1.45,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": 4.967581936302622,
+            "display_tolerance_kusd": 5.772302006676906,
+            "display_compatible": true
+          },
+          {
+            "phase": "practice",
+            "market": 10,
+            "team": "M10:T10",
+            "actual_cost_kusd": 16977.0,
+            "unit_cost_usd": 1054.4604013353812,
+            "material_cost_kusd": 16976.812461499638,
+            "published_price_usd": 1053.0,
+            "production_kunits": 16.1,
+            "scope": "Empirical materials-purchase cost, not all variable production costs",
+            "error_kusd": -0.1875385003622796,
+            "display_tolerance_kusd": 5.772302006676906,
+            "display_compatible": true
+          }
+        ]
+      }
+    }
+  ],
+  "material_training": {
+    "n": 100,
+    "mae_kusd": 2.292088079669898,
+    "max_abs_error_kusd": 5.537030382700323,
+    "display_compatible_n": 100,
+    "records": [
+      {
+        "phase": "practice",
+        "market": 5,
+        "team": "M5:T1",
+        "actual_cost_kusd": 3047.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 3047.3834938879195,
+        "published_price_usd": 1053.0,
+        "production_kunits": 2.89,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.38349388791948513,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 5,
+        "team": "M5:T2",
+        "actual_cost_kusd": 19094.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 19096.23358972672,
+        "published_price_usd": 1053.0,
+        "production_kunits": 18.11,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 2.233589726718492,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 5,
+        "team": "M5:T3",
+        "actual_cost_kusd": 18931.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 18927.520316708702,
+        "published_price_usd": 1053.0,
+        "production_kunits": 17.95,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -3.479683291297988,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 5,
+        "team": "M5:T4",
+        "actual_cost_kusd": 3047.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 3047.3834938879195,
+        "published_price_usd": 1053.0,
+        "production_kunits": 2.89,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.38349388791948513,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 5,
+        "team": "M5:T5",
+        "actual_cost_kusd": 30195.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 30199.675870224917,
+        "published_price_usd": 1053.0,
+        "production_kunits": 28.64,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 4.675870224917162,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 5,
+        "team": "M5:T6",
+        "actual_cost_kusd": 8027.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 8024.425047919401,
+        "published_price_usd": 1053.0,
+        "production_kunits": 7.61,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -2.5749520805993598,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 5,
+        "team": "M5:T7",
+        "actual_cost_kusd": 30686.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 30684.726530151715,
+        "published_price_usd": 1053.0,
+        "production_kunits": 29.1,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -1.2734698482854583,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 5,
+        "team": "M5:T8",
+        "actual_cost_kusd": 20270.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 20266.681921289208,
+        "published_price_usd": 1053.0,
+        "production_kunits": 19.22,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -3.3180787107921788,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 5,
+        "team": "M5:T9",
+        "actual_cost_kusd": 16042.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 16038.305516275175,
+        "published_price_usd": 1053.0,
+        "production_kunits": 15.21,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -3.6944837248247495,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 5,
+        "team": "M5:T10",
+        "actual_cost_kusd": 17942.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 17946.874417291485,
+        "published_price_usd": 1053.0,
+        "production_kunits": 17.02,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 4.8744172914848605,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 1,
+        "team": "M1:T1",
+        "actual_cost_kusd": 15438.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 15437.264481148492,
+        "published_price_usd": 1053.0,
+        "production_kunits": 14.64,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -0.7355188515084592,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 1,
+        "team": "M1:T2",
+        "actual_cost_kusd": 16230.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 16228.107948420444,
+        "published_price_usd": 1053.0,
+        "production_kunits": 15.39,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -1.8920515795562096,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 1,
+        "team": "M1:T3",
+        "actual_cost_kusd": 17911.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 17915.240678600603,
+        "published_price_usd": 1053.0,
+        "production_kunits": 16.99,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 4.2406786006031325,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 1,
+        "team": "M1:T4",
+        "actual_cost_kusd": 18425.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 18421.380497654653,
+        "published_price_usd": 1053.0,
+        "production_kunits": 17.47,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -3.6195023453474278,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 1,
+        "team": "M1:T5",
+        "actual_cost_kusd": 3047.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 3047.3834938879195,
+        "published_price_usd": 1053.0,
+        "production_kunits": 2.89,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.38349388791948513,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 1,
+        "team": "M1:T6",
+        "actual_cost_kusd": 24878.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 24874.66319059378,
+        "published_price_usd": 1053.0,
+        "production_kunits": 23.59,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -3.336809406220709,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 1,
+        "team": "M1:T7",
+        "actual_cost_kusd": 20131.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 20129.60238696207,
+        "published_price_usd": 1053.0,
+        "production_kunits": 19.09,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -1.3976130379305687,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 1,
+        "team": "M1:T8",
+        "actual_cost_kusd": 3047.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 3047.3834938879195,
+        "published_price_usd": 1053.0,
+        "production_kunits": 2.89,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.38349388791948513,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 1,
+        "team": "M1:T9",
+        "actual_cost_kusd": 18109.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 18105.043110745875,
+        "published_price_usd": 1053.0,
+        "production_kunits": 17.17,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -3.9568892541246896,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 1,
+        "team": "M1:T10",
+        "actual_cost_kusd": 19892.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 19887.07705699867,
+        "published_price_usd": 1053.0,
+        "production_kunits": 18.86,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -4.9229430013292585,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 2,
+        "team": "M2:T1",
+        "actual_cost_kusd": 26608.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 26603.974239028445,
+        "published_price_usd": 1053.0,
+        "production_kunits": 25.23,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -4.025760971555428,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 2,
+        "team": "M2:T2",
+        "actual_cost_kusd": 16868.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 16871.32730180163,
+        "published_price_usd": 1053.0,
+        "production_kunits": 16.0,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 3.327301801629801,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 2,
+        "team": "M2:T3",
+        "actual_cost_kusd": 17287.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 17282.565904783045,
+        "published_price_usd": 1053.0,
+        "production_kunits": 16.39,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -4.434095216955029,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 2,
+        "team": "M2:T4",
+        "actual_cost_kusd": 14177.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 14171.914933513368,
+        "published_price_usd": 1053.0,
+        "production_kunits": 13.44,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -5.0850664866320585,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 2,
+        "team": "M2:T5",
+        "actual_cost_kusd": 5336.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 5335.557259194765,
+        "published_price_usd": 1053.0,
+        "production_kunits": 5.06,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -0.4427408052351893,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 2,
+        "team": "M2:T6",
+        "actual_cost_kusd": 16831.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 16829.148983547126,
+        "published_price_usd": 1053.0,
+        "production_kunits": 15.96,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -1.851016452874319,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 2,
+        "team": "M2:T7",
+        "actual_cost_kusd": 3047.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 3047.3834938879195,
+        "published_price_usd": 1053.0,
+        "production_kunits": 2.89,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.38349388791948513,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 2,
+        "team": "M2:T8",
+        "actual_cost_kusd": 17627.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 17630.5370303827,
+        "published_price_usd": 1053.0,
+        "production_kunits": 16.72,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 3.5370303827003227,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 2,
+        "team": "M2:T9",
+        "actual_cost_kusd": 20142.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 20140.146966525695,
+        "published_price_usd": 1053.0,
+        "production_kunits": 19.1,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -1.8530334743045387,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 2,
+        "team": "M2:T10",
+        "actual_cost_kusd": 21104.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 21099.703706815664,
+        "published_price_usd": 1053.0,
+        "production_kunits": 20.01,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -4.296293184335809,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 3,
+        "team": "M3:T1",
+        "actual_cost_kusd": 21336.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 21331.684457215437,
+        "published_price_usd": 1053.0,
+        "production_kunits": 20.23,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -4.315542784563149,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 3,
+        "team": "M3:T2",
+        "actual_cost_kusd": 18851.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 18853.70825976332,
+        "published_price_usd": 1053.0,
+        "production_kunits": 17.88,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 2.708259763319802,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 3,
+        "team": "M3:T3",
+        "actual_cost_kusd": 32013.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 32013.34355516859,
+        "published_price_usd": 1053.0,
+        "production_kunits": 30.36,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.343555168590683,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 3,
+        "team": "M3:T4",
+        "actual_cost_kusd": 5449.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 5451.547634394651,
+        "published_price_usd": 1053.0,
+        "production_kunits": 5.17,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 2.5476343946511406,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 3,
+        "team": "M3:T5",
+        "actual_cost_kusd": 23977.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 23978.373927685563,
+        "published_price_usd": 1053.0,
+        "production_kunits": 22.74,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 1.3739276855631033,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 3,
+        "team": "M3:T6",
+        "actual_cost_kusd": 48.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 52.72289781813009,
+        "published_price_usd": 1053.0,
+        "production_kunits": 0.05,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 4.722897818130093,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 3,
+        "team": "M3:T7",
+        "actual_cost_kusd": 31634.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 31633.738690878057,
+        "published_price_usd": 1053.0,
+        "production_kunits": 30.0,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -0.2613091219427588,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 3,
+        "team": "M3:T8",
+        "actual_cost_kusd": 31370.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 31370.124201787406,
+        "published_price_usd": 1053.0,
+        "production_kunits": 29.75,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.12420178740649135,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 3,
+        "team": "M3:T9",
+        "actual_cost_kusd": 23635.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 23630.402802085908,
+        "published_price_usd": 1053.0,
+        "production_kunits": 22.41,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -4.5971979140922485,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 3,
+        "team": "M3:T10",
+        "actual_cost_kusd": 16674.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 16670.980290092735,
+        "published_price_usd": 1053.0,
+        "production_kunits": 15.81,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -3.019709907264769,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 4,
+        "team": "M4:T1",
+        "actual_cost_kusd": 21383.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 21384.407355033567,
+        "published_price_usd": 1053.0,
+        "production_kunits": 20.28,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 1.4073550335670006,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 4,
+        "team": "M4:T2",
+        "actual_cost_kusd": 22618.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 22618.12316397781,
+        "published_price_usd": 1053.0,
+        "production_kunits": 21.45,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.123163977808872,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 4,
+        "team": "M4:T3",
+        "actual_cost_kusd": 21380.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 21384.407355033567,
+        "published_price_usd": 1053.0,
+        "production_kunits": 20.28,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 4.407355033567001,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 4,
+        "team": "M4:T4",
+        "actual_cost_kusd": 19069.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 19064.59985103584,
+        "published_price_usd": 1053.0,
+        "production_kunits": 18.08,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -4.400148964159598,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 4,
+        "team": "M4:T5",
+        "actual_cost_kusd": 3047.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 3047.3834938879195,
+        "published_price_usd": 1053.0,
+        "production_kunits": 2.89,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.38349388791948513,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 4,
+        "team": "M4:T6",
+        "actual_cost_kusd": 20542.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 20540.840989943485,
+        "published_price_usd": 1053.0,
+        "production_kunits": 19.48,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -1.159010056515399,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 4,
+        "team": "M4:T7",
+        "actual_cost_kusd": 16677.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 16681.52486965636,
+        "published_price_usd": 1053.0,
+        "production_kunits": 15.82,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 4.524869656361261,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 4,
+        "team": "M4:T8",
+        "actual_cost_kusd": 3047.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 3047.3834938879195,
+        "published_price_usd": 1053.0,
+        "production_kunits": 2.89,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.38349388791948513,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 4,
+        "team": "M4:T9",
+        "actual_cost_kusd": 18290.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 18294.845542891144,
+        "published_price_usd": 1053.0,
+        "production_kunits": 17.35,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 4.84554289114385,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 4,
+        "team": "M4:T10",
+        "actual_cost_kusd": 14571.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 14572.608956931159,
+        "published_price_usd": 1053.0,
+        "production_kunits": 13.82,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 1.6089569311589003,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 6,
+        "team": "M6:T1",
+        "actual_cost_kusd": 14816.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 14815.134286894558,
+        "published_price_usd": 1053.0,
+        "production_kunits": 14.05,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -0.8657131054424099,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 6,
+        "team": "M6:T2",
+        "actual_cost_kusd": 18538.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 18537.37087285454,
+        "published_price_usd": 1053.0,
+        "production_kunits": 17.58,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -0.6291271454610978,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 6,
+        "team": "M6:T3",
+        "actual_cost_kusd": 21540.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 21542.576048487957,
+        "published_price_usd": 1053.0,
+        "production_kunits": 20.43,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 2.5760484879574506,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 6,
+        "team": "M6:T4",
+        "actual_cost_kusd": 17291.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 17293.110484346667,
+        "published_price_usd": 1053.0,
+        "production_kunits": 16.4,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 2.110484346667363,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 6,
+        "team": "M6:T5",
+        "actual_cost_kusd": 17454.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 17451.27917780106,
+        "published_price_usd": 1053.0,
+        "production_kunits": 16.55,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -2.7208221989385493,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 6,
+        "team": "M6:T6",
+        "actual_cost_kusd": 23686.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 23683.125699904038,
+        "published_price_usd": 1053.0,
+        "production_kunits": 22.46,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -2.8743000959620986,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 6,
+        "team": "M6:T7",
+        "actual_cost_kusd": 6095.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 6094.766987775839,
+        "published_price_usd": 1053.0,
+        "production_kunits": 5.78,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -0.23301222416102974,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 6,
+        "team": "M6:T8",
+        "actual_cost_kusd": 17625.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 17630.5370303827,
+        "published_price_usd": 1053.0,
+        "production_kunits": 16.72,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 5.537030382700323,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 6,
+        "team": "M6:T9",
+        "actual_cost_kusd": 28487.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 28491.4539809175,
+        "published_price_usd": 1053.0,
+        "production_kunits": 27.02,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 4.453980917500303,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 6,
+        "team": "M6:T10",
+        "actual_cost_kusd": 16192.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 16196.474209729564,
+        "published_price_usd": 1053.0,
+        "production_kunits": 15.36,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 4.474209729563881,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 7,
+        "team": "M7:T1",
+        "actual_cost_kusd": 24982.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 24980.10898623004,
+        "published_price_usd": 1053.0,
+        "production_kunits": 23.69,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -1.8910137699604093,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 7,
+        "team": "M7:T2",
+        "actual_cost_kusd": 3047.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 3047.3834938879195,
+        "published_price_usd": 1053.0,
+        "production_kunits": 2.89,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.38349388791948513,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 7,
+        "team": "M7:T3",
+        "actual_cost_kusd": 13877.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 13876.666705731841,
+        "published_price_usd": 1053.0,
+        "production_kunits": 13.16,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -0.33329426815907937,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 7,
+        "team": "M7:T4",
+        "actual_cost_kusd": 17729.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 17725.438246455335,
+        "published_price_usd": 1053.0,
+        "production_kunits": 16.81,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -3.5617535446654074,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 7,
+        "team": "M7:T5",
+        "actual_cost_kusd": 12918.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 12917.109965441872,
+        "published_price_usd": 1053.0,
+        "production_kunits": 12.25,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -0.8900345581278089,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 7,
+        "team": "M7:T6",
+        "actual_cost_kusd": 16700.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 16702.614028783613,
+        "published_price_usd": 1053.0,
+        "production_kunits": 15.84,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 2.614028783613321,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 7,
+        "team": "M7:T7",
+        "actual_cost_kusd": 19749.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 19749.997522671532,
+        "published_price_usd": 1053.0,
+        "production_kunits": 18.73,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.9975226715323515,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 7,
+        "team": "M7:T8",
+        "actual_cost_kusd": 26707.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 26709.420034664705,
+        "published_price_usd": 1053.0,
+        "production_kunits": 25.33,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 2.420034664704872,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 7,
+        "team": "M7:T9",
+        "actual_cost_kusd": 18451.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 18453.014236345534,
+        "published_price_usd": 1053.0,
+        "production_kunits": 17.5,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 2.0142363455343,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 7,
+        "team": "M7:T10",
+        "actual_cost_kusd": 3047.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 3047.3834938879195,
+        "published_price_usd": 1053.0,
+        "production_kunits": 2.89,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.38349388791948513,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 8,
+        "team": "M8:T1",
+        "actual_cost_kusd": 16065.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 16069.939254966053,
+        "published_price_usd": 1053.0,
+        "production_kunits": 15.24,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 4.9392549660533405,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 8,
+        "team": "M8:T2",
+        "actual_cost_kusd": 13964.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 13961.02334224085,
+        "published_price_usd": 1053.0,
+        "production_kunits": 13.24,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -2.9766577591508394,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 8,
+        "team": "M8:T3",
+        "actual_cost_kusd": 3406.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 3405.899199051204,
+        "published_price_usd": 1053.0,
+        "production_kunits": 3.23,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -0.10080094879594981,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 8,
+        "team": "M8:T4",
+        "actual_cost_kusd": 15553.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 15553.254856348378,
+        "published_price_usd": 1053.0,
+        "production_kunits": 14.75,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.25485634837787075,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 8,
+        "team": "M8:T5",
+        "actual_cost_kusd": 19854.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 19855.443318307793,
+        "published_price_usd": 1053.0,
+        "production_kunits": 18.83,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 1.4433183077926515,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 8,
+        "team": "M8:T6",
+        "actual_cost_kusd": 3047.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 3047.3834938879195,
+        "published_price_usd": 1053.0,
+        "production_kunits": 2.89,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.38349388791948513,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 8,
+        "team": "M8:T7",
+        "actual_cost_kusd": 22618.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 22618.12316397781,
+        "published_price_usd": 1053.0,
+        "production_kunits": 21.45,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.123163977808872,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 8,
+        "team": "M8:T8",
+        "actual_cost_kusd": 18284.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 18284.300963327518,
+        "published_price_usd": 1053.0,
+        "production_kunits": 17.34,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.3009633275178203,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 8,
+        "team": "M8:T9",
+        "actual_cost_kusd": 18938.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 18938.06489627233,
+        "published_price_usd": 1053.0,
+        "production_kunits": 17.96,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.06489627233167994,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 8,
+        "team": "M8:T10",
+        "actual_cost_kusd": 16519.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 16523.35617620197,
+        "published_price_usd": 1053.0,
+        "production_kunits": 15.67,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 4.356176201970811,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 9,
+        "team": "M9:T1",
+        "actual_cost_kusd": 17680.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 17683.259928200834,
+        "published_price_usd": 1053.0,
+        "production_kunits": 16.77,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 3.2599282008341106,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 9,
+        "team": "M9:T2",
+        "actual_cost_kusd": 113.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 115.9903751998862,
+        "published_price_usd": 1053.0,
+        "production_kunits": 0.11,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 2.990375199886202,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 9,
+        "team": "M9:T3",
+        "actual_cost_kusd": 23240.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 23240.253358231745,
+        "published_price_usd": 1053.0,
+        "production_kunits": 22.04,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.25335823174464167,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 9,
+        "team": "M9:T4",
+        "actual_cost_kusd": 30474.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 30473.834938879194,
+        "published_price_usd": 1053.0,
+        "production_kunits": 28.9,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -0.16506112080605817,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 9,
+        "team": "M9:T5",
+        "actual_cost_kusd": 17701.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 17704.349087328086,
+        "published_price_usd": 1053.0,
+        "production_kunits": 16.79,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 3.3490873280861706,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 9,
+        "team": "M9:T6",
+        "actual_cost_kusd": 21705.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 21700.744741942344,
+        "published_price_usd": 1053.0,
+        "production_kunits": 20.58,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -4.2552580576557375,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 9,
+        "team": "M9:T7",
+        "actual_cost_kusd": 16936.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 16934.594779183386,
+        "published_price_usd": 1053.0,
+        "production_kunits": 16.06,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -1.405220816614019,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 9,
+        "team": "M9:T8",
+        "actual_cost_kusd": 17549.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 17546.180393873696,
+        "published_price_usd": 1053.0,
+        "production_kunits": 16.64,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -2.8196061263042793,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 9,
+        "team": "M9:T9",
+        "actual_cost_kusd": 17121.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 17124.39721132865,
+        "published_price_usd": 1053.0,
+        "production_kunits": 16.24,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 3.397211328650883,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 9,
+        "team": "M9:T10",
+        "actual_cost_kusd": 3047.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 3047.3834938879195,
+        "published_price_usd": 1053.0,
+        "production_kunits": 2.89,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 0.38349388791948513,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 10,
+        "team": "M10:T1",
+        "actual_cost_kusd": 17458.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 17461.823757364684,
+        "published_price_usd": 1053.0,
+        "production_kunits": 16.56,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 3.8237573646838428,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 10,
+        "team": "M10:T2",
+        "actual_cost_kusd": 18643.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 18642.8166684908,
+        "published_price_usd": 1053.0,
+        "production_kunits": 17.68,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -0.18333150920079788,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 10,
+        "team": "M10:T3",
+        "actual_cost_kusd": 11117.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 11113.986860061823,
+        "published_price_usd": 1053.0,
+        "production_kunits": 10.54,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -3.013139938177119,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 10,
+        "team": "M10:T4",
+        "actual_cost_kusd": 24852.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 24853.574031466527,
+        "published_price_usd": 1053.0,
+        "production_kunits": 23.57,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 1.5740314665272308,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 10,
+        "team": "M10:T5",
+        "actual_cost_kusd": 21789.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 21785.101378451356,
+        "published_price_usd": 1053.0,
+        "production_kunits": 20.66,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -3.8986215486438596,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 10,
+        "team": "M10:T6",
+        "actual_cost_kusd": 16226.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 16228.107948420444,
+        "published_price_usd": 1053.0,
+        "production_kunits": 15.39,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 2.1079484204437904,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 10,
+        "team": "M10:T7",
+        "actual_cost_kusd": 15237.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 15236.917469439597,
+        "published_price_usd": 1053.0,
+        "production_kunits": 14.45,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -0.08253056040302909,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 10,
+        "team": "M10:T8",
+        "actual_cost_kusd": 26465.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 26466.89470470131,
+        "published_price_usd": 1053.0,
+        "production_kunits": 25.1,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 1.89470470130982,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 10,
+        "team": "M10:T9",
+        "actual_cost_kusd": 1524.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 1528.9640367257728,
+        "published_price_usd": 1053.0,
+        "production_kunits": 1.45,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": 4.964036725772758,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      },
+      {
+        "phase": "practice",
+        "market": 10,
+        "team": "M10:T10",
+        "actual_cost_kusd": 16977.0,
+        "unit_cost_usd": 1054.4579563626019,
+        "material_cost_kusd": 16976.77309743789,
+        "published_price_usd": 1053.0,
+        "production_kunits": 16.1,
+        "scope": "Empirical materials-purchase cost, not all variable production costs",
+        "error_kusd": -0.226902562109899,
+        "display_tolerance_kusd": 5.77228978181301,
+        "display_compatible": true
+      }
+    ]
+  },
+  "interpretation": "conditional actual-state/production validation; no full-finance or formal2 prospective claim"
+}

@@ -1,0 +1,49 @@
+{
+  "current_trial": "output\\model_v2\\20261011T215311031194+0800_current_trial",
+  "source_and_result_hashes_verified": true,
+  "old_protected_files_unchanged": 377,
+  "authorized_shared_document_updates": [
+    "Cesim_任务要求与当前情况说明.md",
+    "README.md",
+    "原生键盘标准操作.md",
+    "练习与正式_已知数据差异.md",
+    "预测模型与变量说明.md"
+  ],
+  "htmls_unchanged": [
+    "output/model_v2/20261011T194918540163+0800/report.html",
+    "output/model_v2/20261011T200419239887+0800/report.html",
+    "output/model_v2/20261011T203248461563+0800/report.html",
+    "output/model_v2/20261011T203822895264+0800/report.html",
+    "output/model_v2/20261011T204411978414+0800/report.html",
+    "output/model_v2/20261011T210248501989+0800/report.html",
+    "output/model_v2/20261011T210536542951+0800/report.html"
+  ],
+  "python_syntax": "PASS",
+  "horizon": {
+    "six_start_rounds": true,
+    "unknown_profit_not_zero": true,
+    "round7_and_missing_or_duplicate_rejected": true,
+    "terminal_state_preserved": true,
+    "terminal_reward_not_invented": true
+  },
+  "operations_review": {
+    "source": "output\\operations_rho\\20261011T213209904415+0800",
+    "selected": {
+      "rho": 0.559,
+      "theta": 0.17006603520028907,
+      "weighted_rmse": 2.1582132124567026e-05,
+      "index": 559
+    },
+    "exact_replay": true,
+    "deployment": "未切换利润模型或玩家效率输入",
+    "operations400": "仍超训练投入范围"
+  },
+  "legacy_raw_integrity": {
+    "status": "历史原始基准缺口；仅保留冻结派生记录，不重新认证旧试验",
+    "affected": [
+      "output/model_v2/20261011T195500_live/checklist_before.json",
+      "output/model_v2/20261011T195500_live/production_before.json"
+    ],
+    "recovered": false
+  }
+}

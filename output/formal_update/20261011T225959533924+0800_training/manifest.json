@@ -1,0 +1,193 @@
+{
+  "status": "COMPLETED",
+  "inventory": [
+    {
+      "model": "cross_market/A/competitive",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "cross_market/A/own_only",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "cross_market/B/competitive",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "cross_market/B/own_only",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "model_v2/verified_context",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "parameter_priority/泰国/baseline",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "parameter_priority/泰国/rd_rho",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "parameter_priority/泰国/marketing_scale",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "parameter_priority/印尼/baseline",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "parameter_priority/印尼/rd_rho",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "parameter_priority/印尼/marketing_scale",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market1/泰国",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market1/印尼",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market2/泰国",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market2/印尼",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market3/泰国",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market3/印尼",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market4/泰国",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market4/印尼",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market5/泰国",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market5/印尼",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market6/泰国",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market6/印尼",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market7/泰国",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market7/印尼",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market8/泰国",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market8/印尼",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market9/泰国",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market9/印尼",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market10/泰国",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "country/market10/印尼",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "fit_demand/absolute",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "stepwise/share",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "stepwise/industry_growth",
+      "status": "UPDATED_FORMAL1_ACTUAL_GROWTH_SCENARIO"
+    },
+    {
+      "model": "operations/rho",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "stepwise/efficiency_and_v2_sensitivity",
+      "status": "RETRAINED_FORMAL1_ONLY"
+    },
+    {
+      "model": "finance/risk/leverage_power",
+      "status": "RETRAINED_CONDITIONAL_DIAGNOSTIC"
+    },
+    {
+      "model": "finance/risk/solvency_exponential",
+      "status": "RETRAINED_CONDITIONAL_DIAGNOSTIC"
+    },
+    {
+      "model": "finance/material_uplift",
+      "status": "RECALIBRATED_FORMAL1_ONLY"
+    },
+    {
+      "model": "rd_and_operations_curve",
+      "status": "RETAINED_OR_NOT_TRAINABLE",
+      "reason": "No new chart points; archived curve unchanged; investment budgets are not curve labels"
+    },
+    {
+      "model": "finance/accounts",
+      "status": "RETAINED_OR_NOT_TRAINABLE",
+      "reason": "Deterministic equations have no trainable fit; new round2 state supplied separately; inventory/short-debt branches may reject state"
+    },
+    {
+      "model": "country/practice2_context",
+      "status": "RETAINED_OR_NOT_TRAINABLE",
+      "reason": "No new formal observations assigned to practice2 context; retain separate historical model"
+    },
+    {
+      "model": "horizon_and_joint_scenarios",
+      "status": "RETAINED_OR_NOT_TRAINABLE",
+      "reason": "Finite rounds2..6 and unknown future data remain; no future realized labels or complete identifiable finance"
+    },
+    {
+      "model": "audit_reports_price_diagnostics",
+      "status": "RETAINED_OR_NOT_TRAINABLE",
+      "reason": "Data adapters/audits/diagnostic profiles, not additional trainable model families; core fit retrained above"
+    }
+  ],
+  "output": "output\\formal_update\\20261011T225959533924+0800_training",
+  "limitations": [
+    "Only market5 formal1 outlook verified; other markets quarantined mechanism research",
+    "Frozen conditional share scores use realized rival decisions; not pre-decision absolute forecast scores",
+    "Formal1 refit scores/internal holdouts are not formal2 external verification",
+    "No future round beyond6, no invented terminal liquidation or repayment"
+  ]
+}

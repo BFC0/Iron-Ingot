@@ -1,0 +1,25 @@
+{
+  "status": "CONDITIONAL_CALCULATION_NOT_OBSERVED",
+  "quantities_kunits": {
+    "A_th": 3.4,
+    "A_in": 0,
+    "B_th": 1,
+    "B_in": 2.4
+  },
+  "prices_usd": {
+    "th": 3000,
+    "indonesia": 2000,
+    "C_th": 3100
+  },
+  "A_revenue_kusd": 10200.0,
+  "B_revenue_kusd": 7800.0,
+  "A_transport_kusd": 102.0,
+  "B_transport_kusd": 318.0,
+  "C_revenue_delta_kusd": 340.0,
+  "assumptions": "预算供给仍3.4、泰国优先、印尼需求足够；非需求模型",
+  "formulas": [
+    "R=sum(q_i*p_i)",
+    "T=sum(q_i*t_i)",
+    "delta_R=q_th*(p_new-p_old)"
+  ]
+}

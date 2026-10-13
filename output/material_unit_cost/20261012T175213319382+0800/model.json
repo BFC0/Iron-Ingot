@@ -1,0 +1,30 @@
+{
+  "form": "proportional",
+  "parameter": 0.0013798365755954614,
+  "compatible_interval": [
+    0.0013750635219562607,
+    0.0013979402751963061
+  ],
+  "model_id": "material_unit_cost_v1",
+  "training_n": 300,
+  "training_phases": [
+    "练习1",
+    "练习2",
+    "正式1"
+  ],
+  "published_price_range": [
+    900,
+    1053
+  ],
+  "formula": "unit_cost = published_price * (1 + parameter)",
+  "cost_formula": "material_cost_kusd = production_kunits * unit_cost_usd",
+  "validation_scope": "Retrospective practice selection and formal1 holdout; no frozen prospective score",
+  "assumption": "Shared material adjustment across observed phases and markets; not a verified platform rule",
+  "limitations": [
+    "前景基准仅独立采集市场5，跨市场共享为假设",
+    "只建模原材料购买，不含工资、运输、库存或其他费用",
+    "跨回合稳定性只在已观察范围检验，正式2无实际标签",
+    "舍入区间不是置信区间，真实显示舍入模式未核实",
+    "使用给定产量，产量预测误差未包括在条件误差内"
+  ]
+}

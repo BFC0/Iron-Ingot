@@ -1,0 +1,11 @@
+{
+  "before": "raw/cross_market/checklist_before.json",
+  "after": "raw/cross_market/checklist_after.json",
+  "raw_table_cells_equal": false,
+  "decision_and_budget_cells_equal": true,
+  "ignored_instruction_row": [
+    "进入决策区域制定决策或浏览。登录时，你自己的决策区域为默认区域。"
+  ],
+  "decision_write_actions": 0,
+  "interpretation": "排除已知说明提示行后，采集前后全部决策及预算单元格一致"
+}

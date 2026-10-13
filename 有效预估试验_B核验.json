@@ -1,0 +1,23 @@
+{
+  "actor": "user",
+  "phase": "formal",
+  "round": 1,
+  "data_kind": "validated_budget_probe",
+  "current_personal_thailand_demand_kunits": 1,
+  "current_group_thailand_demand_kunits": 5,
+  "preserved_user_change": true,
+  "platform_revenue_kusd": 7800,
+  "revenue_formula": "1*3000+2.4*2000",
+  "transport_kusd": 318,
+  "transport_formula": "1*30+2.4*120",
+  "profit_kusd": -5291,
+  "deltas": {
+    "净销售额": -2400.0,
+    "运输": 216.0,
+    "利息收入": -12.0,
+    "本回合利润": -2628.0
+  },
+  "profit_delta_formula": "-2400-216-12=-2628",
+  "precision": "Displayed rounded financial rows; not an unrounded interest formula",
+  "conclusion": "给定需求预测和供给下的预算分配/收入/运输验证；非真实需求样本"
+}

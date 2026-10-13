@@ -1,0 +1,1173 @@
+{
+  "sources": {
+    "1": {
+      "path": "output\\formal_update\\20261011T223000+0800_sources\\formal1_outlook.json",
+      "sha256": "8a7fe50a7d048c2463fd06eb8a0447c531d5753219dbf0f4924e72b7b9668c54",
+      "captured_at": "2026-10-11T14:27:38.171Z",
+      "source_round": 1,
+      "market_id": 5,
+      "phase": "formal",
+      "source_url": "http://sim.cesim.cn/ul/Decisions?panel=outlook&sim=se"
+    },
+    "2": {
+      "path": "output\\formal_update\\20261011T223000+0800_sources\\formal2_outlook.json",
+      "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+      "captured_at": "2026-10-11T14:28:51.583Z",
+      "source_round": 2,
+      "market_id": 5,
+      "phase": "formal",
+      "source_url": "http://sim.cesim.cn/ul/Decisions?panel=outlook"
+    }
+  },
+  "formal1": [
+    {
+      "section": "货币汇率",
+      "subsection": null,
+      "label": "1 美元 =",
+      "this_year_raw": "1 美元",
+      "last_year_raw": "1 美元",
+      "displayed_delta_raw": "+0%",
+      "source_line": 116,
+      "source_round": 1,
+      "this_year": null,
+      "last_year": null,
+      "displayed_delta_percent": null,
+      "arithmetic_check": "NON_NUMERIC_UNIT_ROW"
+    },
+    {
+      "section": "财务",
+      "subsection": null,
+      "label": "企业所得税率, %",
+      "this_year_raw": "29.00",
+      "last_year_raw": "29.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 123,
+      "source_round": 1,
+      "this_year": 29.0,
+      "last_year": 29.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "财务",
+      "subsection": null,
+      "label": "最低现金, 千 美元",
+      "this_year_raw": "2 000",
+      "last_year_raw": "2 000",
+      "displayed_delta_raw": "+0%",
+      "source_line": 128,
+      "source_round": 1,
+      "this_year": 2000.0,
+      "last_year": 2000.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "财务",
+      "subsection": "利率, %",
+      "label": "基准利率",
+      "this_year_raw": "3.00",
+      "last_year_raw": "3.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 135,
+      "source_round": 1,
+      "this_year": 3.0,
+      "last_year": 3.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "财务",
+      "subsection": "利率, %",
+      "label": "高于基准的短期利率溢价",
+      "this_year_raw": "1.50",
+      "last_year_raw": "0.60",
+      "displayed_delta_raw": "+90%",
+      "source_line": 140,
+      "source_round": 1,
+      "this_year": 1.5,
+      "last_year": 0.6,
+      "displayed_delta_percent": 90.0,
+      "computed_delta_percent": 150.0,
+      "arithmetic_check": "DISPLAY_CONFLICT"
+    },
+    {
+      "section": "财务",
+      "subsection": "利率, %",
+      "label": "现金及现金等价物",
+      "this_year_raw": "1.00",
+      "last_year_raw": "1.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 145,
+      "source_round": 1,
+      "this_year": 1.0,
+      "last_year": 1.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "财务",
+      "subsection": "年折旧，%",
+      "label": "机器",
+      "this_year_raw": "15.00",
+      "last_year_raw": "15.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 152,
+      "source_round": 1,
+      "this_year": 15.0,
+      "last_year": 15.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "固定成本, 千 美元",
+      "subsection": null,
+      "label": "市场调研",
+      "this_year_raw": "50",
+      "last_year_raw": "50",
+      "displayed_delta_raw": "+0%",
+      "source_line": 159,
+      "source_round": 1,
+      "this_year": 50.0,
+      "last_year": 50.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "固定成本, 千 美元",
+      "subsection": null,
+      "label": "固定库存持有成本",
+      "this_year_raw": "0.00",
+      "last_year_raw": "0.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 164,
+      "source_round": 1,
+      "this_year": 0.0,
+      "last_year": 0.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "固定成本, 千 美元",
+      "subsection": "行政管理",
+      "label": "基础成本",
+      "this_year_raw": "4 000",
+      "last_year_raw": "4 000",
+      "displayed_delta_raw": "+0%",
+      "source_line": 171,
+      "source_round": 1,
+      "this_year": 4000.0,
+      "last_year": 4000.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "固定成本, 千 美元",
+      "subsection": "行政管理",
+      "label": "复合梁, 泰国",
+      "this_year_raw": "0",
+      "last_year_raw": "0",
+      "displayed_delta_raw": "+0%",
+      "source_line": 176,
+      "source_round": 1,
+      "this_year": 0.0,
+      "last_year": 0.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "固定成本, 千 美元",
+      "subsection": "行政管理",
+      "label": "复合梁, 印尼",
+      "this_year_raw": "0",
+      "last_year_raw": "0",
+      "displayed_delta_raw": "+0%",
+      "source_line": 181,
+      "source_round": 1,
+      "this_year": 0.0,
+      "last_year": 0.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "可变成本, 美元/单位",
+      "subsection": null,
+      "label": "库存持有成本",
+      "this_year_raw": "0.60",
+      "last_year_raw": "0.60",
+      "displayed_delta_raw": "+0%",
+      "source_line": 188,
+      "source_round": 1,
+      "this_year": 0.6,
+      "last_year": 0.6,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "可变成本, 美元/单位",
+      "subsection": "原材料成本",
+      "label": "复合梁",
+      "this_year_raw": "900.00",
+      "last_year_raw": "900.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 195,
+      "source_round": 1,
+      "this_year": 900.0,
+      "last_year": 900.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "可变成本, 美元/单位",
+      "subsection": "运输成本, 复合梁",
+      "label": "泰国 -> 泰国",
+      "this_year_raw": "30.00",
+      "last_year_raw": "30.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 202,
+      "source_round": 1,
+      "this_year": 30.0,
+      "last_year": 30.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "可变成本, 美元/单位",
+      "subsection": "运输成本, 复合梁",
+      "label": "泰国 -> 印尼",
+      "this_year_raw": "120.00",
+      "last_year_raw": "120.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 207,
+      "source_round": 1,
+      "this_year": 120.0,
+      "last_year": 120.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "人力资源",
+      "subsection": "生产工资, 千 美元",
+      "label": "泰国",
+      "this_year_raw": "28.00",
+      "last_year_raw": "27.00",
+      "displayed_delta_raw": "+4%",
+      "source_line": 216,
+      "source_round": 1,
+      "this_year": 28.0,
+      "last_year": 27.0,
+      "displayed_delta_percent": 4.0,
+      "computed_delta_percent": 3.703703703703698,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "人力资源",
+      "subsection": "工资乘数",
+      "label": "两班倒",
+      "this_year_raw": "1.65",
+      "last_year_raw": "1.65",
+      "displayed_delta_raw": "+0%",
+      "source_line": 223,
+      "source_round": 1,
+      "this_year": 1.65,
+      "last_year": 1.65,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "人力资源",
+      "subsection": "工资乘数",
+      "label": "三班倒",
+      "this_year_raw": "2.56",
+      "last_year_raw": "2.56",
+      "displayed_delta_raw": "+0%",
+      "source_line": 228,
+      "source_round": 1,
+      "this_year": 2.56,
+      "last_year": 2.56,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "人力资源",
+      "subsection": "人员流动",
+      "label": "年人员离职率（without costs），%",
+      "this_year_raw": "10.00",
+      "last_year_raw": "10.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 235,
+      "source_round": 1,
+      "this_year": 10.0,
+      "last_year": 10.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "人力资源",
+      "subsection": "人员流动",
+      "label": "裁员成本，占薪资%",
+      "this_year_raw": "35.00",
+      "last_year_raw": "35.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 240,
+      "source_round": 1,
+      "this_year": 35.0,
+      "last_year": 35.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "投资",
+      "subsection": "投资成本, 美元/单位",
+      "label": "机器, 复合梁",
+      "this_year_raw": "100.00",
+      "last_year_raw": "100.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 249,
+      "source_round": 1,
+      "this_year": 100.0,
+      "last_year": 100.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "投资",
+      "subsection": "年产能下降，%",
+      "label": "机器",
+      "this_year_raw": "15.00",
+      "last_year_raw": "15.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 256,
+      "source_round": 1,
+      "this_year": 15.0,
+      "last_year": 15.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "生产的环境影响",
+      "subsection": "复合梁",
+      "label": "每单位碳排放, kg, 泰国",
+      "this_year_raw": "1 355.32",
+      "last_year_raw": "1 355.32",
+      "displayed_delta_raw": "+0%",
+      "source_line": 265,
+      "source_round": 1,
+      "this_year": 1355.32,
+      "last_year": 1355.32,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "生产的环境影响",
+      "subsection": "复合梁",
+      "label": "每单位能源消耗, kWh, 泰国",
+      "this_year_raw": "4 778.38",
+      "last_year_raw": "4 778.38",
+      "displayed_delta_raw": "+0%",
+      "source_line": 270,
+      "source_round": 1,
+      "this_year": 4778.38,
+      "last_year": 4778.38,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "生产的环境影响",
+      "subsection": "复合梁",
+      "label": "每单位用水量, l, 泰国",
+      "this_year_raw": "10 307.14",
+      "last_year_raw": "10 307.14",
+      "displayed_delta_raw": "+0%",
+      "source_line": 275,
+      "source_round": 1,
+      "this_year": 10307.14,
+      "last_year": 10307.14,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "运输碳排量，克/单位",
+      "subsection": "复合梁",
+      "label": "泰国 -> 泰国",
+      "this_year_raw": "3 920.5",
+      "last_year_raw": "3 920.5",
+      "displayed_delta_raw": "+0%",
+      "source_line": 284,
+      "source_round": 1,
+      "this_year": 3920.5,
+      "last_year": 3920.5,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "运输碳排量，克/单位",
+      "subsection": "复合梁",
+      "label": "泰国 -> 印尼",
+      "this_year_raw": "47 084.4",
+      "last_year_raw": "47 084.4",
+      "displayed_delta_raw": "+0%",
+      "source_line": 289,
+      "source_round": 1,
+      "this_year": 47084.4,
+      "last_year": 47084.4,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    }
+  ],
+  "formal2": [
+    {
+      "section": "货币汇率",
+      "subsection": null,
+      "label": "1 美元 =",
+      "this_year_raw": "1 美元",
+      "last_year_raw": "1 美元",
+      "displayed_delta_raw": "+0%",
+      "source_line": 113,
+      "source_round": 2,
+      "this_year": null,
+      "last_year": null,
+      "displayed_delta_percent": null,
+      "arithmetic_check": "NON_NUMERIC_UNIT_ROW"
+    },
+    {
+      "section": "财务",
+      "subsection": null,
+      "label": "企业所得税率, %",
+      "this_year_raw": "29.00",
+      "last_year_raw": "29.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 120,
+      "source_round": 2,
+      "this_year": 29.0,
+      "last_year": 29.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "财务",
+      "subsection": null,
+      "label": "最低现金, 千 美元",
+      "this_year_raw": "2 000",
+      "last_year_raw": "2 000",
+      "displayed_delta_raw": "+0%",
+      "source_line": 125,
+      "source_round": 2,
+      "this_year": 2000.0,
+      "last_year": 2000.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "财务",
+      "subsection": "利率, %",
+      "label": "基准利率",
+      "this_year_raw": "2.50",
+      "last_year_raw": "3.00",
+      "displayed_delta_raw": "-17%",
+      "source_line": 132,
+      "source_round": 2,
+      "this_year": 2.5,
+      "last_year": 3.0,
+      "displayed_delta_percent": -17.0,
+      "computed_delta_percent": -16.666666666666664,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "财务",
+      "subsection": "利率, %",
+      "label": "高于基准的短期利率溢价",
+      "this_year_raw": "2.00",
+      "last_year_raw": "1.50",
+      "displayed_delta_raw": "+33%",
+      "source_line": 137,
+      "source_round": 2,
+      "this_year": 2.0,
+      "last_year": 1.5,
+      "displayed_delta_percent": 33.0,
+      "computed_delta_percent": 33.33333333333333,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "财务",
+      "subsection": "利率, %",
+      "label": "现金及现金等价物",
+      "this_year_raw": "1.00",
+      "last_year_raw": "1.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 142,
+      "source_round": 2,
+      "this_year": 1.0,
+      "last_year": 1.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "财务",
+      "subsection": "年折旧，%",
+      "label": "机器",
+      "this_year_raw": "15.00",
+      "last_year_raw": "15.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 149,
+      "source_round": 2,
+      "this_year": 15.0,
+      "last_year": 15.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "固定成本, 千 美元",
+      "subsection": null,
+      "label": "市场调研",
+      "this_year_raw": "50",
+      "last_year_raw": "50",
+      "displayed_delta_raw": "+0%",
+      "source_line": 156,
+      "source_round": 2,
+      "this_year": 50.0,
+      "last_year": 50.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "固定成本, 千 美元",
+      "subsection": null,
+      "label": "固定库存持有成本",
+      "this_year_raw": "0.00",
+      "last_year_raw": "0.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 161,
+      "source_round": 2,
+      "this_year": 0.0,
+      "last_year": 0.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "固定成本, 千 美元",
+      "subsection": "行政管理",
+      "label": "基础成本",
+      "this_year_raw": "4 000",
+      "last_year_raw": "4 000",
+      "displayed_delta_raw": "+0%",
+      "source_line": 168,
+      "source_round": 2,
+      "this_year": 4000.0,
+      "last_year": 4000.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "固定成本, 千 美元",
+      "subsection": "行政管理",
+      "label": "复合梁, 泰国",
+      "this_year_raw": "0",
+      "last_year_raw": "0",
+      "displayed_delta_raw": "+0%",
+      "source_line": 173,
+      "source_round": 2,
+      "this_year": 0.0,
+      "last_year": 0.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "固定成本, 千 美元",
+      "subsection": "行政管理",
+      "label": "复合梁, 印尼",
+      "this_year_raw": "0",
+      "last_year_raw": "0",
+      "displayed_delta_raw": "+0%",
+      "source_line": 178,
+      "source_round": 2,
+      "this_year": 0.0,
+      "last_year": 0.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "可变成本, 美元/单位",
+      "subsection": null,
+      "label": "库存持有成本",
+      "this_year_raw": "0.60",
+      "last_year_raw": "0.60",
+      "displayed_delta_raw": "+0%",
+      "source_line": 185,
+      "source_round": 2,
+      "this_year": 0.6,
+      "last_year": 0.6,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "可变成本, 美元/单位",
+      "subsection": "原材料成本",
+      "label": "复合梁",
+      "this_year_raw": "1 053.00",
+      "last_year_raw": "900.00",
+      "displayed_delta_raw": "+17%",
+      "source_line": 192,
+      "source_round": 2,
+      "this_year": 1053.0,
+      "last_year": 900.0,
+      "displayed_delta_percent": 17.0,
+      "computed_delta_percent": 16.999999999999993,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "可变成本, 美元/单位",
+      "subsection": "运输成本, 复合梁",
+      "label": "泰国 -> 泰国",
+      "this_year_raw": "30.00",
+      "last_year_raw": "30.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 199,
+      "source_round": 2,
+      "this_year": 30.0,
+      "last_year": 30.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "可变成本, 美元/单位",
+      "subsection": "运输成本, 复合梁",
+      "label": "泰国 -> 印尼",
+      "this_year_raw": "120.00",
+      "last_year_raw": "120.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 204,
+      "source_round": 2,
+      "this_year": 120.0,
+      "last_year": 120.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "人力资源",
+      "subsection": "生产工资, 千 美元",
+      "label": "泰国",
+      "this_year_raw": "28.00",
+      "last_year_raw": "28.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 213,
+      "source_round": 2,
+      "this_year": 28.0,
+      "last_year": 28.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "人力资源",
+      "subsection": "工资乘数",
+      "label": "两班倒",
+      "this_year_raw": "1.65",
+      "last_year_raw": "1.65",
+      "displayed_delta_raw": "+0%",
+      "source_line": 220,
+      "source_round": 2,
+      "this_year": 1.65,
+      "last_year": 1.65,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "人力资源",
+      "subsection": "工资乘数",
+      "label": "三班倒",
+      "this_year_raw": "2.56",
+      "last_year_raw": "2.56",
+      "displayed_delta_raw": "+0%",
+      "source_line": 225,
+      "source_round": 2,
+      "this_year": 2.56,
+      "last_year": 2.56,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "人力资源",
+      "subsection": "人员流动",
+      "label": "年人员离职率（without costs），%",
+      "this_year_raw": "10.00",
+      "last_year_raw": "10.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 232,
+      "source_round": 2,
+      "this_year": 10.0,
+      "last_year": 10.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "人力资源",
+      "subsection": "人员流动",
+      "label": "裁员成本，占薪资%",
+      "this_year_raw": "35.00",
+      "last_year_raw": "35.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 237,
+      "source_round": 2,
+      "this_year": 35.0,
+      "last_year": 35.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "投资",
+      "subsection": "投资成本, 美元/单位",
+      "label": "机器, 复合梁",
+      "this_year_raw": "100.00",
+      "last_year_raw": "100.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 246,
+      "source_round": 2,
+      "this_year": 100.0,
+      "last_year": 100.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "投资",
+      "subsection": "年产能下降，%",
+      "label": "机器",
+      "this_year_raw": "15.00",
+      "last_year_raw": "15.00",
+      "displayed_delta_raw": "+0%",
+      "source_line": 253,
+      "source_round": 2,
+      "this_year": 15.0,
+      "last_year": 15.0,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "生产的环境影响",
+      "subsection": "复合梁",
+      "label": "每单位碳排放, kg, 泰国",
+      "this_year_raw": "1 355.32",
+      "last_year_raw": "1 355.32",
+      "displayed_delta_raw": "+0%",
+      "source_line": 262,
+      "source_round": 2,
+      "this_year": 1355.32,
+      "last_year": 1355.32,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "生产的环境影响",
+      "subsection": "复合梁",
+      "label": "每单位能源消耗, kWh, 泰国",
+      "this_year_raw": "4 778.38",
+      "last_year_raw": "4 778.38",
+      "displayed_delta_raw": "+0%",
+      "source_line": 267,
+      "source_round": 2,
+      "this_year": 4778.38,
+      "last_year": 4778.38,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "生产的环境影响",
+      "subsection": "复合梁",
+      "label": "每单位用水量, l, 泰国",
+      "this_year_raw": "10 307.14",
+      "last_year_raw": "10 307.14",
+      "displayed_delta_raw": "+0%",
+      "source_line": 272,
+      "source_round": 2,
+      "this_year": 10307.14,
+      "last_year": 10307.14,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "运输碳排量，克/单位",
+      "subsection": "复合梁",
+      "label": "泰国 -> 泰国",
+      "this_year_raw": "3 920.5",
+      "last_year_raw": "3 920.5",
+      "displayed_delta_raw": "+0%",
+      "source_line": 281,
+      "source_round": 2,
+      "this_year": 3920.5,
+      "last_year": 3920.5,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    },
+    {
+      "section": "运输碳排量，克/单位",
+      "subsection": "复合梁",
+      "label": "泰国 -> 印尼",
+      "this_year_raw": "47 084.4",
+      "last_year_raw": "47 084.4",
+      "displayed_delta_raw": "+0%",
+      "source_line": 286,
+      "source_round": 2,
+      "this_year": 47084.4,
+      "last_year": 47084.4,
+      "displayed_delta_percent": 0.0,
+      "computed_delta_percent": 0.0,
+      "arithmetic_check": "CONSISTENT_WITH_ROUNDING"
+    }
+  ],
+  "prior_year_continuity": [
+    {
+      "parameter": [
+        "货币汇率",
+        null,
+        "1 美元 ="
+      ],
+      "formal1_this_year": "1 美元",
+      "formal2_last_year": "1 美元",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "财务",
+        null,
+        "企业所得税率, %"
+      ],
+      "formal1_this_year": "29.00",
+      "formal2_last_year": "29.00",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "财务",
+        null,
+        "最低现金, 千 美元"
+      ],
+      "formal1_this_year": "2 000",
+      "formal2_last_year": "2 000",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "财务",
+        "利率, %",
+        "基准利率"
+      ],
+      "formal1_this_year": "3.00",
+      "formal2_last_year": "3.00",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "财务",
+        "利率, %",
+        "高于基准的短期利率溢价"
+      ],
+      "formal1_this_year": "1.50",
+      "formal2_last_year": "1.50",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "财务",
+        "利率, %",
+        "现金及现金等价物"
+      ],
+      "formal1_this_year": "1.00",
+      "formal2_last_year": "1.00",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "财务",
+        "年折旧，%",
+        "机器"
+      ],
+      "formal1_this_year": "15.00",
+      "formal2_last_year": "15.00",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "固定成本, 千 美元",
+        null,
+        "市场调研"
+      ],
+      "formal1_this_year": "50",
+      "formal2_last_year": "50",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "固定成本, 千 美元",
+        null,
+        "固定库存持有成本"
+      ],
+      "formal1_this_year": "0.00",
+      "formal2_last_year": "0.00",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "固定成本, 千 美元",
+        "行政管理",
+        "基础成本"
+      ],
+      "formal1_this_year": "4 000",
+      "formal2_last_year": "4 000",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "固定成本, 千 美元",
+        "行政管理",
+        "复合梁, 泰国"
+      ],
+      "formal1_this_year": "0",
+      "formal2_last_year": "0",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "固定成本, 千 美元",
+        "行政管理",
+        "复合梁, 印尼"
+      ],
+      "formal1_this_year": "0",
+      "formal2_last_year": "0",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "可变成本, 美元/单位",
+        null,
+        "库存持有成本"
+      ],
+      "formal1_this_year": "0.60",
+      "formal2_last_year": "0.60",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "可变成本, 美元/单位",
+        "原材料成本",
+        "复合梁"
+      ],
+      "formal1_this_year": "900.00",
+      "formal2_last_year": "900.00",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "可变成本, 美元/单位",
+        "运输成本, 复合梁",
+        "泰国 -> 泰国"
+      ],
+      "formal1_this_year": "30.00",
+      "formal2_last_year": "30.00",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "可变成本, 美元/单位",
+        "运输成本, 复合梁",
+        "泰国 -> 印尼"
+      ],
+      "formal1_this_year": "120.00",
+      "formal2_last_year": "120.00",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "人力资源",
+        "生产工资, 千 美元",
+        "泰国"
+      ],
+      "formal1_this_year": "28.00",
+      "formal2_last_year": "28.00",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "人力资源",
+        "工资乘数",
+        "两班倒"
+      ],
+      "formal1_this_year": "1.65",
+      "formal2_last_year": "1.65",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "人力资源",
+        "工资乘数",
+        "三班倒"
+      ],
+      "formal1_this_year": "2.56",
+      "formal2_last_year": "2.56",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "人力资源",
+        "人员流动",
+        "年人员离职率（without costs），%"
+      ],
+      "formal1_this_year": "10.00",
+      "formal2_last_year": "10.00",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "人力资源",
+        "人员流动",
+        "裁员成本，占薪资%"
+      ],
+      "formal1_this_year": "35.00",
+      "formal2_last_year": "35.00",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "投资",
+        "投资成本, 美元/单位",
+        "机器, 复合梁"
+      ],
+      "formal1_this_year": "100.00",
+      "formal2_last_year": "100.00",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "投资",
+        "年产能下降，%",
+        "机器"
+      ],
+      "formal1_this_year": "15.00",
+      "formal2_last_year": "15.00",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "生产的环境影响",
+        "复合梁",
+        "每单位碳排放, kg, 泰国"
+      ],
+      "formal1_this_year": "1 355.32",
+      "formal2_last_year": "1 355.32",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "生产的环境影响",
+        "复合梁",
+        "每单位能源消耗, kWh, 泰国"
+      ],
+      "formal1_this_year": "4 778.38",
+      "formal2_last_year": "4 778.38",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "生产的环境影响",
+        "复合梁",
+        "每单位用水量, l, 泰国"
+      ],
+      "formal1_this_year": "10 307.14",
+      "formal2_last_year": "10 307.14",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "运输碳排量，克/单位",
+        "复合梁",
+        "泰国 -> 泰国"
+      ],
+      "formal1_this_year": "3 920.5",
+      "formal2_last_year": "3 920.5",
+      "consistent": true
+    },
+    {
+      "parameter": [
+        "运输碳排量，克/单位",
+        "复合梁",
+        "泰国 -> 印尼"
+      ],
+      "formal1_this_year": "47 084.4",
+      "formal2_last_year": "47 084.4",
+      "consistent": true
+    }
+  ],
+  "conflicts": [
+    {
+      "section": "财务",
+      "subsection": "利率, %",
+      "label": "高于基准的短期利率溢价",
+      "this_year_raw": "1.50",
+      "last_year_raw": "0.60",
+      "displayed_delta_raw": "+90%",
+      "source_line": 140,
+      "source_round": 1,
+      "this_year": 1.5,
+      "last_year": 0.6,
+      "displayed_delta_percent": 90.0,
+      "computed_delta_percent": 150.0,
+      "arithmetic_check": "DISPLAY_CONFLICT"
+    }
+  ],
+  "applicability": "Visible market 5 parameters only; other markets require their own outlook evidence.",
+  "formal2_inputs": {
+    "material_cost_usd_per_unit": 1053,
+    "machine_unit_capex_usd": 100,
+    "base_rate": 0.025,
+    "short_rate_premium": 0.02,
+    "deposit_rate": 0.01,
+    "derived_base_plus_short_premium": 0.045,
+    "derived_rate_scope": "参数相加；实际利息金额、长期信用溢价尚待财务机制核验"
+  }
+}

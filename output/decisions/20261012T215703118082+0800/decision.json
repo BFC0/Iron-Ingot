@@ -1,0 +1,395 @@
+{
+  "status": "CONDITIONAL_DECISION_DRAFT_FULL_FORECAST_UNAVAILABLE",
+  "phase": "formal",
+  "round": 2,
+  "market_id": 5,
+  "person": "PYT",
+  "components": "t2v0-um/20261012T181028387320+0800",
+  "curves": "formal2/20261012_round2_json",
+  "migration_gate_overridden": false,
+  "unit_material_cost": 1054.4579563626019,
+  "capacity_after_decline": 15.299999999999999,
+  "scenarios": [
+    {
+      "label": "基准",
+      "demand_scale": 0.7,
+      "demand": [
+        3.15,
+        9.45
+      ],
+      "efficiency": 0.17,
+      "prices": [
+        1800,
+        2000
+      ],
+      "production": 12.6,
+      "workers": 74.11764705882352,
+      "payroll": 3237.95294117647,
+      "firing": 121.16085882352958,
+      "sales": [
+        3.15,
+        9.45
+      ],
+      "revenue": 24570.0,
+      "materials": 13286.170250168783,
+      "transport": 1228.5,
+      "ebitda": 786.2159498312167,
+      "profit": null,
+      "closing_cash": null,
+      "kind": "ASSUMED_PLAYER_DEMAND_EFFICIENCY_SCENARIO_NOT_FORECAST"
+    },
+    {
+      "label": "提价候选",
+      "demand_scale": 0.7,
+      "demand": [
+        3.15,
+        9.45
+      ],
+      "efficiency": 0.17,
+      "prices": [
+        2200,
+        2000
+      ],
+      "production": 12.6,
+      "workers": 74.11764705882352,
+      "payroll": 3237.95294117647,
+      "firing": 121.16085882352958,
+      "sales": [
+        3.15,
+        9.45
+      ],
+      "revenue": 25830.0,
+      "materials": 13286.170250168783,
+      "transport": 1228.5,
+      "ebitda": 2046.2159498312167,
+      "profit": null,
+      "closing_cash": null,
+      "kind": "ASSUMED_PLAYER_DEMAND_EFFICIENCY_SCENARIO_NOT_FORECAST"
+    },
+    {
+      "label": "基准",
+      "demand_scale": 1,
+      "demand": [
+        4.5,
+        13.5
+      ],
+      "efficiency": 0.17,
+      "prices": [
+        1800,
+        2000
+      ],
+      "production": 15.3,
+      "workers": 90.0,
+      "payroll": 4376.400000000001,
+      "firing": 0.0,
+      "sales": [
+        4.5,
+        10.8
+      ],
+      "revenue": 29700.0,
+      "materials": 16133.20673234781,
+      "transport": 1431.0,
+      "ebitda": 1849.39326765219,
+      "profit": null,
+      "closing_cash": null,
+      "kind": "ASSUMED_PLAYER_DEMAND_EFFICIENCY_SCENARIO_NOT_FORECAST"
+    },
+    {
+      "label": "提价候选",
+      "demand_scale": 1,
+      "demand": [
+        4.5,
+        13.5
+      ],
+      "efficiency": 0.17,
+      "prices": [
+        2200,
+        2000
+      ],
+      "production": 15.3,
+      "workers": 90.0,
+      "payroll": 4376.400000000001,
+      "firing": 0.0,
+      "sales": [
+        4.5,
+        10.8
+      ],
+      "revenue": 31500.0,
+      "materials": 16133.20673234781,
+      "transport": 1431.0,
+      "ebitda": 3649.393267652191,
+      "profit": null,
+      "closing_cash": null,
+      "kind": "ASSUMED_PLAYER_DEMAND_EFFICIENCY_SCENARIO_NOT_FORECAST"
+    },
+    {
+      "label": "基准",
+      "demand_scale": 1.1,
+      "demand": [
+        4.95,
+        14.850000000000001
+      ],
+      "efficiency": 0.17,
+      "prices": [
+        1800,
+        2000
+      ],
+      "production": 15.3,
+      "workers": 90.0,
+      "payroll": 4376.400000000001,
+      "firing": 0.0,
+      "sales": [
+        4.95,
+        10.350000000000001
+      ],
+      "revenue": 29610.000000000004,
+      "materials": 16133.20673234781,
+      "transport": 1390.5000000000002,
+      "ebitda": 1799.8932676521936,
+      "profit": null,
+      "closing_cash": null,
+      "kind": "ASSUMED_PLAYER_DEMAND_EFFICIENCY_SCENARIO_NOT_FORECAST"
+    },
+    {
+      "label": "提价候选",
+      "demand_scale": 1.1,
+      "demand": [
+        4.95,
+        14.850000000000001
+      ],
+      "efficiency": 0.17,
+      "prices": [
+        2200,
+        2000
+      ],
+      "production": 15.3,
+      "workers": 90.0,
+      "payroll": 4376.400000000001,
+      "firing": 0.0,
+      "sales": [
+        4.95,
+        10.350000000000001
+      ],
+      "revenue": 31590.000000000004,
+      "materials": 16133.20673234781,
+      "transport": 1390.5000000000002,
+      "ebitda": 3779.8932676521945,
+      "profit": null,
+      "closing_cash": null,
+      "kind": "ASSUMED_PLAYER_DEMAND_EFFICIENCY_SCENARIO_NOT_FORECAST"
+    }
+  ],
+  "curve_diagnostics": [
+    {
+      "kind": "rd",
+      "spending": 600,
+      "effective_input": 925.0,
+      "multiplier": 1.0162491746916937
+    },
+    {
+      "kind": "rd",
+      "spending": 650,
+      "effective_input": 975.0,
+      "multiplier": 1.0258721880867874
+    },
+    {
+      "kind": "rd",
+      "spending": 875,
+      "effective_input": 1200.0,
+      "multiplier": 1.0646864022846572
+    },
+    {
+      "kind": "operations",
+      "spending": 600,
+      "effective_input": 980.0,
+      "multiplier": 0.9826137988812995
+    },
+    {
+      "kind": "operations",
+      "spending": 760,
+      "effective_input": 1140.0,
+      "multiplier": 1.005197444192431
+    },
+    {
+      "kind": "operations",
+      "spending": 1000,
+      "effective_input": 1380.0,
+      "multiplier": 1.0314612562951377
+    }
+  ],
+  "carry_assumption": 0.5,
+  "carry_status": "t2v0-um historical approximation, not independently identified",
+  "decisions": [
+    {
+      "item": "泰国价格",
+      "archived": 1800,
+      "candidate": 2200,
+      "unit": "美元/单位",
+      "reason": "条件候选；需提价后需求核验，942是固定手填需求预算"
+    },
+    {
+      "item": "印尼价格",
+      "archived": 2000,
+      "candidate": 2000,
+      "unit": "美元/单位",
+      "reason": "无有效当期价格响应样本，保留归档值"
+    },
+    {
+      "item": "泰国一般营销",
+      "archived": 100,
+      "candidate": 100,
+      "unit": "千美元",
+      "reason": "当期边际需求收益未识别，保留"
+    },
+    {
+      "item": "印尼一般营销",
+      "archived": 200,
+      "candidate": 200,
+      "unit": "千美元",
+      "reason": "当期边际需求收益未识别，保留"
+    },
+    {
+      "item": "泰国设计师营销",
+      "archived": 100,
+      "candidate": 100,
+      "unit": "千美元",
+      "reason": "当期边际需求收益未识别，保留"
+    },
+    {
+      "item": "印尼设计师营销",
+      "archived": 100,
+      "candidate": 100,
+      "unit": "千美元",
+      "reason": "当期边际需求收益未识别，保留"
+    },
+    {
+      "item": "研发",
+      "archived": 600,
+      "candidate": 600,
+      "unit": "千美元",
+      "reason": "使用正式2曲线；曲线收益未转化成需求或剩余五回合利润"
+    },
+    {
+      "item": "运营改进",
+      "archived": 760,
+      "candidate": 760,
+      "unit": "千美元",
+      "reason": "使用正式2曲线；效率尺度尚未训练，不据乘数直接填写效率"
+    },
+    {
+      "item": "产能分配",
+      "archived": 100,
+      "candidate": 100,
+      "unit": "%",
+      "reason": "若需求仍为18，衰减后产能15.3全部使用；需求下降时重算"
+    },
+    {
+      "item": "新增机器",
+      "archived": 0,
+      "candidate": 0,
+      "unit": "千单位",
+      "reason": "暂缓；18需求情景缺2.7产能，采购前核验需求及投资生效时点"
+    },
+    {
+      "item": "长期贷款变化",
+      "archived": 0,
+      "candidate": 0,
+      "unit": "千美元",
+      "reason": "期初现金16372，期末现金未算完整，不据期初现金决定还贷"
+    },
+    {
+      "item": "泰国物流优先级",
+      "archived": "第一",
+      "candidate": "第一",
+      "unit": "顺序",
+      "reason": "2200−30高于2000−120，供给不足先满足较高单位净收入"
+    },
+    {
+      "item": "印尼物流优先级",
+      "archived": "第二",
+      "candidate": "第二",
+      "unit": "顺序",
+      "reason": "与泰国顺序配对"
+    },
+    {
+      "item": "大客户报价",
+      "archived": 0,
+      "candidate": 0,
+      "unit": "美元/单位",
+      "reason": "暂不投标；当期公告2千单位、下一回合交付，条款未完整核验"
+    },
+    {
+      "item": "需求预估：泰国",
+      "archived": 4.5,
+      "candidate": null,
+      "unit": "千单位",
+      "reason": "4.5是玩家输入；没有t2v0-um已训练需求模型，不生成推荐预测"
+    },
+    {
+      "item": "需求预估：印尼",
+      "archived": 13.5,
+      "candidate": null,
+      "unit": "千单位",
+      "reason": "13.5是玩家输入；没有t2v0-um已训练需求模型，不生成推荐预测"
+    },
+    {
+      "item": "生产效率预估",
+      "archived": 0.17,
+      "candidate": null,
+      "unit": "千单位/人",
+      "reason": "0.17是玩家输入；曲线乘数不能替代效率尺度"
+    },
+    {
+      "item": "长期贷款利率预估",
+      "archived": 3,
+      "candidate": null,
+      "unit": "%",
+      "reason": "t2v0-um需预测期末权益/资产联立，无法用基准2.5或玩家3冒充"
+    }
+  ],
+  "sources": [
+    {
+      "file": "output/t2v0-um/20261012T181028387320+0800/components.json",
+      "sha256": "eed303885889b9c8bf41c76d4999fcf066ede4540d317ff38f6a9c1b148a25d8"
+    },
+    {
+      "file": "output/t2v0-um/20261012T181028387320+0800/parameter_changes.json",
+      "sha256": "d13aa49f9a953fd814defc5efe4f3850ca64c237838248c857d3d74a5c872bd7"
+    },
+    {
+      "file": "output/t2v0-um/20261012T181028387320+0800/formal2_initial_state.json",
+      "sha256": "87b2e2655fe4848f481fa5692cbaabbd1ec0846033a033b147669e4f88e9a751"
+    },
+    {
+      "file": "output/visible_coefficients/20261012_round2_json/coefficients.json",
+      "sha256": "f7bf3f305a145e9e658145dd0ce3e3fae9fc722fb68ba4db9c7a1cbd527d41b7"
+    },
+    {
+      "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+      "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5"
+    },
+    {
+      "file": "raw/20261012_sales_response_baseline_checklist.json",
+      "sha256": "3f9b44b22ebeefc814b26150a96f144b1a9f570d8c3222f567581ba0fb0b2e01"
+    },
+    {
+      "file": "raw/20261012_sales_response_price2200_checklist.json",
+      "sha256": "047bef7ff3bb0cf1f94ed0ec3e1023a501fcf3d3813fdee0cdfae0b1d5e756f0"
+    },
+    {
+      "file": "output/sales_response/20261012_manual_formal2/price_2200_verified.json",
+      "sha256": "9830dc13014b4e57e6f2923d79aaf141cd0b1f7a214b857ea025e988694ff85c"
+    },
+    {
+      "file": "output/sales_response/20261012_manual_formal2/price_3000_after_input.json",
+      "sha256": "44bcb874fe43ce9d75bde23aaacd2ba6b968fc2c16e659487d5da7b6ca27b579"
+    }
+  ],
+  "unresolved": [
+    "t2v0-um demand coefficients and efficiency scale not trained",
+    "formal2 curve previous-investment binding incomplete",
+    "current round and personal inputs not live verified",
+    "tax loss and complete financial branches unknown",
+    "no six-round joint optimization"
+  ]
+}

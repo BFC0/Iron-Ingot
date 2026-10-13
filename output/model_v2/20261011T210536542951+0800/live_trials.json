@@ -1,0 +1,402 @@
+{
+  "identity": {
+    "market_id": 5,
+    "team": "营销团队",
+    "personal": "PYT",
+    "phase": "formal",
+    "round": 1,
+    "deadline_beijing": "2026-10-11 22:00"
+  },
+  "personal_baseline_reconfirmed": true,
+  "personal_restored": true,
+  "personal_differences": [
+    {
+      "label": "利润, 千 美元",
+      "before": "-3 649",
+      "during": "-3 492",
+      "after": "-3 649"
+    },
+    {
+      "label": "销售变化%",
+      "before": "-70.13",
+      "during": "-68.85",
+      "after": "-70.13"
+    },
+    {
+      "label": "机器, 复合梁",
+      "before": "0",
+      "during": "1",
+      "after": "0"
+    }
+  ],
+  "concurrent_other_column_changes": [
+    {
+      "label": "利润, 千 美元",
+      "column": 2,
+      "before": "-9 315",
+      "during": "-2 663",
+      "after": "-9 421"
+    },
+    {
+      "label": "利润, 千 美元",
+      "column": 4,
+      "before": "5 563",
+      "during": "3 143",
+      "after": "3 143"
+    },
+    {
+      "label": "销售变化%",
+      "column": 2,
+      "before": "-100.00",
+      "during": "-67.24",
+      "after": "-78.32"
+    },
+    {
+      "label": "销售变化%",
+      "column": 4,
+      "before": "-10.39",
+      "during": "-22.92",
+      "after": "-22.92"
+    },
+    {
+      "label": "泰国, 美元",
+      "column": 2,
+      "before": "3 000.0",
+      "during": "3 000.0",
+      "after": "1 875.0"
+    },
+    {
+      "label": "泰国, 美元",
+      "column": 4,
+      "before": "2 500.0",
+      "during": "2 900.0",
+      "after": "2 900.0"
+    },
+    {
+      "label": "印尼, 美元",
+      "column": 2,
+      "before": "2 000.0",
+      "during": "2 000.0",
+      "after": "2 050.0"
+    },
+    {
+      "label": "印尼, 美元",
+      "column": 4,
+      "before": "3 000.0",
+      "during": "2 000.0",
+      "after": "2 000.0"
+    },
+    {
+      "label": "泰国",
+      "column": 2,
+      "before": "50",
+      "during": "50",
+      "after": "1 450"
+    },
+    {
+      "label": "泰国",
+      "column": 2,
+      "before": "0",
+      "during": "0",
+      "after": "1 400"
+    },
+    {
+      "label": "泰国",
+      "column": 4,
+      "before": "50",
+      "during": "60",
+      "after": "60"
+    },
+    {
+      "label": "印尼",
+      "column": 4,
+      "before": "140",
+      "during": "130",
+      "after": "130"
+    },
+    {
+      "label": "泰国",
+      "column": 4,
+      "before": "第二",
+      "during": "第一",
+      "after": "第一"
+    },
+    {
+      "label": "印尼",
+      "column": 4,
+      "before": "第一",
+      "during": "第二",
+      "after": "第二"
+    },
+    {
+      "label": "机器, 复合梁",
+      "column": 2,
+      "before": "0",
+      "during": "0",
+      "after": "1"
+    },
+    {
+      "label": "泰国",
+      "column": 2,
+      "before": "700",
+      "during": "700",
+      "after": "900"
+    },
+    {
+      "label": "复合梁",
+      "column": 2,
+      "before": "600",
+      "during": "600",
+      "after": "650"
+    },
+    {
+      "label": "长期贷款变化(增加 + / 减少 -), 千 美元",
+      "column": 4,
+      "before": "-5 000",
+      "during": "0",
+      "after": "0"
+    },
+    {
+      "label": "泰国",
+      "column": 2,
+      "before": "0.00",
+      "during": "4.50",
+      "after": "4.50"
+    },
+    {
+      "label": "印尼",
+      "column": 2,
+      "before": "0.00",
+      "during": "13.50",
+      "after": "13.50"
+    },
+    {
+      "label": "印尼",
+      "column": 4,
+      "before": "12.00",
+      "during": "12.00",
+      "after": "14.00"
+    },
+    {
+      "label": "泰国",
+      "column": 2,
+      "before": "0.00",
+      "during": "-1.00",
+      "after": "-1.00"
+    },
+    {
+      "label": "泰国",
+      "column": 4,
+      "before": "0.50",
+      "during": "0.50",
+      "after": "1.00"
+    },
+    {
+      "label": "印尼",
+      "column": 2,
+      "before": "3.00",
+      "during": "3.50",
+      "after": "3.50"
+    },
+    {
+      "label": "印尼",
+      "column": 4,
+      "before": "3.00",
+      "during": "3.00",
+      "after": "5.00"
+    }
+  ],
+  "perturbation_stopped": true,
+  "tests": {
+    "field": "机器投资，千单位",
+    "before": 0,
+    "test": 1,
+    "restored": 0,
+    "legal_options": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "saved": true,
+    "reentry_verified": true,
+    "restored_reentry_verified": true,
+    "complete_budget_captured": true,
+    "production_logistics_captured": true,
+    "calibratable": false,
+    "validation_use": "仅参考；未完成一套无并发变化且独立留点的机制验证"
+  },
+  "mutations": {
+    "test_changes": 1,
+    "restorations": 1,
+    "group_submissions": 0,
+    "other_member_writes": 0
+  },
+  "single_point_checks": [
+    {
+      "metric": "revenue",
+      "observed": 9700.0,
+      "predicted": 9700.0,
+      "error": 0.0,
+      "source_file": "output/model_v2/20261011T195500_live/machine1_income.json",
+      "source_cells": [
+        "净销售额",
+        "9 700",
+        "100.0",
+        "-69",
+        "31 136"
+      ],
+      "usage": "固定旧参数的独立预算参考；并发状态变化，不用于拟合"
+    },
+    {
+      "metric": "materials",
+      "observed": 3245.0,
+      "predicted": 3244.2352941176473,
+      "error": -0.7647058823527004,
+      "source_file": "output/model_v2/20261011T195500_live/machine1_income.json",
+      "source_cells": [
+        "原材料购买",
+        "3 245",
+        "33.4",
+        "-78",
+        "14 420"
+      ],
+      "usage": "固定旧参数的独立预算参考；并发状态变化，不用于拟合"
+    },
+    {
+      "metric": "transport",
+      "observed": 207.0,
+      "predicted": 207.0,
+      "error": 0.0,
+      "source_file": "output/model_v2/20261011T195500_live/machine1_income.json",
+      "source_cells": [
+        "运输",
+        "207",
+        "2.1",
+        "-86",
+        "1 531"
+      ],
+      "usage": "固定旧参数的独立预算参考；并发状态变化，不用于拟合"
+    },
+    {
+      "metric": "long_interest",
+      "observed": 510.0,
+      "predicted": 510.0,
+      "error": 0.0,
+      "source_file": "output/model_v2/20261011T195500_live/machine1_income.json",
+      "source_cells": [
+        "长期贷款利息",
+        "510",
+        "5.3",
+        "-4",
+        "531"
+      ],
+      "usage": "固定旧参数的独立预算参考；并发状态变化，不用于拟合"
+    },
+    {
+      "metric": "cash_interest",
+      "observed": 144.0,
+      "predicted": 143.54622968915896,
+      "error": -0.4537703108410369,
+      "source_file": "output/model_v2/20261011T195500_live/machine1_income.json",
+      "source_cells": [
+        "利息收入",
+        "144",
+        "1.5",
+        "+65",
+        "87"
+      ],
+      "usage": "固定旧参数的独立预算参考；并发状态变化，不用于拟合"
+    },
+    {
+      "metric": "profit",
+      "observed": -3492.0,
+      "predicted": -3491.5932644284876,
+      "error": 0.4067355715123995,
+      "source_file": "output/model_v2/20261011T195500_live/machine1_income.json",
+      "source_cells": [
+        "本回合利润",
+        "-3 492",
+        "-36.0",
+        "-370",
+        "1 293"
+      ],
+      "usage": "固定旧参数的独立预算参考；并发状态变化，不用于拟合"
+    },
+    {
+      "metric": "machine_depreciation",
+      "observed": 1328.0,
+      "predicted": 1328.25,
+      "error": 0.25,
+      "source_file": "output/model_v2/20261011T195500_live/machine1_income.json",
+      "source_cells": [
+        "机器",
+        "1 328",
+        "13.7",
+        "-14",
+        "1 545"
+      ],
+      "usage": "固定旧参数的独立预算参考；并发状态变化，不用于拟合"
+    },
+    {
+      "metric": "building_depreciation",
+      "observed": 921.0,
+      "predicted": 921.2,
+      "error": 0.20000000000004547,
+      "source_file": "output/model_v2/20261011T195500_live/machine1_income.json",
+      "source_cells": [
+        "厂房",
+        "921",
+        "9.5",
+        "-1",
+        "930"
+      ],
+      "usage": "固定旧参数的独立预算参考；并发状态变化，不用于拟合"
+    }
+  ],
+  "source_hashes": {
+    "output/model_v2/20261011T195500_live/outlook.json": "b6ebf4d92414b6465b703179f4b2361e7bc4ec9a633252d4439f87c95dab3bd6",
+    "output/model_v2/20261011T195500_live/checklist_before.json": "e1d7ef27f6a56158e701df4c9e703b1994eb31efe53228c5daef60f3357a716c",
+    "output/model_v2/20261011T195500_live/production_before.json": "cfea2ea19db8e75c52622467615b093a78136ff23d3cc088805fb839c2bafedb",
+    "output/model_v2/20261011T195500_live/baseline_income.json": "0b3dd193c5a6caa860eb45c29ffb64a0029b024e0da89780fe34c640b24324a7",
+    "output/model_v2/20261011T195500_live/baseline_balance.json": "a1f0aa186099b5bc43e2cae59a71fa8688da9b8e56654b93f8817121ee10900d",
+    "output/model_v2/20261011T195500_live/baseline_cashflow.json": "13724f3b1f800da0d97ebf073bcf0bc020aecab783c7dbbc8fd43ede8f551e6c",
+    "output/model_v2/20261011T195500_live/machine1_input.json": "f552bc12f5e800c39c27ae08a16baab77d1a68bb42c7698979d246723f753867",
+    "output/model_v2/20261011T195500_live/machine1_checklist.json": "b6c29df00a14b07d7c11994bd5a685e8141e22f1bec3e5c03f1be30974b6137e",
+    "output/model_v2/20261011T195500_live/machine1_reentry.json": "407506d6c6c2a57cd1684608200c265ad4c3e123b9e1c993ad8a01dda146da1a",
+    "output/model_v2/20261011T195500_live/machine1_income.json": "80cff03c6a518a91b972ad2451687ce9477671c040f2543a556f51e7c45c4865",
+    "output/model_v2/20261011T195500_live/machine1_balance.json": "ad9d971138d5abd681494b77915525d89b285a0ed0cbf8196abcc3f5ef5cd254",
+    "output/model_v2/20261011T195500_live/machine1_cashflow.json": "ccda5c4f51dbe29c47f84ce1e6769ccb7afa65b6dcb410b8af7fdb3cdc4a672b",
+    "output/model_v2/20261011T195500_live/machine1_plan.json": "92d4943ecdd290fd8cf4068f57882c16d8df1e5c9a8de714e075b7b11fd7fc19",
+    "output/model_v2/20261011T195500_live/machine1_logistics.json": "5862edfc4028498437c8dbd2377c2f0c7210ae360341276d4e61ef086f2cf836",
+    "output/model_v2/20261011T195500_live/machine1_before_restore.json": "e048bef88b6bcb31914b2903f5dcfabb9ab8690389ea380923af362bee32b413",
+    "output/model_v2/20261011T195500_live/machine1_restored_input.json": "8f7a7e7064508af6b4edaf47396dfe1736f24e49defaa27be11357142d6ab23e",
+    "output/model_v2/20261011T195500_live/machine1_restored_checklist.json": "57e6f53aaa738f10ecf5405a9129eaa24595e8dcc975ab2c035142880d9872b9",
+    "output/model_v2/20261011T195500_live/machine1_restored_reentry.json": "79f24598ce4759725d9345fd6f4a709f6d7962b008a93bb926b7397476f717df"
+  },
+  "screenshot": "output/model_v2/20261011T195500_live/machine1_restored.png",
+  "remaining_tests": [
+    "机器10/20",
+    "班次/解聘两侧",
+    "现金触发两侧",
+    "贷款/计息/税亏"
+  ],
+  "stop_reason": "恢复回读时其他成员列已变化；按边界停止后续扰动，保留最新成员决策"
+}

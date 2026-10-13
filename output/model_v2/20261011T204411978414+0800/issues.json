@@ -1,0 +1,318 @@
+{
+  "current_all_issues": [
+    {
+      "number": 1,
+      "status": "部分处理",
+      "impact": "尺度影响系数解释",
+      "evidence": "需求留出路径及逐折尺度",
+      "solution": "比较原始/标准化惩罚；系数不是因果回报",
+      "next_evidence": "独立正式需求与投入试验"
+    },
+    {
+      "number": 2,
+      "status": "离线一致性通过",
+      "impact": "旧lambda不能直接混用",
+      "evidence": "audit.json loss_equivalence",
+      "solution": "统一市场/国家等权；相应乘n的惩罚参数等价",
+      "next_evidence": "无；新数据仍须复核训练口径"
+    },
+    {
+      "number": 3,
+      "status": "已诊断，未唯一识别",
+      "impact": "极端价主导价格信息",
+      "evidence": "demand.json 高价信息与删簇诊断",
+      "solution": "保留真实记录并比较固定1.5倍初始价分段",
+      "next_evidence": "普通区间独立价格变化"
+    },
+    {
+      "number": 4,
+      "status": "未识别",
+      "impact": "投入关联不能作因果回报",
+      "evidence": "demand.json correlations",
+      "solution": "保留合计代理，披露共变和内生性",
+      "next_evidence": "独立营销/研发变化与真实需求"
+    },
+    {
+      "number": 5,
+      "status": "缺资料",
+      "impact": "合计代理可能把国别差异转移到价格",
+      "evidence": "audit.json sources",
+      "solution": "不优化国别分配，不把代理当国别营销",
+      "next_evidence": "各队国别营销原始记录"
+    },
+    {
+      "number": 6,
+      "status": "部分处理",
+      "impact": "对数排零与机制假设影响拟合",
+      "evidence": "audit.json zero_demand；demand.json share候选",
+      "solution": "不加伪小数，另用保留零的份额损失",
+      "next_evidence": "零值真实精度与舍入方式"
+    },
+    {
+      "number": 7,
+      "status": "未识别",
+      "impact": "固定总量遗漏行业策略作用",
+      "evidence": "预测行 oracle_total=true",
+      "solution": "仅给定行业总量评价份额，保留规模情景",
+      "next_evidence": "行业总量与独立全行业策略变化"
+    },
+    {
+      "number": 8,
+      "status": "已区分，外部验证缺失",
+      "impact": "回溯成绩不能当正式成绩",
+      "evidence": "需求训练/测试键及原冻结1600条复现",
+      "solution": "练习1内选参，练习2仅回溯；正式先评分冻结",
+      "next_evidence": "正式实际需求/对手决策"
+    },
+    {
+      "number": 9,
+      "status": "已重拟合情景，存量未识别",
+      "impact": "延续系数与技术趋势混杂",
+      "evidence": "需求rho网格；mechanisms.json效率rho",
+      "solution": "分别重拟合0/.25/.5/.75/1，不沿用系数",
+      "next_evidence": "完整研发/运营投入历史"
+    },
+    {
+      "number": 10,
+      "status": "缺独立曲线",
+      "impact": "同图留点仅证明近似",
+      "evidence": "mechanisms.json curve_scope",
+      "solution": "图形误差与经营验证分开",
+      "next_evidence": "其他编号市场可见曲线及独立结果"
+    },
+    {
+      "number": 11,
+      "status": "已标记，外推未验证",
+      "impact": "研发曲线1200以外不受图形支持",
+      "evidence": "预测 effective_rd 与 rd_curve_extrapolation",
+      "solution": "范围内外分组评价，不隐藏外推",
+      "next_evidence": "高投入区间曲线和真实需求"
+    },
+    {
+      "number": 12,
+      "status": "区间与重复策略诊断完成，低投入未验证",
+      "impact": "运营400超出600–1300训练范围",
+      "evidence": "mechanisms.json efficiency",
+      "solution": "产量/人数舍入区间、按策略均衡尺度及五种延续",
+      "next_evidence": "运营400成功保存恢复预算或实际效率"
+    },
+    {
+      "number": 13,
+      "status": "两函数及删队诊断完成，外推未验证",
+      "impact": "风险系数来自十家实际期末状态",
+      "evidence": "mechanisms.json risk",
+      "solution": "两函数保留，不据样本内好拟合确定还贷",
+      "next_evidence": "大额还贷、计息时点及溢价试验"
+    },
+    {
+      "number": 14,
+      "status": "部分关联来源，未来未验证",
+      "impact": "硬编码参数不适合跨回合照搬",
+      "evidence": "budget.json parameters；stress.json parameters",
+      "solution": "当前源与经验项分开，未来值留空",
+      "next_evidence": "各正式回合前景及精确参数"
+    },
+    {
+      "number": 15,
+      "status": "单位更正通过；固定差额跨情境不兼容",
+      "impact": "单一加性差额在假定舍入下不能覆盖20条",
+      "evidence": "materials_review.json 原单元格共同区间",
+      "solution": "保留900/1053当期来源、经验差额及舍入区间",
+      "next_evidence": "高精度产量/材料、显示规则、无并发预算试验"
+    },
+    {
+      "number": 16,
+      "status": "旧回算已复现，独立完整预测未完成",
+      "impact": "已知中间量回算不是前瞻证明",
+      "evidence": "budget.json 11项回算及原372/240项检查",
+      "solution": "报告区别恒等式与期初决策预测",
+      "next_evidence": "完整保留预算验证点及期初/决策来源"
+    },
+    {
+      "number": 17,
+      "status": "范围外分支保留",
+      "impact": "短贷/库存/税亏/大客户/厂房时序未唯一识别",
+      "evidence": "budget.json unidentified",
+      "solution": "不补零拼利润；低现金标短贷未识别",
+      "next_evidence": "相应非零或跨期样本"
+    },
+    {
+      "number": 18,
+      "status": "被验收门槛阻止",
+      "impact": "未完成条件滚动和多区间细化",
+      "evidence": "search.json GATED_NOT_RUN",
+      "solution": "前三阶段独立验证后再粗筛/细化/合并等价方案",
+      "next_evidence": "合法范围、未来前景与完整状态结转"
+    },
+    {
+      "number": 19,
+      "status": "归档基准压力扩充，完整候选覆盖未完成",
+      "impact": "现金达标不证明盈利；压力不是概率",
+      "evidence": "stress.json coverage/sampling",
+      "solution": "单因子/组合/2000分层样本；未覆盖类别明确false",
+      "next_evidence": "可验收候选及所有经营融资分支"
+    },
+    {
+      "number": 20,
+      "status": "版本隔离、复现及情境分层通过；并发修改停止扰动",
+      "impact": "旧跨情境拟合不可用于确定推荐",
+      "evidence": "snapshot；manifest；context；live_trials",
+      "solution": "逻辑隔离360条未核情境记录；机器试验已恢复",
+      "next_evidence": "其他编号市场各回合前景与稳定个人/小组基准"
+    }
+  ],
+  "data_unverifiable": [
+    {
+      "number": 1,
+      "status": "部分处理",
+      "impact": "尺度影响系数解释",
+      "evidence": "需求留出路径及逐折尺度",
+      "solution": "比较原始/标准化惩罚；系数不是因果回报",
+      "next_evidence": "独立正式需求与投入试验"
+    },
+    {
+      "number": 3,
+      "status": "已诊断，未唯一识别",
+      "impact": "极端价主导价格信息",
+      "evidence": "demand.json 高价信息与删簇诊断",
+      "solution": "保留真实记录并比较固定1.5倍初始价分段",
+      "next_evidence": "普通区间独立价格变化"
+    },
+    {
+      "number": 4,
+      "status": "未识别",
+      "impact": "投入关联不能作因果回报",
+      "evidence": "demand.json correlations",
+      "solution": "保留合计代理，披露共变和内生性",
+      "next_evidence": "独立营销/研发变化与真实需求"
+    },
+    {
+      "number": 5,
+      "status": "缺资料",
+      "impact": "合计代理可能把国别差异转移到价格",
+      "evidence": "audit.json sources",
+      "solution": "不优化国别分配，不把代理当国别营销",
+      "next_evidence": "各队国别营销原始记录"
+    },
+    {
+      "number": 6,
+      "status": "部分处理",
+      "impact": "对数排零与机制假设影响拟合",
+      "evidence": "audit.json zero_demand；demand.json share候选",
+      "solution": "不加伪小数，另用保留零的份额损失",
+      "next_evidence": "零值真实精度与舍入方式"
+    },
+    {
+      "number": 7,
+      "status": "未识别",
+      "impact": "固定总量遗漏行业策略作用",
+      "evidence": "预测行 oracle_total=true",
+      "solution": "仅给定行业总量评价份额，保留规模情景",
+      "next_evidence": "行业总量与独立全行业策略变化"
+    },
+    {
+      "number": 8,
+      "status": "已区分，外部验证缺失",
+      "impact": "回溯成绩不能当正式成绩",
+      "evidence": "需求训练/测试键及原冻结1600条复现",
+      "solution": "练习1内选参，练习2仅回溯；正式先评分冻结",
+      "next_evidence": "正式实际需求/对手决策"
+    },
+    {
+      "number": 9,
+      "status": "已重拟合情景，存量未识别",
+      "impact": "延续系数与技术趋势混杂",
+      "evidence": "需求rho网格；mechanisms.json效率rho",
+      "solution": "分别重拟合0/.25/.5/.75/1，不沿用系数",
+      "next_evidence": "完整研发/运营投入历史"
+    },
+    {
+      "number": 10,
+      "status": "缺独立曲线",
+      "impact": "同图留点仅证明近似",
+      "evidence": "mechanisms.json curve_scope",
+      "solution": "图形误差与经营验证分开",
+      "next_evidence": "其他编号市场可见曲线及独立结果"
+    },
+    {
+      "number": 11,
+      "status": "已标记，外推未验证",
+      "impact": "研发曲线1200以外不受图形支持",
+      "evidence": "预测 effective_rd 与 rd_curve_extrapolation",
+      "solution": "范围内外分组评价，不隐藏外推",
+      "next_evidence": "高投入区间曲线和真实需求"
+    },
+    {
+      "number": 12,
+      "status": "区间与重复策略诊断完成，低投入未验证",
+      "impact": "运营400超出600–1300训练范围",
+      "evidence": "mechanisms.json efficiency",
+      "solution": "产量/人数舍入区间、按策略均衡尺度及五种延续",
+      "next_evidence": "运营400成功保存恢复预算或实际效率"
+    },
+    {
+      "number": 13,
+      "status": "两函数及删队诊断完成，外推未验证",
+      "impact": "风险系数来自十家实际期末状态",
+      "evidence": "mechanisms.json risk",
+      "solution": "两函数保留，不据样本内好拟合确定还贷",
+      "next_evidence": "大额还贷、计息时点及溢价试验"
+    },
+    {
+      "number": 14,
+      "status": "部分关联来源，未来未验证",
+      "impact": "硬编码参数不适合跨回合照搬",
+      "evidence": "budget.json parameters；stress.json parameters",
+      "solution": "当前源与经验项分开，未来值留空",
+      "next_evidence": "各正式回合前景及精确参数"
+    },
+    {
+      "number": 15,
+      "status": "单位更正通过；固定差额跨情境不兼容",
+      "impact": "单一加性差额在假定舍入下不能覆盖20条",
+      "evidence": "materials_review.json 原单元格共同区间",
+      "solution": "保留900/1053当期来源、经验差额及舍入区间",
+      "next_evidence": "高精度产量/材料、显示规则、无并发预算试验"
+    },
+    {
+      "number": 16,
+      "status": "旧回算已复现，独立完整预测未完成",
+      "impact": "已知中间量回算不是前瞻证明",
+      "evidence": "budget.json 11项回算及原372/240项检查",
+      "solution": "报告区别恒等式与期初决策预测",
+      "next_evidence": "完整保留预算验证点及期初/决策来源"
+    },
+    {
+      "number": 17,
+      "status": "范围外分支保留",
+      "impact": "短贷/库存/税亏/大客户/厂房时序未唯一识别",
+      "evidence": "budget.json unidentified",
+      "solution": "不补零拼利润；低现金标短贷未识别",
+      "next_evidence": "相应非零或跨期样本"
+    },
+    {
+      "number": 18,
+      "status": "被验收门槛阻止",
+      "impact": "未完成条件滚动和多区间细化",
+      "evidence": "search.json GATED_NOT_RUN",
+      "solution": "前三阶段独立验证后再粗筛/细化/合并等价方案",
+      "next_evidence": "合法范围、未来前景与完整状态结转"
+    },
+    {
+      "number": 19,
+      "status": "归档基准压力扩充，完整候选覆盖未完成",
+      "impact": "现金达标不证明盈利；压力不是概率",
+      "evidence": "stress.json coverage/sampling",
+      "solution": "单因子/组合/2000分层样本；未覆盖类别明确false",
+      "next_evidence": "可验收候选及所有经营融资分支"
+    },
+    {
+      "number": 20,
+      "status": "版本隔离、复现及情境分层通过；并发修改停止扰动",
+      "impact": "旧跨情境拟合不可用于确定推荐",
+      "evidence": "snapshot；manifest；context；live_trials",
+      "solution": "逻辑隔离360条未核情境记录；机器试验已恢复",
+      "next_evidence": "其他编号市场各回合前景与稳定个人/小组基准"
+    }
+  ]
+}

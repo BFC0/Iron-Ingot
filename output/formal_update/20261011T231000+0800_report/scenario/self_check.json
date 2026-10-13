@@ -1,0 +1,36 @@
+{
+  "source_round_selection_verified": true,
+  "parameter_rows_per_round": {
+    "1": 28,
+    "2": 28
+  },
+  "last_year_continuity_all": true,
+  "material_current_1053": true,
+  "machine_current_100": true,
+  "observed_labels_not_inferred": true,
+  "source_hashes": {
+    "1": {
+      "path": "output\\formal_update\\20261011T223000+0800_sources\\formal1_outlook.json",
+      "sha256": "8a7fe50a7d048c2463fd06eb8a0447c531d5753219dbf0f4924e72b7b9668c54",
+      "captured_at": "2026-10-11T14:27:38.171Z",
+      "source_round": 1,
+      "market_id": 5,
+      "phase": "formal",
+      "source_url": "http://sim.cesim.cn/ul/Decisions?panel=outlook&sim=se"
+    },
+    "2": {
+      "path": "output\\formal_update\\20261011T223000+0800_sources\\formal2_outlook.json",
+      "sha256": "4425977ad2374faaaf4d989877f6c938f8ecdc4ccfd7521f61c9924c8576a9b5",
+      "captured_at": "2026-10-11T14:28:51.583Z",
+      "source_round": 2,
+      "market_id": 5,
+      "phase": "formal",
+      "source_url": "http://sim.cesim.cn/ul/Decisions?panel=outlook"
+    }
+  },
+  "code_sources": [
+    "code/archive_and_report.py",
+    "code/model_v2/context.py",
+    "code/model_v2/horizon.py"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "final_effective_training_run": "output/formal_update/20261011T230135216100+0800_training",
+  "superseded_runs": [
+    "output/formal_update/20261011T225637591747+0800_training",
+    "output/formal_update/20261011T225959533924+0800_training"
+  ],
+  "reason": "Preserve original stepwise sum-loss penalty and mean-ratio efficiency estimators; final version directly calls original fit_share/share_cv and retains efficiency estimator",
+  "additional_checks": {
+    "stepwise_original_function_replay_atol": 1e-12,
+    "training_script_snapshot_byte_equal": true,
+    "unverified_country_models_quarantined_count": 18
+  }
+}

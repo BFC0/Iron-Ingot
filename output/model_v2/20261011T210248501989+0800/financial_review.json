@@ -1,0 +1,916 @@
+{
+  "records": [
+    {
+      "case": "baseline",
+      "metric": "厂房",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 3,
+        "column": 1,
+        "label": "厂房",
+        "text": "13 039"
+      },
+      "actual": 13039.0,
+      "predicted": 13038.8,
+      "residual": -0.2000000000007276,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "baseline",
+      "metric": "机器",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 4,
+        "column": 1,
+        "label": "机器",
+        "text": "7 442"
+      },
+      "actual": 7442.0,
+      "predicted": 7441.75,
+      "residual": -0.25,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "baseline",
+      "metric": "应收帐款",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 8,
+        "column": 1,
+        "label": "应收帐款",
+        "text": "764"
+      },
+      "actual": 764.0,
+      "predicted": 764.3835616438356,
+      "residual": 0.38356164383560554,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "baseline",
+      "metric": "现金及现金等价物",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 9,
+        "column": 1,
+        "label": "现金及现金等价物",
+        "text": "13 651"
+      },
+      "actual": 13651.0,
+      "predicted": 13651.54223262433,
+      "residual": 0.5422326243296993,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": false,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "baseline",
+      "metric": "资产总和",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 11,
+        "column": 1,
+        "label": "资产总和",
+        "text": "34 896"
+      },
+      "actual": 34896.0,
+      "predicted": 34896.47579426817,
+      "residual": 0.47579426816810155,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "baseline",
+      "metric": "本回合利润",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 18,
+        "column": 1,
+        "label": "本回合利润",
+        "text": "-3 649"
+      },
+      "actual": -3649.0,
+      "predicted": -3648.359822170191,
+      "residual": 0.6401778298090903,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": false,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "baseline",
+      "metric": "股东权益合计",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 19,
+        "column": 1,
+        "label": "股东权益合计",
+        "text": "17 644"
+      },
+      "actual": 17644.0,
+      "predicted": 17644.64017782981,
+      "residual": 0.6401778298095451,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": false,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "baseline",
+      "metric": "长期贷款",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 22,
+        "column": 1,
+        "label": "长期贷款",
+        "text": "17 000"
+      },
+      "actual": 17000.0,
+      "predicted": 17000.0,
+      "residual": 0.0,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "baseline",
+      "metric": "应付账款",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+        "table_row_index": 26,
+        "column": 1,
+        "label": "应付账款",
+        "text": "252"
+      },
+      "actual": 252.0,
+      "predicted": 251.83561643835617,
+      "residual": -0.16438356164383094,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "baseline",
+      "metric": "税息折旧及摊销前利润（EBITDA）",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+        "table_row_index": 2,
+        "column": 1,
+        "label": "税息折旧及摊销前利润（EBITDA）",
+        "text": "-1 047"
+      },
+      "actual": -1047.0,
+      "predicted": -1047.1875333333337,
+      "residual": -0.18753333333370392,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "baseline",
+      "metric": "财务收入和支出",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+        "table_row_index": 3,
+        "column": 1,
+        "label": "财务收入和支出",
+        "text": "-367"
+      },
+      "actual": -367.0,
+      "predicted": -366.72228883685733,
+      "residual": 0.2777111631426692,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "baseline",
+      "metric": "直接税",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+        "table_row_index": 4,
+        "column": 1,
+        "label": "直接税",
+        "text": "0"
+      },
+      "actual": 0.0,
+      "predicted": -0.0,
+      "residual": -0.0,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "baseline",
+      "metric": "应收帐变化(增 - / 减 +)",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+        "table_row_index": 9,
+        "column": 1,
+        "label": "应收帐变化(增 - / 减 +)",
+        "text": "1 795"
+      },
+      "actual": 1795.0,
+      "predicted": 1794.6164383561645,
+      "residual": -0.38356164383549185,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "baseline",
+      "metric": "应付账变化(增 + / 减 -)",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+        "table_row_index": 10,
+        "column": 1,
+        "label": "应付账变化(增 + / 减 -)",
+        "text": "-933"
+      },
+      "actual": -933.0,
+      "predicted": -933.1643835616438,
+      "residual": -0.16438356164383094,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "baseline",
+      "metric": "资本支出总计",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+        "table_row_index": 17,
+        "column": 1,
+        "label": "资本支出总计",
+        "text": "-800"
+      },
+      "actual": -800.0,
+      "predicted": -800,
+      "residual": 0.0,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "baseline",
+      "metric": "流动资产变动",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+        "table_row_index": 24,
+        "column": 1,
+        "label": "流动资产变动",
+        "text": "-1 353"
+      },
+      "actual": -1353.0,
+      "predicted": -1352.4577673756703,
+      "residual": 0.5422326243296993,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": false,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "baseline",
+      "metric": "流动资产 12月31日",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+        "table_row_index": 26,
+        "column": 1,
+        "label": "流动资产 12月31日",
+        "text": "13 651"
+      },
+      "actual": 13651.0,
+      "predicted": 13651.54223262433,
+      "residual": 0.5422326243296993,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": false,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "machine1",
+      "metric": "厂房",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 3,
+        "column": 1,
+        "label": "厂房",
+        "text": "13 039"
+      },
+      "actual": 13039.0,
+      "predicted": 13038.8,
+      "residual": -0.2000000000007276,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "machine1",
+      "metric": "机器",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 4,
+        "column": 1,
+        "label": "机器",
+        "text": "7 527"
+      },
+      "actual": 7527.0,
+      "predicted": 7526.75,
+      "residual": -0.25,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "machine1",
+      "metric": "应收帐款",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 8,
+        "column": 1,
+        "label": "应收帐款",
+        "text": "797"
+      },
+      "actual": 797.0,
+      "predicted": 797.2602739726027,
+      "residual": 0.2602739726027039,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "machine1",
+      "metric": "现金及现金等价物",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 9,
+        "column": 1,
+        "label": "现金及现金等价物",
+        "text": "13 705"
+      },
+      "actual": 13705.0,
+      "predicted": 13705.245937827756,
+      "residual": 0.24593782775627915,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "machine1",
+      "metric": "资产总和",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 11,
+        "column": 1,
+        "label": "资产总和",
+        "text": "35 068"
+      },
+      "actual": 35068.0,
+      "predicted": 35068.05621180036,
+      "residual": 0.05621180035814177,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "machine1",
+      "metric": "本回合利润",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 18,
+        "column": 1,
+        "label": "本回合利润",
+        "text": "-3 492"
+      },
+      "actual": -3492.0,
+      "predicted": -3491.5932644284876,
+      "residual": 0.4067355715123995,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "machine1",
+      "metric": "股东权益合计",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 19,
+        "column": 1,
+        "label": "股东权益合计",
+        "text": "17 801"
+      },
+      "actual": 17801.0,
+      "predicted": 17801.406735571512,
+      "residual": 0.4067355715123995,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "machine1",
+      "metric": "长期贷款",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 22,
+        "column": 1,
+        "label": "长期贷款",
+        "text": "17 000"
+      },
+      "actual": 17000.0,
+      "predicted": 17000.0,
+      "residual": 0.0,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "machine1",
+      "metric": "应付账款",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+        "table_row_index": 26,
+        "column": 1,
+        "label": "应付账款",
+        "text": "267"
+      },
+      "actual": 267.0,
+      "predicted": 266.64947622884773,
+      "residual": -0.3505237711522682,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "machine1",
+      "metric": "税息折旧及摊销前利润（EBITDA）",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+        "table_row_index": 2,
+        "column": 1,
+        "label": "税息折旧及摊销前利润（EBITDA）",
+        "text": "-876"
+      },
+      "actual": -876.0,
+      "predicted": -875.689494117647,
+      "residual": 0.3105058823530271,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "machine1",
+      "metric": "财务收入和支出",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+        "table_row_index": 3,
+        "column": 1,
+        "label": "财务收入和支出",
+        "text": "-366"
+      },
+      "actual": -366.0,
+      "predicted": -366.45377031084104,
+      "residual": -0.4537703108410369,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "machine1",
+      "metric": "直接税",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+        "table_row_index": 4,
+        "column": 1,
+        "label": "直接税",
+        "text": "0"
+      },
+      "actual": 0.0,
+      "predicted": -0.0,
+      "residual": -0.0,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "machine1",
+      "metric": "应收帐变化(增 - / 减 +)",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+        "table_row_index": 9,
+        "column": 1,
+        "label": "应收帐变化(增 - / 减 +)",
+        "text": "1 762"
+      },
+      "actual": 1762.0,
+      "predicted": 1761.7397260273974,
+      "residual": -0.2602739726025902,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "machine1",
+      "metric": "应付账变化(增 + / 减 -)",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+        "table_row_index": 10,
+        "column": 1,
+        "label": "应付账变化(增 + / 减 -)",
+        "text": "-919"
+      },
+      "actual": -919.0,
+      "predicted": -918.3505237711522,
+      "residual": 0.6494762288477887,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": false,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "machine1",
+      "metric": "资本支出总计",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+        "table_row_index": 17,
+        "column": 1,
+        "label": "资本支出总计",
+        "text": "-900"
+      },
+      "actual": -900.0,
+      "predicted": -900,
+      "residual": 0.0,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "machine1",
+      "metric": "流动资产变动",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+        "table_row_index": 24,
+        "column": 1,
+        "label": "流动资产变动",
+        "text": "-1 299"
+      },
+      "actual": -1299.0,
+      "predicted": -1298.7540621722437,
+      "residual": 0.24593782775627915,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    },
+    {
+      "case": "machine1",
+      "metric": "流动资产 12月31日",
+      "source": {
+        "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+        "table_row_index": 26,
+        "column": 1,
+        "label": "流动资产 12月31日",
+        "text": "13 705"
+      },
+      "actual": 13705.0,
+      "predicted": 13705.245937827756,
+      "residual": 0.24593782775627915,
+      "unit": "千美元",
+      "target_display_half_width": 0.5,
+      "nominal_prediction_inside_target_display_interval": true,
+      "interpretation": "仅与目标整数显示区间比较；未传播期初/材料/周转及经验参数误差，超区间不作独立机制拒绝"
+    }
+  ],
+  "display_identities": [
+    {
+      "case": "baseline",
+      "target": "资产总和",
+      "display_identity_error": 0.0,
+      "rounding_tolerance": 1.5,
+      "sources": [
+        {
+          "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+          "table_row_index": 11,
+          "column": 1,
+          "label": "资产总和",
+          "text": "34 896"
+        },
+        {
+          "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+          "table_row_index": 5,
+          "column": 1,
+          "label": "固定资产总和",
+          "text": "20 480"
+        },
+        {
+          "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+          "table_row_index": 10,
+          "column": 1,
+          "label": "流动资产总额",
+          "text": "14 416"
+        }
+      ],
+      "passed": true,
+      "scope": "仅显示数的会计恒等式，不是独立预测验证"
+    },
+    {
+      "case": "baseline",
+      "target": "股东权益和负债总计",
+      "display_identity_error": 0.0,
+      "rounding_tolerance": 1.5,
+      "sources": [
+        {
+          "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+          "table_row_index": 28,
+          "column": 1,
+          "label": "股东权益和负债总计",
+          "text": "34 896"
+        },
+        {
+          "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+          "table_row_index": 19,
+          "column": 1,
+          "label": "股东权益合计",
+          "text": "17 644"
+        },
+        {
+          "file": "output/model_v2/20261011T195500_live/baseline_balance.json",
+          "table_row_index": 27,
+          "column": 1,
+          "label": "负债合计",
+          "text": "17 252"
+        }
+      ],
+      "passed": true,
+      "scope": "仅显示数的会计恒等式，不是独立预测验证"
+    },
+    {
+      "case": "baseline",
+      "target": "经营活动现金流",
+      "display_identity_error": 0.0,
+      "rounding_tolerance": 1.5,
+      "sources": [
+        {
+          "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+          "table_row_index": 13,
+          "column": 1,
+          "label": "经营活动现金流",
+          "text": "-553"
+        },
+        {
+          "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+          "table_row_index": 5,
+          "column": 1,
+          "label": "营运资金总计",
+          "text": "-1 414"
+        },
+        {
+          "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+          "table_row_index": 12,
+          "column": 1,
+          "label": "净营运资本变化总计",
+          "text": "861"
+        }
+      ],
+      "passed": true,
+      "scope": "仅显示数的会计恒等式，不是独立预测验证"
+    },
+    {
+      "case": "baseline",
+      "target": "流动资产 12月31日",
+      "display_identity_error": 0.0,
+      "rounding_tolerance": 1.5,
+      "sources": [
+        {
+          "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+          "table_row_index": 26,
+          "column": 1,
+          "label": "流动资产 12月31日",
+          "text": "13 651"
+        },
+        {
+          "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+          "table_row_index": 25,
+          "column": 1,
+          "label": "流动资产 1月1日",
+          "text": "15 004"
+        },
+        {
+          "file": "output/model_v2/20261011T195500_live/baseline_cashflow.json",
+          "table_row_index": 24,
+          "column": 1,
+          "label": "流动资产变动",
+          "text": "-1 353"
+        }
+      ],
+      "passed": true,
+      "scope": "仅显示数的会计恒等式，不是独立预测验证"
+    },
+    {
+      "case": "machine1",
+      "target": "资产总和",
+      "display_identity_error": -1.0,
+      "rounding_tolerance": 1.5,
+      "sources": [
+        {
+          "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+          "table_row_index": 11,
+          "column": 1,
+          "label": "资产总和",
+          "text": "35 068"
+        },
+        {
+          "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+          "table_row_index": 5,
+          "column": 1,
+          "label": "固定资产总和",
+          "text": "20 565"
+        },
+        {
+          "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+          "table_row_index": 10,
+          "column": 1,
+          "label": "流动资产总额",
+          "text": "14 502"
+        }
+      ],
+      "passed": true,
+      "scope": "仅显示数的会计恒等式，不是独立预测验证"
+    },
+    {
+      "case": "machine1",
+      "target": "股东权益和负债总计",
+      "display_identity_error": 0.0,
+      "rounding_tolerance": 1.5,
+      "sources": [
+        {
+          "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+          "table_row_index": 28,
+          "column": 1,
+          "label": "股东权益和负债总计",
+          "text": "35 068"
+        },
+        {
+          "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+          "table_row_index": 19,
+          "column": 1,
+          "label": "股东权益合计",
+          "text": "17 801"
+        },
+        {
+          "file": "output/model_v2/20261011T195500_live/machine1_balance.json",
+          "table_row_index": 27,
+          "column": 1,
+          "label": "负债合计",
+          "text": "17 267"
+        }
+      ],
+      "passed": true,
+      "scope": "仅显示数的会计恒等式，不是独立预测验证"
+    },
+    {
+      "case": "machine1",
+      "target": "经营活动现金流",
+      "display_identity_error": 0.0,
+      "rounding_tolerance": 1.5,
+      "sources": [
+        {
+          "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+          "table_row_index": 13,
+          "column": 1,
+          "label": "经营活动现金流",
+          "text": "-399"
+        },
+        {
+          "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+          "table_row_index": 5,
+          "column": 1,
+          "label": "营运资金总计",
+          "text": "-1 242"
+        },
+        {
+          "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+          "table_row_index": 12,
+          "column": 1,
+          "label": "净营运资本变化总计",
+          "text": "843"
+        }
+      ],
+      "passed": true,
+      "scope": "仅显示数的会计恒等式，不是独立预测验证"
+    },
+    {
+      "case": "machine1",
+      "target": "流动资产 12月31日",
+      "display_identity_error": 0.0,
+      "rounding_tolerance": 1.5,
+      "sources": [
+        {
+          "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+          "table_row_index": 26,
+          "column": 1,
+          "label": "流动资产 12月31日",
+          "text": "13 705"
+        },
+        {
+          "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+          "table_row_index": 25,
+          "column": 1,
+          "label": "流动资产 1月1日",
+          "text": "15 004"
+        },
+        {
+          "file": "output/model_v2/20261011T195500_live/machine1_cashflow.json",
+          "table_row_index": 24,
+          "column": 1,
+          "label": "流动资产变动",
+          "text": "-1 299"
+        }
+      ],
+      "passed": true,
+      "scope": "仅显示数的会计恒等式，不是独立预测验证"
+    }
+  ],
+  "loan_cash_boundary": [
+    {
+      "long_change": -11770.832001483446,
+      "cash": 1999.0100502512507,
+      "profit": -3530.0600030598243,
+      "short_debt_needed": 0.9899497487492681,
+      "complete": false,
+      "balance_error": 3.637978807091713e-12
+    },
+    {
+      "long_change": -11769.832001483446,
+      "cash": 1999.9999999999932,
+      "profit": -3530.0700533110808,
+      "short_debt_needed": 0,
+      "complete": true,
+      "balance_error": 0.0
+    },
+    {
+      "long_change": -11768.832001483446,
+      "cash": 2000.9899497487377,
+      "profit": -3530.080103562337,
+      "short_debt_needed": 0,
+      "complete": true,
+      "balance_error": 3.637978807091713e-12
+    }
+  ],
+  "invalid_inputs_rejected": [
+    "allocation",
+    "long_rate",
+    "long_change",
+    "machine_investment"
+  ],
+  "summary": {
+    "comparison_n": 34,
+    "target_display_interval_matches": 28,
+    "accounting_identities_n": 8
+  },
+  "source_hashes": {
+    "output/model_v2/20261011T195500_live/baseline_balance.json": "a1f0aa186099b5bc43e2cae59a71fa8688da9b8e56654b93f8817121ee10900d",
+    "output/model_v2/20261011T195500_live/baseline_cashflow.json": "13724f3b1f800da0d97ebf073bcf0bc020aecab783c7dbbc8fd43ede8f551e6c",
+    "output/model_v2/20261011T195500_live/machine1_balance.json": "ad9d971138d5abd681494b77915525d89b285a0ed0cbf8196abcc3f5ef5cd254",
+    "output/model_v2/20261011T195500_live/machine1_cashflow.json": "ccda5c4f51dbe29c47f84ce1e6769ccb7afa65b6dcb410b8af7fdb3cdc4a672b"
+  },
+  "gate_passed": false,
+  "live_mutations": 0,
+  "limitations": [
+    "并发变化样本只作参考，不拟合；完整独立保留验证套件尚缺",
+    "贷款现金边界只是固定手填利率/需求下的数学分支，网页贷款步长与风险联动未核验",
+    "短贷利息、库存、大客户、未来前景和状态结转仍未识别"
+  ]
+}

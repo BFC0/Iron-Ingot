@@ -1,0 +1,176 @@
+{
+  "zero_inventory_priority_correct": true,
+  "free_production_unsupported_demonstrated": {
+    "current_output": 2,
+    "free_production_planned": 10,
+    "expected_inventory_if_deliver_2": 8
+  },
+  "tax_loss_deduction": true,
+  "short_loan_incomplete_flag": true,
+  "horizon": {
+    "six_start_rounds": true,
+    "unknown_profit_not_zero": true,
+    "round7_and_missing_or_duplicate_rejected": true,
+    "terminal_state_preserved": true,
+    "terminal_reward_not_invented": true
+  },
+  "existing_component_self_checks": true,
+  "curve_shape_checks": [
+    {
+      "version": "20261011T225637591747+0800_training/models::/operations/rho",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "20261011T225959533924+0800_training/models::/operations/rho",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "training/models::/operations/rho",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "20261011T230135216100+0800_training/models::/operations/rho",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "training/models::/operations/rho",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "training/models::/operations/rho",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "OPERATIONS_RHO_V1/20261011T213127200793+0800/model::/",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "OPERATIONS_RHO_V1/20261011T213209904415+0800/model::/",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "unified-market/20261012T114145124558+0800/models::/mechanisms/operations_efficiency",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "unified-market/20261012T114145124558+0800/models::/curve_registry/formal/1/curves/rd",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "unified-market/20261012T114145124558+0800/models::/curve_registry/formal/1/curves/operations",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "unified-market/20261012T114145124558+0800/models::/curve_registry/formal/2/curves/rd",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "unified-market/20261012T114145124558+0800/models::/curve_registry/formal/2/curves/rd/equal_spacing_sensitivity",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "unified-market/20261012T114145124558+0800/models::/curve_registry/formal/2/curves/operations",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "unified-market/20261012T114145124558+0800/models::/curve_registry/formal/2/curves/operations/equal_spacing_sensitivity",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "20261012_archive_review/coefficients::/curves/rd",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "20261012_archive_review/coefficients::/curves/operations",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "20261012_round2_joint/verification::/curves/rd",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "20261012_round2_joint/verification::/curves/operations",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "20261012_round2_json/coefficients::/curves/rd",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "20261012_round2_json/coefficients::/curves/rd/equal_spacing_sensitivity",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "20261012_round2_json/coefficients::/curves/operations",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "20261012_round2_json/coefficients::/curves/operations/equal_spacing_sensitivity",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "STEPWISE_20261011T045441Z/分步模型拟合与验证::/curves/rd",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    },
+    {
+      "version": "STEPWISE_20261011T045441Z/分步模型拟合与验证::/curves/operations",
+      "increasing": true,
+      "diminishing_returns": true,
+      "history_condition_verified": false
+    }
+  ],
+  "protected_originals_unchanged": true,
+  "reviewed_classes": 22,
+  "reviewed_catalog_entries": 6195,
+  "help_rules": 12,
+  "new_help_rules": 5,
+  "all_models_certified_compliant": false
+}

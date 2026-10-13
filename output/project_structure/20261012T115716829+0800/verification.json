@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-10-12T12:00:27.6139491+08:00",
+  "status": "PASS",
+  "baseline_files": 1979,
+  "protected_files_checked": 1978,
+  "protected_changes": [],
+  "readme_previous_content_preserved": true,
+  "local_links_checked": 64,
+  "broken_links": [],
+  "changed_or_added_navigation": [
+    {
+      "file": "README.md",
+      "sha256": "aedcfe267d2762be5b8e74017e3777ac5f33fc48399477690968c0a1644d434c"
+    },
+    {
+      "file": "项目结构.md",
+      "sha256": "a0cb60fb2a1ebff287070a1d98db9c4deec0b1f81d6bb43147d217d43bed4cbd"
+    },
+    {
+      "file": "code/README.md",
+      "sha256": "fe51feb5edca868f03e075a23e75ab191161636ba589e839de0637dddfd2942b"
+    }
+  ],
+  "scope": "Navigation only; no relocation or business-code changes",
+  "not_checked": [
+    "Business-model reruns",
+    "Browser or platform actions"
+  ],
+  "ignored_baseline_paths": [
+    ".git/",
+    "__pycache__/",
+    "work/python_packages/",
+    "work/github_cli/"
+  ]
+}

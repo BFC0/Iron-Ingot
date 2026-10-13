@@ -1,0 +1,24 @@
+{
+  "frozen_formal1": {
+    "file": "output/cross_market/future_predictions_20261011T081705179804Z.json",
+    "sha256": "d100bb1dce8943b19ddc7572c5163c4f699ea23174d43d6241241740326e8acc",
+    "records": 1600,
+    "status": "保留原预测用于事后评分；不可作为当前正式3预测"
+  },
+  "archived_scenarios": "旧分步/网格/联合情景基于零库存零订单及早期参数，仅按原回合、原输入解释",
+  "unified": "正式1条件份额回算；不作为正式2或正式3事前误差",
+  "t2v0": "两组件已训练，整体预测关闭；回合3超出代码支持范围",
+  "current_formal3": {
+    "complete_prediction_available": false,
+    "new_product": "连接件",
+    "production_strategy": "自由生产",
+    "required": [
+      "正式2实际期末结转",
+      "正式3参数和曲线历史条件",
+      "连接件需求/效率/材料",
+      "库存及订单/预收款",
+      "短贷完整分支"
+    ]
+  },
+  "interpretation": "本次审查各预测链的规则适用性；没有重算全部历史数值或改写冻结预测"
+}

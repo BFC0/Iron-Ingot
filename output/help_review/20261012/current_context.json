@@ -1,0 +1,34 @@
+{
+  "observed_date": "2026-10-12",
+  "timezone": "Asia/Shanghai",
+  "market": 5,
+  "team": "营销团队",
+  "account": "PYT",
+  "phase": "formal",
+  "round": 3,
+  "deadline_visible": "2026-10-13 22:00",
+  "representation": "selected verbatim visible DOM excerpts and parsed displayed values; incomplete outlook",
+  "source_urls": [
+    "http://sim.cesim.cn/ul/Decisions?panel=outlook&sim=se",
+    "http://sim.cesim.cn/ul/Decisions?panel=productionplanning&sim=se"
+  ],
+  "production_row_verbatim": "生产策略 帮助 需求驱动 自由生产",
+  "production_columns": ["复合梁", "连接件"],
+  "outlook_values": {
+    "生产工资_泰国_千美元": 30,
+    "基础管理成本_千美元": 6000,
+    "复合梁机器投资_美元每单位": 76,
+    "连接件机器投资_美元每单位": 1.10,
+    "基准利率_百分数": 4,
+    "高于基准的短期利率溢价_百分点": 3,
+    "最低现金_千美元": 2000,
+    "连接件原料_美元每单位": 14.20
+  },
+  "conflict": {
+    "outlook_text_verbatim": "中央银行将年利率从 3% 提高到 5%，因为他们希望为出现过热迹象的经济降温。",
+    "parameter_row_verbatim": "基准利率 4.00 +60% 2.50",
+    "resolved": false
+  },
+  "usable_as_full_current_parameter_bundle": false,
+  "platform_inputs_modified": false
+}

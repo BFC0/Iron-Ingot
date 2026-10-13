@@ -1,0 +1,98 @@
+{
+  "latest_baseline_captured_at": "2026-10-11T03:06:43.420Z",
+  "final_captured_at": "2026-10-11T03:19:28.787Z",
+  "restored_cells_equal": true,
+  "new_valid_trials": 0,
+  "prior_valid_budget_trials": 1,
+  "group_submission_performed": false,
+  "personal_demand_preserved": 1,
+  "group_demand": 5,
+  "hypothesis": "练习/正式隐藏需求函数可能不同，尚不能判断",
+  "failed_trials": [
+    "C: 输入框3100，派生收入仍3000，个人列回读价格3000",
+    "D: 输入框40，派生产量仍3.4，个人列回读分配20"
+  ],
+  "predictions": [
+    {
+      "case": "baseline",
+      "allocation_percent": 20,
+      "thailand_price": 3000,
+      "kind": "conditional_formula_prediction",
+      "observed_trial": false,
+      "output": {
+        "production": 3.4,
+        "workers": 22.666666666666668,
+        "payroll": 634.6666666666667,
+        "firing": 715.5208666666666,
+        "sales": [
+          1,
+          2.4
+        ],
+        "revenue": 7800.0,
+        "transport": 318.0
+      }
+    },
+    {
+      "case": "C",
+      "allocation_percent": 20,
+      "thailand_price": 3100,
+      "kind": "conditional_formula_prediction",
+      "observed_trial": false,
+      "output": {
+        "production": 3.4,
+        "workers": 22.666666666666668,
+        "payroll": 634.6666666666667,
+        "firing": 715.5208666666666,
+        "sales": [
+          1,
+          2.4
+        ],
+        "revenue": 7900.0,
+        "transport": 318.0
+      }
+    },
+    {
+      "case": "D",
+      "allocation_percent": 40,
+      "thailand_price": 3000,
+      "kind": "conditional_formula_prediction",
+      "observed_trial": false,
+      "output": {
+        "production": 6.8,
+        "workers": 45.333333333333336,
+        "payroll": 1406.8444444444444,
+        "firing": 493.3875333333333,
+        "sales": [
+          1,
+          5.8
+        ],
+        "revenue": 14600.0,
+        "transport": 726.0
+      }
+    }
+  ],
+  "source_files": [
+    "raw/20261011_modeltest_baseline_checklist.json",
+    "raw/20261011_modeltest_final_checklist.json",
+    "raw/20261011_modeltest_C_sales.json",
+    "raw/20261011_modeltest_D_production.json",
+    "raw/round1_outlook.json",
+    "raw/initial0_printable.json"
+  ],
+  "formulas": {
+    "revenue": "sales_TH*price_TH + sales_ID*price_ID",
+    "transport": "sales_TH*30 + sales_ID*120",
+    "payroll": "sum(shift_quantity*shift_multiplier)/efficiency*28",
+    "severance": "max(previous_workers*0.9-production/efficiency,0)*28*0.35"
+  },
+  "units": {
+    "quantity": "千单位",
+    "finance": "千美元",
+    "price": "美元/单位"
+  },
+  "limitations": [
+    "条件预测不是有效平台试验；未保存的输入不用于任何拟合",
+    "财务预算不能作为正式实际需求外部检验集",
+    "未估算完整利润变化，利息与税费机制仍需校准"
+  ]
+}

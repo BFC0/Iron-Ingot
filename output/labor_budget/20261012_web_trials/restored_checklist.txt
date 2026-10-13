@@ -1,0 +1,380 @@
+- banner:
+  - link "跳过导航":
+    - /url: "#main-content"
+  - link:
+    - /url: ./Home?sim=se
+  - link "决策区域:":
+    - /url: ../ul/Decisions?1&panel=decisionchecklist
+  - generic: PYT
+  - link "回合2 :":
+    - /url: ./Schedule?sim=se
+    - generic: 回合2
+    - text: ":"
+  - generic: 02:56:30
+  - link "小组:":
+    - /url: ./Teams?sim=se
+  - generic: 营销团队
+  - generic "JY": JY
+  - generic "XXL": 徐昕
+  - generic "SRQ": 沈睿
+  - generic "PYT": 浦语
+  - navigation:
+    - list:
+      - link "主页":
+        - /url: ./Home?sim=se
+      - link "决策":
+        - /url: ./Decisions?sim=se&panel=tutorial
+      - link "结果":
+        - /url: ./Results?sim=se&panel=summary
+      - link "日程表":
+        - /url: ./Schedule?sim=se
+      - link "小组":
+        - /url: ./Teams?sim=se
+      - link "阅读":
+        - /url: ./Reading?sim=se
+      - link "论坛":
+        - /url: ./TeamForum?sim=se
+    - link "个人信息":
+      - /url: ./Profile?sim=se
+      - img "个人信息"
+    - link "帮助":
+      - /url: ./Help?sim=se
+      - img "帮助"
+    - link "安全退出":
+      - /url: "#"
+      - img "安全退出"
+- main:
+  - navigation:
+    - list:
+      - link "快速教程":
+        - /url: ./Decisions?panel=tutorial&sim=xx
+        - generic: 快速教程
+      - link "市场前景":
+        - /url: ./Decisions?panel=outlook&sim=xx
+        - generic: 市场前景
+      - link "需求":
+        - /url: ./Decisions?panel=demand&sim=xx
+        - generic: 需求
+      - link "生产":
+        - /url: ./Decisions?panel=productioninvestments&sim=xx
+        - generic: 生产
+      - link "销售":
+        - /url: ./Decisions?panel=marketreportdomestic&sim=xx
+        - generic: 销售
+      - link "物流":
+        - /url: ./Decisions?panel=logistics&sim=xx
+        - generic: 物流
+      - link "财务":
+        - /url: ./Decisions?panel=corporate&sim=xx
+        - generic: 财务
+      - link "决策列表":
+        - /url: ./Decisions?panel=decisionchecklist&sim=xx
+        - generic: 决策列表
+  - button "结果预估":
+    - img "结果预估"
+    - img "结果预估"
+    - heading "结果预估" [level=1]
+  - heading "决策列表" [level=1]
+  - combobox:
+    - option "练习回合1"
+    - option "练习回合2"
+    - option "回合1"
+    - option "回合2" [selected]
+  - generic: "图例:"
+  - generic: 小组
+  - generic: 当前的
+  - generic: 修改的
+  - table:
+    - rowgroup:
+      - row "营销团队 JY XXL SRQ PYT":
+        - cell
+        - cell "营销团队"
+        - cell "JY"
+        - cell "XXL"
+        - cell "SRQ"
+        - cell "PYT"
+      - row "进入决策区域 进入Ta的决策区 进入Ta的决策区 进入Ta的决策区 进入Ta的决策区 进入Ta的决策区":
+        - cell "进入决策区域"
+        - cell "进入Ta的决策区":
+          - button "进入Ta的决策区"
+        - cell "进入Ta的决策区":
+          - button "进入Ta的决策区"
+        - cell "进入Ta的决策区":
+          - button "进入Ta的决策区"
+        - cell "进入Ta的决策区":
+          - button "进入Ta的决策区"
+        - cell "进入Ta的决策区":
+          - button "进入Ta的决策区"
+      - row "保存为小组决策 保存为小组决策 保存为小组决策 保存为小组决策 保存为小组决策":
+        - cell "保存为小组决策"
+        - cell
+        - cell "保存为小组决策":
+          - button "保存为小组决策"
+        - cell "保存为小组决策":
+          - button "保存为小组决策"
+        - cell "保存为小组决策":
+          - button "保存为小组决策"
+        - cell "保存为小组决策":
+          - button "保存为小组决策"
+      - row "导入至我的决策区域 导入 导入 导入 导入":
+        - cell "导入至我的决策区域"
+        - cell "导入":
+          - button "导入"
+        - cell "导入":
+          - button "导入"
+        - cell "导入":
+          - button "导入"
+        - cell "导入":
+          - button "导入"
+        - cell
+    - rowgroup:
+      - row "回合预算":
+        - heading "回合预算" [level=2]
+      - row "利润, 千 美元 -530 4 072 -530 -530 -530":
+        - cell "利润, 千 美元"
+        - cell "-530"
+        - cell "4 072"
+        - cell "-530"
+        - cell "-530"
+        - cell "-530"
+      - row "销售变化% -7.32 29.02 -7.32 -7.32 -7.32":
+        - cell "销售变化%"
+        - cell "-7.32"
+        - cell "29.02"
+        - cell "-7.32"
+        - cell "-7.32"
+        - cell "-7.32"
+      - row "每单位价格":
+        - heading "每单位价格" [level=2]
+      - row "复合梁":
+        - heading "复合梁" [level=4]
+      - row "泰国, 美元 1 800.0 1 980.0 1 800.0 1 800.0 1 800.0":
+        - cell "泰国, 美元"
+        - cell "1 800.0"
+        - cell "1 980.0"
+        - cell "1 800.0"
+        - cell "1 800.0"
+        - cell "1 800.0"
+      - row "印尼, 美元 2 000.0 2 250.0 2 000.0 2 000.0 2 000.0":
+        - cell "印尼, 美元"
+        - cell "2 000.0"
+        - cell "2 250.0"
+        - cell "2 000.0"
+        - cell "2 000.0"
+        - cell "2 000.0"
+      - row "大客户订单, 美元 0.0 2 000.0 0.0 0.0 0.0":
+        - cell "大客户订单, 美元"
+        - cell "0.0"
+        - cell "2 000.0"
+        - cell "0.0"
+        - cell "0.0"
+        - cell "0.0"
+      - row "一般营销, 千 美元":
+        - heading "一般营销, 千 美元" [level=2]
+      - row "复合梁":
+        - heading "复合梁" [level=4]
+      - row "泰国 100 325 100 100 100":
+        - cell "泰国"
+        - cell "100"
+        - cell "325"
+        - cell "100"
+        - cell "100"
+        - cell "100"
+      - row "印尼 200 375 200 200 200":
+        - cell "印尼"
+        - cell "200"
+        - cell "375"
+        - cell "200"
+        - cell "200"
+        - cell "200"
+      - row "设计师营销, 千 美元":
+        - heading "设计师营销, 千 美元" [level=2]
+      - row "复合梁":
+        - heading "复合梁" [level=4]
+      - row "泰国 100 275 100 100 100":
+        - cell "泰国"
+        - cell "100"
+        - cell "275"
+        - cell "100"
+        - cell "100"
+        - cell "100"
+      - row "印尼 100 575 100 100 100":
+        - cell "印尼"
+        - cell "100"
+        - cell "575"
+        - cell "100"
+        - cell "100"
+        - cell "100"
+      - row "大客户订单 0.0 0.0 0.0 0.0 0.0":
+        - cell "大客户订单"
+        - cell "0.0"
+        - cell "0.0"
+        - cell "0.0"
+        - cell "0.0"
+        - cell "0.0"
+      - row "物流决策":
+        - heading "物流决策" [level=2]
+      - row "复合梁":
+        - heading "复合梁" [level=4]
+      - row "泰国 第一 第二 第一 第一 第一":
+        - cell "泰国"
+        - cell "第一"
+        - cell "第二"
+        - cell "第一"
+        - cell "第一"
+        - cell "第一"
+      - row "印尼 第二 第一 第二 第二 第二":
+        - cell "印尼"
+        - cell "第二"
+        - cell "第一"
+        - cell "第二"
+        - cell "第二"
+        - cell "第二"
+      - row "产能分配, %":
+        - heading "产能分配, %" [level=2]
+      - row "泰国":
+        - heading "泰国" [level=4]
+      - row "分包制造 FALSE FALSE FALSE FALSE FALSE":
+        - cell "分包制造"
+        - cell "FALSE"
+        - cell "FALSE"
+        - cell "FALSE"
+        - cell "FALSE"
+        - cell "FALSE"
+      - row "复合梁 100.0 80.0 100.0 100.0 100.0":
+        - cell "复合梁"
+        - cell "100.0"
+        - cell "80.0"
+        - cell "100.0"
+        - cell "100.0"
+        - cell "100.0"
+      - row "投资决策, 千单位":
+        - heading "投资决策, 千单位" [level=2]
+      - row "泰国":
+        - heading "泰国" [level=4]
+      - row "机器, 复合梁 0 10 0 0 0":
+        - cell "机器, 复合梁"
+        - cell "0"
+        - cell "10"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "运营改进, 千 美元":
+        - heading "运营改进, 千 美元" [level=2]
+      - row "泰国 760 740 760 760 760":
+        - cell "泰国"
+        - cell "760"
+        - cell "740"
+        - cell "760"
+        - cell "760"
+        - cell "760"
+      - row "研发, 千 美元":
+        - heading "研发, 千 美元" [level=2]
+      - row "复合梁 650 875 650 650 650":
+        - cell "复合梁"
+        - cell "650"
+        - cell "875"
+        - cell "650"
+        - cell "650"
+        - cell "650"
+      - row "财务决策":
+        - heading "财务决策" [level=2]
+      - row "长期贷款变化(增加 + / 减少 -), 千 美元 0 -1 000 0 0 0":
+        - cell "长期贷款变化(增加 + / 减少 -), 千 美元"
+        - cell "0"
+        - cell "-1 000"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "预估":
+        - heading "预估" [level=2]
+      - row "需求, 千单位":
+        - heading "需求, 千单位" [level=3]
+      - row "复合梁":
+        - heading "复合梁" [level=4]
+      - row "泰国 4.50 5.20 4.50 4.50 4.50":
+        - cell "泰国"
+        - cell "4.50"
+        - cell "5.20"
+        - cell "4.50"
+        - cell "4.50"
+        - cell "4.50"
+      - row "印尼 13.50 13.80 13.50 13.50 13.50":
+        - cell "印尼"
+        - cell "13.50"
+        - cell "13.80"
+        - cell "13.50"
+        - cell "13.50"
+        - cell "13.50"
+      - row "预计市场增长，%":
+        - heading "预计市场增长，%" [level=3]
+      - row "复合梁":
+        - heading "复合梁" [level=4]
+      - row "泰国 -1.00 7.50 -1.00 -1.00 -1.00":
+        - cell "泰国"
+        - cell "-1.00"
+        - cell "7.50"
+        - cell "-1.00"
+        - cell "-1.00"
+        - cell "-1.00"
+      - row "印尼 3.50 7.50 3.50 3.50 3.50":
+        - cell "印尼"
+        - cell "3.50"
+        - cell "7.50"
+        - cell "3.50"
+        - cell "3.50"
+        - cell "3.50"
+      - row "需求增长预估, %":
+        - heading "需求增长预估, %" [level=3]
+      - row "下回合":
+        - heading "下回合" [level=4]
+      - row "复合梁 1.00 5.00 1.00 1.00 1.00":
+        - cell "复合梁"
+        - cell "1.00"
+        - cell "5.00"
+        - cell "1.00"
+        - cell "1.00"
+        - cell "1.00"
+      - row "生产效率, 千单位/人":
+        - heading "生产效率, 千单位/人" [level=3]
+      - row "泰国":
+        - heading "泰国" [level=4]
+      - row "复合梁 0.17 0.19 0.17 0.17 0.17":
+        - cell "复合梁"
+        - cell "0.17"
+        - cell "0.19"
+        - cell "0.17"
+        - cell "0.17"
+        - cell "0.17"
+      - row "财务":
+        - heading "财务" [level=3]
+      - row "长期贷款利率, % 3.00 3.00 3.00 3.00 3.00":
+        - cell "长期贷款利率, %"
+        - cell "3.00"
+        - cell "3.00"
+        - cell "3.00"
+        - cell "3.00"
+        - cell "3.00"
+- contentinfo:
+  - heading "课程信息" [level=1]
+  - list:
+    - listitem: "课程: 2026校内赛-本科"
+    - listitem: "市场 & 课程编码: 市场 5, SUIBE260928-LX-benke"
+    - text: "指导教师:"
+    - link "欣 刘 (@)":
+      - /url: mailto:<REDACTED_EMAIL>
+    - 'link "回合2: 2026-10-12 22:00"':
+      - /url: ./Schedule?sim=se
+  - heading "支持与阅读" [level=1]
+  - list:
+    - link "决策制定指南":
+      - /url: ./Reading?sim=se
+    - link "案例描述":
+      - /url: ./Reading?sim=se
+    - link "帮助":
+      - /url: ./Help?sim=se
+  - paragraph:
+    - text: © 2000-2026
+    - link "Cesim Oy":
+      - /url: https://www.cesim.com/
+    - text: . Simulation provided and designed by Cesim.

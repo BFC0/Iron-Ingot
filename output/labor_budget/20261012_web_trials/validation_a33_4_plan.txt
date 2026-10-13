@@ -1,0 +1,204 @@
+- banner:
+  - link "跳过导航":
+    - /url: "#main-content"
+  - link:
+    - /url: ./Home?sim=se
+  - link "决策区域:":
+    - /url: ../ul/Decisions?1&panel=decisionchecklist
+  - generic: PYT
+  - link "回合2 :":
+    - /url: ./Schedule?sim=se
+    - generic: 回合2
+    - text: ":"
+  - generic: 03:17:45
+  - link "小组:":
+    - /url: ./Teams?sim=se
+  - generic: 营销团队
+  - generic "JY": JY
+  - generic "XXL": 徐昕
+  - generic "SRQ": 沈睿
+  - generic "PYT": 浦语
+  - navigation:
+    - list:
+      - link "主页":
+        - /url: ./Home?sim=se
+      - link "决策":
+        - /url: ./Decisions?sim=se&panel=tutorial
+      - link "结果":
+        - /url: ./Results?sim=se&panel=summary
+      - link "日程表":
+        - /url: ./Schedule?sim=se
+      - link "小组":
+        - /url: ./Teams?sim=se
+      - link "阅读":
+        - /url: ./Reading?sim=se
+      - link "论坛":
+        - /url: ./TeamForum?sim=se
+    - link "个人信息":
+      - /url: ./Profile?sim=se
+      - img "个人信息"
+    - link "帮助":
+      - /url: ./Help?sim=se
+      - img "帮助"
+    - link "安全退出":
+      - /url: "#"
+      - img "安全退出"
+- main:
+  - navigation:
+    - list:
+      - link "快速教程":
+        - /url: ./Decisions?panel=tutorial&sim=xx
+        - generic: 快速教程
+      - link "市场前景":
+        - /url: ./Decisions?panel=outlook&sim=xx
+        - generic: 市场前景
+      - link "需求":
+        - /url: ./Decisions?panel=demand&sim=xx
+        - generic: 需求
+      - link "生产":
+        - /url: ./Decisions?panel=productioninvestments&sim=xx
+        - generic: 生产
+      - link "销售":
+        - /url: ./Decisions?panel=marketreportdomestic&sim=xx
+        - generic: 销售
+      - link "物流":
+        - /url: ./Decisions?panel=logistics&sim=xx
+        - generic: 物流
+      - link "财务":
+        - /url: ./Decisions?panel=corporate&sim=xx
+        - generic: 财务
+      - link "决策列表":
+        - /url: ./Decisions?panel=decisionchecklist&sim=xx
+        - generic: 决策列表
+  - button "结果预估":
+    - img "结果预估"
+    - img "结果预估"
+    - heading "结果预估" [level=1]
+  - heading "计划" [level=1]
+  - list:
+    - link "投资":
+      - /url: ./Decisions?panel=productioninvestments&sim=xx
+      - generic: 投资
+    - link "计划":
+      - /url: ./Decisions?panel=productionplanning&sim=xx
+      - generic: 计划
+  - table:
+    - rowgroup:
+      - row "生产计划, 千单位":
+        - heading "生产计划, 千单位" [level=2]
+      - row:
+        - cell:
+  - table:
+    - rowgroup:
+      - row "生产决策":
+        - heading "生产决策" [level=2]
+      - row "泰国":
+        - cell
+        - cell "泰国"
+      - row "复合梁":
+        - cell
+        - cell "复合梁"
+      - row "产能分配, % 33.4":
+        - cell "产能分配, %"
+        - cell "33.4":
+          - textbox: "33.4"
+      - row "每单位可变生产成本, 美元 1 219.4":
+        - cell "每单位可变生产成本, 美元"
+        - cell "1 219.4"
+      - row "生产, 千单位 5.11":
+        - cell "生产, 千单位"
+        - cell "5.11"
+      - row "生产效率, 千单位/人 0.17":
+        - cell "生产效率, 千单位/人"
+        - cell "0.17":
+          - textbox: "0.17"
+      - row "产能":
+        - heading "产能" [level=3]
+      - row "产能, 千单位 15.30":
+        - cell "产能, 千单位"
+        - cell "15.30"
+      - row "产能利用, % 33.4":
+        - cell "产能利用, %"
+        - cell "33.4"
+      - row "生产策略 帮助 需求驱动":
+        - cell "生产策略 帮助":
+          - generic: 生产策略
+          - link "帮助":
+            - /url: "#"
+        - cell "需求驱动"
+      - row "人力资源":
+        - heading "人力资源" [level=3]
+      - row "换班班数 1.0":
+        - cell "换班班数"
+        - cell "1.0"
+      - row "生产线人工数量 30.1":
+        - cell "生产线人工数量"
+        - cell "30.1"
+      - row "生产工资合计, 千 美元 843":
+        - cell "生产工资合计, 千 美元"
+        - cell "843"
+  - table
+  - table:
+    - rowgroup:
+      - row "研发, 千 美元 帮助":
+        - heading "研发, 千 美元 帮助" [level=2]:
+          - generic: 研发, 千 美元
+          - link "帮助":
+            - /url: "#"
+      - row "今年 去年":
+        - cell
+        - cell "今年"
+        - cell "去年"
+      - row "复合梁 650 650":
+        - cell "复合梁"
+        - cell "650":
+          - textbox: "650"
+        - cell "650"
+      - row:
+        - cell:
+  - table:
+    - rowgroup:
+      - row "运营改进, 千 美元 帮助":
+        - heading "运营改进, 千 美元 帮助" [level=2]:
+          - generic: 运营改进, 千 美元
+          - link "帮助":
+            - /url: "#"
+      - row "今年 去年":
+        - cell
+        - cell "今年"
+        - cell "去年"
+      - row "泰国 760 760":
+        - cell "泰国"
+        - cell "760":
+          - textbox: "760"
+        - cell "760"
+      - row:
+        - cell:
+  - table
+  - table
+  - table
+  - table
+  - table
+- contentinfo:
+  - heading "课程信息" [level=1]
+  - list:
+    - listitem: "课程: 2026校内赛-本科"
+    - listitem: "市场 & 课程编码: 市场 5, SUIBE260928-LX-benke"
+    - text: "指导教师:"
+    - link "欣 刘 (@)":
+      - /url: mailto:<REDACTED_EMAIL>
+    - 'link "回合2: 2026-10-12 22:00"':
+      - /url: ./Schedule?sim=se
+  - heading "支持与阅读" [level=1]
+  - list:
+    - link "决策制定指南":
+      - /url: ./Reading?sim=se
+    - link "案例描述":
+      - /url: ./Reading?sim=se
+    - link "帮助":
+      - /url: ./Help?sim=se
+  - paragraph:
+    - text: © 2000-2026
+    - link "Cesim Oy":
+      - /url: https://www.cesim.com/
+    - text: . Simulation provided and designed by Cesim.
