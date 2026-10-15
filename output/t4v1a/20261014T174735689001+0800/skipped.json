@@ -1,0 +1,34 @@
+[
+  {
+    "model": "RD/OPS/EFF_FORWARD",
+    "reason": "曲线来源及上期投入已核实；当期支出→有效横轴映射、完整存量未证实"
+  },
+  {
+    "model": "SHARE/COUNTRY_REAL_INPUTS",
+    "reason": "99队产品/国家分配缺失；本组曲线不可推广其他队"
+  },
+  {
+    "model": "CAPACITY",
+    "reason": "投资生效时点冲突；仅更新机器单价，不排名投资收益"
+  },
+  {
+    "model": "FINANCE",
+    "reason": "期初/期末/平均风险状态与计息时点未识别；税亏、完整现金链缺失"
+  },
+  {
+    "model": "CONNECTOR_V2",
+    "reason": "机会不是确认订单；中标、交付及实际预收余款状态缺失"
+  },
+  {
+    "model": "MATERIAL_TRANSFER",
+    "reason": "缺新基价实际标签；只作固定参数敏感性"
+  },
+  {
+    "model": "HORIZON",
+    "reason": "正式4→5→6前景及完整结转状态缺失，不计算剩余利润排名"
+  },
+  {
+    "model": "NESTED_DEMAND_COEFFICIENT_REPLAY",
+    "reason": "旧嵌套留出只保存配置和预测，未保存每折系数；只核验保存预测的指标，不重训恢复系数"
+  }
+]

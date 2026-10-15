@@ -1,0 +1,4926 @@
+[
+  {
+    "requirement_id": "summary:Graphs.Results.Summary.CumulRevenue.TimeSeries.summary",
+    "panel": "summary",
+    "chart_id": "Graphs.Results.Summary.CumulRevenue.TimeSeries.summary",
+    "chart_type": "msline",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_summary.json",
+    "prior_sha256": "5b004ae61eb18625e93b80de9441950861a4bb6c21272eff476f44fee777406e",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_summary.json",
+      "sha256": "ab788469b472609efe4f78c7c0426054d0a72161ca147821861ed96d4a55b46f"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "0"
+            },
+            {
+              "label": "1"
+            },
+            {
+              "label": "2"
+            },
+            {
+              "label": "3"
+            },
+            {
+              "label": "4"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": "千 美元",
+        "xAxisName": "年",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "seriesname": "古娜拉黑暗之队",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 32140
+            },
+            {
+              "value": 33344
+            },
+            {
+              "value": 39514
+            },
+            {
+              "value": 39255
+            }
+          ]
+        },
+        {
+          "seriesname": "海底小纵队",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 9750
+            },
+            {
+              "value": 41050
+            },
+            {
+              "value": 46483
+            },
+            {
+              "value": 45014
+            }
+          ]
+        },
+        {
+          "seriesname": "KPI已达成队",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 34748
+            },
+            {
+              "value": 46215
+            },
+            {
+              "value": 44254
+            },
+            {
+              "value": 57639
+            }
+          ]
+        },
+        {
+          "seriesname": "谁说女子不如男",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 45303
+            },
+            {
+              "value": 46306
+            },
+            {
+              "value": 48761
+            },
+            {
+              "value": 44644
+            }
+          ]
+        },
+        {
+          "seriesname": "从容应队",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 34474
+            },
+            {
+              "value": 36285
+            },
+            {
+              "value": 46358
+            },
+            {
+              "value": 50833
+            }
+          ]
+        },
+        {
+          "seriesname": "好想和你凑一队",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 31831
+            },
+            {
+              "value": 40314
+            },
+            {
+              "value": 37259
+            },
+            {
+              "value": 44166
+            }
+          ]
+        },
+        {
+          "seriesname": "来都来了队",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 33310
+            },
+            {
+              "value": 40103
+            },
+            {
+              "value": 40406
+            },
+            {
+              "value": 44077
+            }
+          ]
+        },
+        {
+          "seriesname": "锐见商枢",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 35180
+            },
+            {
+              "value": 38226
+            },
+            {
+              "value": 51441
+            },
+            {
+              "value": 44166
+            }
+          ]
+        },
+        {
+          "seriesname": "拿中了头奖的彩票去队",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 28929
+            },
+            {
+              "value": 31199
+            },
+            {
+              "value": 37131
+            },
+            {
+              "value": 34448
+            }
+          ]
+        },
+        {
+          "seriesname": "我们叫什么",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 6120
+            },
+            {
+              "value": 5202
+            },
+            {
+              "value": 4422
+            },
+            {
+              "value": 3758
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "summary:Graphs.Summary.Profitability",
+    "panel": "summary",
+    "chart_id": "Graphs.Summary.Profitability",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_summary.json",
+    "prior_sha256": "5b004ae61eb18625e93b80de9441950861a4bb6c21272eff476f44fee777406e",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_summary.json",
+      "sha256": "ab788469b472609efe4f78c7c0426054d0a72161ca147821861ed96d4a55b46f"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "sYAxisName": "%",
+        "xAxisName": " ",
+        "caption": " ",
+        "pYAxisName": "千 美元"
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "销售",
+              "data": [
+                {
+                  "value": 39255.30674280467
+                },
+                {
+                  "value": 45014.318431768486
+                },
+                {
+                  "value": 57638.545206249146
+                },
+                {
+                  "value": 44643.825126103075
+                },
+                {
+                  "value": 50833.06771896904
+                },
+                {
+                  "value": 44165.696580310265
+                },
+                {
+                  "value": 44076.83624711229
+                },
+                {
+                  "value": 44166.04235665066
+                },
+                {
+                  "value": 34448.25909576834
+                },
+                {
+                  "value": 3758.4449999999993
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataset": [
+            {
+              "seriesname": "息税前利润（EBIT）",
+              "data": [
+                {
+                  "value": -46.02920114238077
+                },
+                {
+                  "value": 422.03011898903424
+                },
+                {
+                  "value": 985.4988116823997
+                },
+                {
+                  "value": 1148.001016815154
+                },
+                {
+                  "value": 1592.0391707283034
+                },
+                {
+                  "value": 1882.0788400444126
+                },
+                {
+                  "value": 985.8502950041338
+                },
+                {
+                  "value": 1866.0577843889023
+                },
+                {
+                  "value": -1659.3171177018157
+                },
+                {
+                  "value": -8674.805355115343
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataset": [
+            {
+              "seriesname": "利润",
+              "data": [
+                {
+                  "value": -683.3526698966963
+                },
+                {
+                  "value": -274.87449188449364
+                },
+                {
+                  "value": 250.84373152846211
+                },
+                {
+                  "value": 493.94613242692515
+                },
+                {
+                  "value": 820.1276538370035
+                },
+                {
+                  "value": 913.6574147892719
+                },
+                {
+                  "value": 255.3276690642476
+                },
+                {
+                  "value": 1183.997315144999
+                },
+                {
+                  "value": -2440.7775631937393
+                },
+                {
+                  "value": -13317.459112803044
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "summary:Graphs.Summary.Costs.summary",
+    "panel": "summary",
+    "chart_id": "Graphs.Summary.Costs.summary",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_summary.json",
+    "prior_sha256": "5b004ae61eb18625e93b80de9441950861a4bb6c21272eff476f44fee777406e",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_summary.json",
+      "sha256": "ab788469b472609efe4f78c7c0426054d0a72161ca147821861ed96d4a55b46f"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": "千 美元",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "从库存中出售, 复合梁",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "从库存中出售, 连接件",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "新生产, 复合梁",
+              "data": [
+                {
+                  "value": 24139.137345222935
+                },
+                {
+                  "value": 26165.784718750096
+                },
+                {
+                  "value": 30260.372036129025
+                },
+                {
+                  "value": 20173.024133854604
+                },
+                {
+                  "value": 28099.777232973767
+                },
+                {
+                  "value": 23799.285782730032
+                },
+                {
+                  "value": 25236.48931682811
+                },
+                {
+                  "value": 23758.36857399268
+                },
+                {
+                  "value": 19861.573057799884
+                },
+                {
+                  "value": 2670.9372585563533
+                }
+              ]
+            },
+            {
+              "seriesname": "新生产, 连接件",
+              "data": [
+                {
+                  "value": 3878.7096405711163
+                },
+                {
+                  "value": 10320.833638097576
+                },
+                {
+                  "value": 12708.618525284724
+                },
+                {
+                  "value": 9461.472453403529
+                },
+                {
+                  "value": 7868.007170756669
+                },
+                {
+                  "value": 7447.0944558977635
+                },
+                {
+                  "value": 5096.460802127045
+                },
+                {
+                  "value": 9077.545299860705
+                },
+                {
+                  "value": 2327.764822517277
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataset": [
+            {
+              "seriesname": "销货成本",
+              "data": [
+                {
+                  "value": 28017.84698579405
+                },
+                {
+                  "value": 31949.31117156477
+                },
+                {
+                  "value": 42968.990561413746
+                },
+                {
+                  "value": 29634.49658725813
+                },
+                {
+                  "value": 34616.08385397413
+                },
+                {
+                  "value": 30186.870965394497
+                },
+                {
+                  "value": 30332.950118955156
+                },
+                {
+                  "value": 28849.733622759388
+                },
+                {
+                  "value": 22189.337880317158
+                },
+                {
+                  "value": 2670.9372585563533
+                }
+              ]
+            },
+            {
+              "seriesname": "库存增长, 复合梁",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "库存增长, 连接件",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 4537.3071852829
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 1351.7005497563
+                },
+                {
+                  "value": 1059.5092732333
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 3986.180251094
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "summary:Graphs.Results.Summary.Profits.TimeSeries.summary",
+    "panel": "summary",
+    "chart_id": "Graphs.Results.Summary.Profits.TimeSeries.summary",
+    "chart_type": "msline",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_summary.json",
+    "prior_sha256": "5b004ae61eb18625e93b80de9441950861a4bb6c21272eff476f44fee777406e",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_summary.json",
+      "sha256": "ab788469b472609efe4f78c7c0426054d0a72161ca147821861ed96d4a55b46f"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "0"
+            },
+            {
+              "label": "1"
+            },
+            {
+              "label": "2"
+            },
+            {
+              "label": "3"
+            },
+            {
+              "label": "4"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": "千 美元",
+        "xAxisName": "年",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "seriesname": "古娜拉黑暗之队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 2883
+            },
+            {
+              "value": 1911
+            },
+            {
+              "value": 224
+            },
+            {
+              "value": -683
+            }
+          ]
+        },
+        {
+          "seriesname": "海底小纵队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": -6263
+            },
+            {
+              "value": 1824
+            },
+            {
+              "value": 1634
+            },
+            {
+              "value": -275
+            }
+          ]
+        },
+        {
+          "seriesname": "KPI已达成队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 3140
+            },
+            {
+              "value": 1777
+            },
+            {
+              "value": 653
+            },
+            {
+              "value": 251
+            }
+          ]
+        },
+        {
+          "seriesname": "谁说女子不如男",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 3313
+            },
+            {
+              "value": 4197
+            },
+            {
+              "value": -2602
+            },
+            {
+              "value": 494
+            }
+          ]
+        },
+        {
+          "seriesname": "从容应队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 2817
+            },
+            {
+              "value": 2103
+            },
+            {
+              "value": 869
+            },
+            {
+              "value": 820
+            }
+          ]
+        },
+        {
+          "seriesname": "好想和你凑一队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 3090
+            },
+            {
+              "value": 2319
+            },
+            {
+              "value": -54
+            },
+            {
+              "value": 914
+            }
+          ]
+        },
+        {
+          "seriesname": "来都来了队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 3074
+            },
+            {
+              "value": 2474
+            },
+            {
+              "value": 703
+            },
+            {
+              "value": 255
+            }
+          ]
+        },
+        {
+          "seriesname": "锐见商枢",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 2767
+            },
+            {
+              "value": 2129
+            },
+            {
+              "value": -2189
+            },
+            {
+              "value": 1184
+            }
+          ]
+        },
+        {
+          "seriesname": "拿中了头奖的彩票去队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 2515
+            },
+            {
+              "value": 1579
+            },
+            {
+              "value": -1612
+            },
+            {
+              "value": -2441
+            }
+          ]
+        },
+        {
+          "seriesname": "我们叫什么",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": -7067
+            },
+            {
+              "value": -7042
+            },
+            {
+              "value": -11696
+            },
+            {
+              "value": -13317
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "summary:Graphs.Results.Summary.CumulEarnings.TimeSeries.summary",
+    "panel": "summary",
+    "chart_id": "Graphs.Results.Summary.CumulEarnings.TimeSeries.summary",
+    "chart_type": "msline",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_summary.json",
+    "prior_sha256": "5b004ae61eb18625e93b80de9441950861a4bb6c21272eff476f44fee777406e",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_summary.json",
+      "sha256": "ab788469b472609efe4f78c7c0426054d0a72161ca147821861ed96d4a55b46f"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "0"
+            },
+            {
+              "label": "1"
+            },
+            {
+              "label": "2"
+            },
+            {
+              "label": "3"
+            },
+            {
+              "label": "4"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": "千 美元",
+        "xAxisName": "年",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "seriesname": "古娜拉黑暗之队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 4176
+            },
+            {
+              "value": 6087
+            },
+            {
+              "value": 6311
+            },
+            {
+              "value": 5627
+            }
+          ]
+        },
+        {
+          "seriesname": "海底小纵队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": -4970
+            },
+            {
+              "value": -3147
+            },
+            {
+              "value": -1513
+            },
+            {
+              "value": -1787
+            }
+          ]
+        },
+        {
+          "seriesname": "KPI已达成队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 4433
+            },
+            {
+              "value": 6209
+            },
+            {
+              "value": 6862
+            },
+            {
+              "value": 7113
+            }
+          ]
+        },
+        {
+          "seriesname": "谁说女子不如男",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 4606
+            },
+            {
+              "value": 8803
+            },
+            {
+              "value": 6202
+            },
+            {
+              "value": 6695
+            }
+          ]
+        },
+        {
+          "seriesname": "从容应队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 4110
+            },
+            {
+              "value": 6213
+            },
+            {
+              "value": 7082
+            },
+            {
+              "value": 7902
+            }
+          ]
+        },
+        {
+          "seriesname": "好想和你凑一队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 4382
+            },
+            {
+              "value": 6702
+            },
+            {
+              "value": 6647
+            },
+            {
+              "value": 7561
+            }
+          ]
+        },
+        {
+          "seriesname": "来都来了队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 4367
+            },
+            {
+              "value": 6841
+            },
+            {
+              "value": 7544
+            },
+            {
+              "value": 7799
+            }
+          ]
+        },
+        {
+          "seriesname": "锐见商枢",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 4060
+            },
+            {
+              "value": 6189
+            },
+            {
+              "value": 4000
+            },
+            {
+              "value": 5184
+            }
+          ]
+        },
+        {
+          "seriesname": "拿中了头奖的彩票去队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 3808
+            },
+            {
+              "value": 5386
+            },
+            {
+              "value": 3774
+            },
+            {
+              "value": 1334
+            }
+          ]
+        },
+        {
+          "seriesname": "我们叫什么",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": -5774
+            },
+            {
+              "value": -12816
+            },
+            {
+              "value": -24513
+            },
+            {
+              "value": -37830
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Market.MarketShare.Global",
+    "panel": "market",
+    "chart_id": "Graphs.Market.MarketShare.Global",
+    "chart_type": "pie2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_market.json",
+      "sha256": "85fdb80bc1207d629e182a9fecafae33de46b35ed5d36aabd9387ed20245c984"
+    },
+    "data": {
+      "data": [
+        {
+          "label": "古娜拉黑暗之队",
+          "value": 7.796558896794982
+        },
+        {
+          "label": "海底小纵队",
+          "value": 11.300580365164164
+        },
+        {
+          "label": "KPI已达成队",
+          "value": 12.821652276914136
+        },
+        {
+          "label": "谁说女子不如男",
+          "value": 17.869777049003478
+        },
+        {
+          "label": "从容应队",
+          "value": 12.441452029558778
+        },
+        {
+          "label": "好想和你凑一队",
+          "value": 12.380772767582645
+        },
+        {
+          "label": "来都来了队",
+          "value": 10.20681531259777
+        },
+        {
+          "label": "锐见商枢",
+          "value": 10.19250255961864
+        },
+        {
+          "label": "拿中了头奖的彩票去队",
+          "value": 4.91840204774835
+        },
+        {
+          "label": "我们叫什么",
+          "value": 0.0714866950170476
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      }
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Clobal.Product.MarketValue.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Clobal.Product.MarketValue.overview",
+    "chart_type": "pie2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_market.json",
+      "sha256": "85fdb80bc1207d629e182a9fecafae33de46b35ed5d36aabd9387ed20245c984"
+    },
+    "data": {
+      "data": [
+        {
+          "label": "复合梁",
+          "value": 81.8205512833717
+        },
+        {
+          "label": "连接件",
+          "value": 18.17944871662829
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      }
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Clobal.Product.MarketSize.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Clobal.Product.MarketSize.overview",
+    "chart_type": "pie2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_market.json",
+      "sha256": "85fdb80bc1207d629e182a9fecafae33de46b35ed5d36aabd9387ed20245c984"
+    },
+    "data": {
+      "data": [
+        {
+          "label": "复合梁",
+          "value": 5.3908301420812705
+        },
+        {
+          "label": "连接件",
+          "value": 94.6091698579187
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      }
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Market.Prod1.Mark1.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Market.Prod1.Mark1.overview",
+    "chart_type": "msstackedcolumn2dlinedy",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_market.json",
+      "sha256": "85fdb80bc1207d629e182a9fecafae33de46b35ed5d36aabd9387ed20245c984"
+    },
+    "data": {
+      "lineset": [
+        {
+          "seriesname": "价格",
+          "data": [
+            {
+              "value": 1845
+            },
+            {
+              "value": 1848.8
+            },
+            {
+              "value": 1850
+            },
+            {
+              "value": 1840
+            },
+            {
+              "value": 1980
+            },
+            {
+              "value": 1840
+            },
+            {
+              "value": 1850
+            },
+            {
+              "value": 1830
+            },
+            {
+              "value": 2050
+            },
+            {
+              "value": 1800
+            }
+          ]
+        }
+      ],
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "sYAxisName": "美元",
+        "xAxisName": " ",
+        "caption": " ",
+        "pYAxisName": "千单位"
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "已售出",
+              "data": [
+                {
+                  "value": 4.184870673149531
+                },
+                {
+                  "value": 4.228190809454968
+                },
+                {
+                  "value": 4.4795782803828565
+                },
+                {
+                  "value": 3.9226546166643765
+                },
+                {
+                  "value": 4.109807607388114
+                },
+                {
+                  "value": 4.615922211433665
+                },
+                {
+                  "value": 4.438266860430882
+                },
+                {
+                  "value": 5.745893959966291
+                },
+                {
+                  "value": 3.0903390770698103
+                },
+                {
+                  "value": 2.0880249999999996
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Market.Prod1.Mark2.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Market.Prod1.Mark2.overview",
+    "chart_type": "msstackedcolumn2dlinedy",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_market.json",
+      "sha256": "85fdb80bc1207d629e182a9fecafae33de46b35ed5d36aabd9387ed20245c984"
+    },
+    "data": {
+      "lineset": [
+        {
+          "seriesname": "价格",
+          "data": [
+            {
+              "value": 2100
+            },
+            {
+              "value": 1988.8
+            },
+            {
+              "value": 2050
+            },
+            {
+              "value": 2250
+            },
+            {
+              "value": 2125
+            },
+            {
+              "value": 2150
+            },
+            {
+              "value": 2120
+            },
+            {
+              "value": 2200
+            },
+            {
+              "value": 2200
+            },
+            {
+              "value": 2000
+            }
+          ]
+        }
+      ],
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "sYAxisName": "美元",
+        "xAxisName": " ",
+        "caption": " ",
+        "pYAxisName": "千单位"
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "已售出",
+              "data": [
+                {
+                  "value": 12.41355991086541
+                },
+                {
+                  "value": 14.531251927025778
+                },
+                {
+                  "value": 14.022704824455946
+                },
+                {
+                  "value": 11.028195312087519
+                },
+                {
+                  "value": 15.611092216604419
+                },
+                {
+                  "value": 12.475048415668075
+                },
+                {
+                  "value": 13.548336110997717
+                },
+                {
+                  "value": 11.555556040033707
+                },
+                {
+                  "value": 11.369210903534194
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Market.Prod2.Mark1.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Market.Prod2.Mark1.overview",
+    "chart_type": "msstackedcolumn2dlinedy",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_market.json",
+      "sha256": "85fdb80bc1207d629e182a9fecafae33de46b35ed5d36aabd9387ed20245c984"
+    },
+    "data": {
+      "lineset": [
+        {
+          "seriesname": "价格",
+          "data": [
+            {
+              "value": 25.5
+            },
+            {
+              "value": 25.9
+            },
+            {
+              "value": 25
+            },
+            {
+              "value": 24
+            },
+            {
+              "value": 27.5
+            },
+            {
+              "value": 25
+            },
+            {
+              "value": 25.5
+            },
+            {
+              "value": 29
+            },
+            {
+              "value": 24
+            },
+            {
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "sYAxisName": "美元",
+        "xAxisName": " ",
+        "caption": " ",
+        "pYAxisName": "千单位"
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "已售出",
+              "data": [
+                {
+                  "value": 170.1377309867881
+                },
+                {
+                  "value": 199.6762823851242
+                },
+                {
+                  "value": 260.7804974061704
+                },
+                {
+                  "value": 284.6494103781465
+                },
+                {
+                  "value": 201.71590395107398
+                },
+                {
+                  "value": 225.68412754405446
+                },
+                {
+                  "value": 211.7129993718328
+                },
+                {
+                  "value": 183.3798106934166
+                },
+                {
+                  "value": 129.2
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Market.Prod2.Mark2.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Market.Prod2.Mark2.overview",
+    "chart_type": "msstackedcolumn2dlinedy",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_market.json",
+      "sha256": "85fdb80bc1207d629e182a9fecafae33de46b35ed5d36aabd9387ed20245c984"
+    },
+    "data": {
+      "lineset": [
+        {
+          "seriesname": "价格",
+          "data": [
+            {
+              "value": 27.5
+            },
+            {
+              "value": 28
+            },
+            {
+              "value": 24
+            },
+            {
+              "value": 26
+            },
+            {
+              "value": 28
+            },
+            {
+              "value": 27
+            },
+            {
+              "value": 25.5
+            },
+            {
+              "value": 30
+            },
+            {
+              "value": 26
+            },
+            {
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "sYAxisName": "美元",
+        "xAxisName": " ",
+        "caption": " ",
+        "pYAxisName": "千单位"
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "已售出",
+              "data": [
+                {
+                  "value": 40.99026901321187
+                },
+                {
+                  "value": 111.63820417873445
+                },
+                {
+                  "value": 95.21950259382959
+                },
+                {
+                  "value": 222.3505896218535
+                },
+                {
+                  "value": 141.96036919291606
+                },
+                {
+                  "value": 118.84971959202211
+                },
+                {
+                  "value": 68.42700062816718
+                },
+                {
+                  "value": 97.02728705763681
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.Capacity.Domestic",
+    "panel": "production",
+    "chart_id": "Graph.Production.Capacity.Domestic",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_production.json",
+      "sha256": "2ad8bcf6bd2622893376eff564fd700326e5d9bcc4e251094c85bb5cbe95b612"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "生产能力",
+              "data": [
+                {
+                  "value": 249.284
+                },
+                {
+                  "value": 603.883125
+                },
+                {
+                  "value": 736.273125
+                },
+                {
+                  "value": 548.446
+                },
+                {
+                  "value": 461.8265
+                },
+                {
+                  "value": 434.628875
+                },
+                {
+                  "value": 350.817125
+                },
+                {
+                  "value": 598.83575
+                },
+                {
+                  "value": 171.268625
+                },
+                {
+                  "value": 10.440124999999998
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataset": [
+            {
+              "seriesname": "复合梁 生产",
+              "data": [
+                {
+                  "value": 16.59843058401494
+                },
+                {
+                  "value": 18.759442736480747
+                },
+                {
+                  "value": 21.502283104838803
+                },
+                {
+                  "value": 14.950849928751893
+                },
+                {
+                  "value": 19.720899823992532
+                },
+                {
+                  "value": 17.09097062710174
+                },
+                {
+                  "value": 17.9866029714286
+                },
+                {
+                  "value": 17.30145
+                },
+                {
+                  "value": 14.459549980604004
+                },
+                {
+                  "value": 2.0880249999999996
+                }
+              ]
+            },
+            {
+              "seriesname": "连接件 生产",
+              "data": [
+                {
+                  "value": 211.128
+                },
+                {
+                  "value": 570
+                },
+                {
+                  "value": 706
+                },
+                {
+                  "value": 507
+                },
+                {
+                  "value": 419.44
+                },
+                {
+                  "value": 405
+                },
+                {
+                  "value": 280.14
+                },
+                {
+                  "value": 513
+                },
+                {
+                  "value": 129.2
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.CapacityUtil",
+    "panel": "production",
+    "chart_id": "Graph.Production.CapacityUtil",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_production.json",
+      "sha256": "2ad8bcf6bd2622893376eff564fd700326e5d9bcc4e251094c85bb5cbe95b612"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "yAxisMaxValue": "100",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "产能利用, %",
+              "data": [
+                {
+                  "value": 91.3522049485787
+                },
+                {
+                  "value": 97.49559448883106
+                },
+                {
+                  "value": 98.80875158995363
+                },
+                {
+                  "value": 95.16905035842214
+                },
+                {
+                  "value": 95.09218284875219
+                },
+                {
+                  "value": 97.1152619869312
+                },
+                {
+                  "value": 84.98062999958415
+                },
+                {
+                  "value": 88.55540939230833
+                },
+                {
+                  "value": 83.87966563087899
+                },
+                {
+                  "value": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.Personnel",
+    "panel": "production",
+    "chart_id": "Graph.Production.Personnel",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_production.json",
+      "sha256": "2ad8bcf6bd2622893376eff564fd700326e5d9bcc4e251094c85bb5cbe95b612"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "生产工资合计",
+              "data": [
+                {
+                  "value": 5731.020149745708
+                },
+                {
+                  "value": 6406.5372985879
+                },
+                {
+                  "value": 8118.574292851834
+                },
+                {
+                  "value": 4631.897867211708
+                },
+                {
+                  "value": 6827.110799609278
+                },
+                {
+                  "value": 5479.580144568276
+                },
+                {
+                  "value": 5381.5799597868845
+                },
+                {
+                  "value": 5452.678130163372
+                },
+                {
+                  "value": 3583.481067047203
+                },
+                {
+                  "value": 406.5524469938538
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.change.in.workforce",
+    "panel": "production",
+    "chart_id": "Graph.Production.change.in.workforce",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_production.json",
+      "sha256": "2ad8bcf6bd2622893376eff564fd700326e5d9bcc4e251094c85bb5cbe95b612"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "泰国",
+              "data": [
+                {
+                  "value": 1.7842658117423866
+                },
+                {
+                  "value": 7.761463799120463
+                },
+                {
+                  "value": 38.430079408113755
+                },
+                {
+                  "value": -16.981703428509718
+                },
+                {
+                  "value": 17.756638209514108
+                },
+                {
+                  "value": 28.730379312650214
+                },
+                {
+                  "value": 5.433701856812206
+                },
+                {
+                  "value": -9.565882403569233
+                },
+                {
+                  "value": -7.345912771662682
+                },
+                {
+                  "value": -2.1713900000743447
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.co2.emissions",
+    "panel": "production",
+    "chart_id": "Graph.Production.co2.emissions",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_production.json",
+      "sha256": "2ad8bcf6bd2622893376eff564fd700326e5d9bcc4e251094c85bb5cbe95b612"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "复合梁",
+              "data": [
+                {
+                  "value": 22496.101946974213
+                },
+                {
+                  "value": 25424.954132393403
+                },
+                {
+                  "value": 29142.366826234604
+                },
+                {
+                  "value": 20263.111171186374
+                },
+                {
+                  "value": 26728.03134495444
+                },
+                {
+                  "value": 23163.648855470394
+                },
+                {
+                  "value": 24377.51280622175
+                },
+                {
+                  "value": 23448.914706749998
+                },
+                {
+                  "value": 19597.244981962318
+                },
+                {
+                  "value": 2829.9316028749995
+                }
+              ]
+            },
+            {
+              "seriesname": "连接件",
+              "data": [
+                {
+                  "value": 484.74988799999994
+                },
+                {
+                  "value": 1308.7199999999998
+                },
+                {
+                  "value": 1620.9759999999999
+                },
+                {
+                  "value": 1164.072
+                },
+                {
+                  "value": 963.03424
+                },
+                {
+                  "value": 929.8799999999999
+                },
+                {
+                  "value": 643.2014399999999
+                },
+                {
+                  "value": 1177.848
+                },
+                {
+                  "value": 296.6432
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.energy.consumption",
+    "panel": "production",
+    "chart_id": "Graph.Production.energy.consumption",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_production.json",
+      "sha256": "2ad8bcf6bd2622893376eff564fd700326e5d9bcc4e251094c85bb5cbe95b612"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "复合梁",
+              "data": [
+                {
+                  "value": 79313.65852933707
+                },
+                {
+                  "value": 89639.80226147307
+                },
+                {
+                  "value": 102746.14404934895
+                },
+                {
+                  "value": 71440.88713509926
+                },
+                {
+                  "value": 94234.0124636689
+                },
+                {
+                  "value": 81667.20349804229
+                },
+                {
+                  "value": 85946.8778664239
+                },
+                {
+                  "value": 82672.95455534999
+                },
+                {
+                  "value": 69093.2678149685
+                },
+                {
+                  "value": 9977.383163574998
+                }
+              ]
+            },
+            {
+              "seriesname": "连接件",
+              "data": [
+                {
+                  "value": 1666.6444319999998
+                },
+                {
+                  "value": 4499.58
+                },
+                {
+                  "value": 5573.164
+                },
+                {
+                  "value": 4002.2580000000003
+                },
+                {
+                  "value": 3311.05936
+                },
+                {
+                  "value": 3197.07
+                },
+                {
+                  "value": 2211.42516
+                },
+                {
+                  "value": 4049.622
+                },
+                {
+                  "value": 1019.9047999999999
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.water.consumption",
+    "panel": "production",
+    "chart_id": "Graph.Production.water.consumption",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_production.json",
+      "sha256": "2ad8bcf6bd2622893376eff564fd700326e5d9bcc4e251094c85bb5cbe95b612"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "复合梁",
+              "data": [
+                {
+                  "value": 171082.34780972375
+                },
+                {
+                  "value": 193356.20260689015
+                },
+                {
+                  "value": 221627.0422812082
+                },
+                {
+                  "value": 154100.50333463578
+                },
+                {
+                  "value": 203266.0754118664
+                },
+                {
+                  "value": 176159.02698942542
+                },
+                {
+                  "value": 185390.43495093056
+                },
+                {
+                  "value": 178328.467353
+                },
+                {
+                  "value": 149036.60598708276
+                },
+                {
+                  "value": 21521.565998499995
+                }
+              ]
+            },
+            {
+              "seriesname": "连接件",
+              "data": [
+                {
+                  "value": 3918.5356799999995
+                },
+                {
+                  "value": 10579.199999999999
+                },
+                {
+                  "value": 13103.359999999999
+                },
+                {
+                  "value": 9409.92
+                },
+                {
+                  "value": 7784.8063999999995
+                },
+                {
+                  "value": 7516.799999999999
+                },
+                {
+                  "value": 5199.398399999999
+                },
+                {
+                  "value": 9521.279999999999
+                },
+                {
+                  "value": 2397.9519999999998
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "productionhr:Graphs.Results.No.Of.Employees.Finland.TimeSeries",
+    "panel": "productionhr",
+    "chart_id": "Graphs.Results.No.Of.Employees.Finland.TimeSeries",
+    "chart_type": "msline",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_productionhr.json",
+    "prior_sha256": "0b01ceb09904d93a2fd379a90bd0a1991cacba6838ce333ecbee08acdfa2bbb4",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_productionhr.json",
+      "sha256": "6ff6113b910bea98fc19c9b55e7f44e1cd1edc8f2811361647ea0d8eed649f12"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "0"
+            },
+            {
+              "label": "1"
+            },
+            {
+              "label": "2"
+            },
+            {
+              "label": "3"
+            },
+            {
+              "label": "4"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": "年",
+        "caption": "生产人员数量, 泰国"
+      },
+      "dataset": [
+        {
+          "seriesname": "古娜拉黑暗之队",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 93.08248605065981
+            },
+            {
+              "value": 93.71595232535604
+            },
+            {
+              "value": 112.24168881531989
+            },
+            {
+              "value": 114.02595462706228
+            }
+          ]
+        },
+        {
+          "seriesname": "海底小纵队",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 29.436051104494172
+            },
+            {
+              "value": 125.1186482770365
+            },
+            {
+              "value": 133.9392379264228
+            },
+            {
+              "value": 141.70070172554327
+            }
+          ]
+        },
+        {
+          "seriesname": "KPI已达成队",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 99.8402445513915
+            },
+            {
+              "value": 137.35224144926835
+            },
+            {
+              "value": 127.36779432379649
+            },
+            {
+              "value": 165.79787373191024
+            }
+          ]
+        },
+        {
+          "seriesname": "谁说女子不如男",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 129.9011083430568
+            },
+            {
+              "value": 127.02947188888427
+            },
+            {
+              "value": 131.71005257359042
+            },
+            {
+              "value": 114.7283491450807
+            }
+          ]
+        },
+        {
+          "seriesname": "从容应队",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 104.88910400379346
+            },
+            {
+              "value": 108.56575198836904
+            },
+            {
+              "value": 134.83455792810494
+            },
+            {
+              "value": 152.59119613761905
+            }
+          ]
+        },
+        {
+          "seriesname": "好想和你凑一队",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 88.17279540647175
+            },
+            {
+              "value": 101.76102677231208
+            },
+            {
+              "value": 93.09970206183827
+            },
+            {
+              "value": 121.83008137448849
+            }
+          ]
+        },
+        {
+          "seriesname": "来都来了队",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 95.22591579752374
+            },
+            {
+              "value": 113.95440580496467
+            },
+            {
+              "value": 115.8366951397022
+            },
+            {
+              "value": 121.2703969965144
+            }
+          ]
+        },
+        {
+          "seriesname": "锐见商枢",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 101.82931421300498
+            },
+            {
+              "value": 99.16374027174068
+            },
+            {
+              "value": 130.14086962988566
+            },
+            {
+              "value": 120.57498722631642
+            }
+          ]
+        },
+        {
+          "seriesname": "拿中了头奖的彩票去队",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 82.45092352667676
+            },
+            {
+              "value": 87.07219111853746
+            },
+            {
+              "value": 100.28325335065043
+            },
+            {
+              "value": 92.93734057898774
+            }
+          ]
+        },
+        {
+          "seriesname": "我们叫什么",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 20.01651475105604
+            },
+            {
+              "value": 17.039430114706065
+            },
+            {
+              "value": 14.491161121100216
+            },
+            {
+              "value": 12.319771121025871
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "logistics:Graphs.Logistics.RubbanaDomDeliveries",
+    "panel": "logistics",
+    "chart_id": "Graphs.Logistics.RubbanaDomDeliveries",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_logistics.json",
+    "prior_sha256": "298a55d3c10234965fda3efcc4ce7c1213e2ef51662fb7ea8e0ff4055ef5c517",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_logistics.json",
+      "sha256": "1ee09d40e1a847208e2f0242ab8e76723c13126d560071e83166657456392ac1"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "运往 泰国",
+              "data": [
+                {
+                  "value": 4.184870673149531
+                },
+                {
+                  "value": 4.228190809454968
+                },
+                {
+                  "value": 4.4795782803828565
+                },
+                {
+                  "value": 3.9226546166643765
+                },
+                {
+                  "value": 4.109807607388114
+                },
+                {
+                  "value": 4.615922211433665
+                },
+                {
+                  "value": 4.438266860430882
+                },
+                {
+                  "value": 5.745893959966291
+                },
+                {
+                  "value": 3.0903390770698103
+                },
+                {
+                  "value": 2.0880249999999996
+                }
+              ]
+            },
+            {
+              "seriesname": "运往 印尼",
+              "data": [
+                {
+                  "value": 12.41355991086541
+                },
+                {
+                  "value": 14.531251927025778
+                },
+                {
+                  "value": 14.022704824455946
+                },
+                {
+                  "value": 11.028195312087519
+                },
+                {
+                  "value": 15.611092216604419
+                },
+                {
+                  "value": 12.475048415668075
+                },
+                {
+                  "value": 13.548336110997717
+                },
+                {
+                  "value": 11.555556040033707
+                },
+                {
+                  "value": 11.369210903534194
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "大客户订单",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 3
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "logistics:Graphs.Logistics.AndyOxDomDeliveries",
+    "panel": "logistics",
+    "chart_id": "Graphs.Logistics.AndyOxDomDeliveries",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_logistics.json",
+    "prior_sha256": "298a55d3c10234965fda3efcc4ce7c1213e2ef51662fb7ea8e0ff4055ef5c517",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_logistics.json",
+      "sha256": "1ee09d40e1a847208e2f0242ab8e76723c13126d560071e83166657456392ac1"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "运往 泰国",
+              "data": [
+                {
+                  "value": 170.1377309867881
+                },
+                {
+                  "value": 199.6762823851242
+                },
+                {
+                  "value": 260.7804974061704
+                },
+                {
+                  "value": 284.6494103781465
+                },
+                {
+                  "value": 201.71590395107398
+                },
+                {
+                  "value": 225.68412754405446
+                },
+                {
+                  "value": 211.7129993718328
+                },
+                {
+                  "value": 183.3798106934166
+                },
+                {
+                  "value": 129.2
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "运往 印尼",
+              "data": [
+                {
+                  "value": 40.99026901321187
+                },
+                {
+                  "value": 111.63820417873445
+                },
+                {
+                  "value": 95.21950259382959
+                },
+                {
+                  "value": 222.3505896218535
+                },
+                {
+                  "value": 141.96036919291606
+                },
+                {
+                  "value": 118.84971959202211
+                },
+                {
+                  "value": 68.42700062816718
+                },
+                {
+                  "value": 97.02728705763681
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "大客户订单",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 350
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "logistics:Graphs.Logistics.Inventories",
+    "panel": "logistics",
+    "chart_id": "Graphs.Logistics.Inventories",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_logistics.json",
+    "prior_sha256": "298a55d3c10234965fda3efcc4ce7c1213e2ef51662fb7ea8e0ff4055ef5c517",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_logistics.json",
+      "sha256": "1ee09d40e1a847208e2f0242ab8e76723c13126d560071e83166657456392ac1"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "期初库存 复合梁, 千单位",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "期初库存 连接件, 千单位",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataset": [
+            {
+              "seriesname": "期末库存 复合梁, 千单位",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "期末库存 连接件, 千单位",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 258.68551
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 75.76373
+                },
+                {
+                  "value": 60.46615
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 232.5929
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "logistics:Graphs.Logistics.Transportation.Emissions",
+    "panel": "logistics",
+    "chart_id": "Graphs.Logistics.Transportation.Emissions",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_logistics.json",
+    "prior_sha256": "298a55d3c10234965fda3efcc4ce7c1213e2ef51662fb7ea8e0ff4055ef5c517",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_logistics.json",
+      "sha256": "1ee09d40e1a847208e2f0242ab8e76723c13126d560071e83166657456392ac1"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "复合梁",
+              "data": [
+                {
+                  "value": 600891.8057412341
+                },
+                {
+                  "value": 700771.9003013208
+                },
+                {
+                  "value": 677812.8296848546
+                },
+                {
+                  "value": 534634.7267770863
+                },
+                {
+                  "value": 751151.4110882542
+                },
+                {
+                  "value": 605476.8926526078
+                },
+                {
+                  "value": 655315.5020109802
+                },
+                {
+                  "value": 566613.2000814109
+                },
+                {
+                  "value": 547428.1482180177
+                },
+                {
+                  "value": 8186.102012499999
+                }
+              ]
+            },
+            {
+              "seriesname": "连接件",
+              "data": [
+                {
+                  "value": 4108.628973602371
+                },
+                {
+                  "value": 9555.039162103485
+                },
+                {
+                  "value": 8710.69202715856
+                },
+                {
+                  "value": 18329.94527117259
+                },
+                {
+                  "value": 11826.686109368904
+                },
+                {
+                  "value": 10253.545700378785
+                },
+                {
+                  "value": 6410.432142903817
+                },
+                {
+                  "value": 8365.487712093125
+                },
+                {
+                  "value": 801.0399999999998
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "incomestatement:Graphs.IS.summary",
+    "panel": "incomestatement",
+    "chart_id": "Graphs.IS.summary",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_incomestatement.json",
+    "prior_sha256": "49f1463478b288c20e6591960826ae06a838523aaf66e34abf54a5b883261c53",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_incomestatement.json",
+      "sha256": "cb2255e5f8a150b3e9994ab61b1ba7f4ce0c4e333655465220317ac4a506b828"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "净销售额",
+              "data": [
+                {
+                  "value": 39255.30674280467
+                },
+                {
+                  "value": 45014.318431768486
+                },
+                {
+                  "value": 57638.545206249146
+                },
+                {
+                  "value": 44643.825126103075
+                },
+                {
+                  "value": 50833.06771896904
+                },
+                {
+                  "value": 44165.696580310265
+                },
+                {
+                  "value": 44076.83624711229
+                },
+                {
+                  "value": 44166.04235665066
+                },
+                {
+                  "value": 34448.25909576834
+                },
+                {
+                  "value": 3758.4449999999993
+                }
+              ]
+            },
+            {
+              "seriesname": "利息收入",
+              "data": [
+                {
+                  "value": 226.36504456190428
+                },
+                {
+                  "value": 100.17944072693724
+                },
+                {
+                  "value": 233.1844942632167
+                },
+                {
+                  "value": 208.48139538534207
+                },
+                {
+                  "value": 172.31888510027628
+                },
+                {
+                  "value": 217.94630738681266
+                },
+                {
+                  "value": 234.87775483650432
+                },
+                {
+                  "value": 183.27518460902525
+                },
+                {
+                  "value": 200.81974235768052
+                },
+                {
+                  "value": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataset": [
+            {
+              "seriesname": "可变成本总和",
+              "data": [
+                {
+                  "value": 28017.84698579405
+                },
+                {
+                  "value": 31949.31117156477
+                },
+                {
+                  "value": 42968.990561413746
+                },
+                {
+                  "value": 29634.49658725813
+                },
+                {
+                  "value": 34616.08385397413
+                },
+                {
+                  "value": 30186.870965394497
+                },
+                {
+                  "value": 30332.950118955156
+                },
+                {
+                  "value": 28849.733622759388
+                },
+                {
+                  "value": 22189.337880317158
+                },
+                {
+                  "value": 2670.9372585563533
+                }
+              ]
+            },
+            {
+              "seriesname": "固定成本总和",
+              "data": [
+                {
+                  "value": 9400
+                },
+                {
+                  "value": 10545.211308061684
+                },
+                {
+                  "value": 11600
+                },
+                {
+                  "value": 11644.01356387679
+                },
+                {
+                  "value": 12545.458236113605
+                },
+                {
+                  "value": 10061.279691718355
+                },
+                {
+                  "value": 10750
+                },
+                {
+                  "value": 11419.555741349368
+                },
+                {
+                  "value": 11850
+                },
+                {
+                  "value": 8058.342263405988
+                }
+              ]
+            },
+            {
+              "seriesname": "折旧总计",
+              "data": [
+                {
+                  "value": 1883.4889581530006
+                },
+                {
+                  "value": 2097.765833153
+                },
+                {
+                  "value": 2084.055833153
+                },
+                {
+                  "value": 2217.3139581530004
+                },
+                {
+                  "value": 2079.486458153
+                },
+                {
+                  "value": 2035.4670831530002
+                },
+                {
+                  "value": 2008.0358331529997
+                },
+                {
+                  "value": 2030.6952081529998
+                },
+                {
+                  "value": 2068.238333153
+                },
+                {
+                  "value": 1703.970833153
+                }
+              ]
+            },
+            {
+              "seriesname": "融资费用总计",
+              "data": [
+                {
+                  "value": 863.6885133162198
+                },
+                {
+                  "value": 797.0840516004652
+                },
+                {
+                  "value": 865.3822756238388
+                },
+                {
+                  "value": 862.5362797735708
+                },
+                {
+                  "value": 609.2486842271661
+                },
+                {
+                  "value": 835.3248949250645
+                },
+                {
+                  "value": 861.1116145388809
+                },
+                {
+                  "value": 865.3356538529283
+                },
+                {
+                  "value": 982.2801878496039
+                },
+                {
+                  "value": 4662.653757687702
+                }
+              ]
+            },
+            {
+              "seriesname": "直接税",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 102.4572987933155
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 334.98171776440984
+                },
+                {
+                  "value": 351.0428377168888
+                },
+                {
+                  "value": 104.28876623750958
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "balancesheet:Graphs.BS.summary",
+    "panel": "balancesheet",
+    "chart_id": "Graphs.BS.summary",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_balancesheet.json",
+    "prior_sha256": "34f902d1a8325b2804f2c12f880180d0f29b8053a12a96038ec90a96a6077345",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_balancesheet.json",
+      "sha256": "5438d407c6096e5784f2c1b0b734b3505389eb72766980c15acc8743738860f1"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "厂房",
+              "data": [
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                }
+              ]
+            },
+            {
+              "seriesname": "机器",
+              "data": [
+                {
+                  "value": 5587.434093749999
+                },
+                {
+                  "value": 6801.669718749999
+                },
+                {
+                  "value": 6723.979718749999
+                },
+                {
+                  "value": 7479.1090937499985
+                },
+                {
+                  "value": 6698.086593749999
+                },
+                {
+                  "value": 6448.643468749999
+                },
+                {
+                  "value": 6293.199718749999
+                },
+                {
+                  "value": 6421.602843749999
+                },
+                {
+                  "value": 6634.347218749999
+                },
+                {
+                  "value": 4570.16471875
+                }
+              ]
+            },
+            {
+              "seriesname": "成品库存",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 4537.307185282864
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 2.225602377065998e-12
+                },
+                {
+                  "value": 1351.7005497563034
+                },
+                {
+                  "value": 1059.509273233332
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 3986.180251093974
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "应收帐款",
+              "data": [
+                {
+                  "value": 3226.463567901754
+                },
+                {
+                  "value": 3699.8069943919304
+                },
+                {
+                  "value": 4737.414674486231
+                },
+                {
+                  "value": 3669.355489816691
+                },
+                {
+                  "value": 4178.060360463209
+                },
+                {
+                  "value": 3630.0572531761864
+                },
+                {
+                  "value": 3622.7536641462157
+                },
+                {
+                  "value": 3630.085673149369
+                },
+                {
+                  "value": 2831.3637612960283
+                },
+                {
+                  "value": 308.9132876712328
+                }
+              ]
+            },
+            {
+              "seriesname": "现金及现金等价物",
+              "data": [
+                {
+                  "value": 22775.304240297584
+                },
+                {
+                  "value": 6742.2929279254
+                },
+                {
+                  "value": 23511.960055943608
+                },
+                {
+                  "value": 21711.796554000215
+                },
+                {
+                  "value": 16900.435386860147
+                },
+                {
+                  "value": 22153.851289807837
+                },
+                {
+                  "value": 24045.993656317274
+                },
+                {
+                  "value": 17521.91420265352
+                },
+                {
+                  "value": 19548.439677701033
+                },
+                {
+                  "value": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataset": [
+            {
+              "seriesname": "股东权益合计",
+              "data": [
+                {
+                  "value": 25627.437610026045
+                },
+                {
+                  "value": 18212.592005921197
+                },
+                {
+                  "value": 27113.203502656976
+                },
+                {
+                  "value": 26695.49090290666
+                },
+                {
+                  "value": 27902.43650330236
+                },
+                {
+                  "value": 27561.0226649468
+                },
+                {
+                  "value": 27799.21503254528
+                },
+                {
+                  "value": 25184.278109058247
+                },
+                {
+                  "value": 21333.512074631697
+                },
+                {
+                  "value": -17830.042124157073
+                }
+              ]
+            },
+            {
+              "seriesname": "长期贷款",
+              "data": [
+                {
+                  "value": 17000
+                },
+                {
+                  "value": 14000
+                },
+                {
+                  "value": 17000
+                },
+                {
+                  "value": 17000
+                },
+                {
+                  "value": 11750
+                },
+                {
+                  "value": 16500
+                },
+                {
+                  "value": 17000
+                },
+                {
+                  "value": 17000
+                },
+                {
+                  "value": 19000
+                },
+                {
+                  "value": 17000
+                }
+              ]
+            },
+            {
+              "seriesname": "短期贷款",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 20251.700501241397
+                }
+              ]
+            },
+            {
+              "seriesname": "已收预付款",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 895
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "应付账款",
+              "data": [
+                {
+                  "value": 1685.3099279202895
+                },
+                {
+                  "value": 2292.0304564259995
+                },
+                {
+                  "value": 2688.6965825198604
+                },
+                {
+                  "value": 1888.3158706572501
+                },
+                {
+                  "value": 2199.392023524297
+                },
+                {
+                  "value": 1954.584256017556
+                },
+                {
+                  "value": 1886.2776426652078
+                },
+                {
+                  "value": 2099.050497585616
+                },
+                {
+                  "value": 1404.184219112364
+                },
+                {
+                  "value": 180.96526533390406
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "cashflow:Graphs.CFS.summary",
+    "panel": "cashflow",
+    "chart_id": "Graphs.CFS.summary",
+    "chart_type": "mscolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_cashflow.json",
+    "prior_sha256": "ea8ca0fafa0268a5a61200b41e2452d5aa62eb3532bbf0909c0663836c4946f3",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_cashflow.json",
+      "sha256": "2493854fcdeaa9e85f114efae4ccb75dde9447f0f5ce34efb01aa12d137a7c03"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "seriesname": "经营活动现金流",
+          "data": [
+            {
+              "value": 1237.6
+            },
+            {
+              "value": -2351.3
+            },
+            {
+              "value": 1703
+            },
+            {
+              "value": 2847.3
+            },
+            {
+              "value": 1479.1
+            },
+            {
+              "value": 1838.4
+            },
+            {
+              "value": 2136.4
+            },
+            {
+              "value": -237.2
+            },
+            {
+              "value": -267.1
+            },
+            {
+              "value": -11590.9
+            }
+          ]
+        },
+        {
+          "seriesname": "资本支出总计",
+          "data": [
+            {
+              "value": -960
+            },
+            {
+              "value": -1200
+            },
+            {
+              "value": -1316
+            },
+            {
+              "value": -1120
+            },
+            {
+              "value": -1392
+            },
+            {
+              "value": -1120
+            },
+            {
+              "value": -1020
+            },
+            {
+              "value": -1374
+            },
+            {
+              "value": -800
+            },
+            {
+              "value": -800
+            }
+          ]
+        },
+        {
+          "seriesname": "融资总计",
+          "data": [
+            {
+              "value": 0
+            },
+            {
+              "value": -3000
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": -750
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 12390.9
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "societalimpact:Graph.Firm.Results.Valuecreation",
+    "panel": "societalimpact",
+    "chart_id": "Graph.Firm.Results.Valuecreation",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_societalimpact.json",
+    "prior_sha256": "331f265c8e30b24a306981f221a1441642d9acd2a0040ce200b7101d523246c8",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 9,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market9_formal4_societalimpact.json",
+      "sha256": "eec20f1f468d0065eb1268c5a44af83609566bd7abcce80af14aece0ad7f33f3"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "古娜拉黑暗之队"
+            },
+            {
+              "label": "海底小纵队"
+            },
+            {
+              "label": "KPI已达成队"
+            },
+            {
+              "label": "谁说女子不如男"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "好想和你凑一队"
+            },
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "锐见商枢"
+            },
+            {
+              "label": "拿中了头奖的彩票去队"
+            },
+            {
+              "label": "我们叫什么"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "股东",
+              "data": [
+                {
+                  "value": -683.3526698966963
+                },
+                {
+                  "value": -274.87449188449364
+                },
+                {
+                  "value": 250.84373152846211
+                },
+                {
+                  "value": 493.94613242692515
+                },
+                {
+                  "value": 820.1276538370035
+                },
+                {
+                  "value": 913.6574147892719
+                },
+                {
+                  "value": 255.3276690642476
+                },
+                {
+                  "value": 1183.997315144999
+                },
+                {
+                  "value": -2440.7775631937393
+                },
+                {
+                  "value": -13317.459112803044
+                }
+              ]
+            },
+            {
+              "seriesname": "债权方",
+              "data": [
+                {
+                  "value": 863.6885133162198
+                },
+                {
+                  "value": 797.0840516004652
+                },
+                {
+                  "value": 865.3822756238388
+                },
+                {
+                  "value": 862.5362797735708
+                },
+                {
+                  "value": 609.2486842271661
+                },
+                {
+                  "value": 835.3248949250645
+                },
+                {
+                  "value": 861.1116145388809
+                },
+                {
+                  "value": 865.3356538529283
+                },
+                {
+                  "value": 982.2801878496039
+                },
+                {
+                  "value": 4662.653757687702
+                }
+              ]
+            },
+            {
+              "seriesname": "人员",
+              "data": [
+                {
+                  "value": 5731.020149745708
+                },
+                {
+                  "value": 6406.5372985879
+                },
+                {
+                  "value": 8118.574292851834
+                },
+                {
+                  "value": 4631.897867211708
+                },
+                {
+                  "value": 6827.110799609278
+                },
+                {
+                  "value": 5479.580144568276
+                },
+                {
+                  "value": 5381.5799597868845
+                },
+                {
+                  "value": 5452.678130163372
+                },
+                {
+                  "value": 3583.481067047203
+                },
+                {
+                  "value": 406.5524469938538
+                }
+              ]
+            },
+            {
+              "seriesname": "政府",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 102.4572987933155
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 334.98171776440984
+                },
+                {
+                  "value": 351.0428377168888
+                },
+                {
+                  "value": 104.28876623750958
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "供应商",
+              "data": [
+                {
+                  "value": 20504.60412303019
+                },
+                {
+                  "value": 27886.370553183
+                },
+                {
+                  "value": 32712.475087324972
+                },
+                {
+                  "value": 22974.50975966321
+                },
+                {
+                  "value": 26759.269619545616
+                },
+                {
+                  "value": 23780.775114880267
+                },
+                {
+                  "value": 22949.711319093363
+                },
+                {
+                  "value": 25538.447720624998
+                },
+                {
+                  "value": 17084.241332533762
+                },
+                {
+                  "value": 2201.7440615624996
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "generated_at": "2026-10-13T11:48:55.012996+08:00",
+  "status": "PAUSED_BY_USER",
+  "data_status": "INCOMPLETE",
+  "final_requested": false,
+  "selfchecks": {
+    "selection_mismatch_rejected": true,
+    "literal_chart_precision": true,
+    "nonliteral_js_rejected": true,
+    "missing_coverage_pending": true,
+    "duplicate_keys_detected": true,
+    "display_tolerance": true,
+    "hidden_tab_table_fallback": true
+  },
+  "coverage_counts": {
+    "verified": 345,
+    "pending": 405
+  },
+  "source_count": 362,
+  "row_count": 7878,
+  "chart_count": 594,
+  "duplicate_page_keys": [],
+  "failures": [
+    {
+      "source": "raw/round3_productionplanning.json",
+      "errors": [
+        "current_market_footer_missing_or_mismatched"
+      ]
+    }
+  ],
+  "paired_printable_periods": 37,
+  "exact_label_supplement_rows": 369,
+  "source_hash_changes_during_run": [],
+  "markers": {
+    "history_complete.json": [],
+    "history_blocker.json": [],
+    "history_paused.json": [
+      "history_paused.json"
+    ],
+    "round3_complete.json": [
+      "round3_complete.json"
+    ]
+  },
+  "marker_summary": [
+    {
+      "source": "history_paused.json",
+      "sha256": "79d366d75fadda91ad6c3f32c592cc851bf04e9ca4c661e49afb08203e04fa5c",
+      "type": "history_paused.json",
+      "status": "PAUSED_BY_USER",
+      "gaps": [],
+      "reason": "用户明确要求暂停结果补采"
+    },
+    {
+      "source": "round3_complete.json",
+      "sha256": "badb49759caee71ee6cafcc65f83d9abdc02e821c6a880a0777d8ae4da38957e",
+      "type": "round3_complete.json",
+      "status": "PARTIAL_BUDGET_SUBPAGE_NAVIGATION_FAILED",
+      "gaps": [
+        "预算资产负债表：两次Playwright与一次原生点击均返回财务页且面板关闭，文件名budget_balance不代表取得资产负债表",
+        "预算现金流量表：子栏切换后无可定位链接；未取得",
+        "预算金融指标：未取得，不能用当前财务决策页代替",
+        "采集期间PYT个人方案变化：早期销售原件与后期预算不能合并为同一方案",
+        "正式2最终决策与实际由另一对话处理，本次当前草稿不能代替历史生效方案"
+      ],
+      "reason": null
+    }
+  ],
+  "source_hash_changes_since_first_audit": [],
+  "financial_counts": {
+    "pass": 3320,
+    "pending": 100,
+    "not_applicable_initial_base": 5
+  },
+  "structure_counts": {
+    "review": 12
+  },
+  "pending": [
+    "all missing independent result panels",
+    "round3 identity and complete page manifest",
+    "quantity conservation and cumulative differences where source fields not yet paired",
+    "unknown roster members require initials mapping before sharing"
+  ],
+  "name_check": {
+    "known_project_roster_redacted": true,
+    "unknown_people_not_certified": true,
+    "generated_files_checked": 15,
+    "known_roster_failures": []
+  },
+  "decision_modified": false,
+  "model_trained": false,
+  "latest_changed": false
+}

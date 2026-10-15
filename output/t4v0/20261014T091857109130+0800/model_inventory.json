@@ -1,0 +1,169 @@
+{
+  "version": "t4v0",
+  "models": {
+    "ABS": {
+      "status": "RETRAINED_SEPARATE_PRODUCTS_COMPANY_TOTAL_PROXIES",
+      "artifact": "models.json",
+      "counts": {
+        "复合梁": 120,
+        "连接件": 110
+      }
+    },
+    "SHARE": {
+      "status": "RETRAINED_SEPARATE_PRODUCTS_COMPANY_TOTAL_PROXIES",
+      "artifact": "models.json",
+      "counts": {
+        "复合梁": 120,
+        "连接件": 110
+      }
+    },
+    "COUNTRY": {
+      "status": "RETRAINED_SEPARATE_PRODUCTS_COMPANY_TOTAL_PROXIES",
+      "artifact": "models.json",
+      "counts": {
+        "复合梁": 120,
+        "连接件": 110
+      }
+    },
+    "EFF": {
+      "status": "RETRAINED_SEPARATE_PRODUCT_MARKET_HOLDOUTS",
+      "artifact": "models.json",
+      "counts": {
+        "复合梁": 60,
+        "连接件": 54
+      }
+    },
+    "RISK_POWER": {
+      "status": "RETRAINED_CONDITIONAL_WITH_RATE_SOURCE_CONFLICT",
+      "artifact": "models.json",
+      "n": 56
+    },
+    "RISK_EXP": {
+      "status": "RETRAINED_CONDITIONAL_WITH_RATE_SOURCE_CONFLICT",
+      "artifact": "models.json",
+      "n": 56
+    },
+    "MATERIAL": {
+      "status": "RETRAINED_SEPARATE_PRODUCTS",
+      "artifact": "models.json",
+      "counts": {
+        "复合梁": 60,
+        "连接件": 54
+      }
+    },
+    "MATERIAL_PROP": {
+      "status": "RETRAINED_SEPARATE_PRODUCTS",
+      "artifact": "models.json",
+      "counts": {
+        "复合梁": 60,
+        "连接件": 54
+      }
+    },
+    "INTEREST": {
+      "status": "RETRAINED_CONDITIONAL_WITH_RATE_SOURCE_CONFLICT",
+      "artifact": "models.json",
+      "n": 56
+    },
+    "RD": {
+      "status": "RETRAINED_CURVE_200_POINTS_PER_SERIES",
+      "artifact": "formal3_curves.json"
+    },
+    "OPS": {
+      "status": "RETRAINED_CURVE_200_POINTS_PER_SERIES",
+      "artifact": "formal3_curves.json"
+    },
+    "TOTAL": {
+      "status": "ACTUAL_TOTAL_DIAGNOSTICS_NOT_PREDICTIVE_TRAINING",
+      "artifact": "industry.json"
+    },
+    "BASELINE": {
+      "status": "ACTUAL_TOTAL_DIAGNOSTICS_NOT_PREDICTIVE_TRAINING",
+      "artifact": "industry.json"
+    },
+    "GROWTH": {
+      "status": "ACTUAL_TOTAL_DIAGNOSTICS_NOT_PREDICTIVE_TRAINING",
+      "artifact": "industry.json"
+    },
+    "CAPACITY": {
+      "status": "RULE_DIAGNOSTICS_WITH_EXPLICIT_GAPS",
+      "artifact": "labor_and_accounts.json"
+    },
+    "LABOR": {
+      "status": "RULE_DIAGNOSTICS_WITH_EXPLICIT_GAPS",
+      "artifact": "labor_and_accounts.json"
+    },
+    "OPERATING": {
+      "status": "RULE_DIAGNOSTICS_WITH_EXPLICIT_GAPS",
+      "artifact": "labor_and_accounts.json"
+    },
+    "FINANCE": {
+      "status": "RULE_DIAGNOSTICS_WITH_EXPLICIT_GAPS",
+      "artifact": "labor_and_accounts.json"
+    },
+    "HORIZON": {
+      "status": "BLOCKED_INCOMPLETE_ROUNDS_4_TO_6_STATE_CHAIN",
+      "artifact": "models.json"
+    },
+    "METRICS": {
+      "status": "SOURCE_AND_SELF_CHECKS_PASS",
+      "artifact": "checks.json"
+    },
+    "UNIFIED": {
+      "status": "BLOCKED_MISSING_FINAL_COMPETITOR_OR_HISTORY_INPUTS",
+      "artifact": "dataset.json",
+      "reason": "正式3完整小组最终决策仅市场5营销团队；不从双产品合计费用猜测产品输入"
+    },
+    "T2V0": {
+      "status": "BLOCKED_MISSING_FINAL_COMPETITOR_OR_HISTORY_INPUTS",
+      "artifact": "dataset.json",
+      "reason": "正式3完整小组最终决策仅市场5营销团队；不从双产品合计费用猜测产品输入"
+    },
+    "A": {
+      "status": "BLOCKED_MISSING_FINAL_COMPETITOR_OR_HISTORY_INPUTS",
+      "artifact": "dataset.json",
+      "reason": "正式3完整小组最终决策仅市场5营销团队；不从双产品合计费用猜测产品输入"
+    },
+    "B": {
+      "status": "BLOCKED_MISSING_FINAL_COMPETITOR_OR_HISTORY_INPUTS",
+      "artifact": "dataset.json",
+      "reason": "正式3完整小组最终决策仅市场5营销团队；不从双产品合计费用猜测产品输入"
+    },
+    "C": {
+      "status": "BLOCKED_MISSING_FINAL_COMPETITOR_OR_HISTORY_INPUTS",
+      "artifact": "dataset.json",
+      "reason": "正式3完整小组最终决策仅市场5营销团队；不从双产品合计费用猜测产品输入"
+    },
+    "D": {
+      "status": "BLOCKED_MISSING_FINAL_COMPETITOR_OR_HISTORY_INPUTS",
+      "artifact": "dataset.json",
+      "reason": "正式3完整小组最终决策仅市场5营销团队；不从双产品合计费用猜测产品输入"
+    },
+    "E": {
+      "status": "BLOCKED_MISSING_FINAL_COMPETITOR_OR_HISTORY_INPUTS",
+      "artifact": "dataset.json",
+      "reason": "正式3完整小组最终决策仅市场5营销团队；不从双产品合计费用猜测产品输入"
+    },
+    "F": {
+      "status": "BLOCKED_MISSING_FINAL_COMPETITOR_OR_HISTORY_INPUTS",
+      "artifact": "dataset.json",
+      "reason": "正式3完整小组最终决策仅市场5营销团队；不从双产品合计费用猜测产品输入"
+    },
+    "CONNECTOR": {
+      "status": "EXISTING_RULE_SELF_CHECK_NOT_FORMAL3_SUPERVISED_TRAINING",
+      "artifact": "connector_checks.json",
+      "reason": "保留旧实现；决策/订单跨期训练证据不足，未部署"
+    },
+    "CONNECTOR_V2": {
+      "status": "EXISTING_RULE_SELF_CHECK_NOT_FORMAL3_SUPERVISED_TRAINING",
+      "artifact": "connector_checks.json",
+      "reason": "保留旧实现；决策/订单跨期训练证据不足，未部署"
+    },
+    "JOINT_ALLOCATION": {
+      "status": "EXISTING_RULE_SELF_CHECK_NOT_FORMAL3_SUPERVISED_TRAINING",
+      "artifact": "connector_checks.json",
+      "reason": "保留旧实现；决策/订单跨期训练证据不足，未部署"
+    }
+  },
+  "count": 31,
+  "deployment": false
+}

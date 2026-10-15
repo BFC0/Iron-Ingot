@@ -1,0 +1,41 @@
+{
+  "legacy": {
+    "equal_inputs_equal_product_response": true,
+    "product_groups_isolated": true,
+    "guards": true,
+    "demand_to_joint_allocation": true,
+    "allocation": {
+      "connector_free_path": {
+        "overproduction_inventory": true,
+        "two_round_carryover": true,
+        "payroll_and_materials_on_production": true,
+        "priority": true,
+        "zero_capacity": true,
+        "invalid_plan_rejected": true
+      },
+      "fixed_plan_reserves_shared_workers": true,
+      "infeasible_plan_rejected": true,
+      "dedicated_capacity": true,
+      "shared_labor": true,
+      "shift_costs": true,
+      "negative_margin_idle": true,
+      "zero_capacity": true,
+      "unequal_efficiencies": true,
+      "invalid_inputs_rejected": true
+    }
+  },
+  "frozen_prediction_replay": true,
+  "inventory_cost_conservation": true,
+  "two_round_order_and_inventory_chain": true,
+  "advances_not_revenue": true,
+  "orders_before_retail": true,
+  "next_capacity": true,
+  "zero_activity_supported": true,
+  "invalid_state_rejected": true,
+  "environment_units": true,
+  "independent_rd_sensitivity_isolates_beam": true,
+  "rd_extrapolation_rejected": true,
+  "connector_actual_training_rows": 0,
+  "demand_retrained": false,
+  "platform_modified": false
+}

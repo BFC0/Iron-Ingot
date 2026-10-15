@@ -1,0 +1,353 @@
+{
+  "base_rate": {
+    "value": 0.05,
+    "unit": "小数",
+    "source": {
+      "context": [
+        "参数",
+        "货币汇率",
+        "财务",
+        "利率, %"
+      ],
+      "label": "基准利率",
+      "current": "5.00",
+      "change": "+25%",
+      "previous": "4.00",
+      "category": "PUBLISHED_FORMAL4_PARAMETER",
+      "source": "formal4_initial/raw/market5_formal4_outlook.json",
+      "source_table": 2,
+      "source_row": 8,
+      "source_sha256": "891904bc0b2131ec1426e3c62686847182d751181245e9b1cd95925434cdcd35"
+    },
+    "phase": "formal",
+    "round": 4,
+    "category": "PUBLISHED_FORMAL4_PARAMETER"
+  },
+  "short_spread": {
+    "value": 0.03,
+    "unit": "小数",
+    "source": {
+      "context": [
+        "参数",
+        "货币汇率",
+        "财务",
+        "利率, %"
+      ],
+      "label": "高于基准的短期利率溢价",
+      "current": "3.00",
+      "change": "+0%",
+      "previous": "3.00",
+      "category": "PUBLISHED_FORMAL4_PARAMETER",
+      "source": "formal4_initial/raw/market5_formal4_outlook.json",
+      "source_table": 2,
+      "source_row": 9,
+      "source_sha256": "891904bc0b2131ec1426e3c62686847182d751181245e9b1cd95925434cdcd35"
+    },
+    "phase": "formal",
+    "round": 4,
+    "category": "PUBLISHED_FORMAL4_PARAMETER"
+  },
+  "wage": {
+    "value": 33.0,
+    "unit": "千美元/人",
+    "source": {
+      "context": [
+        "参数",
+        "货币汇率",
+        "财务",
+        "利率, %",
+        "年折旧，%",
+        "固定成本, 千 美元",
+        "行政管理",
+        "可变成本, 美元/单位",
+        "原材料成本",
+        "运输成本, 复合梁",
+        "运输成本, 连接件",
+        "人力资源",
+        "生产工资, 千 美元"
+      ],
+      "label": "泰国",
+      "current": "33.00",
+      "change": "+10%",
+      "previous": "30.00",
+      "category": "PUBLISHED_FORMAL4_PARAMETER",
+      "source": "formal4_initial/raw/market5_formal4_outlook.json",
+      "source_table": 2,
+      "source_row": 35,
+      "source_sha256": "891904bc0b2131ec1426e3c62686847182d751181245e9b1cd95925434cdcd35"
+    },
+    "phase": "formal",
+    "round": 4,
+    "category": "PUBLISHED_FORMAL4_PARAMETER"
+  },
+  "second_shift": {
+    "value": 1.65,
+    "unit": "乘数",
+    "source": {
+      "context": [
+        "参数",
+        "货币汇率",
+        "财务",
+        "利率, %",
+        "年折旧，%",
+        "固定成本, 千 美元",
+        "行政管理",
+        "可变成本, 美元/单位",
+        "原材料成本",
+        "运输成本, 复合梁",
+        "运输成本, 连接件",
+        "人力资源",
+        "生产工资, 千 美元",
+        "工资乘数"
+      ],
+      "label": "两班倒",
+      "current": "1.65",
+      "change": "+0%",
+      "previous": "1.65",
+      "category": "PUBLISHED_FORMAL4_PARAMETER",
+      "source": "formal4_initial/raw/market5_formal4_outlook.json",
+      "source_table": 2,
+      "source_row": 37,
+      "source_sha256": "891904bc0b2131ec1426e3c62686847182d751181245e9b1cd95925434cdcd35"
+    },
+    "phase": "formal",
+    "round": 4,
+    "category": "PUBLISHED_FORMAL4_PARAMETER"
+  },
+  "third_shift": {
+    "value": 2.56,
+    "unit": "乘数",
+    "source": {
+      "context": [
+        "参数",
+        "货币汇率",
+        "财务",
+        "利率, %",
+        "年折旧，%",
+        "固定成本, 千 美元",
+        "行政管理",
+        "可变成本, 美元/单位",
+        "原材料成本",
+        "运输成本, 复合梁",
+        "运输成本, 连接件",
+        "人力资源",
+        "生产工资, 千 美元",
+        "工资乘数"
+      ],
+      "label": "三班倒",
+      "current": "2.56",
+      "change": "+0%",
+      "previous": "2.56",
+      "category": "PUBLISHED_FORMAL4_PARAMETER",
+      "source": "formal4_initial/raw/market5_formal4_outlook.json",
+      "source_table": 2,
+      "source_row": 38,
+      "source_sha256": "891904bc0b2131ec1426e3c62686847182d751181245e9b1cd95925434cdcd35"
+    },
+    "phase": "formal",
+    "round": 4,
+    "category": "PUBLISHED_FORMAL4_PARAMETER"
+  },
+  "attrition": {
+    "value": 0.1,
+    "unit": "小数",
+    "source": {
+      "context": [
+        "参数",
+        "货币汇率",
+        "财务",
+        "利率, %",
+        "年折旧，%",
+        "固定成本, 千 美元",
+        "行政管理",
+        "可变成本, 美元/单位",
+        "原材料成本",
+        "运输成本, 复合梁",
+        "运输成本, 连接件",
+        "人力资源",
+        "生产工资, 千 美元",
+        "工资乘数",
+        "人员流动"
+      ],
+      "label": "年人员离职率（without costs），%",
+      "current": "10.00",
+      "change": "+0%",
+      "previous": "10.00",
+      "category": "PUBLISHED_FORMAL4_PARAMETER",
+      "source": "formal4_initial/raw/market5_formal4_outlook.json",
+      "source_table": 2,
+      "source_row": 40,
+      "source_sha256": "891904bc0b2131ec1426e3c62686847182d751181245e9b1cd95925434cdcd35"
+    },
+    "phase": "formal",
+    "round": 4,
+    "category": "PUBLISHED_FORMAL4_PARAMETER"
+  },
+  "severance": {
+    "value": 0.35000000000000003,
+    "unit": "小数",
+    "source": {
+      "context": [
+        "参数",
+        "货币汇率",
+        "财务",
+        "利率, %",
+        "年折旧，%",
+        "固定成本, 千 美元",
+        "行政管理",
+        "可变成本, 美元/单位",
+        "原材料成本",
+        "运输成本, 复合梁",
+        "运输成本, 连接件",
+        "人力资源",
+        "生产工资, 千 美元",
+        "工资乘数",
+        "人员流动"
+      ],
+      "label": "裁员成本，占薪资%",
+      "current": "35.00",
+      "change": "+0%",
+      "previous": "35.00",
+      "category": "PUBLISHED_FORMAL4_PARAMETER",
+      "source": "formal4_initial/raw/market5_formal4_outlook.json",
+      "source_table": 2,
+      "source_row": 41,
+      "source_sha256": "891904bc0b2131ec1426e3c62686847182d751181245e9b1cd95925434cdcd35"
+    },
+    "phase": "formal",
+    "round": 4,
+    "category": "PUBLISHED_FORMAL4_PARAMETER"
+  },
+  "machine/复合梁": {
+    "value": 58.0,
+    "unit": "美元/单位",
+    "source": {
+      "context": [
+        "参数",
+        "货币汇率",
+        "财务",
+        "利率, %",
+        "年折旧，%",
+        "固定成本, 千 美元",
+        "行政管理",
+        "可变成本, 美元/单位",
+        "原材料成本",
+        "运输成本, 复合梁",
+        "运输成本, 连接件",
+        "人力资源",
+        "生产工资, 千 美元",
+        "工资乘数",
+        "人员流动",
+        "投资",
+        "投资成本, 美元/单位"
+      ],
+      "label": "机器, 复合梁",
+      "current": "58.00",
+      "change": "-24%",
+      "previous": "76.00",
+      "category": "PUBLISHED_FORMAL4_PARAMETER",
+      "source": "formal4_initial/raw/market5_formal4_outlook.json",
+      "source_table": 2,
+      "source_row": 44,
+      "source_sha256": "891904bc0b2131ec1426e3c62686847182d751181245e9b1cd95925434cdcd35"
+    },
+    "phase": "formal",
+    "round": 4,
+    "category": "PUBLISHED_FORMAL4_PARAMETER"
+  },
+  "material/复合梁": {
+    "value": 1053.0,
+    "unit": "美元/单位",
+    "source": {
+      "context": [
+        "参数",
+        "货币汇率",
+        "财务",
+        "利率, %",
+        "年折旧，%",
+        "固定成本, 千 美元",
+        "行政管理",
+        "可变成本, 美元/单位",
+        "原材料成本"
+      ],
+      "label": "复合梁",
+      "current": "1 053.00",
+      "change": "+0%",
+      "previous": "1 053.00",
+      "category": "PUBLISHED_FORMAL4_PARAMETER",
+      "source": "formal4_initial/raw/market5_formal4_outlook.json",
+      "source_table": 2,
+      "source_row": 25,
+      "source_sha256": "891904bc0b2131ec1426e3c62686847182d751181245e9b1cd95925434cdcd35"
+    },
+    "phase": "formal",
+    "round": 4,
+    "category": "PUBLISHED_FORMAL4_PARAMETER"
+  },
+  "machine/连接件": {
+    "value": 1.0,
+    "unit": "美元/单位",
+    "source": {
+      "context": [
+        "参数",
+        "货币汇率",
+        "财务",
+        "利率, %",
+        "年折旧，%",
+        "固定成本, 千 美元",
+        "行政管理",
+        "可变成本, 美元/单位",
+        "原材料成本",
+        "运输成本, 复合梁",
+        "运输成本, 连接件",
+        "人力资源",
+        "生产工资, 千 美元",
+        "工资乘数",
+        "人员流动",
+        "投资",
+        "投资成本, 美元/单位"
+      ],
+      "label": "机器, 连接件",
+      "current": "1.00",
+      "change": "-9%",
+      "previous": "1.10",
+      "category": "PUBLISHED_FORMAL4_PARAMETER",
+      "source": "formal4_initial/raw/market5_formal4_outlook.json",
+      "source_table": 2,
+      "source_row": 45,
+      "source_sha256": "891904bc0b2131ec1426e3c62686847182d751181245e9b1cd95925434cdcd35"
+    },
+    "phase": "formal",
+    "round": 4,
+    "category": "PUBLISHED_FORMAL4_PARAMETER"
+  },
+  "material/连接件": {
+    "value": 14.2,
+    "unit": "美元/单位",
+    "source": {
+      "context": [
+        "参数",
+        "货币汇率",
+        "财务",
+        "利率, %",
+        "年折旧，%",
+        "固定成本, 千 美元",
+        "行政管理",
+        "可变成本, 美元/单位",
+        "原材料成本"
+      ],
+      "label": "连接件",
+      "current": "14.20",
+      "change": "+0%",
+      "previous": "14.20",
+      "category": "PUBLISHED_FORMAL4_PARAMETER",
+      "source": "formal4_initial/raw/market5_formal4_outlook.json",
+      "source_table": 2,
+      "source_row": 26,
+      "source_sha256": "891904bc0b2131ec1426e3c62686847182d751181245e9b1cd95925434cdcd35"
+    },
+    "phase": "formal",
+    "round": 4,
+    "category": "PUBLISHED_FORMAL4_PARAMETER"
+  }
+}

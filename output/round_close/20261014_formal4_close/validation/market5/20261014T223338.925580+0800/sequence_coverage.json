@@ -1,0 +1,1612 @@
+[
+  {
+    "requirement_id": "summary:Graphs.Results.Summary.CumulRevenue.TimeSeries.summary",
+    "panel": "summary",
+    "chart_id": "Graphs.Results.Summary.CumulRevenue.TimeSeries.summary",
+    "chart_type": "msline",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_summary.json",
+    "prior_sha256": "5b004ae61eb18625e93b80de9441950861a4bb6c21272eff476f44fee777406e",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market5_formal4_summary_complete.json",
+      "sha256": "e0943f1bf0718208431510ffaff5ab78ad2b2d4090b1275627691cb9ee42f8f5"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "0"
+            },
+            {
+              "label": "1"
+            },
+            {
+              "label": "2"
+            },
+            {
+              "label": "3"
+            },
+            {
+              "label": "4"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": "千 美元",
+        "xAxisName": "年",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "seriesname": "花儿与少年",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 6120
+            },
+            {
+              "value": 19689
+            },
+            {
+              "value": 8442
+            },
+            {
+              "value": 43265
+            }
+          ]
+        },
+        {
+          "seriesname": "市不可挡",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 33907
+            },
+            {
+              "value": 40019
+            },
+            {
+              "value": 43316
+            },
+            {
+              "value": 40483
+            }
+          ]
+        },
+        {
+          "seriesname": "WePlay",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 36767
+            },
+            {
+              "value": 38892
+            },
+            {
+              "value": 49730
+            },
+            {
+              "value": 54340
+            }
+          ]
+        },
+        {
+          "seriesname": "赢是因为拼",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 34622
+            },
+            {
+              "value": 36363
+            },
+            {
+              "value": 38828
+            },
+            {
+              "value": 46059
+            }
+          ]
+        },
+        {
+          "seriesname": "合法印钞队",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 42868
+            },
+            {
+              "value": 50902
+            },
+            {
+              "value": 56824
+            },
+            {
+              "value": 49764
+            }
+          ]
+        },
+        {
+          "seriesname": "营销团队",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 32045
+            },
+            {
+              "value": 33847
+            },
+            {
+              "value": 41061
+            },
+            {
+              "value": 40892
+            }
+          ]
+        },
+        {
+          "seriesname": "好运连连队",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 43468
+            },
+            {
+              "value": 55563
+            },
+            {
+              "value": 69080
+            },
+            {
+              "value": 62725
+            }
+          ]
+        },
+        {
+          "seriesname": "鱼你一起",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 28420
+            },
+            {
+              "value": 41919
+            },
+            {
+              "value": 43647
+            },
+            {
+              "value": 36636
+            }
+          ]
+        },
+        {
+          "seriesname": "从容应队",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 30977
+            },
+            {
+              "value": 51210
+            },
+            {
+              "value": 50651
+            },
+            {
+              "value": 32392
+            }
+          ]
+        },
+        {
+          "seriesname": "你说得不对我说得队",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 36956
+            },
+            {
+              "value": 38851
+            },
+            {
+              "value": 43574
+            },
+            {
+              "value": 43484
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "summary:Graphs.Summary.Profitability",
+    "panel": "summary",
+    "chart_id": "Graphs.Summary.Profitability",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_summary.json",
+    "prior_sha256": "5b004ae61eb18625e93b80de9441950861a4bb6c21272eff476f44fee777406e",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market5_formal4_summary_complete.json",
+      "sha256": "e0943f1bf0718208431510ffaff5ab78ad2b2d4090b1275627691cb9ee42f8f5"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "花儿与少年"
+            },
+            {
+              "label": "市不可挡"
+            },
+            {
+              "label": "WePlay"
+            },
+            {
+              "label": "赢是因为拼"
+            },
+            {
+              "label": "合法印钞队"
+            },
+            {
+              "label": "营销团队"
+            },
+            {
+              "label": "好运连连队"
+            },
+            {
+              "label": "鱼你一起"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "你说得不对我说得队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "sYAxisName": "%",
+        "xAxisName": " ",
+        "caption": " ",
+        "pYAxisName": "千 美元"
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "销售",
+              "data": [
+                {
+                  "value": 43264.744919301986
+                },
+                {
+                  "value": 40482.50233102966
+                },
+                {
+                  "value": 54339.537531364724
+                },
+                {
+                  "value": 46059.015541440414
+                },
+                {
+                  "value": 49764.23049957162
+                },
+                {
+                  "value": 40891.55443218073
+                },
+                {
+                  "value": 62725.18479610335
+                },
+                {
+                  "value": 36635.93281389913
+                },
+                {
+                  "value": 32391.50559824379
+                },
+                {
+                  "value": 43483.595169840024
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataset": [
+            {
+              "seriesname": "息税前利润（EBIT）",
+              "data": [
+                {
+                  "value": -3242.8686435496647
+                },
+                {
+                  "value": -1046.0739861176908
+                },
+                {
+                  "value": 2162.985600076224
+                },
+                {
+                  "value": -1816.4693562466418
+                },
+                {
+                  "value": 669.9427394529084
+                },
+                {
+                  "value": 918.758574719378
+                },
+                {
+                  "value": 4072.0803104987626
+                },
+                {
+                  "value": -2610.252488482116
+                },
+                {
+                  "value": 553.2948982943008
+                },
+                {
+                  "value": -947.3643141514303
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataset": [
+            {
+              "seriesname": "利润",
+              "data": [
+                {
+                  "value": -7315.206743059527
+                },
+                {
+                  "value": -1589.1558557850922
+                },
+                {
+                  "value": 1325.1560725265388
+                },
+                {
+                  "value": -2609.9853279072818
+                },
+                {
+                  "value": 233.70708701920324
+                },
+                {
+                  "value": 350.6326733658565
+                },
+                {
+                  "value": 2776.613313836363
+                },
+                {
+                  "value": -3326.072373056375
+                },
+                {
+                  "value": -38.211724478253245
+                },
+                {
+                  "value": -1609.5536941179394
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "summary:Graphs.Summary.Costs.summary",
+    "panel": "summary",
+    "chart_id": "Graphs.Summary.Costs.summary",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_summary.json",
+    "prior_sha256": "5b004ae61eb18625e93b80de9441950861a4bb6c21272eff476f44fee777406e",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market5_formal4_summary_complete.json",
+      "sha256": "e0943f1bf0718208431510ffaff5ab78ad2b2d4090b1275627691cb9ee42f8f5"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "花儿与少年"
+            },
+            {
+              "label": "市不可挡"
+            },
+            {
+              "label": "WePlay"
+            },
+            {
+              "label": "赢是因为拼"
+            },
+            {
+              "label": "合法印钞队"
+            },
+            {
+              "label": "营销团队"
+            },
+            {
+              "label": "好运连连队"
+            },
+            {
+              "label": "鱼你一起"
+            },
+            {
+              "label": "从容应队"
+            },
+            {
+              "label": "你说得不对我说得队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": "千 美元",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "从库存中出售, 复合梁",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "从库存中出售, 连接件",
+              "data": [
+                {
+                  "value": 1510.9541619829
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "新生产, 复合梁",
+              "data": [
+                {
+                  "value": 27337.230034835426
+                },
+                {
+                  "value": 22299.54057454925
+                },
+                {
+                  "value": 28227.870339430694
+                },
+                {
+                  "value": 26763.44743344346
+                },
+                {
+                  "value": 25483.821579482898
+                },
+                {
+                  "value": 21283.97107794597
+                },
+                {
+                  "value": 30970.307268914476
+                },
+                {
+                  "value": 24747.9052157902
+                },
+                {
+                  "value": 19263.418056849434
+                },
+                {
+                  "value": 27642.21122455024
+                }
+              ]
+            },
+            {
+              "seriesname": "新生产, 连接件",
+              "data": [
+                {
+                  "value": 1420.231032880323
+                },
+                {
+                  "value": 4149.546159445099
+                },
+                {
+                  "value": 9085.958258704808
+                },
+                {
+                  "value": 3472.2560060905967
+                },
+                {
+                  "value": 9624.343339791007
+                },
+                {
+                  "value": 7700.996144952235
+                },
+                {
+                  "value": 8868.334136095371
+                },
+                {
+                  "value": 442.01034585470904
+                },
+                {
+                  "value": 1019.0440471218461
+                },
+                {
+                  "value": 698.3074262882111
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataset": [
+            {
+              "seriesname": "销货成本",
+              "data": [
+                {
+                  "value": 30268.41522969865
+                },
+                {
+                  "value": 26449.08673399435
+                },
+                {
+                  "value": 37313.8285981355
+                },
+                {
+                  "value": 30235.703439534056
+                },
+                {
+                  "value": 32079.3465644092
+                },
+                {
+                  "value": 25468.824155643306
+                },
+                {
+                  "value": 39413.616261906456
+                },
+                {
+                  "value": 24775.95109841241
+                },
+                {
+                  "value": 20282.462103971277
+                },
+                {
+                  "value": 28340.518650838454
+                }
+              ]
+            },
+            {
+              "seriesname": "库存增长, 复合梁",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "库存增长, 连接件",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 3028.8183548647
+                },
+                {
+                  "value": 3516.1430672549
+                },
+                {
+                  "value": 425.0251431034
+                },
+                {
+                  "value": 413.9644632325
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "summary:Graphs.Results.Summary.Profits.TimeSeries.summary",
+    "panel": "summary",
+    "chart_id": "Graphs.Results.Summary.Profits.TimeSeries.summary",
+    "chart_type": "msline",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_summary.json",
+    "prior_sha256": "5b004ae61eb18625e93b80de9441950861a4bb6c21272eff476f44fee777406e",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market5_formal4_summary_complete.json",
+      "sha256": "e0943f1bf0718208431510ffaff5ab78ad2b2d4090b1275627691cb9ee42f8f5"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "0"
+            },
+            {
+              "label": "1"
+            },
+            {
+              "label": "2"
+            },
+            {
+              "label": "3"
+            },
+            {
+              "label": "4"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": "千 美元",
+        "xAxisName": "年",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "seriesname": "花儿与少年",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": -7067
+            },
+            {
+              "value": -466
+            },
+            {
+              "value": -13746
+            },
+            {
+              "value": -7315
+            }
+          ]
+        },
+        {
+          "seriesname": "市不可挡",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 3080
+            },
+            {
+              "value": 1865
+            },
+            {
+              "value": -1956
+            },
+            {
+              "value": -1589
+            }
+          ]
+        },
+        {
+          "seriesname": "WePlay",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 3172
+            },
+            {
+              "value": 2855
+            },
+            {
+              "value": 1967
+            },
+            {
+              "value": 1325
+            }
+          ]
+        },
+        {
+          "seriesname": "赢是因为拼",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 2229
+            },
+            {
+              "value": 114
+            },
+            {
+              "value": -1647
+            },
+            {
+              "value": -2610
+            }
+          ]
+        },
+        {
+          "seriesname": "合法印钞队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 2961
+            },
+            {
+              "value": 3401
+            },
+            {
+              "value": 1534
+            },
+            {
+              "value": 234
+            }
+          ]
+        },
+        {
+          "seriesname": "营销团队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 1860
+            },
+            {
+              "value": 2180
+            },
+            {
+              "value": 1419
+            },
+            {
+              "value": 351
+            }
+          ]
+        },
+        {
+          "seriesname": "好运连连队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 3524
+            },
+            {
+              "value": 4117
+            },
+            {
+              "value": 4600
+            },
+            {
+              "value": 2777
+            }
+          ]
+        },
+        {
+          "seriesname": "鱼你一起",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 1451
+            },
+            {
+              "value": 1921
+            },
+            {
+              "value": -1761
+            },
+            {
+              "value": -3326
+            }
+          ]
+        },
+        {
+          "seriesname": "从容应队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 2857
+            },
+            {
+              "value": 2228
+            },
+            {
+              "value": 1781
+            },
+            {
+              "value": -38
+            }
+          ]
+        },
+        {
+          "seriesname": "你说得不对我说得队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 2212
+            },
+            {
+              "value": 913
+            },
+            {
+              "value": -555
+            },
+            {
+              "value": -1610
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "summary:Graphs.Results.Summary.CumulEarnings.TimeSeries.summary",
+    "panel": "summary",
+    "chart_id": "Graphs.Results.Summary.CumulEarnings.TimeSeries.summary",
+    "chart_type": "msline",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_summary.json",
+    "prior_sha256": "5b004ae61eb18625e93b80de9441950861a4bb6c21272eff476f44fee777406e",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market5_formal4_summary_complete.json",
+      "sha256": "e0943f1bf0718208431510ffaff5ab78ad2b2d4090b1275627691cb9ee42f8f5"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "0"
+            },
+            {
+              "label": "1"
+            },
+            {
+              "label": "2"
+            },
+            {
+              "label": "3"
+            },
+            {
+              "label": "4"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": "千 美元",
+        "xAxisName": "年",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "seriesname": "花儿与少年",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": -5774
+            },
+            {
+              "value": -6240
+            },
+            {
+              "value": -19986
+            },
+            {
+              "value": -27301
+            }
+          ]
+        },
+        {
+          "seriesname": "市不可挡",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 4373
+            },
+            {
+              "value": 6238
+            },
+            {
+              "value": 4282
+            },
+            {
+              "value": 2693
+            }
+          ]
+        },
+        {
+          "seriesname": "WePlay",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 4465
+            },
+            {
+              "value": 7319
+            },
+            {
+              "value": 9287
+            },
+            {
+              "value": 10612
+            }
+          ]
+        },
+        {
+          "seriesname": "赢是因为拼",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 3522
+            },
+            {
+              "value": 3636
+            },
+            {
+              "value": 1989
+            },
+            {
+              "value": -621
+            }
+          ]
+        },
+        {
+          "seriesname": "合法印钞队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 4254
+            },
+            {
+              "value": 7656
+            },
+            {
+              "value": 9189
+            },
+            {
+              "value": 9423
+            }
+          ]
+        },
+        {
+          "seriesname": "营销团队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 3153
+            },
+            {
+              "value": 5332
+            },
+            {
+              "value": 6752
+            },
+            {
+              "value": 7102
+            }
+          ]
+        },
+        {
+          "seriesname": "好运连连队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 4817
+            },
+            {
+              "value": 8934
+            },
+            {
+              "value": 13534
+            },
+            {
+              "value": 16310
+            }
+          ]
+        },
+        {
+          "seriesname": "鱼你一起",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 2743
+            },
+            {
+              "value": 4665
+            },
+            {
+              "value": 2904
+            },
+            {
+              "value": -422
+            }
+          ]
+        },
+        {
+          "seriesname": "从容应队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 4149
+            },
+            {
+              "value": 6378
+            },
+            {
+              "value": 8159
+            },
+            {
+              "value": 8121
+            }
+          ]
+        },
+        {
+          "seriesname": "你说得不对我说得队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 3505
+            },
+            {
+              "value": 4418
+            },
+            {
+              "value": 3864
+            },
+            {
+              "value": 2254
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Market.MarketShare.Global",
+    "panel": "market",
+    "chart_id": "Graphs.Market.MarketShare.Global",
+    "chart_type": "pie2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Clobal.Product.MarketValue.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Clobal.Product.MarketValue.overview",
+    "chart_type": "pie2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Clobal.Product.MarketSize.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Clobal.Product.MarketSize.overview",
+    "chart_type": "pie2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Market.Prod1.Mark1.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Market.Prod1.Mark1.overview",
+    "chart_type": "msstackedcolumn2dlinedy",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Market.Prod1.Mark2.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Market.Prod1.Mark2.overview",
+    "chart_type": "msstackedcolumn2dlinedy",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Market.Prod2.Mark1.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Market.Prod2.Mark1.overview",
+    "chart_type": "msstackedcolumn2dlinedy",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Market.Prod2.Mark2.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Market.Prod2.Mark2.overview",
+    "chart_type": "msstackedcolumn2dlinedy",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.Capacity.Domestic",
+    "panel": "production",
+    "chart_id": "Graph.Production.Capacity.Domestic",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.CapacityUtil",
+    "panel": "production",
+    "chart_id": "Graph.Production.CapacityUtil",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.Personnel",
+    "panel": "production",
+    "chart_id": "Graph.Production.Personnel",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.change.in.workforce",
+    "panel": "production",
+    "chart_id": "Graph.Production.change.in.workforce",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.co2.emissions",
+    "panel": "production",
+    "chart_id": "Graph.Production.co2.emissions",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.energy.consumption",
+    "panel": "production",
+    "chart_id": "Graph.Production.energy.consumption",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.water.consumption",
+    "panel": "production",
+    "chart_id": "Graph.Production.water.consumption",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "productionhr:Graphs.Results.No.Of.Employees.Finland.TimeSeries",
+    "panel": "productionhr",
+    "chart_id": "Graphs.Results.No.Of.Employees.Finland.TimeSeries",
+    "chart_type": "msline",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_productionhr.json",
+    "prior_sha256": "0b01ceb09904d93a2fd379a90bd0a1991cacba6838ce333ecbee08acdfa2bbb4",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "logistics:Graphs.Logistics.RubbanaDomDeliveries",
+    "panel": "logistics",
+    "chart_id": "Graphs.Logistics.RubbanaDomDeliveries",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_logistics.json",
+    "prior_sha256": "298a55d3c10234965fda3efcc4ce7c1213e2ef51662fb7ea8e0ff4055ef5c517",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "logistics:Graphs.Logistics.AndyOxDomDeliveries",
+    "panel": "logistics",
+    "chart_id": "Graphs.Logistics.AndyOxDomDeliveries",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_logistics.json",
+    "prior_sha256": "298a55d3c10234965fda3efcc4ce7c1213e2ef51662fb7ea8e0ff4055ef5c517",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "logistics:Graphs.Logistics.Inventories",
+    "panel": "logistics",
+    "chart_id": "Graphs.Logistics.Inventories",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_logistics.json",
+    "prior_sha256": "298a55d3c10234965fda3efcc4ce7c1213e2ef51662fb7ea8e0ff4055ef5c517",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "logistics:Graphs.Logistics.Transportation.Emissions",
+    "panel": "logistics",
+    "chart_id": "Graphs.Logistics.Transportation.Emissions",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_logistics.json",
+    "prior_sha256": "298a55d3c10234965fda3efcc4ce7c1213e2ef51662fb7ea8e0ff4055ef5c517",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "incomestatement:Graphs.IS.summary",
+    "panel": "incomestatement",
+    "chart_id": "Graphs.IS.summary",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_incomestatement.json",
+    "prior_sha256": "49f1463478b288c20e6591960826ae06a838523aaf66e34abf54a5b883261c53",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "balancesheet:Graphs.BS.summary",
+    "panel": "balancesheet",
+    "chart_id": "Graphs.BS.summary",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_balancesheet.json",
+    "prior_sha256": "34f902d1a8325b2804f2c12f880180d0f29b8053a12a96038ec90a96a6077345",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "cashflow:Graphs.CFS.summary",
+    "panel": "cashflow",
+    "chart_id": "Graphs.CFS.summary",
+    "chart_type": "mscolumn2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_cashflow.json",
+    "prior_sha256": "ea8ca0fafa0268a5a61200b41e2452d5aa62eb3532bbf0909c0663836c4946f3",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "societalimpact:Graph.Firm.Results.Valuecreation",
+    "panel": "societalimpact",
+    "chart_id": "Graph.Firm.Results.Valuecreation",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "missing",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_societalimpact.json",
+    "prior_sha256": "331f265c8e30b24a306981f221a1441642d9acd2a0040ce200b7101d523246c8",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 5,
+    "round": 4,
+    "source": null,
+    "data": null,
+    "svg_pairing_status": "not_checked"
+  }
+]

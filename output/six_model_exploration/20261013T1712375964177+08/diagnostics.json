@@ -1,0 +1,4691 @@
+{
+  "audit": {
+    "10%离职规则": {
+      "count": 500,
+      "passed": 500
+    },
+    "人员流动恒等式": {
+      "count": 500,
+      "passed": 500
+    },
+    "人均工资派生性": {
+      "count": 500,
+      "passed": 500
+    }
+  },
+  "A_precision": {
+    "cells": 380,
+    "exact_workers": 380,
+    "median_output_interval_ratio": 0.004516950344157777,
+    "water_channel": "未参与校准，但仍与产量相关，不是独立统计证据",
+    "latent_identification": "无已知单位强度时k与q尺度不可分；无精确人数时q=Nη不能同时识别N与η"
+  },
+  "B_fixed|formal|1|泰国|复合梁": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 9,
+    "cells": 90,
+    "baseline_mae": 0.14453777777777488,
+    "candidate_mae": 0.1602222222222292,
+    "relative_improvement": -0.10851449832423032,
+    "improved_market_fraction": 0.3333333333333333,
+    "delta_interval_95": [
+      -0.03960338888890192,
+      0.0097442777777657
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 0.03993999999999289,
+        "candidate_mae": 0.09000000000001016,
+        "delta": -0.050060000000017264
+      },
+      {
+        "market": 2,
+        "baseline_mae": 0.19895999999998965,
+        "candidate_mae": 0.2460000000000285,
+        "delta": -0.047040000000038856
+      },
+      {
+        "market": 3,
+        "baseline_mae": 0.13917999999999467,
+        "candidate_mae": 0.1480000000000011,
+        "delta": -0.008820000000006434
+      },
+      {
+        "market": 4,
+        "baseline_mae": 0.18733999999999904,
+        "candidate_mae": 0.13000000000001083,
+        "delta": 0.057339999999988206
+      },
+      {
+        "market": 5,
+        "baseline_mae": 0.12678000000000084,
+        "candidate_mae": 0.11600000000000818,
+        "delta": 0.010779999999992657
+      },
+      {
+        "market": 6,
+        "baseline_mae": 0.0772199999999991,
+        "candidate_mae": 0.08800000000000026,
+        "delta": -0.010780000000001164
+      },
+      {
+        "market": 8,
+        "baseline_mae": 0.19559999999999328,
+        "candidate_mae": 0.175999999999991,
+        "delta": 0.019600000000002282
+      },
+      {
+        "market": 9,
+        "baseline_mae": 0.2321999999999999,
+        "candidate_mae": 0.290000000000012,
+        "delta": -0.05780000000001212
+      },
+      {
+        "market": 10,
+        "baseline_mae": 0.10362000000000435,
+        "candidate_mae": 0.1580000000000009,
+        "delta": -0.05437999999999654
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "B_fitted|formal|1|泰国|复合梁": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 9,
+    "cells": 90,
+    "baseline_mae": 0.13563144723469098,
+    "candidate_mae": 0.15351052475152357,
+    "relative_improvement": -0.13182103325857306,
+    "improved_market_fraction": 0.2222222222222222,
+    "delta_interval_95": [
+      -0.03866172279049096,
+      0.004615222352418125
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 0.052632060111992375,
+        "candidate_mae": 0.11039127881369559,
+        "delta": -0.05775921870170322
+      },
+      {
+        "market": 2,
+        "baseline_mae": 0.16160240458186265,
+        "candidate_mae": 0.21423650443965414,
+        "delta": -0.052634099857791494
+      },
+      {
+        "market": 3,
+        "baseline_mae": 0.13631007657125593,
+        "candidate_mae": 0.14616249730302683,
+        "delta": -0.009852420731770895
+      },
+      {
+        "market": 4,
+        "baseline_mae": 0.16877075463450045,
+        "candidate_mae": 0.10969242551039118,
+        "delta": 0.05907832912410926
+      },
+      {
+        "market": 5,
+        "baseline_mae": 0.10121637378499315,
+        "candidate_mae": 0.11123179074191399,
+        "delta": -0.010015416956920833
+      },
+      {
+        "market": 6,
+        "baseline_mae": 0.07163849079957316,
+        "candidate_mae": 0.08416206190877062,
+        "delta": -0.012523571109197468
+      },
+      {
+        "market": 8,
+        "baseline_mae": 0.19614461187542548,
+        "candidate_mae": 0.1959804681265151,
+        "delta": 0.00016414374891038364
+      },
+      {
+        "market": 9,
+        "baseline_mae": 0.2213424823576961,
+        "candidate_mae": 0.2600706662104967,
+        "delta": -0.03872818385280058
+      },
+      {
+        "market": 10,
+        "baseline_mae": 0.11102577039491948,
+        "candidate_mae": 0.14966702970924786,
+        "delta": -0.03864125931432838
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "B_events|formal|1|泰国|复合梁": {
+    "cells": 90,
+    "hiring": 50,
+    "firing": 40,
+    "zero": 0,
+    "hiring_cost": "无独立招聘费标签，κ_H不识别",
+    "rounding_threshold": "显示精度内误差不能识别τ_F"
+  },
+  "C_weighted|formal|1|泰国|复合梁": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 9,
+    "cells": 90,
+    "baseline_mae": 0.25759553165448273,
+    "candidate_mae": 0.26735196525905847,
+    "relative_improvement": -0.037875011037311786,
+    "improved_market_fraction": 0.2222222222222222,
+    "delta_interval_95": [
+      -0.021700862358540747,
+      -0.0006860303016165021
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 0.18796795611573316,
+        "candidate_mae": 0.23271869704148002,
+        "delta": -0.04475074092574685
+      },
+      {
+        "market": 2,
+        "baseline_mae": 0.2670363531149178,
+        "candidate_mae": 0.2704270068032656,
+        "delta": -0.003390653688347789
+      },
+      {
+        "market": 3,
+        "baseline_mae": 0.32597628780431476,
+        "candidate_mae": 0.3233098697076457,
+        "delta": 0.0026664180966690654
+      },
+      {
+        "market": 4,
+        "baseline_mae": 0.28090826986185674,
+        "candidate_mae": 0.2793311531901054,
+        "delta": 0.0015771166717513663
+      },
+      {
+        "market": 5,
+        "baseline_mae": 0.2956505924281828,
+        "candidate_mae": 0.2999225470196052,
+        "delta": -0.004271954591422378
+      },
+      {
+        "market": 6,
+        "baseline_mae": 0.35996471336889047,
+        "candidate_mae": 0.39448552104490775,
+        "delta": -0.034520807676017284
+      },
+      {
+        "market": 8,
+        "baseline_mae": 0.20982182217092032,
+        "candidate_mae": 0.2113188145153572,
+        "delta": -0.0014969923444368705
+      },
+      {
+        "market": 9,
+        "baseline_mae": 0.2066421779495954,
+        "candidate_mae": 0.2076179440980809,
+        "delta": -0.0009757661484854907
+      },
+      {
+        "market": 10,
+        "baseline_mae": 0.18439161207593316,
+        "candidate_mae": 0.18703613391107865,
+        "delta": -0.0026445218351454913
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "C_hinge|formal|1|泰国|复合梁": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 9,
+    "cells": 90,
+    "baseline_mae": 0.25759553165448273,
+    "candidate_mae": 41.446771519255385,
+    "relative_improvement": -159.8986431288282,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      -47.75457795367468,
+      -34.03987762522049
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 0.18796795611573316,
+        "candidate_mae": 50.38791825316538,
+        "delta": -50.19995029704965
+      },
+      {
+        "market": 2,
+        "baseline_mae": 0.2670363531149178,
+        "candidate_mae": 45.04248221231787,
+        "delta": -44.775445859202954
+      },
+      {
+        "market": 3,
+        "baseline_mae": 0.32597628780431476,
+        "candidate_mae": 41.64751356987904,
+        "delta": -41.32153728207472
+      },
+      {
+        "market": 4,
+        "baseline_mae": 0.28090826986185674,
+        "candidate_mae": 21.043696694064693,
+        "delta": -20.762788424202835
+      },
+      {
+        "market": 5,
+        "baseline_mae": 0.2956505924281828,
+        "candidate_mae": 44.43614156791459,
+        "delta": -44.14049097548641
+      },
+      {
+        "market": 6,
+        "baseline_mae": 0.35996471336889047,
+        "candidate_mae": 47.63529536554074,
+        "delta": -47.27533065217185
+      },
+      {
+        "market": 8,
+        "baseline_mae": 0.20982182217092032,
+        "candidate_mae": 23.150862349878366,
+        "delta": -22.941040527707447
+      },
+      {
+        "market": 9,
+        "baseline_mae": 0.2066421779495954,
+        "candidate_mae": 46.26523370724698,
+        "delta": -46.05859152929738
+      },
+      {
+        "market": 10,
+        "baseline_mae": 0.18439161207593316,
+        "candidate_mae": 53.4117999532908,
+        "delta": -53.22740834121487
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "C_coverage|formal|1|泰国|复合梁": {
+    "cells": 90,
+    "shift_bins": {
+      "2": 39,
+      "3": 41,
+      "1": 10
+    },
+    "formula": "W/(wN)=1+(κ2−1)q2/q+(κ3−1)q3/q；平均工资按各班人数占比加权",
+    "warning": "原候选max(s−1,0)未除以s，与平均工资机制不等价；本实验用于比较参数可识别性"
+  },
+  "E_shared|formal|1|泰国|复合梁|co2": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 2.556844000000015,
+    "candidate_mae": 2.5996095086791455,
+    "relative_improvement": -0.016725896722338277,
+    "improved_market_fraction": 0.1,
+    "delta_interval_95": [
+      -0.06551041367787179,
+      -0.019630726794119674
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 2.025639999999703,
+        "candidate_mae": 2.007547886980092,
+        "delta": 0.018092113019611222
+      },
+      {
+        "market": 2,
+        "baseline_mae": 3.1326300000009724,
+        "candidate_mae": 3.199194017878199,
+        "delta": -0.06656401787722643
+      },
+      {
+        "market": 3,
+        "baseline_mae": 2.6552800000008574,
+        "candidate_mae": 2.66658133527053,
+        "delta": -0.011301335269672474
+      },
+      {
+        "market": 4,
+        "baseline_mae": 1.9460500000006504,
+        "candidate_mae": 1.9538312266297908,
+        "delta": -0.007781226629140381
+      },
+      {
+        "market": 5,
+        "baseline_mae": 2.5427499999996144,
+        "candidate_mae": 2.608720333808833,
+        "delta": -0.06597033380921857
+      },
+      {
+        "market": 6,
+        "baseline_mae": 4.092479999999159,
+        "candidate_mae": 4.165352618386168,
+        "delta": -0.07287261838700942
+      },
+      {
+        "market": 7,
+        "baseline_mae": 2.5571100000002844,
+        "candidate_mae": 2.618536595450132,
+        "delta": -0.06142659544984763
+      },
+      {
+        "market": 8,
+        "baseline_mae": 1.9780799999994998,
+        "candidate_mae": 2.015915407026114,
+        "delta": -0.03783540702661403
+      },
+      {
+        "market": 9,
+        "baseline_mae": 2.3776499999999032,
+        "candidate_mae": 2.4792704452997896,
+        "delta": -0.10162044529988634
+      },
+      {
+        "market": 10,
+        "baseline_mae": 2.260769999999502,
+        "candidate_mae": 2.281145220061808,
+        "delta": -0.020375220062305743
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      1355.31,
+      1355.32
+    ]
+  },
+  "E_previous|formal|1|泰国|复合梁|co2": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 2.556844000000015,
+    "candidate_mae": 2.5532319999999844,
+    "relative_improvement": 0.0014126790684259852,
+    "improved_market_fraction": 0.5,
+    "delta_interval_95": [
+      -0.006522325000031707,
+      0.014835075000043663
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 2.025639999999703,
+        "candidate_mae": 2.0087599999997563,
+        "delta": 0.016879999999946715
+      },
+      {
+        "market": 2,
+        "baseline_mae": 3.1326300000009724,
+        "candidate_mae": 3.0966800000011063,
+        "delta": 0.035949999999866034
+      },
+      {
+        "market": 3,
+        "baseline_mae": 2.6552800000008574,
+        "candidate_mae": 2.6552800000008574,
+        "delta": 0.0
+      },
+      {
+        "market": 4,
+        "baseline_mae": 1.9460500000006504,
+        "candidate_mae": 1.938680000000204,
+        "delta": 0.007370000000446408
+      },
+      {
+        "market": 5,
+        "baseline_mae": 2.5427499999996144,
+        "candidate_mae": 2.5591999999998736,
+        "delta": -0.0164500000002592
+      },
+      {
+        "market": 6,
+        "baseline_mae": 4.092479999999159,
+        "candidate_mae": 4.11107999999931,
+        "delta": -0.018600000000151162
+      },
+      {
+        "market": 7,
+        "baseline_mae": 2.5571100000002844,
+        "candidate_mae": 2.5736800000000586,
+        "delta": -0.016569999999774154
+      },
+      {
+        "market": 8,
+        "baseline_mae": 1.9780799999994998,
+        "candidate_mae": 1.9780799999994998,
+        "delta": 0.0
+      },
+      {
+        "market": 9,
+        "baseline_mae": 2.3776499999999032,
+        "candidate_mae": 2.3540399999997135,
+        "delta": 0.023610000000189757
+      },
+      {
+        "market": 10,
+        "baseline_mae": 2.260769999999502,
+        "candidate_mae": 2.2568399999994653,
+        "delta": 0.0039300000000368485
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "E_shared|formal|1|泰国|复合梁|energy": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 8.986060000000798,
+    "candidate_mae": 9.178092920866273,
+    "relative_improvement": -0.02137009110393861,
+    "improved_market_fraction": 0.1,
+    "delta_interval_95": [
+      -0.2986016057336059,
+      -0.09547831614209625
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 7.165660000000389,
+        "candidate_mae": 7.107284127575804,
+        "delta": 0.05837587242458486
+      },
+      {
+        "market": 2,
+        "baseline_mae": 11.06862000000201,
+        "candidate_mae": 11.21385550017203,
+        "delta": -0.14523550017002052
+      },
+      {
+        "market": 3,
+        "baseline_mae": 9.34612000000052,
+        "candidate_mae": 9.423209716979182,
+        "delta": -0.07708971697866218
+      },
+      {
+        "market": 4,
+        "baseline_mae": 6.817660000001888,
+        "candidate_mae": 6.933944527536733,
+        "delta": -0.11628452753484453
+      },
+      {
+        "market": 5,
+        "baseline_mae": 9.001000000000749,
+        "candidate_mae": 9.257792401881124,
+        "delta": -0.2567924018803751
+      },
+      {
+        "market": 6,
+        "baseline_mae": 14.4278999999995,
+        "candidate_mae": 14.690796536521521,
+        "delta": -0.26289653652202105
+      },
+      {
+        "market": 7,
+        "baseline_mae": 9.005520000000615,
+        "candidate_mae": 9.250487912617245,
+        "delta": -0.2449679126166302
+      },
+      {
+        "market": 8,
+        "baseline_mae": 6.903399999999055,
+        "candidate_mae": 7.08292270162674,
+        "delta": -0.17952270162768436
+      },
+      {
+        "market": 9,
+        "baseline_mae": 8.15485999999928,
+        "candidate_mae": 8.734671781738871,
+        "delta": -0.5798117817395916
+      },
+      {
+        "market": 10,
+        "baseline_mae": 7.969860000003973,
+        "candidate_mae": 8.085964002013498,
+        "delta": -0.11610400200952409
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      4778.38,
+      4778.38
+    ]
+  },
+  "E_previous|formal|1|泰国|复合梁|energy": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 8.986060000000798,
+    "candidate_mae": 8.986060000000798,
+    "relative_improvement": 0.0,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 7.165660000000389,
+        "candidate_mae": 7.165660000000389,
+        "delta": 0.0
+      },
+      {
+        "market": 2,
+        "baseline_mae": 11.06862000000201,
+        "candidate_mae": 11.06862000000201,
+        "delta": 0.0
+      },
+      {
+        "market": 3,
+        "baseline_mae": 9.34612000000052,
+        "candidate_mae": 9.34612000000052,
+        "delta": 0.0
+      },
+      {
+        "market": 4,
+        "baseline_mae": 6.817660000001888,
+        "candidate_mae": 6.817660000001888,
+        "delta": 0.0
+      },
+      {
+        "market": 5,
+        "baseline_mae": 9.001000000000749,
+        "candidate_mae": 9.001000000000749,
+        "delta": 0.0
+      },
+      {
+        "market": 6,
+        "baseline_mae": 14.4278999999995,
+        "candidate_mae": 14.4278999999995,
+        "delta": 0.0
+      },
+      {
+        "market": 7,
+        "baseline_mae": 9.005520000000615,
+        "candidate_mae": 9.005520000000615,
+        "delta": 0.0
+      },
+      {
+        "market": 8,
+        "baseline_mae": 6.903399999999055,
+        "candidate_mae": 6.903399999999055,
+        "delta": 0.0
+      },
+      {
+        "market": 9,
+        "baseline_mae": 8.15485999999928,
+        "candidate_mae": 8.15485999999928,
+        "delta": 0.0
+      },
+      {
+        "market": 10,
+        "baseline_mae": 7.969860000003973,
+        "candidate_mae": 7.969860000003973,
+        "delta": 0.0
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "E_shared|formal|1|泰国|复合梁|water": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 19.367264000002724,
+    "candidate_mae": 19.797598783161558,
+    "relative_improvement": -0.02221969934208433,
+    "improved_market_fraction": 0.1,
+    "delta_interval_95": [
+      -0.6413034464564278,
+      -0.2382917172626695
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 15.39098000001577,
+        "candidate_mae": 15.324657707958613,
+        "delta": 0.06632229205715667
+      },
+      {
+        "market": 2,
+        "baseline_mae": 23.801860000010493,
+        "candidate_mae": 24.18968722218633,
+        "delta": -0.38782722217583654
+      },
+      {
+        "market": 3,
+        "baseline_mae": 20.1715600000025,
+        "candidate_mae": 20.34790994580544,
+        "delta": -0.17634994580294006
+      },
+      {
+        "market": 4,
+        "baseline_mae": 14.670860000002723,
+        "candidate_mae": 14.95831752377344,
+        "delta": -0.2874575237707173
+      },
+      {
+        "market": 5,
+        "baseline_mae": 19.41339999999618,
+        "candidate_mae": 19.985140632268305,
+        "delta": -0.5717406322721246
+      },
+      {
+        "market": 6,
+        "baseline_mae": 31.100659999999333,
+        "candidate_mae": 31.670523396755744,
+        "delta": -0.5698633967564106
+      },
+      {
+        "market": 7,
+        "baseline_mae": 19.454560000002676,
+        "candidate_mae": 19.956704947413527,
+        "delta": -0.5021449474108515
+      },
+      {
+        "market": 8,
+        "baseline_mae": 14.830999999998312,
+        "candidate_mae": 15.245239712316835,
+        "delta": -0.41423971231852263
+      },
+      {
+        "market": 9,
+        "baseline_mae": 17.62858000000124,
+        "candidate_mae": 18.838324887993075,
+        "delta": -1.2097448879918353
+      },
+      {
+        "market": 10,
+        "baseline_mae": 17.209179999998014,
+        "candidate_mae": 17.459481855144258,
+        "delta": -0.2503018551462439
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      10307.14,
+      10307.14
+    ]
+  },
+  "E_previous|formal|1|泰国|复合梁|water": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 19.367264000002724,
+    "candidate_mae": 19.367264000002724,
+    "relative_improvement": 0.0,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 15.39098000001577,
+        "candidate_mae": 15.39098000001577,
+        "delta": 0.0
+      },
+      {
+        "market": 2,
+        "baseline_mae": 23.801860000010493,
+        "candidate_mae": 23.801860000010493,
+        "delta": 0.0
+      },
+      {
+        "market": 3,
+        "baseline_mae": 20.1715600000025,
+        "candidate_mae": 20.1715600000025,
+        "delta": 0.0
+      },
+      {
+        "market": 4,
+        "baseline_mae": 14.670860000002723,
+        "candidate_mae": 14.670860000002723,
+        "delta": 0.0
+      },
+      {
+        "market": 5,
+        "baseline_mae": 19.41339999999618,
+        "candidate_mae": 19.41339999999618,
+        "delta": 0.0
+      },
+      {
+        "market": 6,
+        "baseline_mae": 31.100659999999333,
+        "candidate_mae": 31.100659999999333,
+        "delta": 0.0
+      },
+      {
+        "market": 7,
+        "baseline_mae": 19.454560000002676,
+        "candidate_mae": 19.454560000002676,
+        "delta": 0.0
+      },
+      {
+        "market": 8,
+        "baseline_mae": 14.830999999998312,
+        "candidate_mae": 14.830999999998312,
+        "delta": 0.0
+      },
+      {
+        "market": 9,
+        "baseline_mae": 17.62858000000124,
+        "candidate_mae": 17.62858000000124,
+        "delta": 0.0
+      },
+      {
+        "market": 10,
+        "baseline_mae": 17.209179999998014,
+        "candidate_mae": 17.209179999998014,
+        "delta": 0.0
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "F_shared|formal|1|泰国|复合梁|route_co2_TH": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 9.109300000000015,
+    "candidate_mae": 9.276417155286412,
+    "relative_improvement": -0.018345773581548097,
+    "improved_market_fraction": 0.2,
+    "delta_interval_95": [
+      -0.320047564276644,
+      -0.0011140139537805826
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 10.13799999999975,
+        "candidate_mae": 10.195609249840095,
+        "delta": -0.0576092498403451
+      },
+      {
+        "market": 2,
+        "baseline_mae": 8.491999999999825,
+        "candidate_mae": 8.711694577149501,
+        "delta": -0.2196945771496761
+      },
+      {
+        "market": 3,
+        "baseline_mae": 11.743999999999868,
+        "candidate_mae": 12.19073301734843,
+        "delta": -0.44673301734856175
+      },
+      {
+        "market": 4,
+        "baseline_mae": 10.20799999999981,
+        "candidate_mae": 10.491502651341762,
+        "delta": -0.2835026513419514
+      },
+      {
+        "market": 5,
+        "baseline_mae": 9.480499999999756,
+        "candidate_mae": 9.577594147063792,
+        "delta": -0.09709414706403585
+      },
+      {
+        "market": 6,
+        "baseline_mae": 10.976999999999862,
+        "candidate_mae": 10.992286326924477,
+        "delta": -0.015286326924615068
+      },
+      {
+        "market": 7,
+        "baseline_mae": 7.650500000000283,
+        "candidate_mae": 8.269356046457142,
+        "delta": -0.6188560464568589
+      },
+      {
+        "market": 8,
+        "baseline_mae": 4.444500000000699,
+        "candidate_mae": 4.766918577755314,
+        "delta": -0.3224185777546156
+      },
+      {
+        "market": 9,
+        "baseline_mae": 7.9470000000002985,
+        "candidate_mae": 7.890875713320748,
+        "delta": 0.05612428667955083
+      },
+      {
+        "market": 10,
+        "baseline_mae": 10.011499999999979,
+        "candidate_mae": 9.677601245662846,
+        "delta": 0.3338987543371328
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      0.0,
+      3920.5
+    ]
+  },
+  "F_previous|formal|1|泰国|复合梁|route_co2_TH": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 9.109300000000015,
+    "candidate_mae": 9.109300000000015,
+    "relative_improvement": 0.0,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 10.13799999999975,
+        "candidate_mae": 10.13799999999975,
+        "delta": 0.0
+      },
+      {
+        "market": 2,
+        "baseline_mae": 8.491999999999825,
+        "candidate_mae": 8.491999999999825,
+        "delta": 0.0
+      },
+      {
+        "market": 3,
+        "baseline_mae": 11.743999999999868,
+        "candidate_mae": 11.743999999999868,
+        "delta": 0.0
+      },
+      {
+        "market": 4,
+        "baseline_mae": 10.20799999999981,
+        "candidate_mae": 10.20799999999981,
+        "delta": 0.0
+      },
+      {
+        "market": 5,
+        "baseline_mae": 9.480499999999756,
+        "candidate_mae": 9.480499999999756,
+        "delta": 0.0
+      },
+      {
+        "market": 6,
+        "baseline_mae": 10.976999999999862,
+        "candidate_mae": 10.976999999999862,
+        "delta": 0.0
+      },
+      {
+        "market": 7,
+        "baseline_mae": 7.650500000000283,
+        "candidate_mae": 7.650500000000283,
+        "delta": 0.0
+      },
+      {
+        "market": 8,
+        "baseline_mae": 4.444500000000699,
+        "candidate_mae": 4.444500000000699,
+        "delta": 0.0
+      },
+      {
+        "market": 9,
+        "baseline_mae": 7.9470000000002985,
+        "candidate_mae": 7.9470000000002985,
+        "delta": 0.0
+      },
+      {
+        "market": 10,
+        "baseline_mae": 10.011499999999979,
+        "candidate_mae": 10.011499999999979,
+        "delta": 0.0
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "F_shared|formal|1|泰国|复合梁|route_co2_ID": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 114.81936000000424,
+    "candidate_mae": 115.6802543733352,
+    "relative_improvement": -0.007497815467103567,
+    "improved_market_fraction": 0.5,
+    "delta_interval_95": [
+      -3.7307929982074115,
+      1.5886315033097844
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 129.92960000002057,
+        "candidate_mae": 135.67915828827682,
+        "delta": -5.749558288256253
+      },
+      {
+        "market": 2,
+        "baseline_mae": 67.6956000000122,
+        "candidate_mae": 68.68000419827877,
+        "delta": -0.9844041982665601
+      },
+      {
+        "market": 3,
+        "baseline_mae": 130.606799999997,
+        "candidate_mae": 126.8311482400517,
+        "delta": 3.7756517599453048
+      },
+      {
+        "market": 4,
+        "baseline_mae": 168.56759999999196,
+        "candidate_mae": 165.64464890167582,
+        "delta": 2.9229510983161333
+      },
+      {
+        "market": 5,
+        "baseline_mae": 101.29080000001122,
+        "candidate_mae": 111.86724412919139,
+        "delta": -10.576444129180175
+      },
+      {
+        "market": 6,
+        "baseline_mae": 101.73519999999553,
+        "candidate_mae": 101.42584098982624,
+        "delta": 0.30935901016928824
+      },
+      {
+        "market": 7,
+        "baseline_mae": 76.19119999999239,
+        "candidate_mae": 76.69606380491459,
+        "delta": -0.504863804922195
+      },
+      {
+        "market": 8,
+        "baseline_mae": 114.18360000000102,
+        "candidate_mae": 111.60535626692581,
+        "delta": 2.5782437330752117
+      },
+      {
+        "market": 9,
+        "baseline_mae": 125.89240000000572,
+        "candidate_mae": 122.31215706797374,
+        "delta": 3.580242932031979
+      },
+      {
+        "market": 10,
+        "baseline_mae": 132.10080000001471,
+        "candidate_mae": 136.06092184623702,
+        "delta": -3.9601218462223073
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      0.0,
+      47084.4
+    ]
+  },
+  "F_previous|formal|1|泰国|复合梁|route_co2_ID": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 114.81936000000424,
+    "candidate_mae": 114.81936000000424,
+    "relative_improvement": 0.0,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 129.92960000002057,
+        "candidate_mae": 129.92960000002057,
+        "delta": 0.0
+      },
+      {
+        "market": 2,
+        "baseline_mae": 67.6956000000122,
+        "candidate_mae": 67.6956000000122,
+        "delta": 0.0
+      },
+      {
+        "market": 3,
+        "baseline_mae": 130.606799999997,
+        "candidate_mae": 130.606799999997,
+        "delta": 0.0
+      },
+      {
+        "market": 4,
+        "baseline_mae": 168.56759999999196,
+        "candidate_mae": 168.56759999999196,
+        "delta": 0.0
+      },
+      {
+        "market": 5,
+        "baseline_mae": 101.29080000001122,
+        "candidate_mae": 101.29080000001122,
+        "delta": 0.0
+      },
+      {
+        "market": 6,
+        "baseline_mae": 101.73519999999553,
+        "candidate_mae": 101.73519999999553,
+        "delta": 0.0
+      },
+      {
+        "market": 7,
+        "baseline_mae": 76.19119999999239,
+        "candidate_mae": 76.19119999999239,
+        "delta": 0.0
+      },
+      {
+        "market": 8,
+        "baseline_mae": 114.18360000000102,
+        "candidate_mae": 114.18360000000102,
+        "delta": 0.0
+      },
+      {
+        "market": 9,
+        "baseline_mae": 125.89240000000572,
+        "candidate_mae": 125.89240000000572,
+        "delta": 0.0
+      },
+      {
+        "market": 10,
+        "baseline_mae": 132.10080000001471,
+        "candidate_mae": 132.10080000001471,
+        "delta": 0.0
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "B_fixed|formal|2|泰国|复合梁": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 9,
+    "cells": 90,
+    "baseline_mae": 0.025922222222219685,
+    "candidate_mae": 0.030888888888889323,
+    "relative_improvement": -0.1915987998286803,
+    "improved_market_fraction": 0.2222222222222222,
+    "delta_interval_95": [
+      -0.018223888888892276,
+      0.006893555555552865
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 0.027079999999996572,
+        "candidate_mae": 0.06599999999999877,
+        "delta": -0.038920000000002196
+      },
+      {
+        "market": 2,
+        "baseline_mae": 0.06365999999999801,
+        "candidate_mae": 0.041999999999999996,
+        "delta": 0.021659999999998014
+      },
+      {
+        "market": 3,
+        "baseline_mae": 0.03863999999999805,
+        "candidate_mae": 0.07000000000000454,
+        "delta": -0.031360000000006494
+      },
+      {
+        "market": 4,
+        "baseline_mae": 0.0,
+        "candidate_mae": 0.0,
+        "delta": 0.0
+      },
+      {
+        "market": 5,
+        "baseline_mae": 0.0,
+        "candidate_mae": 0.0,
+        "delta": 0.0
+      },
+      {
+        "market": 6,
+        "baseline_mae": 0.0,
+        "candidate_mae": 0.0,
+        "delta": 0.0
+      },
+      {
+        "market": 8,
+        "baseline_mae": 0.009139999999997882,
+        "candidate_mae": 0.016000000000000368,
+        "delta": -0.006860000000002486
+      },
+      {
+        "market": 9,
+        "baseline_mae": 0.04155999999999853,
+        "candidate_mae": 0.020000000000000108,
+        "delta": 0.02155999999999842
+      },
+      {
+        "market": 10,
+        "baseline_mae": 0.053219999999988145,
+        "candidate_mae": 0.06400000000000014,
+        "delta": -0.010780000000011995
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "B_fitted|formal|2|泰国|复合梁": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 9,
+    "cells": 90,
+    "baseline_mae": 0.02172505645443179,
+    "candidate_mae": 0.034801243083299994,
+    "relative_improvement": -0.6018942531309618,
+    "improved_market_fraction": 0.2222222222222222,
+    "delta_interval_95": [
+      -0.03620998772477024,
+      0.006981565810984128
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 0.029546277729884985,
+        "candidate_mae": 0.09258984531270772,
+        "delta": -0.06304356758282274
+      },
+      {
+        "market": 2,
+        "baseline_mae": 0.06385364703146532,
+        "candidate_mae": 0.0386633271816498,
+        "delta": 0.02519031984981552
+      },
+      {
+        "market": 3,
+        "baseline_mae": 0.003100289048580862,
+        "candidate_mae": 0.0879074315514913,
+        "delta": -0.08480714250291044
+      },
+      {
+        "market": 4,
+        "baseline_mae": 0.0,
+        "candidate_mae": 0.0,
+        "delta": 0.0
+      },
+      {
+        "market": 5,
+        "baseline_mae": 0.0,
+        "candidate_mae": 0.0,
+        "delta": 0.0
+      },
+      {
+        "market": 6,
+        "baseline_mae": 0.0,
+        "candidate_mae": 0.0,
+        "delta": 0.0
+      },
+      {
+        "market": 8,
+        "baseline_mae": 0.01422365661706806,
+        "candidate_mae": 0.023096181622904766,
+        "delta": -0.008872525005836707
+      },
+      {
+        "market": 9,
+        "baseline_mae": 0.040445124781696686,
+        "candidate_mae": 0.01839480789352397,
+        "delta": 0.022050316888172716
+      },
+      {
+        "market": 10,
+        "baseline_mae": 0.044356512881190205,
+        "candidate_mae": 0.0525595941874224,
+        "delta": -0.008203081306232193
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "B_events|formal|2|泰国|复合梁": {
+    "cells": 90,
+    "hiring": 81,
+    "firing": 9,
+    "zero": 0,
+    "hiring_cost": "无独立招聘费标签，κ_H不识别",
+    "rounding_threshold": "显示精度内误差不能识别τ_F"
+  },
+  "C_weighted|formal|2|泰国|复合梁": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 0.27762791105900997,
+    "candidate_mae": 0.2878331574991831,
+    "relative_improvement": -0.0367587192557307,
+    "improved_market_fraction": 0.2,
+    "delta_interval_95": [
+      -0.01622964992525079,
+      -0.0044777566848287174
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 0.2624313069740431,
+        "candidate_mae": 0.2703346733413248,
+        "delta": -0.007903366367281728
+      },
+      {
+        "market": 2,
+        "baseline_mae": 0.17289190823104264,
+        "candidate_mae": 0.2028165360927801,
+        "delta": -0.02992462786173747
+      },
+      {
+        "market": 3,
+        "baseline_mae": 0.26286887011408455,
+        "candidate_mae": 0.2806063828525339,
+        "delta": -0.017737512738449368
+      },
+      {
+        "market": 4,
+        "baseline_mae": 0.42335204707892443,
+        "candidate_mae": 0.43978559367860726,
+        "delta": -0.016433546599682824
+      },
+      {
+        "market": 5,
+        "baseline_mae": 0.20105182761542437,
+        "candidate_mae": 0.19867663379334316,
+        "delta": 0.0023751938220812063
+      },
+      {
+        "market": 6,
+        "baseline_mae": 0.3690153767222455,
+        "candidate_mae": 0.36866292517793225,
+        "delta": 0.000352451544313237
+      },
+      {
+        "market": 7,
+        "baseline_mae": 0.11526651025412775,
+        "candidate_mae": 0.1223585948767095,
+        "delta": -0.0070920846225817485
+      },
+      {
+        "market": 8,
+        "baseline_mae": 0.37146883635075484,
+        "candidate_mae": 0.3879158221803891,
+        "delta": -0.016446985829634275
+      },
+      {
+        "market": 9,
+        "baseline_mae": 0.3417478967085117,
+        "candidate_mae": 0.3426689126458314,
+        "delta": -0.0009210159373196913
+      },
+      {
+        "market": 10,
+        "baseline_mae": 0.2561845305409406,
+        "candidate_mae": 0.2645055003523794,
+        "delta": -0.008320969811438816
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "C_hinge|formal|2|泰国|复合梁": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 0.27762791105900997,
+    "candidate_mae": 43.28476790265933,
+    "relative_improvement": -154.909280653915,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      -49.55067142432571,
+      -36.412042846595824
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 0.2624313069740431,
+        "candidate_mae": 41.62063660984078,
+        "delta": -41.358205302866736
+      },
+      {
+        "market": 2,
+        "baseline_mae": 0.17289190823104264,
+        "candidate_mae": 41.965949456378084,
+        "delta": -41.79305754814704
+      },
+      {
+        "market": 3,
+        "baseline_mae": 0.26286887011408455,
+        "candidate_mae": 54.2007568620945,
+        "delta": -53.93788799198042
+      },
+      {
+        "market": 4,
+        "baseline_mae": 0.42335204707892443,
+        "candidate_mae": 23.37029650515683,
+        "delta": -22.946944458077905
+      },
+      {
+        "market": 5,
+        "baseline_mae": 0.20105182761542437,
+        "candidate_mae": 39.940087226669604,
+        "delta": -39.73903539905418
+      },
+      {
+        "market": 6,
+        "baseline_mae": 0.3690153767222455,
+        "candidate_mae": 53.805962678050534,
+        "delta": -53.43694730132829
+      },
+      {
+        "market": 7,
+        "baseline_mae": 0.11526651025412775,
+        "candidate_mae": 47.42333483747609,
+        "delta": -47.30806832722196
+      },
+      {
+        "market": 8,
+        "baseline_mae": 0.37146883635075484,
+        "candidate_mae": 39.12546547436398,
+        "delta": -38.75399663801322
+      },
+      {
+        "market": 9,
+        "baseline_mae": 0.3417478967085117,
+        "candidate_mae": 59.72315476460203,
+        "delta": -59.38140686789352
+      },
+      {
+        "market": 10,
+        "baseline_mae": 0.2561845305409406,
+        "candidate_mae": 31.67203461196086,
+        "delta": -31.41585008141992
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "C_coverage|formal|2|泰国|复合梁": {
+    "cells": 100,
+    "shift_bins": {
+      "3": 43,
+      "2": 46,
+      "1": 11
+    },
+    "formula": "W/(wN)=1+(κ2−1)q2/q+(κ3−1)q3/q；平均工资按各班人数占比加权",
+    "warning": "原候选max(s−1,0)未除以s，与平均工资机制不等价；本实验用于比较参数可识别性"
+  },
+  "E_shared|formal|2|泰国|复合梁|co2": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 3.258629000000004,
+    "candidate_mae": 3.290202831342799,
+    "relative_improvement": -0.009689299193861854,
+    "improved_market_fraction": 0.2,
+    "delta_interval_95": [
+      -0.051807221311207824,
+      -0.006370010060895099
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 3.033359999999482,
+        "candidate_mae": 3.079616839027949,
+        "delta": -0.04625683902846722
+      },
+      {
+        "market": 2,
+        "baseline_mae": 2.845759999999609,
+        "candidate_mae": 2.8899943964112937,
+        "delta": -0.044234396411684695
+      },
+      {
+        "market": 3,
+        "baseline_mae": 3.859960000000865,
+        "candidate_mae": 3.890036752018568,
+        "delta": -0.03007675201770299
+      },
+      {
+        "market": 4,
+        "baseline_mae": 3.608470000000307,
+        "candidate_mae": 3.632294300847934,
+        "delta": -0.0238243008476271
+      },
+      {
+        "market": 5,
+        "baseline_mae": 2.610250000000815,
+        "candidate_mae": 2.6093964392261113,
+        "delta": 0.0008535607747037766
+      },
+      {
+        "market": 6,
+        "baseline_mae": 4.319029999998747,
+        "candidate_mae": 4.363283474527634,
+        "delta": -0.04425347452888673
+      },
+      {
+        "market": 7,
+        "baseline_mae": 2.7007999999992536,
+        "candidate_mae": 2.7562437675767795,
+        "delta": -0.05544376757752589
+      },
+      {
+        "market": 8,
+        "baseline_mae": 3.3717200000006415,
+        "candidate_mae": 3.457732151955679,
+        "delta": -0.08601215195503764
+      },
+      {
+        "market": 9,
+        "baseline_mae": 3.2658400000003893,
+        "candidate_mae": 3.3064309405762744,
+        "delta": -0.04059094057588508
+      },
+      {
+        "market": 10,
+        "baseline_mae": 2.9710999999999332,
+        "candidate_mae": 2.9169992512597673,
+        "delta": 0.054100748740165905
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      1355.31,
+      1355.32
+    ]
+  },
+  "E_previous|formal|2|泰国|复合梁|co2": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 3.258629000000004,
+    "candidate_mae": 3.256111000000059,
+    "relative_improvement": 0.0007727176060684331,
+    "improved_market_fraction": 0.5,
+    "delta_interval_95": [
+      -0.00529290000008394,
+      0.013014699999984418
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 3.033359999999482,
+        "candidate_mae": 3.028459999998847,
+        "delta": 0.00490000000063473
+      },
+      {
+        "market": 2,
+        "baseline_mae": 2.845759999999609,
+        "candidate_mae": 2.806169999999656,
+        "delta": 0.03958999999995294
+      },
+      {
+        "market": 3,
+        "baseline_mae": 3.859960000000865,
+        "candidate_mae": 3.859960000000865,
+        "delta": 0.0
+      },
+      {
+        "market": 4,
+        "baseline_mae": 3.608470000000307,
+        "candidate_mae": 3.6180200000009792,
+        "delta": -0.009550000000672298
+      },
+      {
+        "market": 5,
+        "baseline_mae": 2.610250000000815,
+        "candidate_mae": 2.5990800000010497,
+        "delta": 0.011169999999765423
+      },
+      {
+        "market": 6,
+        "baseline_mae": 4.319029999998747,
+        "candidate_mae": 4.323619999998845,
+        "delta": -0.004590000000098016
+      },
+      {
+        "market": 7,
+        "baseline_mae": 2.7007999999992536,
+        "candidate_mae": 2.721539999999186,
+        "delta": -0.02073999999993248
+      },
+      {
+        "market": 8,
+        "baseline_mae": 3.3717200000006415,
+        "candidate_mae": 3.375360000000728,
+        "delta": -0.003640000000086463
+      },
+      {
+        "market": 9,
+        "baseline_mae": 3.2658400000003893,
+        "candidate_mae": 3.2614800000006654,
+        "delta": 0.004359999999723918
+      },
+      {
+        "market": 10,
+        "baseline_mae": 2.9710999999999332,
+        "candidate_mae": 2.9674199999997652,
+        "delta": 0.0036800000001679933
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "E_shared|formal|2|泰国|复合梁|energy": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 11.49358200000004,
+    "candidate_mae": 11.60499914836149,
+    "relative_improvement": -0.009693857699144479,
+    "improved_market_fraction": 0.4,
+    "delta_interval_95": [
+      -0.22350666236566075,
+      -0.004390443761971968
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 10.674359999999046,
+        "candidate_mae": 10.824145542086034,
+        "delta": -0.14978554208698824
+      },
+      {
+        "market": 2,
+        "baseline_mae": 9.98448000000135,
+        "candidate_mae": 10.25596384884102,
+        "delta": -0.27148384883967047
+      },
+      {
+        "market": 3,
+        "baseline_mae": 13.59114000000045,
+        "candidate_mae": 13.68787633039974,
+        "delta": -0.09673633039929008
+      },
+      {
+        "market": 4,
+        "baseline_mae": 12.89491999999882,
+        "candidate_mae": 12.872502670195535,
+        "delta": 0.022417329803284147
+      },
+      {
+        "market": 5,
+        "baseline_mae": 9.280880000003526,
+        "candidate_mae": 9.206031528782479,
+        "delta": 0.07484847122104732
+      },
+      {
+        "market": 6,
+        "baseline_mae": 15.205619999997726,
+        "candidate_mae": 15.334710503931273,
+        "delta": -0.12909050393354704
+      },
+      {
+        "market": 7,
+        "baseline_mae": 9.446239999999307,
+        "candidate_mae": 9.783915205646917,
+        "delta": -0.33767520564761
+      },
+      {
+        "market": 8,
+        "baseline_mae": 11.722240000004968,
+        "candidate_mae": 12.140577657366885,
+        "delta": -0.4183376573619171
+      },
+      {
+        "market": 9,
+        "baseline_mae": 11.711919999998099,
+        "candidate_mae": 11.662934298142499,
+        "delta": 0.04898570185559947
+      },
+      {
+        "market": 10,
+        "baseline_mae": 10.424019999997109,
+        "candidate_mae": 10.28133389822251,
+        "delta": 0.14268610177459884
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      4778.38,
+      4778.38
+    ]
+  },
+  "E_previous|formal|2|泰国|复合梁|energy": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 11.49358200000004,
+    "candidate_mae": 11.49358200000004,
+    "relative_improvement": 0.0,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 10.674359999999046,
+        "candidate_mae": 10.674359999999046,
+        "delta": 0.0
+      },
+      {
+        "market": 2,
+        "baseline_mae": 9.98448000000135,
+        "candidate_mae": 9.98448000000135,
+        "delta": 0.0
+      },
+      {
+        "market": 3,
+        "baseline_mae": 13.59114000000045,
+        "candidate_mae": 13.59114000000045,
+        "delta": 0.0
+      },
+      {
+        "market": 4,
+        "baseline_mae": 12.89491999999882,
+        "candidate_mae": 12.89491999999882,
+        "delta": 0.0
+      },
+      {
+        "market": 5,
+        "baseline_mae": 9.280880000003526,
+        "candidate_mae": 9.280880000003526,
+        "delta": 0.0
+      },
+      {
+        "market": 6,
+        "baseline_mae": 15.205619999997726,
+        "candidate_mae": 15.205619999997726,
+        "delta": 0.0
+      },
+      {
+        "market": 7,
+        "baseline_mae": 9.446239999999307,
+        "candidate_mae": 9.446239999999307,
+        "delta": 0.0
+      },
+      {
+        "market": 8,
+        "baseline_mae": 11.722240000004968,
+        "candidate_mae": 11.722240000004968,
+        "delta": 0.0
+      },
+      {
+        "market": 9,
+        "baseline_mae": 11.711919999998099,
+        "candidate_mae": 11.711919999998099,
+        "delta": 0.0
+      },
+      {
+        "market": 10,
+        "baseline_mae": 10.424019999997109,
+        "candidate_mae": 10.424019999997109,
+        "delta": 0.0
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "E_shared|formal|2|泰国|复合梁|water": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 24.78126599999974,
+    "candidate_mae": 25.028627430985118,
+    "relative_improvement": -0.009981791526929304,
+    "improved_market_fraction": 0.4,
+    "delta_interval_95": [
+      -0.4677097581555189,
+      -0.0330287382084614
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 23.014839999997594,
+        "candidate_mae": 23.359184771248103,
+        "delta": -0.34434477125050833
+      },
+      {
+        "market": 2,
+        "baseline_mae": 21.56543999999885,
+        "candidate_mae": 22.123686914584688,
+        "delta": -0.5582469145858369
+      },
+      {
+        "market": 3,
+        "baseline_mae": 29.32941999999166,
+        "candidate_mae": 29.54787487971771,
+        "delta": -0.2184548797260497
+      },
+      {
+        "market": 4,
+        "baseline_mae": 27.77080000001006,
+        "candidate_mae": 27.743685325523256,
+        "delta": 0.02711467448680338
+      },
+      {
+        "market": 5,
+        "baseline_mae": 19.93604000000778,
+        "candidate_mae": 19.83643679386005,
+        "delta": 0.0996032061477301
+      },
+      {
+        "market": 6,
+        "baseline_mae": 32.794859999994515,
+        "candidate_mae": 33.058302792778704,
+        "delta": -0.2634427927841898
+      },
+      {
+        "market": 7,
+        "baseline_mae": 20.3947200000046,
+        "candidate_mae": 21.084309742922052,
+        "delta": -0.6895897429174518
+      },
+      {
+        "market": 8,
+        "baseline_mae": 25.32271999999648,
+        "candidate_mae": 26.18654500696357,
+        "delta": -0.8638250069670903
+      },
+      {
+        "market": 9,
+        "baseline_mae": 25.243759999996474,
+        "candidate_mae": 25.173449205832366,
+        "delta": 0.0703107941641079
+      },
+      {
+        "market": 10,
+        "baseline_mae": 22.440059999999356,
+        "candidate_mae": 22.17279887642071,
+        "delta": 0.2672611235786455
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      10307.14,
+      10307.14
+    ]
+  },
+  "E_previous|formal|2|泰国|复合梁|water": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 24.78126599999974,
+    "candidate_mae": 24.78126599999974,
+    "relative_improvement": 0.0,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 23.014839999997594,
+        "candidate_mae": 23.014839999997594,
+        "delta": 0.0
+      },
+      {
+        "market": 2,
+        "baseline_mae": 21.56543999999885,
+        "candidate_mae": 21.56543999999885,
+        "delta": 0.0
+      },
+      {
+        "market": 3,
+        "baseline_mae": 29.32941999999166,
+        "candidate_mae": 29.32941999999166,
+        "delta": 0.0
+      },
+      {
+        "market": 4,
+        "baseline_mae": 27.77080000001006,
+        "candidate_mae": 27.77080000001006,
+        "delta": 0.0
+      },
+      {
+        "market": 5,
+        "baseline_mae": 19.93604000000778,
+        "candidate_mae": 19.93604000000778,
+        "delta": 0.0
+      },
+      {
+        "market": 6,
+        "baseline_mae": 32.794859999994515,
+        "candidate_mae": 32.794859999994515,
+        "delta": 0.0
+      },
+      {
+        "market": 7,
+        "baseline_mae": 20.3947200000046,
+        "candidate_mae": 20.3947200000046,
+        "delta": 0.0
+      },
+      {
+        "market": 8,
+        "baseline_mae": 25.32271999999648,
+        "candidate_mae": 25.32271999999648,
+        "delta": 0.0
+      },
+      {
+        "market": 9,
+        "baseline_mae": 25.243759999996474,
+        "candidate_mae": 25.243759999996474,
+        "delta": 0.0
+      },
+      {
+        "market": 10,
+        "baseline_mae": 22.440059999999356,
+        "candidate_mae": 22.440059999999356,
+        "delta": 0.0
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "F_shared|formal|2|泰国|复合梁|route_co2_TH": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 9.450550000000074,
+    "candidate_mae": 9.442121857095472,
+    "relative_improvement": 0.0008918150694512158,
+    "improved_market_fraction": 0.6,
+    "delta_interval_95": [
+      -0.34502260394672324,
+      0.2832342009981814
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 13.2125,
+        "candidate_mae": 12.961393804894033,
+        "delta": 0.251106195105967
+      },
+      {
+        "market": 2,
+        "baseline_mae": 6.597999999999774,
+        "candidate_mae": 7.521988835108459,
+        "delta": -0.9239888351086849
+      },
+      {
+        "market": 3,
+        "baseline_mae": 9.2699999999998,
+        "candidate_mae": 8.843038132077618,
+        "delta": 0.4269618679221825
+      },
+      {
+        "market": 4,
+        "baseline_mae": 11.4274999999996,
+        "candidate_mae": 10.938706476716652,
+        "delta": 0.4887935232829488
+      },
+      {
+        "market": 5,
+        "baseline_mae": 7.5005000000002156,
+        "candidate_mae": 8.333212889554954,
+        "delta": -0.8327128895547382
+      },
+      {
+        "market": 6,
+        "baseline_mae": 9.775000000000182,
+        "candidate_mae": 9.634630246666529,
+        "delta": 0.14036975333365298
+      },
+      {
+        "market": 7,
+        "baseline_mae": 8.328999999999997,
+        "candidate_mae": 8.363748117035357,
+        "delta": -0.03474811703535963
+      },
+      {
+        "market": 8,
+        "baseline_mae": 10.14150000000086,
+        "candidate_mae": 10.218453219035746,
+        "delta": -0.07695321903488583
+      },
+      {
+        "market": 9,
+        "baseline_mae": 7.69900000000016,
+        "candidate_mae": 7.578338381922004,
+        "delta": 0.1206616180781559
+      },
+      {
+        "market": 10,
+        "baseline_mae": 10.552500000000146,
+        "candidate_mae": 10.027708467943375,
+        "delta": 0.5247915320567706
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      0.0,
+      3920.5
+    ]
+  },
+  "F_previous|formal|2|泰国|复合梁|route_co2_TH": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 9.450550000000074,
+    "candidate_mae": 234.33785000000006,
+    "relative_improvement": -23.79621291882464,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      -674.6619000000001,
+      0.0
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 13.2125,
+        "candidate_mae": 13.2125,
+        "delta": 0.0
+      },
+      {
+        "market": 2,
+        "baseline_mae": 6.597999999999774,
+        "candidate_mae": 6.597999999999774,
+        "delta": 0.0
+      },
+      {
+        "market": 3,
+        "baseline_mae": 9.2699999999998,
+        "candidate_mae": 9.2699999999998,
+        "delta": 0.0
+      },
+      {
+        "market": 4,
+        "baseline_mae": 11.4274999999996,
+        "candidate_mae": 11.4274999999996,
+        "delta": 0.0
+      },
+      {
+        "market": 5,
+        "baseline_mae": 7.5005000000002156,
+        "candidate_mae": 7.5005000000002156,
+        "delta": 0.0
+      },
+      {
+        "market": 6,
+        "baseline_mae": 9.775000000000182,
+        "candidate_mae": 9.775000000000182,
+        "delta": 0.0
+      },
+      {
+        "market": 7,
+        "baseline_mae": 8.328999999999997,
+        "candidate_mae": 8.328999999999997,
+        "delta": 0.0
+      },
+      {
+        "market": 8,
+        "baseline_mae": 10.14150000000086,
+        "candidate_mae": 10.14150000000086,
+        "delta": 0.0
+      },
+      {
+        "market": 9,
+        "baseline_mae": 7.69900000000016,
+        "candidate_mae": 2256.572,
+        "delta": -2248.873
+      },
+      {
+        "market": 10,
+        "baseline_mae": 10.552500000000146,
+        "candidate_mae": 10.552500000000146,
+        "delta": 0.0
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "F_shared|formal|2|泰国|复合梁|route_co2_ID": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 117.29392000000144,
+    "candidate_mae": 119.19460294582356,
+    "relative_improvement": -0.01620444559975575,
+    "improved_market_fraction": 0.4,
+    "delta_interval_95": [
+      -4.035697260253739,
+      -0.2364587334289513
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 118.0608000000042,
+        "candidate_mae": 119.0326267891418,
+        "delta": -0.9718267891375945
+      },
+      {
+        "market": 2,
+        "baseline_mae": 89.08360000002139,
+        "candidate_mae": 88.28158951686055,
+        "delta": 0.8020104831608421
+      },
+      {
+        "market": 3,
+        "baseline_mae": 133.2627999999997,
+        "candidate_mae": 134.24578492797735,
+        "delta": -0.9829849279776681
+      },
+      {
+        "market": 4,
+        "baseline_mae": 133.00920000001787,
+        "candidate_mae": 133.19500535597908,
+        "delta": -0.1858053559612074
+      },
+      {
+        "market": 5,
+        "baseline_mae": 107.47519999999204,
+        "candidate_mae": 112.71941231678356,
+        "delta": -5.2442123167915184
+      },
+      {
+        "market": 6,
+        "baseline_mae": 101.81440000000876,
+        "candidate_mae": 101.60110370196635,
+        "delta": 0.21329629804240824
+      },
+      {
+        "market": 7,
+        "baseline_mae": 144.8919999999809,
+        "candidate_mae": 144.6939508596639,
+        "delta": 0.1980491403170106
+      },
+      {
+        "market": 8,
+        "baseline_mae": 111.849199999962,
+        "candidate_mae": 116.3114723173494,
+        "delta": -4.462272317387402
+      },
+      {
+        "market": 9,
+        "baseline_mae": 140.34079999999375,
+        "candidate_mae": 149.32062702312834,
+        "delta": -8.97982702313459
+      },
+      {
+        "market": 10,
+        "baseline_mae": 93.15120000003371,
+        "candidate_mae": 92.5444566493854,
+        "delta": 0.6067433506483155
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      0.0,
+      47084.4
+    ]
+  },
+  "F_previous|formal|2|泰国|复合梁|route_co2_ID": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 117.29392000000144,
+    "candidate_mae": 19516.71988,
+    "relative_improvement": -165.3915732375537,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      -41529.500295000005,
+      0.0
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 118.0608000000042,
+        "candidate_mae": 118.0608000000042,
+        "delta": 0.0
+      },
+      {
+        "market": 2,
+        "baseline_mae": 89.08360000002139,
+        "candidate_mae": 89.08360000002139,
+        "delta": 0.0
+      },
+      {
+        "market": 3,
+        "baseline_mae": 133.2627999999997,
+        "candidate_mae": 133.2627999999997,
+        "delta": 0.0
+      },
+      {
+        "market": 4,
+        "baseline_mae": 133.00920000001787,
+        "candidate_mae": 48080.32560000002,
+        "delta": -47947.3164
+      },
+      {
+        "market": 5,
+        "baseline_mae": 107.47519999999204,
+        "candidate_mae": 35609.11279999999,
+        "delta": -35501.637599999995
+      },
+      {
+        "market": 6,
+        "baseline_mae": 101.81440000000876,
+        "candidate_mae": 101.81440000000876,
+        "delta": 0.0
+      },
+      {
+        "market": 7,
+        "baseline_mae": 144.8919999999809,
+        "candidate_mae": 144.8919999999809,
+        "delta": 0.0
+      },
+      {
+        "market": 8,
+        "baseline_mae": 111.849199999962,
+        "candidate_mae": 110657.15479999997,
+        "delta": -110545.3056
+      },
+      {
+        "market": 9,
+        "baseline_mae": 140.34079999999375,
+        "candidate_mae": 140.34079999999375,
+        "delta": 0.0
+      },
+      {
+        "market": 10,
+        "baseline_mae": 93.15120000003371,
+        "candidate_mae": 93.15120000003371,
+        "delta": 0.0
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "B_fixed|practice|1|泰国|复合梁": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 0.20199599999998955,
+    "candidate_mae": 0.15620000000002235,
+    "relative_improvement": 0.22671736073966597,
+    "improved_market_fraction": 0.9,
+    "delta_interval_95": [
+      -0.003927900000028551,
+      0.07805839999996385
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 0.21375999999999634,
+        "candidate_mae": 0.20200000000001844,
+        "delta": 0.0117599999999779
+      },
+      {
+        "market": 2,
+        "baseline_mae": 0.23713999999998236,
+        "candidate_mae": 0.15000000000002095,
+        "delta": 0.08713999999996141
+      },
+      {
+        "market": 3,
+        "baseline_mae": 0.07687999999998851,
+        "candidate_mae": 0.05,
+        "delta": 0.02687999999998851
+      },
+      {
+        "market": 4,
+        "baseline_mae": 0.19051999999998656,
+        "candidate_mae": 0.11800000000002911,
+        "delta": 0.07251999999995745
+      },
+      {
+        "market": 5,
+        "baseline_mae": 0.22793999999999243,
+        "candidate_mae": 0.15000000000003694,
+        "delta": 0.07793999999995549
+      },
+      {
+        "market": 6,
+        "baseline_mae": 0.09055999999999571,
+        "candidate_mae": 0.21600000000001032,
+        "delta": -0.1254400000000146
+      },
+      {
+        "market": 7,
+        "baseline_mae": 0.27427999999999814,
+        "candidate_mae": 0.19000000000004036,
+        "delta": 0.08427999999995778
+      },
+      {
+        "market": 8,
+        "baseline_mae": 0.17937999999997772,
+        "candidate_mae": 0.10000000000002415,
+        "delta": 0.07937999999995357
+      },
+      {
+        "market": 9,
+        "baseline_mae": 0.2789599999999865,
+        "candidate_mae": 0.22800000000001247,
+        "delta": 0.050959999999974026
+      },
+      {
+        "market": 10,
+        "baseline_mae": 0.25053999999999094,
+        "candidate_mae": 0.15800000000003048,
+        "delta": 0.09253999999996046
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "B_fitted|practice|1|泰国|复合梁": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 0.1416679077797212,
+    "candidate_mae": 0.13555475975875078,
+    "relative_improvement": 0.04315125504977273,
+    "improved_market_fraction": 0.5,
+    "delta_interval_95": [
+      -0.032716534643788674,
+      0.0403793049129733
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 0.14180200451576094,
+        "candidate_mae": 0.17765059072893868,
+        "delta": -0.03584858621317774
+      },
+      {
+        "market": 2,
+        "baseline_mae": 0.12216363973113076,
+        "candidate_mae": 0.12069746967497821,
+        "delta": 0.0014661700561525437
+      },
+      {
+        "market": 3,
+        "baseline_mae": 0.21271190342452542,
+        "candidate_mae": 0.07914585975478303,
+        "delta": 0.1335660436697424
+      },
+      {
+        "market": 4,
+        "baseline_mae": 0.07878857658937051,
+        "candidate_mae": 0.08183134061494712,
+        "delta": -0.0030427640255766136
+      },
+      {
+        "market": 5,
+        "baseline_mae": 0.1282868427697025,
+        "candidate_mae": 0.10937468998374414,
+        "delta": 0.01891215278595837
+      },
+      {
+        "market": 6,
+        "baseline_mae": 0.08099140669871474,
+        "candidate_mae": 0.19798513496052833,
+        "delta": -0.11699372826181359
+      },
+      {
+        "market": 7,
+        "baseline_mae": 0.12432521341313958,
+        "candidate_mae": 0.14243874196111542,
+        "delta": -0.018113528547975835
+      },
+      {
+        "market": 8,
+        "baseline_mae": 0.13769881191110614,
+        "candidate_mae": 0.08556640985372041,
+        "delta": 0.05213240205738573
+      },
+      {
+        "market": 9,
+        "baseline_mae": 0.25999248388874374,
+        "candidate_mae": 0.23042589207550943,
+        "delta": 0.029566591813234316
+      },
+      {
+        "market": 10,
+        "baseline_mae": 0.12991819485501757,
+        "candidate_mae": 0.13043146797924282,
+        "delta": -0.0005132731242252497
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "B_events|practice|1|泰国|复合梁": {
+    "cells": 100,
+    "hiring": 46,
+    "firing": 54,
+    "zero": 0,
+    "hiring_cost": "无独立招聘费标签，κ_H不识别",
+    "rounding_threshold": "显示精度内误差不能识别τ_F"
+  },
+  "C_weighted|practice|1|泰国|复合梁": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 0.23317902755087433,
+    "candidate_mae": 0.23133174306141568,
+    "relative_improvement": 0.007922172542106556,
+    "improved_market_fraction": 0.6,
+    "delta_interval_95": [
+      -0.017619442272710898,
+      0.01886896144476162
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 0.241129279800316,
+        "candidate_mae": 0.26433525194884167,
+        "delta": -0.023205972148525655
+      },
+      {
+        "market": 2,
+        "baseline_mae": 0.2342027861777119,
+        "candidate_mae": 0.223765991435112,
+        "delta": 0.010436794742599897
+      },
+      {
+        "market": 3,
+        "baseline_mae": 0.20057206325585425,
+        "candidate_mae": 0.22448448592354922,
+        "delta": -0.02391242266769497
+      },
+      {
+        "market": 4,
+        "baseline_mae": 0.37947442252288965,
+        "candidate_mae": 0.33518034413423264,
+        "delta": 0.04429407838865701
+      },
+      {
+        "market": 5,
+        "baseline_mae": 0.2449269047241387,
+        "candidate_mae": 0.20485849189547026,
+        "delta": 0.04006841282866844
+      },
+      {
+        "market": 6,
+        "baseline_mae": 0.2317696394601853,
+        "candidate_mae": 0.22443118836777104,
+        "delta": 0.0073384510924142665
+      },
+      {
+        "market": 7,
+        "baseline_mae": 0.1785351826581973,
+        "candidate_mae": 0.15044774350872103,
+        "delta": 0.028087439149476257
+      },
+      {
+        "market": 8,
+        "baseline_mae": 0.3052884284854372,
+        "candidate_mae": 0.31260424605102344,
+        "delta": -0.007315817565586247
+      },
+      {
+        "market": 9,
+        "baseline_mae": 0.189353056127311,
+        "candidate_mae": 0.18633799525723588,
+        "delta": 0.003015060870075109
+      },
+      {
+        "market": 10,
+        "baseline_mae": 0.12653851229670182,
+        "candidate_mae": 0.18687169209219973,
+        "delta": -0.060333179795497904
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "C_hinge|practice|1|泰国|复合梁": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 0.23317902755087433,
+    "candidate_mae": 30.25205829275567,
+    "relative_improvement": -128.7374751515994,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      -35.40710589334906,
+      -24.41447774468384
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 0.241129279800316,
+        "candidate_mae": 44.96347896476836,
+        "delta": -44.722349684968044
+      },
+      {
+        "market": 2,
+        "baseline_mae": 0.2342027861777119,
+        "candidate_mae": 36.903407486241015,
+        "delta": -36.669204700063304
+      },
+      {
+        "market": 3,
+        "baseline_mae": 0.20057206325585425,
+        "candidate_mae": 40.74172136084466,
+        "delta": -40.5411492975888
+      },
+      {
+        "market": 4,
+        "baseline_mae": 0.37947442252288965,
+        "candidate_mae": 33.374298769657074,
+        "delta": -32.994824347134184
+      },
+      {
+        "market": 5,
+        "baseline_mae": 0.2449269047241387,
+        "candidate_mae": 20.297621989187906,
+        "delta": -20.052695084463767
+      },
+      {
+        "market": 6,
+        "baseline_mae": 0.2317696394601853,
+        "candidate_mae": 31.725467550551684,
+        "delta": -31.4936979110915
+      },
+      {
+        "market": 7,
+        "baseline_mae": 0.1785351826581973,
+        "candidate_mae": 28.050694079292544,
+        "delta": -27.872158896634346
+      },
+      {
+        "market": 8,
+        "baseline_mae": 0.3052884284854372,
+        "candidate_mae": 22.015040376621027,
+        "delta": -21.70975194813559
+      },
+      {
+        "market": 9,
+        "baseline_mae": 0.189353056127311,
+        "candidate_mae": 26.805541690260632,
+        "delta": -26.616188634133323
+      },
+      {
+        "market": 10,
+        "baseline_mae": 0.12653851229670182,
+        "candidate_mae": 17.643310660131828,
+        "delta": -17.516772147835127
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "C_coverage|practice|1|泰国|复合梁": {
+    "cells": 100,
+    "shift_bins": {
+      "2": 27,
+      "3": 44,
+      "1": 29
+    },
+    "formula": "W/(wN)=1+(κ2−1)q2/q+(κ3−1)q3/q；平均工资按各班人数占比加权",
+    "warning": "原候选max(s−1,0)未除以s，与平均工资机制不等价；本实验用于比较参数可识别性"
+  },
+  "E_shared|practice|1|泰国|复合梁|co2": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 9,
+    "cells": 90,
+    "baseline_mae": 2.026261111110686,
+    "candidate_mae": 2.1265532015971793,
+    "relative_improvement": -0.04949613351238765,
+    "improved_market_fraction": 0.4444444444444444,
+    "delta_interval_95": [
+      -0.2555511050597213,
+      0.049660383400831315
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 2.0165600000003905,
+        "candidate_mae": 2.507137544473335,
+        "delta": -0.49057754447294455
+      },
+      {
+        "market": 2,
+        "baseline_mae": 2.682639999999907,
+        "candidate_mae": 2.6371304991607984,
+        "delta": 0.04550950083910843
+      },
+      {
+        "market": 3,
+        "baseline_mae": 1.7643299999985544,
+        "candidate_mae": 2.0540257821230483,
+        "delta": -0.2896957821244939
+      },
+      {
+        "market": 4,
+        "baseline_mae": 2.814170000000195,
+        "candidate_mae": 2.656652952521381,
+        "delta": 0.15751704747881368
+      },
+      {
+        "market": 5,
+        "baseline_mae": 2.0828799999992045,
+        "candidate_mae": 2.064330822134707,
+        "delta": 0.0185491778644975
+      },
+      {
+        "market": 6,
+        "baseline_mae": 1.4047199999986333,
+        "candidate_mae": 1.599090933561456,
+        "delta": -0.19437093356282276
+      },
+      {
+        "market": 7,
+        "baseline_mae": 2.1842499999998837,
+        "candidate_mae": 1.8964444172052026,
+        "delta": 0.28780558279468105
+      },
+      {
+        "market": 8,
+        "baseline_mae": 2.045789999999306,
+        "candidate_mae": 2.1786767980795956,
+        "delta": -0.13288679808028947
+      },
+      {
+        "market": 10,
+        "baseline_mae": 1.2410100000000965,
+        "candidate_mae": 1.545489065115089,
+        "delta": -0.30447906511499245
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      1355.31,
+      1355.32
+    ]
+  },
+  "E_previous|practice|1|泰国|复合梁|co2": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 9,
+    "cells": 90,
+    "baseline_mae": 2.026261111110686,
+    "candidate_mae": 2.0334844444438644,
+    "relative_improvement": -0.0035648580992699193,
+    "improved_market_fraction": 0.3333333333333333,
+    "delta_interval_95": [
+      -0.023034583333255004,
+      0.007295055555848002
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 2.0165600000003905,
+        "candidate_mae": 2.035200000000259,
+        "delta": -0.01863999999986854
+      },
+      {
+        "market": 2,
+        "baseline_mae": 2.682639999999907,
+        "candidate_mae": 2.682639999999907,
+        "delta": 0.0
+      },
+      {
+        "market": 3,
+        "baseline_mae": 1.7643299999985544,
+        "candidate_mae": 1.7635999999985246,
+        "delta": 0.0007300000000298734
+      },
+      {
+        "market": 4,
+        "baseline_mae": 2.814170000000195,
+        "candidate_mae": 2.8633600000002843,
+        "delta": -0.04919000000008955
+      },
+      {
+        "market": 5,
+        "baseline_mae": 2.0828799999992045,
+        "candidate_mae": 2.0828799999992045,
+        "delta": 0.0
+      },
+      {
+        "market": 6,
+        "baseline_mae": 1.4047199999986333,
+        "candidate_mae": 1.4047199999986333,
+        "delta": 0.0
+      },
+      {
+        "market": 7,
+        "baseline_mae": 2.1842499999998837,
+        "candidate_mae": 2.227639999999883,
+        "delta": -0.04338999999999915
+      },
+      {
+        "market": 8,
+        "baseline_mae": 2.045789999999306,
+        "candidate_mae": 2.0266399999989515,
+        "delta": 0.019150000000354606
+      },
+      {
+        "market": 10,
+        "baseline_mae": 1.2410100000000965,
+        "candidate_mae": 1.2146799999991345,
+        "delta": 0.026330000000962084
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "E_shared|practice|1|泰国|复合梁|energy": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 9,
+    "cells": 90,
+    "baseline_mae": 7.0529288888888155,
+    "candidate_mae": 7.487832204694964,
+    "relative_improvement": -0.0616627960748754,
+    "improved_market_fraction": 0.4444444444444444,
+    "delta_interval_95": [
+      -0.9854364036489186,
+      0.12563432383637144
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 7.138199999998688,
+        "candidate_mae": 8.81078759493721,
+        "delta": -1.6725875949385225
+      },
+      {
+        "market": 2,
+        "baseline_mae": 9.369600000000696,
+        "candidate_mae": 9.281993898090969,
+        "delta": 0.08760610190972784
+      },
+      {
+        "market": 3,
+        "baseline_mae": 6.057599999997251,
+        "candidate_mae": 7.28669568437175,
+        "delta": -1.2290956843744993
+      },
+      {
+        "market": 4,
+        "baseline_mae": 9.954240000001482,
+        "candidate_mae": 9.368515548211871,
+        "delta": 0.585724451789611
+      },
+      {
+        "market": 5,
+        "baseline_mae": 7.278679999998895,
+        "candidate_mae": 7.269272878238917,
+        "delta": 0.0094071217599776
+      },
+      {
+        "market": 6,
+        "baseline_mae": 4.782119999998758,
+        "candidate_mae": 5.664708120833893,
+        "delta": -0.8825881208351349
+      },
+      {
+        "market": 7,
+        "baseline_mae": 7.697260000002279,
+        "candidate_mae": 6.653735984542436,
+        "delta": 1.0435240154598429
+      },
+      {
+        "market": 8,
+        "baseline_mae": 7.003320000000531,
+        "candidate_mae": 7.653256136917844,
+        "delta": -0.6499361369173133
+      },
+      {
+        "market": 10,
+        "baseline_mae": 4.19534000000076,
+        "candidate_mae": 5.40152399610979,
+        "delta": -1.2061839961090302
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      4778.38,
+      4778.38
+    ]
+  },
+  "E_previous|practice|1|泰国|复合梁|energy": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 9,
+    "cells": 90,
+    "baseline_mae": 7.0529288888888155,
+    "candidate_mae": 7.0529288888888155,
+    "relative_improvement": 0.0,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 7.138199999998688,
+        "candidate_mae": 7.138199999998688,
+        "delta": 0.0
+      },
+      {
+        "market": 2,
+        "baseline_mae": 9.369600000000696,
+        "candidate_mae": 9.369600000000696,
+        "delta": 0.0
+      },
+      {
+        "market": 3,
+        "baseline_mae": 6.057599999997251,
+        "candidate_mae": 6.057599999997251,
+        "delta": 0.0
+      },
+      {
+        "market": 4,
+        "baseline_mae": 9.954240000001482,
+        "candidate_mae": 9.954240000001482,
+        "delta": 0.0
+      },
+      {
+        "market": 5,
+        "baseline_mae": 7.278679999998895,
+        "candidate_mae": 7.278679999998895,
+        "delta": 0.0
+      },
+      {
+        "market": 6,
+        "baseline_mae": 4.782119999998758,
+        "candidate_mae": 4.782119999998758,
+        "delta": 0.0
+      },
+      {
+        "market": 7,
+        "baseline_mae": 7.697260000002279,
+        "candidate_mae": 7.697260000002279,
+        "delta": 0.0
+      },
+      {
+        "market": 8,
+        "baseline_mae": 7.003320000000531,
+        "candidate_mae": 7.003320000000531,
+        "delta": 0.0
+      },
+      {
+        "market": 10,
+        "baseline_mae": 4.19534000000076,
+        "candidate_mae": 4.19534000000076,
+        "delta": 0.0
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "E_shared|practice|1|泰国|复合梁|water": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 9,
+    "cells": 90,
+    "baseline_mae": 15.204515555555194,
+    "candidate_mae": 16.14516886352143,
+    "relative_improvement": -0.06186670693513514,
+    "improved_market_fraction": 0.4444444444444444,
+    "delta_interval_95": [
+      -2.1461578201977063,
+      0.2916696450074343
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 15.384600000004866,
+        "candidate_mae": 19.040074197128707,
+        "delta": -3.6554741971238407
+      },
+      {
+        "market": 2,
+        "baseline_mae": 20.173280000001295,
+        "candidate_mae": 19.976753873952568,
+        "delta": 0.19652612604872743
+      },
+      {
+        "market": 3,
+        "baseline_mae": 13.010799999995992,
+        "candidate_mae": 15.713335572380924,
+        "delta": -2.7025355723849316
+      },
+      {
+        "market": 4,
+        "baseline_mae": 21.478719999993338,
+        "candidate_mae": 20.190012266907434,
+        "delta": 1.2887077330859036
+      },
+      {
+        "market": 5,
+        "baseline_mae": 15.718039999996837,
+        "candidate_mae": 15.66289922834694,
+        "delta": 0.055140771649895726
+      },
+      {
+        "market": 6,
+        "baseline_mae": 10.265039999998407,
+        "candidate_mae": 12.181621997486218,
+        "delta": -1.9165819974878104
+      },
+      {
+        "market": 7,
+        "baseline_mae": 16.66577999999863,
+        "candidate_mae": 14.371854961771168,
+        "delta": 2.293925038227462
+      },
+      {
+        "market": 8,
+        "baseline_mae": 15.10276000000231,
+        "candidate_mae": 16.50939240737789,
+        "delta": -1.4066324073755823
+      },
+      {
+        "market": 10,
+        "baseline_mae": 9.041620000005059,
+        "candidate_mae": 11.660575266341038,
+        "delta": -2.6189552663359787
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      10307.14,
+      10307.14
+    ]
+  },
+  "E_previous|practice|1|泰国|复合梁|water": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 9,
+    "cells": 90,
+    "baseline_mae": 15.204515555555194,
+    "candidate_mae": 15.204515555555194,
+    "relative_improvement": 0.0,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 15.384600000004866,
+        "candidate_mae": 15.384600000004866,
+        "delta": 0.0
+      },
+      {
+        "market": 2,
+        "baseline_mae": 20.173280000001295,
+        "candidate_mae": 20.173280000001295,
+        "delta": 0.0
+      },
+      {
+        "market": 3,
+        "baseline_mae": 13.010799999995992,
+        "candidate_mae": 13.010799999995992,
+        "delta": 0.0
+      },
+      {
+        "market": 4,
+        "baseline_mae": 21.478719999993338,
+        "candidate_mae": 21.478719999993338,
+        "delta": 0.0
+      },
+      {
+        "market": 5,
+        "baseline_mae": 15.718039999996837,
+        "candidate_mae": 15.718039999996837,
+        "delta": 0.0
+      },
+      {
+        "market": 6,
+        "baseline_mae": 10.265039999998407,
+        "candidate_mae": 10.265039999998407,
+        "delta": 0.0
+      },
+      {
+        "market": 7,
+        "baseline_mae": 16.66577999999863,
+        "candidate_mae": 16.66577999999863,
+        "delta": 0.0
+      },
+      {
+        "market": 8,
+        "baseline_mae": 15.10276000000231,
+        "candidate_mae": 15.10276000000231,
+        "delta": 0.0
+      },
+      {
+        "market": 10,
+        "baseline_mae": 9.041620000005059,
+        "candidate_mae": 9.041620000005059,
+        "delta": 0.0
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "F_shared|practice|1|泰国|复合梁|route_co2_TH": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 6.99970000000034,
+    "candidate_mae": 7.138557743760538,
+    "relative_improvement": -0.019837670723058327,
+    "improved_market_fraction": 0.5,
+    "delta_interval_95": [
+      -0.45647267414011655,
+      0.13867792457257475
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 6.412500000000546,
+        "candidate_mae": 5.99802413139314,
+        "delta": 0.41447586860740593
+      },
+      {
+        "market": 2,
+        "baseline_mae": 10.343500000000095,
+        "candidate_mae": 10.323074155680079,
+        "delta": 0.02042584432001604
+      },
+      {
+        "market": 3,
+        "baseline_mae": 8.872499999999892,
+        "candidate_mae": 8.953163001825342,
+        "delta": -0.0806630018254495
+      },
+      {
+        "market": 4,
+        "baseline_mae": 6.538000000000648,
+        "candidate_mae": 6.724936537748727,
+        "delta": -0.18693653774807917
+      },
+      {
+        "market": 5,
+        "baseline_mae": 7.807000000000744,
+        "candidate_mae": 9.160496320209836,
+        "delta": -1.353496320209092
+      },
+      {
+        "market": 6,
+        "baseline_mae": 5.346999999999935,
+        "candidate_mae": 5.101236129975405,
+        "delta": 0.24576387002452993
+      },
+      {
+        "market": 7,
+        "baseline_mae": 5.111500000000342,
+        "candidate_mae": 5.293187919683987,
+        "delta": -0.18168791968364495
+      },
+      {
+        "market": 8,
+        "baseline_mae": 8.44550000000072,
+        "candidate_mae": 9.101146310520198,
+        "delta": -0.6556463105194776
+      },
+      {
+        "market": 9,
+        "baseline_mae": 4.910000000000582,
+        "candidate_mae": 4.768480519313561,
+        "delta": 0.14151948068702058
+      },
+      {
+        "market": 10,
+        "baseline_mae": 6.209499999999906,
+        "candidate_mae": 5.9618324112550996,
+        "delta": 0.24766758874480654
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      0.0,
+      3921.0
+    ]
+  },
+  "F_previous|practice|1|泰国|复合梁|route_co2_TH": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 6.99970000000034,
+    "candidate_mae": 6.982700000000369,
+    "relative_improvement": 0.0024286755146606586,
+    "improved_market_fraction": 0.1,
+    "delta_interval_95": [
+      0.0,
+      0.05099999999991258
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 6.412500000000546,
+        "candidate_mae": 6.412500000000546,
+        "delta": 0.0
+      },
+      {
+        "market": 2,
+        "baseline_mae": 10.343500000000095,
+        "candidate_mae": 10.343500000000095,
+        "delta": 0.0
+      },
+      {
+        "market": 3,
+        "baseline_mae": 8.872499999999892,
+        "candidate_mae": 8.872499999999892,
+        "delta": 0.0
+      },
+      {
+        "market": 4,
+        "baseline_mae": 6.538000000000648,
+        "candidate_mae": 6.538000000000648,
+        "delta": 0.0
+      },
+      {
+        "market": 5,
+        "baseline_mae": 7.807000000000744,
+        "candidate_mae": 7.637000000001035,
+        "delta": 0.1699999999997086
+      },
+      {
+        "market": 6,
+        "baseline_mae": 5.346999999999935,
+        "candidate_mae": 5.346999999999935,
+        "delta": 0.0
+      },
+      {
+        "market": 7,
+        "baseline_mae": 5.111500000000342,
+        "candidate_mae": 5.111500000000342,
+        "delta": 0.0
+      },
+      {
+        "market": 8,
+        "baseline_mae": 8.44550000000072,
+        "candidate_mae": 8.44550000000072,
+        "delta": 0.0
+      },
+      {
+        "market": 9,
+        "baseline_mae": 4.910000000000582,
+        "candidate_mae": 4.910000000000582,
+        "delta": 0.0
+      },
+      {
+        "market": 10,
+        "baseline_mae": 6.209499999999906,
+        "candidate_mae": 6.209499999999906,
+        "delta": 0.0
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "F_shared|practice|1|泰国|复合梁|route_co2_ID": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 89.21267999999904,
+    "candidate_mae": 90.43573592836499,
+    "relative_improvement": -0.013709440500677312,
+    "improved_market_fraction": 0.7,
+    "delta_interval_95": [
+      -5.398073743157965,
+      1.987084586676482
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 105.31039999998174,
+        "candidate_mae": 102.77755220653489,
+        "delta": 2.532847793446848
+      },
+      {
+        "market": 2,
+        "baseline_mae": 80.95160000000033,
+        "candidate_mae": 78.32200274568095,
+        "delta": 2.6295972543193784
+      },
+      {
+        "market": 3,
+        "baseline_mae": 91.47760000002836,
+        "candidate_mae": 88.64708752785118,
+        "delta": 2.830512472177176
+      },
+      {
+        "market": 4,
+        "baseline_mae": 84.77239999998127,
+        "candidate_mae": 80.8037942524359,
+        "delta": 3.968605747545368
+      },
+      {
+        "market": 5,
+        "baseline_mae": 67.50879999999597,
+        "candidate_mae": 79.29614973033895,
+        "delta": -11.787349730342982
+      },
+      {
+        "market": 6,
+        "baseline_mae": 100.16759999999776,
+        "candidate_mae": 103.31950670081423,
+        "delta": -3.1519067008164683
+      },
+      {
+        "market": 7,
+        "baseline_mae": 98.14439999999304,
+        "candidate_mae": 97.03672905845742,
+        "delta": 1.1076709415356163
+      },
+      {
+        "market": 8,
+        "baseline_mae": 97.80640000000713,
+        "candidate_mae": 95.44903160612448,
+        "delta": 2.357368393882652
+      },
+      {
+        "market": 9,
+        "baseline_mae": 75.1320000000007,
+        "candidate_mae": 88.21139604598284,
+        "delta": -13.079396045982136
+      },
+      {
+        "market": 10,
+        "baseline_mae": 90.85560000000405,
+        "candidate_mae": 90.49410940942907,
+        "delta": 0.3614905905749737
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      0.0,
+      47084.4
+    ]
+  },
+  "F_previous|practice|1|泰国|复合梁|route_co2_ID": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 89.21267999999904,
+    "candidate_mae": 89.21267999999904,
+    "relative_improvement": 0.0,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 105.31039999998174,
+        "candidate_mae": 105.31039999998174,
+        "delta": 0.0
+      },
+      {
+        "market": 2,
+        "baseline_mae": 80.95160000000033,
+        "candidate_mae": 80.95160000000033,
+        "delta": 0.0
+      },
+      {
+        "market": 3,
+        "baseline_mae": 91.47760000002836,
+        "candidate_mae": 91.47760000002836,
+        "delta": 0.0
+      },
+      {
+        "market": 4,
+        "baseline_mae": 84.77239999998127,
+        "candidate_mae": 84.77239999998127,
+        "delta": 0.0
+      },
+      {
+        "market": 5,
+        "baseline_mae": 67.50879999999597,
+        "candidate_mae": 67.50879999999597,
+        "delta": 0.0
+      },
+      {
+        "market": 6,
+        "baseline_mae": 100.16759999999776,
+        "candidate_mae": 100.16759999999776,
+        "delta": 0.0
+      },
+      {
+        "market": 7,
+        "baseline_mae": 98.14439999999304,
+        "candidate_mae": 98.14439999999304,
+        "delta": 0.0
+      },
+      {
+        "market": 8,
+        "baseline_mae": 97.80640000000713,
+        "candidate_mae": 97.80640000000713,
+        "delta": 0.0
+      },
+      {
+        "market": 9,
+        "baseline_mae": 75.1320000000007,
+        "candidate_mae": 75.1320000000007,
+        "delta": 0.0
+      },
+      {
+        "market": 10,
+        "baseline_mae": 90.85560000000405,
+        "candidate_mae": 90.85560000000405,
+        "delta": 0.0
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "B_fixed|practice|2|泰国|复合梁": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 0.0932479999999964,
+    "candidate_mae": 0.07759999999999895,
+    "relative_improvement": 0.1678105696636717,
+    "improved_market_fraction": 0.7,
+    "delta_interval_95": [
+      -0.0030453000000094216,
+      0.031655649999990834
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 0.08311999999999706,
+        "candidate_mae": 0.040000000000000216,
+        "delta": 0.04311999999999684
+      },
+      {
+        "market": 2,
+        "baseline_mae": 0.07483999999997852,
+        "candidate_mae": 0.11599999999999806,
+        "delta": -0.04116000000001954
+      },
+      {
+        "market": 3,
+        "baseline_mae": 0.07098000000001763,
+        "candidate_mae": 0.08599999999998591,
+        "delta": -0.015019999999968281
+      },
+      {
+        "market": 4,
+        "baseline_mae": 0.15457999999999822,
+        "candidate_mae": 0.13400000000000034,
+        "delta": 0.020579999999997878
+      },
+      {
+        "market": 5,
+        "baseline_mae": 0.10989999999999647,
+        "candidate_mae": 0.05599999999999987,
+        "delta": 0.0538999999999966
+      },
+      {
+        "market": 6,
+        "baseline_mae": 0.08029999999998516,
+        "candidate_mae": 0.04599999999999973,
+        "delta": 0.03429999999998543
+      },
+      {
+        "market": 7,
+        "baseline_mae": 0.13319999999998977,
+        "candidate_mae": 0.09400000000000083,
+        "delta": 0.03919999999998894
+      },
+      {
+        "market": 8,
+        "baseline_mae": 0.1094800000000001,
+        "candidate_mae": 0.08399999999999874,
+        "delta": 0.025480000000001363
+      },
+      {
+        "market": 9,
+        "baseline_mae": 0.07192000000000025,
+        "candidate_mae": 0.06800000000000476,
+        "delta": 0.003919999999995483
+      },
+      {
+        "market": 10,
+        "baseline_mae": 0.044160000000000824,
+        "candidate_mae": 0.052000000000001025,
+        "delta": -0.007840000000000201
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "B_fitted|practice|2|泰国|复合梁": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 0.10378453621097114,
+    "candidate_mae": 0.08713452184109417,
+    "relative_improvement": 0.1604286628600541,
+    "improved_market_fraction": 0.7,
+    "delta_interval_95": [
+      -0.00032253763852785653,
+      0.031768222640839616
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 0.08387758474302558,
+        "candidate_mae": 0.041564537683077066,
+        "delta": 0.04231304705994851
+      },
+      {
+        "market": 2,
+        "baseline_mae": 0.0698992485266217,
+        "candidate_mae": 0.10680189657012722,
+        "delta": -0.036902648043505515
+      },
+      {
+        "market": 3,
+        "baseline_mae": 0.16370031323476048,
+        "candidate_mae": 0.1582538891656849,
+        "delta": 0.005446424069075584
+      },
+      {
+        "market": 4,
+        "baseline_mae": 0.15521206384854622,
+        "candidate_mae": 0.13534920771252956,
+        "delta": 0.019862856136016654
+      },
+      {
+        "market": 5,
+        "baseline_mae": 0.11556583242842464,
+        "candidate_mae": 0.06659177928313191,
+        "delta": 0.048974053145292726
+      },
+      {
+        "market": 6,
+        "baseline_mae": 0.07936468439705244,
+        "candidate_mae": 0.043873926873135,
+        "delta": 0.035490757523917435
+      },
+      {
+        "market": 7,
+        "baseline_mae": 0.1376116437537746,
+        "candidate_mae": 0.10234822111397861,
+        "delta": 0.035263422639796
+      },
+      {
+        "market": 8,
+        "baseline_mae": 0.1041346176112384,
+        "candidate_mae": 0.07228842072571436,
+        "delta": 0.03184619688552405
+      },
+      {
+        "market": 9,
+        "baseline_mae": 0.0810160791542188,
+        "candidate_mae": 0.08581442890591635,
+        "delta": -0.004798349751697559
+      },
+      {
+        "market": 10,
+        "baseline_mae": 0.04746329441204864,
+        "candidate_mae": 0.05845891037764659,
+        "delta": -0.010995615965597949
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "B_events|practice|2|泰国|复合梁": {
+    "cells": 100,
+    "hiring": 73,
+    "firing": 26,
+    "zero": 1,
+    "hiring_cost": "无独立招聘费标签，κ_H不识别",
+    "rounding_threshold": "显示精度内误差不能识别τ_F"
+  },
+  "C_weighted|practice|2|泰国|复合梁": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 0.25302214400998435,
+    "candidate_mae": 0.2576803983787011,
+    "relative_improvement": -0.018410461214544666,
+    "improved_market_fraction": 0.4,
+    "delta_interval_95": [
+      -0.0134550424253918,
+      0.003310839421770894
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 0.30057023425424634,
+        "candidate_mae": 0.3203594651618914,
+        "delta": -0.01978923090764506
+      },
+      {
+        "market": 2,
+        "baseline_mae": 0.224175289497623,
+        "candidate_mae": 0.25389579132537393,
+        "delta": -0.029720501827750934
+      },
+      {
+        "market": 3,
+        "baseline_mae": 0.2700717111534,
+        "candidate_mae": 0.27665863388867773,
+        "delta": -0.006586922735277723
+      },
+      {
+        "market": 4,
+        "baseline_mae": 0.3090715734429523,
+        "candidate_mae": 0.3147867940136166,
+        "delta": -0.0057152205706643144
+      },
+      {
+        "market": 5,
+        "baseline_mae": 0.3560312270370787,
+        "candidate_mae": 0.3577876696458816,
+        "delta": -0.0017564426088029217
+      },
+      {
+        "market": 6,
+        "baseline_mae": 0.2716054582563629,
+        "candidate_mae": 0.2677988576600455,
+        "delta": 0.0038066005963173777
+      },
+      {
+        "market": 7,
+        "baseline_mae": 0.13155440807752256,
+        "candidate_mae": 0.12698513036216355,
+        "delta": 0.004569277715359005
+      },
+      {
+        "market": 8,
+        "baseline_mae": 0.24062760063751512,
+        "candidate_mae": 0.2270116326469065,
+        "delta": 0.01361596799060863
+      },
+      {
+        "market": 9,
+        "baseline_mae": 0.20817021003570169,
+        "candidate_mae": 0.2258067456057926,
+        "delta": -0.017636535570090928
+      },
+      {
+        "market": 10,
+        "baseline_mae": 0.2183437277074404,
+        "candidate_mae": 0.20571326347666172,
+        "delta": 0.012630464230778682
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "C_hinge|practice|2|泰国|复合梁": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 0.25302214400998435,
+    "candidate_mae": 42.12147829687594,
+    "relative_improvement": -165.4734857958275,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      -49.41169153822312,
+      -35.14595277657713
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 0.30057023425424634,
+        "candidate_mae": 27.385682082462655,
+        "delta": -27.08511184820841
+      },
+      {
+        "market": 2,
+        "baseline_mae": 0.224175289497623,
+        "candidate_mae": 66.62402327558947,
+        "delta": -66.39984798609184
+      },
+      {
+        "market": 3,
+        "baseline_mae": 0.2700717111534,
+        "candidate_mae": 43.45156199161799,
+        "delta": -43.181490280464594
+      },
+      {
+        "market": 4,
+        "baseline_mae": 0.3090715734429523,
+        "candidate_mae": 41.35479186278076,
+        "delta": -41.04572028933781
+      },
+      {
+        "market": 5,
+        "baseline_mae": 0.3560312270370787,
+        "candidate_mae": 39.208696403742785,
+        "delta": -38.852665176705706
+      },
+      {
+        "market": 6,
+        "baseline_mae": 0.2716054582563629,
+        "candidate_mae": 50.1443725965478,
+        "delta": -49.87276713829144
+      },
+      {
+        "market": 7,
+        "baseline_mae": 0.13155440807752256,
+        "candidate_mae": 33.92871584613745,
+        "delta": -33.79716143805993
+      },
+      {
+        "market": 8,
+        "baseline_mae": 0.24062760063751512,
+        "candidate_mae": 26.20371444947631,
+        "delta": -25.963086848838792
+      },
+      {
+        "market": 9,
+        "baseline_mae": 0.20817021003570169,
+        "candidate_mae": 49.81749571206922,
+        "delta": -49.60932550203351
+      },
+      {
+        "market": 10,
+        "baseline_mae": 0.2183437277074404,
+        "candidate_mae": 43.09572874833501,
+        "delta": -42.87738502062757
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "C_coverage|practice|2|泰国|复合梁": {
+    "cells": 100,
+    "shift_bins": {
+      "2": 37,
+      "3": 45,
+      "1": 18
+    },
+    "formula": "W/(wN)=1+(κ2−1)q2/q+(κ3−1)q3/q；平均工资按各班人数占比加权",
+    "warning": "原候选max(s−1,0)未除以s，与平均工资机制不等价；本实验用于比较参数可识别性"
+  },
+  "E_shared|practice|2|泰国|复合梁|co2": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 2.8732879999997283,
+    "candidate_mae": 2.9116759433252866,
+    "relative_improvement": -0.013360283871843655,
+    "improved_market_fraction": 0.3,
+    "delta_interval_95": [
+      -0.08616565101480832,
+      0.00485112903521643
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 2.915700000000288,
+        "candidate_mae": 3.09149071339707,
+        "delta": -0.1757907133967822
+      },
+      {
+        "market": 2,
+        "baseline_mae": 3.5581499999999324,
+        "candidate_mae": 3.729465899791194,
+        "delta": -0.17131589979126138
+      },
+      {
+        "market": 3,
+        "baseline_mae": 3.130229999998739,
+        "candidate_mae": 3.19511912653467,
+        "delta": -0.06488912653593104
+      },
+      {
+        "market": 4,
+        "baseline_mae": 3.0411199999998644,
+        "candidate_mae": 3.0432823425380775,
+        "delta": -0.0021623425382131245
+      },
+      {
+        "market": 5,
+        "baseline_mae": 3.4247999999999594,
+        "candidate_mae": 3.448753697987013,
+        "delta": -0.0239536979870536
+      },
+      {
+        "market": 6,
+        "baseline_mae": 3.353289999998924,
+        "candidate_mae": 3.350748308118,
+        "delta": 0.002541691880924013
+      },
+      {
+        "market": 7,
+        "baseline_mae": 1.7924599999994826,
+        "candidate_mae": 1.793360977817065,
+        "delta": -0.0009009778175823602
+      },
+      {
+        "market": 8,
+        "baseline_mae": 1.9173299999991287,
+        "candidate_mae": 1.9202765129051387,
+        "delta": -0.0029465129060100015
+      },
+      {
+        "market": 9,
+        "baseline_mae": 2.7689500000001828,
+        "candidate_mae": 2.755938522825153,
+        "delta": 0.013011477175029817
+      },
+      {
+        "market": 10,
+        "baseline_mae": 2.8308500000007824,
+        "candidate_mae": 2.788323331339484,
+        "delta": 0.042526668661298395
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      1355.31,
+      1355.32
+    ]
+  },
+  "E_previous|practice|2|泰国|复合梁|co2": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 9,
+    "cells": 90,
+    "baseline_mae": 2.884881111110789,
+    "candidate_mae": 2.8721677777775003,
+    "relative_improvement": 0.004406882933346811,
+    "improved_market_fraction": 0.5555555555555556,
+    "delta_interval_95": [
+      -0.0012703333333516837,
+      0.02612338888883209
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 2.915700000000288,
+        "candidate_mae": 2.8790900000003603,
+        "delta": 0.036609999999927645
+      },
+      {
+        "market": 2,
+        "baseline_mae": 3.5581499999999324,
+        "candidate_mae": 3.558479999999963,
+        "delta": -0.0003300000000305836
+      },
+      {
+        "market": 3,
+        "baseline_mae": 3.130229999998739,
+        "candidate_mae": 3.0920699999985053,
+        "delta": 0.03816000000023356
+      },
+      {
+        "market": 4,
+        "baseline_mae": 3.0411199999998644,
+        "candidate_mae": 3.0229700000003503,
+        "delta": 0.018149999999514055
+      },
+      {
+        "market": 5,
+        "baseline_mae": 3.4247999999999594,
+        "candidate_mae": 3.4247999999999594,
+        "delta": 0.0
+      },
+      {
+        "market": 6,
+        "baseline_mae": 3.353289999998924,
+        "candidate_mae": 3.3392399999991538,
+        "delta": 0.01404999999977008
+      },
+      {
+        "market": 7,
+        "baseline_mae": 1.7924599999994826,
+        "candidate_mae": 1.814919999999256,
+        "delta": -0.02245999999977344
+      },
+      {
+        "market": 8,
+        "baseline_mae": 1.9173299999991287,
+        "candidate_mae": 1.9241499999990084,
+        "delta": -0.0068199999998797
+      },
+      {
+        "market": 10,
+        "baseline_mae": 2.8308500000007824,
+        "candidate_mae": 2.793790000000945,
+        "delta": 0.037059999999837334
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "E_shared|practice|2|泰国|复合梁|energy": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 10.062627999999718,
+    "candidate_mae": 10.23772174632899,
+    "relative_improvement": -0.017400399411493444,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      -0.3057031172076396,
+      -0.0596452328418581
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 10.26727999999748,
+        "candidate_mae": 10.840844553466013,
+        "delta": -0.5735645534685325
+      },
+      {
+        "market": 2,
+        "baseline_mae": 12.711959999997452,
+        "candidate_mae": 13.14071917083802,
+        "delta": -0.4287591708405678
+      },
+      {
+        "market": 3,
+        "baseline_mae": 10.870640000002945,
+        "candidate_mae": 11.23187335872753,
+        "delta": -0.3612333587245846
+      },
+      {
+        "market": 4,
+        "baseline_mae": 10.570160000004762,
+        "candidate_mae": 10.726082282271818,
+        "delta": -0.1559222822670563
+      },
+      {
+        "market": 5,
+        "baseline_mae": 12.135479999996823,
+        "candidate_mae": 12.149847970030896,
+        "delta": -0.014367970034072641
+      },
+      {
+        "market": 6,
+        "baseline_mae": 11.619379999998273,
+        "candidate_mae": 11.710810240383944,
+        "delta": -0.09143024038567127
+      },
+      {
+        "market": 7,
+        "baseline_mae": 6.2922600000023525,
+        "candidate_mae": 6.298048051623846,
+        "delta": -0.005788051621493651
+      },
+      {
+        "market": 8,
+        "baseline_mae": 6.675079999998343,
+        "candidate_mae": 6.730205240940085,
+        "delta": -0.055125240941742426
+      },
+      {
+        "market": 9,
+        "baseline_mae": 9.660039999998508,
+        "candidate_mae": 9.703736631249587,
+        "delta": -0.0436966312510787
+      },
+      {
+        "market": 10,
+        "baseline_mae": 9.82400000000025,
+        "candidate_mae": 9.845049963758175,
+        "delta": -0.021049963757924672
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      4778.38,
+      4778.38
+    ]
+  },
+  "E_previous|practice|2|泰国|复合梁|energy": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 9,
+    "cells": 90,
+    "baseline_mae": 10.107359999999852,
+    "candidate_mae": 10.107359999999852,
+    "relative_improvement": 0.0,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 10.26727999999748,
+        "candidate_mae": 10.26727999999748,
+        "delta": 0.0
+      },
+      {
+        "market": 2,
+        "baseline_mae": 12.711959999997452,
+        "candidate_mae": 12.711959999997452,
+        "delta": 0.0
+      },
+      {
+        "market": 3,
+        "baseline_mae": 10.870640000002945,
+        "candidate_mae": 10.870640000002945,
+        "delta": 0.0
+      },
+      {
+        "market": 4,
+        "baseline_mae": 10.570160000004762,
+        "candidate_mae": 10.570160000004762,
+        "delta": 0.0
+      },
+      {
+        "market": 5,
+        "baseline_mae": 12.135479999996823,
+        "candidate_mae": 12.135479999996823,
+        "delta": 0.0
+      },
+      {
+        "market": 6,
+        "baseline_mae": 11.619379999998273,
+        "candidate_mae": 11.619379999998273,
+        "delta": 0.0
+      },
+      {
+        "market": 7,
+        "baseline_mae": 6.2922600000023525,
+        "candidate_mae": 6.2922600000023525,
+        "delta": 0.0
+      },
+      {
+        "market": 8,
+        "baseline_mae": 6.675079999998343,
+        "candidate_mae": 6.675079999998343,
+        "delta": 0.0
+      },
+      {
+        "market": 10,
+        "baseline_mae": 9.82400000000025,
+        "candidate_mae": 9.82400000000025,
+        "delta": 0.0
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "E_shared|practice|2|泰国|复合梁|water": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 21.69514400000126,
+    "candidate_mae": 22.09338164480039,
+    "relative_improvement": -0.018356072898115278,
+    "improved_market_fraction": 0.1,
+    "delta_interval_95": [
+      -0.7076406138376111,
+      -0.1214951358213014
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 22.073840000003838,
+        "candidate_mae": 23.394310005662554,
+        "delta": -1.3204700056587164
+      },
+      {
+        "market": 2,
+        "baseline_mae": 27.359880000000338,
+        "candidate_mae": 28.345150802869465,
+        "delta": -0.9852708028691275
+      },
+      {
+        "market": 3,
+        "baseline_mae": 23.400919999998223,
+        "candidate_mae": 24.250156154722514,
+        "delta": -0.8492361547242915
+      },
+      {
+        "market": 4,
+        "baseline_mae": 22.84448000001503,
+        "candidate_mae": 23.139712924214837,
+        "delta": -0.2952329241998086
+      },
+      {
+        "market": 5,
+        "baseline_mae": 26.1684399999991,
+        "candidate_mae": 26.223044683663467,
+        "delta": -0.05460468366436544
+      },
+      {
+        "market": 6,
+        "baseline_mae": 25.070139999995444,
+        "candidate_mae": 25.266558091244224,
+        "delta": -0.1964180912487805
+      },
+      {
+        "market": 7,
+        "baseline_mae": 13.570779999998194,
+        "candidate_mae": 13.566636943000049,
+        "delta": 0.0041430569981457666
+      },
+      {
+        "market": 8,
+        "baseline_mae": 14.385639999998602,
+        "candidate_mae": 14.543890820211164,
+        "delta": -0.15825082021256165
+      },
+      {
+        "market": 9,
+        "baseline_mae": 20.825319999999056,
+        "candidate_mae": 20.951152732473794,
+        "delta": -0.1258327324747377
+      },
+      {
+        "market": 10,
+        "baseline_mae": 21.252000000004774,
+        "candidate_mae": 21.253203289941847,
+        "delta": -0.0012032899370737482
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      10307.14,
+      10307.14
+    ]
+  },
+  "E_previous|practice|2|泰国|复合梁|water": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 9,
+    "cells": 90,
+    "baseline_mae": 21.791791111112616,
+    "candidate_mae": 21.791791111112616,
+    "relative_improvement": 0.0,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      0.0,
+      0.0
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 22.073840000003838,
+        "candidate_mae": 22.073840000003838,
+        "delta": 0.0
+      },
+      {
+        "market": 2,
+        "baseline_mae": 27.359880000000338,
+        "candidate_mae": 27.359880000000338,
+        "delta": 0.0
+      },
+      {
+        "market": 3,
+        "baseline_mae": 23.400919999998223,
+        "candidate_mae": 23.400919999998223,
+        "delta": 0.0
+      },
+      {
+        "market": 4,
+        "baseline_mae": 22.84448000001503,
+        "candidate_mae": 22.84448000001503,
+        "delta": 0.0
+      },
+      {
+        "market": 5,
+        "baseline_mae": 26.1684399999991,
+        "candidate_mae": 26.1684399999991,
+        "delta": 0.0
+      },
+      {
+        "market": 6,
+        "baseline_mae": 25.070139999995444,
+        "candidate_mae": 25.070139999995444,
+        "delta": 0.0
+      },
+      {
+        "market": 7,
+        "baseline_mae": 13.570779999998194,
+        "candidate_mae": 13.570779999998194,
+        "delta": 0.0
+      },
+      {
+        "market": 8,
+        "baseline_mae": 14.385639999998602,
+        "candidate_mae": 14.385639999998602,
+        "delta": 0.0
+      },
+      {
+        "market": 10,
+        "baseline_mae": 21.252000000004774,
+        "candidate_mae": 21.252000000004774,
+        "delta": 0.0
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "F_shared|practice|2|泰国|复合梁|route_co2_TH": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 8.576299999999874,
+    "candidate_mae": 8.699760493883291,
+    "relative_improvement": -0.014395542819563123,
+    "improved_market_fraction": 0.1,
+    "delta_interval_95": [
+      -0.20486757944756745,
+      -0.05632759980508536
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 6.724499999999898,
+        "candidate_mae": 6.917035094214225,
+        "delta": -0.19253509421432735
+      },
+      {
+        "market": 2,
+        "baseline_mae": 8.489499999999861,
+        "candidate_mae": 8.839505992928206,
+        "delta": -0.3500059929283452
+      },
+      {
+        "market": 3,
+        "baseline_mae": 7.089999999999887,
+        "candidate_mae": 7.115564184365954,
+        "delta": -0.025564184366066556
+      },
+      {
+        "market": 4,
+        "baseline_mae": 9.7424999999992,
+        "candidate_mae": 9.76680052471438,
+        "delta": -0.02430052471517996
+      },
+      {
+        "market": 5,
+        "baseline_mae": 10.670000000000044,
+        "candidate_mae": 10.77221636219854,
+        "delta": -0.1022163621984955
+      },
+      {
+        "market": 6,
+        "baseline_mae": 7.961500000000524,
+        "candidate_mae": 8.097587316117915,
+        "delta": -0.13608731611739078
+      },
+      {
+        "market": 7,
+        "baseline_mae": 7.435000000000218,
+        "candidate_mae": 7.431839291250435,
+        "delta": 0.0031607087497826925
+      },
+      {
+        "market": 8,
+        "baseline_mae": 8.799999999999908,
+        "candidate_mae": 9.092199940535465,
+        "delta": -0.2921999405355571
+      },
+      {
+        "market": 9,
+        "baseline_mae": 7.272999999999411,
+        "candidate_mae": 7.326624670833008,
+        "delta": -0.05362467083359679
+      },
+      {
+        "market": 10,
+        "baseline_mae": 11.576999999999789,
+        "candidate_mae": 11.638231561674775,
+        "delta": -0.06123156167498678
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      0.0,
+      3920.5
+    ]
+  },
+  "F_previous|practice|2|泰国|复合梁|route_co2_TH": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 8.576299999999874,
+    "candidate_mae": 1007.8340499999998,
+    "relative_improvement": -116.51385212737598,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      -2122.6887500000003,
+      0.0
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 6.724499999999898,
+        "candidate_mae": 6.724499999999898,
+        "delta": 0.0
+      },
+      {
+        "market": 2,
+        "baseline_mae": 8.489499999999861,
+        "candidate_mae": 8.489499999999861,
+        "delta": 0.0
+      },
+      {
+        "market": 3,
+        "baseline_mae": 7.089999999999887,
+        "candidate_mae": 7.089999999999887,
+        "delta": 0.0
+      },
+      {
+        "market": 4,
+        "baseline_mae": 9.7424999999992,
+        "candidate_mae": 9.7424999999992,
+        "delta": 0.0
+      },
+      {
+        "market": 5,
+        "baseline_mae": 10.670000000000044,
+        "candidate_mae": 2378.7965,
+        "delta": -2368.1265
+      },
+      {
+        "market": 6,
+        "baseline_mae": 7.961500000000524,
+        "candidate_mae": 4022.5535000000004,
+        "delta": -4014.592
+      },
+      {
+        "market": 7,
+        "baseline_mae": 7.435000000000218,
+        "candidate_mae": 7.435000000000218,
+        "delta": 0.0
+      },
+      {
+        "market": 8,
+        "baseline_mae": 8.799999999999908,
+        "candidate_mae": 8.799999999999908,
+        "delta": 0.0
+      },
+      {
+        "market": 9,
+        "baseline_mae": 7.272999999999411,
+        "candidate_mae": 3617.132,
+        "delta": -3609.859000000001
+      },
+      {
+        "market": 10,
+        "baseline_mae": 11.576999999999789,
+        "candidate_mae": 11.576999999999789,
+        "delta": 0.0
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "F_shared|practice|2|泰国|复合梁|route_co2_ID": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 106.99275999999884,
+    "candidate_mae": 107.09451639216203,
+    "relative_improvement": -0.0009510586712895078,
+    "improved_market_fraction": 0.4,
+    "delta_interval_95": [
+      -0.9015141241805561,
+      0.74196483405522
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 123.42040000001434,
+        "candidate_mae": 122.10191705970792,
+        "delta": 1.3184829403064242
+      },
+      {
+        "market": 2,
+        "baseline_mae": 116.88600000001024,
+        "candidate_mae": 114.38011715242465,
+        "delta": 2.505882847585596
+      },
+      {
+        "market": 3,
+        "baseline_mae": 112.07399999995314,
+        "candidate_mae": 112.4568620441842,
+        "delta": -0.38286204423106085
+      },
+      {
+        "market": 4,
+        "baseline_mae": 124.8776000000129,
+        "candidate_mae": 125.76155554602155,
+        "delta": -0.8839555460086501
+      },
+      {
+        "market": 5,
+        "baseline_mae": 76.12560000000522,
+        "candidate_mae": 77.44202958744718,
+        "delta": -1.3164295874419594
+      },
+      {
+        "market": 6,
+        "baseline_mae": 137.0840000000084,
+        "candidate_mae": 136.4348411810526,
+        "delta": 0.6491588189557831
+      },
+      {
+        "market": 7,
+        "baseline_mae": 85.2284000000218,
+        "candidate_mae": 84.14148180301126,
+        "delta": 1.086918197010533
+      },
+      {
+        "market": 8,
+        "baseline_mae": 79.17199999997975,
+        "candidate_mae": 79.86001176520949,
+        "delta": -0.6880117652297457
+      },
+      {
+        "market": 9,
+        "baseline_mae": 121.00599999998039,
+        "candidate_mae": 122.56328422414681,
+        "delta": -1.5572842241664233
+      },
+      {
+        "market": 10,
+        "baseline_mae": 94.05360000000219,
+        "candidate_mae": 95.80306355841458,
+        "delta": -1.749463558412387
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测",
+    "coefficient_range": [
+      0.0,
+      47084.4
+    ]
+  },
+  "F_previous|practice|2|泰国|复合梁|route_co2_ID": {
+    "status": "RESEARCH_INCONCLUSIVE",
+    "market_count": 10,
+    "cells": 100,
+    "baseline_mae": 106.99275999999884,
+    "candidate_mae": 37948.5374,
+    "relative_improvement": -353.68322716415963,
+    "improved_market_fraction": 0.0,
+    "delta_interval_95": [
+      -60292.80839900001,
+      -16023.20422200001
+    ],
+    "bootstrap_samples": 1000,
+    "seed": 20261013,
+    "allowed_refit": false,
+    "allow_deployment": false,
+    "deployment_reason": "缺独立后续正式回合验证；仅历史条件回放",
+    "per_market": [
+      {
+        "market": 1,
+        "baseline_mae": 123.42040000001434,
+        "candidate_mae": 123.42040000001434,
+        "delta": 0.0
+      },
+      {
+        "market": 2,
+        "baseline_mae": 116.88600000001024,
+        "candidate_mae": 23941.59240000001,
+        "delta": -23824.7064
+      },
+      {
+        "market": 3,
+        "baseline_mae": 112.07399999995314,
+        "candidate_mae": 62471.74399999995,
+        "delta": -62359.67
+      },
+      {
+        "market": 4,
+        "baseline_mae": 124.8776000000129,
+        "candidate_mae": 62888.38280000002,
+        "delta": -62763.50520000001
+      },
+      {
+        "market": 5,
+        "baseline_mae": 76.12560000000522,
+        "candidate_mae": 76.12560000000522,
+        "delta": 0.0
+      },
+      {
+        "market": 6,
+        "baseline_mae": 137.0840000000084,
+        "candidate_mae": 137.0840000000084,
+        "delta": 0.0
+      },
+      {
+        "market": 7,
+        "baseline_mae": 85.2284000000218,
+        "candidate_mae": 79528.79560000003,
+        "delta": -79443.5672
+      },
+      {
+        "market": 8,
+        "baseline_mae": 79.17199999997975,
+        "candidate_mae": 93307.47559999998,
+        "delta": -93228.3036
+      },
+      {
+        "market": 9,
+        "baseline_mae": 121.00599999998039,
+        "candidate_mae": 603.7575999999802,
+        "delta": -482.7515999999998
+      },
+      {
+        "market": 10,
+        "baseline_mae": 94.05360000000219,
+        "candidate_mae": 56406.99600000002,
+        "delta": -56312.94240000002
+      }
+    ],
+    "statistical_gate_passed": false,
+    "interpretation": "诊断候选；已知当期实际产量/人数/交付；不作为事前经营预测"
+  },
+  "D_selection": {
+    "folds": 9,
+    "selected_columns": {
+      "[0, 2]": 7,
+      "[0, 1]": 1,
+      "[]": 1
+    },
+    "names": {
+      "0": "上期残差",
+      "1": "招聘率",
+      "2": "裁员率"
+    },
+    "warning": "内层折外残差再选正则的更深层切分仍共享基准训练信息；外层整市场留出有效，但选型可能不稳。仅单一正式转移。"
+  }
+}

@@ -1,0 +1,2110 @@
+{
+  "source": "output\\t4v1\\20261014T153914569881+0800",
+  "source_hashes": {
+    "dataset.json": "8b74accaab8b19d271a1ab2ae4bb5534c034d91c5c4c476b5fa7050785f6ec9e",
+    "models_full.json": "e45bd5d9dbc8c7db9422a8b264d5cb14f009b31546b3742d877cf71f5f7ddc3b",
+    "demand_validation.json": "a3a8ad4debd7275bf5cbb118516a11d034b7ca23f1707895516c7c2d1ca0e484"
+  },
+  "demand": {
+    "复合梁": {
+      "n": 200,
+      "excluded_zero_price": 0,
+      "active_group_counts": {
+        "10": 20
+      },
+      "metrics": {
+        "SHARE": {
+          "training_pp": 0.7115447977066207,
+          "nested_pp": 0.7932341801785281,
+          "rho": 1,
+          "beta": [
+            3.2714728511881606,
+            1.8535369329501035,
+            0.10075704780158765,
+            0.18944116921558665,
+            1.0719582205561318,
+            2.944315215243004,
+            2.6857094559091492
+          ],
+          "piecewise": true
+        },
+        "COUNTRY/泰国": {
+          "training_pp": 0.7193449964366655,
+          "nested_pp": 0.8322973684917198,
+          "rho": 1,
+          "beta": [
+            3.2072787591309173,
+            0.0,
+            0.0766929622321904,
+            0.19433784963552073,
+            1.4202515896599686,
+            3.9273769499165994,
+            0.0
+          ],
+          "piecewise": true
+        },
+        "COUNTRY/印尼": {
+          "training_pp": 0.7210639968555902,
+          "nested_pp": 0.7963008269476604,
+          "rho": 1,
+          "beta": [
+            0.0,
+            1.9165617180026322,
+            0.12258832142126597,
+            0.1733684817834371,
+            1.3904710248871277,
+            0.0,
+            3.3536563564784894
+          ],
+          "piecewise": true
+        }
+      },
+      "markets": [
+        {
+          "market": 1,
+          "n": 20,
+          "mae_pp": 0.7914432127845304,
+          "uniform_mae_pp": 2.0591685532002466
+        },
+        {
+          "market": 2,
+          "n": 20,
+          "mae_pp": 0.5503211205724309,
+          "uniform_mae_pp": 1.2510245973199359
+        },
+        {
+          "market": 3,
+          "n": 20,
+          "mae_pp": 0.8629958051728244,
+          "uniform_mae_pp": 2.2378525817789883
+        },
+        {
+          "market": 4,
+          "n": 20,
+          "mae_pp": 0.7357032753967362,
+          "uniform_mae_pp": 1.4124395208051854
+        },
+        {
+          "market": 5,
+          "n": 20,
+          "mae_pp": 0.9215324794612307,
+          "uniform_mae_pp": 2.307142506717589
+        },
+        {
+          "market": 6,
+          "n": 20,
+          "mae_pp": 0.8419185744708519,
+          "uniform_mae_pp": 1.7098133581562547
+        },
+        {
+          "market": 7,
+          "n": 20,
+          "mae_pp": 0.710433562052377,
+          "uniform_mae_pp": 1.5624088395568467
+        },
+        {
+          "market": 8,
+          "n": 20,
+          "mae_pp": 0.8417193978875647,
+          "uniform_mae_pp": 1.8115829654743856
+        },
+        {
+          "market": 9,
+          "n": 20,
+          "mae_pp": 1.0845080877039635,
+          "uniform_mae_pp": 1.1325142318646562
+        },
+        {
+          "market": 10,
+          "n": 20,
+          "mae_pp": 0.5917662862827703,
+          "uniform_mae_pp": 1.762293597424789
+        }
+      ],
+      "top_errors": [
+        {
+          "market_id": 9,
+          "team_id": "M09-eff485d5a7ccb688",
+          "country": "泰国",
+          "price": 1840.0,
+          "general": 3100.0,
+          "designer": 3150.0,
+          "rd": 2800.0,
+          "previous_rd": 700.0,
+          "demand": 5.24,
+          "actual_share": 0.09950626661602734,
+          "predicted_share": 0.1437665140710864,
+          "error_pp": 4.426024745505906
+        },
+        {
+          "market_id": 6,
+          "team_id": "M06-f23a8909eadb26d2",
+          "country": "泰国",
+          "price": 1750.0,
+          "general": 1400.0,
+          "designer": 2000.0,
+          "rd": 1200.0,
+          "previous_rd": 600.0,
+          "demand": 7.27,
+          "actual_share": 0.13408336407229807,
+          "predicted_share": 0.10498785836977167,
+          "error_pp": -2.909550570252639
+        },
+        {
+          "market_id": 8,
+          "team_id": "M08-24dfd9ec66bd5fe5",
+          "country": "泰国",
+          "price": 1850.0,
+          "general": 1550.0,
+          "designer": 2380.0,
+          "rd": 3800.0,
+          "previous_rd": 2300.0,
+          "demand": 6.62,
+          "actual_share": 0.12452972159518436,
+          "predicted_share": 0.14974843093467957,
+          "error_pp": 2.5218709339495216
+        },
+        {
+          "market_id": 8,
+          "team_id": "M08-cf32620a1c2f06cf",
+          "country": "泰国",
+          "price": 1790.0,
+          "general": 1050.0,
+          "designer": 950.0,
+          "rd": 650.0,
+          "previous_rd": 650.0,
+          "demand": 6.46,
+          "actual_share": 0.1215199398043642,
+          "predicted_share": 0.09775387581910826,
+          "error_pp": -2.3766063985255936
+        },
+        {
+          "market_id": 2,
+          "team_id": "M02-fc7479895f72753c",
+          "country": "泰国",
+          "price": 1750.0,
+          "general": 1860.0,
+          "designer": 2320.0,
+          "rd": 1250.0,
+          "previous_rd": 900.0,
+          "demand": 8.39,
+          "actual_share": 0.15499722889340475,
+          "predicted_share": 0.13340978827358796,
+          "error_pp": -2.1587440619816793
+        },
+        {
+          "market_id": 3,
+          "team_id": "M03-5735699707f6d962",
+          "country": "泰国",
+          "price": 1900.0,
+          "general": 28.0,
+          "designer": 38.0,
+          "rd": 50.0,
+          "previous_rd": 0.0,
+          "demand": 1.09,
+          "actual_share": 0.01926475786496995,
+          "predicted_share": 0.04067578380863631,
+          "error_pp": 2.141102594366636
+        },
+        {
+          "market_id": 8,
+          "team_id": "M08-cf32620a1c2f06cf",
+          "country": "印尼",
+          "price": 2010.0,
+          "general": 1050.0,
+          "designer": 950.0,
+          "rd": 650.0,
+          "previous_rd": 650.0,
+          "demand": 16.08,
+          "actual_share": 0.11439140641673187,
+          "predicted_share": 0.0943747011749545,
+          "error_pp": -2.001670524177737
+        },
+        {
+          "market_id": 1,
+          "team_id": "M01-2cdafe239edfa253",
+          "country": "印尼",
+          "price": 2150.0,
+          "general": 1005.0,
+          "designer": 1645.0,
+          "rd": 1000.0,
+          "previous_rd": 1000.0,
+          "demand": 18.55,
+          "actual_share": 0.13679941002949852,
+          "predicted_share": 0.11772684847565261,
+          "error_pp": -1.9072561553845915
+        },
+        {
+          "market_id": 8,
+          "team_id": "M08-cad8dbfa8e0002c1",
+          "country": "印尼",
+          "price": 2000.0,
+          "general": 730.0,
+          "designer": 1950.0,
+          "rd": 1388.0,
+          "previous_rd": 1000.0,
+          "demand": 14.2,
+          "actual_share": 0.10101728676104432,
+          "predicted_share": 0.12006262383864416,
+          "error_pp": 1.9045337077599838
+        },
+        {
+          "market_id": 1,
+          "team_id": "M01-3709a42297a41f3c",
+          "country": "印尼",
+          "price": 2266.0,
+          "general": 1000.0,
+          "designer": 2200.0,
+          "rd": 2201.0,
+          "previous_rd": 901.0,
+          "demand": 14.21,
+          "actual_share": 0.10479351032448378,
+          "predicted_share": 0.12365199410912824,
+          "error_pp": 1.8858483784644455
+        },
+        {
+          "market_id": 3,
+          "team_id": "M03-5735699707f6d962",
+          "country": "印尼",
+          "price": 2000.0,
+          "general": 28.0,
+          "designer": 38.0,
+          "rd": 50.0,
+          "previous_rd": 0.0,
+          "demand": 4.29,
+          "actual_share": 0.03069328182013308,
+          "predicted_share": 0.04946643480818597,
+          "error_pp": 1.8773152988052895
+        },
+        {
+          "market_id": 5,
+          "team_id": "M05-7a7556b4aa6f461d",
+          "country": "印尼",
+          "price": 2200.0,
+          "general": 2690.0,
+          "designer": 3840.0,
+          "rd": 2100.0,
+          "previous_rd": 1400.0,
+          "demand": 20.22,
+          "actual_share": 0.1395926820849154,
+          "predicted_share": 0.12091615807606772,
+          "error_pp": -1.8676524008847686
+        }
+      ],
+      "closest_pairs": [
+        {
+          "feature_distance": 0.0,
+          "actual_gap_pp": 0.0,
+          "left": {
+            "market_id": 2,
+            "team_id": "M02-eda83c3f524adb65",
+            "country": "泰国",
+            "price": 1800.0,
+            "general": 400.0,
+            "designer": 300.0,
+            "rd": 600.0,
+            "previous_rd": 600.0,
+            "demand": 4.5,
+            "actual_share": 0.08313319785701088,
+            "predicted_share": 0.08587433191834014,
+            "error_pp": 0.27411340613292534
+          },
+          "right": {
+            "market_id": 2,
+            "team_id": "M02-4c45140f14c95165",
+            "country": "泰国",
+            "price": 1800.0,
+            "general": 400.0,
+            "designer": 300.0,
+            "rd": 600.0,
+            "previous_rd": 600.0,
+            "demand": 4.5,
+            "actual_share": 0.08313319785701088,
+            "predicted_share": 0.08587433191834014,
+            "error_pp": 0.27411340613292534
+          }
+        },
+        {
+          "feature_distance": 0.0,
+          "actual_gap_pp": 0.0,
+          "left": {
+            "market_id": 2,
+            "team_id": "M02-eda83c3f524adb65",
+            "country": "印尼",
+            "price": 2000.0,
+            "general": 400.0,
+            "designer": 300.0,
+            "rd": 600.0,
+            "previous_rd": 600.0,
+            "demand": 12.16,
+            "actual_share": 0.09014084507042253,
+            "predicted_share": 0.0960293314096167,
+            "error_pp": 0.5888486339194171
+          },
+          "right": {
+            "market_id": 2,
+            "team_id": "M02-4c45140f14c95165",
+            "country": "印尼",
+            "price": 2000.0,
+            "general": 400.0,
+            "designer": 300.0,
+            "rd": 600.0,
+            "previous_rd": 600.0,
+            "demand": 12.16,
+            "actual_share": 0.09014084507042253,
+            "predicted_share": 0.0960293314096167,
+            "error_pp": 0.5888486339194171
+          }
+        },
+        {
+          "feature_distance": 0.0,
+          "actual_gap_pp": 0.0,
+          "left": {
+            "market_id": 7,
+            "team_id": "M07-f09795c3f2563b75",
+            "country": "泰国",
+            "price": 1800.0,
+            "general": 400.0,
+            "designer": 300.0,
+            "rd": 600.0,
+            "previous_rd": 600.0,
+            "demand": 5.15,
+            "actual_share": 0.10314440216302825,
+            "predicted_share": 0.09844114685227495,
+            "error_pp": -0.47032553107533015
+          },
+          "right": {
+            "market_id": 7,
+            "team_id": "M07-5f357ebfc4386cc7",
+            "country": "泰国",
+            "price": 1800.0,
+            "general": 400.0,
+            "designer": 300.0,
+            "rd": 600.0,
+            "previous_rd": 600.0,
+            "demand": 5.15,
+            "actual_share": 0.10314440216302825,
+            "predicted_share": 0.09844114685227495,
+            "error_pp": -0.47032553107533015
+          }
+        },
+        {
+          "feature_distance": 0.0,
+          "actual_gap_pp": 0.0,
+          "left": {
+            "market_id": 7,
+            "team_id": "M07-f09795c3f2563b75",
+            "country": "印尼",
+            "price": 2000.0,
+            "general": 400.0,
+            "designer": 300.0,
+            "rd": 600.0,
+            "previous_rd": 600.0,
+            "demand": 13.06,
+            "actual_share": 0.10084942084942085,
+            "predicted_share": 0.10225917199959877,
+            "error_pp": 0.14097511501779264
+          },
+          "right": {
+            "market_id": 7,
+            "team_id": "M07-5f357ebfc4386cc7",
+            "country": "印尼",
+            "price": 2000.0,
+            "general": 400.0,
+            "designer": 300.0,
+            "rd": 600.0,
+            "previous_rd": 600.0,
+            "demand": 13.06,
+            "actual_share": 0.10084942084942085,
+            "predicted_share": 0.10225917199959877,
+            "error_pp": 0.14097511501779264
+          }
+        },
+        {
+          "feature_distance": 0.26728011194528223,
+          "actual_gap_pp": 0.3325327914280432,
+          "left": {
+            "market_id": 2,
+            "team_id": "M02-ba2e7015034eaca7",
+            "country": "泰国",
+            "price": 1849.9,
+            "general": 1400.0,
+            "designer": 1880.0,
+            "rd": 1250.0,
+            "previous_rd": 1100.0,
+            "demand": 5.82,
+            "actual_share": 0.10751893589506742,
+            "predicted_share": 0.10921747464475196,
+            "error_pp": 0.1698538749684536
+          },
+          "right": {
+            "market_id": 2,
+            "team_id": "M02-523d8923a7806a12",
+            "country": "泰国",
+            "price": 1850.0,
+            "general": 1320.0,
+            "designer": 2100.0,
+            "rd": 1580.0,
+            "previous_rd": 750.0,
+            "demand": 6.0,
+            "actual_share": 0.11084426380934785,
+            "predicted_share": 0.11017957503161435,
+            "error_pp": -0.06646887777334992
+          }
+        },
+        {
+          "feature_distance": 0.38274900104807225,
+          "actual_gap_pp": 0.9115077857956719,
+          "left": {
+            "market_id": 9,
+            "team_id": "M09-29cf044e1dfee76b",
+            "country": "泰国",
+            "price": 1850.0,
+            "general": 740.0,
+            "designer": 1550.0,
+            "rd": 1100.0,
+            "previous_rd": 800.0,
+            "demand": 5.73,
+            "actual_share": 0.10881124192935815,
+            "predicted_share": 0.09818298356644305,
+            "error_pp": -1.0628258362915102
+          },
+          "right": {
+            "market_id": 9,
+            "team_id": "M09-9fba5de91951d735",
+            "country": "泰国",
+            "price": 1860.0,
+            "general": 740.0,
+            "designer": 1250.0,
+            "rd": 1100.0,
+            "previous_rd": 800.0,
+            "demand": 5.25,
+            "actual_share": 0.09969616407140143,
+            "predicted_share": 0.09443469650046704,
+            "error_pp": -0.5261467570934388
+          }
+        },
+        {
+          "feature_distance": 0.393569188143848,
+          "actual_gap_pp": 0.22279985146676506,
+          "left": {
+            "market_id": 10,
+            "team_id": "M10-e95f534d623db79f",
+            "country": "印尼",
+            "price": 2350.0,
+            "general": 960.0,
+            "designer": 2060.0,
+            "rd": 1200.0,
+            "previous_rd": 900.0,
+            "demand": 14.2,
+            "actual_share": 0.10545859636093577,
+            "predicted_share": 0.09820214609160287,
+            "error_pp": -0.7256450269332901
+          },
+          "right": {
+            "market_id": 10,
+            "team_id": "M10-5113195d6f51ae9c",
+            "country": "印尼",
+            "price": 2350.0,
+            "general": 1090.0,
+            "designer": 1940.0,
+            "rd": 1400.0,
+            "previous_rd": 1000.0,
+            "demand": 13.9,
+            "actual_share": 0.10323059784626812,
+            "predicted_share": 0.10055714547897852,
+            "error_pp": -0.26734523672895943
+          }
+        },
+        {
+          "feature_distance": 0.46672280203309036,
+          "actual_gap_pp": 2.338740098076196,
+          "left": {
+            "market_id": 10,
+            "team_id": "M10-e95f534d623db79f",
+            "country": "泰国",
+            "price": 1950.0,
+            "general": 960.0,
+            "designer": 2060.0,
+            "rd": 1200.0,
+            "previous_rd": 900.0,
+            "demand": 4.9,
+            "actual_share": 0.09241795548849491,
+            "predicted_share": 0.09920506446460642,
+            "error_pp": 0.6787108976111511
+          },
+          "right": {
+            "market_id": 10,
+            "team_id": "M10-5113195d6f51ae9c",
+            "country": "泰国",
+            "price": 1900.0,
+            "general": 1090.0,
+            "designer": 1940.0,
+            "rd": 1400.0,
+            "previous_rd": 1000.0,
+            "demand": 6.14,
+            "actual_share": 0.11580535646925687,
+            "predicted_share": 0.1105031309615975,
+            "error_pp": -0.5302225507659366
+          }
+        },
+        {
+          "feature_distance": 0.4952194575204188,
+          "actual_gap_pp": 1.056205205582801,
+          "left": {
+            "market_id": 10,
+            "team_id": "M10-5d487b3171fd0390",
+            "country": "泰国",
+            "price": 1850.0,
+            "general": 1200.0,
+            "designer": 1700.0,
+            "rd": 1200.0,
+            "previous_rd": 900.0,
+            "demand": 6.7,
+            "actual_share": 0.12636740852508488,
+            "predicted_share": 0.11634352174666016,
+            "error_pp": -1.0023886778424722
+          },
+          "right": {
+            "market_id": 10,
+            "team_id": "M10-5113195d6f51ae9c",
+            "country": "泰国",
+            "price": 1900.0,
+            "general": 1090.0,
+            "designer": 1940.0,
+            "rd": 1400.0,
+            "previous_rd": 1000.0,
+            "demand": 6.14,
+            "actual_share": 0.11580535646925687,
+            "predicted_share": 0.1105031309615975,
+            "error_pp": -0.5302225507659366
+          }
+        },
+        {
+          "feature_distance": 0.49559857894650616,
+          "actual_gap_pp": 1.4754703061600885,
+          "left": {
+            "market_id": 6,
+            "team_id": "M06-41e0c5f8bd66589b",
+            "country": "泰国",
+            "price": 1850.0,
+            "general": 1130.0,
+            "designer": 1245.0,
+            "rd": 1700.0,
+            "previous_rd": 1000.0,
+            "demand": 5.27,
+            "actual_share": 0.09719660641829583,
+            "predicted_share": 0.09137179891610692,
+            "error_pp": -0.5824807502188917
+          },
+          "right": {
+            "market_id": 6,
+            "team_id": "M06-1804c15bca402242",
+            "country": "泰国",
+            "price": 1900.0,
+            "general": 1050.0,
+            "designer": 975.0,
+            "rd": 1750.0,
+            "previous_rd": 900.0,
+            "demand": 4.47,
+            "actual_share": 0.08244190335669495,
+            "predicted_share": 0.08095886586360804,
+            "error_pp": -0.1483037493086911
+          }
+        },
+        {
+          "feature_distance": 0.5141124013343362,
+          "actual_gap_pp": 1.9213005726953627,
+          "left": {
+            "market_id": 2,
+            "team_id": "M02-08f74f3e15b7837b",
+            "country": "泰国",
+            "price": 1850.0,
+            "general": 1450.0,
+            "designer": 1600.0,
+            "rd": 1100.0,
+            "previous_rd": 800.0,
+            "demand": 4.78,
+            "actual_share": 0.08830593016811379,
+            "predicted_share": 0.102953080057292,
+            "error_pp": 1.4647149889178215
+          },
+          "right": {
+            "market_id": 2,
+            "team_id": "M02-ba2e7015034eaca7",
+            "country": "泰国",
+            "price": 1849.9,
+            "general": 1400.0,
+            "designer": 1880.0,
+            "rd": 1250.0,
+            "previous_rd": 1100.0,
+            "demand": 5.82,
+            "actual_share": 0.10751893589506742,
+            "predicted_share": 0.10921747464475196,
+            "error_pp": 0.1698538749684536
+          }
+        },
+        {
+          "feature_distance": 0.526880634298509,
+          "actual_gap_pp": 0.7019829208279066,
+          "left": {
+            "market_id": 9,
+            "team_id": "M09-29cf044e1dfee76b",
+            "country": "印尼",
+            "price": 2050.0,
+            "general": 740.0,
+            "designer": 1550.0,
+            "rd": 1100.0,
+            "previous_rd": 800.0,
+            "demand": 14.66,
+            "actual_share": 0.10609350123027934,
+            "predicted_share": 0.0980959991126529,
+            "error_pp": -0.799750211762644
+          },
+          "right": {
+            "market_id": 9,
+            "team_id": "M09-9fba5de91951d735",
+            "country": "印尼",
+            "price": 2120.0,
+            "general": 740.0,
+            "designer": 1250.0,
+            "rd": 1100.0,
+            "previous_rd": 800.0,
+            "demand": 13.69,
+            "actual_share": 0.09907367202200028,
+            "predicted_share": 0.09037573869339567,
+            "error_pp": -0.8697933328604607
+          }
+        }
+      ],
+      "identical_input_pairs": [
+        {
+          "feature_distance": 0.0,
+          "actual_gap_pp": 0.0,
+          "left": {
+            "market_id": 2,
+            "team_id": "M02-eda83c3f524adb65",
+            "country": "泰国",
+            "price": 1800.0,
+            "general": 400.0,
+            "designer": 300.0,
+            "rd": 600.0,
+            "previous_rd": 600.0,
+            "demand": 4.5,
+            "actual_share": 0.08313319785701088,
+            "predicted_share": 0.08587433191834014,
+            "error_pp": 0.27411340613292534
+          },
+          "right": {
+            "market_id": 2,
+            "team_id": "M02-4c45140f14c95165",
+            "country": "泰国",
+            "price": 1800.0,
+            "general": 400.0,
+            "designer": 300.0,
+            "rd": 600.0,
+            "previous_rd": 600.0,
+            "demand": 4.5,
+            "actual_share": 0.08313319785701088,
+            "predicted_share": 0.08587433191834014,
+            "error_pp": 0.27411340613292534
+          }
+        },
+        {
+          "feature_distance": 0.0,
+          "actual_gap_pp": 0.0,
+          "left": {
+            "market_id": 2,
+            "team_id": "M02-eda83c3f524adb65",
+            "country": "印尼",
+            "price": 2000.0,
+            "general": 400.0,
+            "designer": 300.0,
+            "rd": 600.0,
+            "previous_rd": 600.0,
+            "demand": 12.16,
+            "actual_share": 0.09014084507042253,
+            "predicted_share": 0.0960293314096167,
+            "error_pp": 0.5888486339194171
+          },
+          "right": {
+            "market_id": 2,
+            "team_id": "M02-4c45140f14c95165",
+            "country": "印尼",
+            "price": 2000.0,
+            "general": 400.0,
+            "designer": 300.0,
+            "rd": 600.0,
+            "previous_rd": 600.0,
+            "demand": 12.16,
+            "actual_share": 0.09014084507042253,
+            "predicted_share": 0.0960293314096167,
+            "error_pp": 0.5888486339194171
+          }
+        },
+        {
+          "feature_distance": 0.0,
+          "actual_gap_pp": 0.0,
+          "left": {
+            "market_id": 7,
+            "team_id": "M07-f09795c3f2563b75",
+            "country": "泰国",
+            "price": 1800.0,
+            "general": 400.0,
+            "designer": 300.0,
+            "rd": 600.0,
+            "previous_rd": 600.0,
+            "demand": 5.15,
+            "actual_share": 0.10314440216302825,
+            "predicted_share": 0.09844114685227495,
+            "error_pp": -0.47032553107533015
+          },
+          "right": {
+            "market_id": 7,
+            "team_id": "M07-5f357ebfc4386cc7",
+            "country": "泰国",
+            "price": 1800.0,
+            "general": 400.0,
+            "designer": 300.0,
+            "rd": 600.0,
+            "previous_rd": 600.0,
+            "demand": 5.15,
+            "actual_share": 0.10314440216302825,
+            "predicted_share": 0.09844114685227495,
+            "error_pp": -0.47032553107533015
+          }
+        },
+        {
+          "feature_distance": 0.0,
+          "actual_gap_pp": 0.0,
+          "left": {
+            "market_id": 7,
+            "team_id": "M07-f09795c3f2563b75",
+            "country": "印尼",
+            "price": 2000.0,
+            "general": 400.0,
+            "designer": 300.0,
+            "rd": 600.0,
+            "previous_rd": 600.0,
+            "demand": 13.06,
+            "actual_share": 0.10084942084942085,
+            "predicted_share": 0.10225917199959877,
+            "error_pp": 0.14097511501779264
+          },
+          "right": {
+            "market_id": 7,
+            "team_id": "M07-5f357ebfc4386cc7",
+            "country": "印尼",
+            "price": 2000.0,
+            "general": 400.0,
+            "designer": 300.0,
+            "rd": 600.0,
+            "previous_rd": 600.0,
+            "demand": 13.06,
+            "actual_share": 0.10084942084942085,
+            "predicted_share": 0.10225917199959877,
+            "error_pp": 0.14097511501779264
+          }
+        }
+      ],
+      "ablations": {
+        "saved_config_replay": {
+          "mae_pp": 0.7932341801785281,
+          "folds": [
+            {
+              "market": 1,
+              "mae_pp": 0.7914432127845304
+            },
+            {
+              "market": 2,
+              "mae_pp": 0.5503211205724309
+            },
+            {
+              "market": 3,
+              "mae_pp": 0.8629958051728244
+            },
+            {
+              "market": 4,
+              "mae_pp": 0.7357032753967362
+            },
+            {
+              "market": 5,
+              "mae_pp": 0.9215324794612307
+            },
+            {
+              "market": 6,
+              "mae_pp": 0.8419185744708519
+            },
+            {
+              "market": 7,
+              "mae_pp": 0.710433562052377
+            },
+            {
+              "market": 8,
+              "mae_pp": 0.8417193978875647
+            },
+            {
+              "market": 9,
+              "mae_pp": 1.0845080877039635
+            },
+            {
+              "market": 10,
+              "mae_pp": 0.5917662862827703
+            }
+          ]
+        },
+        "without_rd": {
+          "mae_pp": 0.9463200187555344,
+          "folds": [
+            {
+              "market": 1,
+              "mae_pp": 0.775216360440733
+            },
+            {
+              "market": 2,
+              "mae_pp": 0.5381182722963218
+            },
+            {
+              "market": 3,
+              "mae_pp": 1.3377302231274926
+            },
+            {
+              "market": 4,
+              "mae_pp": 0.7380565262411074
+            },
+            {
+              "market": 5,
+              "mae_pp": 1.0748331326705967
+            },
+            {
+              "market": 6,
+              "mae_pp": 0.7353889939406789
+            },
+            {
+              "market": 7,
+              "mae_pp": 1.2956551932664953
+            },
+            {
+              "market": 8,
+              "mae_pp": 0.8445185011703928
+            },
+            {
+              "market": 9,
+              "mae_pp": 1.255201110993355
+            },
+            {
+              "market": 10,
+              "mae_pp": 0.8684818734081692
+            }
+          ]
+        },
+        "without_marketing": {
+          "mae_pp": 0.8859769901254323,
+          "folds": [
+            {
+              "market": 1,
+              "mae_pp": 0.7877125052898981
+            },
+            {
+              "market": 2,
+              "mae_pp": 0.8396277530940716
+            },
+            {
+              "market": 3,
+              "mae_pp": 0.9181218421598716
+            },
+            {
+              "market": 4,
+              "mae_pp": 0.8829940402893458
+            },
+            {
+              "market": 5,
+              "mae_pp": 0.9943680112907196
+            },
+            {
+              "market": 6,
+              "mae_pp": 1.0223666805625986
+            },
+            {
+              "market": 7,
+              "mae_pp": 0.9023010869147989
+            },
+            {
+              "market": 8,
+              "mae_pp": 0.7767235100593326
+            },
+            {
+              "market": 9,
+              "mae_pp": 0.8487758584309737
+            },
+            {
+              "market": 10,
+              "mae_pp": 0.8867786131627121
+            }
+          ]
+        }
+      },
+      "abs_internal_selection_mae_kunits": 1.1048055351774029,
+      "mean_demand": 9.57005,
+      "supply_shortfall_n": 24
+    },
+    "连接件": {
+      "n": 176,
+      "excluded_zero_price": 24,
+      "active_group_counts": {
+        "9": 6,
+        "8": 3,
+        "10": 7,
+        "7": 4
+      },
+      "metrics": {
+        "SHARE": {
+          "training_pp": 2.3543757387834194,
+          "nested_pp": 2.602758554050626,
+          "rho": 0,
+          "beta": [
+            2.4595844290990785,
+            2.5705272887448065,
+            1.1050832502730366,
+            0.17536721387540005,
+            0.4158531799591065
+          ],
+          "piecewise": false
+        },
+        "COUNTRY/泰国": {
+          "training_pp": 2.5668954473677554,
+          "nested_pp": 3.023460023857106,
+          "rho": 0,
+          "beta": [
+            2.295739859797684,
+            0.0,
+            1.2307802379602588,
+            0.13984624032110993,
+            0.5911184321787357
+          ],
+          "piecewise": false
+        },
+        "COUNTRY/印尼": {
+          "training_pp": 2.155866023635975,
+          "nested_pp": 2.4413286371462037,
+          "rho": 1,
+          "beta": [
+            0.0,
+            2.4896758774724987,
+            0.9857986782404232,
+            0.1967931820740956,
+            2.794336888282662e-22
+          ],
+          "piecewise": false
+        }
+      },
+      "markets": [
+        {
+          "market": 1,
+          "n": 17,
+          "mae_pp": 3.85558400604984,
+          "uniform_mae_pp": 4.548601189539494
+        },
+        {
+          "market": 2,
+          "n": 16,
+          "mae_pp": 2.891567025950171,
+          "uniform_mae_pp": 3.910367501517488
+        },
+        {
+          "market": 3,
+          "n": 20,
+          "mae_pp": 2.7582489950319866,
+          "uniform_mae_pp": 3.5908656442001226
+        },
+        {
+          "market": 4,
+          "n": 19,
+          "mae_pp": 4.36697395857441,
+          "uniform_mae_pp": 6.001555402803709
+        },
+        {
+          "market": 5,
+          "n": 20,
+          "mae_pp": 1.7393969962075686,
+          "uniform_mae_pp": 5.325717362016922
+        },
+        {
+          "market": 6,
+          "n": 18,
+          "mae_pp": 1.6168381094421944,
+          "uniform_mae_pp": 2.6614393109856582
+        },
+        {
+          "market": 7,
+          "n": 14,
+          "mae_pp": 3.0257607490418437,
+          "uniform_mae_pp": 2.539228493669544
+        },
+        {
+          "market": 8,
+          "n": 14,
+          "mae_pp": 1.645749665548375,
+          "uniform_mae_pp": 6.049947509320052
+        },
+        {
+          "market": 9,
+          "n": 18,
+          "mae_pp": 2.0206982233546102,
+          "uniform_mae_pp": 5.792991197476429
+        },
+        {
+          "market": 10,
+          "n": 20,
+          "mae_pp": 2.106767811305259,
+          "uniform_mae_pp": 2.933532355570159
+        }
+      ],
+      "top_errors": [
+        {
+          "market_id": 4,
+          "team_id": "M04-53183a1f5a193d1c",
+          "country": "泰国",
+          "price": 27.0,
+          "general": 1500.0,
+          "designer": 2000.0,
+          "rd": 3400.0,
+          "previous_rd": 850.0,
+          "demand": 452.4,
+          "actual_share": 0.2762613124244312,
+          "predicted_share": 0.16378654155184919,
+          "error_pp": -11.2474770872582
+        },
+        {
+          "market_id": 1,
+          "team_id": "M01-2cdafe239edfa253",
+          "country": "泰国",
+          "price": 26.0,
+          "general": 1005.0,
+          "designer": 1645.0,
+          "rd": 1000.0,
+          "previous_rd": 1000.0,
+          "demand": 50.64,
+          "actual_share": 0.02668324709403421,
+          "predicted_share": 0.11561241662093812,
+          "error_pp": 8.892916952690392
+        },
+        {
+          "market_id": 4,
+          "team_id": "M04-8a861a88e1be3f1d",
+          "country": "印尼",
+          "price": 27.0,
+          "general": 950.0,
+          "designer": 1650.0,
+          "rd": 1750.0,
+          "previous_rd": 800.0,
+          "demand": 221.85,
+          "actual_share": 0.1996077125864877,
+          "predicted_share": 0.11610389666885598,
+          "error_pp": -8.350381591763172
+        },
+        {
+          "market_id": 2,
+          "team_id": "M02-967124a1c936b236",
+          "country": "泰国",
+          "price": 20.0,
+          "general": 1017.0,
+          "designer": 1275.0,
+          "rd": 1800.0,
+          "previous_rd": 700.0,
+          "demand": 231.77,
+          "actual_share": 0.15237901131485,
+          "predicted_share": 0.23361467017754262,
+          "error_pp": 8.123565886269263
+        },
+        {
+          "market_id": 4,
+          "team_id": "M04-73d9c2f08c756852",
+          "country": "泰国",
+          "price": 27.0,
+          "general": 757.0,
+          "designer": 1149.0,
+          "rd": 2000.0,
+          "previous_rd": 1588.0,
+          "demand": 297.05,
+          "actual_share": 0.18139571807178886,
+          "predicted_share": 0.10436844489978701,
+          "error_pp": -7.702727317200185
+        },
+        {
+          "market_id": 7,
+          "team_id": "M07-71cb3f984d9d1ad8",
+          "country": "印尼",
+          "price": 27.5,
+          "general": 700.0,
+          "designer": 5900.0,
+          "rd": 900.0,
+          "previous_rd": 0.0,
+          "demand": 141.77,
+          "actual_share": 0.1769470793809286,
+          "predicted_share": 0.10224343720099968,
+          "error_pp": -7.470364217992892
+        },
+        {
+          "market_id": 4,
+          "team_id": "M04-74d3cea4fa721c9e",
+          "country": "泰国",
+          "price": 26.0,
+          "general": 950.0,
+          "designer": 1300.0,
+          "rd": 2500.0,
+          "previous_rd": 1000.0,
+          "demand": 100.3,
+          "actual_share": 0.06124891608348905,
+          "predicted_share": 0.13052379926686622,
+          "error_pp": 6.927488318337717
+        },
+        {
+          "market_id": 1,
+          "team_id": "M01-2cdafe239edfa253",
+          "country": "印尼",
+          "price": 28.0,
+          "general": 1005.0,
+          "designer": 1645.0,
+          "rd": 1000.0,
+          "previous_rd": 1000.0,
+          "demand": 40.85,
+          "actual_share": 0.04066052196763085,
+          "predicted_share": 0.10981012434998419,
+          "error_pp": 6.914960238235334
+        },
+        {
+          "market_id": 1,
+          "team_id": "M01-3709a42297a41f3c",
+          "country": "泰国",
+          "price": 27.0,
+          "general": 1000.0,
+          "designer": 2200.0,
+          "rd": 2201.0,
+          "previous_rd": 901.0,
+          "demand": 332.03,
+          "actual_share": 0.17495336754802882,
+          "predicted_share": 0.10745731063736652,
+          "error_pp": -6.749605691066229
+        },
+        {
+          "market_id": 4,
+          "team_id": "M04-8a861a88e1be3f1d",
+          "country": "泰国",
+          "price": 27.0,
+          "general": 950.0,
+          "designer": 1650.0,
+          "rd": 1750.0,
+          "previous_rd": 800.0,
+          "demand": 86.0,
+          "actual_share": 0.052516518276969675,
+          "predicted_share": 0.11919697694161942,
+          "error_pp": 6.668045866464975
+        },
+        {
+          "market_id": 1,
+          "team_id": "M01-35d03370f75671a9",
+          "country": "泰国",
+          "price": 27.0,
+          "general": 1310.0,
+          "designer": 1020.0,
+          "rd": 2130.0,
+          "previous_rd": 900.0,
+          "demand": 324.59,
+          "actual_share": 0.1710330800602797,
+          "predicted_share": 0.10690836111775004,
+          "error_pp": -6.412471894252966
+        },
+        {
+          "market_id": 4,
+          "team_id": "M04-74d3cea4fa721c9e",
+          "country": "印尼",
+          "price": 27.0,
+          "general": 950.0,
+          "designer": 1300.0,
+          "rd": 2500.0,
+          "previous_rd": 1000.0,
+          "demand": 59.11,
+          "actual_share": 0.05318373626769118,
+          "predicted_share": 0.11606937205768256,
+          "error_pp": 6.288563578999137
+        }
+      ],
+      "closest_pairs": [
+        {
+          "feature_distance": 0.30503919787176287,
+          "actual_gap_pp": 5.5397466495318515,
+          "left": {
+            "market_id": 5,
+            "team_id": "M05-83b2f0f59fe65e7b",
+            "country": "印尼",
+            "price": 29.0,
+            "general": 2700.0,
+            "designer": 3500.0,
+            "rd": 2000.0,
+            "previous_rd": 550.0,
+            "demand": 210.81,
+            "actual_share": 0.19351018909491463,
+            "predicted_share": 0.15377127658598222,
+            "error_pp": -3.9738912508932414
+          },
+          "right": {
+            "market_id": 5,
+            "team_id": "M05-7a7556b4aa6f461d",
+            "country": "印尼",
+            "price": 28.5,
+            "general": 2690.0,
+            "designer": 3840.0,
+            "rd": 2100.0,
+            "previous_rd": 1400.0,
+            "demand": 150.46,
+            "actual_share": 0.13811272259959612,
+            "predicted_share": 0.1626635830922266,
+            "error_pp": 2.455086049263047
+          }
+        },
+        {
+          "feature_distance": 0.33956941643923405,
+          "actual_gap_pp": 4.434627389583063,
+          "left": {
+            "market_id": 5,
+            "team_id": "M05-83b2f0f59fe65e7b",
+            "country": "泰国",
+            "price": 27.3,
+            "general": 2700.0,
+            "designer": 3500.0,
+            "rd": 2000.0,
+            "previous_rd": 550.0,
+            "demand": 384.41,
+            "actual_share": 0.19167024003031544,
+            "predicted_share": 0.16689817838286608,
+            "error_pp": -2.4772061647449357
+          },
+          "right": {
+            "market_id": 5,
+            "team_id": "M05-7a7556b4aa6f461d",
+            "country": "泰国",
+            "price": 28.0,
+            "general": 2690.0,
+            "designer": 3840.0,
+            "rd": 2100.0,
+            "previous_rd": 1400.0,
+            "demand": 295.47,
+            "actual_share": 0.1473239661344848,
+            "predicted_share": 0.15773830704161088,
+            "error_pp": 1.0414340907126063
+          }
+        },
+        {
+          "feature_distance": 0.43957667054212973,
+          "actual_gap_pp": 5.295880082416347,
+          "left": {
+            "market_id": 4,
+            "team_id": "M04-1c3af038bfdebac9",
+            "country": "印尼",
+            "price": 26.5,
+            "general": 900.0,
+            "designer": 940.0,
+            "rd": 953.0,
+            "previous_rd": 620.0,
+            "demand": 67.71,
+            "actual_share": 0.060921515525044316,
+            "predicted_share": 0.11022377047684667,
+            "error_pp": 4.930225495180236
+          },
+          "right": {
+            "market_id": 4,
+            "team_id": "M04-13729ae1c034272d",
+            "country": "印尼",
+            "price": 27.0,
+            "general": 800.0,
+            "designer": 771.0,
+            "rd": 1000.0,
+            "previous_rd": 700.0,
+            "demand": 126.57,
+            "actual_share": 0.11388031634920778,
+            "predicted_share": 0.09827376574700729,
+            "error_pp": -1.5606550602200495
+          }
+        },
+        {
+          "feature_distance": 0.4405074838868202,
+          "actual_gap_pp": 0.3505172266393089,
+          "left": {
+            "market_id": 4,
+            "team_id": "M04-1c3af038bfdebac9",
+            "country": "泰国",
+            "price": 26.5,
+            "general": 900.0,
+            "designer": 940.0,
+            "rd": 953.0,
+            "previous_rd": 620.0,
+            "demand": 97.14,
+            "actual_share": 0.05931923936540505,
+            "predicted_share": 0.11294185736958083,
+            "error_pp": 5.362261800417578
+          },
+          "right": {
+            "market_id": 4,
+            "team_id": "M04-13729ae1c034272d",
+            "country": "泰国",
+            "price": 27.0,
+            "general": 800.0,
+            "designer": 771.0,
+            "rd": 1000.0,
+            "previous_rd": 700.0,
+            "demand": 91.4,
+            "actual_share": 0.05581406709901196,
+            "predicted_share": 0.10089184020345013,
+            "error_pp": 4.507777310443817
+          }
+        },
+        {
+          "feature_distance": 0.47203281226200944,
+          "actual_gap_pp": 0.48637832845929013,
+          "left": {
+            "market_id": 10,
+            "team_id": "M10-e95f534d623db79f",
+            "country": "泰国",
+            "price": 26.5,
+            "general": 960.0,
+            "designer": 2060.0,
+            "rd": 1200.0,
+            "previous_rd": 900.0,
+            "demand": 234.87,
+            "actual_share": 0.12050177004771434,
+            "predicted_share": 0.10727205240223998,
+            "error_pp": -1.3229717645474357
+          },
+          "right": {
+            "market_id": 10,
+            "team_id": "M10-5113195d6f51ae9c",
+            "country": "泰国",
+            "price": 27.0,
+            "general": 1090.0,
+            "designer": 1940.0,
+            "rd": 1400.0,
+            "previous_rd": 1000.0,
+            "demand": 225.39,
+            "actual_share": 0.11563798676312144,
+            "predicted_share": 0.11088646326081524,
+            "error_pp": -0.4751523502306204
+          }
+        },
+        {
+          "feature_distance": 0.4753978851982119,
+          "actual_gap_pp": 4.543185222166751,
+          "left": {
+            "market_id": 7,
+            "team_id": "M07-9fba5de91951d735",
+            "country": "印尼",
+            "price": 27.5,
+            "general": 930.0,
+            "designer": 1700.0,
+            "rd": 1500.0,
+            "previous_rd": 900.0,
+            "demand": 80.21,
+            "actual_share": 0.10011233150274587,
+            "predicted_share": 0.12733851710737373,
+            "error_pp": 2.722618560462786
+          },
+          "right": {
+            "market_id": 7,
+            "team_id": "M07-192a3835aeec47f6",
+            "country": "印尼",
+            "price": 26.5,
+            "general": 1000.0,
+            "designer": 1450.0,
+            "rd": 1500.0,
+            "previous_rd": 900.0,
+            "demand": 116.61,
+            "actual_share": 0.14554418372441338,
+            "predicted_share": 0.14608608110913654,
+            "error_pp": 0.05418973847231556
+          }
+        },
+        {
+          "feature_distance": 0.4843744770955395,
+          "actual_gap_pp": 2.343315460431175,
+          "left": {
+            "market_id": 6,
+            "team_id": "M06-41e0c5f8bd66589b",
+            "country": "泰国",
+            "price": 26.5,
+            "general": 1130.0,
+            "designer": 1245.0,
+            "rd": 1700.0,
+            "previous_rd": 1000.0,
+            "demand": 161.13,
+            "actual_share": 0.08962222172781277,
+            "predicted_share": 0.10991106841504096,
+            "error_pp": 2.028884668722819
+          },
+          "right": {
+            "market_id": 6,
+            "team_id": "M06-1804c15bca402242",
+            "country": "泰国",
+            "price": 26.5,
+            "general": 1050.0,
+            "designer": 975.0,
+            "rd": 1750.0,
+            "previous_rd": 900.0,
+            "demand": 203.26,
+            "actual_share": 0.11305537633212452,
+            "predicted_share": 0.10281299064064266,
+            "error_pp": -1.0242385691481863
+          }
+        },
+        {
+          "feature_distance": 0.48833916404125244,
+          "actual_gap_pp": 1.5212149197065303,
+          "left": {
+            "market_id": 10,
+            "team_id": "M10-5d487b3171fd0390",
+            "country": "泰国",
+            "price": 27.0,
+            "general": 1200.0,
+            "designer": 1700.0,
+            "rd": 1200.0,
+            "previous_rd": 900.0,
+            "demand": 255.04,
+            "actual_share": 0.13085013596018674,
+            "predicted_share": 0.11366304151868986,
+            "error_pp": -1.7187094441496882
+          },
+          "right": {
+            "market_id": 10,
+            "team_id": "M10-5113195d6f51ae9c",
+            "country": "泰国",
+            "price": 27.0,
+            "general": 1090.0,
+            "designer": 1940.0,
+            "rd": 1400.0,
+            "previous_rd": 1000.0,
+            "demand": 225.39,
+            "actual_share": 0.11563798676312144,
+            "predicted_share": 0.11088646326081524,
+            "error_pp": -0.4751523502306204
+          }
+        },
+        {
+          "feature_distance": 0.5044205730270822,
+          "actual_gap_pp": 1.7709793341834312,
+          "left": {
+            "market_id": 1,
+            "team_id": "M01-523d8923a7806a12",
+            "country": "泰国",
+            "price": 27.0,
+            "general": 1100.0,
+            "designer": 1900.0,
+            "rd": 1500.0,
+            "previous_rd": 950.0,
+            "demand": 218.29,
+            "actual_share": 0.11502144565870316,
+            "predicted_share": 0.10872201851210699,
+            "error_pp": -0.6299427146596176
+          },
+          "right": {
+            "market_id": 1,
+            "team_id": "M01-1024acd4dc010230",
+            "country": "泰国",
+            "price": 26.0,
+            "general": 1120.0,
+            "designer": 2045.0,
+            "rd": 1800.0,
+            "previous_rd": 2600.0,
+            "demand": 184.68,
+            "actual_share": 0.09731165231686885,
+            "predicted_share": 0.12600257952117294,
+            "error_pp": 2.8690927204304093
+          }
+        },
+        {
+          "feature_distance": 0.5124620933103269,
+          "actual_gap_pp": 8.037545040113077,
+          "left": {
+            "market_id": 1,
+            "team_id": "M01-3709a42297a41f3c",
+            "country": "印尼",
+            "price": 27.0,
+            "general": 1000.0,
+            "designer": 2200.0,
+            "rd": 2201.0,
+            "previous_rd": 901.0,
+            "demand": 180.02,
+            "actual_share": 0.17918499790974066,
+            "predicted_share": 0.12720829644479073,
+            "error_pp": -5.197670146494993
+          },
+          "right": {
+            "market_id": 1,
+            "team_id": "M01-1024acd4dc010230",
+            "country": "印尼",
+            "price": 27.0,
+            "general": 1120.0,
+            "designer": 2045.0,
+            "rd": 1800.0,
+            "previous_rd": 2600.0,
+            "demand": 99.27,
+            "actual_share": 0.09880954750860989,
+            "predicted_share": 0.1315244152398379,
+            "error_pp": 3.2714867731228017
+          }
+        },
+        {
+          "feature_distance": 0.5618821842890032,
+          "actual_gap_pp": 0.15208046070240844,
+          "left": {
+            "market_id": 6,
+            "team_id": "M06-41e0c5f8bd66589b",
+            "country": "印尼",
+            "price": 27.0,
+            "general": 1130.0,
+            "designer": 1245.0,
+            "rd": 1700.0,
+            "previous_rd": 1000.0,
+            "demand": 101.83,
+            "actual_share": 0.10324235542217534,
+            "predicted_share": 0.10722249693849017,
+            "error_pp": 0.39801415163148307
+          },
+          "right": {
+            "market_id": 6,
+            "team_id": "M06-1804c15bca402242",
+            "country": "印尼",
+            "price": 28.0,
+            "general": 1050.0,
+            "designer": 975.0,
+            "rd": 1750.0,
+            "previous_rd": 900.0,
+            "demand": 103.33,
+            "actual_share": 0.10476316002919943,
+            "predicted_share": 0.09120597534636429,
+            "error_pp": -1.3557184682835135
+          }
+        },
+        {
+          "feature_distance": 0.5653035415564928,
+          "actual_gap_pp": 3.790349092395312,
+          "left": {
+            "market_id": 10,
+            "team_id": "M10-5d487b3171fd0390",
+            "country": "印尼",
+            "price": 27.0,
+            "general": 1200.0,
+            "designer": 1700.0,
+            "rd": 1200.0,
+            "previous_rd": 900.0,
+            "demand": 153.76,
+            "actual_share": 0.1366160516752703,
+            "predicted_share": 0.11740538467415318,
+            "error_pp": -1.921066700111712
+          },
+          "right": {
+            "market_id": 10,
+            "team_id": "M10-5113195d6f51ae9c",
+            "country": "印尼",
+            "price": 28.0,
+            "general": 1090.0,
+            "designer": 1940.0,
+            "rd": 1400.0,
+            "previous_rd": 1000.0,
+            "demand": 111.1,
+            "actual_share": 0.09871256075131718,
+            "predicted_share": 0.1045995012372245,
+            "error_pp": 0.5886940485907322
+          }
+        }
+      ],
+      "identical_input_pairs": [],
+      "ablations": {
+        "saved_config_replay": {
+          "mae_pp": 2.602758554050626,
+          "folds": [
+            {
+              "market": 1,
+              "mae_pp": 3.85558400604984
+            },
+            {
+              "market": 2,
+              "mae_pp": 2.891567025950171
+            },
+            {
+              "market": 3,
+              "mae_pp": 2.7582489950319866
+            },
+            {
+              "market": 4,
+              "mae_pp": 4.36697395857441
+            },
+            {
+              "market": 5,
+              "mae_pp": 1.7393969962075686
+            },
+            {
+              "market": 6,
+              "mae_pp": 1.6168381094421944
+            },
+            {
+              "market": 7,
+              "mae_pp": 3.0257607490418437
+            },
+            {
+              "market": 8,
+              "mae_pp": 1.645749665548375
+            },
+            {
+              "market": 9,
+              "mae_pp": 2.0206982233546102
+            },
+            {
+              "market": 10,
+              "mae_pp": 2.106767811305259
+            }
+          ]
+        },
+        "without_rd": {
+          "mae_pp": 2.5844616109979053,
+          "folds": [
+            {
+              "market": 1,
+              "mae_pp": 3.859214280149728
+            },
+            {
+              "market": 2,
+              "mae_pp": 2.8268110073190753
+            },
+            {
+              "market": 3,
+              "mae_pp": 2.7492923502216473
+            },
+            {
+              "market": 4,
+              "mae_pp": 4.379735600307103
+            },
+            {
+              "market": 5,
+              "mae_pp": 1.7092537414315268
+            },
+            {
+              "market": 6,
+              "mae_pp": 1.6596615646182495
+            },
+            {
+              "market": 7,
+              "mae_pp": 3.0205128595811854
+            },
+            {
+              "market": 8,
+              "mae_pp": 1.6498107400326871
+            },
+            {
+              "market": 9,
+              "mae_pp": 2.0075667518799807
+            },
+            {
+              "market": 10,
+              "mae_pp": 1.9827572144378711
+            }
+          ]
+        },
+        "without_marketing": {
+          "mae_pp": 3.365144477581885,
+          "folds": [
+            {
+              "market": 1,
+              "mae_pp": 4.7397830188027745
+            },
+            {
+              "market": 2,
+              "mae_pp": 3.932343177589391
+            },
+            {
+              "market": 3,
+              "mae_pp": 2.751449778062256
+            },
+            {
+              "market": 4,
+              "mae_pp": 5.021974599916316
+            },
+            {
+              "market": 5,
+              "mae_pp": 2.3633410573889324
+            },
+            {
+              "market": 6,
+              "mae_pp": 1.919248916653503
+            },
+            {
+              "market": 7,
+              "mae_pp": 2.5999645752623315
+            },
+            {
+              "market": 8,
+              "mae_pp": 3.6797144810680265
+            },
+            {
+              "market": 9,
+              "mae_pp": 3.989227956006352
+            },
+            {
+              "market": 10,
+              "mae_pp": 2.6543972150689714
+            }
+          ]
+        }
+      },
+      "abs_internal_selection_mae_kunits": 42.65144802682249,
+      "mean_demand": 159.36471590909093,
+      "supply_shortfall_n": 138
+    }
+  },
+  "efficiency": {
+    "复合梁": {
+      "n": 100,
+      "chosen": {
+        "rho": 0.338,
+        "theta": 0.17350968114290144,
+        "weighted_rmse": 0.00469496255306084,
+        "index": 338
+      },
+      "mean_observed": 0.17277334735616912,
+      "market_strategy_mae": 0.0014374961713831708,
+      "team_mape_pct": 0.8632254723096595,
+      "rounding_compatible_n": 10,
+      "top_errors": [
+        {
+          "market": 7,
+          "team": "M07-71cb3f984d9d1ad8",
+          "production": 19.33,
+          "workers": 171.56,
+          "actual": 0.11267195150384704,
+          "predicted": 0.07679746186929616,
+          "error": -0.03587448963455088,
+          "relative_error_pct": -31.8397694863091,
+          "display_interval": [
+            0.11263952437851543,
+            0.11270438051936695
+          ],
+          "rounding_compatible": false
+        },
+        {
+          "market": 2,
+          "team": "M02-017778fa730530a0",
+          "production": 17.48,
+          "workers": 112.19,
+          "actual": 0.15580711293341654,
+          "predicted": 0.14928778924259584,
+          "error": -0.0065193236908207,
+          "relative_error_pct": -4.184227258999851,
+          "display_interval": [
+            0.15575560408217837,
+            0.15585862637607523
+          ],
+          "rounding_compatible": false
+        },
+        {
+          "market": 8,
+          "team": "M08-3c61ed4759e79b04",
+          "production": 12.62,
+          "workers": 79.45,
+          "actual": 0.15884203901825045,
+          "predicted": 0.15420505504757612,
+          "error": -0.00463698397067433,
+          "relative_error_pct": -2.919242285816759,
+          "display_interval": [
+            0.15876911459316592,
+            0.15891497262256907
+          ],
+          "rounding_compatible": false
+        },
+        {
+          "market": 3,
+          "team": "M03-5735699707f6d962",
+          "production": 5.37,
+          "workers": 38.16,
+          "actual": 0.1407232704402516,
+          "predicted": 0.13725788120978424,
+          "error": -0.003465389230467353,
+          "relative_error_pct": -2.462555922432663,
+          "display_interval": [
+            0.1405738241844622,
+            0.140872755864238
+          ],
+          "rounding_compatible": false
+        },
+        {
+          "market": 9,
+          "team": "M09-be90c0cdb42a7ddb",
+          "production": 22.8,
+          "workers": 121.61,
+          "actual": 0.1874845818600444,
+          "predicted": 0.19055943183682125,
+          "error": 0.0030748499767768445,
+          "relative_error_pct": 1.6400548494553968,
+          "display_interval": [
+            0.18743576039139911,
+            0.18753340734344803
+          ],
+          "rounding_compatible": false
+        },
+        {
+          "market": 1,
+          "team": "M01-8aaa9bec8534e4f4",
+          "production": 0.18,
+          "workers": 0.98,
+          "actual": 0.1836734693877551,
+          "predicted": 0.18087827933336356,
+          "error": -0.0027951900543915498,
+          "relative_error_pct": -1.5218256962798438,
+          "display_interval": [
+            0.17766497461928932,
+            0.18974358974358974
+          ],
+          "rounding_compatible": true
+        },
+        {
+          "market": 8,
+          "team": "M08-2f120b39505b1bf9",
+          "production": 25.38,
+          "workers": 138.91,
+          "actual": 0.1827082283492909,
+          "predicted": 0.18543583904675648,
+          "error": 0.0027276106974655767,
+          "relative_error_pct": 1.4928778644008878,
+          "display_interval": [
+            0.18266565885613506,
+            0.18275080090709475
+          ],
+          "rounding_compatible": false
+        },
+        {
+          "market": 10,
+          "team": "M10-1c749ff2420e412f",
+          "production": 26.53,
+          "workers": 144.7,
+          "actual": 0.18334485141672427,
+          "predicted": 0.18594673295358535,
+          "error": 0.0026018815368610837,
+          "relative_error_pct": 1.419118953576315,
+          "display_interval": [
+            0.1833039632355482,
+            0.18338574242371886
+          ],
+          "rounding_compatible": false
+        }
+      ]
+    },
+    "连接件": {
+      "n": 87,
+      "chosen": {
+        "rho": 0.303,
+        "theta": 17.412871597966145,
+        "weighted_rmse": 0.48542427090131834,
+        "index": 303
+      },
+      "mean_observed": 17.28861489724699,
+      "market_strategy_mae": 0.16192665956755356,
+      "team_mape_pct": 0.9532839046057556,
+      "rounding_compatible_n": 16,
+      "top_errors": [
+        {
+          "market": 7,
+          "team": "M07-71cb3f984d9d1ad8",
+          "production": 40.0,
+          "workers": 3.55,
+          "actual": 11.267605633802818,
+          "predicted": 7.67353093477334,
+          "error": -3.594074699029478,
+          "relative_error_pct": -31.897412953886615,
+          "display_interval": [
+            11.250351617440225,
+            11.28490832157969
+          ],
+          "rounding_compatible": false
+        },
+        {
+          "market": 2,
+          "team": "M02-017778fa730530a0",
+          "production": 60.0,
+          "workers": 3.85,
+          "actual": 15.584415584415584,
+          "predicted": 14.922033862792471,
+          "error": -0.6623817216231132,
+          "relative_error_pct": -4.250282713748311,
+          "display_interval": [
+            15.56290531776913,
+            15.605981794538362
+          ],
+          "rounding_compatible": false
+        },
+        {
+          "market": 9,
+          "team": "M09-be90c0cdb42a7ddb",
+          "production": 160.0,
+          "workers": 8.54,
+          "actual": 18.735362997658083,
+          "predicted": 19.101832812047732,
+          "error": 0.36646981438964943,
+          "relative_error_pct": 1.9560326343047496,
+          "display_interval": [
+            18.72381509654769,
+            18.7469244288225
+          ],
+          "rounding_compatible": false
+        },
+        {
+          "market": 6,
+          "team": "M06-cc08b3b377f245d5",
+          "production": 380.0,
+          "workers": 22.21,
+          "actual": 17.109410175596576,
+          "predicted": 16.76530548000733,
+          "error": -0.3441046955892446,
+          "relative_error_pct": -2.01120139185188,
+          "display_interval": [
+            17.10533423362593,
+            17.113487953163702
+          ],
+          "rounding_compatible": false
+        },
+        {
+          "market": 3,
+          "team": "M03-5735699707f6d962",
+          "production": 40.0,
+          "workers": 2.84,
+          "actual": 14.084507042253522,
+          "predicted": 13.740694639814057,
+          "error": -0.34381240243946465,
+          "relative_error_pct": -2.441068057320195,
+          "display_interval": [
+            14.057996485061512,
+            14.111111111111112
+          ],
+          "rounding_compatible": false
+        },
+        {
+          "market": 10,
+          "team": "M10-1c749ff2420e412f",
+          "production": 68.0,
+          "workers": 3.71,
+          "actual": 18.328840970350406,
+          "predicted": 18.616846757534883,
+          "error": 0.28800578718447767,
+          "relative_error_pct": 1.5713256918447271,
+          "display_interval": [
+            18.3028263795424,
+            18.354925775978405
+          ],
+          "rounding_compatible": false
+        },
+        {
+          "market": 8,
+          "team": "M08-2f120b39505b1bf9",
+          "production": 80.0,
+          "workers": 4.38,
+          "actual": 18.264840182648403,
+          "predicted": 18.54465797449035,
+          "error": 0.2798177918419462,
+          "relative_error_pct": 1.5320024103346652,
+          "display_interval": [
+            18.242873432155076,
+            18.28685714285714
+          ],
+          "rounding_compatible": false
+        },
+        {
+          "market": 5,
+          "team": "M05-9c64541246150811",
+          "production": 160.0,
+          "workers": 8.58,
+          "actual": 18.64801864801865,
+          "predicted": 18.925911692678454,
+          "error": 0.27789304465980535,
+          "relative_error_pct": 1.4902014519882156,
+          "display_interval": [
+            18.636575422248107,
+            18.659475218658894
+          ],
+          "rounding_compatible": false
+        }
+      ]
+    }
+  },
+  "checks": {
+    "unique_keys": true,
+    "share_conservation": true,
+    "actual_share_replay": true,
+    "saved_mae_replay": true,
+    "outer_config_prediction_replay": true,
+    "scope": "消融沿用原外折所选配置，未独立重选；仅解释诊断，非新模型验收"
+  },
+  "own_allocation": [
+    {
+      "product": "复合梁",
+      "country": "泰国",
+      "general": 150.0,
+      "designer": 275.0,
+      "rd": 1000.0
+    },
+    {
+      "product": "复合梁",
+      "country": "印尼",
+      "general": 525.0,
+      "designer": 650.0,
+      "rd": 1000.0
+    },
+    {
+      "product": "连接件",
+      "country": "泰国",
+      "general": 225.0,
+      "designer": 125.0,
+      "rd": 400.0
+    },
+    {
+      "product": "连接件",
+      "country": "印尼",
+      "general": 175.0,
+      "designer": 100.0,
+      "rd": 400.0
+    }
+  ],
+  "materials": {
+    "复合梁": {
+      "n": 100,
+      "selected": "additive",
+      "scores": {
+        "published": {
+          "mae_kusd": 26.204900000000013,
+          "display_compatible_n": 7
+        },
+        "additive": {
+          "mae_kusd": 2.4972625874247427,
+          "display_compatible_n": 100
+        },
+        "proportional": {
+          "mae_kusd": 2.4972625874250336,
+          "display_compatible_n": 100
+        }
+      }
+    },
+    "连接件": {
+      "n": 87,
+      "selected": "additive",
+      "scores": {
+        "published": {
+          "mae_kusd": 2.7586666666666977,
+          "display_compatible_n": 3
+        },
+        "additive": {
+          "mae_kusd": 0.2374492402308064,
+          "display_compatible_n": 87
+        },
+        "proportional": {
+          "mae_kusd": 0.2374492402308384,
+          "display_compatible_n": 87
+        }
+      }
+    }
+  }
+}

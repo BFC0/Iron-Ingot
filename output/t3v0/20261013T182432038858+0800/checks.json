@@ -1,0 +1,33 @@
+{
+  "prepared_fit_exact_replay": true,
+  "invalid_features_rejected": true,
+  "share_conservation": true,
+  "loss_scale_equivalence": true,
+  "version_product_group_guards": true,
+  "operations": {
+    "synthetic_recovery": true,
+    "duplicate_strategy_invariance": true,
+    "single_strategy_nonidentifiability": true,
+    "heldout_disjoint": true
+  },
+  "horizon": {
+    "six_start_rounds": true,
+    "unknown_profit_not_zero": true,
+    "round7_and_missing_or_duplicate_rejected": true,
+    "terminal_state_preserved": true,
+    "terminal_reward_not_invented": true
+  },
+  "input_hashes_unchanged": true,
+  "formal2_actual_only": true,
+  "state_pairs": 100,
+  "training_rows": 200,
+  "formal3_not_used_in_training": true,
+  "curve2_sha256": "f7bf3f305a145e9e658145dd0ce3e3fae9fc722fb68ba4db9c7a1cbd527d41b7",
+  "old_outputs_not_overwritten": true,
+  "artifacts": {
+    "html_json_rows": 400,
+    "csv_rows": 400,
+    "curve_points": 600,
+    "guarded_calculation_replays": true
+  }
+}

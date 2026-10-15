@@ -1,0 +1,163 @@
+{
+  "version": "t4v0",
+  "models": {
+    "ABS": {
+      "status": "RETRAINED_SEPARATE_PRODUCTS_COMPANY_TOTAL_PROXIES",
+      "artifact": "models.json",
+      "counts": {
+        "复合梁": 120,
+        "连接件": 110
+      }
+    },
+    "SHARE": {
+      "status": "RETRAINED_SEPARATE_PRODUCTS_COMPANY_TOTAL_PROXIES",
+      "artifact": "models.json",
+      "counts": {
+        "复合梁": 120,
+        "连接件": 110
+      }
+    },
+    "COUNTRY": {
+      "status": "RETRAINED_SEPARATE_PRODUCTS_COMPANY_TOTAL_PROXIES",
+      "artifact": "models.json",
+      "counts": {
+        "复合梁": 120,
+        "连接件": 110
+      }
+    },
+    "EFF": {
+      "status": "RETRAINED_SEPARATE_PRODUCT_MARKET_HOLDOUTS",
+      "artifact": "models.json",
+      "counts": {
+        "复合梁": 60,
+        "连接件": 54
+      }
+    },
+    "RISK_POWER": {
+      "status": "RETRAINED_STABILITY_GATE_FAILED_EXTREME_HELD_MARKET",
+      "artifact": "models_full.json",
+      "reason": "近零权益队产生极端杠杆；外层留出显著外推，不能作确定推荐"
+    },
+    "RISK_EXP": {
+      "status": "RETRAINED_STABILITY_GATE_FAILED_EXTREME_HELD_MARKET",
+      "artifact": "models_full.json",
+      "reason": "近零权益队产生极端杠杆；外层留出显著外推，不能作确定推荐"
+    },
+    "MATERIAL": {
+      "status": "RETRAINED_SEPARATE_PRODUCTS",
+      "artifact": "models.json",
+      "counts": {
+        "复合梁": 60,
+        "连接件": 54
+      }
+    },
+    "MATERIAL_PROP": {
+      "status": "RETRAINED_SEPARATE_PRODUCTS",
+      "artifact": "models.json",
+      "counts": {
+        "复合梁": 60,
+        "连接件": 54
+      }
+    },
+    "INTEREST": {
+      "status": "RETRAINED_STABILITY_GATE_FAILED_EXTREME_HELD_MARKET",
+      "artifact": "models_full.json",
+      "reason": "近零权益队产生极端杠杆；外层留出显著外推，不能作确定推荐"
+    },
+    "RD": {
+      "status": "RETRAINED_CURVE_200_POINTS_PER_SERIES",
+      "artifact": "formal3_curves.json"
+    },
+    "OPS": {
+      "status": "RETRAINED_CURVE_200_POINTS_PER_SERIES",
+      "artifact": "formal3_curves.json"
+    },
+    "TOTAL": {
+      "status": "ACTUAL_TOTAL_DIAGNOSTICS_NOT_PREDICTIVE_TRAINING",
+      "artifact": "industry.json"
+    },
+    "BASELINE": {
+      "status": "ACTUAL_TOTAL_DIAGNOSTICS_NOT_PREDICTIVE_TRAINING",
+      "artifact": "industry.json"
+    },
+    "GROWTH": {
+      "status": "ACTUAL_TOTAL_DIAGNOSTICS_NOT_PREDICTIVE_TRAINING",
+      "artifact": "industry.json"
+    },
+    "CAPACITY": {
+      "status": "RULE_DIAGNOSTICS_WITH_EXPLICIT_GAPS",
+      "artifact": "labor_and_accounts.json"
+    },
+    "LABOR": {
+      "status": "RULE_DIAGNOSTICS_WITH_EXPLICIT_GAPS",
+      "artifact": "labor_and_accounts.json"
+    },
+    "OPERATING": {
+      "status": "RULE_DIAGNOSTICS_WITH_EXPLICIT_GAPS",
+      "artifact": "labor_and_accounts.json"
+    },
+    "FINANCE": {
+      "status": "RULE_DIAGNOSTICS_WITH_EXPLICIT_GAPS",
+      "artifact": "labor_and_accounts.json"
+    },
+    "HORIZON": {
+      "status": "BLOCKED_INCOMPLETE_ROUNDS_4_TO_6_STATE_CHAIN",
+      "artifact": "models.json"
+    },
+    "METRICS": {
+      "status": "SOURCE_AND_SELF_CHECKS_PASS",
+      "artifact": "checks.json"
+    },
+    "UNIFIED": {
+      "status": "COMPOSITION_MAPPED_TO_T4V0_SEPARATE_PRODUCT_REGISTRY",
+      "artifact": "models_full.json",
+      "reason": "组合入口，无额外独立参数；旧版本不覆盖"
+    },
+    "T2V0": {
+      "status": "COMPOSITION_MAPPED_TO_T4V0_SEPARATE_PRODUCT_REGISTRY",
+      "artifact": "models_full.json",
+      "reason": "组合入口，无额外独立参数；旧版本不覆盖"
+    },
+    "A": {
+      "status": "EVALUATED_NO_INCREMENT_GATE_PASS_NO_REFIT",
+      "artifact": "supplementary_A.json"
+    },
+    "B": {
+      "status": "PUBLISHED_SEVERANCE_RULE_60_CHECKS_PASS",
+      "artifact": "severance_checks.csv"
+    },
+    "C": {
+      "status": "RETRAINED_SEPARATE_PRODUCT_CONDITIONAL_WAGE",
+      "artifact": "supplementary_verification.json"
+    },
+    "D": {
+      "status": "RETRAINED_FORMAL2_TO_FORMAL3_RESEARCH_NOT_DEPLOYED",
+      "artifact": "lagged_efficiency.json"
+    },
+    "E": {
+      "status": "KNOWN_INTENSITY_FORMULAS_ALL_CHECKS_PASS",
+      "artifact": "physics_checks.csv"
+    },
+    "F": {
+      "status": "KNOWN_INTENSITY_FORMULAS_ALL_CHECKS_PASS",
+      "artifact": "physics_checks.csv"
+    },
+    "CONNECTOR": {
+      "status": "EXISTING_RULE_SELF_CHECK_PASS_ACTUAL_TRAINING_SCOPE_LIMITED",
+      "artifact": "connector_checks.json",
+      "reason": "连接件需求/效率/材料/工资已有真实训练；库存/订单跨期仅现有规则自检，完整利润未验证"
+    },
+    "CONNECTOR_V2": {
+      "status": "EXISTING_RULE_SELF_CHECK_PASS_ACTUAL_TRAINING_SCOPE_LIMITED",
+      "artifact": "connector_checks.json",
+      "reason": "连接件需求/效率/材料/工资已有真实训练；库存/订单跨期仅现有规则自检，完整利润未验证"
+    },
+    "JOINT_ALLOCATION": {
+      "status": "EXISTING_RULE_SELF_CHECK_PASS_ACTUAL_TRAINING_SCOPE_LIMITED",
+      "artifact": "connector_checks.json",
+      "reason": "连接件需求/效率/材料/工资已有真实训练；库存/订单跨期仅现有规则自检，完整利润未验证"
+    }
+  },
+  "count": 31,
+  "deployment": false
+}

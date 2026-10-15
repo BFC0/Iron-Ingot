@@ -1,0 +1,171 @@
+[
+  {
+    "source": "output/round_close/20261014_formal4_close/raw/market4_formal4_market.json",
+    "sha256": "4606f963c2b81c96fdbc4506a722476af251499e09f9884ef388766b77345629",
+    "market": 4,
+    "panel": "market",
+    "html_complete": true,
+    "identity_valid": true,
+    "valid": true,
+    "structure_reviews": [],
+    "reviewed_extra_columns": []
+  },
+  {
+    "source": "output/round_close/20261014_formal4_close/raw/market4_formal4_marketdetails.json",
+    "sha256": "afdf5c2accbf759fa88edae6a38e19e520c6ed54e6337f853e1091c15610da5e",
+    "market": 4,
+    "panel": "marketdetails",
+    "html_complete": true,
+    "identity_valid": true,
+    "valid": true,
+    "structure_reviews": [],
+    "reviewed_extra_columns": []
+  },
+  {
+    "source": "output/round_close/20261014_formal4_close/raw/market4_formal4_production.json",
+    "sha256": "920ba90c4b3b2a2396c0259977c63c0332aac68acb0aca73e22316edad38e192",
+    "market": 4,
+    "panel": "production",
+    "html_complete": true,
+    "identity_valid": true,
+    "valid": true,
+    "structure_reviews": [],
+    "reviewed_extra_columns": []
+  },
+  {
+    "source": "output/round_close/20261014_formal4_close/raw/market4_formal4_productiondetails.json",
+    "sha256": "68ff5ccac836b4ee1c6b12c9d46717bb8a7784002df970fc5f10474d752621b6",
+    "market": 4,
+    "panel": "productiondetails",
+    "html_complete": true,
+    "identity_valid": true,
+    "valid": true,
+    "structure_reviews": [],
+    "reviewed_extra_columns": []
+  },
+  {
+    "source": "output/round_close/20261014_formal4_close/raw/market4_formal4_productionenvironmental.json",
+    "sha256": "d9de40bb9db006bae8bd7af8295c7d4788ec3f9c41d655ce0420a0b5a6f2ec5c",
+    "market": 4,
+    "panel": "productionenvironmental",
+    "html_complete": true,
+    "identity_valid": true,
+    "valid": true,
+    "structure_reviews": [],
+    "reviewed_extra_columns": []
+  },
+  {
+    "source": "output/round_close/20261014_formal4_close/raw/market4_formal4_productionhr.json",
+    "sha256": "f09427041134840022baa76bf119bf205b81c3d8e461d3256c569f5708e72884",
+    "market": 4,
+    "panel": "productionhr",
+    "html_complete": true,
+    "identity_valid": true,
+    "valid": true,
+    "structure_reviews": [],
+    "reviewed_extra_columns": []
+  },
+  {
+    "source": "output/round_close/20261014_formal4_close/raw/market4_formal4_logistics.json",
+    "sha256": "fefe67654ead28a0dbae9173b47976aa1ddceb69384bc376942be71c4cd9b638",
+    "market": 4,
+    "panel": "logistics",
+    "html_complete": true,
+    "identity_valid": true,
+    "valid": true,
+    "structure_reviews": [],
+    "reviewed_extra_columns": []
+  },
+  {
+    "source": "output/round_close/20261014_formal4_close/raw/market4_formal4_logisticsemissions.json",
+    "sha256": "0df4ce7e4a542ee7731010d06342b82fd1bc72c8e5f39179a99e8da45e2c26a5",
+    "market": 4,
+    "panel": "logisticsemissions",
+    "html_complete": true,
+    "identity_valid": true,
+    "valid": true,
+    "structure_reviews": [],
+    "reviewed_extra_columns": [
+      {
+        "table_index": 0,
+        "row_index": 5,
+        "original_cells": [
+          "总计",
+          "929 061.4",
+          "669 919.2",
+          "604 462.8",
+          "595 043.6",
+          "561 240.9",
+          "684 292.2",
+          "680 000.8",
+          "489 786.9",
+          "609 228.8",
+          "478 670.2",
+          "0.0",
+          "0.0"
+        ],
+        "mapped_columns": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "unheaded_columns": [
+          11,
+          12
+        ],
+        "reason": "Ten named team header columns; two extra zero cells without team headers; first ten totals equal the two route rows within displayed precision."
+      }
+    ]
+  },
+  {
+    "source": "output/round_close/20261014_formal4_close/raw/market4_formal4_incomestatement.json",
+    "sha256": "0785dd4790e1d5d211a0394123f3dbe1f5fbfa8b3b7446e3fec24f847668de05",
+    "market": 4,
+    "panel": "incomestatement",
+    "html_complete": true,
+    "identity_valid": true,
+    "valid": true,
+    "structure_reviews": [],
+    "reviewed_extra_columns": []
+  },
+  {
+    "source": "output/round_close/20261014_formal4_close/raw/market4_formal4_balancesheet.json",
+    "sha256": "9204ece430b8f26cbd193cae350968995103bed37a1b71ca2a9933487e74b34b",
+    "market": 4,
+    "panel": "balancesheet",
+    "html_complete": true,
+    "identity_valid": true,
+    "valid": true,
+    "structure_reviews": [],
+    "reviewed_extra_columns": []
+  },
+  {
+    "source": "output/round_close/20261014_formal4_close/raw/market4_formal4_cashflow.json",
+    "sha256": "7056b524fe7348bc2c85c179e2c93aade70017e221477f8a3cf92fdf56d262ef",
+    "market": 4,
+    "panel": "cashflow",
+    "html_complete": true,
+    "identity_valid": true,
+    "valid": true,
+    "structure_reviews": [],
+    "reviewed_extra_columns": []
+  },
+  {
+    "source": "output/round_close/20261014_formal4_close/raw/market4_formal4_societalimpact.json",
+    "sha256": "7b3c8611f4d770d81de797a2aa0eee3c2005fa1940828d77a3af1b11068a2898",
+    "market": 4,
+    "panel": "societalimpact",
+    "html_complete": true,
+    "identity_valid": true,
+    "valid": true,
+    "structure_reviews": [],
+    "reviewed_extra_columns": []
+  }
+]

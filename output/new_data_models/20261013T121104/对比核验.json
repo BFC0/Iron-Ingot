@@ -1,0 +1,609 @@
+{
+  "fixed_audit": "output\\round_close\\20261012T221044.031+0800\\audit\\20261013T120552.995614+0800",
+  "coverage": {
+    "verified": 390,
+    "pending": 360
+  },
+  "paired_old_periods": 37,
+  "old_training_fields": [
+    "bulk_orders",
+    "capacity",
+    "captured_at",
+    "cash",
+    "context_fit_eligible",
+    "context_id",
+    "context_verified",
+    "country",
+    "demand",
+    "designer",
+    "general",
+    "initial_linkage",
+    "initial_price",
+    "initial_price_source",
+    "inventory",
+    "kind",
+    "long_debt",
+    "market_id",
+    "operations",
+    "phase",
+    "previous_operations",
+    "previous_operations_source",
+    "previous_rd",
+    "previous_rd_source",
+    "price",
+    "profit",
+    "rd",
+    "round",
+    "sales",
+    "short_debt",
+    "source_url",
+    "sources",
+    "supply_limited",
+    "team",
+    "team_column",
+    "team_history_verified",
+    "team_id",
+    "units",
+    "unmet",
+    "usable_for_fit"
+  ],
+  "old_structured_history_fields": [
+    "building_capex",
+    "capacity",
+    "cash",
+    "cumulative_profit",
+    "designer_marketing",
+    "efficiency",
+    "general_marketing",
+    "inventory",
+    "machine_capex",
+    "operations",
+    "production",
+    "profit",
+    "rd",
+    "short_debt",
+    "wage",
+    "workers"
+  ],
+  "comparison_rows": 300,
+  "type_stats": {
+    "production_co2_total": {
+      "rows": 26,
+      "numeric_cells": 260,
+      "nonzero_cells": 260,
+      "min": 61.1,
+      "max": 41147.4,
+      "rows_varying_between_teams_beyond_display_tolerance": 20,
+      "examples": [
+        {
+          "source": "raw/market01_formal1_productionenvironmental.json",
+          "table_index": 0,
+          "row_index": 3,
+          "label": "复合梁",
+          "heading": "二氧化碳排放, 公吨"
+        },
+        {
+          "source": "raw/market01_formal2_productionenvironmental.json",
+          "table_index": 0,
+          "row_index": 3,
+          "label": "复合梁",
+          "heading": "二氧化碳排放, 公吨"
+        }
+      ]
+    },
+    "production_co2_intensity": {
+      "rows": 26,
+      "numeric_cells": 260,
+      "nonzero_cells": 260,
+      "min": 1355.31,
+      "max": 1355.32,
+      "rows_varying_between_teams_beyond_display_tolerance": 0,
+      "examples": [
+        {
+          "source": "raw/market01_formal1_productionenvironmental.json",
+          "table_index": 3,
+          "row_index": 3,
+          "label": "复合梁",
+          "heading": "二氧化碳排放, kg"
+        },
+        {
+          "source": "raw/market01_formal2_productionenvironmental.json",
+          "table_index": 3,
+          "row_index": 3,
+          "label": "复合梁",
+          "heading": "二氧化碳排放, kg"
+        }
+      ]
+    },
+    "energy_total": {
+      "rows": 26,
+      "numeric_cells": 260,
+      "nonzero_cells": 260,
+      "min": 215.3,
+      "max": 145071.7,
+      "rows_varying_between_teams_beyond_display_tolerance": 20,
+      "examples": [
+        {
+          "source": "raw/market01_formal1_productionenvironmental.json",
+          "table_index": 0,
+          "row_index": 5,
+          "label": "复合梁",
+          "heading": "能源消耗, MWh"
+        },
+        {
+          "source": "raw/market01_formal2_productionenvironmental.json",
+          "table_index": 0,
+          "row_index": 5,
+          "label": "复合梁",
+          "heading": "能源消耗, MWh"
+        }
+      ]
+    },
+    "energy_intensity": {
+      "rows": 26,
+      "numeric_cells": 260,
+      "nonzero_cells": 260,
+      "min": 4778.38,
+      "max": 4778.38,
+      "rows_varying_between_teams_beyond_display_tolerance": 0,
+      "examples": [
+        {
+          "source": "raw/market01_formal1_productionenvironmental.json",
+          "table_index": 3,
+          "row_index": 5,
+          "label": "复合梁",
+          "heading": "能源消耗, kWh"
+        },
+        {
+          "source": "raw/market01_formal2_productionenvironmental.json",
+          "table_index": 3,
+          "row_index": 5,
+          "label": "复合梁",
+          "heading": "能源消耗, kWh"
+        }
+      ]
+    },
+    "water_total": {
+      "rows": 26,
+      "numeric_cells": 260,
+      "nonzero_cells": 260,
+      "min": 464.5,
+      "max": 312924.8,
+      "rows_varying_between_teams_beyond_display_tolerance": 20,
+      "examples": [
+        {
+          "source": "raw/market01_formal1_productionenvironmental.json",
+          "table_index": 0,
+          "row_index": 7,
+          "label": "复合梁",
+          "heading": "用水量, m3"
+        },
+        {
+          "source": "raw/market01_formal2_productionenvironmental.json",
+          "table_index": 0,
+          "row_index": 7,
+          "label": "复合梁",
+          "heading": "用水量, m3"
+        }
+      ]
+    },
+    "water_intensity": {
+      "rows": 26,
+      "numeric_cells": 260,
+      "nonzero_cells": 260,
+      "min": 10307.14,
+      "max": 10307.14,
+      "rows_varying_between_teams_beyond_display_tolerance": 0,
+      "examples": [
+        {
+          "source": "raw/market01_formal1_productionenvironmental.json",
+          "table_index": 3,
+          "row_index": 7,
+          "label": "复合梁",
+          "heading": "用水量, l"
+        },
+        {
+          "source": "raw/market01_formal2_productionenvironmental.json",
+          "table_index": 3,
+          "row_index": 7,
+          "label": "复合梁",
+          "heading": "用水量, l"
+        }
+      ]
+    },
+    "transport_emissions": {
+      "rows": 156,
+      "numeric_cells": 1560,
+      "nonzero_cells": 1510,
+      "min": 0.0,
+      "max": 1160422.0,
+      "rows_varying_between_teams_beyond_display_tolerance": 97,
+      "examples": [
+        {
+          "source": "raw/market01_formal1_logisticsemissions.json",
+          "table_index": 0,
+          "row_index": 3,
+          "label": "运往 泰国",
+          "heading": "复合梁"
+        },
+        {
+          "source": "raw/market01_formal1_logisticsemissions.json",
+          "table_index": 0,
+          "row_index": 4,
+          "label": "运往 印尼",
+          "heading": "复合梁"
+        }
+      ]
+    },
+    "previous_workers": {
+      "rows": 26,
+      "numeric_cells": 260,
+      "nonzero_cells": 260,
+      "min": 0.8,
+      "max": 131.5,
+      "rows_varying_between_teams_beyond_display_tolerance": 10,
+      "examples": [
+        {
+          "source": "raw/market01_formal1_productionhr.json",
+          "table_index": 0,
+          "row_index": 6,
+          "label": "生产人员数量, 上回合",
+          "heading": "人员"
+        },
+        {
+          "source": "raw/market01_formal2_productionhr.json",
+          "table_index": 0,
+          "row_index": 6,
+          "label": "生产人员数量, 上回合",
+          "heading": "人员"
+        }
+      ]
+    },
+    "current_workers": {
+      "rows": 26,
+      "numeric_cells": 260,
+      "nonzero_cells": 260,
+      "min": 0.3,
+      "max": 176.0,
+      "rows_varying_between_teams_beyond_display_tolerance": 20,
+      "examples": [
+        {
+          "source": "raw/market01_formal1_productionhr.json",
+          "table_index": 0,
+          "row_index": 9,
+          "label": "生产人员数量, 本回合",
+          "heading": "人员"
+        },
+        {
+          "source": "raw/market01_formal2_productionhr.json",
+          "table_index": 0,
+          "row_index": 9,
+          "label": "生产人员数量, 本回合",
+          "heading": "人员"
+        }
+      ]
+    },
+    "quits": {
+      "rows": 26,
+      "numeric_cells": 260,
+      "nonzero_cells": 260,
+      "min": -13.2,
+      "max": -0.1,
+      "rows_varying_between_teams_beyond_display_tolerance": 10,
+      "examples": [
+        {
+          "source": "raw/market01_formal1_productionhr.json",
+          "table_index": 0,
+          "row_index": 7,
+          "label": "辞职",
+          "heading": "人员"
+        },
+        {
+          "source": "raw/market01_formal2_productionhr.json",
+          "table_index": 0,
+          "row_index": 7,
+          "label": "辞职",
+          "heading": "人员"
+        }
+      ]
+    },
+    "hires_fires": {
+      "rows": 26,
+      "numeric_cells": 260,
+      "nonzero_cells": 259,
+      "min": -94.9,
+      "max": 145.7,
+      "rows_varying_between_teams_beyond_display_tolerance": 20,
+      "examples": [
+        {
+          "source": "raw/market01_formal1_productionhr.json",
+          "table_index": 0,
+          "row_index": 8,
+          "label": "招聘 + / 裁员 -",
+          "heading": "人员"
+        },
+        {
+          "source": "raw/market01_formal2_productionhr.json",
+          "table_index": 0,
+          "row_index": 8,
+          "label": "招聘 + / 裁员 -",
+          "heading": "人员"
+        }
+      ]
+    },
+    "layoff_percent": {
+      "rows": 26,
+      "numeric_cells": 260,
+      "nonzero_cells": 63,
+      "min": 0.0,
+      "max": 89.3,
+      "rows_varying_between_teams_beyond_display_tolerance": 18,
+      "examples": [
+        {
+          "source": "raw/market01_formal1_productionhr.json",
+          "table_index": 0,
+          "row_index": 10,
+          "label": "裁员, %",
+          "heading": "人员"
+        },
+        {
+          "source": "raw/market01_formal2_productionhr.json",
+          "table_index": 0,
+          "row_index": 10,
+          "label": "裁员, %",
+          "heading": "人员"
+        }
+      ]
+    },
+    "average_wage": {
+      "rows": 26,
+      "numeric_cells": 260,
+      "nonzero_cells": 260,
+      "min": 28.0,
+      "max": 48.63,
+      "rows_varying_between_teams_beyond_display_tolerance": 20,
+      "examples": [
+        {
+          "source": "raw/market01_formal1_productionhr.json",
+          "table_index": 0,
+          "row_index": 2,
+          "label": "每人平均工资, 千 美元",
+          "heading": "泰国"
+        },
+        {
+          "source": "raw/market01_formal2_productionhr.json",
+          "table_index": 0,
+          "row_index": 2,
+          "label": "每人平均工资, 千 美元",
+          "heading": "泰国"
+        }
+      ]
+    },
+    "advance_balance": {
+      "rows": 26,
+      "numeric_cells": 260,
+      "nonzero_cells": 10,
+      "min": 0.0,
+      "max": 350.0,
+      "rows_varying_between_teams_beyond_display_tolerance": 10,
+      "examples": [
+        {
+          "source": "raw/market01_formal1_balancesheet.json",
+          "table_index": 0,
+          "row_index": 33,
+          "label": "已收预付款 ?",
+          "heading": "短期"
+        },
+        {
+          "source": "raw/market01_formal2_balancesheet.json",
+          "table_index": 0,
+          "row_index": 33,
+          "label": "已收预付款 ?",
+          "heading": "短期"
+        }
+      ]
+    },
+    "share_transaction_cash": {
+      "rows": 2,
+      "numeric_cells": 20,
+      "nonzero_cells": 0,
+      "min": 0.0,
+      "max": 0.0,
+      "rows_varying_between_teams_beyond_display_tolerance": 0,
+      "examples": [
+        {
+          "source": "raw/market04_formal1_cashflow.json",
+          "table_index": 0,
+          "row_index": 31,
+          "label": "股息支付",
+          "heading": "融资"
+        },
+        {
+          "source": "raw/market04_formal1_cashflow.json",
+          "table_index": 0,
+          "row_index": 32,
+          "label": "股票发行收益+ / 股票回购成本 -",
+          "heading": "融资"
+        }
+      ]
+    }
+  },
+  "workforce_identity": {
+    "cells": 260,
+    "max_abs_display_residual_people": 0.10000000000002274,
+    "quits_rate_min": 0.07692307692307693,
+    "quits_rate_max": 0.125
+  },
+  "not_trained": true,
+  "selfchecks": "passed",
+  "source_hashes": [
+    {
+      "path": "output\\round_close\\20261012T221044.031+0800\\audit\\20261013T120552.995614+0800\\rows.json",
+      "sha256": "e5c2510f7de23aa3b1d78053dda122710655408b7a09c3fe89b1693262688e69"
+    },
+    {
+      "path": "output\\round_close\\20261012T221044.031+0800\\audit\\20261013T120552.995614+0800\\validation.json",
+      "sha256": "df88bcb4e7fc1f103f8b8acc7c70cada86cab9e5c1f02f9bca50c2d85a5201ad"
+    },
+    {
+      "path": "output\\round_close\\20261012T221044.031+0800\\audit\\20261013T120552.995614+0800\\printable_references.json",
+      "sha256": "951c2ef6c17392e4bfe400979e3640da1f772fd4e7b56d02514c0ea0b270bfab"
+    },
+    {
+      "path": "output\\formal_update\\20261011T225637591747+0800_training\\dataset.json",
+      "sha256": "01fbdfe1222b305c30133738b93ed17d1cff66af32a2e34caaaa05f30fb1f90c"
+    },
+    {
+      "path": "结构化模型输入.json",
+      "sha256": "b4e3a58ba1272d465e3dabce0241c97b51428b2617ff5c1fc1458da7f0908c19"
+    },
+    {
+      "path": "raw\\cross_market\\market_01_initial_0.json",
+      "sha256": "693e331ca22d9079aa29bc3f7cbb0c7ae1c635e8445ad70616954b051e1e6bb0"
+    },
+    {
+      "path": "raw\\cross_market\\market_01_practice_1.json",
+      "sha256": "3752082c838df23897275839fcc116f41d5901ce13a6c9cf7d7383059e5f7eb1"
+    },
+    {
+      "path": "raw\\cross_market\\market_01_practice_2.json",
+      "sha256": "0c9dd153102c36dd2b097b26432cbaf0bf4cfa644399bf97ffde5acd7b8f4fb6"
+    },
+    {
+      "path": "raw\\cross_market\\market_02_initial_0.json",
+      "sha256": "ffad348ea794b605676e239adafb16d251e27bf3da89abe7ab0904668412f438"
+    },
+    {
+      "path": "raw\\cross_market\\market_02_practice_1.json",
+      "sha256": "2ef95bec2f2834ac4b7faf816bfcfff5692703a2dbb7fb6d0b544e212a368c64"
+    },
+    {
+      "path": "raw\\cross_market\\market_02_practice_2.json",
+      "sha256": "f89797509330bf060a746282c54b4075e3f691598f7591dcee927ec8a23a26ee"
+    },
+    {
+      "path": "raw\\cross_market\\market_03_initial_0.json",
+      "sha256": "4b47627480d94ec327aa86d0a10a3fbd144aeb50dbd20b7d27b205e859319eb4"
+    },
+    {
+      "path": "raw\\cross_market\\market_03_practice_1.json",
+      "sha256": "5e408c4a9eb634e2bab0557d84ce7ef12291921c90ae0e6cece5079c6ab6b408"
+    },
+    {
+      "path": "raw\\cross_market\\market_03_practice_2.json",
+      "sha256": "7e1e77aa8761c76e73b586f592784a6d74b4b970ddaf612624114fc7ef9ef7b9"
+    },
+    {
+      "path": "raw\\cross_market\\market_04_initial_0.json",
+      "sha256": "0f4ee5839247c041ef702a39eb54197a9561776f93b94eb9381f88c9ec4a5f5b"
+    },
+    {
+      "path": "raw\\cross_market\\market_04_practice_1.json",
+      "sha256": "6d8df12c37c168ef11c72df16589955c9ff3d3347f332aae48cc9cca3b0767fe"
+    },
+    {
+      "path": "raw\\cross_market\\market_04_practice_2.json",
+      "sha256": "95281e3354e20c1c385bd692d8c217e2f86613331429f01ea1fc6333e1ed6255"
+    },
+    {
+      "path": "raw\\cross_market\\market_06_initial_0.json",
+      "sha256": "26735bc4f639e7115039638697fe3ef7ec128a93228fc2f42a251fd6b54ce555"
+    },
+    {
+      "path": "raw\\cross_market\\market_06_practice_1.json",
+      "sha256": "af9a5505f1a9273c1a462349e90db7863951969afbbce2cc267a867462369a67"
+    },
+    {
+      "path": "raw\\cross_market\\market_06_practice_2.json",
+      "sha256": "f8398921093fb590b4fab4626683387056ad55598039884df77d0fceb68bf0d3"
+    },
+    {
+      "path": "raw\\cross_market\\market_07_initial_0.json",
+      "sha256": "0f8dc72daa870b14a3a52d6d8b5cc5cf1f36628155578726f0f2db7bc4e8f62a"
+    },
+    {
+      "path": "raw\\cross_market\\market_07_practice_1.json",
+      "sha256": "4070266c04c1db19d83be1675819edc53bff7f6f262604e094069bfb11e7fa7b"
+    },
+    {
+      "path": "raw\\cross_market\\market_07_practice_2.json",
+      "sha256": "0b23e2fce710cd409d99848b9bc96b621d89fdbf9f038d76eee493d6e1b42a84"
+    },
+    {
+      "path": "raw\\cross_market\\market_08_initial_0.json",
+      "sha256": "42b119da54e6ebd3f835d168a2c9891fa536964f440f76149935d4ae26b6d3e0"
+    },
+    {
+      "path": "raw\\cross_market\\market_08_practice_1.json",
+      "sha256": "a065a74b2385d6fcdd910c2f188dcdcc83827daf6f9cf9ec3c19d16b2771cd10"
+    },
+    {
+      "path": "raw\\cross_market\\market_08_practice_2.json",
+      "sha256": "324d5a9ea50c387ae59610a6562d25f2cbb6ad58a5807c2e91764f0201b23279"
+    },
+    {
+      "path": "raw\\cross_market\\market_09_initial_0.json",
+      "sha256": "ad08232f0db4a95b111c3d568c1272092889752759dd0ba1cb477b91ce8973e2"
+    },
+    {
+      "path": "raw\\cross_market\\market_09_practice_1.json",
+      "sha256": "adbd4457ed9c9853b4a32a9d2905056505b702b342d2b952ed9879e9160917d2"
+    },
+    {
+      "path": "raw\\cross_market\\market_09_practice_2.json",
+      "sha256": "9e0535d6059027c1bbb91a28f33331ca7ef7f61feb6d3c3fc3b31afbb537ae91"
+    },
+    {
+      "path": "raw\\cross_market\\market_10_initial_0.json",
+      "sha256": "fcc842afeb8286c5832f6b92c4b9098504bca9bbf38eef85b674be7a9619a410"
+    },
+    {
+      "path": "raw\\cross_market\\market_10_practice_1.json",
+      "sha256": "785b2e98f4a01ea78f4468052a0b902777f22a3ae1a48f34969970c6bfce7297"
+    },
+    {
+      "path": "raw\\cross_market\\market_10_practice_2.json",
+      "sha256": "fbd71f2f4f33be23e42b03f6002232857b1fdc663e657a2d540251c9641c5219"
+    },
+    {
+      "path": "output\\formal_update\\20261011T223000+0800_sources\\market_10_formal1.json",
+      "sha256": "df9f14dc21cb5ea81c8df8b4f5323a5f98502257de00fd7744d78d216ed07f4d"
+    },
+    {
+      "path": "output\\formal_update\\20261011T223000+0800_sources\\market_1_formal1.json",
+      "sha256": "c37dc1481cb46f71af47ff94bb14cc4299cfec5684e203735be2ffcd0dec342e"
+    },
+    {
+      "path": "output\\formal_update\\20261011T223000+0800_sources\\market_2_formal1.json",
+      "sha256": "75d5569ed1bbd96bed3be38d5f5c28b5cb8306384bd468527b825a08d06053f4"
+    },
+    {
+      "path": "output\\formal_update\\20261011T223000+0800_sources\\market_3_formal1.json",
+      "sha256": "cbcf342558164f42a4ea5456a1056bb38d291544841e6a4044ba858953d32087"
+    },
+    {
+      "path": "output\\formal_update\\20261011T223000+0800_sources\\market_4_formal1.json",
+      "sha256": "fa048d78fe3dd3f901a7605e1546fcf62d5f9ffca040fa3116e911f5f1460624"
+    },
+    {
+      "path": "output\\formal_update\\20261011T223000+0800_sources\\market_5_formal1.json",
+      "sha256": "325f24f058889dd8bfdc5034ba1d3c089ea329c915ab66034836ae0c913f9911"
+    },
+    {
+      "path": "output\\formal_update\\20261011T223000+0800_sources\\market_6_formal1.json",
+      "sha256": "3953008aa3185a036bff7884a05b9c85dd3234dc3e22ab223be570639ec289c4"
+    },
+    {
+      "path": "output\\formal_update\\20261011T223000+0800_sources\\market_7_formal1.json",
+      "sha256": "b6bc3d1f9ac02c6eb1f8dcb624566432ae9560b02895a09da106eea60ffdd685"
+    },
+    {
+      "path": "output\\formal_update\\20261011T223000+0800_sources\\market_8_formal1.json",
+      "sha256": "31072b976ace345525c3323a7759e8f30a531f5cca63b8b1bc4a098cc8d450d7"
+    },
+    {
+      "path": "output\\formal_update\\20261011T223000+0800_sources\\market_9_formal1.json",
+      "sha256": "3abd4856596cee38fea9f7b273447da84daec70c1c768b3912bea01a7400b4bf"
+    }
+  ]
+}

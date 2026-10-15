@@ -1,0 +1,43 @@
+{
+  "total_rows": 60,
+  "unique_keys": 60,
+  "counts": [
+    {
+      "status": "CONDITIONAL_ZERO_INVESTMENT_PROJECTION",
+      "count": 2
+    },
+    {
+      "status": "NOT_APPLICABLE_FLOW_NOT_CARRIED",
+      "count": 13
+    },
+    {
+      "status": "OPENING_QUANTITY_MATCHED",
+      "count": 2
+    },
+    {
+      "status": "PRIOR_CONTEXT_NOT_OPENING_INPUT",
+      "count": 3
+    },
+    {
+      "status": "PRIOR_CUMULATIVE_BASELINE_NOT_OPENING_INPUT",
+      "count": 1
+    },
+    {
+      "status": "PRIOR_REFERENCE_MATCHED_NOT_OPENING_BALANCE",
+      "count": 12
+    },
+    {
+      "status": "UNKNOWN",
+      "count": 27
+    }
+  ],
+  "true_unknown_count": 27,
+  "flows_not_carried": 13,
+  "original_source_sha256_unchanged": true,
+  "original_review_sha256_unchanged": true,
+  "all_numeric_values_unchanged": true,
+  "no_flow_as_opening_balance": true,
+  "no_refit": true,
+  "historical_player_estimate_budget_and_expense_checks": "NON_MODEL_SEPARATE_UNCHANGED",
+  "count_aggregation_selfcheck": "60 rows and 7 distinct statuses; parsed-object aggregation verified"
+}

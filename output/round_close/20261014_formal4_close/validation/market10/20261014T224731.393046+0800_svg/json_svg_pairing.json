@@ -1,0 +1,1959 @@
+[
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "summary",
+    "chart_id": "Graphs.Results.Summary.CumulRevenue.TimeSeries.summary",
+    "chart_type": "msline",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_summary.json",
+      "sha256": "2899598f2f895503736522249089cc908ad9fdda9ba312ea8c8f200f1fe12073"
+    },
+    "container": "cc-Graphs-Results-Summary-CumulRevenue-TimeSeries-summary",
+    "independent_additional_samples": 0,
+    "status": "pending",
+    "reason": "('line_paths', 0, 0)"
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "summary",
+    "chart_id": "Graphs.Summary.Profitability",
+    "chart_type": "msstackedcolumn2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_summary.json",
+      "sha256": "2899598f2f895503736522249089cc908ad9fdda9ba312ea8c8f200f1fe12073"
+    },
+    "container": "cc-Graphs-Summary-Profitability",
+    "independent_additional_samples": 0,
+    "svg_index": 10,
+    "svg_sha256": "d2ce80cfea23ed749b331ba688ccced781b0a224d7222e27abde83d817b95db0",
+    "status": "pass",
+    "point_checks": [
+      {
+        "series": 0,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.6967316190837352,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.4824998105629277,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 0.5982986964362098,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.07123264268800256,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.5053589734038582,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.6345244783653357,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.07139151213230832,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.1463210777755819,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.5273647466938627,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 0.03562910405506159,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.4452189793816492,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.0635899539591438,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 0.031008237067209343,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.21884967093606544,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.2407050296624771,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.6968786115772687,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.12195080935827818,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.15796660946451713,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 1.1102230246251565e-15,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 4.107825191113079e-15,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.036831790471864245,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 5.329070518200751e-15,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 0.15849093378586243,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.20044219072269098,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.06580954055000277,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.015842267041269675,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.36018383747109084,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.35998038136925237,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.14591223246105178,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 3.08607306376274e-15,
+        "pixel_tolerance": 1.05
+      }
+    ]
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "summary",
+    "chart_id": "Graphs.Summary.Costs.summary",
+    "chart_type": "msstackedcolumn2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_summary.json",
+      "sha256": "2899598f2f895503736522249089cc908ad9fdda9ba312ea8c8f200f1fe12073"
+    },
+    "container": "cc-Graphs-Summary-Costs-summary",
+    "independent_additional_samples": 0,
+    "status": "pending",
+    "reason": "('line_paths', 0, 0)"
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "summary",
+    "chart_id": "Graphs.Results.Summary.Profits.TimeSeries.summary",
+    "chart_type": "msline",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_summary.json",
+      "sha256": "2899598f2f895503736522249089cc908ad9fdda9ba312ea8c8f200f1fe12073"
+    },
+    "container": "cc-Graphs-Results-Summary-Profits-TimeSeries-summary",
+    "independent_additional_samples": 0,
+    "status": "pending",
+    "reason": "('line_paths', 0, 0)"
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "summary",
+    "chart_id": "Graphs.Results.Summary.CumulEarnings.TimeSeries.summary",
+    "chart_type": "msline",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_summary.json",
+      "sha256": "2899598f2f895503736522249089cc908ad9fdda9ba312ea8c8f200f1fe12073"
+    },
+    "container": "cc-Graphs-Results-Summary-CumulEarnings-TimeSeries-summary",
+    "independent_additional_samples": 0,
+    "status": "pending",
+    "reason": "('line_paths', 0, 0)"
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "market",
+    "chart_id": "Graphs.Market.MarketShare.Global",
+    "chart_type": "pie2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_market.json",
+      "sha256": "f73a0024241f254c991c64c40fc461551ecc319a247b4c6d6a6f92d44ae05a9b"
+    },
+    "container": "cc-Graphs-Market-MarketShare-Global",
+    "independent_additional_samples": 0,
+    "svg_index": 9,
+    "svg_sha256": "cff8f02bd0d62abb06326f0592f1702cf5a4474a5ed49c4949080790a32319c7",
+    "status": "pass",
+    "point_checks": [
+      {
+        "point": 0,
+        "status": "pass",
+        "percent_difference": 1.7763568394002505e-15
+      },
+      {
+        "point": 1,
+        "status": "pass",
+        "percent_difference": 8.881784197001252e-16
+      },
+      {
+        "point": 2,
+        "status": "pass",
+        "percent_difference": 1.7763568394002505e-15
+      },
+      {
+        "point": 3,
+        "status": "pass",
+        "percent_difference": 0.0
+      },
+      {
+        "point": 4,
+        "status": "pass",
+        "percent_difference": 1.7763568394002505e-15
+      },
+      {
+        "point": 5,
+        "status": "pass",
+        "percent_difference": 7.105427357601002e-15
+      },
+      {
+        "point": 6,
+        "status": "pass",
+        "percent_difference": 7.105427357601002e-15
+      },
+      {
+        "point": 7,
+        "status": "pass",
+        "percent_difference": 5.329070518200751e-15
+      },
+      {
+        "point": 8,
+        "status": "pass",
+        "percent_difference": 0.0
+      },
+      {
+        "point": 9,
+        "status": "pass",
+        "percent_difference": 1.0658141036401503e-14
+      }
+    ]
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "market",
+    "chart_id": "Graphs.Clobal.Product.MarketValue.overview",
+    "chart_type": "pie2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_market.json",
+      "sha256": "f73a0024241f254c991c64c40fc461551ecc319a247b4c6d6a6f92d44ae05a9b"
+    },
+    "container": "cc-Graphs-Clobal-Product-MarketValue-overview",
+    "independent_additional_samples": 0,
+    "svg_index": 10,
+    "svg_sha256": "e8c538fa6ebc6ebeca0bc033d14983728cd86ed0e639c6b9777bd6f4fc31aae8",
+    "status": "pass",
+    "point_checks": [
+      {
+        "point": 0,
+        "status": "pass",
+        "percent_difference": 1.4210854715202004e-14
+      },
+      {
+        "point": 1,
+        "status": "pass",
+        "percent_difference": 3.552713678800501e-15
+      }
+    ]
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "market",
+    "chart_id": "Graphs.Clobal.Product.MarketSize.overview",
+    "chart_type": "pie2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_market.json",
+      "sha256": "f73a0024241f254c991c64c40fc461551ecc319a247b4c6d6a6f92d44ae05a9b"
+    },
+    "container": "cc-Graphs-Clobal-Product-MarketSize-overview",
+    "independent_additional_samples": 0,
+    "svg_index": 11,
+    "svg_sha256": "f70ddc69392f9ebd163e4d1237e9d14fd5bf8fbea1e200dbac0a74f7e9fa70cb",
+    "status": "pass",
+    "point_checks": [
+      {
+        "point": 0,
+        "status": "pass",
+        "percent_difference": 2.6645352591003757e-15
+      },
+      {
+        "point": 1,
+        "status": "pass",
+        "percent_difference": 0.0
+      }
+    ]
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "market",
+    "chart_id": "Graphs.Market.Prod1.Mark1.overview",
+    "chart_type": "msstackedcolumn2dlinedy",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_market.json",
+      "sha256": "f73a0024241f254c991c64c40fc461551ecc319a247b4c6d6a6f92d44ae05a9b"
+    },
+    "container": "cc-Graphs-Market-Prod1-Mark1-overview",
+    "independent_additional_samples": 0,
+    "status": "pending",
+    "reason": "('line_paths', 1, 0)"
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "market",
+    "chart_id": "Graphs.Market.Prod1.Mark2.overview",
+    "chart_type": "msstackedcolumn2dlinedy",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_market.json",
+      "sha256": "f73a0024241f254c991c64c40fc461551ecc319a247b4c6d6a6f92d44ae05a9b"
+    },
+    "container": "cc-Graphs-Market-Prod1-Mark2-overview",
+    "independent_additional_samples": 0,
+    "status": "pending",
+    "reason": "('line_paths', 1, 0)"
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "market",
+    "chart_id": "Graphs.Market.Prod2.Mark1.overview",
+    "chart_type": "msstackedcolumn2dlinedy",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_market.json",
+      "sha256": "f73a0024241f254c991c64c40fc461551ecc319a247b4c6d6a6f92d44ae05a9b"
+    },
+    "container": "cc-Graphs-Market-Prod2-Mark1-overview",
+    "independent_additional_samples": 0,
+    "status": "pending",
+    "reason": "('line_paths', 1, 0)"
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "market",
+    "chart_id": "Graphs.Market.Prod2.Mark2.overview",
+    "chart_type": "msstackedcolumn2dlinedy",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_market.json",
+      "sha256": "f73a0024241f254c991c64c40fc461551ecc319a247b4c6d6a6f92d44ae05a9b"
+    },
+    "container": "cc-Graphs-Market-Prod2-Mark2-overview",
+    "independent_additional_samples": 0,
+    "status": "pending",
+    "reason": "('bar_point_count', 0, 9, 10)"
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "production",
+    "chart_id": "Graph.Production.Capacity.Domestic",
+    "chart_type": "msstackedcolumn2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_production.json",
+      "sha256": "b32b2b734a10cb9e4cc593efd69799f5d59189953581ca7b7464f861fbed9610"
+    },
+    "container": "cc-Graph-Production-Capacity-Domestic",
+    "independent_additional_samples": 0,
+    "svg_index": 9,
+    "svg_sha256": "3a86c3d1751a044efcf9e5d66003e2068e3b50621b44257470493e8abed77de4",
+    "status": "pass",
+    "point_checks": [
+      {
+        "series": 0,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.20851965625000446,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.7878861562500106,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 0.5270220781250003,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.3330070781250072,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.3016633281250023,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.7350923593750167,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.6941429531250094,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.7350116406250038,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.5215611093749999,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 0.7904320781250078,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.25589996538488347,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.09802593966413031,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 0.40902393774057355,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.3128855725017168,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.7805120324089607,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.32327865080525875,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.8851133635859805,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.17385716223934766,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.3408451335033691,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 0.3020228803601621,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.04399499999999534,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.8506249999999937,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 0.16329999999999956,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.4677000000000078,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.7106200000000058,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.47150000000002024,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.010500000000007503,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.1928750000000008,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.018115000000008763,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 0.24250000000000682,
+        "pixel_tolerance": 1.05
+      }
+    ]
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "production",
+    "chart_id": "Graph.Production.CapacityUtil",
+    "chart_type": "msstackedcolumn2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_production.json",
+      "sha256": "b32b2b734a10cb9e4cc593efd69799f5d59189953581ca7b7464f861fbed9610"
+    },
+    "container": "cc-Graph-Production-CapacityUtil",
+    "independent_additional_samples": 0,
+    "svg_index": 10,
+    "svg_sha256": "27f0550c4093f499270480585b80a939f55662ab63662da4e2f62054715e0b14",
+    "status": "pass",
+    "point_checks": [
+      {
+        "series": 0,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.1444378353936031,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.6644920250179212,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 0.49865622640463414,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.37475107291804477,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.29635799513263805,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.8810672258792493,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.3312732138304,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.19684231792712126,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.0996090004194059,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 0.10687975279685702,
+        "pixel_tolerance": 1.05
+      }
+    ]
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "production",
+    "chart_id": "Graph.Production.Personnel",
+    "chart_type": "msstackedcolumn2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_production.json",
+      "sha256": "b32b2b734a10cb9e4cc593efd69799f5d59189953581ca7b7464f861fbed9610"
+    },
+    "container": "cc-Graph-Production-Personnel",
+    "independent_additional_samples": 0,
+    "svg_index": 11,
+    "svg_sha256": "6f9fd7b1cf8b2d60ced0489b1d6c1efe83e44723a1f6f5ce807e899edc2bb8a9",
+    "status": "pass",
+    "point_checks": [
+      {
+        "series": 0,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.42075364568685814,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.4508865881005164,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 0.6859670481789806,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.5732922327959216,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.3188111231100095,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.476899656242594,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.090306099488771,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.535114263250577,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.3387606459415906,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 0.6516670689966304,
+        "pixel_tolerance": 1.05
+      }
+    ]
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "production",
+    "chart_id": "Graph.Production.change.in.workforce",
+    "chart_type": "msstackedcolumn2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_production.json",
+      "sha256": "b32b2b734a10cb9e4cc593efd69799f5d59189953581ca7b7464f861fbed9610"
+    },
+    "container": "cc-Graph-Production-change-in-workforce",
+    "independent_additional_samples": 0,
+    "svg_index": 12,
+    "svg_sha256": "1cf3465ceede90f59be92f8b88505b83f583c49b6472f73908e851ade4777c8c",
+    "status": "pass",
+    "point_checks": [
+      {
+        "series": 0,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.7217704219502252,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.23206480125226214,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 0.12459262148157535,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.2126369569710782,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.06715491775117322,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.5320102005574832,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.21718638475897123,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.4182990221377949,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.3052685645707065,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 0.459461658110623,
+        "pixel_tolerance": 1.05
+      }
+    ]
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "production",
+    "chart_id": "Graph.Production.co2.emissions",
+    "chart_type": "msstackedcolumn2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_production.json",
+      "sha256": "b32b2b734a10cb9e4cc593efd69799f5d59189953581ca7b7464f861fbed9610"
+    },
+    "container": "cc-Graph-Production-co2-emissions",
+    "independent_additional_samples": 0,
+    "svg_index": 13,
+    "svg_sha256": "21930bf5c8a823484e9f182a4c4dc0bf3846e70349f15419fa5b135c4d1c3072",
+    "status": "pass",
+    "point_checks": [
+      {
+        "series": 0,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.5010913340354932,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.10312134348630764,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 0.16583750864135993,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.30104432133268233,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.17042493964059702,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.6085548998839272,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.14213123598997868,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.4432677845763777,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.3963789273361016,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 0.2963110468162,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.5076865799999997,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.05857750000000017,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 0.9643428,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.12685320000000022,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.25960808000000046,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.4763060000000001,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.23178199999999993,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.16862349999999982,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.5477286600000006,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 0.31686999999999976,
+        "pixel_tolerance": 1.05
+      }
+    ]
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "production",
+    "chart_id": "Graph.Production.energy.consumption",
+    "chart_type": "msstackedcolumn2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_production.json",
+      "sha256": "b32b2b734a10cb9e4cc593efd69799f5d59189953581ca7b7464f861fbed9610"
+    },
+    "container": "cc-Graph-Production-energy-consumption",
+    "independent_additional_samples": 0,
+    "svg_index": 14,
+    "svg_sha256": "bdcfd3f0d39f79d88fc612543d3d86bb8fd5fd795a3c1a732ac83e4613209e8b",
+    "status": "pass",
+    "point_checks": [
+      {
+        "series": 0,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.46213168168981156,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.7614656208577628,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 0.25328017538636516,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.32317200335697294,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.09173386833388975,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.9120011958330565,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.6428322836118241,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.8320406198442356,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.08660909465845634,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 0.3316114121373346,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.30308169445714306,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.06650952142857136,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 0.3834576582857143,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.21910843542857172,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.4945849469714281,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.7227427371428568,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.07602792571428596,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.6075968271428569,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.15897714177142896,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 0.19842454285714162,
+        "pixel_tolerance": 1.05
+      }
+    ]
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "production",
+    "chart_id": "Graph.Production.water.consumption",
+    "chart_type": "msstackedcolumn2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_production.json",
+      "sha256": "b32b2b734a10cb9e4cc593efd69799f5d59189953581ca7b7464f861fbed9610"
+    },
+    "container": "cc-Graph-Production-water-consumption",
+    "independent_additional_samples": 0,
+    "svg_index": 15,
+    "svg_sha256": "072d1fad9062cc1bdf97e72f1f4ebefa948bdc98aaa4a2b0f8f373c42acef9aa",
+    "status": "pass",
+    "point_checks": [
+      {
+        "series": 0,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.6496448951169214,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.21115252426668008,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 0.0075886005523528866,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.02909990507193072,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.6284975534462234,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.17918584232795354,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.0057205936353454945,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.7231984803649283,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.05357210656839584,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 0.518196821952202,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.1581105066666666,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.32594666666666594,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 0.11720106666666652,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.5258069333333335,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.40892415999999976,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.8757119999999992,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.13926399999999983,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.5848053333333332,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.7209149866666662,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 0.19157333333333426,
+        "pixel_tolerance": 1.05
+      }
+    ]
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "productionhr",
+    "chart_id": "Graphs.Results.No.Of.Employees.Finland.TimeSeries",
+    "chart_type": "msline",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_productionhr.json",
+      "sha256": "a5542666a8ccfda8c987e020500ac5fe2ae46e2a4dea9fe9fadc9e96fc4bd6fd"
+    },
+    "container": "cc-Graphs-Results-No-Of-Employees-Finland-TimeSeries",
+    "independent_additional_samples": 0,
+    "status": "pending",
+    "reason": "('line_paths', 0, 0)"
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "logistics",
+    "chart_id": "Graphs.Logistics.RubbanaDomDeliveries",
+    "chart_type": "msstackedcolumn2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_logistics.json",
+      "sha256": "4ef65ad1f231a46773ca1e12a9b4d005eda4152495d997383092e784cbdc079e"
+    },
+    "container": "cc-Graphs-Logistics-RubbanaDomDeliveries",
+    "independent_additional_samples": 0,
+    "status": "pending",
+    "reason": "('bar_point_count', 2, 1, 10)"
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "logistics",
+    "chart_id": "Graphs.Logistics.AndyOxDomDeliveries",
+    "chart_type": "msstackedcolumn2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_logistics.json",
+      "sha256": "4ef65ad1f231a46773ca1e12a9b4d005eda4152495d997383092e784cbdc079e"
+    },
+    "container": "cc-Graphs-Logistics-AndyOxDomDeliveries",
+    "independent_additional_samples": 0,
+    "status": "pending",
+    "reason": "('bar_point_count', 1, 9, 10)"
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "logistics",
+    "chart_id": "Graphs.Logistics.Inventories",
+    "chart_type": "msstackedcolumn2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_logistics.json",
+      "sha256": "4ef65ad1f231a46773ca1e12a9b4d005eda4152495d997383092e784cbdc079e"
+    },
+    "container": "cc-Graphs-Logistics-Inventories",
+    "independent_additional_samples": 0,
+    "status": "pending",
+    "reason": "('line_paths', 0, 0)"
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "logistics",
+    "chart_id": "Graphs.Logistics.Transportation.Emissions",
+    "chart_type": "msstackedcolumn2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_logistics.json",
+      "sha256": "4ef65ad1f231a46773ca1e12a9b4d005eda4152495d997383092e784cbdc079e"
+    },
+    "container": "cc-Graphs-Logistics-Transportation-Emissions",
+    "independent_additional_samples": 0,
+    "svg_index": 10,
+    "svg_sha256": "d6d361a8fd22833b399cf5f5b0f454c22b69696f9bd81aed82e3407b681f6a00",
+    "status": "pass",
+    "point_checks": [
+      {
+        "series": 0,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.09024157733784932,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.04260072994965469,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 0.10017485055688269,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.13628866562459052,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.09250853215307586,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.451957315751514,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.3303119402387722,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.31091348308621036,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.7993591531994184,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 0.2966429811034743,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.04875274948172681,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.679913077908525,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 4.163336342344337e-15,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.5030672685699686,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.031690852380385603,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.014000503339487214,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.24838732783595097,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.46204430257751206,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.054172685870301995,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 0.35627621195860315,
+        "pixel_tolerance": 1.05
+      }
+    ]
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "incomestatement",
+    "chart_id": "Graphs.IS.summary",
+    "chart_type": "msstackedcolumn2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_incomestatement.json",
+      "sha256": "c3b09e07fe26623dd5739b6e59fa725520b7a1457fa7e5524fb22d707cac7a7c"
+    },
+    "container": "cc-Graphs-IS-summary",
+    "independent_additional_samples": 0,
+    "status": "pending",
+    "reason": "('bar_point_count', 5, 8, 10)"
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "balancesheet",
+    "chart_id": "Graphs.BS.summary",
+    "chart_type": "msstackedcolumn2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_balancesheet.json",
+      "sha256": "e3ea908d3e575a2f369d5689f9d2466de2bc7fe2364fe7f91e647a3d17aa0f74"
+    },
+    "container": "cc-Graphs-BS-summary",
+    "independent_additional_samples": 0,
+    "status": "pending",
+    "reason": "('bar_point_count', 2, 7, 10)"
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "cashflow",
+    "chart_id": "Graphs.CFS.summary",
+    "chart_type": "mscolumn2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_cashflow.json",
+      "sha256": "ba768f78ab739b6e52b60077b78c3f694e1266a7065b81357cb5b2d238aa90c6"
+    },
+    "container": "cc-Graphs-CFS-summary",
+    "independent_additional_samples": 0,
+    "svg_index": 9,
+    "svg_sha256": "0cca47a8c2de2205d1736b73dcb5d971273b4696be7bcd171abf46612ddc06e0",
+    "status": "fail",
+    "point_checks": [
+      {
+        "series": 0,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.22974999999999923,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.057381250000000605,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 2,
+        "status": "fail",
+        "pixel_difference": 1.234725,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.04541874999999962,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.29794375000000173,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.628043749999998,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.19259375000000034,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.09284375000000011,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.12089374999999958,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 0,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 0.8507874999999991,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 0.47250000000000014,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.41350000000000087,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 2,
+        "status": "fail",
+        "pixel_difference": 1.242,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 0.3250000000000002,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 0.3250000000000002,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.8812499999999996,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 6,
+        "status": "pass",
+        "pixel_difference": 0.6708750000000006,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 7,
+        "status": "fail",
+        "pixel_difference": 1.2184999999999997,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.4343750000000002,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 1,
+        "point": 9,
+        "status": "pass",
+        "pixel_difference": 0.8220000000000001,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 0,
+        "status": "pass",
+        "pixel_difference": 1.0,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 1,
+        "status": "pass",
+        "pixel_difference": 0.75,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 2,
+        "status": "pass",
+        "pixel_difference": 1.0,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 3,
+        "status": "pass",
+        "pixel_difference": 1.0,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 4,
+        "status": "pass",
+        "pixel_difference": 1.0,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 5,
+        "status": "pass",
+        "pixel_difference": 0.875,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 6,
+        "status": "fail",
+        "pixel_difference": 1.1875,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 7,
+        "status": "pass",
+        "pixel_difference": 0.75,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 8,
+        "status": "pass",
+        "pixel_difference": 0.96875,
+        "pixel_tolerance": 1.05
+      },
+      {
+        "series": 2,
+        "point": 9,
+        "status": "fail",
+        "pixel_difference": 1.1875,
+        "pixel_tolerance": 1.05
+      }
+    ]
+  },
+  {
+    "market": 10,
+    "phase": "formal",
+    "round": 4,
+    "panel": "societalimpact",
+    "chart_id": "Graph.Firm.Results.Valuecreation",
+    "chart_type": "msstackedcolumn2d",
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market10_formal4_societalimpact.json",
+      "sha256": "7147c4d5ec0b2a85e942f14f88ebf1e377b4a8239b0112a5056d1be02518a1b3"
+    },
+    "container": "cc-Graph-Firm-Results-Valuecreation",
+    "independent_additional_samples": 0,
+    "status": "pending",
+    "reason": "('bar_point_count', 1, 8, 10)"
+  }
+]

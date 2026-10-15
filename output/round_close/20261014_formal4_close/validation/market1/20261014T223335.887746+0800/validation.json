@@ -1,0 +1,80 @@
+{
+  "status": "PRINT_IDENTITY_AND_LAYOUT_VALIDATED",
+  "market": 1,
+  "round": 4,
+  "sources": [
+    {
+      "source": "output/round_close/20261014_formal4_close/raw/market1_formal4_print.json",
+      "sha256": "1eeb03fadedaf765034e6fb76c41c4a52abac74bce130b0de9edcc5ba72f4d5b"
+    },
+    {
+      "source": "output/round_close/20261014_formal4_close/raw/market1_formal4_summary_complete.json",
+      "sha256": "14494f338ba06b188731422f59a633f269e5c50895f8fc048a2f4961d2b77f93"
+    }
+  ],
+  "script_sha256": "1cd132e08fa63160b584438735d5790ee2e6749ffbbbdd6be8849dee550dc697",
+  "printable_html_complete": true,
+  "summary_html_complete": true,
+  "printable_actual_html_length": 672814,
+  "printable_declared_html_length": 672814,
+  "summary_actual_html_length": 307857,
+  "summary_declared_html_length": 307857,
+  "selected_valid": true,
+  "selected": [
+    "市场 1",
+    "回合4"
+  ],
+  "team_header_matches": true,
+  "html_table_checks": {
+    "pass": 171
+  },
+  "labels_and_widths_match_253_row_layout": true,
+  "table_rows": 426,
+  "empty_trailing_rows": 173,
+  "summary_print_pairing": [
+    {
+      "print_row": 2,
+      "summary_row": 4,
+      "status": "pass"
+    },
+    {
+      "print_row": 3,
+      "summary_row": 9,
+      "status": "pass"
+    },
+    {
+      "print_row": 4,
+      "summary_row": 13,
+      "status": "pass"
+    },
+    {
+      "print_row": 5,
+      "summary_row": 17,
+      "status": "pass"
+    },
+    {
+      "print_row": 6,
+      "summary_row": 21,
+      "status": "pass"
+    }
+  ],
+  "financial_numerical_counts": {
+    "pass": 190
+  },
+  "cumulative_numerical_counts": {
+    "pass": 10
+  },
+  "field_status_counts": {
+    "web_supplement_direct_verified": 16,
+    "print_direct_verified": 135,
+    "calculate_or_targeted_web_supplement_required": 49
+  },
+  "original_sequence_count_required": 28,
+  "sequence_status_counts": {
+    "web_original_json": 5,
+    "missing": 23
+  },
+  "chart_parse_errors": [],
+  "supplemental_source_count": 0,
+  "all_field_coverage_verified": false
+}

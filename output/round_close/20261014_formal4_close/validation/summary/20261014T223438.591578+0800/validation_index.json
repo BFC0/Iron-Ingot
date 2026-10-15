@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-10-14T22:34:38.591563+08:00",
+  "status": "BASELINE_CAPTURE_VALIDATED_REMAINING_FIELD_AND_SEQUENCE_COVERAGE_REQUIRED",
+  "per_market": [
+    {
+      "market": 1,
+      "source": "output/round_close/20261014_formal4_close/validation/market1/20261014T223335.887746+0800/validation.json",
+      "sha256": "2da3ba16548ac9d3bf134cb6fbe292bfb735c62ee020bbe993f9c761869ae584",
+      "status": "PRINT_IDENTITY_AND_LAYOUT_VALIDATED"
+    },
+    {
+      "market": 2,
+      "source": "output/round_close/20261014_formal4_close/validation/market2/20261014T223336.634059+0800/validation.json",
+      "sha256": "fb8216e8ee7b68f3283c6decc7f040a7c6e881f26bdc1bc45358d5e964dcca81",
+      "status": "PRINT_IDENTITY_AND_LAYOUT_VALIDATED"
+    },
+    {
+      "market": 3,
+      "source": "output/round_close/20261014_formal4_close/validation/market3/20261014T223337.424994+0800/validation.json",
+      "sha256": "befea2c064ce2e36576b3cf3058b23f838cf1abf661bc938d4624c992efe07f6",
+      "status": "PRINT_IDENTITY_AND_LAYOUT_VALIDATED"
+    },
+    {
+      "market": 4,
+      "source": "output/round_close/20261014_formal4_close/validation/market4/20261014T223338.157953+0800/validation.json",
+      "sha256": "28404bba36d48be640ea2d9c9bd4b51dae40f249b250f84fe562789b8ce15a9b",
+      "status": "PRINT_IDENTITY_AND_LAYOUT_VALIDATED"
+    },
+    {
+      "market": 5,
+      "source": "output/round_close/20261014_formal4_close/validation/market5/20261014T223338.925580+0800/validation.json",
+      "sha256": "48c97ee4d950467aec0b944740bb7882cc9aad6d9715725353a1c08d2b32f14f",
+      "status": "PRINT_IDENTITY_AND_LAYOUT_VALIDATED"
+    },
+    {
+      "market": 6,
+      "source": "output/round_close/20261014_formal4_close/validation/market6/20261014T223339.722287+0800/validation.json",
+      "sha256": "6ca3feafdb19270144306ef263f08c7ca0eb876b7adb08319996898d6ba6337a",
+      "status": "PRINT_IDENTITY_AND_LAYOUT_VALIDATED"
+    },
+    {
+      "market": 7,
+      "source": "output/round_close/20261014_formal4_close/validation/market7/20261014T223340.527941+0800/validation.json",
+      "sha256": "3cf89e524e0e603620305334e1ff99551f7d85f59d8e09317a03d081ab32c8d5",
+      "status": "PRINT_IDENTITY_AND_LAYOUT_VALIDATED"
+    },
+    {
+      "market": 8,
+      "source": "output/round_close/20261014_formal4_close/validation/market8/20261014T223341.285265+0800/validation.json",
+      "sha256": "dbbe6c1952125b5009f8801e1146ade9e2b734d056181ab745a64b81b4eb9704",
+      "status": "PRINT_IDENTITY_AND_LAYOUT_VALIDATED"
+    },
+    {
+      "market": 9,
+      "source": "output/round_close/20261014_formal4_close/validation/market9/20261014T223342.089910+0800/validation.json",
+      "sha256": "f4060852a91cbd17f76ac26cf328f362d649f0cef293894ccfcf204977f5aae7",
+      "status": "PRINT_IDENTITY_AND_LAYOUT_VALIDATED"
+    },
+    {
+      "market": 10,
+      "source": "output/round_close/20261014_formal4_close/validation/market10/20261014T223342.872357+0800/validation.json",
+      "sha256": "0429e0e418b5098bde98f504e1d9b6321130272cb73136b3840826fb972f01c0",
+      "status": "PRINT_IDENTITY_AND_LAYOUT_VALIDATED"
+    }
+  ],
+  "market_status_counts": {
+    "PRINT_IDENTITY_AND_LAYOUT_VALIDATED": 10
+  },
+  "field_status_counts": {
+    "web_supplement_direct_verified": 160,
+    "print_direct_verified": 1350,
+    "calculate_or_targeted_web_supplement_required": 490
+  },
+  "sequence_status_counts": {
+    "web_original_json": 50,
+    "missing": 230
+  },
+  "financial_counts": {
+    "pass": 1900
+  },
+  "cumulative_counts": {
+    "pass": 100
+  },
+  "source_hashes_unchanged": true,
+  "print_pages": 10,
+  "summary_web_pages": 10,
+  "fixed_15_panel_coverage_claimed": false,
+  "source_type_duplicates_are_independent_samples": false,
+  "complete_round_archive": false
+}

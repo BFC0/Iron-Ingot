@@ -1,0 +1,1039 @@
+{
+  "training": {
+    "solvency_exponential": {
+      "n": 93,
+      "mae_bp": 1.1868661408472876,
+      "rmse_bp": 1.5049762170953314,
+      "max_abs_bp": 7.786177189977655,
+      "median_abs_bp": 1.112463593802014
+    },
+    "leverage_power": {
+      "n": 93,
+      "mae_bp": 3.0050439634293262,
+      "rmse_bp": 4.221655118573809,
+      "max_abs_bp": 24.613943469241235,
+      "median_abs_bp": 2.928671044555639
+    }
+  },
+  "folds": [
+    {
+      "form": "solvency_exponential",
+      "market": 1,
+      "parameters": [
+        0.10309578279412207,
+        8.261149924990848
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 0.8038205116081139,
+      "n": 9,
+      "mae_bp": 1.0701638281972095,
+      "rmse_bp": 1.1590882148236967,
+      "max_abs_bp": 1.9678819310314297,
+      "median_abs_bp": 1.0590122492065852
+    },
+    {
+      "form": "solvency_exponential",
+      "market": 2,
+      "parameters": [
+        0.10309536719167274,
+        8.255146518900297
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 0.6535696436123178,
+      "n": 8,
+      "mae_bp": 1.1853173771530066,
+      "rmse_bp": 1.2711966012313964,
+      "max_abs_bp": 1.899961294128078,
+      "median_abs_bp": 1.2368811896807044
+    },
+    {
+      "form": "solvency_exponential",
+      "market": 3,
+      "parameters": [
+        0.10309374095107014,
+        8.31941480805731
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 1.2819546037252092,
+      "n": 10,
+      "mae_bp": 1.810847328060491,
+      "rmse_bp": 2.900108799471481,
+      "max_abs_bp": 8.404274433295436,
+      "median_abs_bp": 1.033960239314556
+    },
+    {
+      "form": "solvency_exponential",
+      "market": 4,
+      "parameters": [
+        0.10309616851626328,
+        8.272611407445552
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 0.8562029651660583,
+      "n": 10,
+      "mae_bp": 1.0782188101831358,
+      "rmse_bp": 1.29362084152292,
+      "max_abs_bp": 1.912016082757232,
+      "median_abs_bp": 1.3723044472610344
+    },
+    {
+      "form": "solvency_exponential",
+      "market": 5,
+      "parameters": [
+        0.41490976931452345,
+        10.836242477863347
+      ],
+      "train_leverage_max": 1.2819546037252092,
+      "test_leverage_max": 1733.7857142857142,
+      "n": 10,
+      "mae_bp": 310.1730949298676,
+      "rmse_bp": 979.5369536564762,
+      "max_abs_bp": 3097.567352673217,
+      "median_abs_bp": 0.4471021465595474
+    },
+    {
+      "form": "solvency_exponential",
+      "market": 6,
+      "parameters": [
+        0.10309571822966629,
+        8.26176419778657
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 0.8619378390711352,
+      "n": 10,
+      "mae_bp": 1.0157265399494961,
+      "rmse_bp": 1.1130134709345036,
+      "max_abs_bp": 1.7972742782510984,
+      "median_abs_bp": 1.0194202004258597
+    },
+    {
+      "form": "solvency_exponential",
+      "market": 7,
+      "parameters": [
+        0.10309684540890424,
+        8.280628497160132
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 0.931711059958347,
+      "n": 8,
+      "mae_bp": 1.069753029675891,
+      "rmse_bp": 1.2328176409475244,
+      "max_abs_bp": 2.041835240339002,
+      "median_abs_bp": 1.092868110538145
+    },
+    {
+      "form": "solvency_exponential",
+      "market": 8,
+      "parameters": [
+        0.1030948546690685,
+        8.255870440742562
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 0.9199134199134199,
+      "n": 9,
+      "mae_bp": 1.5975848397568477,
+      "rmse_bp": 1.6739335395142847,
+      "max_abs_bp": 2.0952263526177304,
+      "median_abs_bp": 1.8551367628838304
+    },
+    {
+      "form": "solvency_exponential",
+      "market": 9,
+      "parameters": [
+        0.10309622997929879,
+        8.276990370348516
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 0.9195650997998593,
+      "n": 9,
+      "mae_bp": 1.1041470972816616,
+      "rmse_bp": 1.470724285982727,
+      "max_abs_bp": 3.50659250294723,
+      "median_abs_bp": 0.8694911938708811
+    },
+    {
+      "form": "solvency_exponential",
+      "market": 10,
+      "parameters": [
+        0.10309578864444024,
+        8.262775926895147
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 0.8483343678874405,
+      "n": 10,
+      "mae_bp": 0.9895846469501726,
+      "rmse_bp": 1.0869219142826425,
+      "max_abs_bp": 1.6474362361437749,
+      "median_abs_bp": 1.016725260183361
+    },
+    {
+      "form": "leverage_power",
+      "market": 1,
+      "parameters": [
+        0.001081565986987891,
+        0.6104177346233051
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 0.8038205116081139,
+      "n": 9,
+      "mae_bp": 2.7753048349190093,
+      "rmse_bp": 3.1242659423848504,
+      "max_abs_bp": 4.786914180823957,
+      "median_abs_bp": 2.9916698877619092
+    },
+    {
+      "form": "leverage_power",
+      "market": 2,
+      "parameters": [
+        0.0010926964643659183,
+        0.6090454891351645
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 0.6535696436123178,
+      "n": 8,
+      "mae_bp": 2.761784495667821,
+      "rmse_bp": 3.073532772014603,
+      "max_abs_bp": 4.55135319250801,
+      "median_abs_bp": 2.953107313401217
+    },
+    {
+      "form": "leverage_power",
+      "market": 3,
+      "parameters": [
+        0.001026780857918027,
+        0.6173832918423702
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 1.2819546037252092,
+      "n": 10,
+      "mae_bp": 4.6517639882353095,
+      "rmse_bp": 8.380826939375474,
+      "max_abs_bp": 25.030485557627234,
+      "median_abs_bp": 3.05009595917637
+    },
+    {
+      "form": "leverage_power",
+      "market": 4,
+      "parameters": [
+        0.001043503130297212,
+        0.6152209700013921
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 0.8562029651660583,
+      "n": 10,
+      "mae_bp": 3.178831323615272,
+      "rmse_bp": 3.7786717474576097,
+      "max_abs_bp": 7.515519562347489,
+      "median_abs_bp": 2.5571338741285103
+    },
+    {
+      "form": "leverage_power",
+      "market": 5,
+      "parameters": [
+        0.002163164269552739,
+        2.3490396983616844
+      ],
+      "train_leverage_max": 1.2819546037252092,
+      "test_leverage_max": 1733.7857142857142,
+      "n": 10,
+      "mae_bp": 87824931.65116096,
+      "rmse_bp": 277726817.9871917,
+      "max_abs_bp": 878249312.1505458,
+      "median_abs_bp": 0.48646847479150723
+    },
+    {
+      "form": "leverage_power",
+      "market": 6,
+      "parameters": [
+        0.0010722098934430012,
+        0.6115826412323708
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 0.8619378390711352,
+      "n": 10,
+      "mae_bp": 2.4397431115811323,
+      "rmse_bp": 3.0699263103527463,
+      "max_abs_bp": 6.209203605583584,
+      "median_abs_bp": 2.2670688425906973
+    },
+    {
+      "form": "leverage_power",
+      "market": 7,
+      "parameters": [
+        0.0010483591390984316,
+        0.6145982329332108
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 0.931711059958347,
+      "n": 8,
+      "mae_bp": 3.184811739274875,
+      "rmse_bp": 3.776697400568431,
+      "max_abs_bp": 6.962388175915288,
+      "median_abs_bp": 3.258261079204935
+    },
+    {
+      "form": "leverage_power",
+      "market": 8,
+      "parameters": [
+        0.0010832803079956796,
+        0.6102055654780723
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 0.9199134199134199,
+      "n": 9,
+      "mae_bp": 3.487528176165023,
+      "rmse_bp": 3.9555554195344977,
+      "max_abs_bp": 7.705173342850648,
+      "median_abs_bp": 3.363518559389859
+    },
+    {
+      "form": "leverage_power",
+      "market": 9,
+      "parameters": [
+        0.0010381814215603407,
+        0.6159066001624449
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 0.9195650997998593,
+      "n": 9,
+      "mae_bp": 2.748746189995569,
+      "rmse_bp": 4.215997206063415,
+      "max_abs_bp": 11.14075946915963,
+      "median_abs_bp": 1.6047496544377373
+    },
+    {
+      "form": "leverage_power",
+      "market": 10,
+      "parameters": [
+        0.0010767682414524163,
+        0.6110138414241046
+      ],
+      "train_leverage_max": 1733.7857142857142,
+      "test_leverage_max": 0.8483343678874405,
+      "n": 10,
+      "mae_bp": 2.505313182702193,
+      "rmse_bp": 3.0969252816155324,
+      "max_abs_bp": 5.2618665056067,
+      "median_abs_bp": 3.101596250028181
+    }
+  ],
+  "optimizer": {
+    "all": {
+      "multistart": [
+        {
+          "initial": [
+            0.02,
+            2
+          ],
+          "parameters": [
+            0.0010637645907778102,
+            0.6126439842601359
+          ],
+          "success": true,
+          "sse": 1.657480590436781e-05
+        },
+        {
+          "initial": [
+            0.002,
+            0.5
+          ],
+          "parameters": [
+            0.0010637646372257258,
+            0.6126439783805262
+          ],
+          "success": true,
+          "sse": 1.657480590436736e-05
+        },
+        {
+          "initial": [
+            0.002,
+            3
+          ],
+          "parameters": [
+            0.0010637657064807347,
+            0.6126438429344486
+          ],
+          "success": true,
+          "sse": 1.6574805904411037e-05
+        },
+        {
+          "initial": [
+            0.1,
+            1
+          ],
+          "parameters": [
+            0.0010637976630291208,
+            0.6126398412671988
+          ],
+          "success": true,
+          "sse": 1.6574805953707243e-05
+        }
+      ],
+      "profiled_optimum": [
+        0.0010637647262161452,
+        0.6126439671147429,
+        1.6574805904367025e-05
+      ]
+    },
+    "without_market5": {
+      "multistart": [
+        {
+          "initial": [
+            0.02,
+            2
+          ],
+          "parameters": [
+            0.002163164269552739,
+            2.3490396983616844
+          ],
+          "success": true,
+          "sse": 4.2293156578033313e-07
+        },
+        {
+          "initial": [
+            0.002,
+            0.5
+          ],
+          "parameters": [
+            0.0021631818865599857,
+            2.3490977593782283
+          ],
+          "success": true,
+          "sse": 4.229315860604495e-07
+        },
+        {
+          "initial": [
+            0.002,
+            3
+          ],
+          "parameters": [
+            0.0021631790111965032,
+            2.349087923011129
+          ],
+          "success": true,
+          "sse": 4.229315803022852e-07
+        },
+        {
+          "initial": [
+            0.1,
+            1
+          ],
+          "parameters": [
+            0.0021631650116902216,
+            2.3490361762093266
+          ],
+          "success": true,
+          "sse": 4.2293156565170387e-07
+        }
+      ],
+      "profiled_optimum": [
+        0.002163162265307692,
+        2.349033062974961,
+        4.229315655647383e-07
+      ]
+    }
+  },
+  "ranges": {
+    "leverage": [
+      0.0,
+      0.5240033858680317,
+      0.802894888297175,
+      0.8849887433626243,
+      139.88225537828137,
+      1733.7857142857142
+    ],
+    "equity_ratio": [
+      0.0005695919280686765,
+      0.6258261439886988,
+      0.8865758265361016,
+      0.9299165263445404,
+      0.9407014667028668,
+      0.9480600573326143
+    ],
+    "premium": [
+      0.0,
+      0.0003999999999999976,
+      0.0013799999999999975,
+      0.0017000000000000001,
+      0.011611999999999833,
+      0.1026
+    ]
+  },
+  "exclusions": [
+    {
+      "market": 1,
+      "equity": -4810.0
+    },
+    {
+      "market": 2,
+      "equity": -2304.0
+    },
+    {
+      "market": 2,
+      "equity": -4513.0
+    },
+    {
+      "market": 7,
+      "equity": -4513.0
+    },
+    {
+      "market": 7,
+      "equity": -3430.0
+    },
+    {
+      "market": 8,
+      "equity": -4044.0
+    },
+    {
+      "market": 9,
+      "equity": -4513.0
+    }
+  ],
+  "zero_debt": [
+    {
+      "form": "leverage_power",
+      "market": 1,
+      "column": 9,
+      "leverage": 0.0,
+      "equity_ratio": 0.9383887501642791,
+      "equity": 35701.0,
+      "assets": 38045.0,
+      "debt": 0.0,
+      "actual_rate_percent": 4.0,
+      "predicted_rate_percent": 4.0,
+      "error_bp": 0.0
+    },
+    {
+      "form": "leverage_power",
+      "market": 3,
+      "column": 1,
+      "leverage": 0.0,
+      "equity_ratio": 0.9400615892568018,
+      "equity": 29611.0,
+      "assets": 31499.0,
+      "debt": 0.0,
+      "actual_rate_percent": 4.0,
+      "predicted_rate_percent": 4.0,
+      "error_bp": 0.0
+    },
+    {
+      "form": "leverage_power",
+      "market": 4,
+      "column": 1,
+      "leverage": 0.0,
+      "equity_ratio": 0.9191748710736053,
+      "equity": 29409.0,
+      "assets": 31995.0,
+      "debt": 0.0,
+      "actual_rate_percent": 4.0,
+      "predicted_rate_percent": 4.0,
+      "error_bp": 0.0
+    },
+    {
+      "form": "leverage_power",
+      "market": 6,
+      "column": 9,
+      "leverage": 0.0,
+      "equity_ratio": 0.9169473916191796,
+      "equity": 29125.0,
+      "assets": 31763.0,
+      "debt": 0.0,
+      "actual_rate_percent": 4.0,
+      "predicted_rate_percent": 4.0,
+      "error_bp": 0.0
+    },
+    {
+      "form": "leverage_power",
+      "market": 7,
+      "column": 9,
+      "leverage": 0.0,
+      "equity_ratio": 0.9354568072672569,
+      "equity": 32335.0,
+      "assets": 34566.0,
+      "debt": 0.0,
+      "actual_rate_percent": 4.0,
+      "predicted_rate_percent": 4.0,
+      "error_bp": 0.0
+    },
+    {
+      "form": "leverage_power",
+      "market": 10,
+      "column": 1,
+      "leverage": 0.0,
+      "equity_ratio": 0.9357444283265198,
+      "equity": 28383.0,
+      "assets": 30332.0,
+      "debt": 0.0,
+      "actual_rate_percent": 4.0,
+      "predicted_rate_percent": 4.0,
+      "error_bp": 0.0
+    },
+    {
+      "form": "leverage_power",
+      "market": 10,
+      "column": 5,
+      "leverage": 0.0,
+      "equity_ratio": 0.9480600573326143,
+      "equity": 33403.0,
+      "assets": 35233.0,
+      "debt": 0.0,
+      "actual_rate_percent": 4.0,
+      "predicted_rate_percent": 4.0,
+      "error_bp": 0.0
+    }
+  ],
+  "solvency_exponential": {
+    "macro_mae_bp": 32.10944384270755,
+    "pooled": {
+      "n": 93,
+      "mae_bp": 34.43722954507378,
+      "rmse_bp": 321.2062838668956,
+      "max_abs_bp": 3097.567352673217,
+      "median_abs_bp": 1.0561499349560997
+    },
+    "without_market5": {
+      "n": 83,
+      "mae_bp": 1.2160409444962121,
+      "rmse_bp": 1.578874858319023,
+      "max_abs_bp": 8.404274433295436,
+      "median_abs_bp": 1.144344316528009
+    },
+    "worst": [
+      {
+        "form": "solvency_exponential",
+        "market": 5,
+        "column": 1,
+        "leverage": 1733.7857142857142,
+        "equity_ratio": 0.0005695919280686765,
+        "equity": 14.0,
+        "assets": 24579.0,
+        "debt": 24273.0,
+        "actual_rate_percent": 14.26,
+        "predicted_rate_percent": 45.23567352673217,
+        "error_bp": 3097.567352673217
+      },
+      {
+        "form": "solvency_exponential",
+        "market": 3,
+        "column": 6,
+        "leverage": 1.2819546037252092,
+        "equity_ratio": 0.43091570806524987,
+        "equity": 13261.0,
+        "assets": 30774.0,
+        "debt": 17000.0,
+        "actual_rate_percent": 4.37,
+        "predicted_rate_percent": 4.2859572556670456,
+        "error_bp": -8.404274433295436
+      },
+      {
+        "form": "solvency_exponential",
+        "market": 9,
+        "column": 2,
+        "leverage": 0.9195650997998593,
+        "equity_ratio": 0.492500732610491,
+        "equity": 18487.0,
+        "assets": 37537.0,
+        "debt": 17000.0,
+        "actual_rate_percent": 4.21,
+        "predicted_rate_percent": 4.174934074970528,
+        "error_bp": -3.50659250294723
+      },
+      {
+        "form": "solvency_exponential",
+        "market": 8,
+        "column": 2,
+        "leverage": 0.9199134199134199,
+        "equity_ratio": 0.5052907882864408,
+        "equity": 18480.0,
+        "assets": 36573.0,
+        "debt": 17000.0,
+        "actual_rate_percent": 4.18,
+        "predicted_rate_percent": 4.1590477364738225,
+        "error_bp": -2.0952263526177304
+      },
+      {
+        "form": "solvency_exponential",
+        "market": 3,
+        "column": 5,
+        "leverage": 0.3569110966904607,
+        "equity_ratio": 0.6995800703665872,
+        "equity": 30820.0,
+        "assets": 44055.0,
+        "debt": 11000.0,
+        "actual_rate_percent": 4.01,
+        "predicted_rate_percent": 4.030591190330556,
+        "error_bp": 2.0591190330556253
+      },
+      {
+        "form": "solvency_exponential",
+        "market": 7,
+        "column": 5,
+        "leverage": 0.931711059958347,
+        "equity_ratio": 0.5111926708318157,
+        "equity": 18246.0,
+        "assets": 35693.0,
+        "debt": 17000.0,
+        "actual_rate_percent": 4.17,
+        "predicted_rate_percent": 4.14958164759661,
+        "error_bp": -2.041835240339002
+      },
+      {
+        "form": "solvency_exponential",
+        "market": 1,
+        "column": 10,
+        "leverage": 0.2630713581058862,
+        "equity_ratio": 0.7579193978516063,
+        "equity": 30410.0,
+        "assets": 40123.0,
+        "debt": 8000.0,
+        "actual_rate_percent": 4.0,
+        "predicted_rate_percent": 4.019678819310315,
+        "error_bp": 1.9678819310314297
+      },
+      {
+        "form": "solvency_exponential",
+        "market": 4,
+        "column": 9,
+        "leverage": 0.8562029651660583,
+        "equity_ratio": 0.5106427042823941,
+        "equity": 22191.0,
+        "assets": 43457.0,
+        "debt": 19000.0,
+        "actual_rate_percent": 4.17,
+        "predicted_rate_percent": 4.150879839172427,
+        "error_bp": -1.912016082757232
+      }
+    ]
+  },
+  "leverage_power": {
+    "macro_mae_bp": 8782495.9384988,
+    "pooled": {
+      "n": 93,
+      "mae_bp": 9443543.79510869,
+      "rmse_bp": 91070211.26303396,
+      "max_abs_bp": 878249312.1505458,
+      "median_abs_bp": 2.6739996888731605
+    },
+    "without_market5": {
+      "n": 83,
+      "mae_bp": 3.0895602259108075,
+      "rmse_bp": 4.409244554535913,
+      "max_abs_bp": 25.030485557627234,
+      "median_abs_bp": 2.9109412742511163
+    },
+    "worst": [
+      {
+        "form": "leverage_power",
+        "market": 5,
+        "column": 1,
+        "leverage": 1733.7857142857142,
+        "equity_ratio": 0.0005695919280686765,
+        "equity": 14.0,
+        "assets": 24579.0,
+        "debt": 24273.0,
+        "actual_rate_percent": 14.26,
+        "predicted_rate_percent": 8782507.381505458,
+        "error_bp": 878249312.1505458
+      },
+      {
+        "form": "leverage_power",
+        "market": 3,
+        "column": 6,
+        "leverage": 1.2819546037252092,
+        "equity_ratio": 0.43091570806524987,
+        "equity": 13261.0,
+        "assets": 30774.0,
+        "debt": 17000.0,
+        "actual_rate_percent": 4.37,
+        "predicted_rate_percent": 4.119695144423728,
+        "error_bp": -25.030485557627234
+      },
+      {
+        "form": "leverage_power",
+        "market": 9,
+        "column": 2,
+        "leverage": 0.9195650997998593,
+        "equity_ratio": 0.492500732610491,
+        "equity": 18487.0,
+        "assets": 37537.0,
+        "debt": 17000.0,
+        "actual_rate_percent": 4.21,
+        "predicted_rate_percent": 4.098592405308404,
+        "error_bp": -11.14075946915963
+      },
+      {
+        "form": "leverage_power",
+        "market": 8,
+        "column": 2,
+        "leverage": 0.9199134199134199,
+        "equity_ratio": 0.5052907882864408,
+        "equity": 18480.0,
+        "assets": 36573.0,
+        "debt": 17000.0,
+        "actual_rate_percent": 4.18,
+        "predicted_rate_percent": 4.102948266571493,
+        "error_bp": -7.705173342850648
+      },
+      {
+        "form": "leverage_power",
+        "market": 4,
+        "column": 9,
+        "leverage": 0.8562029651660583,
+        "equity_ratio": 0.5106427042823941,
+        "equity": 22191.0,
+        "assets": 43457.0,
+        "debt": 19000.0,
+        "actual_rate_percent": 4.17,
+        "predicted_rate_percent": 4.094844804376525,
+        "error_bp": -7.515519562347489
+      },
+      {
+        "form": "leverage_power",
+        "market": 7,
+        "column": 5,
+        "leverage": 0.931711059958347,
+        "equity_ratio": 0.5111926708318157,
+        "equity": 18246.0,
+        "assets": 35693.0,
+        "debt": 17000.0,
+        "actual_rate_percent": 4.17,
+        "predicted_rate_percent": 4.100376118240847,
+        "error_bp": -6.962388175915288
+      },
+      {
+        "form": "leverage_power",
+        "market": 6,
+        "column": 1,
+        "leverage": 0.8619378390711352,
+        "equity_ratio": 0.5141955835962145,
+        "equity": 19723.0,
+        "assets": 38357.0,
+        "debt": 17000.0,
+        "actual_rate_percent": 4.16,
+        "predicted_rate_percent": 4.097907963944165,
+        "error_bp": -6.209203605583584
+      },
+      {
+        "form": "leverage_power",
+        "market": 4,
+        "column": 5,
+        "leverage": 0.8380163659666765,
+        "equity_ratio": 0.5228215767634855,
+        "equity": 20286.0,
+        "assets": 38801.0,
+        "debt": 17000.0,
+        "actual_rate_percent": 4.15,
+        "predicted_rate_percent": 4.0936002664299425,
+        "error_bp": -5.639973357005795
+      }
+    ]
+  },
+  "tail": [
+    {
+      "market": 5,
+      "column": 1,
+      "leverage": 1733.7857142857142,
+      "equity_ratio": 0.0005695919280686765,
+      "rate_percent": 14.26,
+      "state": {
+        "cash": 2000.0,
+        "ar": 694.0,
+        "ap": 293.0,
+        "machine_book": 7554.0,
+        "building_book": 12821.0,
+        "long_debt": 18100.0,
+        "short_debt": 6173.0,
+        "assets": 24579.0,
+        "equity": 14.0,
+        "advance_receipts": 0.0,
+        "operations": 900.0
+      }
+    },
+    {
+      "market": 3,
+      "column": 6,
+      "leverage": 1.2819546037252092,
+      "equity_ratio": 0.43091570806524987,
+      "rate_percent": 4.37,
+      "state": {
+        "cash": 11575.0,
+        "ar": 963.0,
+        "ap": 513.0,
+        "machine_book": 5414.0,
+        "building_book": 12821.0,
+        "long_debt": 17000.0,
+        "short_debt": 0.0,
+        "assets": 30774.0,
+        "equity": 13261.0,
+        "advance_receipts": 0.0,
+        "operations": 300.0
+      }
+    },
+    {
+      "market": 7,
+      "column": 5,
+      "leverage": 0.931711059958347,
+      "equity_ratio": 0.5111926708318157,
+      "rate_percent": 4.17,
+      "state": {
+        "cash": 12050.0,
+        "ar": 1480.0,
+        "ap": 447.0,
+        "machine_book": 9342.0,
+        "building_book": 12821.0,
+        "long_debt": 17000.0,
+        "short_debt": 0.0,
+        "assets": 35693.0,
+        "equity": 18246.0,
+        "advance_receipts": 0.0,
+        "operations": 1500.0
+      }
+    },
+    {
+      "market": 8,
+      "column": 2,
+      "leverage": 0.9199134199134199,
+      "equity_ratio": 0.5052907882864408,
+      "rate_percent": 4.18,
+      "state": {
+        "cash": 16180.0,
+        "ar": 2131.0,
+        "ap": 1094.0,
+        "machine_book": 5441.0,
+        "building_book": 12821.0,
+        "long_debt": 17000.0,
+        "short_debt": 0.0,
+        "assets": 36573.0,
+        "equity": 18480.0,
+        "advance_receipts": 0.0,
+        "operations": 350.0
+      }
+    },
+    {
+      "market": 9,
+      "column": 2,
+      "leverage": 0.9195650997998593,
+      "equity_ratio": 0.492500732610491,
+      "rate_percent": 4.21,
+      "state": {
+        "cash": 13294.0,
+        "ar": 3821.0,
+        "ap": 2050.0,
+        "machine_book": 7602.0,
+        "building_book": 12821.0,
+        "long_debt": 17000.0,
+        "short_debt": 0.0,
+        "assets": 37537.0,
+        "equity": 18487.0,
+        "advance_receipts": 0.0,
+        "operations": 800.0
+      }
+    },
+    {
+      "market": 6,
+      "column": 1,
+      "leverage": 0.8619378390711352,
+      "equity_ratio": 0.5141955835962145,
+      "rate_percent": 4.16,
+      "state": {
+        "cash": 16632.0,
+        "ar": 3002.0,
+        "ap": 1633.0,
+        "machine_book": 5902.0,
+        "building_book": 12821.0,
+        "long_debt": 17000.0,
+        "short_debt": 0.0,
+        "assets": 38357.0,
+        "equity": 19723.0,
+        "advance_receipts": 0.0,
+        "operations": 1000.0
+      }
+    },
+    {
+      "market": 4,
+      "column": 9,
+      "leverage": 0.8562029651660583,
+      "equity_ratio": 0.5106427042823941,
+      "rate_percent": 4.17,
+      "state": {
+        "cash": 20780.0,
+        "ar": 3314.0,
+        "ap": 1815.0,
+        "machine_book": 6541.0,
+        "building_book": 12821.0,
+        "long_debt": 19000.0,
+        "short_debt": 0.0,
+        "assets": 43457.0,
+        "equity": 22191.0,
+        "advance_receipts": 450.0,
+        "operations": 800.0
+      }
+    },
+    {
+      "market": 10,
+      "column": 9,
+      "leverage": 0.8483343678874405,
+      "equity_ratio": 0.5204160744282207,
+      "rate_percent": 4.15,
+      "state": {
+        "cash": 24185.0,
+        "ar": 3337.0,
+        "ap": 1769.0,
+        "machine_book": 6092.0,
+        "building_book": 12821.0,
+        "long_debt": 20500.0,
+        "short_debt": 0.0,
+        "assets": 46434.0,
+        "equity": 24165.0,
+        "advance_receipts": 0.0,
+        "operations": 1100.0
+      }
+    }
+  ],
+  "baseline_evidence": {
+    "actual_min_percent": 4.0,
+    "actual_max_percent": 14.26,
+    "below_5percent": 92,
+    "note": "Changing base from 4% to 5% yields negative observed premiums below 5%, inconsistent with constrained nonnegative premium."
+  },
+  "single_extreme_influence": {
+    "contribution_to_pooled_absolute_error": 0.9999997030518767,
+    "cv_without_single_extreme": {
+      "n": 92,
+      "mae_bp": 2.8347235050820596,
+      "rmse_bp": 4.191444478652442,
+      "max_abs_bp": 25.030485557627234,
+      "median_abs_bp": 2.612691066185807
+    },
+    "ordinary_only_fit": [
+      0.0021659896403006204,
+      2.353371962748473
+    ],
+    "ordinary_only_training": {
+      "n": 92,
+      "mae_bp": 0.47432484470697345,
+      "rmse_bp": 0.6987310088186005,
+      "max_abs_bp": 3.2191546382694742,
+      "median_abs_bp": 0.33478513403882165
+    },
+    "ordinary_training_with_all_fit": {
+      "n": 92,
+      "mae_bp": 3.036443284008175,
+      "rmse_bp": 4.244519565225789,
+      "max_abs_bp": 24.613943469241235,
+      "median_abs_bp": 2.9339683294501464
+    }
+  },
+  "equity_rounding_sensitivity": {
+    "equity": 14.0,
+    "half": 0.5,
+    "leverages": [
+      1674.0,
+      1798.0
+    ],
+    "predicted_rate_percent": [
+      8087592.373030732,
+      9565768.534091953
+    ]
+  }
+}

@@ -1,0 +1,545 @@
+﻿panel,label,heading,new_row_count,paired_rows,normalized_label_present_in_paired_old,normalized_label_present_any_old,comparison_limit,example_source,example_table,example_row
+balancesheet,厂房,固定资产,25,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,11
+balancesheet,固定资产总和,固定资产,25,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,13
+balancesheet,已收预付款 ?,短期,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,33
+balancesheet,应付账款,短期,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,34
+balancesheet,应收帐款,流动资产,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,16
+balancesheet,总流动资产,流动资产,26,18,0,False,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,18
+balancesheet,成品库存,流动资产,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,15
+balancesheet,本回合利润,所有者权益,25,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,26
+balancesheet,机器,固定资产,25,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,12
+balancesheet,现金及现金等价物,流动资产,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,17
+balancesheet,留存收益,所有者权益,25,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,25
+balancesheet,短期贷款,短期,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,32
+balancesheet,股东权益合计,所有者权益,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,27
+balancesheet,股本,所有者权益,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,23
+balancesheet,负债与所有者权益总计,短期,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,36
+balancesheet,负债合计,短期,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,35
+balancesheet,资产 总计,流动资产,25,17,17,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,19
+balancesheet,长期贷款,长期,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,30
+balancesheet,额外实收资本 ?,所有者权益,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_balancesheet.json,0,24
+cashflow,12月31日的流动资产,融资,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,34
+cashflow,1月1日的流动资产,融资,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,33
+cashflow,净营运资本总额变化（增加-/减少+）,净营运资本变化,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,20
+cashflow,已收预付款变化(增 + / 减 -) ?,净营运资本变化,25,17,17,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,19
+cashflow,库存变化(增 - / 减 +),净营运资本变化,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,16
+cashflow,应付账变化(增 + / 减 -),净营运资本变化,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,18
+cashflow,应收帐变化(增 - / 减 +),净营运资本变化,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,17
+cashflow,机器,资本支出,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,24
+cashflow,流动资产变化,融资,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,32
+cashflow,直接税,来自营运资金,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,12
+cashflow,短期贷款变化(增加 + / 减少 -),融资,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,30
+cashflow,税息折旧及摊销前利润（EBITDA）,来自营运资金,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,10
+cashflow,经营活动现金流,净营运资本变化,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,21
+cashflow,股息支付,融资,1,1,0,False,"label presence only; product, unit and section semantics require review",raw/market04_formal1_cashflow.json,0,31
+cashflow,股票发行收益+ / 股票回购成本 -,融资,1,1,0,False,"label presence only; product, unit and section semantics require review",raw/market04_formal1_cashflow.json,0,32
+cashflow,营运资金总计,来自营运资金,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,13
+cashflow,融资前现金流,资本支出,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,26
+cashflow,融资总计,融资,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,31
+cashflow,财务收入和支出,来自营运资金,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,11
+cashflow,资本支出总计,资本支出,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,25
+cashflow,长期贷款变化(增加 + / 减少 -),融资,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_cashflow.json,0,29
+incomestatement,一般营销,营销和销售成本,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,24
+incomestatement,净销售额,销售,25,17,17,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,12
+incomestatement,利息收入,融资收入和支出,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,44
+incomestatement,厂房,折旧,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,39
+incomestatement,原材料购买,复合梁,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,16
+incomestatement,可变成本总和,复合梁,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,20
+incomestatement,复合梁,销售,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,10
+incomestatement,大客户订单,销售,25,17,17,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,11
+incomestatement,市场调研,营销和销售成本,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,26
+incomestatement,库存持有成本,杂项费用,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,34
+incomestatement,库存改变,复合梁,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,19
+incomestatement,息税前利润（EBIT）,折旧,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,41
+incomestatement,本回合利润,融资收入和支出,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,49
+incomestatement,机器,折旧,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,40
+incomestatement,杂费成本总和,杂项费用,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,35
+incomestatement,毛利,复合梁,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,21
+incomestatement,生产人员成本,复合梁,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,17
+incomestatement,直接税 ?,融资收入和支出,25,17,17,True,"label presence only; product, unit and section semantics require review",raw/market01_formal2_incomestatement.json,0,48
+incomestatement,短期贷款利息,融资收入和支出,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,46
+incomestatement,研发,杂项费用,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,32
+incomestatement,税前利润,融资收入和支出,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,47
+incomestatement,税息折旧及摊销前利润（EBITDA）,杂项费用,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,36
+incomestatement,营销和销售成本总和,营销和销售成本,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,27
+incomestatement,行政管理成本,杂项费用,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,30
+incomestatement,解雇成本,杂项费用,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,31
+incomestatement,设计师营销,营销和销售成本,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,25
+incomestatement,运营改进,杂项费用,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,33
+incomestatement,运输,复合梁,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,18
+incomestatement,长期贷款利息,融资收入和支出,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_incomestatement.json,0,45
+logisticsdetails,印尼,复合梁,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_logisticsdetails.json,0,9
+logisticsdetails,大客户订单,"复合梁 - 泰国, 千单位",26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_logisticsdetails.json,0,3
+logisticsdetails,来自于生产,"复合梁 - 泰国, 千单位",26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_logisticsdetails.json,0,2
+logisticsdetails,泰国,复合梁,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_logisticsdetails.json,0,8
+logisticsdetails,运往 印尼,"复合梁 - 泰国, 千单位",26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_logisticsdetails.json,0,5
+logisticsdetails,运往 泰国,"复合梁 - 泰国, 千单位",26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_logisticsdetails.json,0,4
+logisticsemissions,总计,复合梁,52,36,36,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_logisticsemissions.json,0,5
+logisticsemissions,运往 印尼,复合梁,52,36,36,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_logisticsemissions.json,0,4
+logisticsemissions,运往 泰国,复合梁,52,36,36,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_logisticsemissions.json,0,3
+marketdetails,下一回合 复合梁,"大客户订单, 千单位",26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_marketdetails.json,0,24
+marketdetails,印尼,复合梁,78,54,54,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_marketdetails.json,0,8
+marketdetails,"印尼, 美元",复合梁,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_marketdetails.json,0,4
+marketdetails,复合梁,"期末库存, 千单位",26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_marketdetails.json,0,26
+marketdetails,市场份额 总计,复合梁,26,18,0,False,"label presence only; product, unit and section semantics require review",raw/market01_formal1_marketdetails.json,0,21
+marketdetails,市场份额 总计 - 复合梁,复合梁,26,18,0,False,"label presence only; product, unit and section semantics require review",raw/market01_formal1_marketdetails.json,0,20
+marketdetails,本回合 复合梁,"大客户订单, 千单位",26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_marketdetails.json,0,23
+marketdetails,泰国,复合梁,78,54,54,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_marketdetails.json,0,7
+marketdetails,"泰国, 美元",复合梁,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_marketdetails.json,0,3
+marketdetails,销售额总计,复合梁,26,18,0,False,"label presence only; product, unit and section semantics require review",raw/market01_formal1_marketdetails.json,0,10
+marketdetails,销售额总计 - 复合梁,复合梁,26,18,0,False,"label presence only; product, unit and section semantics require review",raw/market01_formal1_marketdetails.json,0,9
+marketdetails,需求 总计 - 复合梁,复合梁,26,18,0,False,"label presence only; product, unit and section semantics require review",raw/market01_formal1_marketdetails.json,0,15
+productiondetails,"单位可变生产成本, 美元",复合梁,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productiondetails.json,0,5
+productiondetails,"工资分摊, 千 美元",复合梁,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productiondetails.json,0,10
+productiondetails,换班班数,复合梁,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productiondetails.json,0,7
+productiondetails,"机器产能, 复合梁, 千单位",泰国,26,18,0,False,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productiondetails.json,0,2
+productiondetails,"生产效率, 千单位/人",复合梁,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productiondetails.json,0,9
+productiondetails,生产线人工数量,复合梁,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productiondetails.json,0,6
+productiondetails,"生产能力, 千单位",泰国,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productiondetails.json,0,3
+productiondetails,"生产规模, 千单位",复合梁,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productiondetails.json,0,8
+productionenvironmental,复合梁,"二氧化碳排放, kg",26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productionenvironmental.json,3,3
+productionenvironmental,复合梁,"二氧化碳排放, 公吨",26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productionenvironmental.json,0,3
+productionenvironmental,复合梁,"用水量, l",26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productionenvironmental.json,3,7
+productionenvironmental,复合梁,"用水量, m3",26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productionenvironmental.json,0,7
+productionenvironmental,复合梁,"能源消耗, MWh",26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productionenvironmental.json,0,5
+productionenvironmental,复合梁,"能源消耗, kWh",26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productionenvironmental.json,3,5
+productionhr,招聘 + / 裁员 -,人员,26,18,0,False,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productionhr.json,0,8
+productionhr,"每人平均工资, 千 美元",泰国,26,18,0,False,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productionhr.json,0,2
+productionhr,"生产人员数量, 上回合",人员,26,18,0,False,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productionhr.json,0,6
+productionhr,"生产人员数量, 本回合",人员,26,18,0,False,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productionhr.json,0,9
+productionhr,"生产工资合计, 千 美元",泰国,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productionhr.json,0,3
+productionhr,"裁员, %",人员,26,18,0,False,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productionhr.json,0,10
+productionhr,辞职,人员,26,18,0,False,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productionhr.json,0,7
+productionhr,"运营改进, 千 美元",泰国,26,18,0,False,"label presence only; product, unit and section semantics require review",raw/market01_formal1_productionhr.json,0,4
+ratios,产权比例，%,财务指标,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_ratios.json,0,10
+ratios,净利润率，%,财务指标,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_ratios.json,0,6
+ratios,已动用资本回报率，ROCE%,财务指标,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_ratios.json,0,8
+ratios,毛利率，%,财务指标,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_ratios.json,0,4
+ratios,流动比率,财务指标,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_ratios.json,0,9
+ratios,研发 / 销售，%,财务指标,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_ratios.json,0,3
+ratios,经营利润率，%,财务指标,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_ratios.json,0,5
+ratios,股东权益回报率， ROE%,财务指标,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_ratios.json,0,7
+ratios,销售成本/销售收入，%,财务指标,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_ratios.json,0,2
+ratios,长期贷款利率，%,财务指标,26,18,18,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_ratios.json,0,11
+societalimpact,人员,-10k010k20k30k40k50k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_practice2_societalimpact.json,0,5
+societalimpact,人员,-10k010k20k30k40k50k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_practice2_societalimpact.json,0,5
+societalimpact,人员,-10k010k20k30k40k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,2,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_formal2_societalimpact.json,0,5
+societalimpact,人员,"-10k
+0
+10k
+20k
+30k
+40k
+花儿与少年
+市不可挡
+WePlay
+赢是因为拼
+合法印钞队
+营销团队
+好运连连队
+鱼你一起
+从容应队
+你说得不对我说得队
+股东
+债权方
+人员
+政府
+供应商",1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_formal2_societalimpact.json,0,5
+societalimpact,人员,-10k010k20k30k40k 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_practice1_societalimpact.json,0,5
+societalimpact,人员,-10k010k20k30k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,3,3,3,True,"label presence only; product, unit and section semantics require review",raw/market04_formal1_societalimpact.json,0,5
+societalimpact,人员,-10k010k20k30k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,2,1,1,True,"label presence only; product, unit and section semantics require review",raw/market05_formal1_societalimpact.json,0,5
+societalimpact,人员,010k20k30k40k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market04_formal2_societalimpact.json,0,5
+societalimpact,人员,05k10k15k20k25k30k 做什么都队对着电脑干坐着队熬走一队是一队没4找4队万事都队真对紧张喝粥无敌海豚队诺瓦思赛诺斯来有请下一队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market06_initial0_societalimpact.json,0,5
+societalimpact,人员,05k10k15k20k25k30k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market04_initial0_societalimpact.json,0,5
+societalimpact,人员,05k10k15k20k25k30k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,2,2,2,True,"label presence only; product, unit and section semantics require review",raw/market03_formal1_societalimpact.json,0,5
+societalimpact,人员,05k10k15k20k25k30k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_initial0_societalimpact.json,0,5
+societalimpact,人员,05k10k15k20k25k30k 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_initial0_societalimpact.json,0,5
+societalimpact,人员,Export As PNGExport As SVG,8,6,6,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_societalimpact.json,0,5
+societalimpact,供应商,-10k010k20k30k40k50k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_practice2_societalimpact.json,0,7
+societalimpact,供应商,-10k010k20k30k40k50k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_practice2_societalimpact.json,0,7
+societalimpact,供应商,-10k010k20k30k40k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,2,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_formal2_societalimpact.json,0,7
+societalimpact,供应商,"-10k
+0
+10k
+20k
+30k
+40k
+花儿与少年
+市不可挡
+WePlay
+赢是因为拼
+合法印钞队
+营销团队
+好运连连队
+鱼你一起
+从容应队
+你说得不对我说得队
+股东
+债权方
+人员
+政府
+供应商",1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_formal2_societalimpact.json,0,7
+societalimpact,供应商,-10k010k20k30k40k 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_practice1_societalimpact.json,0,7
+societalimpact,供应商,-10k010k20k30k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,3,3,3,True,"label presence only; product, unit and section semantics require review",raw/market04_formal1_societalimpact.json,0,7
+societalimpact,供应商,-10k010k20k30k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,2,1,1,True,"label presence only; product, unit and section semantics require review",raw/market05_formal1_societalimpact.json,0,7
+societalimpact,供应商,010k20k30k40k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market04_formal2_societalimpact.json,0,7
+societalimpact,供应商,05k10k15k20k25k30k 做什么都队对着电脑干坐着队熬走一队是一队没4找4队万事都队真对紧张喝粥无敌海豚队诺瓦思赛诺斯来有请下一队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market06_initial0_societalimpact.json,0,7
+societalimpact,供应商,05k10k15k20k25k30k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market04_initial0_societalimpact.json,0,7
+societalimpact,供应商,05k10k15k20k25k30k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,2,2,2,True,"label presence only; product, unit and section semantics require review",raw/market03_formal1_societalimpact.json,0,7
+societalimpact,供应商,05k10k15k20k25k30k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_initial0_societalimpact.json,0,7
+societalimpact,供应商,05k10k15k20k25k30k 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_initial0_societalimpact.json,0,7
+societalimpact,供应商,Export As PNGExport As SVG,8,6,6,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_societalimpact.json,0,7
+societalimpact,债权方,-10k010k20k30k40k50k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_practice2_societalimpact.json,0,4
+societalimpact,债权方,-10k010k20k30k40k50k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_practice2_societalimpact.json,0,4
+societalimpact,债权方,-10k010k20k30k40k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,2,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_formal2_societalimpact.json,0,4
+societalimpact,债权方,"-10k
+0
+10k
+20k
+30k
+40k
+花儿与少年
+市不可挡
+WePlay
+赢是因为拼
+合法印钞队
+营销团队
+好运连连队
+鱼你一起
+从容应队
+你说得不对我说得队
+股东
+债权方
+人员
+政府
+供应商",1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_formal2_societalimpact.json,0,4
+societalimpact,债权方,-10k010k20k30k40k 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_practice1_societalimpact.json,0,4
+societalimpact,债权方,-10k010k20k30k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,3,3,3,True,"label presence only; product, unit and section semantics require review",raw/market04_formal1_societalimpact.json,0,4
+societalimpact,债权方,-10k010k20k30k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,2,1,1,True,"label presence only; product, unit and section semantics require review",raw/market05_formal1_societalimpact.json,0,4
+societalimpact,债权方,010k20k30k40k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market04_formal2_societalimpact.json,0,4
+societalimpact,债权方,05k10k15k20k25k30k 做什么都队对着电脑干坐着队熬走一队是一队没4找4队万事都队真对紧张喝粥无敌海豚队诺瓦思赛诺斯来有请下一队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market06_initial0_societalimpact.json,0,4
+societalimpact,债权方,05k10k15k20k25k30k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market04_initial0_societalimpact.json,0,4
+societalimpact,债权方,05k10k15k20k25k30k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,2,2,2,True,"label presence only; product, unit and section semantics require review",raw/market03_formal1_societalimpact.json,0,4
+societalimpact,债权方,05k10k15k20k25k30k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_initial0_societalimpact.json,0,4
+societalimpact,债权方,05k10k15k20k25k30k 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_initial0_societalimpact.json,0,4
+societalimpact,债权方,Export As PNGExport As SVG,8,6,6,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_societalimpact.json,0,4
+societalimpact,总计,-10k010k20k30k40k50k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_practice2_societalimpact.json,0,8
+societalimpact,总计,-10k010k20k30k40k50k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_practice2_societalimpact.json,0,8
+societalimpact,总计,-10k010k20k30k40k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,2,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_formal2_societalimpact.json,0,8
+societalimpact,总计,"-10k
+0
+10k
+20k
+30k
+40k
+花儿与少年
+市不可挡
+WePlay
+赢是因为拼
+合法印钞队
+营销团队
+好运连连队
+鱼你一起
+从容应队
+你说得不对我说得队
+股东
+债权方
+人员
+政府
+供应商",1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_formal2_societalimpact.json,0,8
+societalimpact,总计,-10k010k20k30k40k 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_practice1_societalimpact.json,0,8
+societalimpact,总计,-10k010k20k30k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,3,3,3,True,"label presence only; product, unit and section semantics require review",raw/market04_formal1_societalimpact.json,0,8
+societalimpact,总计,-10k010k20k30k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,2,1,1,True,"label presence only; product, unit and section semantics require review",raw/market05_formal1_societalimpact.json,0,8
+societalimpact,总计,010k20k30k40k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market04_formal2_societalimpact.json,0,8
+societalimpact,总计,05k10k15k20k25k30k 做什么都队对着电脑干坐着队熬走一队是一队没4找4队万事都队真对紧张喝粥无敌海豚队诺瓦思赛诺斯来有请下一队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market06_initial0_societalimpact.json,0,8
+societalimpact,总计,05k10k15k20k25k30k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market04_initial0_societalimpact.json,0,8
+societalimpact,总计,05k10k15k20k25k30k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,2,2,2,True,"label presence only; product, unit and section semantics require review",raw/market03_formal1_societalimpact.json,0,8
+societalimpact,总计,05k10k15k20k25k30k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_initial0_societalimpact.json,0,8
+societalimpact,总计,05k10k15k20k25k30k 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_initial0_societalimpact.json,0,8
+societalimpact,总计,Export As PNGExport As SVG,8,6,6,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_societalimpact.json,0,8
+societalimpact,政府,-10k010k20k30k40k50k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_practice2_societalimpact.json,0,6
+societalimpact,政府,-10k010k20k30k40k50k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_practice2_societalimpact.json,0,6
+societalimpact,政府,-10k010k20k30k40k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,2,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_formal2_societalimpact.json,0,6
+societalimpact,政府,"-10k
+0
+10k
+20k
+30k
+40k
+花儿与少年
+市不可挡
+WePlay
+赢是因为拼
+合法印钞队
+营销团队
+好运连连队
+鱼你一起
+从容应队
+你说得不对我说得队
+股东
+债权方
+人员
+政府
+供应商",1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_formal2_societalimpact.json,0,6
+societalimpact,政府,-10k010k20k30k40k 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_practice1_societalimpact.json,0,6
+societalimpact,政府,-10k010k20k30k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,3,3,3,True,"label presence only; product, unit and section semantics require review",raw/market04_formal1_societalimpact.json,0,6
+societalimpact,政府,-10k010k20k30k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,2,1,1,True,"label presence only; product, unit and section semantics require review",raw/market05_formal1_societalimpact.json,0,6
+societalimpact,政府,010k20k30k40k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market04_formal2_societalimpact.json,0,6
+societalimpact,政府,05k10k15k20k25k30k 做什么都队对着电脑干坐着队熬走一队是一队没4找4队万事都队真对紧张喝粥无敌海豚队诺瓦思赛诺斯来有请下一队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market06_initial0_societalimpact.json,0,6
+societalimpact,政府,05k10k15k20k25k30k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market04_initial0_societalimpact.json,0,6
+societalimpact,政府,05k10k15k20k25k30k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,2,2,2,True,"label presence only; product, unit and section semantics require review",raw/market03_formal1_societalimpact.json,0,6
+societalimpact,政府,05k10k15k20k25k30k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_initial0_societalimpact.json,0,6
+societalimpact,政府,05k10k15k20k25k30k 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_initial0_societalimpact.json,0,6
+societalimpact,政府,Export As PNGExport As SVG,8,6,6,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_societalimpact.json,0,6
+societalimpact,股东,-10k010k20k30k40k50k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_practice2_societalimpact.json,0,3
+societalimpact,股东,-10k010k20k30k40k50k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_practice2_societalimpact.json,0,3
+societalimpact,股东,-10k010k20k30k40k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,2,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_formal2_societalimpact.json,0,3
+societalimpact,股东,"-10k
+0
+10k
+20k
+30k
+40k
+花儿与少年
+市不可挡
+WePlay
+赢是因为拼
+合法印钞队
+营销团队
+好运连连队
+鱼你一起
+从容应队
+你说得不对我说得队
+股东
+债权方
+人员
+政府
+供应商",1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_formal2_societalimpact.json,0,3
+societalimpact,股东,-10k010k20k30k40k 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_practice1_societalimpact.json,0,3
+societalimpact,股东,-10k010k20k30k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,3,3,3,True,"label presence only; product, unit and section semantics require review",raw/market04_formal1_societalimpact.json,0,3
+societalimpact,股东,-10k010k20k30k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,2,1,1,True,"label presence only; product, unit and section semantics require review",raw/market05_formal1_societalimpact.json,0,3
+societalimpact,股东,010k20k30k40k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market04_formal2_societalimpact.json,0,3
+societalimpact,股东,05k10k15k20k25k30k 做什么都队对着电脑干坐着队熬走一队是一队没4找4队万事都队真对紧张喝粥无敌海豚队诺瓦思赛诺斯来有请下一队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market06_initial0_societalimpact.json,0,3
+societalimpact,股东,05k10k15k20k25k30k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market04_initial0_societalimpact.json,0,3
+societalimpact,股东,05k10k15k20k25k30k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 股东债权方人员政府供应商Export As PNGExport As SVG,2,2,2,True,"label presence only; product, unit and section semantics require review",raw/market03_formal1_societalimpact.json,0,3
+societalimpact,股东,05k10k15k20k25k30k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 股东债权方人员政府供应商Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_initial0_societalimpact.json,0,3
+societalimpact,股东,05k10k15k20k25k30k 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队 股东债权方人员政府供应商Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_initial0_societalimpact.json,0,3
+societalimpact,股东,Export As PNGExport As SVG,8,6,6,True,"label presence only; product, unit and section semantics require review",raw/market01_formal1_societalimpact.json,0,3
+summary,一般营销,"推广和研发支出, 千 美元",18,12,12,True,"label presence only; product, unit and section semantics require review",raw/market02_initial0_summary.json,0,32
+summary,净现金,"现金管理, 千 美元",18,12,12,True,"label presence only; product, unit and section semantics require review",raw/market02_initial0_summary.json,0,30
+summary,息税前利润%,-10k010k20k30k40k50k60k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market03_formal2_summary.json,0,9
+summary,息税前利润%,"-10k
+0
+10k
+20k
+30k
+40k
+50k
+60k
+花儿与少年
+市不可挡
+WePlay
+赢是因为拼
+合法印钞队
+营销团队
+好运连连队
+鱼你一起
+从容应队
+你说得不对我说得队
+销售
+息税前利润（EBIT）
+利润",1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_formal2_summary.json,0,9
+summary,息税前利润%,-10k010k20k30k40k50k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market04_practice2_summary.json,0,9
+summary,息税前利润%,-10k010k20k30k40k50k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_practice1_summary.json,0,9
+summary,息税前利润%,-10k010k20k30k40k50k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,2,1,1,True,"label presence only; product, unit and section semantics require review",raw/market05_formal1_summary.json,0,9
+summary,息税前利润%,-10k010k20k30k40k50k 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_practice1_summary.json,0,9
+summary,息税前利润%,-10k010k20k30k40k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 销售息税前利润（EBIT）利润Export As PNGExport As SVG,2,2,2,True,"label presence only; product, unit and section semantics require review",raw/market04_formal1_summary.json,0,9
+summary,息税前利润%,-20k020k40k60k80k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_practice2_summary.json,0,9
+summary,息税前利润%,-20k020k40k60k80k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_practice2_summary.json,0,9
+summary,息税前利润%,010k20k30k40k50k60k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market04_formal2_summary.json,0,9
+summary,息税前利润%,010k20k30k40k50k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_formal1_summary.json,0,9
+summary,息税前利润%,010k20k30k40k 做什么都队对着电脑干坐着队熬走一队是一队没4找4队万事都队真对紧张喝粥无敌海豚队诺瓦思赛诺斯来有请下一队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market06_initial0_summary.json,0,9
+summary,息税前利润%,010k20k30k40k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market04_initial0_summary.json,0,9
+summary,息税前利润%,010k20k30k40k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_initial0_summary.json,0,9
+summary,息税前利润%,010k20k30k40k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_initial0_summary.json,0,9
+summary,息税前利润%,010k20k30k40k 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_initial0_summary.json,0,9
+summary,息税前利润（EBIT）,-10k010k20k30k40k50k60k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market03_formal2_summary.json,0,8
+summary,息税前利润（EBIT）,"-10k
+0
+10k
+20k
+30k
+40k
+50k
+60k
+花儿与少年
+市不可挡
+WePlay
+赢是因为拼
+合法印钞队
+营销团队
+好运连连队
+鱼你一起
+从容应队
+你说得不对我说得队
+销售
+息税前利润（EBIT）
+利润",1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_formal2_summary.json,0,8
+summary,息税前利润（EBIT）,-10k010k20k30k40k50k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market04_practice2_summary.json,0,8
+summary,息税前利润（EBIT）,-10k010k20k30k40k50k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_practice1_summary.json,0,8
+summary,息税前利润（EBIT）,-10k010k20k30k40k50k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,2,1,1,True,"label presence only; product, unit and section semantics require review",raw/market05_formal1_summary.json,0,8
+summary,息税前利润（EBIT）,-10k010k20k30k40k50k 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_practice1_summary.json,0,8
+summary,息税前利润（EBIT）,-10k010k20k30k40k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 销售息税前利润（EBIT）利润Export As PNGExport As SVG,2,2,2,True,"label presence only; product, unit and section semantics require review",raw/market04_formal1_summary.json,0,8
+summary,息税前利润（EBIT）,-20k020k40k60k80k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_practice2_summary.json,0,8
+summary,息税前利润（EBIT）,-20k020k40k60k80k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_practice2_summary.json,0,8
+summary,息税前利润（EBIT）,010k20k30k40k50k60k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market04_formal2_summary.json,0,8
+summary,息税前利润（EBIT）,010k20k30k40k50k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_formal1_summary.json,0,8
+summary,息税前利润（EBIT）,010k20k30k40k 做什么都队对着电脑干坐着队熬走一队是一队没4找4队万事都队真对紧张喝粥无敌海豚队诺瓦思赛诺斯来有请下一队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market06_initial0_summary.json,0,8
+summary,息税前利润（EBIT）,010k20k30k40k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market04_initial0_summary.json,0,8
+summary,息税前利润（EBIT）,010k20k30k40k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_initial0_summary.json,0,8
+summary,息税前利润（EBIT）,010k20k30k40k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_initial0_summary.json,0,8
+summary,息税前利润（EBIT）,010k20k30k40k 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队 销售息税前利润（EBIT）利润Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_initial0_summary.json,0,8
+summary,本回合利润,千 美元-10k-5k05k10k年0123 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队Export As PNGExport As SVG,2,2,2,True,"label presence only; product, unit and section semantics require review",raw/market03_practice1_summary.json,0,17
+summary,本回合利润,千 美元-10k-5k05k10k年0123 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_practice1_summary.json,0,17
+summary,本回合利润,千 美元-4k-2k02k4k6k年0123 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market03_formal2_summary.json,0,17
+summary,本回合利润,"千 美元
+-8k
+-6k
+-4k
+-2k
+0
+2k
+4k
+6k
+年
+0
+1
+2
+3
+花儿与少年
+市不可挡
+WePlay
+赢是因为拼
+合法印钞队
+营销团队
+好运连连队
+鱼你一起
+从容应队
+你说得不对我说得队",1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_formal2_summary.json,0,17
+summary,本回合利润,千 美元-8k-6k-4k-2k02k4k6k年0123 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_practice2_summary.json,0,17
+summary,本回合利润,千 美元-8k-6k-4k-2k02k4k年0123 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人Export As PNGExport As SVG,4,3,3,True,"label presence only; product, unit and section semantics require review",raw/market04_formal1_summary.json,0,17
+summary,本回合利润,千 美元-8k-6k-4k-2k02k4k年0123 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队Export As PNGExport As SVG,2,1,1,True,"label presence only; product, unit and section semantics require review",raw/market05_formal1_summary.json,0,17
+summary,本回合利润,千 美元01k2k3k4k年0123 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_formal1_summary.json,0,17
+summary,本回合利润,千 美元02004006008001k1.2k1.4k年0123 做什么都队对着电脑干坐着队熬走一队是一队没4找4队万事都队真对紧张喝粥无敌海豚队诺瓦思赛诺斯来有请下一队Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market06_initial0_summary.json,0,17
+summary,本回合利润,千 美元02004006008001k1.2k1.4k年0123 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market04_initial0_summary.json,0,17
+summary,本回合利润,千 美元02004006008001k1.2k1.4k年0123 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_initial0_summary.json,0,17
+summary,本回合利润,千 美元02004006008001k1.2k1.4k年0123 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_initial0_summary.json,0,17
+summary,本回合利润,千 美元02004006008001k1.2k1.4k年0123 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_initial0_summary.json,0,17
+summary,"泰国, 复合梁","单位可变生产成本, 美元",18,12,0,False,"label presence only; product, unit and section semantics require review",raw/market02_initial0_summary.json,0,24
+summary,"泰国, 复合梁",换班班数,18,12,0,False,"label presence only; product, unit and section semantics require review",raw/market02_initial0_summary.json,0,26
+summary,现金及现金等价物,"现金管理, 千 美元",18,12,12,True,"label presence only; product, unit and section semantics require review",raw/market02_initial0_summary.json,0,28
+summary,短期贷款,"现金管理, 千 美元",18,12,12,True,"label presence only; product, unit and section semantics require review",raw/market02_initial0_summary.json,0,29
+summary,研发,"推广和研发支出, 千 美元",18,12,12,True,"label presence only; product, unit and section semantics require review",raw/market02_initial0_summary.json,0,34
+summary,累计收益,千 美元-10k-5k05k10k年0123 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队Export As PNGExport As SVG,1,1,0,False,"label presence only; product, unit and section semantics require review",raw/market03_practice1_summary.json,0,21
+summary,累计收益,"千 美元
+-10k
+-5k
+0
+5k
+10k
+年
+0
+1
+2
+3
+花儿与少年
+市不可挡
+WePlay
+赢是因为拼
+合法印钞队
+营销团队
+好运连连队
+鱼你一起
+从容应队
+你说得不对我说得队",1,0,0,False,"label presence only; product, unit and section semantics require review",raw/market05_formal2_summary.json,0,21
+summary,累计收益,千 美元-15k-10k-5k05k10k15k年0123 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队Export As PNGExport As SVG,1,1,0,False,"label presence only; product, unit and section semantics require review",raw/market03_practice2_summary.json,0,21
+summary,累计收益,千 美元-15k-10k-5k05k10k15k年0123 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队Export As PNGExport As SVG,1,0,0,False,"label presence only; product, unit and section semantics require review",raw/market05_practice2_summary.json,0,21
+summary,累计收益,千 美元-15k-10k-5k05k10k年0123 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人Export As PNGExport As SVG,1,1,0,False,"label presence only; product, unit and section semantics require review",raw/market04_practice2_summary.json,0,21
+summary,累计收益,千 美元-2k02k4k6k8k10k年0123 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队Export As PNGExport As SVG,1,0,0,False,"label presence only; product, unit and section semantics require review",raw/market03_formal2_summary.json,0,21
+summary,累计收益,千 美元-6k-4k-2k02k4k6k8k年0123 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人Export As PNGExport As SVG,1,0,0,False,"label presence only; product, unit and section semantics require review",raw/market04_formal2_summary.json,0,21
+summary,累计收益,千 美元-6k-4k-2k02k4k6k年0123 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人Export As PNGExport As SVG,2,2,0,False,"label presence only; product, unit and section semantics require review",raw/market04_formal1_summary.json,0,21
+summary,累计收益,千 美元-6k-4k-2k02k4k6k年0123 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队Export As PNGExport As SVG,2,1,0,False,"label presence only; product, unit and section semantics require review",raw/market05_formal1_summary.json,0,21
+summary,累计收益,千 美元-8k-6k-4k-2k02k4k6k年0123 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队Export As PNGExport As SVG,1,1,0,False,"label presence only; product, unit and section semantics require review",raw/market02_practice1_summary.json,0,21
+summary,累计收益,千 美元01k2k3k4k5k6k年0123 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队Export As PNGExport As SVG,1,1,0,False,"label presence only; product, unit and section semantics require review",raw/market03_formal1_summary.json,0,21
+summary,累计收益,千 美元02004006008001k1.2k1.4k年0123 做什么都队对着电脑干坐着队熬走一队是一队没4找4队万事都队真对紧张喝粥无敌海豚队诺瓦思赛诺斯来有请下一队Export As PNGExport As SVG,1,1,0,False,"label presence only; product, unit and section semantics require review",raw/market06_initial0_summary.json,0,21
+summary,累计收益,千 美元02004006008001k1.2k1.4k年0123 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人Export As PNGExport As SVG,1,1,0,False,"label presence only; product, unit and section semantics require review",raw/market04_initial0_summary.json,0,21
+summary,累计收益,千 美元02004006008001k1.2k1.4k年0123 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队Export As PNGExport As SVG,1,1,0,False,"label presence only; product, unit and section semantics require review",raw/market03_initial0_summary.json,0,21
+summary,累计收益,千 美元02004006008001k1.2k1.4k年0123 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队Export As PNGExport As SVG,1,0,0,False,"label presence only; product, unit and section semantics require review",raw/market05_initial0_summary.json,0,21
+summary,累计收益,千 美元02004006008001k1.2k1.4k年0123 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队Export As PNGExport As SVG,1,1,0,False,"label presence only; product, unit and section semantics require review",raw/market02_initial0_summary.json,0,21
+summary,营业收入净额,千 美元010k20k30k40k50k60k70k年0123 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_practice2_summary.json,0,4
+summary,营业收入净额,千 美元010k20k30k40k50k60k70k年0123 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_practice2_summary.json,0,4
+summary,营业收入净额,千 美元010k20k30k40k50k60k年0123 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market04_formal2_summary.json,0,4
+summary,营业收入净额,千 美元010k20k30k40k50k60k年0123 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market03_formal2_summary.json,0,4
+summary,营业收入净额,"千 美元
+0
+10k
+20k
+30k
+40k
+50k
+60k
+年
+0
+1
+2
+3
+花儿与少年
+市不可挡
+WePlay
+赢是因为拼
+合法印钞队
+营销团队
+好运连连队
+鱼你一起
+从容应队
+你说得不对我说得队",1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_formal2_summary.json,0,4
+summary,营业收入净额,千 美元010k20k30k40k50k年0123 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market04_practice2_summary.json,0,4
+summary,营业收入净额,千 美元010k20k30k40k50k年0123 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队Export As PNGExport As SVG,2,2,2,True,"label presence only; product, unit and section semantics require review",raw/market03_formal1_summary.json,0,4
+summary,营业收入净额,千 美元010k20k30k40k50k年0123 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队Export As PNGExport As SVG,2,1,1,True,"label presence only; product, unit and section semantics require review",raw/market05_formal1_summary.json,0,4
+summary,营业收入净额,千 美元010k20k30k40k50k年0123 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_practice1_summary.json,0,4
+summary,营业收入净额,千 美元010k20k30k40k年0123 做什么都队对着电脑干坐着队熬走一队是一队没4找4队万事都队真对紧张喝粥无敌海豚队诺瓦思赛诺斯来有请下一队Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market06_initial0_summary.json,0,4
+summary,营业收入净额,千 美元010k20k30k40k年0123 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人Export As PNGExport As SVG,3,3,3,True,"label presence only; product, unit and section semantics require review",raw/market04_formal1_summary.json,0,4
+summary,营业收入净额,千 美元010k20k30k40k年0123 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market03_initial0_summary.json,0,4
+summary,营业收入净额,千 美元010k20k30k40k年0123 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队Export As PNGExport As SVG,1,0,0,True,"label presence only; product, unit and section semantics require review",raw/market05_initial0_summary.json,0,4
+summary,营业收入净额,千 美元010k20k30k40k年0123 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队Export As PNGExport As SVG,1,1,1,True,"label presence only; product, unit and section semantics require review",raw/market02_initial0_summary.json,0,4
+summary,设计师营销,"推广和研发支出, 千 美元",18,12,12,True,"label presence only; product, unit and section semantics require review",raw/market02_initial0_summary.json,0,33
+summary,销货成本,"千 美元010k20k30k40k50k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 从库存中出售, 复合梁新生产, 复合梁销货成本库存增长, 复合梁Export As PNGExport As SVG",1,1,0,False,"label presence only; product, unit and section semantics require review",raw/market03_practice2_summary.json,0,13
+summary,销货成本,"千 美元010k20k30k40k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 从库存中出售, 复合梁新生产, 复合梁销货成本库存增长, 复合梁Export As PNGExport As SVG",2,1,0,False,"label presence only; product, unit and section semantics require review",raw/market04_formal2_summary.json,0,13
+summary,销货成本,"千 美元010k20k30k40k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 从库存中出售, 复合梁新生产, 复合梁销货成本库存增长, 复合梁Export As PNGExport As SVG",1,0,0,False,"label presence only; product, unit and section semantics require review",raw/market03_formal2_summary.json,0,13
+summary,销货成本,"千 美元
+0
+10k
+20k
+30k
+40k
+花儿与少年
+市不可挡
+WePlay
+赢是因为拼
+合法印钞队
+营销团队
+好运连连队
+鱼你一起
+从容应队
+你说得不对我说得队
+从库存中出售, 复合梁
+新生产, 复合梁
+销货成本
+库存增长, 复合梁",1,0,0,False,"label presence only; product, unit and section semantics require review",raw/market05_formal2_summary.json,0,13
+summary,销货成本,"千 美元010k20k30k40k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 从库存中出售, 复合梁新生产, 复合梁销货成本库存增长, 复合梁Export As PNGExport As SVG",1,0,0,False,"label presence only; product, unit and section semantics require review",raw/market05_practice2_summary.json,0,13
+summary,销货成本,"千 美元05k10k15k20k25k30k 做什么都队对着电脑干坐着队熬走一队是一队没4找4队万事都队真对紧张喝粥无敌海豚队诺瓦思赛诺斯来有请下一队 从库存中出售, 复合梁新生产, 复合梁销货成本库存增长, 复合梁Export As PNGExport As SVG",1,1,0,False,"label presence only; product, unit and section semantics require review",raw/market06_initial0_summary.json,0,13
+summary,销货成本,"千 美元05k10k15k20k25k30k 峑队尖峰插针队盈领者吾胆肥嘟嘟组123补给站4ward化身蟑螂拯救世界脑力发电站Finance Boys远见奇迹投资人 从库存中出售, 复合梁新生产, 复合梁销货成本库存增长, 复合梁Export As PNGExport As SVG",3,3,0,False,"label presence only; product, unit and section semantics require review",raw/market04_formal1_summary.json,0,13
+summary,销货成本,"千 美元05k10k15k20k25k30k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 从库存中出售, 复合梁新生产, 复合梁销货成本库存增长, 复合梁Export As PNGExport As SVG",2,2,0,False,"label presence only; product, unit and section semantics require review",raw/market03_initial0_summary.json,0,13
+summary,销货成本,"千 美元05k10k15k20k25k30k 花儿与少年市不可挡WePlay赢是因为拼合法印钞队营销团队好运连连队鱼你一起从容应队你说得不对我说得队 从库存中出售, 复合梁新生产, 复合梁销货成本库存增长, 复合梁Export As PNGExport As SVG",3,1,0,False,"label presence only; product, unit and section semantics require review",raw/market05_formal1_summary.json,0,13
+summary,销货成本,"千 美元05k10k15k20k25k30k 超级无敌爆爆龙对的队的队商业巨鳄玖零壹做啥都队平菇奖金多多从容应队我说的都队深藏Blue队 从库存中出售, 复合梁新生产, 复合梁销货成本库存增长, 复合梁Export As PNGExport As SVG",2,2,0,False,"label presence only; product, unit and section semantics require review",raw/market02_initial0_summary.json,0,13
+summary,销货成本,"千 美元05k10k15k20k25k 海底小纵队咱试试嘛百分buy队橘子大队复利奇迹华尔街之狼香菜获奖让我插个队同航队运筹帷幄队 从库存中出售, 复合梁新生产, 复合梁销货成本库存增长, 复合梁Export As PNGExport As SVG",1,1,0,False,"label presence only; product, unit and section semantics require review",raw/market03_formal1_summary.json,0,13

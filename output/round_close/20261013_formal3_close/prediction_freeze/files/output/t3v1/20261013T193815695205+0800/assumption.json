@@ -1,0 +1,16 @@
+{
+  "id": "SAME_SINGLE_PRODUCT_CURVES",
+  "enabled": true,
+  "statement": "现假设连接件的单产品曲线与复合梁相同。",
+  "source_phrase": [
+    "每组产品",
+    "产品组合"
+  ],
+  "source_excerpt": "与复合梁竞争的新型韩国 BESTO 梁已进入市场。由于其技术尚未得到验证，客户对其使用犹豫不决，但这种情况在未来可能会很快改变。预计今年任何市场对复合梁的需求都不会发生重大变化。贵公司已决定扩大其产品组合，以涵盖连接件。根据市场分析，泰国和印度尼西亚的价格约为 27 美元。 根据目前的估计，在给定的价格水平下，泰国和印尼对每组产品的初始需求量分别约为 250 000 单位和 150 000 单位。",
+  "source": "output\\round_close\\20261012T221044.031+0800\\resume\\20261013T_goal\\current_2026-10-13T082849281Z\\raw\\outlook.json",
+  "source_sha256": "5edfc80468bc3c02af9ee9c817eda1f8fff05882e292ea83f3a27d848114ecea",
+  "classification": "USER_AUTHORIZED_MODEL_ASSUMPTION_NOT_OFFICIAL_EQUALITY_PROOF",
+  "scope": "归一化价格/营销/研发响应共用复合梁系数与同回合曲线；不等同原始售价、成本、效率基底、市场规模或跨产品需求替代",
+  "cross_round_transfer": "正式2行为系数用于正式3亦属未验证迁移；正式3使用其当期复合梁研发曲线",
+  "connector_actual_training_rows": 0
+}

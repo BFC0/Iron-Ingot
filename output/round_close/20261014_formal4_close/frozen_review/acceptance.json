@@ -1,0 +1,29 @@
+{
+  "status": "FROZEN_INDEX_READY_FINAL_PLAN_PAIRING_PENDING",
+  "checked_at": "2026-10-14T22:09:11.744462+08:00",
+  "no_training": true,
+  "no_browser_action": true,
+  "no_source_edits": true,
+  "indexed_files": 196,
+  "manifest_checks": 146,
+  "manifest_checks_passed": 145,
+  "manifest_mismatches": [
+    {
+      "manifest": "output/formal4_all/20261014T211634211494+0800/acceptance.json",
+      "path": "output/formal4_all/20261014T211634211494+0800/report.md",
+      "expected_sha256": "60c7a1ce5c0afceb9c62e7f67fa52b97ed04068b0219baaa63217b3c88d5090c",
+      "actual_sha256": "8f089238713674a975bd6e7bf7f13c435a3a2ec72701f52fe4a90076eb8760c8",
+      "passed": false
+    }
+  ],
+  "joint_candidate_fields": {
+    "中性收益优先且联合不利现金达标候选": 42,
+    "联合不利收益优先候选": 42
+  },
+  "historical_categories": {
+    "HISTORICAL_PLATFORM_BUDGET_NOT_ACTUAL": 10,
+    "ROUND_K_GROUP_FINAL_DECISION": 134
+  },
+  "direct_formal4_score_available": false,
+  "direct_score_reason": "正式4历史小组最终决策与实际尚未在本分工输入中配对；冻结应用情景不等同已提交方案。"
+}

@@ -1,0 +1,132 @@
+{
+  "version": "t3v0",
+  "models": {
+    "ABS": {
+      "status": "RETRAINED",
+      "artifact": "models.json"
+    },
+    "SHARE": {
+      "status": "RETRAINED",
+      "artifact": "models.json"
+    },
+    "COUNTRY": {
+      "status": "RETRAINED",
+      "artifact": "models.json"
+    },
+    "EFF": {
+      "status": "RETRAINED",
+      "artifact": "models.json"
+    },
+    "RISK_POWER": {
+      "status": "RETRAINED",
+      "artifact": "models.json"
+    },
+    "RISK_EXP": {
+      "status": "RETRAINED",
+      "artifact": "models.json"
+    },
+    "MATERIAL": {
+      "status": "RETRAINED",
+      "artifact": "models.json"
+    },
+    "MATERIAL_PROP": {
+      "status": "RETRAINED",
+      "artifact": "models.json"
+    },
+    "INTEREST": {
+      "status": "RETRAINED",
+      "artifact": "models.json"
+    },
+    "RD": {
+      "status": "FORMAL2_BOUND_PLUS_SEPARATE_FORMAL3_FIT",
+      "artifact": "formal3_curves.json"
+    },
+    "OPS": {
+      "status": "FORMAL2_BOUND_PLUS_SEPARATE_FORMAL3_FIT",
+      "artifact": "formal3_curves.json"
+    },
+    "TOTAL": {
+      "status": "ACTUAL_DIAGNOSTICS_AND_EXPLICIT_SCENARIO",
+      "artifact": "industry.json",
+      "reason": "行业总量/增长为实际诊断或情景，非已识别预测函数"
+    },
+    "BASELINE": {
+      "status": "ACTUAL_DIAGNOSTICS_AND_EXPLICIT_SCENARIO",
+      "artifact": "industry.json",
+      "reason": "行业总量/增长为实际诊断或情景，非已识别预测函数"
+    },
+    "GROWTH": {
+      "status": "ACTUAL_DIAGNOSTICS_AND_EXPLICIT_SCENARIO",
+      "artifact": "industry.json",
+      "reason": "行业总量/增长为实际诊断或情景，非已识别预测函数"
+    },
+    "CAPACITY": {
+      "status": "RULE_REPLAY_WITH_EXPLICIT_GAPS",
+      "artifact": "labor_and_accounts.json",
+      "reason": "确定规则无需训练；缺失跨期分支不能生成完整利润"
+    },
+    "LABOR": {
+      "status": "RULE_REPLAY_WITH_EXPLICIT_GAPS",
+      "artifact": "labor_and_accounts.json",
+      "reason": "确定规则无需训练；缺失跨期分支不能生成完整利润"
+    },
+    "OPERATING": {
+      "status": "RULE_REPLAY_WITH_EXPLICIT_GAPS",
+      "artifact": "labor_and_accounts.json",
+      "reason": "确定规则无需训练；缺失跨期分支不能生成完整利润"
+    },
+    "FINANCE": {
+      "status": "RULE_REPLAY_WITH_EXPLICIT_GAPS",
+      "artifact": "labor_and_accounts.json",
+      "reason": "确定规则无需训练；缺失跨期分支不能生成完整利润"
+    },
+    "HORIZON": {
+      "status": "GUARDED_REMAINING_3_TO_6",
+      "artifact": "calculation_flow.json",
+      "reason": "未来前景和完整状态缺失，不输出最优排名"
+    },
+    "METRICS": {
+      "status": "SHARED_CALCULATION_CHECKED",
+      "artifact": "checks.json"
+    },
+    "UNIFIED": {
+      "status": "HISTORICAL_COMPOSITION_REPLACED_BY_T3V0_REGISTRY",
+      "artifact": "models.json",
+      "reason": "组合入口非额外独立估计参数；旧版本保留"
+    },
+    "T2V0": {
+      "status": "HISTORICAL_COMPOSITION_REPLACED_BY_T3V0_REGISTRY",
+      "artifact": "models.json",
+      "reason": "组合入口非额外独立估计参数；旧版本保留"
+    },
+    "A": {
+      "status": "FORMAL2_GATED_REFIT_EVALUATED",
+      "artifact": "supplementary.json"
+    },
+    "B": {
+      "status": "PUBLISHED_SEVERANCE_RULE_REPLAYED",
+      "artifact": "labor_and_accounts.json"
+    },
+    "C": {
+      "status": "CONDITIONAL_WAGE_CANDIDATE_REFITTED",
+      "artifact": "labor_and_accounts.json"
+    },
+    "D": {
+      "status": "LAGGED_RESEARCH_REFIT_NOT_DEPLOYED",
+      "artifact": "lagged_efficiency.json",
+      "reason": "正式1人员事件→正式2残差；两期各自绑定曲线；单一转移，无时间外验证"
+    },
+    "E": {
+      "status": "KNOWN_INTENSITY_FORMULA_CHECKED",
+      "artifact": "supplementary.json",
+      "reason": "官方单位强度×数量；不重复训练已给系数"
+    },
+    "F": {
+      "status": "KNOWN_INTENSITY_FORMULA_CHECKED",
+      "artifact": "supplementary.json",
+      "reason": "官方单位强度×数量；不重复训练已给系数"
+    }
+  },
+  "count": 28,
+  "deployment": false
+}

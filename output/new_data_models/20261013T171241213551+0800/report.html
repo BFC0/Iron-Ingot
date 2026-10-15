@@ -1,0 +1,1362 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>新增数据价值实验</title><style>body{font:16px/1.6 system-ui;margin:32px;max-width:1400px;color:#182c32}table{border-collapse:collapse;width:100%}td,th{border:1px solid #ccd;padding:10px;text-align:left}pre{white-space:pre-wrap;word-break:break-word}input{padding:8px;width:360px}svg{display:block;width:680px;max-width:100%;height:auto}.compare{padding:14px;border:1px solid #ccd;margin:12px 0;border-radius:6px}@media print{input{display:none}.compare{break-inside:avoid}}</style><h1>新增数据的信息价值验证</h1><p>历史条件回放；未接入决策。数字与JSON同源。输入关键词筛选：</p><input aria-label="筛选字段或实验" oninput="document.querySelectorAll('tr,.compare').forEach(r=>r.hidden=(r.matches('.compare')||r.querySelector('td'))&&!r.textContent.toLowerCase().includes(this.value.toLowerCase()))"><h2>增量比较</h2><p>同集合、整市场留出；所有误差为条件回溯，非事前成绩。蓝色是基线，绿色是候选；各图独立缩放。</p><div class="compare"><strong>A/B2|formal|1|泰国|复合梁</strong><span>　相对改善 0.12%；增量证据不足</span><svg role="img" aria-label="基线与候选MAE比较" viewBox="0 0 680 70"><text x="0" y="20">基线</text><rect x="70" y="5" height="20" width="480.000" fill="#386b93"/><text x="565" y="20">0.000167482</text><text x="0" y="55">候选</text><rect x="70" y="40" height="20" width="479.432" fill="#207c65"/><text x="565" y="55">0.000167284</text></svg></div><div class="compare"><strong>B3|formal|1|泰国|复合梁</strong><span>　相对改善 -18.13%；增量证据不足</span><svg role="img" aria-label="基线与候选MAE比较" viewBox="0 0 680 70"><text x="0" y="20">基线</text><rect x="70" y="5" height="20" width="406.330" fill="#386b93"/><text x="565" y="20">0.135631</text><text x="0" y="55">候选</text><rect x="70" y="40" height="20" width="480.000" fill="#207c65"/><text x="565" y="55">0.160222</text></svg></div><div class="compare"><strong>A/B2|formal|2|泰国|复合梁</strong><span>　相对改善 -0.03%；增量证据不足</span><svg role="img" aria-label="基线与候选MAE比较" viewBox="0 0 680 70"><text x="0" y="20">基线</text><rect x="70" y="5" height="20" width="479.861" fill="#386b93"/><text x="565" y="20">0.000524739</text><text x="0" y="55">候选</text><rect x="70" y="40" height="20" width="480.000" fill="#207c65"/><text x="565" y="55">0.000524891</text></svg></div><div class="compare"><strong>B3|formal|2|泰国|复合梁</strong><span>　相对改善 -42.18%；增量证据不足</span><svg role="img" aria-label="基线与候选MAE比较" viewBox="0 0 680 70"><text x="0" y="20">基线</text><rect x="70" y="5" height="20" width="337.598" fill="#386b93"/><text x="565" y="20">0.0217251</text><text x="0" y="55">候选</text><rect x="70" y="40" height="20" width="480.000" fill="#207c65"/><text x="565" y="55">0.0308889</text></svg></div><div class="compare"><strong>A/B2|practice|1|泰国|复合梁</strong><span>　相对改善 4.78%；有历史预测增量</span><svg role="img" aria-label="基线与候选MAE比较" viewBox="0 0 680 70"><text x="0" y="20">基线</text><rect x="70" y="5" height="20" width="480.000" fill="#386b93"/><text x="565" y="20">0.000178289</text><text x="0" y="55">候选</text><rect x="70" y="40" height="20" width="457.076" fill="#207c65"/><text x="565" y="55">0.000169774</text></svg></div><div class="compare"><strong>B3|practice|1|泰国|复合梁</strong><span>　相对改善 -10.26%；增量证据不足</span><svg role="img" aria-label="基线与候选MAE比较" viewBox="0 0 680 70"><text x="0" y="20">基线</text><rect x="70" y="5" height="20" width="435.343" fill="#386b93"/><text x="565" y="20">0.141668</text><text x="0" y="55">候选</text><rect x="70" y="40" height="20" width="480.000" fill="#207c65"/><text x="565" y="55">0.1562</text></svg></div><div class="compare"><strong>A/B2|practice|2|泰国|复合梁</strong><span>　相对改善 11.29%；有历史预测增量</span><svg role="img" aria-label="基线与候选MAE比较" viewBox="0 0 680 70"><text x="0" y="20">基线</text><rect x="70" y="5" height="20" width="480.000" fill="#386b93"/><text x="565" y="20">0.000700683</text><text x="0" y="55">候选</text><rect x="70" y="40" height="20" width="425.794" fill="#207c65"/><text x="565" y="55">0.000621556</text></svg></div><div class="compare"><strong>B3|practice|2|泰国|复合梁</strong><span>　相对改善 25.23%；有历史预测增量</span><svg role="img" aria-label="基线与候选MAE比较" viewBox="0 0 680 70"><text x="0" y="20">基线</text><rect x="70" y="5" height="20" width="480.000" fill="#386b93"/><text x="565" y="20">0.103785</text><text x="0" y="55">候选</text><rect x="70" y="40" height="20" width="358.897" fill="#207c65"/><text x="565" y="55">0.0776</text></svg></div><div class="compare"><strong>B4|formal1-&gt;2</strong><span>　相对改善 8.92%；增量证据不足</span><svg role="img" aria-label="基线与候选MAE比较" viewBox="0 0 680 70"><text x="0" y="20">基线</text><rect x="70" y="5" height="20" width="480.000" fill="#386b93"/><text x="565" y="20">0.000545891</text><text x="0" y="55">候选</text><rect x="70" y="40" height="20" width="437.188" fill="#207c65"/><text x="565" y="55">0.000497202</text></svg></div><h2>字段统计</h2><table><tr><th>对象</th><th>详情</th></tr><tr><td>average_wage</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 500,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 28.0,
+  &quot;max&quot;: 48.63,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 40,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>capacity</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 500,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 14.45,
+  &quot;max&quot;: 51.45,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 40,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>co2</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 500,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 61.1,
+  &quot;max&quot;: 41147.4,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 40,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>co2_intensity</td><td><pre>{
+  &quot;cells&quot;: 490,
+  &quot;nonzero&quot;: 490,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 1355.31,
+  &quot;max&quot;: 1355.32,
+  &quot;groups&quot;: 49,
+  &quot;varying_groups&quot;: 0,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>current_workers</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 500,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 0.3,
+  &quot;max&quot;: 176.0,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 40,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>energy</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 500,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 215.3,
+  &quot;max&quot;: 145071.7,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 40,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>energy_intensity</td><td><pre>{
+  &quot;cells&quot;: 490,
+  &quot;nonzero&quot;: 490,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 4778.38,
+  &quot;max&quot;: 4778.38,
+  &quot;groups&quot;: 49,
+  &quot;varying_groups&quot;: 0,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>eta</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 500,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 0.13,
+  &quot;max&quot;: 0.19,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 16,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>hires_fires</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 499,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: -94.9,
+  &quot;max&quot;: 145.7,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 40,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>hr_wage</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 500,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 7.0,
+  &quot;max&quot;: 8291.0,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 40,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>layoff_percent</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 135,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 0.0,
+  &quot;max&quot;: 89.3,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 37,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>operations</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 497,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 0.0,
+  &quot;max&quot;: 2700.0,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 40,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>previous_workers</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 500,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 0.8,
+  &quot;max&quot;: 159.3,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 20,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>previous_workers_old</td><td><pre>{
+  &quot;cells&quot;: 390,
+  &quot;nonzero&quot;: 390,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 0.78,
+  &quot;max&quot;: 159.26,
+  &quot;groups&quot;: 39,
+  &quot;varying_groups&quot;: 19,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>profit</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 500,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: -10112.0,
+  &quot;max&quot;: 5802.0,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 40,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>q</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 500,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 0.05,
+  &quot;max&quot;: 30.36,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 40,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>quits</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 500,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: -15.9,
+  &quot;max&quot;: -0.1,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 20,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>route_ID</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 459,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 0.0,
+  &quot;max&quot;: 24.69,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 40,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>route_TH</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 479,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 0.0,
+  &quot;max&quot;: 11.79,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 40,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>route_co2_ID</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 459,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 0.0,
+  &quot;max&quot;: 1162711.1,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 40,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>route_co2_TH</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 484,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 0.0,
+  &quot;max&quot;: 46210.2,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 40,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>route_intensity_ID</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 459,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 0.0,
+  &quot;max&quot;: 47084.4,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 26,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>route_intensity_TH</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 484,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 0.0,
+  &quot;max&quot;: 3921.0,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 14,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>severance</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 135,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 0.0,
+  &quot;max&quot;: 930.0,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 37,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>shifts</td><td><pre>{
+  &quot;cells&quot;: 490,
+  &quot;nonzero&quot;: 489,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 0.0,
+  &quot;max&quot;: 3.0,
+  &quot;groups&quot;: 49,
+  &quot;varying_groups&quot;: 39,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>short_debt</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 2,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 0.0,
+  &quot;max&quot;: 11217.0,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 2,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>wage</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 500,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 7.44,
+  &quot;max&quot;: 8291.24,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 40,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>water</td><td><pre>{
+  &quot;cells&quot;: 500,
+  &quot;nonzero&quot;: 500,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 464.5,
+  &quot;max&quot;: 312924.8,
+  &quot;groups&quot;: 50,
+  &quot;varying_groups&quot;: 40,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>water_intensity</td><td><pre>{
+  &quot;cells&quot;: 490,
+  &quot;nonzero&quot;: 490,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 10307.14,
+  &quot;max&quot;: 10307.14,
+  &quot;groups&quot;: 49,
+  &quot;varying_groups&quot;: 0,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr><tr><td>workers</td><td><pre>{
+  &quot;cells&quot;: 490,
+  &quot;nonzero&quot;: 490,
+  &quot;markets&quot;: 10,
+  &quot;min&quot;: 0.27,
+  &quot;max&quot;: 176.02,
+  &quot;groups&quot;: 49,
+  &quot;varying_groups&quot;: 39,
+  &quot;interpretation&quot;: &quot;同表/派生指标非独立样本；精度区间依赖未核实显示舍入&quot;
+}</pre></td></tr></table><h2>实验</h2><table><tr><th>对象</th><th>详情</th></tr><tr><td>B0</td><td><pre>{
+  &quot;status&quot;: &quot;PASS&quot;,
+  &quot;records&quot;: 10,
+  &quot;max_abs_difference&quot;: 0.0,
+  &quot;interpretation&quot;: &quot;复现原冻结效率数值；不是新实际预测成绩&quot;
+}</pre></td></tr><tr><td>A/B2|formal|1|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;RESEARCH_INCONCLUSIVE&quot;,
+  &quot;market_count&quot;: 9,
+  &quot;cells&quot;: 90,
+  &quot;baseline_mae&quot;: 0.00016748199469428392,
+  &quot;candidate_mae&quot;: 0.00016728373470710056,
+  &quot;relative_improvement&quot;: 0.00118376896301757,
+  &quot;improved_market_fraction&quot;: 0.2222222222222222,
+  &quot;delta_interval_95&quot;: [
+    -3.017491309107674e-07,
+    8.212572397714385e-07
+  ],
+  &quot;bootstrap_samples&quot;: 1000,
+  &quot;seed&quot;: 20261013,
+  &quot;allowed_refit&quot;: false,
+  &quot;allow_deployment&quot;: false,
+  &quot;deployment_reason&quot;: &quot;缺独立后续正式回合验证；仅历史条件回放&quot;,
+  &quot;per_market&quot;: [
+    {
+      &quot;market&quot;: 1,
+      &quot;baseline_mae&quot;: 0.00010531721381432934,
+      &quot;candidate_mae&quot;: 0.00010601300311825768,
+      &quot;delta&quot;: -6.957893039283346e-07
+    },
+    {
+      &quot;market&quot;: 2,
+      &quot;baseline_mae&quot;: 0.00014218334836659796,
+      &quot;candidate_mae&quot;: 0.00014218821177773566,
+      &quot;delta&quot;: -4.863411137706478e-09
+    },
+    {
+      &quot;market&quot;: 3,
+      &quot;baseline_mae&quot;: 0.000253949752829466,
+      &quot;candidate_mae&quot;: 0.00025401747217533024,
+      &quot;delta&quot;: -6.771934586425861e-08
+    },
+    {
+      &quot;market&quot;: 4,
+      &quot;baseline_mae&quot;: 0.00013583352012084827,
+      &quot;candidate_mae&quot;: 0.0001364294319266157,
+      &quot;delta&quot;: -5.959118057674356e-07
+    },
+    {
+      &quot;market&quot;: 5,
+      &quot;baseline_mae&quot;: 0.00015297312131514195,
+      &quot;candidate_mae&quot;: 0.00015303555032956384,
+      &quot;delta&quot;: -6.242901442188851e-08
+    },
+    {
+      &quot;market&quot;: 6,
+      &quot;baseline_mae&quot;: 0.0002482996583595326,
+      &quot;candidate_mae&quot;: 0.00024837519458926485,
+      &quot;delta&quot;: -7.553622973226377e-08
+    },
+    {
+      &quot;market&quot;: 8,
+      &quot;baseline_mae&quot;: 0.00012521166053548473,
+      &quot;candidate_mae&quot;: 0.00012369314558764445,
+      &quot;delta&quot;: 1.518514947840277e-06
+    },
+    {
+      &quot;market&quot;: 9,
+      &quot;baseline_mae&quot;: 0.00016136618872280572,
+      &quot;candidate_mae&quot;: 0.00015951939796268467,
+      &quot;delta&quot;: 1.846790760121048e-06
+    },
+    {
+      &quot;market&quot;: 10,
+      &quot;baseline_mae&quot;: 0.00018220348818434872,
+      &quot;candidate_mae&quot;: 0.00018228220489680813,
+      &quot;delta&quot;: -7.87167124594089e-08
+    }
+  ],
+  &quot;downstream_wage&quot;: {
+    &quot;status&quot;: &quot;RESEARCH_INCONCLUSIVE&quot;,
+    &quot;market_count&quot;: 9,
+    &quot;cells&quot;: 90,
+    &quot;baseline_mae&quot;: 3.767649061073933,
+    &quot;candidate_mae&quot;: 3.7649325575727395,
+    &quot;relative_improvement&quot;: 0.0007210075718727514,
+    &quot;improved_market_fraction&quot;: 0.5555555555555556,
+    &quot;delta_interval_95&quot;: [
+      -0.005408420321921628,
+      0.010613432515139753
+    ],
+    &quot;bootstrap_samples&quot;: 1000,
+    &quot;seed&quot;: 20261013,
+    &quot;allowed_refit&quot;: false,
+    &quot;allow_deployment&quot;: false,
+    &quot;deployment_reason&quot;: &quot;缺独立后续正式回合验证；仅历史条件回放&quot;,
+    &quot;per_market&quot;: [
+      {
+        &quot;market&quot;: 1,
+        &quot;baseline_mae&quot;: 2.2531292755996217,
+        &quot;candidate_mae&quot;: 2.234840568906651,
+        &quot;delta&quot;: 0.01828870669297089
+      },
+      {
+        &quot;market&quot;: 2,
+        &quot;baseline_mae&quot;: 2.6652218995995214,
+        &quot;candidate_mae&quot;: 2.6677409858286865,
+        &quot;delta&quot;: -0.0025190862291650795
+      },
+      {
+        &quot;market&quot;: 3,
+        &quot;baseline_mae&quot;: 6.451041414595011,
+        &quot;candidate_mae&quot;: 6.447378435327755,
+        &quot;delta&quot;: 0.0036629792672560058
+      },
+      {
+        &quot;market&quot;: 4,
+        &quot;baseline_mae&quot;: 3.0829671909608236,
+        &quot;candidate_mae&quot;: 3.1048829211336284,
+        &quot;delta&quot;: -0.021915730172804793
+      },
+      {
+        &quot;market&quot;: 5,
+        &quot;baseline_mae&quot;: 3.219435508088975,
+        &quot;candidate_mae&quot;: 3.2264906824710464,
+        &quot;delta&quot;: -0.007055174382071261
+      },
+      {
+        &quot;market&quot;: 6,
+        &quot;baseline_mae&quot;: 5.9360384996039555,
+        &quot;candidate_mae&quot;: 5.929371458087599,
+        &quot;delta&quot;: 0.006667041516356775
+      },
+      {
+        &quot;market&quot;: 8,
+        &quot;baseline_mae&quot;: 2.8418070695293407,
+        &quot;candidate_mae&quot;: 2.8233780455200987,
+        &quot;delta&quot;: 0.018429024009241957
+      },
+      {
+        &quot;market&quot;: 9,
+        &quot;baseline_mae&quot;: 3.4919387726377864,
+        &quot;candidate_mae&quot;: 3.475045450937216,
+        &quot;delta&quot;: 0.01689332170057023
+      },
+      {
+        &quot;market&quot;: 10,
+        &quot;baseline_mae&quot;: 3.967261919050361,
+        &quot;candidate_mae&quot;: 3.975264469941976,
+        &quot;delta&quot;: -0.008002550891615279
+      }
+    ]
+  }
+}</pre></td></tr><tr><td>B3|formal|1|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;RESEARCH_INCONCLUSIVE&quot;,
+  &quot;market_count&quot;: 9,
+  &quot;cells&quot;: 90,
+  &quot;baseline_mae&quot;: 0.13563144723469234,
+  &quot;candidate_mae&quot;: 0.1602222222222292,
+  &quot;relative_improvement&quot;: -0.18130585117908365,
+  &quot;improved_market_fraction&quot;: 0.2222222222222222,
+  &quot;delta_interval_95&quot;: [
+    -0.04941518530948892,
+    0.0003490664236098523
+  ],
+  &quot;bootstrap_samples&quot;: 1000,
+  &quot;seed&quot;: 20261013,
+  &quot;allowed_refit&quot;: false,
+  &quot;allow_deployment&quot;: false,
+  &quot;deployment_reason&quot;: &quot;缺独立后续正式回合验证；仅历史条件回放&quot;,
+  &quot;per_market&quot;: [
+    {
+      &quot;market&quot;: 1,
+      &quot;baseline_mae&quot;: 0.052632060112001965,
+      &quot;candidate_mae&quot;: 0.09000000000001016,
+      &quot;delta&quot;: -0.03736793988800819
+    },
+    {
+      &quot;market&quot;: 2,
+      &quot;baseline_mae&quot;: 0.16160240458187616,
+      &quot;candidate_mae&quot;: 0.2460000000000285,
+      &quot;delta&quot;: -0.08439759541815234
+    },
+    {
+      &quot;market&quot;: 3,
+      &quot;baseline_mae&quot;: 0.13631007657125807,
+      &quot;candidate_mae&quot;: 0.1480000000000011,
+      &quot;delta&quot;: -0.011689923428743032
+    },
+    {
+      &quot;market&quot;: 4,
+      &quot;baseline_mae&quot;: 0.168770754634508,
+      &quot;candidate_mae&quot;: 0.13000000000001083,
+      &quot;delta&quot;: 0.03877075463449717
+    },
+    {
+      &quot;market&quot;: 5,
+      &quot;baseline_mae&quot;: 0.10121637378497325,
+      &quot;candidate_mae&quot;: 0.11600000000000818,
+      &quot;delta&quot;: -0.014783626215034928
+    },
+    {
+      &quot;market&quot;: 6,
+      &quot;baseline_mae&quot;: 0.07163849079957388,
+      &quot;candidate_mae&quot;: 0.08800000000000026,
+      &quot;delta&quot;: -0.01636150920042638
+    },
+    {
+      &quot;market&quot;: 8,
+      &quot;baseline_mae&quot;: 0.19614461187542415,
+      &quot;candidate_mae&quot;: 0.175999999999991,
+      &quot;delta&quot;: 0.02014461187543315
+    },
+    {
+      &quot;market&quot;: 9,
+      &quot;baseline_mae&quot;: 0.221342482357701,
+      &quot;candidate_mae&quot;: 0.290000000000012,
+      &quot;delta&quot;: -0.06865751764231104
+    },
+    {
+      &quot;market&quot;: 10,
+      &quot;baseline_mae&quot;: 0.1110257703949145,
+      &quot;candidate_mae&quot;: 0.1580000000000009,
+      &quot;delta&quot;: -0.04697422960508639
+    }
+  ],
+  &quot;upstream_prediction&quot;: &quot;NOT_VERIFIED；事件为同期期末标签，未接入事前特征&quot;,
+  &quot;refit_reason&quot;: &quot;补偿系数已公布；本项保留规则核验，不新增自由参数&quot;
+}</pre></td></tr><tr><td>C|formal|1|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;DERIVED_NO_NEW_MODEL&quot;,
+  &quot;cells&quot;: 100,
+  &quot;compatible_cells&quot;: 100,
+  &quot;allowed_refit&quot;: false,
+  &quot;reason&quot;: &quot;人均工资与工资/人数的显示区间相容则不新增自由参数；否则先解决观测冲突&quot;
+}</pre></td></tr><tr><td>E|formal|1|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;KNOWN_COEFFICIENT_FORMULA&quot;,
+  &quot;checks&quot;: 300,
+  &quot;compatible&quot;: 300,
+  &quot;allowed_refit&quot;: false,
+  &quot;reason&quot;: &quot;结果页单位系数解释总量，仅作条件恒等式核验；同期期末强度不是事前已知参数，不把新指标误差当利润改善&quot;
+}</pre></td></tr><tr><td>F|formal|1|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;KNOWN_COEFFICIENT_FORMULA&quot;,
+  &quot;checks&quot;: 200,
+  &quot;compatible&quot;: 200,
+  &quot;allowed_refit&quot;: false,
+  &quot;reason&quot;: &quot;结果页单位系数解释总量，仅作条件恒等式核验；同期期末强度不是事前已知参数，不把新指标误差当利润改善&quot;
+}</pre></td></tr><tr><td>A/B2|formal|2|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;RESEARCH_INCONCLUSIVE&quot;,
+  &quot;market_count&quot;: 10,
+  &quot;cells&quot;: 100,
+  &quot;baseline_mae&quot;: 0.000524738768524786,
+  &quot;candidate_mae&quot;: 0.000524890820510464,
+  &quot;relative_improvement&quot;: -0.00028976701322355123,
+  &quot;improved_market_fraction&quot;: 0.5,
+  &quot;delta_interval_95&quot;: [
+    -1.2627321508998666e-06,
+    1.0733248337009987e-06
+  ],
+  &quot;bootstrap_samples&quot;: 1000,
+  &quot;seed&quot;: 20261013,
+  &quot;allowed_refit&quot;: false,
+  &quot;allow_deployment&quot;: false,
+  &quot;deployment_reason&quot;: &quot;缺独立后续正式回合验证；仅历史条件回放&quot;,
+  &quot;per_market&quot;: [
+    {
+      &quot;market&quot;: 1,
+      &quot;baseline_mae&quot;: 0.00036794447939476617,
+      &quot;candidate_mae&quot;: 0.00036797526259099435,
+      &quot;delta&quot;: -3.0783196228179044e-08
+    },
+    {
+      &quot;market&quot;: 2,
+      &quot;baseline_mae&quot;: 0.00042707729109090484,
+      &quot;candidate_mae&quot;: 0.00042699054326314213,
+      &quot;delta&quot;: 8.674782776271284e-08
+    },
+    {
+      &quot;market&quot;: 3,
+      &quot;baseline_mae&quot;: 0.0015052074183437418,
+      &quot;candidate_mae&quot;: 0.0015047375046644037,
+      &quot;delta&quot;: 4.6991367933803783e-07
+    },
+    {
+      &quot;market&quot;: 4,
+      &quot;baseline_mae&quot;: 0.0003600075607460118,
+      &quot;candidate_mae&quot;: 0.00035700914621455694,
+      &quot;delta&quot;: 2.998414531454885e-06
+    },
+    {
+      &quot;market&quot;: 5,
+      &quot;baseline_mae&quot;: 0.0004232578929904363,
+      &quot;candidate_mae&quot;: 0.00042029697509555206,
+      &quot;delta&quot;: 2.9609178948842175e-06
+    },
+    {
+      &quot;market&quot;: 6,
+      &quot;baseline_mae&quot;: 0.0005603059359627266,
+      &quot;candidate_mae&quot;: 0.0005619169365827237,
+      &quot;delta&quot;: -1.6110006199971045e-06
+    },
+    {
+      &quot;market&quot;: 7,
+      &quot;baseline_mae&quot;: 0.0003344429446034969,
+      &quot;candidate_mae&quot;: 0.00033677890069281903,
+      &quot;delta&quot;: -2.335956089322144e-06
+    },
+    {
+      &quot;market&quot;: 8,
+      &quot;baseline_mae&quot;: 0.00033138139946285174,
+      &quot;candidate_mae&quot;: 0.0003333986198811728,
+      &quot;delta&quot;: -2.0172204183210645e-06
+    },
+    {
+      &quot;market&quot;: 9,
+      &quot;baseline_mae&quot;: 0.0004975910392497312,
+      &quot;candidate_mae&quot;: 0.0004998878050464034,
+      &quot;delta&quot;: -2.296765796672216e-06
+    },
+    {
+      &quot;market&quot;: 10,
+      &quot;baseline_mae&quot;: 0.0004401717234031932,
+      &quot;candidate_mae&quot;: 0.00043991651107287146,
+      &quot;delta&quot;: 2.552123303217312e-07
+    }
+  ],
+  &quot;downstream_wage&quot;: {
+    &quot;status&quot;: &quot;RESEARCH_INCONCLUSIVE&quot;,
+    &quot;market_count&quot;: 10,
+    &quot;cells&quot;: 100,
+    &quot;baseline_mae&quot;: 11.070255762510994,
+    &quot;candidate_mae&quot;: 11.048232334497524,
+    &quot;relative_improvement&quot;: 0.0019894235947151557,
+    &quot;improved_market_fraction&quot;: 0.6,
+    &quot;delta_interval_95&quot;: [
+      -0.010237493900367609,
+      0.060062327966575194
+    ],
+    &quot;bootstrap_samples&quot;: 1000,
+    &quot;seed&quot;: 20261013,
+    &quot;allowed_refit&quot;: false,
+    &quot;allow_deployment&quot;: false,
+    &quot;deployment_reason&quot;: &quot;缺独立后续正式回合验证；仅历史条件回放&quot;,
+    &quot;per_market&quot;: [
+      {
+        &quot;market&quot;: 1,
+        &quot;baseline_mae&quot;: 7.389275021622568,
+        &quot;candidate_mae&quot;: 7.397074608506119,
+        &quot;delta&quot;: -0.00779958688355098
+      },
+      {
+        &quot;market&quot;: 2,
+        &quot;baseline_mae&quot;: 9.99078279293131,
+        &quot;candidate_mae&quot;: 9.972258230608736,
+        &quot;delta&quot;: 0.0185245623225736
+      },
+      {
+        &quot;market&quot;: 3,
+        &quot;baseline_mae&quot;: 25.14732955773429,
+        &quot;candidate_mae&quot;: 25.13135299669443,
+        &quot;delta&quot;: 0.015976561039860115
+      },
+      {
+        &quot;market&quot;: 4,
+        &quot;baseline_mae&quot;: 10.416229462747605,
+        &quot;candidate_mae&quot;: 10.33375883752442,
+        &quot;delta&quot;: 0.08247062522318593
+      },
+      {
+        &quot;market&quot;: 5,
+        &quot;baseline_mae&quot;: 10.707190078554504,
+        &quot;candidate_mae&quot;: 10.559874625984094,
+        &quot;delta&quot;: 0.14731545257041034
+      },
+      {
+        &quot;market&quot;: 6,
+        &quot;baseline_mae&quot;: 12.926648016221453,
+        &quot;candidate_mae&quot;: 12.898402089474484,
+        &quot;delta&quot;: 0.02824592674696902
+      },
+      {
+        &quot;market&quot;: 7,
+        &quot;baseline_mae&quot;: 4.971365826342492,
+        &quot;candidate_mae&quot;: 4.999954595285487,
+        &quot;delta&quot;: -0.028588768942995557
+      },
+      {
+        &quot;market&quot;: 8,
+        &quot;baseline_mae&quot;: 8.062574158218695,
+        &quot;candidate_mae&quot;: 8.095930323879031,
+        &quot;delta&quot;: -0.0333561656603365
+      },
+      {
+        &quot;market&quot;: 9,
+        &quot;baseline_mae&quot;: 10.660937291492058,
+        &quot;candidate_mae&quot;: 10.702464439757682,
+        &quot;delta&quot;: -0.04152714826562409
+      },
+      {
+        &quot;market&quot;: 10,
+        &quot;baseline_mae&quot;: 10.430225419244971,
+        &quot;candidate_mae&quot;: 10.391252597260745,
+        &quot;delta&quot;: 0.0389728219842258
+      }
+    ]
+  }
+}</pre></td></tr><tr><td>B3|formal|2|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;RESEARCH_INCONCLUSIVE&quot;,
+  &quot;market_count&quot;: 9,
+  &quot;cells&quot;: 90,
+  &quot;baseline_mae&quot;: 0.02172505645443153,
+  &quot;candidate_mae&quot;: 0.030888888888889323,
+  &quot;relative_improvement&quot;: -0.4218093726789157,
+  &quot;improved_market_fraction&quot;: 0.2222222222222222,
+  &quot;delta_interval_95&quot;: [
+    -0.028532926915910663,
+    0.006826693985463449
+  ],
+  &quot;bootstrap_samples&quot;: 1000,
+  &quot;seed&quot;: 20261013,
+  &quot;allowed_refit&quot;: false,
+  &quot;allow_deployment&quot;: false,
+  &quot;deployment_reason&quot;: &quot;缺独立后续正式回合验证；仅历史条件回放&quot;,
+  &quot;per_market&quot;: [
+    {
+      &quot;market&quot;: 1,
+      &quot;baseline_mae&quot;: 0.02954627772988374,
+      &quot;candidate_mae&quot;: 0.06599999999999877,
+      &quot;delta&quot;: -0.03645372227011503
+    },
+    {
+      &quot;market&quot;: 2,
+      &quot;baseline_mae&quot;: 0.06385364703146532,
+      &quot;candidate_mae&quot;: 0.041999999999999996,
+      &quot;delta&quot;: 0.02185364703146532
+    },
+    {
+      &quot;market&quot;: 3,
+      &quot;baseline_mae&quot;: 0.003100289048580862,
+      &quot;candidate_mae&quot;: 0.07000000000000454,
+      &quot;delta&quot;: -0.06689971095142368
+    },
+    {
+      &quot;market&quot;: 4,
+      &quot;baseline_mae&quot;: 0.0,
+      &quot;candidate_mae&quot;: 0.0,
+      &quot;delta&quot;: 0.0
+    },
+    {
+      &quot;market&quot;: 5,
+      &quot;baseline_mae&quot;: 0.0,
+      &quot;candidate_mae&quot;: 0.0,
+      &quot;delta&quot;: 0.0
+    },
+    {
+      &quot;market&quot;: 6,
+      &quot;baseline_mae&quot;: 0.0,
+      &quot;candidate_mae&quot;: 0.0,
+      &quot;delta&quot;: 0.0
+    },
+    {
+      &quot;market&quot;: 8,
+      &quot;baseline_mae&quot;: 0.014223656617066639,
+      &quot;candidate_mae&quot;: 0.016000000000000368,
+      &quot;delta&quot;: -0.0017763433829337295
+    },
+    {
+      &quot;market&quot;: 9,
+      &quot;baseline_mae&quot;: 0.04044512478169704,
+      &quot;candidate_mae&quot;: 0.020000000000000108,
+      &quot;delta&quot;: 0.02044512478169693
+    },
+    {
+      &quot;market&quot;: 10,
+      &quot;baseline_mae&quot;: 0.044356512881190205,
+      &quot;candidate_mae&quot;: 0.06400000000000014,
+      &quot;delta&quot;: -0.019643487118809935
+    }
+  ],
+  &quot;upstream_prediction&quot;: &quot;NOT_VERIFIED；事件为同期期末标签，未接入事前特征&quot;,
+  &quot;refit_reason&quot;: &quot;补偿系数已公布；本项保留规则核验，不新增自由参数&quot;
+}</pre></td></tr><tr><td>C|formal|2|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;DERIVED_NO_NEW_MODEL&quot;,
+  &quot;cells&quot;: 100,
+  &quot;compatible_cells&quot;: 100,
+  &quot;allowed_refit&quot;: false,
+  &quot;reason&quot;: &quot;人均工资与工资/人数的显示区间相容则不新增自由参数；否则先解决观测冲突&quot;
+}</pre></td></tr><tr><td>E|formal|2|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;KNOWN_COEFFICIENT_FORMULA&quot;,
+  &quot;checks&quot;: 300,
+  &quot;compatible&quot;: 300,
+  &quot;allowed_refit&quot;: false,
+  &quot;reason&quot;: &quot;结果页单位系数解释总量，仅作条件恒等式核验；同期期末强度不是事前已知参数，不把新指标误差当利润改善&quot;
+}</pre></td></tr><tr><td>F|formal|2|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;KNOWN_COEFFICIENT_FORMULA&quot;,
+  &quot;checks&quot;: 200,
+  &quot;compatible&quot;: 200,
+  &quot;allowed_refit&quot;: false,
+  &quot;reason&quot;: &quot;结果页单位系数解释总量，仅作条件恒等式核验；同期期末强度不是事前已知参数，不把新指标误差当利润改善&quot;
+}</pre></td></tr><tr><td>A/B2|practice|1|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;PREDICTIVE_INCREMENT&quot;,
+  &quot;market_count&quot;: 9,
+  &quot;cells&quot;: 90,
+  &quot;baseline_mae&quot;: 0.00017828852265153,
+  &quot;candidate_mae&quot;: 0.00016977357860662023,
+  &quot;relative_improvement&quot;: 0.04775935050823467,
+  &quot;improved_market_fraction&quot;: 0.8888888888888888,
+  &quot;delta_interval_95&quot;: [
+    3.3806284430984e-06,
+    1.5142286349613842e-05
+  ],
+  &quot;bootstrap_samples&quot;: 1000,
+  &quot;seed&quot;: 20261013,
+  &quot;allowed_refit&quot;: true,
+  &quot;allow_deployment&quot;: false,
+  &quot;deployment_reason&quot;: &quot;缺独立后续正式回合验证；仅历史条件回放&quot;,
+  &quot;per_market&quot;: [
+    {
+      &quot;market&quot;: 1,
+      &quot;baseline_mae&quot;: 0.00010506496245065999,
+      &quot;candidate_mae&quot;: 0.00010909265741225471,
+      &quot;delta&quot;: -4.0276949615947216e-06
+    },
+    {
+      &quot;market&quot;: 2,
+      &quot;baseline_mae&quot;: 0.00028648473574751645,
+      &quot;candidate_mae&quot;: 0.00025521719757261584,
+      &quot;delta&quot;: 3.126753817490061e-05
+    },
+    {
+      &quot;market&quot;: 3,
+      &quot;baseline_mae&quot;: 0.00040623992621461604,
+      &quot;candidate_mae&quot;: 0.0004017055898585975,
+      &quot;delta&quot;: 4.534336356018553e-06
+    },
+    {
+      &quot;market&quot;: 4,
+      &quot;baseline_mae&quot;: 9.169027545248287e-05,
+      &quot;candidate_mae&quot;: 8.477043611758995e-05,
+      &quot;delta&quot;: 6.919839334892922e-06
+    },
+    {
+      &quot;market&quot;: 5,
+      &quot;baseline_mae&quot;: 0.00011080307278074908,
+      &quot;candidate_mae&quot;: 0.00010465461033974943,
+      &quot;delta&quot;: 6.148462440999647e-06
+    },
+    {
+      &quot;market&quot;: 6,
+      &quot;baseline_mae&quot;: 0.00022815763283889068,
+      &quot;candidate_mae&quot;: 0.00022187807658404778,
+      &quot;delta&quot;: 6.279556254842899e-06
+    },
+    {
+      &quot;market&quot;: 7,
+      &quot;baseline_mae&quot;: 8.959916093254361e-05,
+      &quot;candidate_mae&quot;: 8.650538918257289e-05,
+      &quot;delta&quot;: 3.093771749970725e-06
+    },
+    {
+      &quot;market&quot;: 8,
+      &quot;baseline_mae&quot;: 0.00010961264222865975,
+      &quot;candidate_mae&quot;: 9.670360787564503e-05,
+      &quot;delta&quot;: 1.2909034353014717e-05
+    },
+    {
+      &quot;market&quot;: 10,
+      &quot;baseline_mae&quot;: 0.00017694429521765144,
+      &quot;candidate_mae&quot;: 0.00016743464251650907,
+      &quot;delta&quot;: 9.509652701142368e-06
+    }
+  ],
+  &quot;downstream_wage&quot;: {
+    &quot;status&quot;: &quot;PREDICTIVE_INCREMENT&quot;,
+    &quot;market_count&quot;: 9,
+    &quot;cells&quot;: 90,
+    &quot;baseline_mae&quot;: 2.8861582658637,
+    &quot;candidate_mae&quot;: 2.76852188050573,
+    &quot;relative_improvement&quot;: 0.04075881310783443,
+    &quot;improved_market_fraction&quot;: 0.7777777777777778,
+    &quot;delta_interval_95&quot;: [
+      0.0038837061272204106,
+      0.25156214529001736
+    ],
+    &quot;bootstrap_samples&quot;: 1000,
+    &quot;seed&quot;: 20261013,
+    &quot;allowed_refit&quot;: true,
+    &quot;allow_deployment&quot;: false,
+    &quot;deployment_reason&quot;: &quot;缺独立后续正式回合验证；仅历史条件回放&quot;,
+    &quot;per_market&quot;: [
+      {
+        &quot;market&quot;: 1,
+        &quot;baseline_mae&quot;: 2.214535395964094,
+        &quot;candidate_mae&quot;: 2.317313674633465,
+        &quot;delta&quot;: -0.10277827866937095
+      },
+      {
+        &quot;market&quot;: 2,
+        &quot;baseline_mae&quot;: 2.2417342349048526,
+        &quot;candidate_mae&quot;: 1.6797233977166486,
+        &quot;delta&quot;: 0.562010837188204
+      },
+      {
+        &quot;market&quot;: 3,
+        &quot;baseline_mae&quot;: 2.273029465230969,
+        &quot;candidate_mae&quot;: 2.0681433230149713,
+        &quot;delta&quot;: 0.20488614221599777
+      },
+      {
+        &quot;market&quot;: 4,
+        &quot;baseline_mae&quot;: 2.114755727152726,
+        &quot;candidate_mae&quot;: 2.0735029811342542,
+        &quot;delta&quot;: 0.04125274601847195
+      },
+      {
+        &quot;market&quot;: 5,
+        &quot;baseline_mae&quot;: 2.632295776101182,
+        &quot;candidate_mae&quot;: 2.5638549346928925,
+        &quot;delta&quot;: 0.06844084140828954
+      },
+      {
+        &quot;market&quot;: 6,
+        &quot;baseline_mae&quot;: 5.668911147508084,
+        &quot;candidate_mae&quot;: 5.537155453483843,
+        &quot;delta&quot;: 0.1317556940242408
+      },
+      {
+        &quot;market&quot;: 7,
+        &quot;baseline_mae&quot;: 2.000474210321181,
+        &quot;candidate_mae&quot;: 2.0968214445834747,
+        &quot;delta&quot;: -0.09634723426229375
+      },
+      {
+        &quot;market&quot;: 8,
+        &quot;baseline_mae&quot;: 2.423309444561846,
+        &quot;candidate_mae&quot;: 2.2653599049653392,
+        &quot;delta&quot;: 0.15794953959650693
+      },
+      {
+        &quot;market&quot;: 10,
+        &quot;baseline_mae&quot;: 4.406378991028362,
+        &quot;candidate_mae&quot;: 4.31482181032668,
+        &quot;delta&quot;: 0.09155718070168195
+      }
+    ]
+  }
+}</pre></td></tr><tr><td>B3|practice|1|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;RESEARCH_INCONCLUSIVE&quot;,
+  &quot;market_count&quot;: 10,
+  &quot;cells&quot;: 100,
+  &quot;baseline_mae&quot;: 0.14166790777970037,
+  &quot;candidate_mae&quot;: 0.15620000000002235,
+  &quot;relative_improvement&quot;: -0.1025785758262203,
+  &quot;improved_market_fraction&quot;: 0.3,
+  &quot;delta_interval_95&quot;: [
+    -0.05947417692767206,
+    0.03214555936885751
+  ],
+  &quot;bootstrap_samples&quot;: 1000,
+  &quot;seed&quot;: 20261013,
+  &quot;allowed_refit&quot;: false,
+  &quot;allow_deployment&quot;: false,
+  &quot;deployment_reason&quot;: &quot;缺独立后续正式回合验证；仅历史条件回放&quot;,
+  &quot;per_market&quot;: [
+    {
+      &quot;market&quot;: 1,
+      &quot;baseline_mae&quot;: 0.1418020045157002,
+      &quot;candidate_mae&quot;: 0.20200000000001844,
+      &quot;delta&quot;: -0.060197995484318256
+    },
+    {
+      &quot;market&quot;: 2,
+      &quot;baseline_mae&quot;: 0.12216363973108813,
+      &quot;candidate_mae&quot;: 0.15000000000002095,
+      &quot;delta&quot;: -0.027836360268932825
+    },
+    {
+      &quot;market&quot;: 3,
+      &quot;baseline_mae&quot;: 0.21271190342455384,
+      &quot;candidate_mae&quot;: 0.05,
+      &quot;delta&quot;: 0.16271190342455383
+    },
+    {
+      &quot;market&quot;: 4,
+      &quot;baseline_mae&quot;: 0.07878857658944156,
+      &quot;candidate_mae&quot;: 0.11800000000002911,
+      &quot;delta&quot;: -0.039211423410587545
+    },
+    {
+      &quot;market&quot;: 5,
+      &quot;baseline_mae&quot;: 0.12828684276960586,
+      &quot;candidate_mae&quot;: 0.15000000000003694,
+      &quot;delta&quot;: -0.021713157230431074
+    },
+    {
+      &quot;market&quot;: 6,
+      &quot;baseline_mae&quot;: 0.08099140669870977,
+      &quot;candidate_mae&quot;: 0.21600000000001032,
+      &quot;delta&quot;: -0.13500859330130055
+    },
+    {
+      &quot;market&quot;: 7,
+      &quot;baseline_mae&quot;: 0.12432521341309091,
+      &quot;candidate_mae&quot;: 0.19000000000004036,
+      &quot;delta&quot;: -0.06567478658694945
+    },
+    {
+      &quot;market&quot;: 8,
+      &quot;baseline_mae&quot;: 0.13769881191110614,
+      &quot;candidate_mae&quot;: 0.10000000000002415,
+      &quot;delta&quot;: 0.037698811911081986
+    },
+    {
+      &quot;market&quot;: 9,
+      &quot;baseline_mae&quot;: 0.25999248388874374,
+      &quot;candidate_mae&quot;: 0.22800000000001247,
+      &quot;delta&quot;: 0.03199248388873127
+    },
+    {
+      &quot;market&quot;: 10,
+      &quot;baseline_mae&quot;: 0.12991819485496361,
+      &quot;candidate_mae&quot;: 0.15800000000003048,
+      &quot;delta&quot;: -0.028081805145066863
+    }
+  ],
+  &quot;upstream_prediction&quot;: &quot;NOT_VERIFIED；事件为同期期末标签，未接入事前特征&quot;,
+  &quot;refit_reason&quot;: &quot;补偿系数已公布；本项保留规则核验，不新增自由参数&quot;
+}</pre></td></tr><tr><td>C|practice|1|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;DERIVED_NO_NEW_MODEL&quot;,
+  &quot;cells&quot;: 100,
+  &quot;compatible_cells&quot;: 100,
+  &quot;allowed_refit&quot;: false,
+  &quot;reason&quot;: &quot;人均工资与工资/人数的显示区间相容则不新增自由参数；否则先解决观测冲突&quot;
+}</pre></td></tr><tr><td>E|practice|1|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;KNOWN_COEFFICIENT_FORMULA&quot;,
+  &quot;checks&quot;: 270,
+  &quot;compatible&quot;: 270,
+  &quot;allowed_refit&quot;: false,
+  &quot;reason&quot;: &quot;结果页单位系数解释总量，仅作条件恒等式核验；同期期末强度不是事前已知参数，不把新指标误差当利润改善&quot;
+}</pre></td></tr><tr><td>F|practice|1|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;KNOWN_COEFFICIENT_FORMULA&quot;,
+  &quot;checks&quot;: 200,
+  &quot;compatible&quot;: 200,
+  &quot;allowed_refit&quot;: false,
+  &quot;reason&quot;: &quot;结果页单位系数解释总量，仅作条件恒等式核验；同期期末强度不是事前已知参数，不把新指标误差当利润改善&quot;
+}</pre></td></tr><tr><td>A/B2|practice|2|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;PREDICTIVE_INCREMENT&quot;,
+  &quot;market_count&quot;: 10,
+  &quot;cells&quot;: 100,
+  &quot;baseline_mae&quot;: 0.0007006826498946145,
+  &quot;candidate_mae&quot;: 0.0006215557235676938,
+  &quot;relative_improvement&quot;: 0.11292833687093819,
+  &quot;improved_market_fraction&quot;: 0.9,
+  &quot;delta_interval_95&quot;: [
+    2.7155374390315597e-05,
+    0.0001273172679984685
+  ],
+  &quot;bootstrap_samples&quot;: 1000,
+  &quot;seed&quot;: 20261013,
+  &quot;allowed_refit&quot;: true,
+  &quot;allow_deployment&quot;: false,
+  &quot;deployment_reason&quot;: &quot;缺独立后续正式回合验证；仅历史条件回放&quot;,
+  &quot;per_market&quot;: [
+    {
+      &quot;market&quot;: 1,
+      &quot;baseline_mae&quot;: 0.0005744141496663857,
+      &quot;candidate_mae&quot;: 0.0003598137966961207,
+      &quot;delta&quot;: 0.000214600352970265
+    },
+    {
+      &quot;market&quot;: 2,
+      &quot;baseline_mae&quot;: 0.00031208568631196085,
+      &quot;candidate_mae&quot;: 0.00019159309051440808,
+      &quot;delta&quot;: 0.00012049259579755277
+    },
+    {
+      &quot;market&quot;: 3,
+      &quot;baseline_mae&quot;: 0.0019013625195500317,
+      &quot;candidate_mae&quot;: 0.0018955563430764239,
+      &quot;delta&quot;: 5.8061764736077725e-06
+    },
+    {
+      &quot;market&quot;: 4,
+      &quot;baseline_mae&quot;: 0.00039292437032763803,
+      &quot;candidate_mae&quot;: 0.00036418763997523587,
+      &quot;delta&quot;: 2.8736730352402163e-05
+    },
+    {
+      &quot;market&quot;: 5,
+      &quot;baseline_mae&quot;: 0.00046074652956095417,
+      &quot;candidate_mae&quot;: 0.0003154531047072223,
+      &quot;delta&quot;: 0.00014529342485373185
+    },
+    {
+      &quot;market&quot;: 6,
+      &quot;baseline_mae&quot;: 0.0009542885797585304,
+      &quot;candidate_mae&quot;: 0.0009327102287946976,
+      &quot;delta&quot;: 2.1578350963832827e-05
+    },
+    {
+      &quot;market&quot;: 7,
+      &quot;baseline_mae&quot;: 0.0005158669853315395,
+      &quot;candidate_mae&quot;: 0.0003070296174996212,
+      &quot;delta&quot;: 0.00020883736783191826
+    },
+    {
+      &quot;market&quot;: 8,
+      &quot;baseline_mae&quot;: 0.0003588855340032115,
+      &quot;candidate_mae&quot;: 0.0003247296376225783,
+      &quot;delta&quot;: 3.41558963806332e-05
+    },
+    {
+      &quot;market&quot;: 9,
+      &quot;baseline_mae&quot;: 0.0007620885077199685,
+      &quot;candidate_mae&quot;: 0.0007281741699072281,
+      &quot;delta&quot;: 3.391433781274036e-05
+    },
+    {
+      &quot;market&quot;: 10,
+      &quot;baseline_mae&quot;: 0.0007741636367159244,
+      &quot;candidate_mae&quot;: 0.0007963096068834025,
+      &quot;delta&quot;: -2.2145970167478145e-05
+    }
+  ],
+  &quot;downstream_wage&quot;: {
+    &quot;status&quot;: &quot;PREDICTIVE_INCREMENT&quot;,
+    &quot;market_count&quot;: 10,
+    &quot;cells&quot;: 100,
+    &quot;baseline_mae&quot;: 11.944531651899961,
+    &quot;candidate_mae&quot;: 10.219233797462701,
+    &quot;relative_improvement&quot;: 0.14444248671423002,
+    &quot;improved_market_fraction&quot;: 0.9,
+    &quot;delta_interval_95&quot;: [
+      0.697797984018481,
+      2.7119111134473304
+    ],
+    &quot;bootstrap_samples&quot;: 1000,
+    &quot;seed&quot;: 20261013,
+    &quot;allowed_refit&quot;: true,
+    &quot;allow_deployment&quot;: false,
+    &quot;deployment_reason&quot;: &quot;缺独立后续正式回合验证；仅历史条件回放&quot;,
+    &quot;per_market&quot;: [
+      {
+        &quot;market&quot;: 1,
+        &quot;baseline_mae&quot;: 11.765219673965657,
+        &quot;candidate_mae&quot;: 7.4406020796129155,
+        &quot;delta&quot;: 4.324617594352741
+      },
+      {
+        &quot;market&quot;: 2,
+        &quot;baseline_mae&quot;: 5.924373513063619,
+        &quot;candidate_mae&quot;: 3.6649372118115195,
+        &quot;delta&quot;: 2.2594363012520997
+      },
+      {
+        &quot;market&quot;: 3,
+        &quot;baseline_mae&quot;: 10.771569383571972,
+        &quot;candidate_mae&quot;: 10.032307769055919,
+        &quot;delta&quot;: 0.7392616145160531
+      },
+      {
+        &quot;market&quot;: 4,
+        &quot;baseline_mae&quot;: 9.062372180934483,
+        &quot;candidate_mae&quot;: 8.669475579695767,
+        &quot;delta&quot;: 0.39289660123871606
+      },
+      {
+        &quot;market&quot;: 5,
+        &quot;baseline_mae&quot;: 12.285217588409523,
+        &quot;candidate_mae&quot;: 8.983322979947207,
+        &quot;delta&quot;: 3.301894608462316
+      },
+      {
+        &quot;market&quot;: 6,
+        &quot;baseline_mae&quot;: 26.343724514896735,
+        &quot;candidate_mae&quot;: 25.89144160763103,
+        &quot;delta&quot;: 0.45228290726570464
+      },
+      {
+        &quot;market&quot;: 7,
+        &quot;baseline_mae&quot;: 10.826165483956197,
+        &quot;candidate_mae&quot;: 6.574546152938069,
+        &quot;delta&quot;: 4.251619331018128
+      },
+      {
+        &quot;market&quot;: 8,
+        &quot;baseline_mae&quot;: 8.742028693765889,
+        &quot;candidate_mae&quot;: 8.16885453246498,
+        &quot;delta&quot;: 0.5731741613009085
+      },
+      {
+        &quot;market&quot;: 9,
+        &quot;baseline_mae&quot;: 9.035269916733832,
+        &quot;candidate_mae&quot;: 7.4335792489000365,
+        &quot;delta&quot;: 1.601690667833795
+      },
+      {
+        &quot;market&quot;: 10,
+        &quot;baseline_mae&quot;: 14.689375569701706,
+        &quot;candidate_mae&quot;: 15.333270812569566,
+        &quot;delta&quot;: -0.6438952428678597
+      }
+    ]
+  }
+}</pre></td></tr><tr><td>B3|practice|2|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;PREDICTIVE_INCREMENT&quot;,
+  &quot;market_count&quot;: 10,
+  &quot;cells&quot;: 100,
+  &quot;baseline_mae&quot;: 0.10378453621097239,
+  &quot;candidate_mae&quot;: 0.07759999999999895,
+  &quot;relative_improvement&quot;: 0.25229708747501384,
+  &quot;improved_market_fraction&quot;: 0.8,
+  &quot;delta_interval_95&quot;: [
+    0.0026384159235045587,
+    0.045219903362023244
+  ],
+  &quot;bootstrap_samples&quot;: 1000,
+  &quot;seed&quot;: 20261013,
+  &quot;allowed_refit&quot;: false,
+  &quot;allow_deployment&quot;: false,
+  &quot;deployment_reason&quot;: &quot;缺独立后续正式回合验证；仅历史条件回放&quot;,
+  &quot;per_market&quot;: [
+    {
+      &quot;market&quot;: 1,
+      &quot;baseline_mae&quot;: 0.08387758474302594,
+      &quot;candidate_mae&quot;: 0.040000000000000216,
+      &quot;delta&quot;: 0.04387758474302572
+    },
+    {
+      &quot;market&quot;: 2,
+      &quot;baseline_mae&quot;: 0.0698992485266258,
+      &quot;candidate_mae&quot;: 0.11599999999999806,
+      &quot;delta&quot;: -0.04610075147337227
+    },
+    {
+      &quot;market&quot;: 3,
+      &quot;baseline_mae&quot;: 0.16370031323477185,
+      &quot;candidate_mae&quot;: 0.08599999999998591,
+      &quot;delta&quot;: 0.07770031323478595
+    },
+    {
+      &quot;market&quot;: 4,
+      &quot;baseline_mae&quot;: 0.15521206384854586,
+      &quot;candidate_mae&quot;: 0.13400000000000034,
+      &quot;delta&quot;: 0.021212063848545515
+    },
+    {
+      &quot;market&quot;: 5,
+      &quot;baseline_mae&quot;: 0.11556583242842108,
+      &quot;candidate_mae&quot;: 0.05599999999999987,
+      &quot;delta&quot;: 0.059565832428421214
+    },
+    {
+      &quot;market&quot;: 6,
+      &quot;baseline_mae&quot;: 0.0793646843970535,
+      &quot;candidate_mae&quot;: 0.04599999999999973,
+      &quot;delta&quot;: 0.03336468439705378
+    },
+    {
+      &quot;market&quot;: 7,
+      &quot;baseline_mae&quot;: 0.13761164375377105,
+      &quot;candidate_mae&quot;: 0.09400000000000083,
+      &quot;delta&quot;: 0.04361164375377022
+    },
+    {
+      &quot;market&quot;: 8,
+      &quot;baseline_mae&quot;: 0.1041346176112384,
+      &quot;candidate_mae&quot;: 0.08399999999999874,
+      &quot;delta&quot;: 0.020134617611239664
+    },
+    {
+      &quot;market&quot;: 9,
+      &quot;baseline_mae&quot;: 0.0810160791542188,
+      &quot;candidate_mae&quot;: 0.06800000000000476,
+      &quot;delta&quot;: 0.01301607915421403
+    },
+    {
+      &quot;market&quot;: 10,
+      &quot;baseline_mae&quot;: 0.04746329441205148,
+      &quot;candidate_mae&quot;: 0.052000000000001025,
+      &quot;delta&quot;: -0.004536705587949545
+    }
+  ],
+  &quot;upstream_prediction&quot;: &quot;NOT_VERIFIED；事件为同期期末标签，未接入事前特征&quot;,
+  &quot;refit_reason&quot;: &quot;补偿系数已公布；本项保留规则核验，不新增自由参数&quot;
+}</pre></td></tr><tr><td>C|practice|2|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;DERIVED_NO_NEW_MODEL&quot;,
+  &quot;cells&quot;: 100,
+  &quot;compatible_cells&quot;: 100,
+  &quot;allowed_refit&quot;: false,
+  &quot;reason&quot;: &quot;人均工资与工资/人数的显示区间相容则不新增自由参数；否则先解决观测冲突&quot;
+}</pre></td></tr><tr><td>E|practice|2|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;KNOWN_COEFFICIENT_FORMULA&quot;,
+  &quot;checks&quot;: 300,
+  &quot;compatible&quot;: 300,
+  &quot;allowed_refit&quot;: false,
+  &quot;reason&quot;: &quot;结果页单位系数解释总量，仅作条件恒等式核验；同期期末强度不是事前已知参数，不把新指标误差当利润改善&quot;
+}</pre></td></tr><tr><td>F|practice|2|泰国|复合梁</td><td><pre>{
+  &quot;status&quot;: &quot;KNOWN_COEFFICIENT_FORMULA&quot;,
+  &quot;checks&quot;: 200,
+  &quot;compatible&quot;: 200,
+  &quot;allowed_refit&quot;: false,
+  &quot;reason&quot;: &quot;结果页单位系数解释总量，仅作条件恒等式核验；同期期末强度不是事前已知参数，不把新指标误差当利润改善&quot;
+}</pre></td></tr><tr><td>B4|formal1-&gt;2</td><td><pre>{
+  &quot;status&quot;: &quot;RESEARCH_INCONCLUSIVE&quot;,
+  &quot;market_count&quot;: 9,
+  &quot;cells&quot;: 90,
+  &quot;baseline_mae&quot;: 0.0005458912113060402,
+  &quot;candidate_mae&quot;: 0.0004972020101993103,
+  &quot;relative_improvement&quot;: 0.08919213223865863,
+  &quot;improved_market_fraction&quot;: 0.4444444444444444,
+  &quot;delta_interval_95&quot;: [
+    -3.7777388495674766e-05,
+    0.00015634519382965573
+  ],
+  &quot;bootstrap_samples&quot;: 1000,
+  &quot;seed&quot;: 20261013,
+  &quot;allowed_refit&quot;: false,
+  &quot;allow_deployment&quot;: false,
+  &quot;deployment_reason&quot;: &quot;缺独立后续正式回合验证；仅历史条件回放&quot;,
+  &quot;per_market&quot;: [
+    {
+      &quot;market&quot;: 1,
+      &quot;baseline_mae&quot;: 0.00036804143148780056,
+      &quot;candidate_mae&quot;: 0.0004630553604315191,
+      &quot;delta&quot;: -9.501392894371852e-05
+    },
+    {
+      &quot;market&quot;: 2,
+      &quot;baseline_mae&quot;: 0.0004270314401272457,
+      &quot;candidate_mae&quot;: 0.0004145995424844146,
+      &quot;delta&quot;: 1.2431897642831136e-05
+    },
+    {
+      &quot;market&quot;: 3,
+      &quot;baseline_mae&quot;: 0.0015045304060122583,
+      &quot;candidate_mae&quot;: 0.0010526096852385605,
+      &quot;delta&quot;: 0.00045192072077369786
+    },
+    {
+      &quot;market&quot;: 4,
+      &quot;baseline_mae&quot;: 0.000358405188118735,
+      &quot;candidate_mae&quot;: 0.00031643438371057876,
+      &quot;delta&quot;: 4.197080440815625e-05
+    },
+    {
+      &quot;market&quot;: 5,
+      &quot;baseline_mae&quot;: 0.00042187036860634464,
+      &quot;candidate_mae&quot;: 0.00045673544460184123,
+      &quot;delta&quot;: -3.48650759954966e-05
+    },
+    {
+      &quot;market&quot;: 6,
+      &quot;baseline_mae&quot;: 0.0005612192026310442,
+      &quot;candidate_mae&quot;: 0.0005808910905181041,
+      &quot;delta&quot;: -1.967188788705996e-05
+    },
+    {
+      &quot;market&quot;: 8,
+      &quot;baseline_mae&quot;: 0.0003327890196777622,
+      &quot;candidate_mae&quot;: 0.000371270797585882,
+      &quot;delta&quot;: -3.8481777908119796e-05
+    },
+    {
+      &quot;market&quot;: 9,
+      &quot;baseline_mae&quot;: 0.0004990459687050419,
+      &quot;candidate_mae&quot;: 0.0003119189113772597,
+      &quot;delta&quot;: 0.0001871270573277822
+    },
+    {
+      &quot;market&quot;: 10,
+      &quot;baseline_mae&quot;: 0.0004400878763881289,
+      &quot;candidate_mae&quot;: 0.0005073028758456333,
+      &quot;delta&quot;: -6.72149994575044e-05
+    }
+  ],
+  &quot;scope&quot;: &quot;正式1→2单一转移的条件回溯；基准next scale使用训练市场正式2结果，不是事前时间外预测&quot;,
+  &quot;reason&quot;: &quot;仅一个正式转移，后续时间外验证和曲线历史绑定缺失；不重拟合部署模型&quot;
+}</pre></td></tr></table><h2>问题与限制</h2><pre>## 当前全部问题与不足
+
+- 旧效率特征仍是一阶投入代理；本实验不修复累计运营与历史条件曲线结构。
+- 环境观测相关；精度区间依赖尚未核实的显示舍入，不是统计置信区间。
+- 人员事件可验证费用关系，但同期期末事件不能用于事前输入。
+- 缺基础参数的回合不计算工资；缺完整财务链不计算完整利润。
+- 来源列/身份/产品冲突按字段排除，不将补采页数作为训练样本数。
+
+## 因缺乏数据而无法验证的问题
+
+- 正式1→2之外的独立正式转移和事前冻结预测。
+- 新产品、未知技术版本和多产品工资分摊。
+- 自动短贷、非零库存与订单影响下的完整利润；本阶段范围外。
+- 排放影响需求、环境收费和随机离职机制未有有效证据。
+
+详见字段证据.csv、样本资格.json、划分.json、实验.json、预测.json及manifest.json。</pre></html>

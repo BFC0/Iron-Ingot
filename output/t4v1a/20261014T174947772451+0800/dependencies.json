@@ -1,0 +1,31 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "scipy": "1.18.1",
+  "platform": "win32",
+  "local_code": [
+    "code/archive_and_report.py",
+    "code/audit_incremental.py",
+    "code/build_model_inputs.py",
+    "code/cross_market_validation.py",
+    "code/fit_demand.py",
+    "code/formal_update_state.py",
+    "code/formal_update_train.py",
+    "code/interest_rate_model.py",
+    "code/material_unit_cost_model.py",
+    "code/model_v2/connector_free_production.py",
+    "code/model_v2/context.py",
+    "code/model_v2/core.py",
+    "code/model_v2/country_demand.py",
+    "code/model_v2/demand.py",
+    "code/model_v2/finance.py",
+    "code/model_v2/horizon.py",
+    "code/model_v2/t4v1a.py",
+    "code/model_v2/verify_t4v1a.py",
+    "code/operations_rho.py",
+    "code/parameter_priority.py",
+    "code/stepwise_model.py"
+  ],
+  "bundled_scipy": "Windows CPython 3.12",
+  "non_windows_install": "python -m pip install -r requirements.txt"
+}

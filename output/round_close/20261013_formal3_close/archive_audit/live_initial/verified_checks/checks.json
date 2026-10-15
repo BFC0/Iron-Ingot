@@ -1,0 +1,907 @@
+{
+  "generated_at": "2026-10-13T22:14:21.213067+08:00",
+  "status": "INCOMPLETE",
+  "selfcheck_passed": true,
+  "raw_modified": false,
+  "financial_balances_checked": false,
+  "sources": [
+    {
+      "source": "output\\round_close\\20261013_formal3_close\\raw\\market5_formal3_summary.json",
+      "sha256": "dab79a6be9195e4410516f64960513053ff2d3c3132dbd32724d37374e9031f5",
+      "bytes": 448079,
+      "captured_at": "2026-10-13T14:11:28.906Z",
+      "url": "http://sim.cesim.cn/ul/Results?sim=se&panel=summary",
+      "category": "actual_result",
+      "market": 5,
+      "round": 3,
+      "selection_verified": true,
+      "selections": [
+        {
+          "id": "group_select3621",
+          "value": "4",
+          "selected": [
+            {
+              "selected": true,
+              "text": "市场 5",
+              "value": "4"
+            }
+          ]
+        },
+        {
+          "id": "round_select3622",
+          "value": "5",
+          "selected": [
+            {
+              "selected": true,
+              "text": "回合3",
+              "value": "5"
+            }
+          ]
+        }
+      ],
+      "html_characters": 200011,
+      "html_complete": false,
+      "truncation_marker": true,
+      "html_ends_with_closing_tag": false,
+      "extracted_script_blocks": 1,
+      "html_script_tags": 15,
+      "chart_calls": 5,
+      "script_truncation_marker": false,
+      "svg_count": 14,
+      "table_count": 1,
+      "team": "营销团队",
+      "team_rows": [
+        {
+          "table_index": 0,
+          "row_index": 4,
+          "section": "全球销售收入",
+          "label": "营业收入净额",
+          "display": "41 061",
+          "value": 41061.0
+        },
+        {
+          "table_index": 0,
+          "row_index": 8,
+          "section": "EBIT与销售和利润的比较",
+          "label": "息税前利润（EBIT）",
+          "display": "2 363",
+          "value": 2363.0
+        },
+        {
+          "table_index": 0,
+          "row_index": 9,
+          "section": "EBIT与销售和利润的比较",
+          "label": "息税前利润%",
+          "display": "5.76",
+          "value": 5.76
+        },
+        {
+          "table_index": 0,
+          "row_index": 13,
+          "section": "生产成本明细",
+          "label": "销货成本",
+          "display": "26 243",
+          "value": 26243.0
+        },
+        {
+          "table_index": 0,
+          "row_index": 17,
+          "section": "全球利润",
+          "label": "本回合利润",
+          "display": "1 419",
+          "value": 1419.0
+        },
+        {
+          "table_index": 0,
+          "row_index": 21,
+          "section": "累计收益",
+          "label": "累计收益",
+          "display": "6 752",
+          "value": 6752.0
+        },
+        {
+          "table_index": 0,
+          "row_index": 24,
+          "section": "单位可变生产成本, 美元",
+          "label": "泰国, 复合梁",
+          "display": "1 272.70",
+          "value": 1272.7
+        },
+        {
+          "table_index": 0,
+          "row_index": 25,
+          "section": "单位可变生产成本, 美元",
+          "label": "泰国, 连接件",
+          "display": "16.55",
+          "value": 16.55
+        },
+        {
+          "table_index": 0,
+          "row_index": 27,
+          "section": "换班班数",
+          "label": "泰国, 复合梁",
+          "display": "1.51",
+          "value": 1.51
+        },
+        {
+          "table_index": 0,
+          "row_index": 28,
+          "section": "换班班数",
+          "label": "泰国, 连接件",
+          "display": "1.86",
+          "value": 1.86
+        },
+        {
+          "table_index": 0,
+          "row_index": 30,
+          "section": "现金管理, 千 美元",
+          "label": "现金及现金等价物",
+          "display": "17 698",
+          "value": 17698.0
+        },
+        {
+          "table_index": 0,
+          "row_index": 31,
+          "section": "现金管理, 千 美元",
+          "label": "短期贷款",
+          "display": "0",
+          "value": 0.0
+        },
+        {
+          "table_index": 0,
+          "row_index": 32,
+          "section": "现金管理, 千 美元",
+          "label": "净现金",
+          "display": "17 698",
+          "value": 17698.0
+        },
+        {
+          "table_index": 0,
+          "row_index": 34,
+          "section": "推广和研发支出, 千 美元",
+          "label": "一般营销",
+          "display": "1 075",
+          "value": 1075.0
+        },
+        {
+          "table_index": 0,
+          "row_index": 35,
+          "section": "推广和研发支出, 千 美元",
+          "label": "设计师营销",
+          "display": "1 150",
+          "value": 1150.0
+        },
+        {
+          "table_index": 0,
+          "row_index": 36,
+          "section": "推广和研发支出, 千 美元",
+          "label": "研发",
+          "display": "1 400",
+          "value": 1400.0
+        }
+      ],
+      "team_chart_points": [
+        {
+          "chart_id": "Graphs.Results.Summary.CumulRevenue.TimeSeries.summary",
+          "chart_type": "msline",
+          "categories": [
+            {
+              "category": [
+                {
+                  "label": "0"
+                },
+                {
+                  "label": "1"
+                },
+                {
+                  "label": "2"
+                },
+                {
+                  "label": "3"
+                }
+              ]
+            }
+          ],
+          "points": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 32045
+            },
+            {
+              "value": 33847
+            },
+            {
+              "value": 41061
+            }
+          ]
+        },
+        {
+          "chart_id": "Graphs.Results.Summary.Profits.TimeSeries.summary",
+          "chart_type": "msline",
+          "categories": [
+            {
+              "category": [
+                {
+                  "label": "0"
+                },
+                {
+                  "label": "1"
+                },
+                {
+                  "label": "2"
+                },
+                {
+                  "label": "3"
+                }
+              ]
+            }
+          ],
+          "points": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 1860
+            },
+            {
+              "value": 2180
+            },
+            {
+              "value": 1419
+            }
+          ]
+        },
+        {
+          "chart_id": "Graphs.Results.Summary.CumulEarnings.TimeSeries.summary",
+          "chart_type": "msline",
+          "categories": [
+            {
+              "category": [
+                {
+                  "label": "0"
+                },
+                {
+                  "label": "1"
+                },
+                {
+                  "label": "2"
+                },
+                {
+                  "label": "3"
+                }
+              ]
+            }
+          ],
+          "points": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 3153
+            },
+            {
+              "value": 5332
+            },
+            {
+              "value": 6752
+            }
+          ]
+        }
+      ],
+      "outlook_sections": {},
+      "parameters": [],
+      "final_source_hash_unchanged": true
+    },
+    {
+      "source": "output\\round_close\\20261013_formal3_close\\raw\\formal4_outlook.json",
+      "sha256": "aa6e0df654edc9e03f9826d8dc36d6dd9f73b56df3f8e67101055e2696567214",
+      "bytes": 168331,
+      "captured_at": "2026-10-13T14:07:47.552Z",
+      "url": "http://sim.cesim.cn/ul/Decisions?panel=outlook",
+      "category": "next_round_outlook",
+      "market": 5,
+      "round": 4,
+      "selection_verified": true,
+      "selections": [],
+      "html_characters": 137721,
+      "html_complete": true,
+      "truncation_marker": false,
+      "html_ends_with_closing_tag": true,
+      "extracted_script_blocks": 0,
+      "html_script_tags": 14,
+      "chart_calls": 0,
+      "script_truncation_marker": false,
+      "svg_count": 9,
+      "table_count": 3,
+      "team": "营销团队",
+      "team_rows": [],
+      "team_chart_points": [],
+      "outlook_sections": {
+        "需求": "韩国 BESTO 梁在客户中获得了良好的声誉，它正在吃掉复合梁的需求。需求量可能会减少 15-20%。两个市场对连接件的需求稳定增长约 5%，但价格有一定的下降压力。",
+        "大客户订单": "现在有机会为乌拉圭一家拥有约 200.000 连接件的大型综合纸浆和造纸厂提供产品。 印度钦奈的一家知名互联网公司 ZOHO 需要 3000 复合梁，用于在其豪华的新总部旁新建一个多层停车场。",
+        "生产": "机械价格将继续下跌。泰国同意第二年增加工资。钢材价格目前没有变化，但业内专家指出，未来钢材价格下跌的可能性很大。",
+        "货币": "-",
+        "财务": "利率仍在不断攀升。"
+      },
+      "parameters": [
+        {
+          "table_index": 2,
+          "row_index": 5,
+          "label": "企业所得税率, %",
+          "preceding_headings": [
+            "参数",
+            "货币汇率",
+            "财务"
+          ],
+          "current": 29.0,
+          "displayed_change": "+0%",
+          "previous": 29.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 6,
+          "label": "最低现金, 千 美元",
+          "preceding_headings": [
+            "参数",
+            "货币汇率",
+            "财务"
+          ],
+          "current": 2000.0,
+          "displayed_change": "+0%",
+          "previous": 2000.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 8,
+          "label": "基准利率",
+          "preceding_headings": [
+            "货币汇率",
+            "财务",
+            "利率, %"
+          ],
+          "current": 5.0,
+          "displayed_change": "+25%",
+          "previous": 4.0,
+          "changed": true
+        },
+        {
+          "table_index": 2,
+          "row_index": 9,
+          "label": "高于基准的短期利率溢价",
+          "preceding_headings": [
+            "货币汇率",
+            "财务",
+            "利率, %"
+          ],
+          "current": 3.0,
+          "displayed_change": "+0%",
+          "previous": 3.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 10,
+          "label": "现金及现金等价物",
+          "preceding_headings": [
+            "货币汇率",
+            "财务",
+            "利率, %"
+          ],
+          "current": 1.0,
+          "displayed_change": "+0%",
+          "previous": 1.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 12,
+          "label": "机器",
+          "preceding_headings": [
+            "财务",
+            "利率, %",
+            "年折旧，%"
+          ],
+          "current": 15.0,
+          "displayed_change": "+0%",
+          "previous": 15.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 14,
+          "label": "市场调研",
+          "preceding_headings": [
+            "利率, %",
+            "年折旧，%",
+            "固定成本, 千 美元"
+          ],
+          "current": 50.0,
+          "displayed_change": "+0%",
+          "previous": 50.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 15,
+          "label": "固定库存持有成本",
+          "preceding_headings": [
+            "利率, %",
+            "年折旧，%",
+            "固定成本, 千 美元"
+          ],
+          "current": 0.0,
+          "displayed_change": "+0%",
+          "previous": 0.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 17,
+          "label": "基础成本",
+          "preceding_headings": [
+            "年折旧，%",
+            "固定成本, 千 美元",
+            "行政管理"
+          ],
+          "current": 6000.0,
+          "displayed_change": "+0%",
+          "previous": 6000.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 18,
+          "label": "复合梁, 泰国",
+          "preceding_headings": [
+            "年折旧，%",
+            "固定成本, 千 美元",
+            "行政管理"
+          ],
+          "current": 0.0,
+          "displayed_change": "+0%",
+          "previous": 0.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 19,
+          "label": "复合梁, 印尼",
+          "preceding_headings": [
+            "年折旧，%",
+            "固定成本, 千 美元",
+            "行政管理"
+          ],
+          "current": 0.0,
+          "displayed_change": "+0%",
+          "previous": 0.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 20,
+          "label": "连接件, 泰国",
+          "preceding_headings": [
+            "年折旧，%",
+            "固定成本, 千 美元",
+            "行政管理"
+          ],
+          "current": 0.0,
+          "displayed_change": "+0%",
+          "previous": 0.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 21,
+          "label": "连接件, 印尼",
+          "preceding_headings": [
+            "年折旧，%",
+            "固定成本, 千 美元",
+            "行政管理"
+          ],
+          "current": 0.0,
+          "displayed_change": "+0%",
+          "previous": 0.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 23,
+          "label": "库存持有成本",
+          "preceding_headings": [
+            "固定成本, 千 美元",
+            "行政管理",
+            "可变成本, 美元/单位"
+          ],
+          "current": 0.6,
+          "displayed_change": "+0%",
+          "previous": 0.6,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 25,
+          "label": "复合梁",
+          "preceding_headings": [
+            "行政管理",
+            "可变成本, 美元/单位",
+            "原材料成本"
+          ],
+          "current": 1053.0,
+          "displayed_change": "+0%",
+          "previous": 1053.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 26,
+          "label": "连接件",
+          "preceding_headings": [
+            "行政管理",
+            "可变成本, 美元/单位",
+            "原材料成本"
+          ],
+          "current": 14.2,
+          "displayed_change": "+0%",
+          "previous": 14.2,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 28,
+          "label": "泰国 -> 泰国",
+          "preceding_headings": [
+            "可变成本, 美元/单位",
+            "原材料成本",
+            "运输成本, 复合梁"
+          ],
+          "current": 30.0,
+          "displayed_change": "+0%",
+          "previous": 30.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 29,
+          "label": "泰国 -> 印尼",
+          "preceding_headings": [
+            "可变成本, 美元/单位",
+            "原材料成本",
+            "运输成本, 复合梁"
+          ],
+          "current": 120.0,
+          "displayed_change": "+0%",
+          "previous": 120.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 31,
+          "label": "泰国 -> 泰国",
+          "preceding_headings": [
+            "原材料成本",
+            "运输成本, 复合梁",
+            "运输成本, 连接件"
+          ],
+          "current": 0.5,
+          "displayed_change": "+0%",
+          "previous": 0.5,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 32,
+          "label": "泰国 -> 印尼",
+          "preceding_headings": [
+            "原材料成本",
+            "运输成本, 复合梁",
+            "运输成本, 连接件"
+          ],
+          "current": 2.0,
+          "displayed_change": "+0%",
+          "previous": 2.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 35,
+          "label": "泰国",
+          "preceding_headings": [
+            "运输成本, 连接件",
+            "人力资源",
+            "生产工资, 千 美元"
+          ],
+          "current": 33.0,
+          "displayed_change": "+10%",
+          "previous": 30.0,
+          "changed": true
+        },
+        {
+          "table_index": 2,
+          "row_index": 37,
+          "label": "两班倒",
+          "preceding_headings": [
+            "人力资源",
+            "生产工资, 千 美元",
+            "工资乘数"
+          ],
+          "current": 1.65,
+          "displayed_change": "+0%",
+          "previous": 1.65,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 38,
+          "label": "三班倒",
+          "preceding_headings": [
+            "人力资源",
+            "生产工资, 千 美元",
+            "工资乘数"
+          ],
+          "current": 2.56,
+          "displayed_change": "+0%",
+          "previous": 2.56,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 40,
+          "label": "年人员离职率（without costs），%",
+          "preceding_headings": [
+            "生产工资, 千 美元",
+            "工资乘数",
+            "人员流动"
+          ],
+          "current": 10.0,
+          "displayed_change": "+0%",
+          "previous": 10.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 41,
+          "label": "裁员成本，占薪资%",
+          "preceding_headings": [
+            "生产工资, 千 美元",
+            "工资乘数",
+            "人员流动"
+          ],
+          "current": 35.0,
+          "displayed_change": "+0%",
+          "previous": 35.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 44,
+          "label": "机器, 复合梁",
+          "preceding_headings": [
+            "人员流动",
+            "投资",
+            "投资成本, 美元/单位"
+          ],
+          "current": 58.0,
+          "displayed_change": "-24%",
+          "previous": 76.0,
+          "changed": true
+        },
+        {
+          "table_index": 2,
+          "row_index": 45,
+          "label": "机器, 连接件",
+          "preceding_headings": [
+            "人员流动",
+            "投资",
+            "投资成本, 美元/单位"
+          ],
+          "current": 1.0,
+          "displayed_change": "-9%",
+          "previous": 1.1,
+          "changed": true
+        },
+        {
+          "table_index": 2,
+          "row_index": 47,
+          "label": "机器",
+          "preceding_headings": [
+            "投资",
+            "投资成本, 美元/单位",
+            "年产能下降，%"
+          ],
+          "current": 15.0,
+          "displayed_change": "+0%",
+          "previous": 15.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 50,
+          "label": "每单位碳排放, kg, 泰国",
+          "preceding_headings": [
+            "年产能下降，%",
+            "生产的环境影响",
+            "复合梁"
+          ],
+          "current": 1355.32,
+          "displayed_change": "+0%",
+          "previous": 1355.32,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 51,
+          "label": "每单位能源消耗, kWh, 泰国",
+          "preceding_headings": [
+            "年产能下降，%",
+            "生产的环境影响",
+            "复合梁"
+          ],
+          "current": 4778.38,
+          "displayed_change": "+0%",
+          "previous": 4778.38,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 52,
+          "label": "每单位用水量, l, 泰国",
+          "preceding_headings": [
+            "年产能下降，%",
+            "生产的环境影响",
+            "复合梁"
+          ],
+          "current": 10307.14,
+          "displayed_change": "+0%",
+          "previous": 10307.14,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 54,
+          "label": "每单位碳排放, kg, 泰国",
+          "preceding_headings": [
+            "生产的环境影响",
+            "复合梁",
+            "连接件"
+          ],
+          "current": 2.3,
+          "displayed_change": "+0%",
+          "previous": 2.3,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 55,
+          "label": "每单位碳排放, kg, 分包制造",
+          "preceding_headings": [
+            "生产的环境影响",
+            "复合梁",
+            "连接件"
+          ],
+          "current": 0.0,
+          "displayed_change": "+0%",
+          "previous": 0.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 56,
+          "label": "每单位能源消耗, kWh, 泰国",
+          "preceding_headings": [
+            "生产的环境影响",
+            "复合梁",
+            "连接件"
+          ],
+          "current": 7.89,
+          "displayed_change": "+0%",
+          "previous": 7.89,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 57,
+          "label": "每单位能源消耗, kWh, 分包制造",
+          "preceding_headings": [
+            "生产的环境影响",
+            "复合梁",
+            "连接件"
+          ],
+          "current": 0.0,
+          "displayed_change": "+0%",
+          "previous": 0.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 58,
+          "label": "每单位用水量, l, 泰国",
+          "preceding_headings": [
+            "生产的环境影响",
+            "复合梁",
+            "连接件"
+          ],
+          "current": 18.56,
+          "displayed_change": "+0%",
+          "previous": 18.56,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 59,
+          "label": "每单位用水量, l, 分包制造",
+          "preceding_headings": [
+            "生产的环境影响",
+            "复合梁",
+            "连接件"
+          ],
+          "current": 0.0,
+          "displayed_change": "+0%",
+          "previous": 0.0,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 62,
+          "label": "泰国 -> 泰国",
+          "preceding_headings": [
+            "连接件",
+            "运输碳排量，克/单位",
+            "复合梁"
+          ],
+          "current": 3920.5,
+          "displayed_change": "+0%",
+          "previous": 3920.5,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 63,
+          "label": "泰国 -> 印尼",
+          "preceding_headings": [
+            "连接件",
+            "运输碳排量，克/单位",
+            "复合梁"
+          ],
+          "current": 47084.4,
+          "displayed_change": "+0%",
+          "previous": 47084.4,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 65,
+          "label": "泰国 -> 泰国",
+          "preceding_headings": [
+            "运输碳排量，克/单位",
+            "复合梁",
+            "连接件"
+          ],
+          "current": 6.2,
+          "displayed_change": "+0%",
+          "previous": 6.2,
+          "changed": false
+        },
+        {
+          "table_index": 2,
+          "row_index": 66,
+          "label": "泰国 -> 印尼",
+          "preceding_headings": [
+            "运输碳排量，克/单位",
+            "复合梁",
+            "连接件"
+          ],
+          "current": 74.5,
+          "displayed_change": "+0%",
+          "previous": 74.5,
+          "changed": false
+        }
+      ],
+      "final_source_hash_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "16.0": {
+    "production_strategy": "FREE_PRODUCTION_FIXED_PLAN",
+    "production_kunits": 100.0,
+    "capacity_allocation_pct": 100.0,
+    "workers": 6.25,
+    "shift_production_kunits": [
+      33.333333333333336,
+      33.333333333333336,
+      33.33333333333333
+    ],
+    "payroll_kusd": 325.625,
+    "material_expenditure_kusd": 1420.0,
+    "production_expenditure_kusd": 1745.625,
+    "sales_kunits": {
+      "泰国": 30.0,
+      "印尼": 10.0
+    },
+    "sales_revenue_kusd": 1080.0,
+    "transport_expenditure_kusd": 35.0,
+    "opening_inventory_kunits": 5.0,
+    "closing_inventory_kunits": 55.0,
+    "inventory_holding_kusd": 33.0,
+    "unmet_demand_kunits": {
+      "泰国": 0.0,
+      "印尼": 0.0
+    },
+    "next_state": {
+      "opening_inventory_kunits": 55.0,
+      "opening_inventory_book_value_kusd": 956.2797619047619,
+      "orders_due": [
+        {
+          "status": "CONFIRMED",
+          "quantity_kunits": 20.0,
+          "price": 26.0,
+          "advance_received_kusd": 52.0
+        }
+      ],
+      "capacity_kunits": 105.0,
+      "previous_rd_kusd": 0.0,
+      "lifecycle": {
+        "opening_inventory_book_value_kusd": 956.2797619047619,
+        "orders_due": [
+          {
+            "status": "CONFIRMED",
+            "quantity_kunits": 20.0,
+            "price": 26.0,
+            "advance_received_kusd": 52.0
+          }
+        ]
+      }
+    },
+    "contribution_kusd": -483.625,
+    "inventory_book_value_kusd": 956.2797619047619,
+    "actual_validation": false,
+    "scope": "确认订单优先交付/余款与预收；加权平均库存计价情景；经营贡献不含折旧、税、利息、共享固定费；投资下期生效假设；非完整现金流",
+    "path_version": "CONNECTOR_LIFECYCLE_V2",
+    "orders_delivered_kunits": 10.0,
+    "order_revenue_kusd": 250.0,
+    "order_balance_due_kusd": 225.0,
+    "new_order_advances_received_kusd": 52.0,
+    "closing_contract_liability_kusd": 52.0,
+    "orders_due_next_round": [
+      {
+        "status": "CONFIRMED",
+        "quantity_kunits": 20.0,
+        "price": 26.0,
+        "advance_received_kusd": 52.0
+      }
+    ],
+    "valuation_method": "WEIGHTED_AVERAGE_SCENARIO",
+    "cost_of_goods_sold_kusd": 869.3452380952382,
+    "attributed_expenses_kusd": 0.0,
+    "operating_contribution_kusd": 392.6547619047618,
+    "investment_expenditure_kusd": 22.0,
+    "next_capacity_kunits": 105.0,
+    "order_cash_movement_kusd": 277.0,
+    "cash_collection_assumption": "到期订单余款按交付当期收取；零售回款及支付时点未建模",
+    "environment": {
+      "production_co2_kg": 229999.99999999997,
+      "energy_kwh": 789000.0,
+      "water_l": 1855999.9999999998,
+      "retail_transport_co2_kg": 931.0,
+      "scope": "生产按产量、零售运输按交付量；大客户运输环境影响未知"
+    }
+  },
+  "16.7": {
+    "production_strategy": "FREE_PRODUCTION_FIXED_PLAN",
+    "production_kunits": 100.0,
+    "capacity_allocation_pct": 100.0,
+    "workers": 5.9880239520958085,
+    "shift_production_kunits": [
+      33.333333333333336,
+      33.333333333333336,
+      33.33333333333333
+    ],
+    "payroll_kusd": 311.9760479041916,
+    "material_expenditure_kusd": 1420.0,
+    "production_expenditure_kusd": 1731.9760479041915,
+    "sales_kunits": {
+      "泰国": 30.0,
+      "印尼": 10.0
+    },
+    "sales_revenue_kusd": 1080.0,
+    "transport_expenditure_kusd": 35.0,
+    "opening_inventory_kunits": 5.0,
+    "closing_inventory_kunits": 55.0,
+    "inventory_holding_kusd": 33.0,
+    "unmet_demand_kunits": {
+      "泰国": 0.0,
+      "印尼": 0.0
+    },
+    "next_state": {
+      "opening_inventory_kunits": 55.0,
+      "opening_inventory_book_value_kusd": 949.1303108069574,
+      "orders_due": [
+        {
+          "status": "CONFIRMED",
+          "quantity_kunits": 20.0,
+          "price": 26.0,
+          "advance_received_kusd": 52.0
+        }
+      ],
+      "capacity_kunits": 105.0,
+      "previous_rd_kusd": 0.0,
+      "lifecycle": {
+        "opening_inventory_book_value_kusd": 949.1303108069574,
+        "orders_due": [
+          {
+            "status": "CONFIRMED",
+            "quantity_kunits": 20.0,
+            "price": 26.0,
+            "advance_received_kusd": 52.0
+          }
+        ]
+      }
+    },
+    "contribution_kusd": -469.9760479041916,
+    "inventory_book_value_kusd": 949.1303108069574,
+    "actual_validation": false,
+    "scope": "确认订单优先交付/余款与预收；加权平均库存计价情景；经营贡献不含折旧、税、利息、共享固定费；投资下期生效假设；非完整现金流",
+    "path_version": "CONNECTOR_LIFECYCLE_V2",
+    "orders_delivered_kunits": 10.0,
+    "order_revenue_kusd": 250.0,
+    "order_balance_due_kusd": 225.0,
+    "new_order_advances_received_kusd": 52.0,
+    "closing_contract_liability_kusd": 52.0,
+    "orders_due_next_round": [
+      {
+        "status": "CONFIRMED",
+        "quantity_kunits": 20.0,
+        "price": 26.0,
+        "advance_received_kusd": 52.0
+      }
+    ],
+    "valuation_method": "WEIGHTED_AVERAGE_SCENARIO",
+    "cost_of_goods_sold_kusd": 862.845737097234,
+    "attributed_expenses_kusd": 0.0,
+    "operating_contribution_kusd": 399.15426290276605,
+    "investment_expenditure_kusd": 22.0,
+    "next_capacity_kunits": 105.0,
+    "order_cash_movement_kusd": 277.0,
+    "cash_collection_assumption": "到期订单余款按交付当期收取；零售回款及支付时点未建模",
+    "environment": {
+      "production_co2_kg": 229999.99999999997,
+      "energy_kwh": 789000.0,
+      "water_l": 1855999.9999999998,
+      "retail_transport_co2_kg": 931.0,
+      "scope": "生产按产量、零售运输按交付量；大客户运输环境影响未知"
+    }
+  },
+  "18.0": {
+    "production_strategy": "FREE_PRODUCTION_FIXED_PLAN",
+    "production_kunits": 100.0,
+    "capacity_allocation_pct": 100.0,
+    "workers": 5.555555555555555,
+    "shift_production_kunits": [
+      33.333333333333336,
+      33.333333333333336,
+      33.33333333333333
+    ],
+    "payroll_kusd": 289.44444444444446,
+    "material_expenditure_kusd": 1420.0,
+    "production_expenditure_kusd": 1709.4444444444443,
+    "sales_kunits": {
+      "泰国": 30.0,
+      "印尼": 10.0
+    },
+    "sales_revenue_kusd": 1080.0,
+    "transport_expenditure_kusd": 35.0,
+    "opening_inventory_kunits": 5.0,
+    "closing_inventory_kunits": 55.0,
+    "inventory_holding_kusd": 33.0,
+    "unmet_demand_kunits": {
+      "泰国": 0.0,
+      "印尼": 0.0
+    },
+    "next_state": {
+      "opening_inventory_kunits": 55.0,
+      "opening_inventory_book_value_kusd": 937.3280423280422,
+      "orders_due": [
+        {
+          "status": "CONFIRMED",
+          "quantity_kunits": 20.0,
+          "price": 26.0,
+          "advance_received_kusd": 52.0
+        }
+      ],
+      "capacity_kunits": 105.0,
+      "previous_rd_kusd": 0.0,
+      "lifecycle": {
+        "opening_inventory_book_value_kusd": 937.3280423280422,
+        "orders_due": [
+          {
+            "status": "CONFIRMED",
+            "quantity_kunits": 20.0,
+            "price": 26.0,
+            "advance_received_kusd": 52.0
+          }
+        ]
+      }
+    },
+    "contribution_kusd": -447.44444444444446,
+    "inventory_book_value_kusd": 937.3280423280422,
+    "actual_validation": false,
+    "scope": "确认订单优先交付/余款与预收；加权平均库存计价情景；经营贡献不含折旧、税、利息、共享固定费；投资下期生效假设；非完整现金流",
+    "path_version": "CONNECTOR_LIFECYCLE_V2",
+    "orders_delivered_kunits": 10.0,
+    "order_revenue_kusd": 250.0,
+    "order_balance_due_kusd": 225.0,
+    "new_order_advances_received_kusd": 52.0,
+    "closing_contract_liability_kusd": 52.0,
+    "orders_due_next_round": [
+      {
+        "status": "CONFIRMED",
+        "quantity_kunits": 20.0,
+        "price": 26.0,
+        "advance_received_kusd": 52.0
+      }
+    ],
+    "valuation_method": "WEIGHTED_AVERAGE_SCENARIO",
+    "cost_of_goods_sold_kusd": 852.116402116402,
+    "attributed_expenses_kusd": 0.0,
+    "operating_contribution_kusd": 409.883597883598,
+    "investment_expenditure_kusd": 22.0,
+    "next_capacity_kunits": 105.0,
+    "order_cash_movement_kusd": 277.0,
+    "cash_collection_assumption": "到期订单余款按交付当期收取；零售回款及支付时点未建模",
+    "environment": {
+      "production_co2_kg": 229999.99999999997,
+      "energy_kwh": 789000.0,
+      "water_l": 1855999.9999999998,
+      "retail_transport_co2_kg": 931.0,
+      "scope": "生产按产量、零售运输按交付量；大客户运输环境影响未知"
+    }
+  }
+}

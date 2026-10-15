@@ -1,0 +1,47 @@
+[
+  {
+    "product": "复合梁",
+    "model": "SHARE",
+    "n": 120,
+    "old_fixed_parameter_mae_pp": 0.809128454337848,
+    "new_full_training_mae_pp": 0.6956778697547911,
+    "new_nested_market_holdout_mae_pp": 0.8016416008412125,
+    "scope": "旧参数与新参数对同一实际输入的条件回放；新全样本误差乐观；外层误差独立列出，非事前成绩",
+    "connector_old_scope": null
+  },
+  {
+    "product": "复合梁",
+    "model": "COUNTRY/泰国",
+    "n": 60,
+    "old_fixed_parameter_mae_pp": 0.8220273751347509,
+    "new_full_training_mae_pp": 0.7147342389789548,
+    "new_nested_market_holdout_mae_pp": 0.8017500238864702,
+    "scope": "旧参数与新参数对同一实际输入的条件回放；新全样本误差乐观；外层误差独立列出，非事前成绩",
+    "connector_old_scope": null
+  },
+  {
+    "product": "复合梁",
+    "model": "COUNTRY/印尼",
+    "n": 60,
+    "old_fixed_parameter_mae_pp": 0.7840127353159667,
+    "new_full_training_mae_pp": 0.6893848088824409,
+    "new_nested_market_holdout_mae_pp": 0.7981347686313128,
+    "scope": "旧参数与新参数对同一实际输入的条件回放；新全样本误差乐观；外层误差独立列出，非事前成绩",
+    "connector_old_scope": null
+  },
+  {
+    "product": "连接件",
+    "model": "SHARE",
+    "status": "OLD_PIECEWISE_CONNECTOR_REFERENCE_UNAVAILABLE"
+  },
+  {
+    "product": "连接件",
+    "model": "COUNTRY/泰国",
+    "status": "OLD_PIECEWISE_CONNECTOR_REFERENCE_UNAVAILABLE"
+  },
+  {
+    "product": "连接件",
+    "model": "COUNTRY/印尼",
+    "status": "OLD_PIECEWISE_CONNECTOR_REFERENCE_UNAVAILABLE"
+  }
+]

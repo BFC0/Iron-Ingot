@@ -1,0 +1,30 @@
+[
+  {
+    "model": "risk/solvency_exponential",
+    "metric": "mae_bp",
+    "old_frozen_on_formal4": 1.5319717044347083,
+    "new_market_holdout": 1.3697654423898507,
+    "scope": "旧时间外条件回放与新同期留出，不是相同验证设计"
+  },
+  {
+    "model": "risk/leverage_power",
+    "metric": "mae_bp",
+    "old_frozen_on_formal4": 4.324027249164169,
+    "new_market_holdout": 1.2453761408540898,
+    "scope": "旧时间外条件回放与新同期留出，不是相同验证设计"
+  },
+  {
+    "model": "materials/复合梁",
+    "metric": "mae_kusd",
+    "old_frozen_on_formal4": 2.5510293899638246,
+    "new_market_holdout": 2.557837902928911,
+    "scope": "条件回放与选型留出，不是事前经营精度"
+  },
+  {
+    "model": "materials/连接件",
+    "metric": "mae_kusd",
+    "old_frozen_on_formal4": 0.2600389220768121,
+    "new_market_holdout": 0.26598762261149145,
+    "scope": "条件回放与选型留出，不是事前经营精度"
+  }
+]

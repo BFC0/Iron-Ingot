@@ -1,6 +1,26 @@
 # 代码入口与运行边界
 
-更新：2026-10-12。按下表选择维护入口；历史运行副本在 `output/`，项目数据和报告见[项目结构](../项目结构.md)。
+更新：2026-10-15（北京时间）。本文按所列版本维护专题内容；项目当前状态与最新证据统一见[项目总览](../README.md)。历史公式、参数和误差保留各自版本范围；具体进展在所属主题维护。
+
+## 当前训练、应用与诊断
+
+| 工作 | 维护入口 | 输出与限制 |
+| --- | --- | --- |
+| 正式4可估计项及状态核验 | [t5v0](model_v2/t5v0_README.md) | 独立训练目录，29类状态包含暂停和不可识别项，不代表完整预测通过 |
+| 正式5曲线 | [fit_formal5_curves.py](model_v2/fit_formal5_curves.py) | 三曲线600点，独立于正式4注册表保存 |
+| 材料误差诊断 | [diagnose_t5_materials.py](../work/diagnose_t5_materials.py) | 复现既有材料留出及舍入兼容性，独立诊断，不替换模型 |
+| 正式3完整训练 | [t4v1](model_v2/t4v1_README.md) | `output/t4v1/`新目录；当前查阅[去重参数](../output/t4v1_deduplicated/20261014T162452595723+0800/models_full.json)，重跑训练会产生原31类登记，去重交付另列 |
+| 正式4冻结应用情景 | [t4v1a](model_v2/t4v1a_README.md) | 不训练或选参；缺状态返回缺口，禁止完整利润/期限排名 |
+| 连接件历史/价格研究 | [optimize_t4v1_connector.py](model_v2/optimize_t4v1_connector.py) | 新目录保存；`--self-check`最小合成检查，`work/accept_connector_optimization.py`对应验收 |
+| 本组效率诊断 | [diagnose_own_efficiency.py](model_v2/diagnose_own_efficiency.py) | 单公司ρ不可识别；独立保存情景及其他9市场留出结果 |
+| ρ局部参考 | [refine_efficiency_rho_reference.py](../work/refine_efficiency_rho_reference.py) | 仅其他9市场训练，不改主注册表 |
+| ABS嵌套数量对照 | [validate_t4v1_abs_nested.py](../work/validate_t4v1_abs_nested.py) | 复用冻结代码、保存同集合外折；SHARE数量基线使用实际总量 |
+
+## 历史版本与专项脚本
+
+[t4v0](model_v2/t4v0_README.md)仅正式3的6市场子集；[t3v1](model_v2/t3v1_README.md)为连接件同曲线假设及联合分配；[t3v0](model_v2/t3v0_README.md)为正式2统一训练。这些运行和报告保持原版本范围，不作为正式4完整预测入口。
+
+历史脚本可能仍生成HTML报告；新任务应使用Markdown交付，不为本次文档整理运行历史生成器或改写旧报告。`code/要求说明_模板.md`只供早期归档生成器使用，不能覆盖当前任务要求。
 
 ## 按工作选择入口
 
@@ -16,6 +36,7 @@
 | 正式报告 | [formal_update_report.py](formal_update_report.py) | 需要 `--sources`、`--training`、`--scenario`、`--out`，输入版本必须相互对应 |
 | 情境重审 | [model_v2/run.py](model_v2/run.py)、[使用说明](model_v2/README.md) | `--stage` 选择阶段；写入独立历史目录，未通过门槛的优化仍不运行 |
 | 国别需求 | [model_v2/country_demand.py](model_v2/country_demand.py) | 独立国别模型，输出到 `output/country_demand/` |
+| 新增数据的信息价值 | [model_v2/new_data_value.py](model_v2/new_data_value.py)、[使用说明](model_v2/新增数据价值验证.md) | `audit` → `ablation` → `train`；显式冻结归档目录，同集合验证，仅保存通过门槛的研究参数 |
 | 运营与参数研究 | [operations_rho.py](operations_rho.py)、[parameter_priority.py](parameter_priority.py)、[price_diagnostics.py](price_diagnostics.py) | 各自产物目录，适用范围见各次报告 |
 | 图表拟合与核验 | [fit_chart_json.py](fit_chart_json.py)、[verify_joint_chart_data.py](verify_joint_chart_data.py)、[verify_visible_coefficients.py](verify_visible_coefficients.py) | 固定回合来源与输出路径，重跑前先检查覆盖行为 |
 | 截图与情境归档 | [archive_practice2_screenshots.py](archive_practice2_screenshots.py)、[archive_practice2_background.py](archive_practice2_background.py) | 面向练习2资料；部分归档脚本更新根目录索引，不作为新回合通用采集命令 |

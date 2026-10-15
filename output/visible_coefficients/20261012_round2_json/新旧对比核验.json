@@ -1,0 +1,118 @@
+{
+  "time_beijing": "2026-10-12T09:40:25.859830+08:00",
+  "authorization": "用户要求比较新旧曲线",
+  "status": "完成",
+  "scope": "旧回合1 SVG拟合与新回合2 Chart.create JSON拟合；固定有效投资比较，不等同于固定当期支出比较",
+  "checks": [
+    "两条曲线样例均处共同可见范围",
+    "未修改参数或决策",
+    "没有人员姓名字段"
+  ],
+  "sources": {
+    "分步模型拟合与验证.json": "381ce7b0c753083ba4bd4206051bac14415ac5ad0d1440fef77d6dcaac4eaa35",
+    "output\\visible_coefficients\\20261012_round2_json\\coefficients.json": "f7bf3f305a145e9e658145dd0ce3e3fae9fc722fb68ba4db9c7a1cbd527d41b7"
+  },
+  "rows": [
+    {
+      "curve": "rd",
+      "effective_investment_kusd": 0,
+      "old": 0.2339473479848856,
+      "new": 0.28746536150315527,
+      "difference": 0.05351801351826968,
+      "relative_change_percent": 22.876093265963092
+    },
+    {
+      "curve": "rd",
+      "effective_investment_kusd": 200,
+      "old": 0.7938762683793684,
+      "new": 0.7713191232901331,
+      "difference": -0.022557145089235342,
+      "relative_change_percent": -2.8413930467129145
+    },
+    {
+      "curve": "rd",
+      "effective_investment_kusd": 400,
+      "old": 0.9185658870754895,
+      "new": 0.8741848655011224,
+      "difference": -0.044381021574367074,
+      "relative_change_percent": -4.831555601924908
+    },
+    {
+      "curve": "rd",
+      "effective_investment_kusd": 600,
+      "old": 1.0001858306756464,
+      "new": 0.9403381345162819,
+      "difference": -0.05984769615936447,
+      "relative_change_percent": -5.9836576687890215
+    },
+    {
+      "curve": "rd",
+      "effective_investment_kusd": 800,
+      "old": 1.062353461446801,
+      "new": 0.9901568567219372,
+      "difference": -0.07219660472486389,
+      "relative_change_percent": -6.79591184524787
+    },
+    {
+      "curve": "rd",
+      "effective_investment_kusd": 1000,
+      "old": 1.1131613153686113,
+      "new": 1.03053120489415,
+      "difference": -0.08263011047446134,
+      "relative_change_percent": -7.423013118911637
+    },
+    {
+      "curve": "operations",
+      "effective_investment_kusd": 0,
+      "old": 0.44999999999999984,
+      "new": 0.45024954480871243,
+      "difference": 0.00024954480871258733,
+      "relative_change_percent": 0.05545440193612805
+    },
+    {
+      "curve": "operations",
+      "effective_investment_kusd": 200,
+      "old": 0.6999559160641862,
+      "new": 0.7000902950798469,
+      "difference": 0.00013437901566071275,
+      "relative_change_percent": 0.01919821128397725
+    },
+    {
+      "curve": "operations",
+      "effective_investment_kusd": 400,
+      "old": 0.8249504033857955,
+      "new": 0.8250401991783256,
+      "difference": 8.979579253010073e-05,
+      "relative_change_percent": 0.010884992862791876
+    },
+    {
+      "curve": "operations",
+      "effective_investment_kusd": 600,
+      "old": 0.8999523859909003,
+      "new": 0.9000195935860384,
+      "difference": 6.720759513811903e-05,
+      "relative_change_percent": 0.00746790565637756
+    },
+    {
+      "curve": "operations",
+      "effective_investment_kusd": 800,
+      "old": 0.9499559121770567,
+      "new": 0.9500097954571215,
+      "difference": 5.3883280064837e-05,
+      "relative_change_percent": 0.00567218745355369
+    },
+    {
+      "curve": "operations",
+      "effective_investment_kusd": 1000,
+      "old": 0.9856737963872721,
+      "new": 0.9857190119764772,
+      "difference": 4.521558920500546e-05,
+      "relative_change_percent": 0.004587277187506622
+    }
+  ],
+  "limitations": [
+    "两版数据来源与回合不同，不能仅凭曲线差异识别后台机制变化",
+    "研发低投入段公式近似较差",
+    "乘数百分比变化不是最终需求百分比变化"
+  ]
+}

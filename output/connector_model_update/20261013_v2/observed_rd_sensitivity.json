@@ -1,0 +1,1649 @@
+{
+  "category": "UNVALIDATED_BEHAVIOR_TRANSFER_SENSITIVITY",
+  "scenario": "连接件对手研发投入超过1600的值仅在本敏感性情景设为1600；两种曲线比较使用相同输入，非原演示回放",
+  "request": {
+    "category": "SYNTHETIC_DEMONSTRATION_NOT_CURRENT_RECOMMENDATION",
+    "assumptions": "对手复用正式2决策；连接件价格按27美元归一化；连接件80千单位产能为假定；复合梁市场总量使用正式2实际；250/150千单位解释为每市场连接件行业需求亦为情景假设",
+    "competitors": [
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-05014677bb16a61e",
+        "country": "泰国",
+        "price": 1950.0,
+        "initial_price": 1800.0,
+        "general": 700.0,
+        "designer": 850.0,
+        "rd": 800.0,
+        "previous_rd": 650.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-05014677bb16a61e",
+        "country": "印尼",
+        "price": 2250.0,
+        "initial_price": 2000.0,
+        "general": 700.0,
+        "designer": 850.0,
+        "rd": 800.0,
+        "previous_rd": 650.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-0674566aadcef903",
+        "country": "泰国",
+        "price": 1830.0,
+        "initial_price": 1800.0,
+        "general": 1150.0,
+        "designer": 1840.0,
+        "rd": 1000.0,
+        "previous_rd": 600.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-0674566aadcef903",
+        "country": "印尼",
+        "price": 2140.0,
+        "initial_price": 2000.0,
+        "general": 1150.0,
+        "designer": 1840.0,
+        "rd": 1000.0,
+        "previous_rd": 600.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-47116eac50536c21",
+        "country": "泰国",
+        "price": 1850.0,
+        "initial_price": 1800.0,
+        "general": 1500.0,
+        "designer": 1300.0,
+        "rd": 800.0,
+        "previous_rd": 600.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-47116eac50536c21",
+        "country": "印尼",
+        "price": 2100.0,
+        "initial_price": 2000.0,
+        "general": 1500.0,
+        "designer": 1300.0,
+        "rd": 800.0,
+        "previous_rd": 600.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-50c5056c615383d9",
+        "country": "泰国",
+        "price": 1850.0,
+        "initial_price": 1800.0,
+        "general": 2000.0,
+        "designer": 2500.0,
+        "rd": 1350.0,
+        "previous_rd": 800.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-50c5056c615383d9",
+        "country": "印尼",
+        "price": 2250.0,
+        "initial_price": 2000.0,
+        "general": 2000.0,
+        "designer": 2500.0,
+        "rd": 1350.0,
+        "previous_rd": 800.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-523d8923a7806a12",
+        "country": "泰国",
+        "price": 1990.0,
+        "initial_price": 1800.0,
+        "general": 1995.0,
+        "designer": 4300.0,
+        "rd": 1638.0,
+        "previous_rd": 1350.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-523d8923a7806a12",
+        "country": "印尼",
+        "price": 2200.0,
+        "initial_price": 2000.0,
+        "general": 1995.0,
+        "designer": 4300.0,
+        "rd": 1638.0,
+        "previous_rd": 1350.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-7a7556b4aa6f461d",
+        "country": "泰国",
+        "price": 1850.0,
+        "initial_price": 1800.0,
+        "general": 1700.0,
+        "designer": 2750.0,
+        "rd": 1400.0,
+        "previous_rd": 1200.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-7a7556b4aa6f461d",
+        "country": "印尼",
+        "price": 2160.0,
+        "initial_price": 2000.0,
+        "general": 1700.0,
+        "designer": 2750.0,
+        "rd": 1400.0,
+        "previous_rd": 1200.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-83b2f0f59fe65e7b",
+        "country": "泰国",
+        "price": 1800.0,
+        "initial_price": 1800.0,
+        "general": 850.0,
+        "designer": 1350.0,
+        "rd": 550.0,
+        "previous_rd": 550.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-83b2f0f59fe65e7b",
+        "country": "印尼",
+        "price": 2150.0,
+        "initial_price": 2000.0,
+        "general": 850.0,
+        "designer": 1350.0,
+        "rd": 550.0,
+        "previous_rd": 550.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-9c64541246150811",
+        "country": "泰国",
+        "price": 1900.0,
+        "initial_price": 1800.0,
+        "general": 1900.0,
+        "designer": 1800.0,
+        "rd": 2000.0,
+        "previous_rd": 1000.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-9c64541246150811",
+        "country": "印尼",
+        "price": 2250.0,
+        "initial_price": 2000.0,
+        "general": 1900.0,
+        "designer": 1800.0,
+        "rd": 2000.0,
+        "previous_rd": 1000.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-beb028ec87fa6a6e",
+        "country": "泰国",
+        "price": 3500.0,
+        "initial_price": 1800.0,
+        "general": 900.0,
+        "designer": 750.0,
+        "rd": 800.0,
+        "previous_rd": 600.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-beb028ec87fa6a6e",
+        "country": "印尼",
+        "price": 2500.0,
+        "initial_price": 2000.0,
+        "general": 900.0,
+        "designer": 750.0,
+        "rd": 800.0,
+        "previous_rd": 600.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-cf49b104531d4b54",
+        "country": "泰国",
+        "price": 1930.0,
+        "initial_price": 1800.0,
+        "general": 860.0,
+        "designer": 1210.0,
+        "rd": 900.0,
+        "previous_rd": 800.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-cf49b104531d4b54",
+        "country": "印尼",
+        "price": 2250.0,
+        "initial_price": 2000.0,
+        "general": 860.0,
+        "designer": 1210.0,
+        "rd": 900.0,
+        "previous_rd": 800.0,
+        "round": 3,
+        "product": "复合梁"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-05014677bb16a61e",
+        "country": "泰国",
+        "price": 29.25,
+        "initial_price": 27.0,
+        "general": 700.0,
+        "designer": 850.0,
+        "rd": 800.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-05014677bb16a61e",
+        "country": "印尼",
+        "price": 30.375,
+        "initial_price": 27.0,
+        "general": 700.0,
+        "designer": 850.0,
+        "rd": 800.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-0674566aadcef903",
+        "country": "泰国",
+        "price": 27.45,
+        "initial_price": 27.0,
+        "general": 1150.0,
+        "designer": 1840.0,
+        "rd": 1000.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-0674566aadcef903",
+        "country": "印尼",
+        "price": 28.89,
+        "initial_price": 27.0,
+        "general": 1150.0,
+        "designer": 1840.0,
+        "rd": 1000.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-47116eac50536c21",
+        "country": "泰国",
+        "price": 27.75,
+        "initial_price": 27.0,
+        "general": 1500.0,
+        "designer": 1300.0,
+        "rd": 800.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-47116eac50536c21",
+        "country": "印尼",
+        "price": 28.35,
+        "initial_price": 27.0,
+        "general": 1500.0,
+        "designer": 1300.0,
+        "rd": 800.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-50c5056c615383d9",
+        "country": "泰国",
+        "price": 27.75,
+        "initial_price": 27.0,
+        "general": 2000.0,
+        "designer": 2500.0,
+        "rd": 1350.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-50c5056c615383d9",
+        "country": "印尼",
+        "price": 30.375,
+        "initial_price": 27.0,
+        "general": 2000.0,
+        "designer": 2500.0,
+        "rd": 1350.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-523d8923a7806a12",
+        "country": "泰国",
+        "price": 29.85,
+        "initial_price": 27.0,
+        "general": 1995.0,
+        "designer": 4300.0,
+        "rd": 1600.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-523d8923a7806a12",
+        "country": "印尼",
+        "price": 29.7,
+        "initial_price": 27.0,
+        "general": 1995.0,
+        "designer": 4300.0,
+        "rd": 1600.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-7a7556b4aa6f461d",
+        "country": "泰国",
+        "price": 27.75,
+        "initial_price": 27.0,
+        "general": 1700.0,
+        "designer": 2750.0,
+        "rd": 1400.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-7a7556b4aa6f461d",
+        "country": "印尼",
+        "price": 29.16,
+        "initial_price": 27.0,
+        "general": 1700.0,
+        "designer": 2750.0,
+        "rd": 1400.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-83b2f0f59fe65e7b",
+        "country": "泰国",
+        "price": 27.0,
+        "initial_price": 27.0,
+        "general": 850.0,
+        "designer": 1350.0,
+        "rd": 550.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-83b2f0f59fe65e7b",
+        "country": "印尼",
+        "price": 29.025,
+        "initial_price": 27.0,
+        "general": 850.0,
+        "designer": 1350.0,
+        "rd": 550.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-9c64541246150811",
+        "country": "泰国",
+        "price": 28.5,
+        "initial_price": 27.0,
+        "general": 1900.0,
+        "designer": 1800.0,
+        "rd": 1600.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-9c64541246150811",
+        "country": "印尼",
+        "price": 30.375,
+        "initial_price": 27.0,
+        "general": 1900.0,
+        "designer": 1800.0,
+        "rd": 1600.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-beb028ec87fa6a6e",
+        "country": "泰国",
+        "price": 52.5,
+        "initial_price": 27.0,
+        "general": 900.0,
+        "designer": 750.0,
+        "rd": 800.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-beb028ec87fa6a6e",
+        "country": "印尼",
+        "price": 33.75,
+        "initial_price": 27.0,
+        "general": 900.0,
+        "designer": 750.0,
+        "rd": 800.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-cf49b104531d4b54",
+        "country": "泰国",
+        "price": 28.95,
+        "initial_price": 27.0,
+        "general": 860.0,
+        "designer": 1210.0,
+        "rd": 900.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      },
+      {
+        "market_id": 5,
+        "phase": "formal",
+        "team_id": "M05-cf49b104531d4b54",
+        "country": "印尼",
+        "price": 30.375,
+        "initial_price": 27.0,
+        "general": 860.0,
+        "designer": 1210.0,
+        "rd": 900.0,
+        "previous_rd": 0.0,
+        "round": 3,
+        "product": "连接件"
+      }
+    ],
+    "market_id": 5,
+    "team_id": "M05-05014677bb16a61e",
+    "market_totals_kunits": {
+      "5": {
+        "复合梁": {
+          "泰国": 55.37,
+          "印尼": 142.43
+        },
+        "连接件": {
+          "泰国": 250.0,
+          "印尼": 150.0
+        }
+      }
+    },
+    "production": {
+      "复合梁": {
+        "capacity": 21.5,
+        "efficiency": 0.17,
+        "material_cost": 1053.0,
+        "prices": {
+          "泰国": 1950.0,
+          "印尼": 2250.0
+        },
+        "transport_costs": {
+          "泰国": 30.0,
+          "印尼": 120.0
+        }
+      },
+      "连接件": {
+        "capacity": 80.0,
+        "efficiency": 17.0,
+        "material_cost": 14.2,
+        "prices": {
+          "泰国": 29.25,
+          "印尼": 30.375
+        },
+        "transport_costs": {
+          "泰国": 0.5,
+          "印尼": 2.0
+        }
+      }
+    },
+    "worker_limit": 100.0,
+    "wage_kusd": 30.0,
+    "shift_multipliers": [
+      1.0,
+      1.65,
+      2.56
+    ],
+    "connector_plan": {
+      "allocation_pct": 80.0,
+      "opening_inventory_kunits": 5.0,
+      "holding_cost_per_unit": 0.6,
+      "country_priority": [
+        "泰国",
+        "印尼"
+      ],
+      "lifecycle": {
+        "opening_inventory_book_value_kusd": 80.0,
+        "orders_due": [
+          {
+            "status": "CONFIRMED",
+            "quantity_kunits": 10.0,
+            "price": 25.0,
+            "advance_received_kusd": 25.0
+          }
+        ],
+        "orders_awarded": [
+          {
+            "status": "CONFIRMED",
+            "quantity_kunits": 20.0,
+            "price": 26.0,
+            "advance_received_kusd": 52.0
+          }
+        ],
+        "rd_kusd": 0.0,
+        "marketing_kusd": 0.0,
+        "attributed_operations_kusd": 0.0,
+        "investment_kunits": 20.0,
+        "investment_unit_cost": 1.1,
+        "capacity_decay_pct": 15.0,
+        "environment_per_unit": {
+          "production_co2_kg": 2.3,
+          "energy_kwh": 7.89,
+          "water_l": 18.56,
+          "domestic_transport_co2_g": 6.2,
+          "export_transport_co2_g": 74.5
+        }
+      }
+    },
+    "connector_rd_mode": "observed_sensitivity"
+  },
+  "tied_prediction": {
+    "version": "t3v1",
+    "demand_predictions": [
+      {
+        "market_id": 5,
+        "team_id": "M05-05014677bb16a61e",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.0760030513754571,
+        "demand_kunits": 4.208288954659059,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-0674566aadcef903",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.11565607155960132,
+        "demand_kunits": 6.403876682255125,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-47116eac50536c21",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.10876435966423165,
+        "demand_kunits": 6.022282594608506,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-50c5056c615383d9",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.13417180158074826,
+        "demand_kunits": 7.429092653526031,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-523d8923a7806a12",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.11653177683279115,
+        "demand_kunits": 6.452364483231645,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-7a7556b4aa6f461d",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.1332543700358736,
+        "demand_kunits": 7.37829446888632,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-83b2f0f59fe65e7b",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.10551697254654703,
+        "demand_kunits": 5.842474769902309,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-9c64541246150811",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.11989860410324459,
+        "demand_kunits": 6.638785709196652,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-beb028ec87fa6a6e",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.004403059913465975,
+        "demand_kunits": 0.24379742740861102,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-cf49b104531d4b54",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.08579993238803935,
+        "demand_kunits": 4.750742256325738,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-05014677bb16a61e",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.07842401571561457,
+        "demand_kunits": 11.169932558374983,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-0674566aadcef903",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.10348789686749238,
+        "demand_kunits": 14.73978115083694,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-47116eac50536c21",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.1035210169099843,
+        "demand_kunits": 14.744498438489066,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-50c5056c615383d9",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.11169028129462795,
+        "demand_kunits": 15.908046764793859,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-523d8923a7806a12",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.13330658733519507,
+        "demand_kunits": 18.986857234151834,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-7a7556b4aa6f461d",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.12085085920462883,
+        "demand_kunits": 17.212787876515286,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-83b2f0f59fe65e7b",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.08996663832073301,
+        "demand_kunits": 12.813948296022003,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-9c64541246150811",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.1080269262896403,
+        "demand_kunits": 15.386275111433468,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-beb028ec87fa6a6e",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.06547258217536274,
+        "demand_kunits": 9.325259879236915,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-cf49b104531d4b54",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.0852531958867209,
+        "demand_kunits": 12.142612690145658,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-05014677bb16a61e",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.07613693767419498,
+        "demand_kunits": 19.034234418548746,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-0674566aadcef903",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.11648603181885789,
+        "demand_kunits": 29.12150795471447,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-47116eac50536c21",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.10912547559318057,
+        "demand_kunits": 27.281368898295142,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-50c5056c615383d9",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.13516397057316665,
+        "demand_kunits": 33.79099264329166,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-523d8923a7806a12",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.11638860130332207,
+        "demand_kunits": 29.09715032583052,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-7a7556b4aa6f461d",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.13335154071784602,
+        "demand_kunits": 33.33788517946151,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-83b2f0f59fe65e7b",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.1052182261110003,
+        "demand_kunits": 26.304556527750076,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-9c64541246150811",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.11792002979258605,
+        "demand_kunits": 29.480007448146512,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-beb028ec87fa6a6e",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.004417678811382328,
+        "demand_kunits": 1.104419702845582,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-cf49b104531d4b54",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.0857915076044631,
+        "demand_kunits": 21.447876901115773,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-05014677bb16a61e",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.07844920678213628,
+        "demand_kunits": 11.767381017320442,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-0674566aadcef903",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.10430913646166633,
+        "demand_kunits": 15.646370469249948,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-47116eac50536c21",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.10377824006156647,
+        "demand_kunits": 15.56673600923497,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-50c5056c615383d9",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.11261184457821115,
+        "demand_kunits": 16.89177668673167,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-523d8923a7806a12",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.13301278562304722,
+        "demand_kunits": 19.951917843457082,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-7a7556b4aa6f461d",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.12071881033817186,
+        "demand_kunits": 18.10782155072578,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-83b2f0f59fe65e7b",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.08943232865526912,
+        "demand_kunits": 13.414849298290369,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-9c64541246150811",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.1069893652915531,
+        "demand_kunits": 16.048404793732967,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-beb028ec87fa6a6e",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.06563526473424845,
+        "demand_kunits": 9.845289710137267,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-cf49b104531d4b54",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.08506301747412989,
+        "demand_kunits": 12.759452621119484,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      }
+    ],
+    "allocation": {
+      "model": "JOINT_ALLOCATION_CONNECTOR_LIFECYCLE_V2",
+      "products": {
+        "复合梁": {
+          "production_kunits": 15.378221513034042,
+          "sales_kunits": {
+            "泰国": 4.208288954659059,
+            "印尼": 11.169932558374983
+          },
+          "unmet_demand_kunits": {
+            "泰国": 0.0,
+            "印尼": 0.0
+          },
+          "capacity_allocation_pct": 71.52661168853042,
+          "workers": 90.46012654725907,
+          "shift_production_kunits": [
+            7.166666666666667,
+            7.166666666666667,
+            1.044888179700708
+          ],
+          "payroll_kusd": 3823.5141894177314,
+          "quantity_mix_pct": 19.37335105260441,
+          "labor_mix_pct": 96.00455019629219,
+          "production_strategy": "DEMAND_DRIVEN"
+        },
+        "连接件": {
+          "production_strategy": "FREE_PRODUCTION_FIXED_PLAN",
+          "production_kunits": 64.0,
+          "capacity_allocation_pct": 80.0,
+          "workers": 3.764705882352941,
+          "shift_production_kunits": [
+            26.666666666666668,
+            26.666666666666668,
+            10.666666666666664
+          ],
+          "payroll_kusd": 172.8941176470588,
+          "material_expenditure_kusd": 908.8,
+          "production_expenditure_kusd": 1081.6941176470586,
+          "sales_kunits": {
+            "泰国": 19.034234418548746,
+            "印尼": 11.767381017320442
+          },
+          "sales_revenue_kusd": 914.1855551436593,
+          "transport_expenditure_kusd": 33.05187924391526,
+          "opening_inventory_kunits": 5.0,
+          "closing_inventory_kunits": 28.19838456413081,
+          "inventory_holding_kusd": 16.919030738478483,
+          "unmet_demand_kunits": {
+            "泰国": 0.0,
+            "印尼": 0.0
+          },
+          "next_state": {
+            "opening_inventory_kunits": 28.19838456413081,
+            "opening_inventory_book_value_kusd": 474.75213732319384,
+            "orders_due": [
+              {
+                "status": "CONFIRMED",
+                "quantity_kunits": 20.0,
+                "price": 26.0,
+                "advance_received_kusd": 52.0
+              }
+            ],
+            "capacity_kunits": 88.0,
+            "previous_rd_kusd": 0.0
+          },
+          "contribution_kusd": 32.520527514206755,
+          "inventory_book_value_kusd": 474.75213732319384,
+          "actual_validation": false,
+          "scope": "确认订单优先交付/余款与预收；加权平均库存计价情景；经营贡献不含折旧、税、利息、共享固定费；投资下期生效假设；非完整现金流",
+          "path_version": "CONNECTOR_LIFECYCLE_V2",
+          "orders_delivered_kunits": 10.0,
+          "order_revenue_kusd": 250.0,
+          "order_balance_due_kusd": 225.0,
+          "new_order_advances_received_kusd": 52.0,
+          "closing_contract_liability_kusd": 52.0,
+          "orders_due_next_round": [
+            {
+              "status": "CONFIRMED",
+              "quantity_kunits": 20.0,
+              "price": 26.0,
+              "advance_received_kusd": 52.0
+            }
+          ],
+          "valuation_method": "WEIGHTED_AVERAGE_SCENARIO",
+          "cost_of_goods_sold_kusd": 686.9419803238646,
+          "attributed_expenses_kusd": 0.0,
+          "operating_contribution_kusd": 427.27266483740084,
+          "investment_expenditure_kusd": 22.0,
+          "next_capacity_kunits": 88.0,
+          "order_cash_movement_kusd": 277.0,
+          "cash_collection_assumption": "到期订单余款按交付当期收取；零售回款及支付时点未建模",
+          "environment": {
+            "production_co2_kg": 147200.0,
+            "energy_kwh": 504960.0,
+            "water_l": 1187840.0,
+            "retail_transport_co2_kg": 994.6821391853751,
+            "scope": "生产按产量、零售运输按交付量；大客户运输环境影响未知"
+          },
+          "quantity_mix_pct": 80.62664894739558,
+          "labor_mix_pct": 3.9954498037078046
+        }
+      },
+      "total_workers": 94.22483242961201,
+      "total_production_kunits": 79.37822151303405,
+      "contribution_kusd": 11887.61022715574,
+      "objective": "连接件固定自由生产计划占用用工后，优化复合梁当期贡献",
+      "scope": "连接件库存计价情景/确认订单/费用/下期产能已连接；合计仍为资源贡献，非会计净利润；复合梁维持原限定范围",
+      "dedicated_capacity": true,
+      "shared_worker_limit": 100.0,
+      "actual_validation": false,
+      "automatic_deployment": false,
+      "next_state": {
+        "连接件": {
+          "opening_inventory_kunits": 28.19838456413081,
+          "opening_inventory_book_value_kusd": 474.75213732319384,
+          "orders_due": [
+            {
+              "status": "CONFIRMED",
+              "quantity_kunits": 20.0,
+              "price": 26.0,
+              "advance_received_kusd": 52.0
+            }
+          ],
+          "capacity_kunits": 88.0,
+          "previous_rd_kusd": 0.0
+        }
+      },
+      "connector_plan_optimized": false
+    }
+  },
+  "prediction": {
+    "version": "t3v1",
+    "demand_predictions": [
+      {
+        "market_id": 5,
+        "team_id": "M05-05014677bb16a61e",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.0760030513754571,
+        "demand_kunits": 4.208288954659059,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-0674566aadcef903",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.11565607155960132,
+        "demand_kunits": 6.403876682255125,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-47116eac50536c21",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.10876435966423165,
+        "demand_kunits": 6.022282594608506,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-50c5056c615383d9",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.13417180158074826,
+        "demand_kunits": 7.429092653526031,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-523d8923a7806a12",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.11653177683279115,
+        "demand_kunits": 6.452364483231645,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-7a7556b4aa6f461d",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.1332543700358736,
+        "demand_kunits": 7.37829446888632,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-83b2f0f59fe65e7b",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.10551697254654703,
+        "demand_kunits": 5.842474769902309,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-9c64541246150811",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.11989860410324459,
+        "demand_kunits": 6.638785709196652,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-beb028ec87fa6a6e",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.004403059913465975,
+        "demand_kunits": 0.24379742740861102,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-cf49b104531d4b54",
+        "product": "复合梁",
+        "country": "泰国",
+        "predicted_share": 0.08579993238803935,
+        "demand_kunits": 4.750742256325738,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-05014677bb16a61e",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.07842401571561457,
+        "demand_kunits": 11.169932558374983,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-0674566aadcef903",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.10348789686749238,
+        "demand_kunits": 14.73978115083694,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-47116eac50536c21",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.1035210169099843,
+        "demand_kunits": 14.744498438489066,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-50c5056c615383d9",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.11169028129462795,
+        "demand_kunits": 15.908046764793859,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-523d8923a7806a12",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.13330658733519507,
+        "demand_kunits": 18.986857234151834,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-7a7556b4aa6f461d",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.12085085920462883,
+        "demand_kunits": 17.212787876515286,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-83b2f0f59fe65e7b",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.08996663832073301,
+        "demand_kunits": 12.813948296022003,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-9c64541246150811",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.1080269262896403,
+        "demand_kunits": 15.386275111433468,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-beb028ec87fa6a6e",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.06547258217536274,
+        "demand_kunits": 9.325259879236915,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-cf49b104531d4b54",
+        "product": "复合梁",
+        "country": "印尼",
+        "predicted_share": 0.0852531958867209,
+        "demand_kunits": 12.142612690145658,
+        "basis": "ASSUMED_PRODUCT_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-05014677bb16a61e",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.07612789149895426,
+        "demand_kunits": 19.031972874738564,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-0674566aadcef903",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.11647865641702952,
+        "demand_kunits": 29.11966410425738,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-47116eac50536c21",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.10911250989997567,
+        "demand_kunits": 27.27812747499392,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-50c5056c615383d9",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.13517181731817,
+        "demand_kunits": 33.792954329542496,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-523d8923a7806a12",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.11640611352314457,
+        "demand_kunits": 29.101528380786142,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-7a7556b4aa6f461d",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.13336172858074966,
+        "demand_kunits": 33.340432145187414,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-83b2f0f59fe65e7b",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.10520284510972154,
+        "demand_kunits": 26.300711277430384,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-9c64541246150811",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.11793777243628208,
+        "demand_kunits": 29.48444310907052,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-beb028ec87fa6a6e",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.004417153926905677,
+        "demand_kunits": 1.1042884817264194,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-cf49b104531d4b54",
+        "product": "连接件",
+        "country": "泰国",
+        "predicted_share": 0.08578351128906678,
+        "demand_kunits": 21.445877822266695,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-05014677bb16a61e",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.0784419950373176,
+        "demand_kunits": 11.76629925559764,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-0674566aadcef903",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.1043042309394467,
+        "demand_kunits": 15.645634640917004,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-47116eac50536c21",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.10376869984802248,
+        "demand_kunits": 15.565304977203372,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-50c5056c615383d9",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.11261760591150602,
+        "demand_kunits": 16.892640886725903,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-523d8923a7806a12",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.1330295346574547,
+        "demand_kunits": 19.954430198618205,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-7a7556b4aa6f461d",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.12072677804498681,
+        "demand_kunits": 18.109016706748022,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-83b2f0f59fe65e7b",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.08942212710693635,
+        "demand_kunits": 13.413319066040453,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-9c64541246150811",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.10700283744426466,
+        "demand_kunits": 16.0504256166397,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-beb028ec87fa6a6e",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.06562923096029731,
+        "demand_kunits": 9.844384644044597,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      },
+      {
+        "market_id": 5,
+        "team_id": "M05-cf49b104531d4b54",
+        "product": "连接件",
+        "country": "印尼",
+        "predicted_share": 0.08505696004976745,
+        "demand_kunits": 12.758544007465119,
+        "basis": "OBSERVED_RD_WITH_ASSUMED_BEHAVIOR_TRANSFER"
+      }
+    ],
+    "allocation": {
+      "model": "JOINT_ALLOCATION_CONNECTOR_LIFECYCLE_V2",
+      "products": {
+        "复合梁": {
+          "production_kunits": 15.378221513034042,
+          "sales_kunits": {
+            "泰国": 4.208288954659059,
+            "印尼": 11.169932558374983
+          },
+          "unmet_demand_kunits": {
+            "泰国": 0.0,
+            "印尼": 0.0
+          },
+          "capacity_allocation_pct": 71.52661168853042,
+          "workers": 90.46012654725907,
+          "shift_production_kunits": [
+            7.166666666666667,
+            7.166666666666667,
+            1.044888179700708
+          ],
+          "payroll_kusd": 3823.5141894177314,
+          "quantity_mix_pct": 19.37335105260441,
+          "labor_mix_pct": 96.00455019629219,
+          "production_strategy": "DEMAND_DRIVEN"
+        },
+        "连接件": {
+          "production_strategy": "FREE_PRODUCTION_FIXED_PLAN",
+          "production_kunits": 64.0,
+          "capacity_allocation_pct": 80.0,
+          "workers": 3.764705882352941,
+          "shift_production_kunits": [
+            26.666666666666668,
+            26.666666666666668,
+            10.666666666666664
+          ],
+          "payroll_kusd": 172.8941176470588,
+          "material_expenditure_kusd": 908.8,
+          "production_expenditure_kusd": 1081.6941176470586,
+          "sales_kunits": {
+            "泰国": 19.031972874738564,
+            "印尼": 11.76629925559764
+          },
+          "sales_revenue_kusd": 914.0865464748813,
+          "transport_expenditure_kusd": 33.04858494856456,
+          "opening_inventory_kunits": 5.0,
+          "closing_inventory_kunits": 28.2017278696638,
+          "inventory_holding_kusd": 16.921036721798277,
+          "unmet_demand_kunits": {
+            "泰国": 0.0,
+            "印尼": 0.0
+          },
+          "next_state": {
+            "opening_inventory_kunits": 28.2017278696638,
+            "opening_inventory_book_value_kusd": 474.80842570538476,
+            "orders_due": [
+              {
+                "status": "CONFIRMED",
+                "quantity_kunits": 20.0,
+                "price": 26.0,
+                "advance_received_kusd": 52.0
+              }
+            ],
+            "capacity_kunits": 88.0,
+            "previous_rd_kusd": 0.0
+          },
+          "contribution_kusd": 32.42280715745969,
+          "inventory_book_value_kusd": 474.80842570538476,
+          "actual_validation": false,
+          "scope": "确认订单优先交付/余款与预收；加权平均库存计价情景；经营贡献不含折旧、税、利息、共享固定费；投资下期生效假设；非完整现金流",
+          "path_version": "CONNECTOR_LIFECYCLE_V2",
+          "orders_delivered_kunits": 10.0,
+          "order_revenue_kusd": 250.0,
+          "order_balance_due_kusd": 225.0,
+          "new_order_advances_received_kusd": 52.0,
+          "closing_contract_liability_kusd": 52.0,
+          "orders_due_next_round": [
+            {
+              "status": "CONFIRMED",
+              "quantity_kunits": 20.0,
+              "price": 26.0,
+              "advance_received_kusd": 52.0
+            }
+          ],
+          "valuation_method": "WEIGHTED_AVERAGE_SCENARIO",
+          "cost_of_goods_sold_kusd": 686.8856919416738,
+          "attributed_expenses_kusd": 0.0,
+          "operating_contribution_kusd": 427.23123286284465,
+          "investment_expenditure_kusd": 22.0,
+          "next_capacity_kunits": 88.0,
+          "order_cash_movement_kusd": 277.0,
+          "cash_collection_assumption": "到期订单余款按交付当期收取；零售回款及支付时点未建模",
+          "environment": {
+            "production_co2_kg": 147200.0,
+            "energy_kwh": 504960.0,
+            "water_l": 1187840.0,
+            "retail_transport_co2_kg": 994.5875263654033,
+            "scope": "生产按产量、零售运输按交付量；大客户运输环境影响未知"
+          },
+          "quantity_mix_pct": 80.62664894739558,
+          "labor_mix_pct": 3.9954498037078046
+        }
+      },
+      "total_workers": 94.22483242961201,
+      "total_production_kunits": 79.37822151303405,
+      "contribution_kusd": 11887.512506798992,
+      "objective": "连接件固定自由生产计划占用用工后，优化复合梁当期贡献",
+      "scope": "连接件库存计价情景/确认订单/费用/下期产能已连接；合计仍为资源贡献，非会计净利润；复合梁维持原限定范围",
+      "dedicated_capacity": true,
+      "shared_worker_limit": 100.0,
+      "actual_validation": false,
+      "automatic_deployment": false,
+      "next_state": {
+        "连接件": {
+          "opening_inventory_kunits": 28.2017278696638,
+          "opening_inventory_book_value_kusd": 474.80842570538476,
+          "orders_due": [
+            {
+              "status": "CONFIRMED",
+              "quantity_kunits": 20.0,
+              "price": 26.0,
+              "advance_received_kusd": 52.0
+            }
+          ],
+          "capacity_kunits": 88.0,
+          "previous_rd_kusd": 0.0
+        }
+      },
+      "connector_plan_optimized": false
+    }
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "phase": "practice",
+    "round": 1,
+    "values": {
+      "base_wage": 28.0,
+      "second_shift": 1.65,
+      "third_shift": 2.56,
+      "attrition": 0.1,
+      "severance_ratio": 0.35
+    },
+    "source": "raw/20261011_practice1_outlook.json",
+    "source_market": 5,
+    "sharing": "用户同期共享假设；非已证平台跨市场规则"
+  },
+  {
+    "phase": "practice",
+    "round": 2,
+    "values": {
+      "base_wage": 28.0,
+      "second_shift": 1.65,
+      "third_shift": 2.56,
+      "attrition": 0.1,
+      "severance_ratio": 0.35
+    },
+    "source": "raw/20261011_practice2_outlook.json",
+    "source_market": 5,
+    "sharing": "用户同期共享假设；非已证平台跨市场规则"
+  },
+  {
+    "phase": "formal",
+    "round": 1,
+    "values": {
+      "base_wage": 28.0,
+      "second_shift": 1.65,
+      "third_shift": 2.56,
+      "attrition": 0.1,
+      "severance_ratio": 0.35
+    },
+    "source": "raw/20261011_model_v2_round1_outlook.json",
+    "source_market": 5,
+    "sharing": "用户同期共享假设；非已证平台跨市场规则"
+  },
+  {
+    "phase": "formal",
+    "round": 2,
+    "values": {
+      "base_wage": 28.0,
+      "second_shift": 1.65,
+      "third_shift": 2.56,
+      "attrition": 0.1,
+      "severance_ratio": 0.35
+    },
+    "source": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
+    "source_market": 5,
+    "sharing": "用户同期共享假设；非已证平台跨市场规则"
+  }
+]

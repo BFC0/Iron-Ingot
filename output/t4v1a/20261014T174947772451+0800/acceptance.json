@@ -1,0 +1,35 @@
+{
+  "rate_shift_and_invalid_state_and_power_rejection": true,
+  "curve_context_zero_boundary_extrapolation_and_no_history_duplication": true,
+  "wage_increase_shift_boundaries_workers_and_severance": true,
+  "connector_existing_rules": {
+    "overproduction_inventory": true,
+    "two_round_carryover": true,
+    "payroll_and_materials_on_production": true,
+    "priority": true,
+    "zero_capacity": true,
+    "invalid_plan_rejected": true
+  },
+  "horizon_unknown_not_zero": {
+    "six_start_rounds": true,
+    "unknown_profit_not_zero": true,
+    "round7_and_missing_or_duplicate_rejected": true,
+    "terminal_state_preserved": true,
+    "terminal_reward_not_invented": true
+  },
+  "order_advance_revenue_balance_and_tender_rejection": true,
+  "training_guard_rejects_fit": true,
+  "incomplete_competition_rejected_without_renormalization": true,
+  "no_training_or_selection_calls": true,
+  "unchanged_fitted_parameters": true,
+  "frozen_demand_replay_records": 752,
+  "nested_saved_prediction_metrics_verified": true,
+  "saved_efficiency_holdout_predictions_replayed": true,
+  "share_and_market_total_conservation": true,
+  "formal4_curve_parameters_unchanged": true,
+  "history_condition_1000_400_600_verified": true,
+  "original_archived_rate_parameters_replayed": true,
+  "unknown_profit_and_horizon_not_ranked": true,
+  "source_and_original_archives_unchanged": true,
+  "report_table_numbers_match_json": true
+}

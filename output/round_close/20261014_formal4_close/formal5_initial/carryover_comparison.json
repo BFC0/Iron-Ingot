@@ -1,0 +1,416 @@
+[
+  {
+    "metric": "复合梁期初库存数量",
+    "unit": "千单位",
+    "formal4_ending": {
+      "value": 0.0,
+      "display": "0.00",
+      "label": "复合梁",
+      "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_marketdetails.json",
+      "sha256": "29cbc836da5c20ce8b8f893486d18f72f000aeb4e42cbbcccadf7d7606505aec",
+      "table": 0,
+      "row": 44,
+      "column": 6,
+      "indexing": "zero_based",
+      "category": "FORMAL4_ACTUAL_ENDING_STATE"
+    },
+    "formal5_opening": {
+      "display": "0.00",
+      "value": 0.0,
+      "source_path": "output/round_close/20261014_formal4_close/raw/own_formal5_logistics.json",
+      "sha256": "fbe91e302e5be810222b228274c0dade13c84cea1b06b22c9a2a823b6c23257f",
+      "table": 1,
+      "row": 9,
+      "column": 1,
+      "indexing": "zero_based",
+      "category": "EXPLICIT_OPENING_INVENTORY"
+    },
+    "status": "MATCHED_EXPLICIT_OPENING_INVENTORY",
+    "note": "期初库存栏，保持产品与生产国泰国；不能把库存数量当账面价值"
+  },
+  {
+    "metric": "连接件期初库存数量",
+    "unit": "千单位",
+    "formal4_ending": {
+      "value": 202.4,
+      "display": "202.40",
+      "label": "连接件",
+      "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_marketdetails.json",
+      "sha256": "29cbc836da5c20ce8b8f893486d18f72f000aeb4e42cbbcccadf7d7606505aec",
+      "table": 0,
+      "row": 45,
+      "column": 6,
+      "indexing": "zero_based",
+      "category": "FORMAL4_ACTUAL_ENDING_STATE"
+    },
+    "formal5_opening": {
+      "display": "202.40",
+      "value": 202.4,
+      "source_path": "output/round_close/20261014_formal4_close/raw/own_formal5_logistics.json",
+      "sha256": "fbe91e302e5be810222b228274c0dade13c84cea1b06b22c9a2a823b6c23257f",
+      "table": 2,
+      "row": 9,
+      "column": 1,
+      "indexing": "zero_based",
+      "category": "EXPLICIT_OPENING_INVENTORY"
+    },
+    "status": "MATCHED_EXPLICIT_OPENING_INVENTORY",
+    "note": "期初库存栏，保持产品与生产国泰国；不能把库存数量当账面价值"
+  },
+  {
+    "metric": "长期贷款",
+    "unit": "千美元",
+    "formal4_ending": {
+      "value": 10200.0,
+      "display": "10 200",
+      "label": "长期贷款",
+      "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_balancesheet.json",
+      "sha256": "9d5ea3093befdcee95da85515b0d8f33df400207cdfd0bb79c9eb92a7ab619f6",
+      "table": 0,
+      "row": 30,
+      "column": 6,
+      "indexing": "zero_based",
+      "category": "FORMAL4_ACTUAL_ENDING_STATE"
+    },
+    "formal5_opening": {
+      "display": "10 200",
+      "value": 10200.0,
+      "source_path": "output/round_close/20261014_formal4_close/raw/own_formal5_corporate.json",
+      "sha256": "fe9e10aedd5fc9350b5cf8c0c87d0c00f47b28057eee210cc223068423b3b1f5",
+      "table": 1,
+      "row": 5,
+      "column": 2,
+      "indexing": "zero_based",
+      "category": "FORMAL4_LAST_YEAR_DEBT_REFERENCE"
+    },
+    "status": "MATCHED_LAST_YEAR_DEBT_REFERENCE",
+    "note": "去年长期贷款与正式4期末一致；今年长期贷款10200且本人贷款变化0，仅为当前输入条件下投影，不把草稿称最终方案"
+  },
+  {
+    "metric": "复合梁机器可用产能",
+    "unit": "千单位",
+    "formal4_ending": {
+      "value": 49.03,
+      "display": "49.03",
+      "label": "机器产能, 复合梁, 千单位",
+      "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_productiondetails.json",
+      "sha256": "f769e7bc1772cef61d12e54bc5f3dbd236ef6923fffe9c41013cf5b089fe8191",
+      "table": 0,
+      "row": 2,
+      "column": 6,
+      "indexing": "zero_based",
+      "category": "FORMAL4_ACTUAL_ENDING_STATE"
+    },
+    "formal5_opening": {
+      "display": "41.67",
+      "value": 41.67,
+      "source_path": "output/round_close/20261014_formal4_close/raw/own_formal5_productioninvestments.json",
+      "sha256": "2b53cd685a70edec6475c447fd8ed5669d78e2fc4fd8910b140d68e345b18eec",
+      "table": 3,
+      "row": 3,
+      "column": 2,
+      "indexing": "zero_based",
+      "category": "CURRENT_ZERO_PERSONAL_INVESTMENT_CAPACITY_PROJECTION"
+    },
+    "status": "MATCHED_CONDITIONAL_15_PERCENT_CAPACITY_DECAY",
+    "note": "正式5公布年产能下降15%，个人机器投资0；当前容量投影与上期容量衰减相容，不能重复加入正式4投资，也不能泛化投资生效时点"
+  },
+  {
+    "metric": "连接件机器可用产能",
+    "unit": "千单位",
+    "formal4_ending": {
+      "value": 485.0,
+      "display": "485.00",
+      "label": "机器产能, 连接件, 千单位",
+      "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_productiondetails.json",
+      "sha256": "f769e7bc1772cef61d12e54bc5f3dbd236ef6923fffe9c41013cf5b089fe8191",
+      "table": 0,
+      "row": 3,
+      "column": 6,
+      "indexing": "zero_based",
+      "category": "FORMAL4_ACTUAL_ENDING_STATE"
+    },
+    "formal5_opening": {
+      "display": "412.25",
+      "value": 412.25,
+      "source_path": "output/round_close/20261014_formal4_close/raw/own_formal5_productioninvestments.json",
+      "sha256": "2b53cd685a70edec6475c447fd8ed5669d78e2fc4fd8910b140d68e345b18eec",
+      "table": 3,
+      "row": 4,
+      "column": 2,
+      "indexing": "zero_based",
+      "category": "CURRENT_ZERO_PERSONAL_INVESTMENT_CAPACITY_PROJECTION"
+    },
+    "status": "MATCHED_CONDITIONAL_15_PERCENT_CAPACITY_DECAY",
+    "note": "正式5公布年产能下降15%，个人机器投资0；当前容量投影与上期容量衰减相容，不能重复加入正式4投资，也不能泛化投资生效时点"
+  },
+  {
+    "metric": "现金及现金等价物",
+    "unit": "千美元",
+    "formal4_ending": {
+      "value": 12202.0,
+      "display": "12 202",
+      "label": "现金及现金等价物",
+      "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_balancesheet.json",
+      "sha256": "9d5ea3093befdcee95da85515b0d8f33df400207cdfd0bb79c9eb92a7ab619f6",
+      "table": 0,
+      "row": 17,
+      "column": 6,
+      "indexing": "zero_based",
+      "category": "FORMAL4_ACTUAL_ENDING_STATE"
+    },
+    "formal5_opening": null,
+    "status": "UNKNOWN_NO_IDENTICAL_OPENING_FIELD",
+    "note": "已知正式4期末余额；当前正式5个人预算期末值不是独立期初余额，未发现同口径期初披露"
+  },
+  {
+    "metric": "短期贷款",
+    "unit": "千美元",
+    "formal4_ending": {
+      "value": 0.0,
+      "display": "0",
+      "label": "短期贷款",
+      "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_balancesheet.json",
+      "sha256": "9d5ea3093befdcee95da85515b0d8f33df400207cdfd0bb79c9eb92a7ab619f6",
+      "table": 0,
+      "row": 32,
+      "column": 6,
+      "indexing": "zero_based",
+      "category": "FORMAL4_ACTUAL_ENDING_STATE"
+    },
+    "formal5_opening": null,
+    "status": "UNKNOWN_NO_IDENTICAL_OPENING_FIELD",
+    "note": "已知正式4期末余额；当前正式5个人预算期末值不是独立期初余额，未发现同口径期初披露"
+  },
+  {
+    "metric": "机器账面价值",
+    "unit": "千美元",
+    "formal4_ending": {
+      "value": 7367.0,
+      "display": "7 367",
+      "label": "机器",
+      "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_balancesheet.json",
+      "sha256": "9d5ea3093befdcee95da85515b0d8f33df400207cdfd0bb79c9eb92a7ab619f6",
+      "table": 0,
+      "row": 12,
+      "column": 6,
+      "indexing": "zero_based",
+      "category": "FORMAL4_ACTUAL_ENDING_STATE"
+    },
+    "formal5_opening": null,
+    "status": "UNKNOWN_NO_IDENTICAL_OPENING_FIELD",
+    "note": "已知正式4期末余额；当前正式5个人预算期末值不是独立期初余额，未发现同口径期初披露"
+  },
+  {
+    "metric": "厂房账面价值",
+    "unit": "千美元",
+    "formal4_ending": {
+      "value": 12724.0,
+      "display": "12 724",
+      "label": "厂房",
+      "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_balancesheet.json",
+      "sha256": "9d5ea3093befdcee95da85515b0d8f33df400207cdfd0bb79c9eb92a7ab619f6",
+      "table": 0,
+      "row": 11,
+      "column": 6,
+      "indexing": "zero_based",
+      "category": "FORMAL4_ACTUAL_ENDING_STATE"
+    },
+    "formal5_opening": null,
+    "status": "UNKNOWN_NO_IDENTICAL_OPENING_FIELD",
+    "note": "已知正式4期末余额；当前正式5个人预算期末值不是独立期初余额，未发现同口径期初披露"
+  },
+  {
+    "metric": "库存账面价值",
+    "unit": "千美元",
+    "formal4_ending": {
+      "value": 3516.0,
+      "display": "3 516",
+      "label": "成品库存",
+      "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_balancesheet.json",
+      "sha256": "9d5ea3093befdcee95da85515b0d8f33df400207cdfd0bb79c9eb92a7ab619f6",
+      "table": 0,
+      "row": 15,
+      "column": 6,
+      "indexing": "zero_based",
+      "category": "FORMAL4_ACTUAL_ENDING_STATE"
+    },
+    "formal5_opening": null,
+    "status": "UNKNOWN_NO_IDENTICAL_OPENING_FIELD",
+    "note": "已知正式4期末余额；当前正式5个人预算期末值不是独立期初余额，未发现同口径期初披露"
+  },
+  {
+    "metric": "应收账款",
+    "unit": "千美元",
+    "formal4_ending": {
+      "value": 3361.0,
+      "display": "3 361",
+      "label": "应收帐款",
+      "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_balancesheet.json",
+      "sha256": "9d5ea3093befdcee95da85515b0d8f33df400207cdfd0bb79c9eb92a7ab619f6",
+      "table": 0,
+      "row": 16,
+      "column": 6,
+      "indexing": "zero_based",
+      "category": "FORMAL4_ACTUAL_ENDING_STATE"
+    },
+    "formal5_opening": null,
+    "status": "UNKNOWN_NO_IDENTICAL_OPENING_FIELD",
+    "note": "已知正式4期末余额；当前正式5个人预算期末值不是独立期初余额，未发现同口径期初披露"
+  },
+  {
+    "metric": "应付账款",
+    "unit": "千美元",
+    "formal4_ending": {
+      "value": 1867.0,
+      "display": "1 867",
+      "label": "应付账款",
+      "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_balancesheet.json",
+      "sha256": "9d5ea3093befdcee95da85515b0d8f33df400207cdfd0bb79c9eb92a7ab619f6",
+      "table": 0,
+      "row": 34,
+      "column": 6,
+      "indexing": "zero_based",
+      "category": "FORMAL4_ACTUAL_ENDING_STATE"
+    },
+    "formal5_opening": null,
+    "status": "UNKNOWN_NO_IDENTICAL_OPENING_FIELD",
+    "note": "已知正式4期末余额；当前正式5个人预算期末值不是独立期初余额，未发现同口径期初披露"
+  },
+  {
+    "metric": "已收预付款",
+    "unit": "千美元",
+    "formal4_ending": {
+      "value": 0.0,
+      "display": "0",
+      "label": "已收预付款",
+      "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_balancesheet.json",
+      "sha256": "9d5ea3093befdcee95da85515b0d8f33df400207cdfd0bb79c9eb92a7ab619f6",
+      "table": 0,
+      "row": 33,
+      "column": 6,
+      "indexing": "zero_based",
+      "category": "FORMAL4_ACTUAL_ENDING_STATE"
+    },
+    "formal5_opening": null,
+    "status": "UNKNOWN_NO_IDENTICAL_OPENING_FIELD",
+    "note": "已知正式4期末余额；当前正式5个人预算期末值不是独立期初余额，未发现同口径期初披露"
+  },
+  {
+    "metric": "留存收益",
+    "unit": "千美元",
+    "formal4_ending": {
+      "value": 15752.0,
+      "display": "15 752",
+      "label": "留存收益",
+      "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_balancesheet.json",
+      "sha256": "9d5ea3093befdcee95da85515b0d8f33df400207cdfd0bb79c9eb92a7ab619f6",
+      "table": 0,
+      "row": 25,
+      "column": 6,
+      "indexing": "zero_based",
+      "category": "FORMAL4_ACTUAL_ENDING_STATE"
+    },
+    "formal5_opening": null,
+    "status": "UNKNOWN_NO_IDENTICAL_OPENING_FIELD",
+    "note": "已知正式4期末余额；当前正式5个人预算期末值不是独立期初余额，未发现同口径期初披露"
+  },
+  {
+    "metric": "生产人员",
+    "unit": "人",
+    "formal4_ending": {
+      "value": 117.94,
+      "inputs": [
+        {
+          "value": 92.84,
+          "display": "92.84",
+          "label": "生产线人工数量",
+          "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_productiondetails.json",
+          "sha256": "f769e7bc1772cef61d12e54bc5f3dbd236ef6923fffe9c41013cf5b089fe8191",
+          "table": 0,
+          "row": 7,
+          "column": 6,
+          "indexing": "zero_based",
+          "category": "FORMAL4_ACTUAL_ENDING_STATE"
+        },
+        {
+          "value": 25.1,
+          "display": "25.10",
+          "label": "生产线人工数量",
+          "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_productiondetails.json",
+          "sha256": "f769e7bc1772cef61d12e54bc5f3dbd236ef6923fffe9c41013cf5b089fe8191",
+          "table": 0,
+          "row": 14,
+          "column": 6,
+          "indexing": "zero_based",
+          "category": "FORMAL4_ACTUAL_ENDING_STATE"
+        }
+      ]
+    },
+    "formal5_opening": null,
+    "status": "UNKNOWN_NO_IDENTICAL_OPENING_FIELD",
+    "note": "正式4两生产线人员合计117.94人；正式5生产计划人员随需求预估和产量计算，不能代替开期在职人员"
+  },
+  {
+    "metric": "税亏结转余额",
+    "unit": "千美元",
+    "formal4_ending": null,
+    "formal5_opening": null,
+    "status": "UNKNOWN_NO_IDENTICAL_OPENING_FIELD",
+    "note": "未披露真实存量；上期研发900/1300和运营750是已核投入条件，不能用投入或rho补造存量"
+  },
+  {
+    "metric": "研发持续存量",
+    "unit": "未知",
+    "formal4_ending": null,
+    "formal5_opening": null,
+    "status": "UNKNOWN_NO_IDENTICAL_OPENING_FIELD",
+    "note": "未披露真实存量；上期研发900/1300和运营750是已核投入条件，不能用投入或rho补造存量"
+  },
+  {
+    "metric": "运营持续存量",
+    "unit": "未知",
+    "formal4_ending": null,
+    "formal5_opening": null,
+    "status": "UNKNOWN_NO_IDENTICAL_OPENING_FIELD",
+    "note": "未披露真实存量；上期研发900/1300和运营750是已核投入条件，不能用投入或rho补造存量"
+  },
+  {
+    "metric": "复合梁下一期大客户承诺",
+    "unit": "千单位",
+    "formal4_ending": {
+      "value": 0.0,
+      "display": "0.00",
+      "label": "下一回合 复合梁",
+      "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_marketdetails.json",
+      "sha256": "29cbc836da5c20ce8b8f893486d18f72f000aeb4e42cbbcccadf7d7606505aec",
+      "table": 0,
+      "row": 41,
+      "column": 6,
+      "indexing": "zero_based",
+      "category": "FORMAL4_ACTUAL_ENDING_STATE"
+    },
+    "formal5_opening": null,
+    "status": "UNKNOWN_NEXT_OPENING_COMMITMENT_NOT_CONFIRMED",
+    "note": "正式4下一回合订单实际0已知；正式5没有新招标。当前个人物流订单投影0不是独立合同/收付款披露，订单状态仍分类保留"
+  },
+  {
+    "metric": "连接件下一期大客户承诺",
+    "unit": "千单位",
+    "formal4_ending": {
+      "value": 0.0,
+      "display": "0.00",
+      "label": "下一回合 连接件",
+      "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_marketdetails.json",
+      "sha256": "29cbc836da5c20ce8b8f893486d18f72f000aeb4e42cbbcccadf7d7606505aec",
+      "table": 0,
+      "row": 42,
+      "column": 6,
+      "indexing": "zero_based",
+      "category": "FORMAL4_ACTUAL_ENDING_STATE"
+    },
+    "formal5_opening": null,
+    "status": "UNKNOWN_NEXT_OPENING_COMMITMENT_NOT_CONFIRMED",
+    "note": "正式4下一回合订单实际0已知；正式5没有新招标。当前个人物流订单投影0不是独立合同/收付款披露，订单状态仍分类保留"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "connector": {
+    "overproduction_inventory": true,
+    "two_round_carryover": true,
+    "payroll_and_materials_on_production": true,
+    "priority": true,
+    "zero_capacity": true,
+    "invalid_plan_rejected": true
+  },
+  "joint_allocation": {
+    "connector_free_path": {
+      "overproduction_inventory": true,
+      "two_round_carryover": true,
+      "payroll_and_materials_on_production": true,
+      "priority": true,
+      "zero_capacity": true,
+      "invalid_plan_rejected": true
+    },
+    "fixed_plan_reserves_shared_workers": true,
+    "infeasible_plan_rejected": true,
+    "dedicated_capacity": true,
+    "shared_labor": true,
+    "shift_costs": true,
+    "negative_margin_idle": true,
+    "zero_capacity": true,
+    "unequal_efficiencies": true,
+    "invalid_inputs_rejected": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-10-13T16:59:55.717019+08:00",
+  "status": "COMPLETE_WITH_EXPLICIT_REVIEW_ITEMS",
+  "archive_audit": "output/round_close/20261012T221044.031+0800/audit/20261013T165529.046747+0800",
+  "history_page_coverage": 750,
+  "financial_counts": {
+    "pass": 9340,
+    "pending": 6,
+    "not_applicable_initial_base": 10
+  },
+  "old_pending_records": 235,
+  "old_pending_resolved": 229,
+  "remaining_pending": 6,
+  "structure_review": 26,
+  "same_source_chart_crosschecks": {
+    "pass": 1000
+  },
+  "future_nan_preserved_in_cumulative_charts": 900,
+  "rejected_sources": [
+    {
+      "source": "supplements/html/market02_practice1_summary_complete_html.json",
+      "errors": [
+        "selected_round_has_no_earnings_in_chart; stale_content"
+      ],
+      "original_retained": "raw/market02_practice1_summary.json"
+    },
+    {
+      "source": "raw/round3_productionplanning.json",
+      "errors": [
+        "current_market_footer_missing_or_mismatched"
+      ]
+    }
+  ],
+  "original_and_old_audit_source_hashes_unchanged": true,
+  "current16_sources_hashes_unchanged": true,
+  "current_budgets_remain_paired_to_current_decisions": true,
+  "old_budgets_without_contemporaneous_decisions_remain_unpaired": true,
+  "decision_modified": false,
+  "model_trained": false,
+  "personal_names_in_delivery": false,
+  "limits": [
+    "6 wider financial rows require team-column evidence; never truncated.",
+    "26 structural reviews remain open.",
+    "One stale HTML supplement remains rejected; original tables remain usable.",
+    "Budget values are conditional forecasts, never actual training labels."
+  ]
+}

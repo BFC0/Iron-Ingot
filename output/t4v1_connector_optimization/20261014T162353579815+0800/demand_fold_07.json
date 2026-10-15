@@ -1,0 +1,5472 @@
+{
+  "market": 7,
+  "original_mae_pp": 3.0257607490418437,
+  "mae_pp": 2.7615040299882705,
+  "config": {
+    "rho": 0,
+    "penalty": 1e-06,
+    "loss": "log",
+    "standardized": true,
+    "piecewise": false,
+    "marketing_decay": 0,
+    "price_form": "linear"
+  },
+  "model": {
+    "beta": [
+      12.257314760567217,
+      9.632197882536252,
+      1.1015608206708671,
+      3.7075719345857823e-10,
+      0.7522141099476835
+    ],
+    "scale": [
+      0.05809611609310418,
+      0.05788343162589596,
+      0.22507010355514445,
+      0.2710719127337393,
+      0.09394614790608544
+    ],
+    "inactive_columns": [],
+    "penalty": 1e-06,
+    "standardized": true,
+    "piecewise": false,
+    "rho": 0,
+    "loss": "log",
+    "training_keys": [
+      [
+        1,
+        "formal",
+        3,
+        "M01-2cdafe239edfa253",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        1,
+        "formal",
+        3,
+        "M01-2cdafe239edfa253",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        1,
+        "formal",
+        3,
+        "M01-3709a42297a41f3c",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        1,
+        "formal",
+        3,
+        "M01-3709a42297a41f3c",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        1,
+        "formal",
+        3,
+        "M01-de0079a760584bb8",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        1,
+        "formal",
+        3,
+        "M01-de0079a760584bb8",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        1,
+        "formal",
+        3,
+        "M01-523d8923a7806a12",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        1,
+        "formal",
+        3,
+        "M01-523d8923a7806a12",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        1,
+        "formal",
+        3,
+        "M01-8aaa9bec8534e4f4",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        1,
+        "formal",
+        3,
+        "M01-1024acd4dc010230",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        1,
+        "formal",
+        3,
+        "M01-1024acd4dc010230",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        1,
+        "formal",
+        3,
+        "M01-510794cfbefb528b",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        1,
+        "formal",
+        3,
+        "M01-510794cfbefb528b",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        1,
+        "formal",
+        3,
+        "M01-a7d7d55999f83459",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        1,
+        "formal",
+        3,
+        "M01-a7d7d55999f83459",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        1,
+        "formal",
+        3,
+        "M01-35d03370f75671a9",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        1,
+        "formal",
+        3,
+        "M01-35d03370f75671a9",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        2,
+        "formal",
+        3,
+        "M02-fc7479895f72753c",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        2,
+        "formal",
+        3,
+        "M02-fc7479895f72753c",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        2,
+        "formal",
+        3,
+        "M02-08f74f3e15b7837b",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        2,
+        "formal",
+        3,
+        "M02-08f74f3e15b7837b",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        2,
+        "formal",
+        3,
+        "M02-ba2e7015034eaca7",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        2,
+        "formal",
+        3,
+        "M02-ba2e7015034eaca7",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        2,
+        "formal",
+        3,
+        "M02-52fd1571dae86def",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        2,
+        "formal",
+        3,
+        "M02-52fd1571dae86def",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        2,
+        "formal",
+        3,
+        "M02-967124a1c936b236",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        2,
+        "formal",
+        3,
+        "M02-967124a1c936b236",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        2,
+        "formal",
+        3,
+        "M02-523d8923a7806a12",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        2,
+        "formal",
+        3,
+        "M02-523d8923a7806a12",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        2,
+        "formal",
+        3,
+        "M02-017778fa730530a0",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        2,
+        "formal",
+        3,
+        "M02-017778fa730530a0",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        2,
+        "formal",
+        3,
+        "M02-e5e91d0170887f56",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        2,
+        "formal",
+        3,
+        "M02-e5e91d0170887f56",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-d00f9f8efbcbf757",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-d00f9f8efbcbf757",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-fedeaaddd1253f1c",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-fedeaaddd1253f1c",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-99a145d654e2f416",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-99a145d654e2f416",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-4300d356bed3ff8b",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-4300d356bed3ff8b",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-eb5f5e82582250a8",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-eb5f5e82582250a8",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-5735699707f6d962",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-5735699707f6d962",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-9d1e11e8cba926ec",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-9d1e11e8cba926ec",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-09316bb3d42a6402",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-09316bb3d42a6402",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-d6b1c6ae4f61f03f",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-d6b1c6ae4f61f03f",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-9d5db9b8d1e10d47",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        3,
+        "formal",
+        3,
+        "M03-9d5db9b8d1e10d47",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-53183a1f5a193d1c",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-53183a1f5a193d1c",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-1c3af038bfdebac9",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-1c3af038bfdebac9",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-f33e003d1fe81715",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-f33e003d1fe81715",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-8a861a88e1be3f1d",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-8a861a88e1be3f1d",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-9edaa90b05f0a1e1",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-9edaa90b05f0a1e1",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-74d3cea4fa721c9e",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-74d3cea4fa721c9e",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-73d9c2f08c756852",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-73d9c2f08c756852",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-13729ae1c034272d",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-13729ae1c034272d",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-07235b237e8612ea",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-4441c1fee778c174",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        4,
+        "formal",
+        3,
+        "M04-4441c1fee778c174",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-beb028ec87fa6a6e",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-beb028ec87fa6a6e",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-83b2f0f59fe65e7b",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-83b2f0f59fe65e7b",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-cf49b104531d4b54",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-cf49b104531d4b54",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-47116eac50536c21",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-47116eac50536c21",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-9c64541246150811",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-9c64541246150811",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-05014677bb16a61e",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-05014677bb16a61e",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-7a7556b4aa6f461d",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-7a7556b4aa6f461d",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-0674566aadcef903",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-0674566aadcef903",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-523d8923a7806a12",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-523d8923a7806a12",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-50c5056c615383d9",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        5,
+        "formal",
+        3,
+        "M05-50c5056c615383d9",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-6228669a7d1ffa5a",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-6228669a7d1ffa5a",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-471cc6b733fcd591",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-471cc6b733fcd591",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-c8f06aa53538bf52",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-c8f06aa53538bf52",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-d4742aeab7030fac",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-d4742aeab7030fac",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-41e0c5f8bd66589b",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-41e0c5f8bd66589b",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-1804c15bca402242",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-1804c15bca402242",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-15f22491c95b1cc8",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-15f22491c95b1cc8",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-cc08b3b377f245d5",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-cc08b3b377f245d5",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-e6fa01a62c35374e",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        6,
+        "formal",
+        3,
+        "M06-e6fa01a62c35374e",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        8,
+        "formal",
+        3,
+        "M08-21ae855f01d5faf1",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        8,
+        "formal",
+        3,
+        "M08-21ae855f01d5faf1",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        8,
+        "formal",
+        3,
+        "M08-cad8dbfa8e0002c1",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        8,
+        "formal",
+        3,
+        "M08-cad8dbfa8e0002c1",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        8,
+        "formal",
+        3,
+        "M08-24dfd9ec66bd5fe5",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        8,
+        "formal",
+        3,
+        "M08-24dfd9ec66bd5fe5",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        8,
+        "formal",
+        3,
+        "M08-05f6b1189fd486ca",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        8,
+        "formal",
+        3,
+        "M08-05f6b1189fd486ca",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        8,
+        "formal",
+        3,
+        "M08-b3834ed552f6edb2",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        8,
+        "formal",
+        3,
+        "M08-b3834ed552f6edb2",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        8,
+        "formal",
+        3,
+        "M08-2f120b39505b1bf9",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        8,
+        "formal",
+        3,
+        "M08-2f120b39505b1bf9",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        8,
+        "formal",
+        3,
+        "M08-3ddb4ed3986c578d",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        8,
+        "formal",
+        3,
+        "M08-3ddb4ed3986c578d",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-0db5f49b53d570c9",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-0db5f49b53d570c9",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-d00f9f8efbcbf757",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-d00f9f8efbcbf757",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-29cf044e1dfee76b",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-29cf044e1dfee76b",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-eff485d5a7ccb688",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-eff485d5a7ccb688",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-523d8923a7806a12",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-523d8923a7806a12",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-5a97ebfa58d23517",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-5a97ebfa58d23517",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-9fba5de91951d735",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-9fba5de91951d735",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-be90c0cdb42a7ddb",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-be90c0cdb42a7ddb",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-875797e28c88caf1",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        9,
+        "formal",
+        3,
+        "M09-875797e28c88caf1",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-e5d082c12551b77a",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-e5d082c12551b77a",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-e95f534d623db79f",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-e95f534d623db79f",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-4bbdf97bcc1c250d",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-4bbdf97bcc1c250d",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-5d487b3171fd0390",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-5d487b3171fd0390",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-5113195d6f51ae9c",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-5113195d6f51ae9c",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-736bcb0a43589dcc",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-736bcb0a43589dcc",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-1c749ff2420e412f",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-1c749ff2420e412f",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-53fc571f4f8fe086",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-53fc571f4f8fe086",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-fe41c2d3ac9ce4c8",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-fe41c2d3ac9ce4c8",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-5c516f81e01779aa",
+        "泰国",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ],
+      [
+        10,
+        "formal",
+        3,
+        "M10-5c516f81e01779aa",
+        "印尼",
+        "actual_demand",
+        "T4V0_FORMAL3_ACTUAL_COMPANY_TOTAL_PROXY"
+      ]
+    ],
+    "positive_fit_n": 162,
+    "inverse_transform": "original_beta = scaled_beta / training_weighted_centered_RMS",
+    "objective": "market/country equal mean squared residual + lambda * squared penalized coefficients",
+    "converged": true
+  },
+  "inner_path": [
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0151217386364513
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3601749125189873
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.087697393566719
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.626914568227976
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3537495172101495
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.910241968315897
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.015098901662814
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3601761865326156
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0876821436745905
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.626912718703826
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.353729596673895
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.910235752970048
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.014870565965276
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3601889189687975
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0875296664860516
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6268942281236574
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3535304476485326
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.9101736197756325
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0143633747190965
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.360217163209315
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.087190969668791
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6268531682546015
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3530882604941326
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.9100356778030507
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0125906045698176
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.36031547649535
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0860070632266976
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.626709787253189
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3515445658543417
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.909554308334007
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.007545967308182
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3605917847087494
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.082637527408281
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.626302921984069
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.347167519333056
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.908191096853594
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.99012253588048
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.361507417426429
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.072790101452698
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.625325414497155
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3322226189572537
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.9035574025673268
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.943120935281512
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.367004662260036
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.049250489918711
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6253233855114595
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.292376857683398
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.8920180583206747
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.8073094836973778
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.395654896495745
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 2.9769706935483806
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.627082950254307
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.182997952155831
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.8702972504723316
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.683148306576662
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.486707979958433
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 2.860744791907451
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.691787758765724
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.028811235776989
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.8715188260077045
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.7839825784494527
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.862979373419363
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 2.902572556792123
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.977981360618817
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.017040317107614
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 3.077665509996488
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0190836880030685
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.371474507631624
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0948987239567085
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6389415729146433
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3595309892550342
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.905349268879667
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0190610656920427
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.371476058670796
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.094883569735774
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.638940844621724
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3595114074152472
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.9053439884433736
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0188348763061073
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3714915604928475
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0947320485829386
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6389335640317015
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.359315641055885
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.905291200481075
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0183324525910455
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3715259532668513
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.094395471890386
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6389173995525956
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.358880943006668
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.905174000573724
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.016576346428955
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.371645725085173
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0932289512153375
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.638860989587791
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.357363158715924
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.9047649565622033
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.011625356228351
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.371982820544775
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.090436878587803
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6387012173218802
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3530576032520027
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.9036060888709465
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.9947916297860315
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.373157869825307
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.081895226852765
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.638636470143189
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.338334997833236
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.899661813170095
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.948498025127089
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3802010745754254
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0586798408441886
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6390531514982585
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.299306152250545
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.8889003076387367
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.8134642715331037
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.407288485282104
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 2.9869755974989536
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6399497397996488
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.1943071179250326
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.8688934800058465
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.694442841173929
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.4984972974209945
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 2.870960234098428
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6983865588372
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.041532356011013
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.8791589824527826
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.7912154459540424
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.8692278338184463
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 2.910999480755258
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.985565769000224
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.023774259028477
+    },
+    {
+      "config": {
+        "rho": 0.25,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 3.0876520516039014
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.02258303592797
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.378319432166357
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0979868019673082
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6427949915585613
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3640405934406465
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.9002750307723457
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0225591887899705
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3783190591564765
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.097975913007439
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.642795411565896
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.364021525105617
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.9002711605483475
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.022320752703239
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.378315323075224
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0978670350392106
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6427996024789655
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3638308898033227
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.900232465856878
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0217911243041455
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3783069817837226
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0976251596823796
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.642808856115744
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.36340756816129
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.9001465278405028
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0199399123883923
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3782773667910986
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.096779417127627
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6428537566768546
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.361929320757741
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.8998450337305086
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0146719043156867
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.378189196748915
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.094372811961027
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.643025208191215
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3577343540325497
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.8989108412794886
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.997212490033187
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.37877460629954
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0861587869321494
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6435901011291625
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3434681014666943
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.895711470847696
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.9512146822283705
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.387822177879075
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0636224545353627
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6442645710204826
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3058265846589276
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.8872829020067186
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.817083695381727
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.4139470427818295
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 2.9926103381028284
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.646459504011168
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.2042659976258303
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.874061259796929
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.7029578328351906
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.5086791712454737
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 2.8776450035673395
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.705152987757672
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0500229969568657
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.885882729717819
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.7986899994560015
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.875011530997944
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 2.9188827445079966
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.992630067619345
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0318108897245293
+    },
+    {
+      "config": {
+        "rho": 0.5,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 3.096289048113396
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.026223508668023
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.384079308689632
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0986879271313215
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6462050077628434
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3689864479502436
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.9037495925708434
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.026199737423352
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3840783245511514
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.098677465790366
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6462057063459454
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3689675467554907
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.903745497638538
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0259620601284123
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.38406847863584
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0985728630425218
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.64621268227074
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3687785818250893
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.9037045576529645
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.025434117011973
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3840465691934765
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0983404818704847
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.646228119963897
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.368358965421628
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.903613640650862
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.023588793553691
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.383969566659704
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.097527900495567
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.646281457690917
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3668936139925325
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.903296089541637
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0183375230754432
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3837468647662403
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.095212669627644
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.646428011535026
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.362734882662338
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.90239440896701
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.000198281276342
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.38445022793586
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0871835424976304
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6466340144685323
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3484928676500614
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.8993026048162283
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.952388772035997
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3922053620187294
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.065303045148484
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.646810026892867
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.310655646157661
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.8926182403535097
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.8191747488445738
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.417840267932289
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 2.995572747745163
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.649690071661634
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.210089489198138
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.881438929953391
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.7092590119829634
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.5162029849532015
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 2.8819756097128995
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.7110473262894144
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0555946818349597
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.890464759994448
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.8061965373740843
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.881238778120412
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 2.9264451062430563
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 3.0002291591443093
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0384521909864857
+    },
+    {
+      "config": {
+        "rho": 0.75,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 3.1038291969190412
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.028540018175425
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3886555130142586
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0974938860435657
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.645993403447881
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.370701050924149
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1e-06,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.90554722150415
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.028516331894246
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3886566047232014
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0974836742877194
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.645993999991805
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3706823472508383
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1e-05,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.9055437833546423
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0282795040381956
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3886675049386485
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0973815670175724
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.645999955773012
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3704953566484477
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.0001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.9055094072312175
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0277534472874974
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.388691617967731
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0971547289183015
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.646013126643236
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3700801218783436
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.0003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.905433050815227
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0259147121861543
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3887748283895656
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.09636152177771
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6460422429897514
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3686300438592505
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.001,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.9051661832800546
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.020678031838165
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3890025643262245
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.094101416359775
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.646113328330673
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.364514423788451
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.003,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.9044069626071276
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 3.002465697165162
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3897435072688986
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0862624755517545
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6463084930356158
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3504174103178563
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.01,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.90186457803456
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.953050492236423
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.3942879522616902
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 3.065041056269959
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.647679775065133
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.3125307708448073
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.03,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.896198310725264
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.8203362571192776
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.419812302180069
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 2.9967987044695708
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.6505327862930077
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.213183094286013
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.885272596978302
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.7139856354410075
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.521498536236775
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 2.8847391672794656
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.7155038947663126
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.059134776763301
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 0.3,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.893724769568942
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "log"
+      },
+      "mae_pp": 2.812601877359627
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0,
+        "price_form": "linear"
+      },
+      "mae_pp": 2.8863383962490774
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "log"
+      },
+      "mae_pp": 2.932830193329169
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 0.5,
+        "price_form": "linear"
+      },
+      "mae_pp": 3.006370766864852
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "log"
+      },
+      "mae_pp": 3.0438162607100647
+    },
+    {
+      "config": {
+        "rho": 1,
+        "penalty": 1,
+        "loss": "log",
+        "standardized": true,
+        "piecewise": false,
+        "marketing_decay": 1,
+        "price_form": "linear"
+      },
+      "mae_pp": 3.1110450570766806
+    },
+    {
+      "config": {
+        "rho": 0,
+        "penalty": 1e-06,
+        "loss": "share",
+        "standardized": true,
+        "piecewise": false
+      },
+      "mae_pp": 2.3854790552061313
+    }
+  ]
+}

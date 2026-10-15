@@ -73,10 +73,10 @@ def label(kind, rnd):
 def budget_source(item):
     name = Path(item['file']).stem
     if 'probe_A' in name or 'baseline' in name:
-        return '试验前基准预算', '基准方案；不得套用后续全部售出假设'
+        return '试验前基准预算', '预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性'
     if 'probe_B' in name or 'modeltest_C_' in name or 'modeltest_D_' in name or 'native_25' in name:
-        return '手填试验后网页预算', '假设全部售出（用户说明）；须同时检查保存有效性'
-    return '常规网页预算', '依赖当时决策及手填预测；具体销量假设未确认'
+        return '手填试验后网页预算', '预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性'
+    return '常规网页预算', '预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性'
 
 
 def cell_kinds(item, row, before, block):
@@ -243,7 +243,7 @@ def main():
     screenshot = lookup[('raw/20261011_user_practice2_production.json', '13')]['cells']
     assert screenshot[0]['label'] == '2回合预算测算值'
     probe = lookup[('raw/20261011_user_probe_B_budget_income.json', '101')]['cells']
-    assert probe[0]['assumption'].startswith('假设全部售出')
+    assert '预算销量 = min{决策填写的需求预估数量，产量}' in probe[0]['assumption']
     assert probe[0]['save_status'] == 'verified' and probe[-1]['value_round'] == 0
     assert all(not c['usable_as_actual'] for r in labels for c in r['cells'] if c['category'] == 'budget')
     assert all(x['market'] == 5 for x in index if 'user_practice2_' in x['file'])

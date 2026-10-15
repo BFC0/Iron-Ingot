@@ -1,0 +1,151 @@
+{
+  "count": 29,
+  "models": {
+    "ABS": {
+      "action": "候选对照",
+      "original_status": "RETRAINED_SEPARATE_PRODUCTS_COMPANY_TOTAL_PROXIES",
+      "deployment_enabled": false
+    },
+    "SHARE": {
+      "action": "候选对照",
+      "original_status": "RETRAINED_SEPARATE_PRODUCTS_COMPANY_TOTAL_PROXIES",
+      "deployment_enabled": false
+    },
+    "COUNTRY": {
+      "action": "候选对照",
+      "original_status": "RETRAINED_SEPARATE_PRODUCTS_COMPANY_TOTAL_PROXIES",
+      "deployment_enabled": false
+    },
+    "EFF": {
+      "action": "候选对照",
+      "original_status": "RETRAINED_SEPARATE_PRODUCT_MARKET_HOLDOUTS",
+      "deployment_enabled": false
+    },
+    "RISK_POWER": {
+      "action": "候选对照",
+      "original_status": "RETRAINED_CONDITIONAL_NO_FORWARD_VALIDATION",
+      "deployment_enabled": false
+    },
+    "RISK_EXP": {
+      "action": "应用调整",
+      "original_status": "RETRAINED_CONDITIONAL_NO_FORWARD_VALIDATION",
+      "deployment_enabled": false
+    },
+    "MATERIAL": {
+      "action": "应用调整",
+      "original_status": "RETRAINED_SEPARATE_PRODUCTS",
+      "deployment_enabled": false
+    },
+    "MATERIAL_PROP": {
+      "action": "应用调整",
+      "original_status": "RETRAINED_SEPARATE_PRODUCTS",
+      "deployment_enabled": false
+    },
+    "INTEREST": {
+      "action": "应用调整",
+      "original_status": "RETRAINED_CONDITIONAL_NO_FORWARD_VALIDATION",
+      "deployment_enabled": false
+    },
+    "RD": {
+      "action": "缺数据跳过",
+      "original_status": "RETRAINED_CURVE_200_POINTS_PER_SERIES",
+      "deployment_enabled": false
+    },
+    "OPS": {
+      "action": "缺数据跳过",
+      "original_status": "RETRAINED_CURVE_200_POINTS_PER_SERIES",
+      "deployment_enabled": false
+    },
+    "TOTAL": {
+      "action": "应用调整",
+      "original_status": "ACTUAL_TOTAL_DIAGNOSTICS_NOT_PREDICTIVE_TRAINING",
+      "deployment_enabled": false
+    },
+    "BASELINE": {
+      "action": "应用调整",
+      "original_status": "ACTUAL_TOTAL_DIAGNOSTICS_NOT_PREDICTIVE_TRAINING",
+      "deployment_enabled": false
+    },
+    "GROWTH": {
+      "action": "应用调整",
+      "original_status": "ACTUAL_TOTAL_DIAGNOSTICS_NOT_PREDICTIVE_TRAINING",
+      "deployment_enabled": false
+    },
+    "CAPACITY": {
+      "action": "缺数据跳过",
+      "original_status": "RULE_DIAGNOSTICS_WITH_EXPLICIT_GAPS",
+      "deployment_enabled": false
+    },
+    "LABOR": {
+      "action": "应用调整",
+      "original_status": "RULE_DIAGNOSTICS_WITH_EXPLICIT_GAPS",
+      "deployment_enabled": false
+    },
+    "OPERATING": {
+      "action": "应用调整",
+      "original_status": "RULE_DIAGNOSTICS_WITH_EXPLICIT_GAPS",
+      "deployment_enabled": false
+    },
+    "FINANCE": {
+      "action": "应用调整",
+      "original_status": "RULE_DIAGNOSTICS_WITH_EXPLICIT_GAPS",
+      "deployment_enabled": false
+    },
+    "HORIZON": {
+      "action": "缺数据跳过",
+      "original_status": "BLOCKED_INCOMPLETE_ROUNDS_4_TO_6_STATE_CHAIN",
+      "deployment_enabled": false
+    },
+    "METRICS": {
+      "action": "沿用",
+      "original_status": "SOURCE_AND_SELF_CHECKS_PASS",
+      "deployment_enabled": false
+    },
+    "A": {
+      "action": "沿用",
+      "original_status": "RESEARCH_REFIT_SAVED",
+      "deployment_enabled": false
+    },
+    "B": {
+      "action": "沿用",
+      "original_status": "PUBLISHED_SEVERANCE_RULE_100_CHECKS_PASS",
+      "deployment_enabled": false
+    },
+    "C": {
+      "action": "沿用",
+      "original_status": "RETRAINED_SEPARATE_PRODUCT_CONDITIONAL_WAGE",
+      "deployment_enabled": false
+    },
+    "D": {
+      "action": "沿用",
+      "original_status": "RETRAINED_FORMAL2_TO_FORMAL3_RESEARCH_NOT_DEPLOYED",
+      "deployment_enabled": false
+    },
+    "E": {
+      "action": "沿用",
+      "original_status": "KNOWN_INTENSITY_FORMULAS_ALL_CHECKS_PASS",
+      "deployment_enabled": false
+    },
+    "F": {
+      "action": "沿用",
+      "original_status": "KNOWN_INTENSITY_FORMULAS_ALL_CHECKS_PASS",
+      "deployment_enabled": false
+    },
+    "CONNECTOR": {
+      "action": "候选对照",
+      "original_status": "EXISTING_RULE_SELF_CHECK_PASS_ACTUAL_TRAINING_SCOPE_LIMITED",
+      "deployment_enabled": false
+    },
+    "CONNECTOR_V2": {
+      "action": "候选对照",
+      "original_status": "EXISTING_RULE_SELF_CHECK_PASS_ACTUAL_TRAINING_SCOPE_LIMITED",
+      "deployment_enabled": false
+    },
+    "JOINT_ALLOCATION": {
+      "action": "候选对照",
+      "original_status": "EXISTING_RULE_SELF_CHECK_PASS_ACTUAL_TRAINING_SCOPE_LIMITED",
+      "deployment_enabled": false
+    }
+  },
+  "missing_not_zero": true
+}

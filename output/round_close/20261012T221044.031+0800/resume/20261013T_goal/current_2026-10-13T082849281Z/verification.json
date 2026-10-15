@@ -1,0 +1,42 @@
+{
+  "verified_at": "2026-10-13T16:42:00.947651+08:00",
+  "status": "WEB_CAPTURE_COMPLETE",
+  "history_coverage": 750,
+  "history_complete_html": 750,
+  "historical_html_supplements": 47,
+  "new_history_pages_this_turn": 150,
+  "new_html_supplements_this_turn": 45,
+  "baseline_hashes_unchanged": true,
+  "current_version_sources": 16,
+  "personal_row_count": 44,
+  "personal_values_stable": true,
+  "budgets_paired_to_current_version": true,
+  "budget_labels_are_not_actual_results": true,
+  "current_charts": 16,
+  "old_rejected_source_preserved": [
+    {
+      "source": "raw/round3_productionplanning.json",
+      "errors": [
+        "current_market_footer_missing_or_mismatched"
+      ]
+    }
+  ],
+  "financial_pending_by_check": {
+    "aftertax_profit": 42,
+    "cumulative_profit_difference": 7,
+    "liabilities_components": 41,
+    "working_capital_movements": 41,
+    "assets_equal_liabilities_equity": 1,
+    "gross_profit": 1,
+    "fixed_assets_components": 1,
+    "current_assets_components": 1,
+    "demand_sales_unmet": 100
+  },
+  "decision_modified": false,
+  "model_trained": false,
+  "limits": [
+    "Financial label pairing and model validation are separate tasks.",
+    "Old budgets lacking contemporaneous decisions remain unpaired.",
+    "Raw evidence contains names; share only redacted reports."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "final_inputs": "KNOWN_FROM_HISTORICAL_GROUP_LIST",
+  "candidate": "NOT_ADOPTED",
+  "direct_score": "NOT_APPLICABLE_NO_MATCHED_FROZEN_FORECAST",
+  "source": "raw/market5_formal3_decisionchecklist_verified.json",
+  "source_sha256": "ec421ac23c057a23b6719137e11617eb6755d387b89d92a7855726b6dddd8aa6",
+  "source_url": "http://sim.cesim.cn/ul/Decisions?panel=decisionchecklist&sim=se",
+  "captured_at": "2026-10-13T14:30:47.126Z",
+  "selected": "回合3",
+  "input_count": 42,
+  "unique_keys": 42,
+  "budget_count": 2,
+  "rejected_source": {
+    "path": "raw/market5_formal3_decisionchecklist.json",
+    "sha256": "e8944c0878235f6740eb90d4393e46d69b6449b614ca30b2eebfb504edec0ba5",
+    "url": "http://sim.cesim.cn/ul/Results?panel=balancesheet&sim=se",
+    "title": "资产负债表",
+    "status": "REJECTED_AS_DECISION_SOURCE",
+    "reason": "URL及内容类别不符，不能凭文件名采纳"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "version": "t4v1",
+  "models": {
+    "ABS": {
+      "status": "RETRAINED_SEPARATE_PRODUCTS_COMPANY_TOTAL_PROXIES",
+      "artifact": "models_full.json",
+      "counts": {
+        "复合梁": 200,
+        "连接件": 176
+      }
+    },
+    "SHARE": {
+      "status": "RETRAINED_SEPARATE_PRODUCTS_COMPANY_TOTAL_PROXIES",
+      "artifact": "models_full.json",
+      "counts": {
+        "复合梁": 200,
+        "连接件": 176
+      }
+    },
+    "COUNTRY": {
+      "status": "RETRAINED_SEPARATE_PRODUCTS_COMPANY_TOTAL_PROXIES",
+      "artifact": "models_full.json",
+      "counts": {
+        "复合梁": 200,
+        "连接件": 176
+      }
+    },
+    "EFF": {
+      "status": "RETRAINED_SEPARATE_PRODUCT_MARKET_HOLDOUTS",
+      "artifact": "models_full.json",
+      "counts": {
+        "复合梁": 100,
+        "连接件": 87
+      }
+    },
+    "RISK_POWER": {
+      "status": "RETRAINED_CONDITIONAL_NO_FORWARD_VALIDATION",
+      "artifact": "models_full.json",
+      "reason": "给定实际期末状态的整市场留出；缺独立后续回合验证，不能作确定推荐"
+    },
+    "RISK_EXP": {
+      "status": "RETRAINED_CONDITIONAL_NO_FORWARD_VALIDATION",
+      "artifact": "models_full.json",
+      "reason": "给定实际期末状态的整市场留出；缺独立后续回合验证，不能作确定推荐"
+    },
+    "MATERIAL": {
+      "status": "RETRAINED_SEPARATE_PRODUCTS",
+      "artifact": "models_full.json",
+      "counts": {
+        "复合梁": 100,
+        "连接件": 87
+      }
+    },
+    "MATERIAL_PROP": {
+      "status": "RETRAINED_SEPARATE_PRODUCTS",
+      "artifact": "models_full.json",
+      "counts": {
+        "复合梁": 100,
+        "连接件": 87
+      }
+    },
+    "INTEREST": {
+      "status": "RETRAINED_CONDITIONAL_NO_FORWARD_VALIDATION",
+      "artifact": "models_full.json",
+      "reason": "给定实际期末状态的整市场留出；缺独立后续回合验证，不能作确定推荐"
+    },
+    "RD": {
+      "status": "RETRAINED_CURVE_200_POINTS_PER_SERIES",
+      "artifact": "../../t4v1/20261014T153914569881+0800/formal3_curves.json"
+    },
+    "OPS": {
+      "status": "RETRAINED_CURVE_200_POINTS_PER_SERIES",
+      "artifact": "../../t4v1/20261014T153914569881+0800/formal3_curves.json"
+    },
+    "TOTAL": {
+      "status": "ACTUAL_TOTAL_DIAGNOSTICS_NOT_PREDICTIVE_TRAINING",
+      "artifact": "../../t4v1/20261014T153914569881+0800/industry.json"
+    },
+    "BASELINE": {
+      "status": "ACTUAL_TOTAL_DIAGNOSTICS_NOT_PREDICTIVE_TRAINING",
+      "artifact": "../../t4v1/20261014T153914569881+0800/industry.json"
+    },
+    "GROWTH": {
+      "status": "ACTUAL_TOTAL_DIAGNOSTICS_NOT_PREDICTIVE_TRAINING",
+      "artifact": "../../t4v1/20261014T153914569881+0800/industry.json"
+    },
+    "CAPACITY": {
+      "status": "RULE_DIAGNOSTICS_WITH_EXPLICIT_GAPS",
+      "artifact": "../../t4v1/20261014T153914569881+0800/labor_and_accounts.json"
+    },
+    "LABOR": {
+      "status": "RULE_DIAGNOSTICS_WITH_EXPLICIT_GAPS",
+      "artifact": "../../t4v1/20261014T153914569881+0800/labor_and_accounts.json"
+    },
+    "OPERATING": {
+      "status": "RULE_DIAGNOSTICS_WITH_EXPLICIT_GAPS",
+      "artifact": "../../t4v1/20261014T153914569881+0800/labor_and_accounts.json"
+    },
+    "FINANCE": {
+      "status": "RULE_DIAGNOSTICS_WITH_EXPLICIT_GAPS",
+      "artifact": "../../t4v1/20261014T153914569881+0800/labor_and_accounts.json"
+    },
+    "HORIZON": {
+      "status": "BLOCKED_INCOMPLETE_ROUNDS_4_TO_6_STATE_CHAIN",
+      "artifact": "models_full.json"
+    },
+    "METRICS": {
+      "status": "SOURCE_AND_SELF_CHECKS_PASS",
+      "artifact": "../../t4v1/20261014T153914569881+0800/checks.json"
+    },
+    "A": {
+      "status": "RESEARCH_REFIT_SAVED",
+      "artifact": "../../t4v1/20261014T153914569881+0800/supplementary_A.json"
+    },
+    "B": {
+      "status": "PUBLISHED_SEVERANCE_RULE_100_CHECKS_PASS",
+      "artifact": "../../t4v1/20261014T153914569881+0800/severance_checks.csv"
+    },
+    "C": {
+      "status": "RETRAINED_SEPARATE_PRODUCT_CONDITIONAL_WAGE",
+      "artifact": "../../t4v1/20261014T153914569881+0800/supplementary_verification.json"
+    },
+    "D": {
+      "status": "RETRAINED_FORMAL2_TO_FORMAL3_RESEARCH_NOT_DEPLOYED",
+      "artifact": "../../t4v1/20261014T153914569881+0800/lagged_efficiency.json"
+    },
+    "E": {
+      "status": "KNOWN_INTENSITY_FORMULAS_ALL_CHECKS_PASS",
+      "artifact": "../../t4v1/20261014T153914569881+0800/physics_checks.csv"
+    },
+    "F": {
+      "status": "KNOWN_INTENSITY_FORMULAS_ALL_CHECKS_PASS",
+      "artifact": "../../t4v1/20261014T153914569881+0800/physics_checks.csv"
+    },
+    "CONNECTOR": {
+      "status": "EXISTING_RULE_SELF_CHECK_PASS_ACTUAL_TRAINING_SCOPE_LIMITED",
+      "artifact": "../../t4v1/20261014T153914569881+0800/connector_checks.json",
+      "reason": "连接件需求/效率/材料/工资已有真实训练；库存/订单跨期仅现有规则自检，完整利润未验证"
+    },
+    "CONNECTOR_V2": {
+      "status": "EXISTING_RULE_SELF_CHECK_PASS_ACTUAL_TRAINING_SCOPE_LIMITED",
+      "artifact": "../../t4v1/20261014T153914569881+0800/connector_checks.json",
+      "reason": "连接件需求/效率/材料/工资已有真实训练；库存/订单跨期仅现有规则自检，完整利润未验证"
+    },
+    "JOINT_ALLOCATION": {
+      "status": "EXISTING_RULE_SELF_CHECK_PASS_ACTUAL_TRAINING_SCOPE_LIMITED",
+      "artifact": "../../t4v1/20261014T153914569881+0800/connector_checks.json",
+      "reason": "连接件需求/效率/材料/工资已有真实训练；库存/订单跨期仅现有规则自检，完整利润未验证"
+    }
+  },
+  "count": 29,
+  "deployment": false
+}

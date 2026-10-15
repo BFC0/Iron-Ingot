@@ -225,6 +225,22 @@ def num(text):
     return value, .5 * 10 ** (-decimals)
 
 
+def label_key(text):
+    return re.sub(r'\s+', ' ', text).strip().rstrip(' ?').strip()
+
+
+def paired_row(records, key, label):
+    matches = [r for r in records if (r['market'], r['phase'], r['round'], r['panel']) == key
+               and r['identity_status'] == 'verified' and r['cells']
+               and label_key(r['cells'][0]) == label_key(label) and len(r['cells']) > 2]
+    # A wider row contains real extra cells: never truncate it to the ten-team roster.
+    return matches[0] if len(matches) == 1 and len(matches[0]['cells']) == 11 and len(matches[0]['team_order']) == 10 else None
+
+
+def row_reference(rec):
+    return {k: rec[k] for k in ('source', 'sha256', 'table_index', 'row_index', 'section_path', 'unit_context', 'team_order', 'html_source', 'html_sha256') if k in rec}
+
+
 def printable_references():
     refs = {}
     paths = list((ROOT / 'raw/cross_market').glob('market_*.json'))
@@ -272,9 +288,19 @@ def selfcheck():
     assert num('1\u00a0234.50') == (1234.5, .005)
     parsed, basis = get_tables({'html': '<table><tr><td>连接件</td><td><input value="27.5"></td></tr></table>', 'tables': [[['', '']]]})
     assert parsed == [[['连接件', '27.5']]] and basis == 'html_textcontent_fallback'
+    assert label_key('直接税\n        \n            ?') == '直接税'
+    assert label_key('已收预付款变化(增 + / 减 -)\n ?') == '已收预付款变化(增 + / 减 -)'
+    boundary = {'market': 2, 'phase': 'practice', 'round': 1, 'panel': 'balancesheet',
+                'identity_status': 'verified', 'cells': ['资产 总计'] + ['29 144'] * 12, 'team_order': list(range(10))}
+    assert paired_row([boundary], (2, 'practice', 1, 'balancesheet'), '资产 总计') is None
+    narrow = dict(boundary, cells=['资产 总计'] + ['29 144'] * 10)
+    assert paired_row([narrow], (2, 'practice', 1, 'balancesheet'), '资产 总计') == narrow
+    assert paired_row([narrow, narrow], (2, 'practice', 1, 'balancesheet'), '资产 总计') is None
+    assert num('NaN') is None
     return {'selection_mismatch_rejected': True, 'literal_chart_precision': True,
             'nonliteral_js_rejected': True, 'missing_coverage_pending': True,
-            'duplicate_keys_detected': True, 'display_tolerance': True, 'hidden_tab_table_fallback': True}
+            'duplicate_keys_detected': True, 'display_tolerance': True, 'hidden_tab_table_fallback': True,
+            'help_label_whitespace': True, 'extra_cells_and_duplicate_labels_rejected': True, 'nan_not_zero': True}
 
 
 def main():
@@ -292,7 +318,8 @@ def main():
     sources, records, valid, failures, chart_index, financial, input_index, structural = [], [], {}, [], [], [], [], []
     panels = set(PANELS)
     datasets = {}
-    for path in sorted((BASE / 'raw').rglob('*.json')):
+    current_root = BASE / 'resume/20261013T_goal/current_2026-10-13T082849281Z/raw'
+    for path in sorted(list((BASE / 'raw').rglob('*.json')) + list(current_root.glob('*.json'))):
         fingerprint = sha(path)
         source = path.relative_to(BASE).as_posix()
         try:
@@ -303,16 +330,48 @@ def main():
         if not isinstance(doc, dict):
             continue
         doc = normalize(doc, path.name)
+        html_source, html_fingerprint = source, fingerprint
+        supplement = BASE / 'supplements/html' / (path.stem + '_complete_html.json')
+        if supplement.is_file():
+            extra = json.loads(supplement.read_text(encoding='utf-8-sig'), object_pairs_hook=unique_object)
+            selected = [dict(s, options=s.get('options', old.get('options', []))) for s in extra.get('selected', [])
+                        for old in doc.get('selected', []) if (s['label'], s['value']) == (old['label'], old['value'])]
+            if (extra.get('source_original') != source or extra.get('kind') != 'html_supplement'
+                    or any(extra.get(k) != doc.get(k) for k in ('market', 'phase', 'round', 'panel'))
+                    or identity(dict(extra, selected=selected)) or not extra['html'].rstrip().endswith('</html>')
+                    or '[Truncated]' in extra['html']
+                    or len(extra['html'].encode('utf-16-le')) // 2 != extra.get('html_length')):
+                raise ValueError('invalid HTML supplement: ' + supplement.name)
+            html_source, html_fingerprint = supplement.relative_to(BASE).as_posix(), sha(supplement)
+            content_errors = []
+            if doc.get('panel') == 'summary':
+                extracted, parse_errors = charts(extra['html'])
+                earnings = [c for c in extracted if c['id'] == 'Graphs.Results.Summary.CumulEarnings.TimeSeries.summary']
+                if len(earnings) != 1:
+                    content_errors.append('summary_earnings_chart_missing_or_ambiguous')
+                else:
+                    data = earnings[0]['data']
+                    periods = [c['label'] for c in data['categories'][0]['category']]
+                    slot = periods.index(str(doc['round'])) if str(doc['round']) in periods else None
+                    if slot is None or any(num(str(s['data'][slot]['value'])) is None for s in data['dataset']):
+                        content_errors.append('selected_round_has_no_earnings_in_chart; stale_content')
+            sources.append({'source': html_source, 'sha256': html_fingerprint, 'kind': 'html_supplement',
+                            'source_original': source, 'identity_status': 'rejected' if content_errors else 'verified', 'errors': content_errors})
+            if content_errors:
+                failures.append({'source': html_source, 'errors': content_errors, 'original_retained': source})
+                html_source, html_fingerprint = source, fingerprint
+            else:
+                doc.update(html=extra['html'], tables=extra.get('tables', []))
         tables, table_basis = get_tables(doc)
         doc['tables'] = tables
         actual = doc.get('kind') == 'actual_result' or (doc.get('panel') in PANELS and 'Results' in doc.get('source_url', ''))
-        current = path.name.startswith('round3_') and not actual
+        current = (path.name.startswith('round3_') or path.parent == current_root) and not actual
         errors = identity(doc) if actual else current_identity(doc) if current else []
         source_info = {'source': source, 'sha256': fingerprint, 'captured_at': doc.get('captured_at'),
                        'source_url': doc.get('source_url'), 'market': doc.get('market'), 'phase': doc.get('phase'),
                        'round': doc.get('round'), 'panel': doc.get('panel'), 'kind': doc.get('kind'),
                        'identity_status': 'rejected' if errors else 'verified' if actual else 'current_state_verified' if current else 'non_result_identity_pending',
-                       'errors': errors}
+                       'errors': errors, 'html_source': html_source, 'html_sha256': html_fingerprint}
         sources.append(source_info)
         if errors:
             failures.append({'source': source, 'errors': errors})
@@ -345,12 +404,18 @@ def main():
                         structural.append({'source': source, 'table_index': ti, 'row_index': ri, 'check': 'duplicate_team_headers', 'status': 'fail'})
                 elif actual and headers and len(cells) > 2 and len(cells) != len(headers) + 1:
                     structural.append({'source': source, 'table_index': ti, 'row_index': ri, 'check': 'row_width_vs_team_order',
-                                       'status': 'review', 'width': len(cells), 'expected': len(headers) + 1})
+                                       'status': 'review', 'width': len(cells), 'expected': len(headers) + 1,
+                                       'reason': 'extra_source_cells_preserved; no_truncation', 'sha256': fingerprint})
+                    if not cells[0].strip() and cells[1:len(headers) + 1] != headers:
+                        structural.append({'source': source, 'table_index': ti, 'row_index': ri,
+                                           'check': 'extra_header_prefix_disagrees', 'status': 'fail'})
+                        headers = []
                 if len(cells) in (1, 2) and cells[0].strip() and len(cells[0]) < 100:
                     context.append(cells[0])
                 category = 'actual_result' if actual else 'platform_budget' if budget_table else doc.get('kind', 'unclassified')
                 label = cells[0] if cells else ''
-                semantic_section = next((s for s in reversed(context) if re.search(r'销售|需求|预测|预算|价格', s)), '')
+                semantic_section = next((label_key(s) for s in reversed(context)
+                                         if re.search(r'销售|需求|预测|预算|价格|份额|订单|库存', s)), '')
                 if budget_table:
                     category = 'platform_budget_with_prior_actual_columns'
                 elif '预测' in label or '预测' in semantic_section:
@@ -383,17 +448,19 @@ def main():
         source_info.update(table_count=len(tables), table_basis=table_basis, chart_count=len(extracted), svg_count=len(doc.get('svg', doc.get('svgs', []))))
 
     def row(key, label):
-        doc = datasets.get(key)
-        if not doc:
-            return None
-        found = [r[1:] for t in doc.get('tables', []) for r in t if isinstance(r, list) and r and r[0].rstrip(' ?') == label.rstrip(' ?') and len(r) == 11]
-        return found[0] if len(found) == 1 else None
+        rec = paired_row(records, key, label)
+        return rec['cells'][1:] if rec else None
 
     def equation(key, name, terms):
+        paired = [paired_row(records, key, label) for label, sign in terms]
         values = [row(key, label) for label, sign in terms]
         if any(v is None for v in values):
             financial.append({'key': key, 'check': name, 'status': 'pending', 'missing_or_ambiguous_labels':
-                              [terms[i][0] for i, v in enumerate(values) if v is None]})
+                              [terms[i][0] for i, v in enumerate(values) if v is None],
+                              'reason': 'missing_ambiguous_or_width_mismatch; no_truncation', 'sources': valid.get(key)})
+            return
+        if any(rec['team_order'] != paired[0]['team_order'] for rec in paired):
+            financial.append({'key': key, 'check': name, 'status': 'pending', 'reason': 'team_order_mismatch'})
             return
         for team in range(10):
             parsed = [num(v[team]) for v in values]
@@ -406,7 +473,8 @@ def main():
             financial.append({'key': key, 'team_column_index': team + 1, 'check': name,
                               'residual': residual, 'rounding_tolerance': tolerance,
                               'status': 'pass' if abs(residual) <= tolerance else 'fail',
-                              'terms': terms, 'sources': valid.get(key)})
+                              'terms': terms, 'team': paired[0]['team_order'][team], 'unit': '千 美元' if key[-1] in ('balancesheet', 'incomestatement', 'cashflow') else '千单位',
+                              'sources': [row_reference(rec) for rec in paired]})
 
     for key in datasets:
         if key[-1] == 'balancesheet':
@@ -436,6 +504,11 @@ def main():
                 continue
             prev = (m, phase, r - 1, panel) if r > 1 else (m, 'initial', 0, panel)
             current, previous, profit = row(key, '累计收益'), row(prev, '累计收益'), row(key, '本回合利润')
+            paired = [paired_row(records, k, label) for k, label in
+                      [(key, '累计收益'), (prev, '累计收益'), (key, '本回合利润')]]
+            if all(paired) and any(rec['team_order'] != paired[0]['team_order'] for rec in paired):
+                financial.append({'key': key, 'check': 'cumulative_profit_difference', 'status': 'pending', 'reason': 'team_order_mismatch'})
+                continue
             if current and previous and profit:
                 for i in range(10):
                     a, b, c = num(current[i]), num(previous[i]), num(profit[i])
@@ -447,12 +520,14 @@ def main():
                     financial.append({'key': key, 'check': 'cumulative_profit_difference', 'team_column_index': i + 1,
                                       'residual': residual, 'rounding_tolerance': tolerance,
                                       'status': 'pass' if abs(residual) <= tolerance else 'fail',
-                                      'sources': valid[key] + valid.get(prev, [])})
+                                      'previous_key': prev, 'team': paired[0]['team_order'][i], 'unit': '千 美元',
+                                      'baseline': 'initial0_including_displayed_initial_earnings' if r == 1 else 'same_phase_previous_round',
+                                      'sources': [row_reference(rec) for rec in paired]})
             else:
                 financial.append({'key': key, 'check': 'cumulative_profit_difference', 'status': 'pending', 'previous_key': prev})
     quantities = {}
     for rec in records:
-        if rec['identity_status'] != 'verified' or len(rec['cells']) != 11 or rec['cells'][0] not in ('泰国', '印尼'):
+        if rec['identity_status'] != 'verified' or len(rec['cells']) != 11 or rec['cells'][0] not in ('泰国', '印尼') or rec['panel'] not in ('marketdetails', 'logisticsdetails'):
             continue
         section = rec['semantic_section']
         metric = 'sales' if section == '销售, 千单位' else 'demand' if section == '需求, 千单位' else 'unmet' if section == '未满足需求, 千单位' else None
@@ -467,6 +542,9 @@ def main():
                               'metric_occurrences': {k: len(v) for k, v in metrics.items()}})
             continue
         paired = [metrics[k][0] for k in ('demand', 'sales', 'unmet')]
+        if any(rec['team_order'] != paired[0]['team_order'] for rec in paired):
+            financial.append({'key': qkey, 'check': 'demand_sales_unmet', 'status': 'pending', 'reason': 'team_order_mismatch'})
+            continue
         for i in range(1, 11):
             a, b, c = [num(rec['cells'][i]) for rec in paired]
             if not all((a, b, c)):
@@ -477,7 +555,9 @@ def main():
             financial.append({'key': qkey, 'check': 'demand_sales_unmet', 'team_column_index': i,
                               'residual': residual, 'rounding_tolerance': tolerance,
                               'status': 'pass' if abs(residual) <= tolerance else 'fail',
-                              'sources': [{'source': rec['source'], 'sha256': rec['sha256'], 'table_index': rec['table_index'], 'row_index': rec['row_index']} for rec in paired]})
+                              'team': paired[0]['team_order'][i - 1], 'unit': '千单位',
+                              'supply_limit': 'sales_supply_censored; demand_and_unmet_retained',
+                              'sources': [row_reference(rec) for rec in paired]})
     matrix = coverage(valid, panels)
     print_refs = printable_references()
     supplement = []
@@ -520,8 +600,10 @@ def main():
     counts = Counter(x['status'] for x in matrix)
     status = 'INCOMPLETE' if counts['pending'] or failures or changed or historic_changes or any(x['status'] == 'fail' for x in financial + structural) else 'VERIFIED'
     data_status = status
-    if markers['history_paused.json']:
-        status = 'PAUSED_BY_USER'
+    # Pause files are evidence of an earlier run, not instructions for this audit.
+    if status == 'VERIFIED' and (any(x['status'] == 'pending' for x in financial) or structural):
+        status = 'PAIRING_REVIEW_REQUIRED'
+    data_status = status
     validation = {'generated_at': now(), 'status': status, 'data_status': data_status, 'final_requested': opt.final, 'selfchecks': checks,
                   'coverage_counts': dict(counts), 'source_count': len(sources), 'row_count': len(records),
                   'chart_count': len(chart_index), 'duplicate_page_keys': duplicates, 'failures': failures,
@@ -530,8 +612,9 @@ def main():
                   'source_hash_changes_since_first_audit': historic_changes,
                   'financial_counts': dict(Counter(x['status'] for x in financial)),
                   'structure_counts': dict(Counter(x['status'] for x in structural)),
-                  'pending': ['all missing independent result panels', 'round3 identity and complete page manifest',
-                              'quantity conservation and cumulative differences where source fields not yet paired',
+                  'pending': [f'financial_pending={sum(x["status"] == "pending" for x in financial)}',
+                              f'structure_review={sum(x["status"] == "review" for x in structural)}',
+                              'rejected evidence remains historical; see failures',
                               'unknown roster members require initials mapping before sharing'],
                   'name_check': {'known_project_roster_redacted': True, 'unknown_people_not_certified': True},
                   'decision_modified': False, 'model_trained': False, 'latest_changed': False}

@@ -1,0 +1,3248 @@
+{
+  "status": "passed",
+  "expected_pages": 30,
+  "verified_pages": 30,
+  "verified_at": "2026-10-13T16:50:47.676Z",
+  "sources": [
+    {
+      "file": "market9_formal3_summary.json",
+      "market": 9,
+      "panel": "summary",
+      "bytes": 343546,
+      "sha256": "a0fa1b3d1e0263872a93218f9f2704cc6ad9ba4ce08f500e975d41bdf1405660",
+      "html_length": 294005,
+      "table_count": 1,
+      "row_count": 37,
+      "chart_script_count": 1,
+      "svg_count": 14,
+      "selector_market": {
+        "id": "group_selecta334",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": true,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": false,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 9",
+        "value": "8"
+      },
+      "selector_round": {
+        "id": "round_selecta335",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?sim=se&panel=summary",
+      "captured_at": "2026-10-13T16:30:33.551Z"
+    },
+    {
+      "file": "market9_formal3_market.json",
+      "market": 9,
+      "panel": "market",
+      "bytes": 256990,
+      "sha256": "44dc8f0519335c4042a41dc095355f97a74b697fda311847fb6262c21aa247ec",
+      "html_length": 221814,
+      "table_count": 5,
+      "row_count": 16,
+      "chart_script_count": 1,
+      "svg_count": 16,
+      "selector_market": {
+        "id": "group_selecta570",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": true,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": false,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 9",
+        "value": "8"
+      },
+      "selector_round": {
+        "id": "round_selecta571",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=market&sim=se",
+      "captured_at": "2026-10-13T16:31:04.319Z"
+    },
+    {
+      "file": "market9_formal3_marketdetails.json",
+      "market": 9,
+      "panel": "marketdetails",
+      "bytes": 145525,
+      "sha256": "681c252720346b19989bf60290dc108336610c58fdadcf7b01ccd8720b03d30e",
+      "html_length": 121682,
+      "table_count": 1,
+      "row_count": 46,
+      "chart_script_count": 0,
+      "svg_count": 9,
+      "selector_market": {
+        "id": "group_selecta67a",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": true,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": false,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 9",
+        "value": "8"
+      },
+      "selector_round": {
+        "id": "round_selecta67b",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=marketdetails&sim=se",
+      "captured_at": "2026-10-13T16:31:46.462Z"
+    },
+    {
+      "file": "market9_formal3_production.json",
+      "market": 9,
+      "panel": "production",
+      "bytes": 260676,
+      "sha256": "ac76d9d5f224aa7e74278d281f971e176bf57f26aa8a8ed966a3415caeab43d7",
+      "html_length": 220980,
+      "table_count": 8,
+      "row_count": 14,
+      "chart_script_count": 1,
+      "svg_count": 16,
+      "selector_market": {
+        "id": "group_selecta7ef",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": true,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": false,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 9",
+        "value": "8"
+      },
+      "selector_round": {
+        "id": "round_selecta7f0",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=production&sim=se",
+      "captured_at": "2026-10-13T16:32:08.897Z"
+    },
+    {
+      "file": "market9_formal3_productiondetails.json",
+      "market": 9,
+      "panel": "productiondetails",
+      "bytes": 88994,
+      "sha256": "e5f42a43b84a0ec30ac1c0386767f4b88d00a8f81a6cd11c28ca60593d03d46b",
+      "html_length": 70862,
+      "table_count": 1,
+      "row_count": 19,
+      "chart_script_count": 0,
+      "svg_count": 9,
+      "selector_market": {
+        "id": "group_selecta80b",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": true,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": false,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 9",
+        "value": "8"
+      },
+      "selector_round": {
+        "id": "round_selecta80c",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=productiondetails&sim=se",
+      "captured_at": "2026-10-13T16:32:52.405Z"
+    },
+    {
+      "file": "market9_formal3_productionhr.json",
+      "market": 9,
+      "panel": "productionhr",
+      "bytes": 120389,
+      "sha256": "78ee76cf239245145e18cde812e975dd3bec22970a0bf5d7774cb27bebad2eaf",
+      "html_length": 98309,
+      "table_count": 2,
+      "row_count": 12,
+      "chart_script_count": 1,
+      "svg_count": 10,
+      "selector_market": {
+        "id": "group_selectaad7",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": true,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": false,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 9",
+        "value": "8"
+      },
+      "selector_round": {
+        "id": "round_selectaad8",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=productionhr&sim=se",
+      "captured_at": "2026-10-13T16:33:15.188Z"
+    },
+    {
+      "file": "market9_formal3_productionenvironmental.json",
+      "market": 9,
+      "panel": "productionenvironmental",
+      "bytes": 115643,
+      "sha256": "9fd626c6d99ab7ca6575ab4c4a27d51229a86b051fc305905bf913b693c9bbc6",
+      "html_length": 94885,
+      "table_count": 4,
+      "row_count": 28,
+      "chart_script_count": 0,
+      "svg_count": 9,
+      "selector_market": {
+        "id": "group_selectad57",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": true,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": false,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 9",
+        "value": "8"
+      },
+      "selector_round": {
+        "id": "round_selectad58",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=productionenvironmental&sim=se",
+      "captured_at": "2026-10-13T16:33:47.718Z"
+    },
+    {
+      "file": "market9_formal3_logistics.json",
+      "market": 9,
+      "panel": "logistics",
+      "bytes": 172843,
+      "sha256": "aefe738168f6ca98638bd7a8c77aa3810f05ad56b4e2e514ff9e1d702b7d57bf",
+      "html_length": 143207,
+      "table_count": 4,
+      "row_count": 9,
+      "chart_script_count": 1,
+      "svg_count": 13,
+      "selector_market": {
+        "id": "group_selectae45",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": true,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": false,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 9",
+        "value": "8"
+      },
+      "selector_round": {
+        "id": "round_selectae46",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=logistics&sim=se",
+      "captured_at": "2026-10-13T16:34:10.026Z"
+    },
+    {
+      "file": "market9_formal3_logisticsdetails.json",
+      "market": 9,
+      "panel": "logisticsdetails",
+      "bytes": 84786,
+      "sha256": "073648d9515b476906de128b2ef5a2341947788e07ab343443914a6086709b1c",
+      "html_length": 67775,
+      "table_count": 1,
+      "row_count": 20,
+      "chart_script_count": 0,
+      "svg_count": 9,
+      "selector_market": {
+        "id": "group_selectae58",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": true,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": false,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 9",
+        "value": "8"
+      },
+      "selector_round": {
+        "id": "round_selectae59",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=logisticsdetails&sim=se",
+      "captured_at": "2026-10-13T16:34:43.728Z"
+    },
+    {
+      "file": "market9_formal3_logisticsemissions.json",
+      "market": 9,
+      "panel": "logisticsemissions",
+      "bytes": 88741,
+      "sha256": "846aced122ca94e0f64e51d0149628c9ce9683ed7c24f8aff07766fc6eed8cc4",
+      "html_length": 71088,
+      "table_count": 4,
+      "row_count": 20,
+      "chart_script_count": 0,
+      "svg_count": 9,
+      "selector_market": {
+        "id": "group_selectb011",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": true,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": false,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 9",
+        "value": "8"
+      },
+      "selector_round": {
+        "id": "round_selectb012",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=logisticsemissions&sim=se",
+      "captured_at": "2026-10-13T16:35:06.237Z"
+    },
+    {
+      "file": "market9_formal3_incomestatement.json",
+      "market": 9,
+      "panel": "incomestatement",
+      "bytes": 231825,
+      "sha256": "c4fa99f64fbc3b4961f55f620915681d75994dbda8cf33d55596e000b7a11a05",
+      "html_length": 194324,
+      "table_count": 1,
+      "row_count": 56,
+      "chart_script_count": 1,
+      "svg_count": 10,
+      "selector_market": {
+        "id": "group_selectb1c4",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": true,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": false,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 9",
+        "value": "8"
+      },
+      "selector_round": {
+        "id": "round_selectb1c5",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=incomestatement&sim=se",
+      "captured_at": "2026-10-13T16:35:50.366Z"
+    },
+    {
+      "file": "market9_formal3_balancesheet.json",
+      "market": 9,
+      "panel": "balancesheet",
+      "bytes": 176979,
+      "sha256": "dcca87c8e742a88e05001ba5b6cc4db050d6def79e67ecf7a2a328948c8d8657",
+      "html_length": 145646,
+      "table_count": 1,
+      "row_count": 37,
+      "chart_script_count": 1,
+      "svg_count": 10,
+      "selector_market": {
+        "id": "group_selectb38e",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": true,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": false,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 9",
+        "value": "8"
+      },
+      "selector_round": {
+        "id": "round_selectb38f",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=balancesheet&sim=se",
+      "captured_at": "2026-10-13T16:36:12.926Z"
+    },
+    {
+      "file": "market9_formal3_cashflow.json",
+      "market": 9,
+      "panel": "cashflow",
+      "bytes": 153432,
+      "sha256": "ed5cfff0434a25befd515c51eacea938c75cb3f16582154bbe2d75b264abe3f0",
+      "html_length": 126057,
+      "table_count": 1,
+      "row_count": 35,
+      "chart_script_count": 1,
+      "svg_count": 10,
+      "selector_market": {
+        "id": "group_selectb485",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": true,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": false,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 9",
+        "value": "8"
+      },
+      "selector_round": {
+        "id": "round_selectb486",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=cashflow&sim=se",
+      "captured_at": "2026-10-13T16:39:42.655Z"
+    },
+    {
+      "file": "market9_formal3_ratios.json",
+      "market": 9,
+      "panel": "ratios",
+      "bytes": 67208,
+      "sha256": "1fcdaf5fed10ac0becc959a06924e1eb6e9c314ad9ffea693b695030f8336f59",
+      "html_length": 52794,
+      "table_count": 1,
+      "row_count": 12,
+      "chart_script_count": 0,
+      "svg_count": 9,
+      "selector_market": {
+        "id": "group_selectb58e",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": true,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": false,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 9",
+        "value": "8"
+      },
+      "selector_round": {
+        "id": "round_selectb58f",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=ratios&sim=se",
+      "captured_at": "2026-10-13T16:40:05.089Z"
+    },
+    {
+      "file": "market9_formal3_societalimpact.json",
+      "market": 9,
+      "panel": "societalimpact",
+      "bytes": 104349,
+      "sha256": "88ed7020f5409fc8d9d5906648185b9ff61a1163b083e64bdf0f2d3b025ad247",
+      "html_length": 83940,
+      "table_count": 1,
+      "row_count": 9,
+      "chart_script_count": 1,
+      "svg_count": 10,
+      "selector_market": {
+        "id": "group_selectb76e",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": true,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": false,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 9",
+        "value": "8"
+      },
+      "selector_round": {
+        "id": "round_selectb76f",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=societalimpact&sim=se",
+      "captured_at": "2026-10-13T16:42:17.430Z"
+    },
+    {
+      "file": "market10_formal3_summary.json",
+      "market": 10,
+      "panel": "summary",
+      "bytes": 345844,
+      "sha256": "14b8cb4340009e54228f34f8ae9865753b98e5d1946acc68af2330e945b3e5d5",
+      "html_length": 297901,
+      "table_count": 1,
+      "row_count": 37,
+      "chart_script_count": 1,
+      "svg_count": 14,
+      "selector_market": {
+        "id": "group_selectb819",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": false,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": true,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 10",
+        "value": "9"
+      },
+      "selector_round": {
+        "id": "round_selectb81a",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=summary&sim=se",
+      "captured_at": "2026-10-13T16:43:38.555Z"
+    },
+    {
+      "file": "market10_formal3_market.json",
+      "market": 10,
+      "panel": "market",
+      "bytes": 255178,
+      "sha256": "e3cfc34762df720d7137f3915be4ab37cd4653d8d7912be0a8ba19b92227cac7",
+      "html_length": 221296,
+      "table_count": 5,
+      "row_count": 16,
+      "chart_script_count": 1,
+      "svg_count": 16,
+      "selector_market": {
+        "id": "group_selectb921",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": false,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": true,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 10",
+        "value": "9"
+      },
+      "selector_round": {
+        "id": "round_selectb922",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=market&sim=se",
+      "captured_at": "2026-10-13T16:44:00.856Z"
+    },
+    {
+      "file": "market10_formal3_marketdetails.json",
+      "market": 10,
+      "panel": "marketdetails",
+      "bytes": 145376,
+      "sha256": "9fbc3958edc721b2fdf87f739efe9791ad05a82ef1914463da820efe76d1f687",
+      "html_length": 121670,
+      "table_count": 1,
+      "row_count": 46,
+      "chart_script_count": 0,
+      "svg_count": 9,
+      "selector_market": {
+        "id": "group_selectb93c",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": false,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": true,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 10",
+        "value": "9"
+      },
+      "selector_round": {
+        "id": "round_selectb93d",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=marketdetails&sim=se",
+      "captured_at": "2026-10-13T16:44:45.730Z"
+    },
+    {
+      "file": "market10_formal3_production.json",
+      "market": 10,
+      "panel": "production",
+      "bytes": 257459,
+      "sha256": "284757175709f7d0fa86ea7353ad36964a630e2a784d8486f02bbea11c2e5e22",
+      "html_length": 219442,
+      "table_count": 8,
+      "row_count": 14,
+      "chart_script_count": 1,
+      "svg_count": 16,
+      "selector_market": {
+        "id": "group_selectbab1",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": false,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": true,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 10",
+        "value": "9"
+      },
+      "selector_round": {
+        "id": "round_selectbab2",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=production&sim=se",
+      "captured_at": "2026-10-13T16:45:07.996Z"
+    },
+    {
+      "file": "market10_formal3_productiondetails.json",
+      "market": 10,
+      "panel": "productiondetails",
+      "bytes": 88893,
+      "sha256": "60ebe10f562be548c0bff3f187d0a4ac1713b016e81290c7a7d09be8feb429d7",
+      "html_length": 70874,
+      "table_count": 1,
+      "row_count": 19,
+      "chart_script_count": 0,
+      "svg_count": 9,
+      "selector_market": {
+        "id": "group_selectbacd",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": false,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": true,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 10",
+        "value": "9"
+      },
+      "selector_round": {
+        "id": "round_selectbace",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=productiondetails&sim=se",
+      "captured_at": "2026-10-13T16:45:37.728Z"
+    },
+    {
+      "file": "market10_formal3_productionhr.json",
+      "market": 10,
+      "panel": "productionhr",
+      "bytes": 118764,
+      "sha256": "32af4489c68512fab7cd3c826190233f33bc4a0a311f83ebbf54887684ac4134",
+      "html_length": 97186,
+      "table_count": 2,
+      "row_count": 12,
+      "chart_script_count": 1,
+      "svg_count": 10,
+      "selector_market": {
+        "id": "group_selectbb87",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": false,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": true,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 10",
+        "value": "9"
+      },
+      "selector_round": {
+        "id": "round_selectbb88",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=productionhr&sim=se",
+      "captured_at": "2026-10-13T16:46:00.099Z"
+    },
+    {
+      "file": "market10_formal3_productionenvironmental.json",
+      "market": 10,
+      "panel": "productionenvironmental",
+      "bytes": 115312,
+      "sha256": "85885e635ec7a71fe217dfc02c0a29b884c2b3c36d3e6dbee1f0683915532272",
+      "html_length": 94845,
+      "table_count": 4,
+      "row_count": 28,
+      "chart_script_count": 0,
+      "svg_count": 9,
+      "selector_market": {
+        "id": "group_selectbbf5",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": false,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": true,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 10",
+        "value": "9"
+      },
+      "selector_round": {
+        "id": "round_selectbbf6",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=productionenvironmental&sim=se",
+      "captured_at": "2026-10-13T16:46:32.721Z"
+    },
+    {
+      "file": "market10_formal3_logistics.json",
+      "market": 10,
+      "panel": "logistics",
+      "bytes": 171573,
+      "sha256": "e44c783fb77c293be7451b7d4d550f8f8c813ebdbb4d6fe1f778f9190ace1250",
+      "html_length": 142750,
+      "table_count": 4,
+      "row_count": 9,
+      "chart_script_count": 1,
+      "svg_count": 13,
+      "selector_market": {
+        "id": "group_selectbce3",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": false,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": true,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 10",
+        "value": "9"
+      },
+      "selector_round": {
+        "id": "round_selectbce4",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=logistics&sim=se",
+      "captured_at": "2026-10-13T16:46:54.967Z"
+    },
+    {
+      "file": "market10_formal3_logisticsdetails.json",
+      "market": 10,
+      "panel": "logisticsdetails",
+      "bytes": 84643,
+      "sha256": "f55c5fe74a9af4ca89ba7865713a7edd8941d1502fa3ad4a66bc8e697e366ea8",
+      "html_length": 67765,
+      "table_count": 1,
+      "row_count": 20,
+      "chart_script_count": 0,
+      "svg_count": 9,
+      "selector_market": {
+        "id": "group_selectbcf6",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": false,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": true,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 10",
+        "value": "9"
+      },
+      "selector_round": {
+        "id": "round_selectbcf7",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=logisticsdetails&sim=se",
+      "captured_at": "2026-10-13T16:47:38.243Z"
+    },
+    {
+      "file": "market10_formal3_logisticsemissions.json",
+      "market": 10,
+      "panel": "logisticsemissions",
+      "bytes": 88612,
+      "sha256": "f5ca506158e0e77342ffc6d4badb756b180884b6f11267847d012703adf761de",
+      "html_length": 71142,
+      "table_count": 4,
+      "row_count": 20,
+      "chart_script_count": 0,
+      "svg_count": 9,
+      "selector_market": {
+        "id": "group_selectbda7",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": false,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": true,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 10",
+        "value": "9"
+      },
+      "selector_round": {
+        "id": "round_selectbda8",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=logisticsemissions&sim=se",
+      "captured_at": "2026-10-13T16:48:00.697Z"
+    },
+    {
+      "file": "market10_formal3_incomestatement.json",
+      "market": 10,
+      "panel": "incomestatement",
+      "bytes": 232146,
+      "sha256": "77864c1d12fa3c4a2b36753af0bb48d47e14f07256b22293f30a03d79d139153",
+      "html_length": 195402,
+      "table_count": 1,
+      "row_count": 56,
+      "chart_script_count": 1,
+      "svg_count": 10,
+      "selector_market": {
+        "id": "group_selectbe52",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": false,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": true,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 10",
+        "value": "9"
+      },
+      "selector_round": {
+        "id": "round_selectbe53",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=incomestatement&sim=se",
+      "captured_at": "2026-10-13T16:48:31.533Z"
+    },
+    {
+      "file": "market10_formal3_balancesheet.json",
+      "market": 10,
+      "panel": "balancesheet",
+      "bytes": 175521,
+      "sha256": "0e0af228e2c61c1c7facca1ad5427d59f666fdf2b9dfc23f83033b4d72f59879",
+      "html_length": 144802,
+      "table_count": 1,
+      "row_count": 37,
+      "chart_script_count": 1,
+      "svg_count": 10,
+      "selector_market": {
+        "id": "group_selectc01c",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": false,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": true,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 10",
+        "value": "9"
+      },
+      "selector_round": {
+        "id": "round_selectc01d",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=balancesheet&sim=se",
+      "captured_at": "2026-10-13T16:48:54.078Z"
+    },
+    {
+      "file": "market10_formal3_cashflow.json",
+      "market": 10,
+      "panel": "cashflow",
+      "bytes": 152734,
+      "sha256": "9ff8d93d9d4eec34e243fbc35061b7296a68c0c4e099faa23fc5e377b4949753",
+      "html_length": 125991,
+      "table_count": 1,
+      "row_count": 35,
+      "chart_script_count": 1,
+      "svg_count": 10,
+      "selector_market": {
+        "id": "group_selectc113",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": false,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": true,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 10",
+        "value": "9"
+      },
+      "selector_round": {
+        "id": "round_selectc114",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=cashflow&sim=se",
+      "captured_at": "2026-10-13T16:49:23.964Z"
+    },
+    {
+      "file": "market10_formal3_ratios.json",
+      "market": 10,
+      "panel": "ratios",
+      "bytes": 67038,
+      "sha256": "4b4735d13008c3201b584c6943ad496c08abb996360b1fdb89c7e1ccc0700561",
+      "html_length": 52775,
+      "table_count": 1,
+      "row_count": 12,
+      "chart_script_count": 0,
+      "svg_count": 9,
+      "selector_market": {
+        "id": "group_selectc21c",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": false,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": true,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 10",
+        "value": "9"
+      },
+      "selector_round": {
+        "id": "round_selectc21d",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=ratios&sim=se",
+      "captured_at": "2026-10-13T16:49:46.371Z"
+    },
+    {
+      "file": "market10_formal3_societalimpact.json",
+      "market": 10,
+      "panel": "societalimpact",
+      "bytes": 104731,
+      "sha256": "338d54d385acd7fd5d7047caab13c9df36277737d22121514dc1e02f83294f16",
+      "html_length": 84515,
+      "table_count": 1,
+      "row_count": 9,
+      "chart_script_count": 1,
+      "svg_count": 10,
+      "selector_market": {
+        "id": "group_selectb7c4",
+        "options": [
+          {
+            "selected": false,
+            "text": "市场 1",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "市场 2",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "市场 3",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "市场 4",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "市场 5",
+            "value": "4"
+          },
+          {
+            "selected": false,
+            "text": "市场 6",
+            "value": "5"
+          },
+          {
+            "selected": false,
+            "text": "市场 7",
+            "value": "6"
+          },
+          {
+            "selected": false,
+            "text": "市场 8",
+            "value": "7"
+          },
+          {
+            "selected": false,
+            "text": "市场 9",
+            "value": "8"
+          },
+          {
+            "selected": true,
+            "text": "市场 10",
+            "value": "9"
+          }
+        ],
+        "text": "市场 10",
+        "value": "9"
+      },
+      "selector_round": {
+        "id": "round_selectb7c5",
+        "options": [
+          {
+            "selected": false,
+            "text": "初始回合0",
+            "value": "0"
+          },
+          {
+            "selected": false,
+            "text": "练习回合1",
+            "value": "1"
+          },
+          {
+            "selected": false,
+            "text": "练习回合2",
+            "value": "2"
+          },
+          {
+            "selected": false,
+            "text": "回合1",
+            "value": "3"
+          },
+          {
+            "selected": false,
+            "text": "回合2",
+            "value": "4"
+          },
+          {
+            "selected": true,
+            "text": "回合3",
+            "value": "5"
+          }
+        ],
+        "text": "回合3",
+        "value": "5"
+      },
+      "url": "http://sim.cesim.cn/ul/Results?panel=societalimpact&sim=se",
+      "captured_at": "2026-10-13T16:43:08.403Z"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "source": "raw/market01_formal1_incomestatement.json",
+    "table_index": 0,
+    "row_index": 48,
+    "check": "row_width_vs_team_order",
+    "status": "review",
+    "width": 12,
+    "expected": 11
+  },
+  {
+    "source": "raw/market02_practice1_balancesheet.json",
+    "table_index": 0,
+    "row_index": 19,
+    "check": "row_width_vs_team_order",
+    "status": "review",
+    "width": 13,
+    "expected": 11
+  },
+  {
+    "source": "raw/market02_practice1_balancesheet.json",
+    "table_index": 0,
+    "row_index": 21,
+    "check": "row_width_vs_team_order",
+    "status": "review",
+    "width": 12,
+    "expected": 11
+  }
+]

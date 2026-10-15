@@ -1,0 +1,22 @@
+{
+  "A": "资源总量=单位强度×产量；产量=人数×效率；使用精度区间联合约束",
+  "B": "N_available=N_previous*(1-delta_N); H=N_required-N_available; F=base_wage*kappa_F*max(-H,0)",
+  "C": "w_eff/w_base=1+b1*max(s-1,0)+b2*max(s-2,0); 派生性通过则不训练",
+  "D": "log_efficiency_residual_next=alpha+phi*residual_previous+beta_H*hire_rate+beta_F*fire_rate",
+  "E": "production_resources=k_C/k_E/k_W * production_kunits",
+  "F": "transport_kg=route_TH_kunits*e_TH_g_per_unit+route_ID_kunits*e_ID_g_per_unit",
+  "parameter_units": {
+    "k_C": "kg/单位",
+    "k_E": "kWh/单位",
+    "k_W": "升/单位",
+    "e_TH": "g/单位",
+    "e_ID": "g/单位",
+    "delta_N": "小数",
+    "kappa_F": "基础工资比例",
+    "alpha": "对数效率残差",
+    "phi": "无量纲",
+    "beta_H": "每单位招聘率的对数效率关联",
+    "beta_F": "每单位裁员率的对数效率关联"
+  },
+  "implementation": "只保存通过门槛的研究参数，未训练参数不补值"
+}

@@ -1,0 +1,47 @@
+{
+  "status": "NO_MATCHING_PROSPECTIVE_CANDIDATE_FORECAST",
+  "scored_model_n": 0,
+  "market_id": 5,
+  "phase": "formal",
+  "round": 4,
+  "team": "营销团队",
+  "team_id": "M5_C6",
+  "candidate_field_matches": {
+    "中性收益优先且联合不利现金达标候选": {
+      "matched": 11,
+      "mismatched": 31
+    },
+    "联合不利收益优先候选": {
+      "matched": 8,
+      "mismatched": 34
+    }
+  },
+  "reason": "最终小组方案与两套冻结候选均不一致，四项零售售价全部不同；不将候选预测直接评分为本次方案事前成绩。",
+  "final_group_fields": 42,
+  "personal_fields": 168,
+  "budget_summaries": 10,
+  "personal_current_column": "PYT",
+  "other_personal_columns": "MEMBER_COL_2至4（仅保留来源列编号，未推断姓名映射）",
+  "crosschecks_passed": 9,
+  "no_training": true,
+  "group_budget_profit": 3408.0,
+  "actual_profit": {
+    "value": 351.0,
+    "display": "351",
+    "half_step": 0.5,
+    "source_path": "output/round_close/20261014_formal4_close/raw/market5_formal4_incomestatement.json",
+    "sha256": "871c880eab6c99cd036df84c878ddf77e2401ce49a819b940715c9c5e2165455",
+    "table": 0,
+    "row": 55,
+    "column": 6,
+    "indexing": "zero_based",
+    "label": "本回合利润"
+  },
+  "profit_comparison_type": "BUDGET_VS_ACTUAL_NOT_MODEL_PROSPECTIVE_SCORE",
+  "limitations": [
+    "候选完整利润未独立前向验证",
+    "销量截断不能代替真实需求",
+    "色值未从浏览器重新计算，保留原class/style及changed状态",
+    "投入分项合计与实际核对，不能据总额辨认其他市场逐国投入"
+  ]
+}

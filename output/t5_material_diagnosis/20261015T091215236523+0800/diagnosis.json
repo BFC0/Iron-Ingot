@@ -1,0 +1,586 @@
+{
+  "summary": {
+    "复合梁": {
+      "n": 100,
+      "published_prices": [
+        1053.0
+      ],
+      "nested_mae": 2.5578379029291294,
+      "market_mean_mae": 2.5578379029291294,
+      "max_error": 5.465308680960078,
+      "compatible": 100,
+      "train_mae": 2.542537260734808,
+      "mean_cost": 17959.26,
+      "wape_pct": 0.014242445974550896,
+      "mean_row_ape_pct": 0.06043916509150052,
+      "mean_tolerance": 5.772267141775107,
+      "common_unit_interval": [
+        1054.4228872081553,
+        1054.492060039156
+      ],
+      "unit_range": [
+        1054.4444994670316,
+        1054.4622435315896
+      ],
+      "unit_range_at_mean_q": 0.30221513314495085,
+      "q_range": [
+        0.12,
+        27.54
+      ],
+      "excess_over_rounding": 0,
+      "signed_error_mean": 0.08728507303434782,
+      "positive": 50,
+      "negative": 50,
+      "candidates": {
+        "published": {
+          "fit": {
+            "form": "published",
+            "parameter": 0,
+            "compatible_interval": null
+          },
+          "cv": {
+            "mae_kusd": 24.676900000000128,
+            "display_compatible_n": 7
+          },
+          "train": 24.676900000000128
+        },
+        "additive": {
+          "fit": {
+            "form": "additive",
+            "parameter": 1.4534106586634123,
+            "compatible_interval": [
+              1.4228872081553163,
+              1.4920600391560583
+            ]
+          },
+          "cv": {
+            "mae_kusd": 2.557837902928911,
+            "display_compatible_n": 100
+          },
+          "train": 2.542537260734808
+        },
+        "proportional": {
+          "fit": {
+            "form": "proportional",
+            "parameter": 0.0013802570357677232,
+            "compatible_interval": [
+              0.001351269903281402,
+              0.0014169611008129708
+            ]
+          },
+          "cv": {
+            "mae_kusd": 2.5578379029290836,
+            "display_compatible_n": 100
+          },
+          "train": 2.542537260734808
+        }
+      },
+      "folds": [
+        {
+          "market": 1,
+          "selected": "proportional",
+          "parameter": 0.001382489071224424,
+          "unit": 1054.4557609919993,
+          "mae": 3.3670280944622135,
+          "max_error": 5.465308680960078,
+          "compatible": 10
+        },
+        {
+          "market": 2,
+          "selected": "additive",
+          "parameter": 1.453260245311929,
+          "unit": 1054.4532602453119,
+          "mae": 2.4089065204905635,
+          "max_error": 3.955020203467029,
+          "compatible": 10
+        },
+        {
+          "market": 3,
+          "selected": "additive",
+          "parameter": 1.4552076699959064,
+          "unit": 1054.4552076699958,
+          "mae": 2.373581083275167,
+          "max_error": 4.925224333201186,
+          "compatible": 10
+        },
+        {
+          "market": 4,
+          "selected": "proportional",
+          "parameter": 0.0013795216895853457,
+          "unit": 1054.4526363391333,
+          "mae": 2.2278571393489983,
+          "max_error": 4.258066023778156,
+          "compatible": 10
+        },
+        {
+          "market": 5,
+          "selected": "proportional",
+          "parameter": 0.001371794365652182,
+          "unit": 1054.4444994670316,
+          "mae": 3.018457676873004,
+          "max_error": 4.678646584427042,
+          "compatible": 10
+        },
+        {
+          "market": 6,
+          "selected": "additive",
+          "parameter": 1.4622435315896398,
+          "unit": 1054.4622435315896,
+          "mae": 2.4576720054823453,
+          "max_error": 4.7048269187616825,
+          "compatible": 10
+        },
+        {
+          "market": 7,
+          "selected": "additive",
+          "parameter": 1.4467922280636878,
+          "unit": 1054.4467922280637,
+          "mae": 3.2482516907690298,
+          "max_error": 5.053302583812183,
+          "compatible": 10
+        },
+        {
+          "market": 8,
+          "selected": "additive",
+          "parameter": 1.4575096469077489,
+          "unit": 1054.4575096469077,
+          "mae": 2.149103013169406,
+          "max_error": 4.491871324760723,
+          "compatible": 10
+        },
+        {
+          "market": 9,
+          "selected": "additive",
+          "parameter": 1.4525082972989425,
+          "unit": 1054.452508297299,
+          "mae": 1.6011178577810825,
+          "max_error": 3.6006242684052268,
+          "compatible": 10
+        },
+        {
+          "market": 10,
+          "selected": "additive",
+          "parameter": 1.4538651328814909,
+          "unit": 1054.4538651328814,
+          "mae": 2.726403947639483,
+          "max_error": 5.301249980202556,
+          "compatible": 10
+        }
+      ],
+      "largest": [
+        {
+          "phase": "formal",
+          "market": 1,
+          "team": "M01-8aaa9bec8534e4f4",
+          "actual_cost_kusd": 132.0,
+          "unit_cost_usd": 1054.4557609919993,
+          "material_cost_kusd": 126.53469131903992,
+          "published_price_usd": 1053.0,
+          "production_kunits": 0.12,
+          "scope": "Empirical materials-purchase cost, not all variable production costs",
+          "error_kusd": -5.465308680960078,
+          "display_tolerance_kusd": 5.7722788049599965,
+          "display_compatible": true,
+          "product": "复合梁",
+          "production": 0.12,
+          "relative_abs_pct": 4.140385364363695,
+          "implied_unit": 1100.0,
+          "implied_low": 1052.0,
+          "implied_high": 1152.1739130434783,
+          "excess_over_rounding": 0
+        },
+        {
+          "phase": "formal",
+          "market": 10,
+          "team": "M10-53fc571f4f8fe086",
+          "actual_cost_kusd": 16033.0,
+          "unit_cost_usd": 1054.4538651328814,
+          "material_cost_kusd": 16027.698750019797,
+          "published_price_usd": 1053.0,
+          "production_kunits": 15.2,
+          "scope": "Empirical materials-purchase cost, not all variable production costs",
+          "error_kusd": -5.301249980202556,
+          "display_tolerance_kusd": 5.772269325664407,
+          "display_compatible": true,
+          "product": "复合梁",
+          "production": 15.2,
+          "relative_abs_pct": 0.033064616604519155,
+          "implied_unit": 1054.8026315789475,
+          "implied_low": 1054.4228872081553,
+          "implied_high": 1055.1826258637711,
+          "excess_over_rounding": 0
+        },
+        {
+          "phase": "formal",
+          "market": 7,
+          "team": "M07-9fba5de91951d735",
+          "actual_cost_kusd": 20978.0,
+          "unit_cost_usd": 1054.4467922280637,
+          "material_cost_kusd": 20972.946697416188,
+          "published_price_usd": 1053.0,
+          "production_kunits": 19.89,
+          "scope": "Empirical materials-purchase cost, not all variable production costs",
+          "error_kusd": -5.053302583812183,
+          "display_tolerance_kusd": 5.772233961140318,
+          "display_compatible": true,
+          "product": "复合梁",
+          "production": 19.89,
+          "relative_abs_pct": 0.02408858129379437,
+          "implied_unit": 1054.7008547008547,
+          "implied_low": 1054.4106559437046,
+          "implied_high": 1054.99119939653,
+          "excess_over_rounding": 0
+        },
+        {
+          "phase": "formal",
+          "market": 7,
+          "team": "M07-78352853ce6b7e4a",
+          "actual_cost_kusd": 4740.0,
+          "unit_cost_usd": 1054.4467922280637,
+          "material_cost_kusd": 4745.010565026287,
+          "published_price_usd": 1053.0,
+          "production_kunits": 4.5,
+          "scope": "Empirical materials-purchase cost, not all variable production costs",
+          "error_kusd": 5.010565026286713,
+          "display_tolerance_kusd": 5.772233961140318,
+          "display_compatible": true,
+          "product": "复合梁",
+          "production": 4.5,
+          "relative_abs_pct": 0.10570812291744121,
+          "implied_unit": 1053.3333333333333,
+          "implied_low": 1052.0532741398447,
+          "implied_high": 1054.6162402669634,
+          "excess_over_rounding": 0
+        },
+        {
+          "phase": "formal",
+          "market": 3,
+          "team": "M03-4300d356bed3ff8b",
+          "actual_cost_kusd": 24237.0,
+          "unit_cost_usd": 1054.4552076699958,
+          "material_cost_kusd": 24241.9252243332,
+          "published_price_usd": 1053.0,
+          "production_kunits": 22.99,
+          "scope": "Empirical materials-purchase cost, not all variable production costs",
+          "error_kusd": 4.925224333201186,
+          "display_tolerance_kusd": 5.772276038349979,
+          "display_compatible": true,
+          "product": "复合梁",
+          "production": 22.99,
+          "relative_abs_pct": 0.020321097219957857,
+          "implied_unit": 1054.2409743366682,
+          "implied_low": 1053.9899978256144,
+          "implied_high": 1054.492060039156,
+          "excess_over_rounding": 0
+        }
+      ],
+      "distinct_costs": 97,
+      "distinct_quantities": 95
+    },
+    "连接件": {
+      "n": 89,
+      "published_prices": [
+        14.2
+      ],
+      "nested_mae": 0.2659876226115413,
+      "market_mean_mae": 0.2663636802074838,
+      "max_error": 0.5090243306485718,
+      "compatible": 89,
+      "train_mae": 0.25965019039678705,
+      "mean_cost": 5228.23595505618,
+      "wape_pct": 0.005087521391499308,
+      "mean_row_ape_pct": 0.008129904171410527,
+      "mean_tolerance": 0.5710986455691112,
+      "common_unit_interval": [
+        14.219584297728993,
+        14.219986418880527
+      ],
+      "unit_range": [
+        14.219652225523859,
+        14.219777469114542
+      ],
+      "unit_range_at_mean_q": 0.04604908496346016,
+      "q_range": [
+        27.2,
+        740.0
+      ],
+      "excess_over_rounding": 0,
+      "signed_error_mean": 0.019512441131742313,
+      "positive": 48,
+      "negative": 41,
+      "candidates": {
+        "published": {
+          "fit": {
+            "form": "published",
+            "parameter": 0,
+            "compatible_interval": null
+          },
+          "cv": {
+            "mae_kusd": 7.234202247191242,
+            "display_compatible_n": 1
+          },
+          "train": 7.234202247191242
+        },
+        "additive": {
+          "fit": {
+            "form": "additive",
+            "parameter": 0.019726472131805478,
+            "compatible_interval": [
+              0.019584297728993505,
+              0.01998641888052788
+            ]
+          },
+          "cv": {
+            "mae_kusd": 0.26598762261149145,
+            "display_compatible_n": 89
+          },
+          "train": 0.25965019039678705
+        },
+        "proportional": {
+          "fit": {
+            "form": "proportional",
+            "parameter": 0.0013891881782961604,
+            "compatible_interval": [
+              0.0013791758964079935,
+              0.0014074942873611182
+            ]
+          },
+          "cv": {
+            "mae_kusd": 0.2659876226115521,
+            "display_compatible_n": 89
+          },
+          "train": 0.25965019039678705
+        }
+      },
+      "folds": [
+        {
+          "market": 1,
+          "selected": "additive",
+          "parameter": 0.019760927622405198,
+          "unit": 14.219760927622405,
+          "mae": 0.24584776173109618,
+          "max_error": 0.47680281259636104,
+          "compatible": 10
+        },
+        {
+          "market": 2,
+          "selected": "proportional",
+          "parameter": 0.0013839595439338632,
+          "unit": 14.219652225523859,
+          "mae": 0.330128778689982,
+          "max_error": 0.5090243306485718,
+          "compatible": 8
+        },
+        {
+          "market": 3,
+          "selected": "proportional",
+          "parameter": 0.0013905770823538876,
+          "unit": 14.219746194569424,
+          "mae": 0.29150156267202193,
+          "max_error": 0.4844270006487932,
+          "compatible": 10
+        },
+        {
+          "market": 4,
+          "selected": "additive",
+          "parameter": 0.019711495071600478,
+          "unit": 14.2197114950716,
+          "mae": 0.22500621621664627,
+          "max_error": 0.4134936470163666,
+          "compatible": 9
+        },
+        {
+          "market": 5,
+          "selected": "proportional",
+          "parameter": 0.0013909539271417133,
+          "unit": 14.219751545765412,
+          "mae": 0.21403029194003692,
+          "max_error": 0.39179761495233834,
+          "compatible": 10
+        },
+        {
+          "market": 6,
+          "selected": "additive",
+          "parameter": 0.019777469114542687,
+          "unit": 14.219777469114542,
+          "mae": 0.278025971785155,
+          "max_error": 0.3834215957112974,
+          "compatible": 9
+        },
+        {
+          "market": 7,
+          "selected": "proportional",
+          "parameter": 0.0013884819962711613,
+          "unit": 14.219716444347048,
+          "mae": 0.23795410964165362,
+          "max_error": 0.4098311831839965,
+          "compatible": 6
+        },
+        {
+          "market": 8,
+          "selected": "proportional",
+          "parameter": 0.0013862354721999824,
+          "unit": 14.21968454370524,
+          "mae": 0.29592925734189635,
+          "max_error": 0.505481917736688,
+          "compatible": 8
+        },
+        {
+          "market": 9,
+          "selected": "additive",
+          "parameter": 0.019753992187615345,
+          "unit": 14.219753992187615,
+          "mae": 0.2565049096890309,
+          "max_error": 0.4781166285620202,
+          "compatible": 9
+        },
+        {
+          "market": 10,
+          "selected": "additive",
+          "parameter": 0.019712502332675935,
+          "unit": 14.219712502332674,
+          "mae": 0.28870794236731856,
+          "max_error": 0.4476489642929664,
+          "compatible": 10
+        }
+      ],
+      "largest": [
+        {
+          "phase": "formal",
+          "market": 2,
+          "team": "M02-e5e91d0170887f56",
+          "actual_cost_kusd": 5276.0,
+          "unit_cost_usd": 14.219652225523859,
+          "material_cost_kusd": 5275.490975669351,
+          "published_price_usd": 14.2,
+          "production_kunits": 371.0,
+          "scope": "Empirical materials-purchase cost, not all variable production costs",
+          "error_kusd": -0.5090243306485718,
+          "display_tolerance_kusd": 0.5710982611276193,
+          "display_compatible": true,
+          "product": "连接件",
+          "production": 371.0,
+          "relative_abs_pct": 0.00964792135421857,
+          "implied_unit": 14.221024258760108,
+          "implied_low": 14.219484912602256,
+          "implied_high": 14.222563646410329,
+          "excess_over_rounding": 0
+        },
+        {
+          "phase": "formal",
+          "market": 8,
+          "team": "M08-cad8dbfa8e0002c1",
+          "actual_cost_kusd": 9308.0,
+          "unit_cost_usd": 14.21968454370524,
+          "material_cost_kusd": 9307.494518082263,
+          "published_price_usd": 14.2,
+          "production_kunits": 654.55,
+          "scope": "Empirical materials-purchase cost, not all variable production costs",
+          "error_kusd": -0.505481917736688,
+          "display_tolerance_kusd": 0.5710984227185262,
+          "display_compatible": true,
+          "product": "连接件",
+          "production": 654.55,
+          "relative_abs_pct": 0.005430617938726773,
+          "implied_unit": 14.220456802383318,
+          "implied_low": 14.219584297728993,
+          "implied_high": 14.221329320367584,
+          "excess_over_rounding": 0
+        },
+        {
+          "phase": "formal",
+          "market": 2,
+          "team": "M02-fc7479895f72753c",
+          "actual_cost_kusd": 5148.0,
+          "unit_cost_usd": 14.219652225523859,
+          "material_cost_kusd": 5147.514105639637,
+          "published_price_usd": 14.2,
+          "production_kunits": 362.0,
+          "scope": "Empirical materials-purchase cost, not all variable production costs",
+          "error_kusd": -0.4858943603630905,
+          "display_tolerance_kusd": 0.5710982611276193,
+          "display_compatible": true,
+          "product": "连接件",
+          "production": 362.0,
+          "relative_abs_pct": 0.009438507388560422,
+          "implied_unit": 14.220994475138122,
+          "implied_low": 14.219416858883164,
+          "implied_high": 14.22257213497424,
+          "excess_over_rounding": 0
+        },
+        {
+          "phase": "formal",
+          "market": 3,
+          "team": "M03-9d1e11e8cba926ec",
+          "actual_cost_kusd": 5130.0,
+          "unit_cost_usd": 14.219746194569424,
+          "material_cost_kusd": 5130.484427000649,
+          "published_price_usd": 14.2,
+          "production_kunits": 360.8,
+          "scope": "Empirical materials-purchase cost, not all variable production costs",
+          "error_kusd": 0.4844270006487932,
+          "display_tolerance_kusd": 0.5710987309728471,
+          "display_compatible": true,
+          "product": "连接件",
+          "production": 360.8,
+          "relative_abs_pct": 0.009443021455142168,
+          "implied_unit": 14.21840354767184,
+          "implied_low": 14.216820720333699,
+          "implied_high": 14.219986418880527,
+          "excess_over_rounding": 0
+        },
+        {
+          "phase": "formal",
+          "market": 9,
+          "team": "M09-9fba5de91951d735",
+          "actual_cost_kusd": 3984.0,
+          "unit_cost_usd": 14.219753992187615,
+          "material_cost_kusd": 3983.521883371438,
+          "published_price_usd": 14.2,
+          "production_kunits": 280.14,
+          "scope": "Empirical materials-purchase cost, not all variable production costs",
+          "error_kusd": -0.4781166285620202,
+          "display_tolerance_kusd": 0.5710987699609381,
+          "display_compatible": true,
+          "product": "连接件",
+          "production": 280.14,
+          "relative_abs_pct": 0.012000919391616972,
+          "implied_unit": 14.221460698222318,
+          "implied_low": 14.219422084991702,
+          "implied_high": 14.223499384225462,
+          "excess_over_rounding": 0
+        }
+      ],
+      "distinct_costs": 77,
+      "distinct_quantities": 77
+    }
+  },
+  "input_hashes": {
+    "output\\t5v0\\20261015T085218049188+0800\\dataset.json": "5c5708063fc66d0584a67b68863a85ea07d1a8522e44e5285705d04c6156b9de",
+    "output\\t5v0\\20261015T085218049188+0800\\models_full.json": "61cc373a4e3daf71f4deb122114d2c32dcfef1b82d95513f0eea7b933618c702",
+    "code\\material_unit_cost_model.py": "3079c079852fbb7dbbacc9c4da3c00ea112299063e6e015af2054eda1c4fba49",
+    "work\\diagnose_t5_materials.py": "25d0837103d6e9bef1d06adb79c6f88aa4cdb35252cadccde68092b60b21825b"
+  },
+  "raw_source_hashes": {
+    "output/round_close/20261014_formal4_close/raw/market1_formal4_productiondetails.json": "aead57f65fe59de689660b9cec416b763ded4e824fca2bca57dd77e9f7643430",
+    "output/round_close/20261014_formal4_close/raw/market1_formal4_incomestatement.json": "54a00ba3d0632c145029da56f78cdd245caedfa28572a232b90bd0b4c1b8acf8",
+    "output/round_close/20261014_formal4_close/raw/market2_formal4_productiondetails.json": "27df32b8f23d54b57e11af676624b88784b426b1997e24631b7291806601d29e",
+    "output/round_close/20261014_formal4_close/raw/market2_formal4_incomestatement.json": "44f7fb9e9cfc8bf68d46be02e6b531c01209b0270fb4fdd6d7695fd5524e783e",
+    "output/round_close/20261014_formal4_close/raw/market3_formal4_productiondetails.json": "ce931f8ddea270e3c00b3f495948b952444ec4236b8d303563fbf6ff91d1761e",
+    "output/round_close/20261014_formal4_close/raw/market3_formal4_incomestatement.json": "0f60a21a1b4e57653a2f446c872fc425585da80c5675534583766cb8c5f99c65",
+    "output/round_close/20261014_formal4_close/raw/market4_formal4_productiondetails.json": "68ff5ccac836b4ee1c6b12c9d46717bb8a7784002df970fc5f10474d752621b6",
+    "output/round_close/20261014_formal4_close/raw/market4_formal4_incomestatement.json": "0785dd4790e1d5d211a0394123f3dbe1f5fbfa8b3b7446e3fec24f847668de05",
+    "output/round_close/20261014_formal4_close/raw/market5_formal4_productiondetails.json": "f769e7bc1772cef61d12e54bc5f3dbd236ef6923fffe9c41013cf5b089fe8191",
+    "output/round_close/20261014_formal4_close/raw/market5_formal4_incomestatement.json": "871c880eab6c99cd036df84c878ddf77e2401ce49a819b940715c9c5e2165455",
+    "output/round_close/20261014_formal4_close/raw/market6_formal4_productiondetails.json": "dae122d3efc34baed585566d229bc36266b3a2c5527a55e549dd467c28b0d39f",
+    "output/round_close/20261014_formal4_close/raw/market6_formal4_incomestatement.json": "64aa0a25629208aead82fe35dcd91fa6613ecbe313d8d9de66472509c1d3f40d",
+    "output/round_close/20261014_formal4_close/raw/market7_formal4_productiondetails.json": "68654257a65b551eb3898c6e5dcf9108391c2daefeaf41bb75eaae2b6a3bab92",
+    "output/round_close/20261014_formal4_close/raw/market7_formal4_incomestatement.json": "0b781203bfab0d0aeae5362396a10829188d9ad9a38cf82534d828adcfc4274b",
+    "output/round_close/20261014_formal4_close/raw/market8_formal4_productiondetails.json": "59c96656dfc580a6427b91690fc94f0708296e6d7b8f1a67632865bc5870fff0",
+    "output/round_close/20261014_formal4_close/raw/market8_formal4_incomestatement.json": "f53b670c42a4187b3f58e2541c766759eb382011bcff0c9453aea99de505bff0",
+    "output/round_close/20261014_formal4_close/raw/market9_formal4_productiondetails.json": "c90044e54eecd8395ed5ff59860f5c50ad05f1747535d0353a0e89f03c465353",
+    "output/round_close/20261014_formal4_close/raw/market9_formal4_incomestatement.json": "cb2255e5f8a150b3e9994ab61b1ba7f4ce0c4e333655465220317ac4a506b828",
+    "output/round_close/20261014_formal4_close/raw/market10_formal4_productiondetails.json": "38135b6ecbfb377c772cd89248b6a58049c022ab446cd5557af3f565bf0c7300",
+    "output/round_close/20261014_formal4_close/raw/market10_formal4_incomestatement.json": "c3b09e07fe26623dd5739b6e59fa725520b7a1457fa7e5524fb22d707cac7a7c"
+  }
+}

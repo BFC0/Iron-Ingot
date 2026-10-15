@@ -1,0 +1,94 @@
+{
+  "status": "PASS_FORMAT_AND_FIELD_ORDER",
+  "before_sha256": {
+    "report.md": "60c7a1ce5c0afceb9c62e7f67fa52b97ed04068b0219baaa63217b3c88d5090c",
+    "decisions.json": "62648e84a497cdd840476117174c39c029ae0b4581b8461b6cf45cbc02c64b0d",
+    "decisions.csv": "709654686e1fe918aacd8e6a2073c3a740e984570308c2b05ad483c79df9ca1e",
+    "joint_result.json": "3c6a199debaced3cd2336cc5d77a2894634ffc80be553c82f21825c8b7bb8298",
+    "inputs.json": "9c4fb8e77ca4934e91ac3b8fc422913d2f173978eb9f779293778c82b553f5e8"
+  },
+  "report_after_sha256": "8f089238713674a975bd6e7bf7f13c435a3a2ec72701f52fe4a90076eb8760c8",
+  "tables": 22,
+  "fields_per_plan": 42,
+  "source_row_order": [
+    65,
+    66,
+    58,
+    59,
+    68,
+    69,
+    61,
+    62,
+    72,
+    73,
+    46,
+    47,
+    41,
+    42,
+    43,
+    76,
+    77,
+    51,
+    52,
+    49,
+    9,
+    18,
+    25,
+    13,
+    21,
+    29,
+    10,
+    19,
+    26,
+    14,
+    22,
+    30,
+    11,
+    27,
+    15,
+    31,
+    34,
+    35,
+    37,
+    38,
+    54,
+    79
+  ],
+  "exact_suggestions_preserved": true,
+  "source_files_unchanged": true,
+  "links": [
+    {
+      "target": "tender_thresholds.json",
+      "exists": true
+    },
+    {
+      "target": "../../../建模重审与验收要求.md",
+      "exists": true
+    },
+    {
+      "target": "../../../code/model_v2/formal4_joint_scenarios.py",
+      "exists": true
+    },
+    {
+      "target": "../../../work/report_formal4_joint.py",
+      "exists": true
+    },
+    {
+      "target": "joint_result.json",
+      "exists": true
+    },
+    {
+      "target": "inputs.json",
+      "exists": true
+    },
+    {
+      "target": "search_leaders.json",
+      "exists": true
+    },
+    {
+      "target": "stress_2000.json",
+      "exists": true
+    }
+  ],
+  "scope": "仅报告排版与输入顺序；原计算验收和模型限制继续保留"
+}

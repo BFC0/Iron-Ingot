@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-10-13T08:39:08.209654+08:00",
+  "status": "PARTIAL_BROWSER_READ_TIMEOUT",
+  "user_resumed": true,
+  "previous_pause_is_historical": true,
+  "added_pages": 45,
+  "coverage": {
+    "verified": 180,
+    "pending": 570
+  },
+  "prior_135_hashes_unchanged": true,
+  "next": {
+    "market": 3,
+    "phase": "practice",
+    "round": 1
+  },
+  "blocker": "市场3练习1的整批页面读取连续60秒超时，没有保存未经身份核验的页面。",
+  "audit": "audit\\20261013T083651.255146+0800",
+  "audit_status_note": "旧核验脚本仍因保留的history_paused.json显示PAUSED_BY_USER；本次执行状态以此记录为准，数据覆盖取独立核验结果。",
+  "decision_modified": false,
+  "model_trained": false
+}

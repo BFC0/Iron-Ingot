@@ -1,0 +1,28 @@
+{
+  "复合梁": {
+    "saved_beta_max_difference": 0.0,
+    "saved_penalty_reselected": true,
+    "scale_inverse_reproduced": true,
+    "included_zero_demand_exclusions": 0,
+    "original_zero_price_exclusions": 0,
+    "archived_share_oof_max_difference": 0.0
+  },
+  "连接件": {
+    "saved_beta_max_difference": 0.0,
+    "saved_penalty_reselected": true,
+    "scale_inverse_reproduced": true,
+    "included_zero_demand_exclusions": 0,
+    "original_zero_price_exclusions": 24,
+    "archived_share_oof_max_difference": 0.0
+  },
+  "isolation": {
+    "outer_market_disjoint": true,
+    "inner_market_disjoint": true,
+    "fold_local_scales_checked": true,
+    "test_label_perturbation_passed": true,
+    "shared_test_sets": true,
+    "original_group_sizes_preserved": true,
+    "industry_total_use": "TEST_LABEL_CONDITIONAL_BASELINE_ONLY_NOT_PROSPECTIVE_INPUT",
+    "curve_parameters": "Fixed formal3 published curve fit; no demand-label fitting or formal4 curve use"
+  }
+}

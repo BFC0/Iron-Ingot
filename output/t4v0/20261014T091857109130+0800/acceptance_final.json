@@ -1,0 +1,32 @@
+{
+  "version": "t4v0",
+  "training_round": 3,
+  "actual_markets": [
+    1,
+    2,
+    4,
+    5,
+    9,
+    10
+  ],
+  "state_pairs": 60,
+  "trained_demand_rows": 230,
+  "inventory_count": 31,
+  "financial_pass": 300,
+  "physical_pass": 600,
+  "severance_pass": 60,
+  "inference_replay": true,
+  "fold_market_isolation": true,
+  "csv_script_checked": true,
+  "browser_layout_checked": false,
+  "raw_and_old_model_hashes_unchanged": true,
+  "automatic_deployment": false,
+  "limits": [
+    "未纳入四市场",
+    "公司合计营销/研发代理",
+    "10条零售价零需求范围外",
+    "A未过增量门槛",
+    "风险利率留出不稳定",
+    "完整跨期财务和订单未知"
+  ]
+}

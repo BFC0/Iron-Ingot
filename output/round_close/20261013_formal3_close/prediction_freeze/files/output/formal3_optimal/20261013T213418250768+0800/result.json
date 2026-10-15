@@ -1,0 +1,1456 @@
+{
+  "status": "FORMAL3_CONDITIONAL_NUMERICAL_CANDIDATE_NOT_SIX_ROUND_OPTIMUM",
+  "market": 5,
+  "account": "PYT",
+  "phase": "formal",
+  "round": 3,
+  "model": "t3v1 + CONNECTOR_LIFECYCLE_V2",
+  "objective": "当期收入−材料−工资−运费−裁员−研发−运营−营销−6050固定费，非净利润",
+  "parameter_names": [
+    "泰国售价",
+    "印尼售价",
+    "一般营销总额",
+    "设计师营销总额",
+    "研发",
+    "运营"
+  ],
+  "bounds": [
+    [
+      1720.0,
+      5600.0
+    ],
+    [
+      1935.0,
+      6025.0
+    ],
+    [
+      0,
+      2500
+    ],
+    [
+      0,
+      4300
+    ],
+    [
+      0,
+      1200.0
+    ],
+    [
+      0,
+      1205.25
+    ]
+  ],
+  "assumptions": [
+    "对手复用正式2价格和营销，previous_rd更新为正式2实际研发；本人上期研发800、运营750",
+    "复合梁行业总需求采用归档上期55.37/142.44，增长0%；7.5%是玩家预估，仅列敏感性",
+    "价格归一化沿用训练和t3v1示例的正式1参考价；营销是两国总额，国别比例未识别",
+    "无硬性用工上限，允许招聘；10%自然流失后多余员工按35%基础年薪裁员",
+    "正式2效率theta/rho迁移至正式3；运营及研发限正式3曲线范围；材料使用公布价",
+    "连接件本期零产能/零库存/零确认订单；投资下期生效；未据招标推定中标"
+  ],
+  "opening_state": {
+    "capacity": 25.3,
+    "workers": 90.93,
+    "cash": 17926.0,
+    "ar": 2782.0,
+    "ap": 1349.0,
+    "machine_book": 7248.0,
+    "building_book": 12926.0,
+    "long_debt": 14200.0,
+    "short_debt": 0.0,
+    "assets": 40881.0,
+    "equity": 25332.0,
+    "advance_receipts": 0.0,
+    "rd": 800.0,
+    "operations": 750.0
+  },
+  "current_parameters": [
+    6600.0,
+    1500.0,
+    700.0,
+    1750.0,
+    800.0,
+    750.0
+  ],
+  "baseline": {
+    "score_kusd": -9043.625084379031,
+    "variable_contribution_after_severance_kusd": 1006.3749156209687,
+    "demand_kunits": [
+      0.00442350749354066,
+      23.446367314038742
+    ],
+    "sales_kunits": [
+      0.0,
+      17.2
+    ],
+    "production_kunits": 17.2,
+    "allocation_pct": 80.0,
+    "efficiency": 0.1710493090806188,
+    "workers": 100.5557993332397,
+    "payroll_kusd": 4618.025084379033,
+    "severance_kusd": 0.0,
+    "shift_production_kunits": [
+      7.166666666666667,
+      7.166666666666667,
+      2.8666666666666654
+    ],
+    "priority": [
+      "印尼",
+      "泰国"
+    ]
+  },
+  "continuous_candidate": {
+    "parameters": [
+      2191.8827616871044,
+      2999.9999997364544,
+      2499.999825569429,
+      2993.3755756016517,
+      1190.6544262635734,
+      271.934007123819
+    ],
+    "metrics": {
+      "score_kusd": 6473.99457646066,
+      "variable_contribution_after_severance_kusd": 19479.95841101913,
+      "demand_kunits": [
+        4.277866216388596,
+        10.055467061316035
+      ],
+      "sales_kunits": [
+        4.277866216388596,
+        10.055467061316035
+      ],
+      "production_kunits": 14.333333277704632,
+      "allocation_pct": 66.66666640792852,
+      "efficiency": 0.156738646438871,
+      "workers": 91.44734628861757,
+      "payroll_kusd": 3635.0320115121394,
+      "severance_kusd": 0.0,
+      "shift_production_kunits": [
+        7.166666666666667,
+        7.166666611037965,
+        0.0
+      ],
+      "priority": [
+        "印尼",
+        "泰国"
+      ]
+    },
+    "solvers": [
+      {
+        "seed": 11,
+        "x": [
+          2191.8754025563203,
+          2999.9999999954393,
+          2499.9994191464325,
+          2992.7981694060195,
+          1191.1428260024468,
+          271.9205961412248
+        ],
+        "score": 6473.994347314214,
+        "success": true,
+        "message": "Optimization terminated successfully.",
+        "evaluations": 11096
+      },
+      {
+        "seed": 29,
+        "x": [
+          2191.8827616871044,
+          2999.9999997364544,
+          2499.999825569429,
+          2993.3755756016517,
+          1190.6544262635734,
+          271.934007123819
+        ],
+        "score": 6473.99457646066,
+        "success": true,
+        "message": "Optimization terminated successfully.",
+        "evaluations": 11674
+      }
+    ]
+  },
+  "suggested_parameters": [
+    2192.0,
+    3000.0,
+    2500.0,
+    2993.0,
+    1191.0,
+    272.0
+  ],
+  "candidate": {
+    "score_kusd": 6473.893455008678,
+    "variable_contribution_after_severance_kusd": 19479.893455008678,
+    "demand_kunits": [
+      4.2771404294031345,
+      10.055429501025694
+    ],
+    "sales_kunits": [
+      4.2771404294031345,
+      10.055429501025694
+    ],
+    "production_kunits": 14.332569930428829,
+    "allocation_pct": 66.66311595548292,
+    "efficiency": 0.15674149069267482,
+    "workers": 91.44081676836221,
+    "payroll_kusd": 3634.724979573338,
+    "severance_kusd": 0.0,
+    "shift_production_kunits": [
+      7.166666666666667,
+      7.165903263762162,
+      0.0
+    ],
+    "priority": [
+      "印尼",
+      "泰国"
+    ]
+  },
+  "sensitivity": [
+    {
+      "label": "总需求−30%",
+      "assumptions": {
+        "total_scale": 0.7
+      },
+      "score_kusd": 710.2055568917149,
+      "variable_contribution_after_severance_kusd": 13716.205556891715,
+      "demand_kunits": [
+        2.993998300582194,
+        7.038800650717985
+      ],
+      "sales_kunits": [
+        2.993998300582194,
+        7.038800650717985
+      ],
+      "production_kunits": 10.03279895130018,
+      "allocation_pct": 46.66418116883804,
+      "efficiency": 0.15674149069267482,
+      "workers": 64.00857173785354,
+      "payroll_kusd": 2276.8288505631585,
+      "severance_kusd": 187.1984967525378,
+      "shift_production_kunits": [
+        7.166666666666667,
+        2.8661322846335127,
+        0.0
+      ],
+      "priority": [
+        "印尼",
+        "泰国"
+      ],
+      "delta_kusd": -5763.687898116963
+    },
+    {
+      "label": "总需求−15%",
+      "assumptions": {
+        "total_scale": 0.85
+      },
+      "score_kusd": 3642.469543984098,
+      "variable_contribution_after_severance_kusd": 16648.469543984098,
+      "demand_kunits": [
+        3.6355693649926644,
+        8.54711507587184
+      ],
+      "sales_kunits": [
+        3.635569364992664,
+        8.54711507587184
+      ],
+      "production_kunits": 12.182684440864504,
+      "allocation_pct": 56.66364856216048,
+      "efficiency": 0.15674149069267482,
+      "workers": 77.72469425310787,
+      "payroll_kusd": 2955.776915068249,
+      "severance_kusd": 43.1792103423674,
+      "shift_production_kunits": [
+        7.166666666666667,
+        5.016017774197837,
+        0.0
+      ],
+      "priority": [
+        "印尼",
+        "泰国"
+      ],
+      "delta_kusd": -2831.42391102458
+    },
+    {
+      "label": "总需求+7.5%（玩家增长预估）",
+      "assumptions": {
+        "total_scale": 1.075
+      },
+      "score_kusd": 7680.923696529928,
+      "variable_contribution_after_severance_kusd": 20686.923696529928,
+      "demand_kunits": [
+        4.59792596160837,
+        10.80958671360262
+      ],
+      "sales_kunits": [
+        4.59792596160837,
+        10.80958671360262
+      ],
+      "production_kunits": 15.40751267521099,
+      "allocation_pct": 71.66284965214413,
+      "efficiency": 0.15674149069267482,
+      "workers": 98.29887802598937,
+      "payroll_kusd": 4161.291120645736,
+      "severance_kusd": 0.0,
+      "shift_production_kunits": [
+        7.166666666666667,
+        7.166666666666667,
+        1.074179341877656
+      ],
+      "priority": [
+        "印尼",
+        "泰国"
+      ],
+      "delta_kusd": 1207.03024152125
+    },
+    {
+      "label": "总需求+30%",
+      "assumptions": {
+        "total_scale": 1.3
+      },
+      "score_kusd": 11301.615530553587,
+      "variable_contribution_after_severance_kusd": 24307.615530553587,
+      "demand_kunits": [
+        5.560282558224075,
+        13.072058351333403
+      ],
+      "sales_kunits": [
+        5.560282558224074,
+        13.072058351333403
+      ],
+      "production_kunits": 18.632340909557477,
+      "allocation_pct": 86.6620507421278,
+      "efficiency": 0.15674149069267482,
+      "workers": 118.87306179887088,
+      "payroll_kusd": 5741.388434403036,
+      "severance_kusd": 0.0,
+      "shift_production_kunits": [
+        7.166666666666667,
+        7.166666666666667,
+        4.2990075762241435
+      ],
+      "priority": [
+        "印尼",
+        "泰国"
+      ],
+      "delta_kusd": 4827.722075544909
+    },
+    {
+      "label": "对手降价10%",
+      "assumptions": {
+        "rival_price": 0.9
+      },
+      "score_kusd": 2870.1687603945393,
+      "variable_contribution_after_severance_kusd": 15876.16876039454,
+      "demand_kunits": [
+        2.996696542128833,
+        8.40596952841898
+      ],
+      "sales_kunits": [
+        2.9966965421288325,
+        8.40596952841898
+      ],
+      "production_kunits": 11.402666070547813,
+      "allocation_pct": 53.03565614208286,
+      "efficiency": 0.15674149069267482,
+      "workers": 72.74823035149753,
+      "payroll_kusd": 2709.441951938536,
+      "severance_kusd": 95.43208130927601,
+      "shift_production_kunits": [
+        7.166666666666667,
+        4.235999403881146,
+        0.0
+      ],
+      "priority": [
+        "印尼",
+        "泰国"
+      ],
+      "delta_kusd": -3603.7246946141386
+    },
+    {
+      "label": "对手提价10%",
+      "assumptions": {
+        "rival_price": 1.1
+      },
+      "score_kusd": 9778.659284794281,
+      "variable_contribution_after_severance_kusd": 22784.65928479428,
+      "demand_kunits": [
+        5.84686348710187,
+        11.800308981176777
+      ],
+      "sales_kunits": [
+        5.84686348710187,
+        11.800308981176777
+      ],
+      "production_kunits": 17.647172468278647,
+      "allocation_pct": 82.07987194548208,
+      "efficiency": 0.15674149069267482,
+      "workers": 112.58775446304578,
+      "payroll_kusd": 5258.676831011668,
+      "severance_kusd": 0.0,
+      "shift_production_kunits": [
+        7.166666666666667,
+        7.166666666666667,
+        3.3138391349453133
+      ],
+      "priority": [
+        "印尼",
+        "泰国"
+      ],
+      "delta_kusd": 3304.7658297856033
+    },
+    {
+      "label": "对手营销+50%",
+      "assumptions": {
+        "rival_marketing": 1.5
+      },
+      "score_kusd": 4182.89517608883,
+      "variable_contribution_after_severance_kusd": 17188.89517608883,
+      "demand_kunits": [
+        3.735746404974944,
+        8.834949360812304
+      ],
+      "sales_kunits": [
+        3.735746404974944,
+        8.834949360812304
+      ],
+      "production_kunits": 12.57069576578725,
+      "allocation_pct": 58.468352399010456,
+      "efficiency": 0.15674149069267482,
+      "workers": 80.20017999212975,
+      "payroll_kusd": 3078.31345914983,
+      "severance_kusd": 17.186610082637685,
+      "shift_production_kunits": [
+        7.166666666666667,
+        5.404029099120582,
+        0.0
+      ],
+      "priority": [
+        "印尼",
+        "泰国"
+      ],
+      "delta_kusd": -2290.9982789198475
+    },
+    {
+      "label": "效率−10%",
+      "assumptions": {
+        "efficiency_scale": 0.9
+      },
+      "score_kusd": 6070.035123944974,
+      "variable_contribution_after_severance_kusd": 19076.035123944974,
+      "demand_kunits": [
+        4.2771404294031345,
+        10.055429501025694
+      ],
+      "sales_kunits": [
+        4.2771404294031345,
+        10.055429501025694
+      ],
+      "production_kunits": 14.332569930428829,
+      "allocation_pct": 66.66311595548292,
+      "efficiency": 0.14106734162340734,
+      "workers": 101.60090752040246,
+      "payroll_kusd": 4038.583310637042,
+      "severance_kusd": 0.0,
+      "shift_production_kunits": [
+        7.166666666666667,
+        7.165903263762162,
+        0.0
+      ],
+      "priority": [
+        "印尼",
+        "泰国"
+      ],
+      "delta_kusd": -403.8583310637041
+    },
+    {
+      "label": "效率+10%",
+      "assumptions": {
+        "efficiency_scale": 1.1
+      },
+      "score_kusd": 6804.322998606254,
+      "variable_contribution_after_severance_kusd": 19810.322998606254,
+      "demand_kunits": [
+        4.2771404294031345,
+        10.055429501025694
+      ],
+      "sales_kunits": [
+        4.2771404294031345,
+        10.055429501025694
+      ],
+      "production_kunits": 14.332569930428829,
+      "allocation_pct": 66.66311595548292,
+      "efficiency": 0.17241563976194232,
+      "workers": 83.12801524396563,
+      "payroll_kusd": 3304.295435975761,
+      "severance_kusd": 0.0,
+      "shift_production_kunits": [
+        7.166666666666667,
+        7.165903263762162,
+        0.0
+      ],
+      "priority": [
+        "印尼",
+        "泰国"
+      ],
+      "delta_kusd": 330.4295435975764
+    },
+    {
+      "label": "材料+10%",
+      "assumptions": {
+        "material_scale": 1.1
+      },
+      "score_kusd": 4964.673841334519,
+      "variable_contribution_after_severance_kusd": 17970.67384133452,
+      "demand_kunits": [
+        4.2771404294031345,
+        10.055429501025694
+      ],
+      "sales_kunits": [
+        4.2771404294031345,
+        10.055429501025694
+      ],
+      "production_kunits": 14.332569930428829,
+      "allocation_pct": 66.66311595548292,
+      "efficiency": 0.15674149069267482,
+      "workers": 91.44081676836221,
+      "payroll_kusd": 3634.724979573338,
+      "severance_kusd": 0.0,
+      "shift_production_kunits": [
+        7.166666666666667,
+        7.165903263762162,
+        0.0
+      ],
+      "priority": [
+        "印尼",
+        "泰国"
+      ],
+      "delta_kusd": -1509.2196136741586
+    },
+    {
+      "label": "工资+7%",
+      "assumptions": {
+        "wage_scale": 1.07
+      },
+      "score_kusd": 6219.462706438542,
+      "variable_contribution_after_severance_kusd": 19225.462706438542,
+      "demand_kunits": [
+        4.2771404294031345,
+        10.055429501025694
+      ],
+      "sales_kunits": [
+        4.2771404294031345,
+        10.055429501025694
+      ],
+      "production_kunits": 14.332569930428829,
+      "allocation_pct": 66.66311595548292,
+      "efficiency": 0.15674149069267482,
+      "workers": 91.44081676836221,
+      "payroll_kusd": 3889.155728143471,
+      "severance_kusd": 0.0,
+      "shift_production_kunits": [
+        7.166666666666667,
+        7.165903263762162,
+        0.0
+      ],
+      "priority": [
+        "印尼",
+        "泰国"
+      ],
+      "delta_kusd": -254.43074857013562
+    },
+    {
+      "label": "联合不利",
+      "assumptions": {
+        "total_scale": 0.7,
+        "rival_price": 0.9,
+        "rival_marketing": 1.5,
+        "efficiency_scale": 0.9,
+        "material_scale": 1.1
+      },
+      "score_kusd": -4110.386449599599,
+      "variable_contribution_after_severance_kusd": 8895.613550400401,
+      "demand_kunits": [
+        1.8264762344566483,
+        5.162178388120257
+      ],
+      "sales_kunits": [
+        1.8264762344566483,
+        5.162178388120257
+      ],
+      "production_kunits": 6.988654622576905,
+      "allocation_pct": 32.505370337567,
+      "efficiency": 0.14106734162340734,
+      "workers": 49.54126548463486,
+      "payroll_kusd": 1486.237964539046,
+      "severance_kusd": 339.1052124113339,
+      "shift_production_kunits": [
+        6.988654622576905,
+        0.0,
+        0.0
+      ],
+      "priority": [
+        "印尼",
+        "泰国"
+      ],
+      "delta_kusd": -10584.279904608276
+    }
+  ],
+  "reoptimized": [
+    {
+      "label": "总需求−30%",
+      "assumptions": {
+        "total_scale": 0.7
+      },
+      "parameters": [
+        1959.3484523289937,
+        2999.999999977904,
+        1748.3410005995188,
+        1686.162604555914,
+        700.0875350799631,
+        0.00010089334064235136
+      ],
+      "metrics": {
+        "score_kusd": 1120.628306405526,
+        "variable_contribution_after_severance_kusd": 11305.219547534263,
+        "demand_kunits": [
+          3.551086550339778,
+          5.832279070533296
+        ],
+        "sales_kunits": [
+          3.551086550339778,
+          5.832279070533296
+        ],
+        "production_kunits": 9.383365620873075,
+        "allocation_pct": 43.64356102731663,
+        "efficiency": 0.14110636058071083,
+        "workers": 66.49853048619961,
+        "payroll_kusd": 2301.28958678286,
+        "severance_kusd": 161.0539298949041,
+        "shift_production_kunits": [
+          7.166666666666667,
+          2.216698954206408,
+          0.0
+        ],
+        "priority": [
+          "印尼",
+          "泰国"
+        ]
+      },
+      "solvers": [
+        {
+          "seed": 17,
+          "x": [
+            1959.3484523289937,
+            2999.999999977904,
+            1748.3410005995188,
+            1686.162604555914,
+            700.0875350799631,
+            0.00010089334064235136
+          ],
+          "score": 1120.628306405526,
+          "success": true,
+          "message": "Optimization terminated successfully.",
+          "evaluations": 6537
+        }
+      ]
+    },
+    {
+      "label": "对手降价10%",
+      "assumptions": {
+        "rival_price": 0.9
+      },
+      "parameters": [
+        1969.040038749376,
+        2999.999999997293,
+        2499.998817929055,
+        2619.6796185147987,
+        1042.533609931453,
+        138.31812503540743
+      ],
+      "metrics": {
+        "score_kusd": 3068.7865554504024,
+        "variable_contribution_after_severance_kusd": 15419.316726861118,
+        "demand_kunits": [
+          4.1590813155489315,
+          8.130562126905051
+        ],
+        "sales_kunits": [
+          4.1590813155489315,
+          8.130562126905051
+        ],
+        "production_kunits": 12.289643442453983,
+        "allocation_pct": 57.16113229048364,
+        "efficiency": 0.1501722398374924,
+        "workers": 81.83698568892036,
+        "payroll_kusd": 3120.3326986968427,
+        "severance_kusd": 0.000150266336206073,
+        "shift_production_kunits": [
+          7.166666666666667,
+          5.122976775787316,
+          0.0
+        ],
+        "priority": [
+          "印尼",
+          "泰国"
+        ]
+      },
+      "solvers": [
+        {
+          "seed": 17,
+          "x": [
+            1969.040038749376,
+            2999.999999997293,
+            2499.998817929055,
+            2619.6796185147987,
+            1042.533609931453,
+            138.31812503540743
+          ],
+          "score": 3068.7865554504024,
+          "success": true,
+          "message": "Optimization terminated successfully.",
+          "evaluations": 13084
+        }
+      ]
+    },
+    {
+      "label": "联合不利",
+      "assumptions": {
+        "total_scale": 0.7,
+        "rival_price": 0.9,
+        "rival_marketing": 1.5,
+        "efficiency_scale": 0.9,
+        "material_scale": 1.1
+      },
+      "parameters": [
+        1888.7342162900932,
+        2999.9999922376524,
+        319.57252133397867,
+        303.61007443828044,
+        159.02518948558128,
+        4.7847031795801565e-05
+      ],
+      "metrics": {
+        "score_kusd": -2485.7595778289747,
+        "variable_contribution_after_severance_kusd": 4346.448255275898,
+        "demand_kunits": [
+          1.5297403772210136,
+          2.786174379122122
+        ],
+        "sales_kunits": [
+          1.5297403772210136,
+          2.786174379122122
+        ],
+        "production_kunits": 4.315914756343136,
+        "allocation_pct": 20.074022122526213,
+        "efficiency": 0.1269957208623261,
+        "workers": 33.98472583987255,
+        "payroll_kusd": 1019.5417751961767,
+        "severance_kusd": 502.4488786813382,
+        "shift_production_kunits": [
+          4.315914756343136,
+          0.0,
+          0.0
+        ],
+        "priority": [
+          "印尼",
+          "泰国"
+        ]
+      },
+      "solvers": [
+        {
+          "seed": 17,
+          "x": [
+            1888.7342162900932,
+            2999.9999922376524,
+            319.57252133397867,
+            303.61007443828044,
+            159.02518948558128,
+            4.7847031795801565e-05
+          ],
+          "score": -2485.7595778289747,
+          "success": true,
+          "message": "Optimization terminated successfully.",
+          "evaluations": 6643
+        }
+      ]
+    }
+  ],
+  "local_sensitivity": [
+    {
+      "parameter": "泰国售价",
+      "change_pct": -10.0,
+      "value": 1972.8,
+      "delta_kusd": -235.69119131783737
+    },
+    {
+      "parameter": "泰国售价",
+      "change_pct": 10.0,
+      "value": 2411.2000000000003,
+      "delta_kusd": -248.23538276476393
+    },
+    {
+      "parameter": "印尼售价",
+      "change_pct": -10.0,
+      "value": 2700.0,
+      "delta_kusd": -1000.372651996935
+    },
+    {
+      "parameter": "印尼售价",
+      "change_pct": 10.0,
+      "value": 3300.0000000000005,
+      "delta_kusd": -3128.0329651756965
+    },
+    {
+      "parameter": "一般营销总额",
+      "change_pct": -10.0,
+      "value": 2250.0,
+      "delta_kusd": -83.15535951654238
+    },
+    {
+      "parameter": "设计师营销总额",
+      "change_pct": -10.0,
+      "value": 2693.7000000000003,
+      "delta_kusd": -43.48851703896071
+    },
+    {
+      "parameter": "设计师营销总额",
+      "change_pct": 10.0,
+      "value": 3292.3,
+      "delta_kusd": -18.436762133063894
+    },
+    {
+      "parameter": "研发",
+      "change_pct": -10.0,
+      "value": 1071.9,
+      "delta_kusd": -19.151832889618163
+    },
+    {
+      "parameter": "运营",
+      "change_pct": -10.0,
+      "value": 244.8,
+      "delta_kusd": -0.8965154583966068
+    },
+    {
+      "parameter": "运营",
+      "change_pct": 10.0,
+      "value": 299.20000000000005,
+      "delta_kusd": -0.8725105783487379
+    }
+  ],
+  "decisions": [
+    {
+      "key": "row_9",
+      "section": "售价",
+      "product": "复合梁",
+      "label": "泰国, 美元",
+      "unit": "美元/单位",
+      "current": "6 600.0",
+      "suggested": 2192.0,
+      "changed": true,
+      "reason": "当期条件搜索"
+    },
+    {
+      "key": "row_10",
+      "section": "售价",
+      "product": "复合梁",
+      "label": "印尼, 美元",
+      "unit": "美元/单位",
+      "current": "1 500.0",
+      "suggested": 3000.0,
+      "changed": true,
+      "reason": "当期条件搜索"
+    },
+    {
+      "key": "row_11",
+      "section": "售价",
+      "product": "复合梁",
+      "label": "大客户订单, 美元",
+      "unit": "美元/单位",
+      "current": "0.0",
+      "suggested": "0.0",
+      "changed": false,
+      "reason": "保留当前值／未优化；跨期、现金流或对应机制未完整识别"
+    },
+    {
+      "key": "row_13",
+      "section": "售价",
+      "product": "连接件",
+      "label": "泰国, 美元",
+      "unit": "美元/单位",
+      "current": "0.0",
+      "suggested": "0.0",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_14",
+      "section": "售价",
+      "product": "连接件",
+      "label": "印尼, 美元",
+      "unit": "美元/单位",
+      "current": "0.0",
+      "suggested": "0.0",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_15",
+      "section": "售价",
+      "product": "连接件",
+      "label": "大客户订单, 美元",
+      "unit": "美元/单位",
+      "current": "0.0",
+      "suggested": "0.0",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_18",
+      "section": "一般营销",
+      "product": "复合梁",
+      "label": "泰国",
+      "unit": "千美元",
+      "current": "475",
+      "suggested": 1696,
+      "changed": true,
+      "reason": "总营销优化；国别比例沿用当前，未识别国别边际作用"
+    },
+    {
+      "key": "row_19",
+      "section": "一般营销",
+      "product": "复合梁",
+      "label": "印尼",
+      "unit": "千美元",
+      "current": "225",
+      "suggested": 804.0,
+      "changed": true,
+      "reason": "总营销优化；国别比例沿用当前，未识别国别边际作用"
+    },
+    {
+      "key": "row_21",
+      "section": "一般营销",
+      "product": "连接件",
+      "label": "泰国",
+      "unit": "千美元",
+      "current": "0",
+      "suggested": "0",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_22",
+      "section": "一般营销",
+      "product": "连接件",
+      "label": "印尼",
+      "unit": "千美元",
+      "current": "0",
+      "suggested": "0",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_25",
+      "section": "设计师营销",
+      "product": "复合梁",
+      "label": "泰国",
+      "unit": "千美元",
+      "current": "1 000",
+      "suggested": 1710,
+      "changed": true,
+      "reason": "总营销优化；国别比例沿用当前"
+    },
+    {
+      "key": "row_26",
+      "section": "设计师营销",
+      "product": "复合梁",
+      "label": "印尼",
+      "unit": "千美元",
+      "current": "750",
+      "suggested": 1283.0,
+      "changed": true,
+      "reason": "总营销优化；国别比例沿用当前"
+    },
+    {
+      "key": "row_27",
+      "section": "设计师营销",
+      "product": "复合梁",
+      "label": "大客户订单",
+      "unit": "千美元",
+      "current": "0.0",
+      "suggested": "0.0",
+      "changed": false,
+      "reason": "保留当前值／未优化；跨期、现金流或对应机制未完整识别"
+    },
+    {
+      "key": "row_29",
+      "section": "设计师营销",
+      "product": "连接件",
+      "label": "泰国",
+      "unit": "千美元",
+      "current": "0",
+      "suggested": "0",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_30",
+      "section": "设计师营销",
+      "product": "连接件",
+      "label": "印尼",
+      "unit": "千美元",
+      "current": "0",
+      "suggested": "0",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_31",
+      "section": "设计师营销",
+      "product": "连接件",
+      "label": "大客户订单",
+      "unit": "千美元",
+      "current": "0.0",
+      "suggested": "0.0",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_34",
+      "section": "物流",
+      "product": "复合梁",
+      "label": "泰国",
+      "unit": "选择",
+      "current": "第二",
+      "suggested": "第二",
+      "changed": false,
+      "reason": "单位售价减运费排序"
+    },
+    {
+      "key": "row_35",
+      "section": "物流",
+      "product": "复合梁",
+      "label": "印尼",
+      "unit": "选择",
+      "current": "第一",
+      "suggested": "第一",
+      "changed": false,
+      "reason": "单位售价减运费排序"
+    },
+    {
+      "key": "row_37",
+      "section": "物流",
+      "product": "连接件",
+      "label": "泰国",
+      "unit": "选择",
+      "current": "第一",
+      "suggested": "第一",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_38",
+      "section": "物流",
+      "product": "连接件",
+      "label": "印尼",
+      "unit": "选择",
+      "current": "第二",
+      "suggested": "第二",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_41",
+      "section": "物流",
+      "product": "共同",
+      "label": "分包制造",
+      "unit": "选择",
+      "current": "FALSE",
+      "suggested": "FALSE",
+      "changed": false,
+      "reason": "保留当前值／未优化；跨期、现金流或对应机制未完整识别"
+    },
+    {
+      "key": "row_42",
+      "section": "产能分配",
+      "product": "复合梁",
+      "label": "复合梁",
+      "unit": "%",
+      "current": "80.0",
+      "suggested": 66.66311595548292,
+      "changed": true,
+      "reason": "按需求、班次与边际贡献求解"
+    },
+    {
+      "key": "row_43",
+      "section": "产能分配",
+      "product": "连接件",
+      "label": "连接件",
+      "unit": "%",
+      "current": "0.0",
+      "suggested": "0.0",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_46",
+      "section": "投资",
+      "product": "复合梁",
+      "label": "机器, 复合梁",
+      "unit": "千单位",
+      "current": "0",
+      "suggested": "0",
+      "changed": false,
+      "reason": "保留当前值／未优化；跨期、现金流或对应机制未完整识别"
+    },
+    {
+      "key": "row_47",
+      "section": "投资",
+      "product": "连接件",
+      "label": "机器, 连接件",
+      "unit": "千单位",
+      "current": "0",
+      "suggested": "0",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_49",
+      "section": "运营",
+      "product": "共同",
+      "label": "泰国",
+      "unit": "千美元",
+      "current": "750",
+      "suggested": 272.0,
+      "changed": true,
+      "reason": "当期效率代理收益减运营费用；不含后续作用"
+    },
+    {
+      "key": "row_51",
+      "section": "研发",
+      "product": "复合梁",
+      "label": "复合梁",
+      "unit": "千美元",
+      "current": "800",
+      "suggested": 1191.0,
+      "changed": true,
+      "reason": "当期需求作用减研发费用；不含后续作用"
+    },
+    {
+      "key": "row_52",
+      "section": "研发",
+      "product": "连接件",
+      "label": "连接件",
+      "unit": "千美元",
+      "current": "0",
+      "suggested": "0",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_54",
+      "section": "融资",
+      "product": "共同",
+      "label": "长期贷款变化(增加 + / 减少 -), 千 美元",
+      "unit": "千美元",
+      "current": "0",
+      "suggested": "0",
+      "changed": false,
+      "reason": "保留当前值／未优化；跨期、现金流或对应机制未完整识别"
+    },
+    {
+      "key": "row_58",
+      "section": "需求预估",
+      "product": "复合梁",
+      "label": "泰国",
+      "unit": "千单位",
+      "current": "5.20",
+      "suggested": 4.2771404294031345,
+      "changed": true,
+      "reason": "条件需求预测"
+    },
+    {
+      "key": "row_59",
+      "section": "需求预估",
+      "product": "复合梁",
+      "label": "印尼",
+      "unit": "千单位",
+      "current": "13.80",
+      "suggested": 10.055429501025694,
+      "changed": true,
+      "reason": "条件需求预测"
+    },
+    {
+      "key": "row_61",
+      "section": "需求预估",
+      "product": "连接件",
+      "label": "泰国",
+      "unit": "千单位",
+      "current": "0.00",
+      "suggested": "0.00",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_62",
+      "section": "需求预估",
+      "product": "连接件",
+      "label": "印尼",
+      "unit": "千单位",
+      "current": "0.00",
+      "suggested": "0.00",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_65",
+      "section": "市场增长预估",
+      "product": "复合梁",
+      "label": "泰国",
+      "unit": "%",
+      "current": "7.50",
+      "suggested": "7.50",
+      "changed": false,
+      "reason": "保留当前值／未优化；跨期、现金流或对应机制未完整识别"
+    },
+    {
+      "key": "row_66",
+      "section": "市场增长预估",
+      "product": "复合梁",
+      "label": "印尼",
+      "unit": "%",
+      "current": "7.50",
+      "suggested": "7.50",
+      "changed": false,
+      "reason": "保留当前值／未优化；跨期、现金流或对应机制未完整识别"
+    },
+    {
+      "key": "row_69",
+      "section": "连接件总市场需求预估",
+      "product": "连接件",
+      "label": "泰国",
+      "unit": "千单位",
+      "current": "0.00",
+      "suggested": "0.00",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_70",
+      "section": "连接件总市场需求预估",
+      "product": "连接件",
+      "label": "印尼",
+      "unit": "千单位",
+      "current": "0.00",
+      "suggested": "0.00",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_73",
+      "section": "下期需求增长预估",
+      "product": "复合梁",
+      "label": "复合梁",
+      "unit": "%",
+      "current": "5.00",
+      "suggested": "5.00",
+      "changed": false,
+      "reason": "保留当前值／未优化；跨期、现金流或对应机制未完整识别"
+    },
+    {
+      "key": "row_74",
+      "section": "下期需求增长预估",
+      "product": "连接件",
+      "label": "连接件",
+      "unit": "%",
+      "current": "0.00",
+      "suggested": "0.00",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_77",
+      "section": "效率预估",
+      "product": "复合梁",
+      "label": "复合梁",
+      "unit": "千单位/人",
+      "current": "0.17",
+      "suggested": 0.15674149069267482,
+      "changed": true,
+      "reason": "正式2技术尺度与正式3运营曲线迁移"
+    },
+    {
+      "key": "row_78",
+      "section": "效率预估",
+      "product": "连接件",
+      "label": "连接件",
+      "unit": "千单位/人",
+      "current": "16.70",
+      "suggested": "16.70",
+      "changed": false,
+      "reason": "本期产能及库存为零，保持当前；投资下期生效，另列门槛情景"
+    },
+    {
+      "key": "row_80",
+      "section": "利率预估",
+      "product": "共同",
+      "label": "长期贷款利率, %",
+      "unit": "%",
+      "current": "3.00",
+      "suggested": "3.00",
+      "changed": false,
+      "reason": "保留当前值／未优化；跨期、现金流或对应机制未完整识别"
+    }
+  ],
+  "connector_investment_threshold": [
+    {
+      "efficiency": 16.0,
+      "shift_multiplier": 1.0,
+      "country": "泰国",
+      "unit_margin": 10.425,
+      "one_year_break_even_sellthrough_pct": 10.551558752997602
+    },
+    {
+      "efficiency": 16.0,
+      "shift_multiplier": 1.0,
+      "country": "印尼",
+      "unit_margin": 8.925,
+      "one_year_break_even_sellthrough_pct": 12.324929971988796
+    },
+    {
+      "efficiency": 16.0,
+      "shift_multiplier": 1.65,
+      "country": "泰国",
+      "unit_margin": 9.20625,
+      "one_year_break_even_sellthrough_pct": 11.948404616429057
+    },
+    {
+      "efficiency": 16.0,
+      "shift_multiplier": 1.65,
+      "country": "印尼",
+      "unit_margin": 7.706250000000001,
+      "one_year_break_even_sellthrough_pct": 14.274128142741281
+    },
+    {
+      "efficiency": 16.0,
+      "shift_multiplier": 2.56,
+      "country": "泰国",
+      "unit_margin": 7.500000000000001,
+      "one_year_break_even_sellthrough_pct": 14.666666666666666
+    },
+    {
+      "efficiency": 16.0,
+      "shift_multiplier": 2.56,
+      "country": "印尼",
+      "unit_margin": 6.000000000000001,
+      "one_year_break_even_sellthrough_pct": 18.333333333333332
+    },
+    {
+      "efficiency": 16.7,
+      "shift_multiplier": 1.0,
+      "country": "泰国",
+      "unit_margin": 10.503592814371258,
+      "one_year_break_even_sellthrough_pct": 10.472607034946698
+    },
+    {
+      "efficiency": 16.7,
+      "shift_multiplier": 1.0,
+      "country": "印尼",
+      "unit_margin": 9.003592814371258,
+      "one_year_break_even_sellthrough_pct": 12.21734503857409
+    },
+    {
+      "efficiency": 16.7,
+      "shift_multiplier": 1.65,
+      "country": "泰国",
+      "unit_margin": 9.335928143712575,
+      "one_year_break_even_sellthrough_pct": 11.782438586363929
+    },
+    {
+      "efficiency": 16.7,
+      "shift_multiplier": 1.65,
+      "country": "印尼",
+      "unit_margin": 7.835928143712575,
+      "one_year_break_even_sellthrough_pct": 14.037903102552347
+    },
+    {
+      "efficiency": 16.7,
+      "shift_multiplier": 2.56,
+      "country": "泰国",
+      "unit_margin": 7.70119760479042,
+      "one_year_break_even_sellthrough_pct": 14.283492729958791
+    },
+    {
+      "efficiency": 16.7,
+      "shift_multiplier": 2.56,
+      "country": "印尼",
+      "unit_margin": 6.20119760479042,
+      "one_year_break_even_sellthrough_pct": 17.738509076863654
+    },
+    {
+      "efficiency": 18.0,
+      "shift_multiplier": 1.0,
+      "country": "泰国",
+      "unit_margin": 10.633333333333335,
+      "one_year_break_even_sellthrough_pct": 10.344827586206897
+    },
+    {
+      "efficiency": 18.0,
+      "shift_multiplier": 1.0,
+      "country": "印尼",
+      "unit_margin": 9.133333333333335,
+      "one_year_break_even_sellthrough_pct": 12.043795620437956
+    },
+    {
+      "efficiency": 18.0,
+      "shift_multiplier": 1.65,
+      "country": "泰国",
+      "unit_margin": 9.55,
+      "one_year_break_even_sellthrough_pct": 11.518324607329843
+    },
+    {
+      "efficiency": 18.0,
+      "shift_multiplier": 1.65,
+      "country": "印尼",
+      "unit_margin": 8.05,
+      "one_year_break_even_sellthrough_pct": 13.664596273291925
+    },
+    {
+      "efficiency": 18.0,
+      "shift_multiplier": 2.56,
+      "country": "泰国",
+      "unit_margin": 8.033333333333335,
+      "one_year_break_even_sellthrough_pct": 13.692946058091286
+    },
+    {
+      "efficiency": 18.0,
+      "shift_multiplier": 2.56,
+      "country": "印尼",
+      "unit_margin": 6.533333333333334,
+      "one_year_break_even_sellthrough_pct": 16.836734693877553
+    }
+  ],
+  "budget_replay": {
+    "archived_budget_profit_kusd": 4513,
+    "archived_budget_ebitda_kusd": 8570,
+    "manual_ebitda_replay_kusd": 8573.870588235295,
+    "category": "PLAYER_INPUT_CONDITIONAL_BUDGET_NOT_MODEL_FORECAST"
+  },
+  "checks": {
+    "allocation_replay": true,
+    "production_conservation": true,
+    "field_count": 42,
+    "two_seed_score_gap": 0.00022914644614502322
+  },
+  "sources": {
+    "output\\connector_model_update\\20261013T200914882448+0800\\models.json": "07e98e81c45d1f69bac55703aa532de67dfec3d1d5fdc8273fce9f9925cf6800",
+    "output\\t3v1\\20261013T193815695205+0800\\dataset.json": "058f6182451754030a1d780587f1bf92225832b0989852fe0b0445c7c7f0d46d",
+    "output\\round_close\\20261012T221044.031+0800\\resume\\20261013T_goal\\current_2026-10-13T082849281Z\\personal_rows.json": "58f28673a1569f42d923cbe0931fd78c6b44a281bca9394e0639923debf63fbc",
+    "output\\round_close\\20261012T221044.031+0800\\resume\\20261013T_goal\\current_2026-10-13T082849281Z\\tables.json": "a29724bc823ff548137b0a6a95c30528850de367371e745a6fbfc9391fe415f8",
+    "output\\round_close\\20261012T221044.031+0800\\resume\\20261013T_goal\\current_2026-10-13T082849281Z\\verification.json": "1eb649c715bdf186b7f26665bfebecc6a6a0e384cf8757b9bb55af28669c4f6e",
+    "work\\optimize_formal3_known.py": "c8233cb98bb395164513cf52bb656ee0326dd9725fbb0bdc17bbb70dfb34f08a"
+  },
+  "limits": [
+    "无正式3实际验证、无连接件真实标签；数值搜索不证明全局最优",
+    "未优化投资、融资、大客户投标及正式3至6累计利润；未来价格/需求/订单/终局价值未知",
+    "未算折旧、税、利息、营运资金及最低现金约束；不能据贡献决定还贷",
+    "未实时核验个人最新值或平台回合；未写入平台；历史预算4513不能与贡献直接相减"
+  ]
+}

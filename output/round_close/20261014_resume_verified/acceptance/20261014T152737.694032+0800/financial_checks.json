@@ -1,0 +1,5262 @@
+[
+  {
+    "key": [
+      1,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "aftertax_profit",
+    "team_id": "M01T01",
+    "team_column_index": 1,
+    "terms": [
+      [
+        "本回合利润",
+        1
+      ],
+      [
+        "税前利润",
+        -1
+      ],
+      [
+        "直接税",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 49,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 1,
+        "display": "4 128",
+        "value": 4128.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 47,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 1,
+        "display": "5 814",
+        "value": 5814.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 48,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 1,
+        "display": "1 686",
+        "value": 1686.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      1,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "aftertax_profit",
+    "team_id": "M01T02",
+    "team_column_index": 2,
+    "terms": [
+      [
+        "本回合利润",
+        1
+      ],
+      [
+        "税前利润",
+        -1
+      ],
+      [
+        "直接税",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 49,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 2,
+        "display": "4 147",
+        "value": 4147.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 47,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 2,
+        "display": "5 841",
+        "value": 5841.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 48,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 2,
+        "display": "1 694",
+        "value": 1694.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      1,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "aftertax_profit",
+    "team_id": "M01T03",
+    "team_column_index": 3,
+    "terms": [
+      [
+        "本回合利润",
+        1
+      ],
+      [
+        "税前利润",
+        -1
+      ],
+      [
+        "直接税",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 49,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 3,
+        "display": "4 264",
+        "value": 4264.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 47,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 3,
+        "display": "6 006",
+        "value": 6006.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 48,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 3,
+        "display": "1 742",
+        "value": 1742.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      1,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "aftertax_profit",
+    "team_id": "M01T04",
+    "team_column_index": 4,
+    "terms": [
+      [
+        "本回合利润",
+        1
+      ],
+      [
+        "税前利润",
+        -1
+      ],
+      [
+        "直接税",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 49,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 4,
+        "display": "4 594",
+        "value": 4594.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 47,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 4,
+        "display": "6 471",
+        "value": 6471.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 48,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 4,
+        "display": "1 877",
+        "value": 1877.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      1,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "aftertax_profit",
+    "team_id": "M01T05",
+    "team_column_index": 5,
+    "terms": [
+      [
+        "本回合利润",
+        1
+      ],
+      [
+        "税前利润",
+        -1
+      ],
+      [
+        "直接税",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 49,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 5,
+        "display": "-3 604",
+        "value": -3604.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 47,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 5,
+        "display": "-3 604",
+        "value": -3604.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 48,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 5,
+        "display": "0",
+        "value": 0.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      1,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "aftertax_profit",
+    "team_id": "M01T06",
+    "team_column_index": 6,
+    "terms": [
+      [
+        "本回合利润",
+        1
+      ],
+      [
+        "税前利润",
+        -1
+      ],
+      [
+        "直接税",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 49,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 6,
+        "display": "2 876",
+        "value": 2876.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 47,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 6,
+        "display": "4 050",
+        "value": 4050.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 48,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 6,
+        "display": "1 175",
+        "value": 1175.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 1.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      1,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "aftertax_profit",
+    "team_id": "M01T07",
+    "team_column_index": 7,
+    "terms": [
+      [
+        "本回合利润",
+        1
+      ],
+      [
+        "税前利润",
+        -1
+      ],
+      [
+        "直接税",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 49,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 7,
+        "display": "3 958",
+        "value": 3958.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 47,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 7,
+        "display": "5 575",
+        "value": 5575.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 48,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 7,
+        "display": "1 617",
+        "value": 1617.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      1,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "aftertax_profit",
+    "team_id": "M01T08",
+    "team_column_index": 8,
+    "terms": [
+      [
+        "本回合利润",
+        1
+      ],
+      [
+        "税前利润",
+        -1
+      ],
+      [
+        "直接税",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 49,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 8,
+        "display": "3 054",
+        "value": 3054.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 47,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 8,
+        "display": "4 301",
+        "value": 4301.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 48,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 8,
+        "display": "1 247",
+        "value": 1247.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      1,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "aftertax_profit",
+    "team_id": "M01T09",
+    "team_column_index": 9,
+    "terms": [
+      [
+        "本回合利润",
+        1
+      ],
+      [
+        "税前利润",
+        -1
+      ],
+      [
+        "直接税",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 49,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 9,
+        "display": "4 881",
+        "value": 4881.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 47,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 9,
+        "display": "6 875",
+        "value": 6875.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 48,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 9,
+        "display": "1 994",
+        "value": 1994.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      1,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "aftertax_profit",
+    "team_id": "M01T10",
+    "team_column_index": 10,
+    "terms": [
+      [
+        "本回合利润",
+        1
+      ],
+      [
+        "税前利润",
+        -1
+      ],
+      [
+        "直接税",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 49,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 10,
+        "display": "3 767",
+        "value": 3767.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 47,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 10,
+        "display": "5 305",
+        "value": 5305.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market1_formal1_incomestatement_history_recheck.json",
+        "sha256": "9dc1ce31bbbeb052a7e23a3b49b78ee08706e46fc42d38a87bd726c154e6bee4",
+        "table_index": 0,
+        "row_index": 48,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁",
+          "营销和销售成本",
+          "杂项费用",
+          "折旧",
+          "融资收入和支出"
+        ],
+        "column_index": 10,
+        "display": "1 538",
+        "value": 1538.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      2,
+      "practice",
+      1,
+      "balancesheet"
+    ],
+    "check": "assets_equal_liabilities_equity",
+    "team_id": "M02T01",
+    "team_column_index": 1,
+    "terms": [
+      [
+        "资产 总计",
+        1
+      ],
+      [
+        "负债与所有者权益总计",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 1,
+        "display": "29 144",
+        "value": 29144.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 36,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产",
+          "负债和所有者权益",
+          "所有者权益",
+          "负债",
+          "长期",
+          "短期"
+        ],
+        "column_index": 1,
+        "display": "29 144",
+        "value": 29144.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      2,
+      "practice",
+      1,
+      "balancesheet"
+    ],
+    "check": "assets_equal_liabilities_equity",
+    "team_id": "M02T02",
+    "team_column_index": 2,
+    "terms": [
+      [
+        "资产 总计",
+        1
+      ],
+      [
+        "负债与所有者权益总计",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 2,
+        "display": "43 457",
+        "value": 43457.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 36,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产",
+          "负债和所有者权益",
+          "所有者权益",
+          "负债",
+          "长期",
+          "短期"
+        ],
+        "column_index": 2,
+        "display": "43 457",
+        "value": 43457.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      2,
+      "practice",
+      1,
+      "balancesheet"
+    ],
+    "check": "assets_equal_liabilities_equity",
+    "team_id": "M02T03",
+    "team_column_index": 3,
+    "terms": [
+      [
+        "资产 总计",
+        1
+      ],
+      [
+        "负债与所有者权益总计",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 3,
+        "display": "50 885",
+        "value": 50885.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 36,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产",
+          "负债和所有者权益",
+          "所有者权益",
+          "负债",
+          "长期",
+          "短期"
+        ],
+        "column_index": 3,
+        "display": "50 885",
+        "value": 50885.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      2,
+      "practice",
+      1,
+      "balancesheet"
+    ],
+    "check": "assets_equal_liabilities_equity",
+    "team_id": "M02T04",
+    "team_column_index": 4,
+    "terms": [
+      [
+        "资产 总计",
+        1
+      ],
+      [
+        "负债与所有者权益总计",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 4,
+        "display": "32 456",
+        "value": 32456.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 36,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产",
+          "负债和所有者权益",
+          "所有者权益",
+          "负债",
+          "长期",
+          "短期"
+        ],
+        "column_index": 4,
+        "display": "32 456",
+        "value": 32456.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      2,
+      "practice",
+      1,
+      "balancesheet"
+    ],
+    "check": "assets_equal_liabilities_equity",
+    "team_id": "M02T05",
+    "team_column_index": 5,
+    "terms": [
+      [
+        "资产 总计",
+        1
+      ],
+      [
+        "负债与所有者权益总计",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 5,
+        "display": "31 478",
+        "value": 31478.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 36,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产",
+          "负债和所有者权益",
+          "所有者权益",
+          "负债",
+          "长期",
+          "短期"
+        ],
+        "column_index": 5,
+        "display": "31 478",
+        "value": 31478.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      2,
+      "practice",
+      1,
+      "balancesheet"
+    ],
+    "check": "assets_equal_liabilities_equity",
+    "team_id": "M02T06",
+    "team_column_index": 6,
+    "terms": [
+      [
+        "资产 总计",
+        1
+      ],
+      [
+        "负债与所有者权益总计",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 6,
+        "display": "35 444",
+        "value": 35444.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 36,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产",
+          "负债和所有者权益",
+          "所有者权益",
+          "负债",
+          "长期",
+          "短期"
+        ],
+        "column_index": 6,
+        "display": "35 444",
+        "value": 35444.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      2,
+      "practice",
+      1,
+      "balancesheet"
+    ],
+    "check": "assets_equal_liabilities_equity",
+    "team_id": "M02T07",
+    "team_column_index": 7,
+    "terms": [
+      [
+        "资产 总计",
+        1
+      ],
+      [
+        "负债与所有者权益总计",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 7,
+        "display": "31 478",
+        "value": 31478.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 36,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产",
+          "负债和所有者权益",
+          "所有者权益",
+          "负债",
+          "长期",
+          "短期"
+        ],
+        "column_index": 7,
+        "display": "31 478",
+        "value": 31478.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      2,
+      "practice",
+      1,
+      "balancesheet"
+    ],
+    "check": "assets_equal_liabilities_equity",
+    "team_id": "M02T08",
+    "team_column_index": 8,
+    "terms": [
+      [
+        "资产 总计",
+        1
+      ],
+      [
+        "负债与所有者权益总计",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 8,
+        "display": "37 373",
+        "value": 37373.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 36,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产",
+          "负债和所有者权益",
+          "所有者权益",
+          "负债",
+          "长期",
+          "短期"
+        ],
+        "column_index": 8,
+        "display": "37 373",
+        "value": 37373.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      2,
+      "practice",
+      1,
+      "balancesheet"
+    ],
+    "check": "assets_equal_liabilities_equity",
+    "team_id": "M02T09",
+    "team_column_index": 9,
+    "terms": [
+      [
+        "资产 总计",
+        1
+      ],
+      [
+        "负债与所有者权益总计",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 9,
+        "display": "44 168",
+        "value": 44168.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 36,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产",
+          "负债和所有者权益",
+          "所有者权益",
+          "负债",
+          "长期",
+          "短期"
+        ],
+        "column_index": 9,
+        "display": "44 168",
+        "value": 44168.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      2,
+      "practice",
+      1,
+      "balancesheet"
+    ],
+    "check": "assets_equal_liabilities_equity",
+    "team_id": "M02T10",
+    "team_column_index": 10,
+    "terms": [
+      [
+        "资产 总计",
+        1
+      ],
+      [
+        "负债与所有者权益总计",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 10,
+        "display": "44 044",
+        "value": 44044.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market2_practice1_balancesheet_history_recheck.json",
+        "sha256": "8aef89f05e2a3e04db0cada842389a0b0bd72b752d39fb7fd70657565c79efbb",
+        "table_index": 0,
+        "row_index": 36,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产",
+          "负债和所有者权益",
+          "所有者权益",
+          "负债",
+          "长期",
+          "短期"
+        ],
+        "column_index": 10,
+        "display": "44 044",
+        "value": 44044.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      3,
+      "formal",
+      1,
+      "cashflow"
+    ],
+    "check": "working_capital_movements",
+    "team_id": "M03T01",
+    "team_column_index": 1,
+    "terms": [
+      [
+        "净营运资本总额变化（增加-/减少+）",
+        1
+      ],
+      [
+        "库存变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应收帐变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应付账变化(增 + / 减 -)",
+        -1
+      ],
+      [
+        "已收预付款变化(增 + / 减 -)",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 1,
+        "display": "-91",
+        "value": -91.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 1,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 1,
+        "display": "-54",
+        "value": -54.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 1,
+        "display": "-37",
+        "value": -37.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 1,
+        "display": "0",
+        "value": 0.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 2.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      3,
+      "formal",
+      1,
+      "cashflow"
+    ],
+    "check": "working_capital_movements",
+    "team_id": "M03T02",
+    "team_column_index": 2,
+    "terms": [
+      [
+        "净营运资本总额变化（增加-/减少+）",
+        1
+      ],
+      [
+        "库存变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应收帐变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应付账变化(增 + / 减 -)",
+        -1
+      ],
+      [
+        "已收预付款变化(增 + / 减 -)",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 2,
+        "display": "-137",
+        "value": -137.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 2,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 2,
+        "display": "-208",
+        "value": -208.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 2,
+        "display": "71",
+        "value": 71.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 2,
+        "display": "0",
+        "value": 0.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 2.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      3,
+      "formal",
+      1,
+      "cashflow"
+    ],
+    "check": "working_capital_movements",
+    "team_id": "M03T03",
+    "team_column_index": 3,
+    "terms": [
+      [
+        "净营运资本总额变化（增加-/减少+）",
+        1
+      ],
+      [
+        "库存变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应收帐变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应付账变化(增 + / 减 -)",
+        -1
+      ],
+      [
+        "已收预付款变化(增 + / 减 -)",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 3,
+        "display": "-526",
+        "value": -526.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 3,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 3,
+        "display": "-833",
+        "value": -833.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 3,
+        "display": "307",
+        "value": 307.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 3,
+        "display": "0",
+        "value": 0.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 2.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      3,
+      "formal",
+      1,
+      "cashflow"
+    ],
+    "check": "working_capital_movements",
+    "team_id": "M03T04",
+    "team_column_index": 4,
+    "terms": [
+      [
+        "净营运资本总额变化（增加-/减少+）",
+        1
+      ],
+      [
+        "库存变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应收帐变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应付账变化(增 + / 减 -)",
+        -1
+      ],
+      [
+        "已收预付款变化(增 + / 减 -)",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 4,
+        "display": "-253",
+        "value": -253.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 4,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 4,
+        "display": "-190",
+        "value": -190.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 4,
+        "display": "-63",
+        "value": -63.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 4,
+        "display": "0",
+        "value": 0.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 2.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      3,
+      "formal",
+      1,
+      "cashflow"
+    ],
+    "check": "working_capital_movements",
+    "team_id": "M03T05",
+    "team_column_index": 5,
+    "terms": [
+      [
+        "净营运资本总额变化（增加-/减少+）",
+        1
+      ],
+      [
+        "库存变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应收帐变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应付账变化(增 + / 减 -)",
+        -1
+      ],
+      [
+        "已收预付款变化(增 + / 减 -)",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 5,
+        "display": "-277",
+        "value": -277.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 5,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 5,
+        "display": "-389",
+        "value": -389.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 5,
+        "display": "112",
+        "value": 112.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 5,
+        "display": "0",
+        "value": 0.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 2.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      3,
+      "formal",
+      1,
+      "cashflow"
+    ],
+    "check": "working_capital_movements",
+    "team_id": "M03T06",
+    "team_column_index": 6,
+    "terms": [
+      [
+        "净营运资本总额变化（增加-/减少+）",
+        1
+      ],
+      [
+        "库存变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应收帐变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应付账变化(增 + / 减 -)",
+        -1
+      ],
+      [
+        "已收预付款变化(增 + / 减 -)",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 6,
+        "display": "295",
+        "value": 295.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 6,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 6,
+        "display": "395",
+        "value": 395.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 6,
+        "display": "-100",
+        "value": -100.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 6,
+        "display": "0",
+        "value": 0.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 2.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      3,
+      "formal",
+      1,
+      "cashflow"
+    ],
+    "check": "working_capital_movements",
+    "team_id": "M03T07",
+    "team_column_index": 7,
+    "terms": [
+      [
+        "净营运资本总额变化（增加-/减少+）",
+        1
+      ],
+      [
+        "库存变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应收帐变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应付账变化(增 + / 减 -)",
+        -1
+      ],
+      [
+        "已收预付款变化(增 + / 减 -)",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 7,
+        "display": "-238",
+        "value": -238.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 7,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 7,
+        "display": "-444",
+        "value": -444.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 7,
+        "display": "206",
+        "value": 206.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 7,
+        "display": "0",
+        "value": 0.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 2.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      3,
+      "formal",
+      1,
+      "cashflow"
+    ],
+    "check": "working_capital_movements",
+    "team_id": "M03T08",
+    "team_column_index": 8,
+    "terms": [
+      [
+        "净营运资本总额变化（增加-/减少+）",
+        1
+      ],
+      [
+        "库存变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应收帐变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应付账变化(增 + / 减 -)",
+        -1
+      ],
+      [
+        "已收预付款变化(增 + / 减 -)",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 8,
+        "display": "-515",
+        "value": -515.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 8,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 8,
+        "display": "-858",
+        "value": -858.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 8,
+        "display": "343",
+        "value": 343.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 8,
+        "display": "0",
+        "value": 0.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 2.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      3,
+      "formal",
+      1,
+      "cashflow"
+    ],
+    "check": "working_capital_movements",
+    "team_id": "M03T09",
+    "team_column_index": 9,
+    "terms": [
+      [
+        "净营运资本总额变化（增加-/减少+）",
+        1
+      ],
+      [
+        "库存变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应收帐变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应付账变化(增 + / 减 -)",
+        -1
+      ],
+      [
+        "已收预付款变化(增 + / 减 -)",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 9,
+        "display": "-384",
+        "value": -384.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 9,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 9,
+        "display": "-510",
+        "value": -510.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 9,
+        "display": "127",
+        "value": 127.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 9,
+        "display": "0",
+        "value": 0.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": -1.0,
+    "tolerance": 2.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      3,
+      "formal",
+      1,
+      "cashflow"
+    ],
+    "check": "working_capital_movements",
+    "team_id": "M03T10",
+    "team_column_index": 10,
+    "terms": [
+      [
+        "净营运资本总额变化（增加-/减少+）",
+        1
+      ],
+      [
+        "库存变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应收帐变化(增 - / 减 +)",
+        -1
+      ],
+      [
+        "应付账变化(增 + / 减 -)",
+        -1
+      ],
+      [
+        "已收预付款变化(增 + / 减 -)",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 10,
+        "display": "-204",
+        "value": -204.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 10,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 10,
+        "display": "-197",
+        "value": -197.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 10,
+        "display": "-7",
+        "value": -7.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market3_formal1_cashflow_history_recheck.json",
+        "sha256": "add99119b2cad467d5fe7658f4bfaf6ad756b90d5016b1759776b10f9566e0b6",
+        "table_index": 0,
+        "row_index": 19,
+        "unit_context": [],
+        "section_path": [
+          "现金流量表",
+          "-15k\n-10k\n-5k\n0\n5k\n10k\n海底小纵队\n咱试试嘛\n百分buy队\n橘子大队\n复利奇迹\n华尔街之狼\n香菜\n获奖让我插个队\n同航队\n运筹帷幄队\n经营活动现金流\n资本支出总计\n融资总计",
+          "来自营运资金",
+          "净营运资本变化"
+        ],
+        "column_index": 10,
+        "display": "0",
+        "value": 0.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 2.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "gross_profit",
+    "team_id": "M04T01",
+    "team_column_index": 1,
+    "terms": [
+      [
+        "毛利",
+        1
+      ],
+      [
+        "净销售额",
+        -1
+      ],
+      [
+        "可变成本总和",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 21,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 1,
+        "display": "13 415",
+        "value": 13415.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售"
+        ],
+        "column_index": 1,
+        "display": "34 091",
+        "value": 34091.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 1,
+        "display": "20 676",
+        "value": 20676.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "gross_profit",
+    "team_id": "M04T02",
+    "team_column_index": 2,
+    "terms": [
+      [
+        "毛利",
+        1
+      ],
+      [
+        "净销售额",
+        -1
+      ],
+      [
+        "可变成本总和",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 21,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 2,
+        "display": "12 080",
+        "value": 12080.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售"
+        ],
+        "column_index": 2,
+        "display": "34 077",
+        "value": 34077.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 2,
+        "display": "21 997",
+        "value": 21997.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "gross_profit",
+    "team_id": "M04T03",
+    "team_column_index": 3,
+    "terms": [
+      [
+        "毛利",
+        1
+      ],
+      [
+        "净销售额",
+        -1
+      ],
+      [
+        "可变成本总和",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 21,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 3,
+        "display": "11 561",
+        "value": 11561.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售"
+        ],
+        "column_index": 3,
+        "display": "31 989",
+        "value": 31989.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 3,
+        "display": "20 428",
+        "value": 20428.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "gross_profit",
+    "team_id": "M04T04",
+    "team_column_index": 4,
+    "terms": [
+      [
+        "毛利",
+        1
+      ],
+      [
+        "净销售额",
+        -1
+      ],
+      [
+        "可变成本总和",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 21,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 4,
+        "display": "12 591",
+        "value": 12591.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售"
+        ],
+        "column_index": 4,
+        "display": "34 384",
+        "value": 34384.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 4,
+        "display": "21 793",
+        "value": 21793.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "gross_profit",
+    "team_id": "M04T05",
+    "team_column_index": 5,
+    "terms": [
+      [
+        "毛利",
+        1
+      ],
+      [
+        "净销售额",
+        -1
+      ],
+      [
+        "可变成本总和",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 21,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 5,
+        "display": "8 255",
+        "value": 8255.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售"
+        ],
+        "column_index": 5,
+        "display": "20 025",
+        "value": 20025.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 5,
+        "display": "11 770",
+        "value": 11770.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "gross_profit",
+    "team_id": "M04T06",
+    "team_column_index": 6,
+    "terms": [
+      [
+        "毛利",
+        1
+      ],
+      [
+        "净销售额",
+        -1
+      ],
+      [
+        "可变成本总和",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 21,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 6,
+        "display": "12 923",
+        "value": 12923.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售"
+        ],
+        "column_index": 6,
+        "display": "36 220",
+        "value": 36220.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 6,
+        "display": "23 297",
+        "value": 23297.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "gross_profit",
+    "team_id": "M04T07",
+    "team_column_index": 7,
+    "terms": [
+      [
+        "毛利",
+        1
+      ],
+      [
+        "净销售额",
+        -1
+      ],
+      [
+        "可变成本总和",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 21,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 7,
+        "display": "13 300",
+        "value": 13300.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售"
+        ],
+        "column_index": 7,
+        "display": "36 100",
+        "value": 36100.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 7,
+        "display": "22 801",
+        "value": 22801.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 1.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "gross_profit",
+    "team_id": "M04T08",
+    "team_column_index": 8,
+    "terms": [
+      [
+        "毛利",
+        1
+      ],
+      [
+        "净销售额",
+        -1
+      ],
+      [
+        "可变成本总和",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 21,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 8,
+        "display": "2 393",
+        "value": 2393.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售"
+        ],
+        "column_index": 8,
+        "display": "6 120",
+        "value": 6120.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 8,
+        "display": "3 727",
+        "value": 3727.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "gross_profit",
+    "team_id": "M04T09",
+    "team_column_index": 9,
+    "terms": [
+      [
+        "毛利",
+        1
+      ],
+      [
+        "净销售额",
+        -1
+      ],
+      [
+        "可变成本总和",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 21,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 9,
+        "display": "11 919",
+        "value": 11919.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售"
+        ],
+        "column_index": 9,
+        "display": "30 904",
+        "value": 30904.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 9,
+        "display": "18 985",
+        "value": 18985.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "gross_profit",
+    "team_id": "M04T10",
+    "team_column_index": 10,
+    "terms": [
+      [
+        "毛利",
+        1
+      ],
+      [
+        "净销售额",
+        -1
+      ],
+      [
+        "可变成本总和",
+        1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 21,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 10,
+        "display": "12 575",
+        "value": 12575.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售"
+        ],
+        "column_index": 10,
+        "display": "32 634",
+        "value": 32634.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal1_incomestatement_history_recheck.json",
+        "sha256": "1ffd23ea92c135603976b211c9810d8863db4f6ce7f07bf69e03893d38999f5b",
+        "table_index": 0,
+        "row_index": 20,
+        "unit_context": [],
+        "section_path": [
+          "损益表",
+          "销售",
+          "可变成本",
+          "复合梁"
+        ],
+        "column_index": 10,
+        "display": "20 059",
+        "value": 20059.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "fixed_assets_components",
+    "team_id": "M04T01",
+    "team_column_index": 1,
+    "terms": [
+      [
+        "固定资产总和",
+        1
+      ],
+      [
+        "厂房",
+        -1
+      ],
+      [
+        "机器",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 13,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 1,
+        "display": "20 339",
+        "value": 20339.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 11,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 1,
+        "display": "12 926",
+        "value": 12926.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 1,
+        "display": "7 413",
+        "value": 7413.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "fixed_assets_components",
+    "team_id": "M04T02",
+    "team_column_index": 2,
+    "terms": [
+      [
+        "固定资产总和",
+        1
+      ],
+      [
+        "厂房",
+        -1
+      ],
+      [
+        "机器",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 13,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 2,
+        "display": "19 710",
+        "value": 19710.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 11,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 2,
+        "display": "12 926",
+        "value": 12926.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 2,
+        "display": "6 784",
+        "value": 6784.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "fixed_assets_components",
+    "team_id": "M04T03",
+    "team_column_index": 3,
+    "terms": [
+      [
+        "固定资产总和",
+        1
+      ],
+      [
+        "厂房",
+        -1
+      ],
+      [
+        "机器",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 13,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 3,
+        "display": "20 888",
+        "value": 20888.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 11,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 3,
+        "display": "12 926",
+        "value": 12926.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 3,
+        "display": "7 962",
+        "value": 7962.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "fixed_assets_components",
+    "team_id": "M04T04",
+    "team_column_index": 4,
+    "terms": [
+      [
+        "固定资产总和",
+        1
+      ],
+      [
+        "厂房",
+        -1
+      ],
+      [
+        "机器",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 13,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 4,
+        "display": "19 795",
+        "value": 19795.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 11,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 4,
+        "display": "12 926",
+        "value": 12926.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 4,
+        "display": "6 869",
+        "value": 6869.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "fixed_assets_components",
+    "team_id": "M04T05",
+    "team_column_index": 5,
+    "terms": [
+      [
+        "固定资产总和",
+        1
+      ],
+      [
+        "厂房",
+        -1
+      ],
+      [
+        "机器",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 13,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 5,
+        "display": "22 010",
+        "value": 22010.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 11,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 5,
+        "display": "12 926",
+        "value": 12926.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 5,
+        "display": "9 084",
+        "value": 9084.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "fixed_assets_components",
+    "team_id": "M04T06",
+    "team_column_index": 6,
+    "terms": [
+      [
+        "固定资产总和",
+        1
+      ],
+      [
+        "厂房",
+        -1
+      ],
+      [
+        "机器",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 13,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 6,
+        "display": "20 463",
+        "value": 20463.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 11,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 6,
+        "display": "12 926",
+        "value": 12926.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 6,
+        "display": "7 537",
+        "value": 7537.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "fixed_assets_components",
+    "team_id": "M04T07",
+    "team_column_index": 7,
+    "terms": [
+      [
+        "固定资产总和",
+        1
+      ],
+      [
+        "厂房",
+        -1
+      ],
+      [
+        "机器",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 13,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 7,
+        "display": "20 917",
+        "value": 20917.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 11,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 7,
+        "display": "12 926",
+        "value": 12926.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 7,
+        "display": "7 991",
+        "value": 7991.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "fixed_assets_components",
+    "team_id": "M04T08",
+    "team_column_index": 8,
+    "terms": [
+      [
+        "固定资产总和",
+        1
+      ],
+      [
+        "厂房",
+        -1
+      ],
+      [
+        "机器",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 13,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 8,
+        "display": "19 421",
+        "value": 19421.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 11,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 8,
+        "display": "12 926",
+        "value": 12926.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 8,
+        "display": "6 495",
+        "value": 6495.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "fixed_assets_components",
+    "team_id": "M04T09",
+    "team_column_index": 9,
+    "terms": [
+      [
+        "固定资产总和",
+        1
+      ],
+      [
+        "厂房",
+        -1
+      ],
+      [
+        "机器",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 13,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 9,
+        "display": "19 481",
+        "value": 19481.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 11,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 9,
+        "display": "12 926",
+        "value": 12926.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 9,
+        "display": "6 555",
+        "value": 6555.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "fixed_assets_components",
+    "team_id": "M04T10",
+    "team_column_index": 10,
+    "terms": [
+      [
+        "固定资产总和",
+        1
+      ],
+      [
+        "厂房",
+        -1
+      ],
+      [
+        "机器",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 13,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 10,
+        "display": "19 893",
+        "value": 19893.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 11,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 10,
+        "display": "12 926",
+        "value": 12926.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market4_formal2_balancesheet_history_recheck.json",
+        "sha256": "4d1402633aa2cf8444ade3a75fbdd35596a3388da5b26b885ee472a062dc8b0e",
+        "table_index": 0,
+        "row_index": 12,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产"
+        ],
+        "column_index": 10,
+        "display": "6 967",
+        "value": 6967.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 1.500000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      7,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "current_assets_components",
+    "team_id": "M07T01",
+    "team_column_index": 1,
+    "terms": [
+      [
+        "总流动资产",
+        1
+      ],
+      [
+        "成品库存",
+        -1
+      ],
+      [
+        "应收帐款",
+        -1
+      ],
+      [
+        "现金及现金等价物",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 1,
+        "display": "20 835",
+        "value": 20835.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 15,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 1,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 1,
+        "display": "3 624",
+        "value": 3624.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 1,
+        "display": "17 211",
+        "value": 17211.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 2.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      7,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "current_assets_components",
+    "team_id": "M07T02",
+    "team_column_index": 2,
+    "terms": [
+      [
+        "总流动资产",
+        1
+      ],
+      [
+        "成品库存",
+        -1
+      ],
+      [
+        "应收帐款",
+        -1
+      ],
+      [
+        "现金及现金等价物",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 2,
+        "display": "5 183",
+        "value": 5183.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 15,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 2,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 2,
+        "display": "428",
+        "value": 428.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 2,
+        "display": "4 755",
+        "value": 4755.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 2.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      7,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "current_assets_components",
+    "team_id": "M07T03",
+    "team_column_index": 3,
+    "terms": [
+      [
+        "总流动资产",
+        1
+      ],
+      [
+        "成品库存",
+        -1
+      ],
+      [
+        "应收帐款",
+        -1
+      ],
+      [
+        "现金及现金等价物",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 3,
+        "display": "21 312",
+        "value": 21312.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 15,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 3,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 3,
+        "display": "2 704",
+        "value": 2704.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 3,
+        "display": "18 608",
+        "value": 18608.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 2.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      7,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "current_assets_components",
+    "team_id": "M07T04",
+    "team_column_index": 4,
+    "terms": [
+      [
+        "总流动资产",
+        1
+      ],
+      [
+        "成品库存",
+        -1
+      ],
+      [
+        "应收帐款",
+        -1
+      ],
+      [
+        "现金及现金等价物",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 4,
+        "display": "23 531",
+        "value": 23531.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 15,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 4,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 4,
+        "display": "2 894",
+        "value": 2894.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 4,
+        "display": "20 637",
+        "value": 20637.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 2.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      7,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "current_assets_components",
+    "team_id": "M07T05",
+    "team_column_index": 5,
+    "terms": [
+      [
+        "总流动资产",
+        1
+      ],
+      [
+        "成品库存",
+        -1
+      ],
+      [
+        "应收帐款",
+        -1
+      ],
+      [
+        "现金及现金等价物",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 5,
+        "display": "16 602",
+        "value": 16602.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 15,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 5,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 5,
+        "display": "1 998",
+        "value": 1998.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 5,
+        "display": "14 605",
+        "value": 14605.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": -1.0,
+    "tolerance": 2.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      7,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "current_assets_components",
+    "team_id": "M07T06",
+    "team_column_index": 6,
+    "terms": [
+      [
+        "总流动资产",
+        1
+      ],
+      [
+        "成品库存",
+        -1
+      ],
+      [
+        "应收帐款",
+        -1
+      ],
+      [
+        "现金及现金等价物",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 6,
+        "display": "18 135",
+        "value": 18135.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 15,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 6,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 6,
+        "display": "3 473",
+        "value": 3473.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 6,
+        "display": "14 661",
+        "value": 14661.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 1.0,
+    "tolerance": 2.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      7,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "current_assets_components",
+    "team_id": "M07T07",
+    "team_column_index": 7,
+    "terms": [
+      [
+        "总流动资产",
+        1
+      ],
+      [
+        "成品库存",
+        -1
+      ],
+      [
+        "应收帐款",
+        -1
+      ],
+      [
+        "现金及现金等价物",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 7,
+        "display": "15 668",
+        "value": 15668.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 15,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 7,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 7,
+        "display": "3 408",
+        "value": 3408.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 7,
+        "display": "12 260",
+        "value": 12260.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 2.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      7,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "current_assets_components",
+    "team_id": "M07T08",
+    "team_column_index": 8,
+    "terms": [
+      [
+        "总流动资产",
+        1
+      ],
+      [
+        "成品库存",
+        -1
+      ],
+      [
+        "应收帐款",
+        -1
+      ],
+      [
+        "现金及现金等价物",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 8,
+        "display": "12 675",
+        "value": 12675.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 15,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 8,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 8,
+        "display": "3 779",
+        "value": 3779.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 8,
+        "display": "8 896",
+        "value": 8896.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 0.0,
+    "tolerance": 2.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      7,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "current_assets_components",
+    "team_id": "M07T09",
+    "team_column_index": 9,
+    "terms": [
+      [
+        "总流动资产",
+        1
+      ],
+      [
+        "成品库存",
+        -1
+      ],
+      [
+        "应收帐款",
+        -1
+      ],
+      [
+        "现金及现金等价物",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 9,
+        "display": "10 288",
+        "value": 10288.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 15,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 9,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 9,
+        "display": "3 243",
+        "value": 3243.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 9,
+        "display": "7 046",
+        "value": 7046.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": -1.0,
+    "tolerance": 2.000000001,
+    "status": "pass"
+  },
+  {
+    "key": [
+      7,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "current_assets_components",
+    "team_id": "M07T10",
+    "team_column_index": 10,
+    "terms": [
+      [
+        "总流动资产",
+        1
+      ],
+      [
+        "成品库存",
+        -1
+      ],
+      [
+        "应收帐款",
+        -1
+      ],
+      [
+        "现金及现金等价物",
+        -1
+      ]
+    ],
+    "inputs": [
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 18,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 10,
+        "display": "5 914",
+        "value": 5914.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 15,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 10,
+        "display": "0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 16,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 10,
+        "display": "475",
+        "value": 475.0
+      },
+      {
+        "source": "output/round_close/20261014_resume_verified/raw/market7_formal2_balancesheet_history_recheck.json",
+        "sha256": "e2639cce20bfa92b216513599c1441b42c33e3a7a718d86b3b4143134f0ac6b4",
+        "table_index": 0,
+        "row_index": 17,
+        "unit_context": [],
+        "section_path": [
+          "资产负债表",
+          "资产",
+          "固定资产",
+          "流动资产"
+        ],
+        "column_index": 10,
+        "display": "5 438",
+        "value": 5438.0
+      }
+    ],
+    "unit": "千 美元",
+    "residual": 1.0,
+    "tolerance": 2.000000001,
+    "status": "pass"
+  }
+]

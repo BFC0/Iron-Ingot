@@ -1,0 +1,33 @@
+{
+  "self_check": {
+    "equal_inputs_equal_product_response": true,
+    "product_groups_isolated": true,
+    "guards": true,
+    "demand_to_joint_allocation": true,
+    "allocation": {
+      "connector_free_path": {
+        "overproduction_inventory": true,
+        "two_round_carryover": true,
+        "payroll_and_materials_on_production": true,
+        "priority": true,
+        "zero_capacity": true,
+        "invalid_plan_rejected": true
+      },
+      "fixed_plan_reserves_shared_workers": true,
+      "infeasible_plan_rejected": true,
+      "dedicated_capacity": true,
+      "shared_labor": true,
+      "shift_costs": true,
+      "negative_margin_idle": true,
+      "zero_capacity": true,
+      "unequal_efficiencies": true,
+      "invalid_inputs_rejected": true
+    }
+  },
+  "old_t3v1_outputs_unchanged": true,
+  "fixed_production_not_demand_capped": true,
+  "inventory_conservation": true,
+  "shared_workers": true,
+  "next_round_quantity_carryover": true,
+  "demand_retrained": false
+}

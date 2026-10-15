@@ -1,0 +1,17 @@
+{
+  "source_and_output_hashes": true,
+  "demand_predictions_replayed": true,
+  "train_test_disjoint": true,
+  "share_conservation": true,
+  "history_values_nonnegative_finite": true,
+  "demand_features_independent_of_labels": true,
+  "higher_price_reduces_utility": true,
+  "marketing_stock_arithmetic": true,
+  "efficiency_synthetic_recovery": {
+    "synthetic_history_recovery": true,
+    "zero_current_and_previous_retains_history": true,
+    "zero_earlier_history_equivalence": true
+  },
+  "deployment": "NOT_DEPLOYED",
+  "formal4_validation": "PENDING_ACTUAL_RESULTS"
+}

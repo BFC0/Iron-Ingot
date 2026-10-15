@@ -1,0 +1,42 @@
+{
+  "phase": "formal",
+  "round": 3,
+  "market": 5,
+  "category": "ARCHIVED_PUBLISHED_CONDITIONS",
+  "source": "output\\round_close\\20261012T221044.031+0800\\resume\\20261013T_goal\\current_2026-10-13T082849281Z\\tables.json",
+  "source_sha256": "a29724bc823ff548137b0a6a95c30528850de367371e745a6fbfc9391fe415f8",
+  "reference_price_usd": 27.0,
+  "initial_demand_phrase_kunits": {
+    "泰国": 250.0,
+    "印尼": 150.0
+  },
+  "initial_demand_scope": "原文每组产品，不能自动当本队需求或行业总量",
+  "material_cost": 14.2,
+  "transport_costs": {
+    "泰国": 0.5,
+    "印尼": 2.0
+  },
+  "holding_cost_per_unit": 0.6,
+  "investment_unit_cost": 1.1,
+  "capacity_decay_pct": 15.0,
+  "wage_kusd": 30.0,
+  "shift_multipliers": [
+    1.0,
+    1.65,
+    2.56
+  ],
+  "efficiency_range": [
+    16.0,
+    18.0
+  ],
+  "archived_input_efficiency": 16.7,
+  "tender_kunits": 350.0,
+  "tender_is_confirmed_order": false,
+  "environment_per_unit": {
+    "production_co2_kg": 2.3,
+    "energy_kwh": 7.89,
+    "water_l": 18.56,
+    "domestic_transport_co2_g": 6.2,
+    "export_transport_co2_g": 74.5
+  }
+}

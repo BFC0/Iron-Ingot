@@ -1,0 +1,34 @@
+{
+  "version": "t3v0",
+  "training_round": 2,
+  "extra_curve_round": 3,
+  "steps": [
+    "核验原件哈希与类别",
+    "按市场/阶段/回合/团队/国家/产品配初终值",
+    "读取对应回合曲线和公布参数",
+    "冻结旧参数先评分",
+    "缓存原始特征",
+    "训练内选参及嵌套整市场验证",
+    "效率→数量/用工→费用规则回放",
+    "逐字段保留财务状态未知",
+    "未来情景及正式3附加曲线独立保存"
+  ],
+  "dependencies": {
+    "demand": "formal2 RD + formal1 RD input + formal2 decisions/actual demand",
+    "efficiency": "formal2 OPS + formal1 OPS input + formal2 actual quantity/workers",
+    "lagged_residual": "formal1 curve/actual/events + formal2 curve/actual"
+  },
+  "remaining": {
+    "start_round": 3,
+    "end_round": 6,
+    "remaining_rounds": 4,
+    "remaining_profit": null,
+    "complete_profit_path": false,
+    "terminal_state": null,
+    "terminal_reward": null,
+    "ranking_eligible": false,
+    "scope": "仅剩余回合利润小计；需独立验证状态结转和计分规则才可用于完整决策排名；无自动变现、清债或第7回合收益"
+  },
+  "complete_profit_forecast": false,
+  "automatic_deployment": false
+}

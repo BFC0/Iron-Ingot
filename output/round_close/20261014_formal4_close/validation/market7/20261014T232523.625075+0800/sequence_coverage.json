@@ -1,0 +1,4926 @@
+[
+  {
+    "requirement_id": "summary:Graphs.Results.Summary.CumulRevenue.TimeSeries.summary",
+    "panel": "summary",
+    "chart_id": "Graphs.Results.Summary.CumulRevenue.TimeSeries.summary",
+    "chart_type": "msline",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_summary.json",
+    "prior_sha256": "5b004ae61eb18625e93b80de9441950861a4bb6c21272eff476f44fee777406e",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_summary.json",
+      "sha256": "d41463002291b27a7c8442392e89d89735f2a12236ef1bd556cbad0273d30251"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "0"
+            },
+            {
+              "label": "1"
+            },
+            {
+              "label": "2"
+            },
+            {
+              "label": "3"
+            },
+            {
+              "label": "4"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": "千 美元",
+        "xAxisName": "年",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "seriesname": "来都来了队",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 38175
+            },
+            {
+              "value": 44094
+            },
+            {
+              "value": 49518
+            },
+            {
+              "value": 52489
+            }
+          ]
+        },
+        {
+          "seriesname": "八方来财",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 6120
+            },
+            {
+              "value": 5202
+            },
+            {
+              "value": 4422
+            },
+            {
+              "value": 3758
+            }
+          ]
+        },
+        {
+          "seriesname": "艾斯帕汉化队",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 32023
+            },
+            {
+              "value": 32899
+            },
+            {
+              "value": 42033
+            },
+            {
+              "value": 49101
+            }
+          ]
+        },
+        {
+          "seriesname": "启策",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 41722
+            },
+            {
+              "value": 35216
+            },
+            {
+              "value": 41881
+            },
+            {
+              "value": 41549
+            }
+          ]
+        },
+        {
+          "seriesname": "现金流保护协会",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 28914
+            },
+            {
+              "value": 24305
+            },
+            {
+              "value": 18003
+            },
+            {
+              "value": 15729
+            }
+          ]
+        },
+        {
+          "seriesname": "潘山越岭，吴所不能",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 33656
+            },
+            {
+              "value": 42259
+            },
+            {
+              "value": 38232
+            },
+            {
+              "value": 39414
+            }
+          ]
+        },
+        {
+          "seriesname": "深藏blue队",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 33413
+            },
+            {
+              "value": 41468
+            },
+            {
+              "value": 45587
+            },
+            {
+              "value": 56038
+            }
+          ]
+        },
+        {
+          "seriesname": "别慌先借一亿",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 34644
+            },
+            {
+              "value": 45976
+            },
+            {
+              "value": 59534
+            },
+            {
+              "value": 56184
+            }
+          ]
+        },
+        {
+          "seriesname": "商业精英队",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 34598
+            },
+            {
+              "value": 39452
+            },
+            {
+              "value": 51321
+            },
+            {
+              "value": 49043
+            }
+          ]
+        },
+        {
+          "seriesname": "清风小队",
+          "data": [
+            {
+              "value": 31136
+            },
+            {
+              "value": 6800
+            },
+            {
+              "value": 5780
+            },
+            {
+              "value": 4913
+            },
+            {
+              "value": 4176
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "summary:Graphs.Summary.Profitability",
+    "panel": "summary",
+    "chart_id": "Graphs.Summary.Profitability",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_summary.json",
+    "prior_sha256": "5b004ae61eb18625e93b80de9441950861a4bb6c21272eff476f44fee777406e",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_summary.json",
+      "sha256": "d41463002291b27a7c8442392e89d89735f2a12236ef1bd556cbad0273d30251"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "sYAxisName": "%",
+        "xAxisName": " ",
+        "caption": " ",
+        "pYAxisName": "千 美元"
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "销售",
+              "data": [
+                {
+                  "value": 52489.4145608196
+                },
+                {
+                  "value": 3758.4449999999993
+                },
+                {
+                  "value": 49101.41318001723
+                },
+                {
+                  "value": 41548.650877160784
+                },
+                {
+                  "value": 15728.912577368428
+                },
+                {
+                  "value": 39413.90153595291
+                },
+                {
+                  "value": 56038.421358643725
+                },
+                {
+                  "value": 56183.78486684151
+                },
+                {
+                  "value": 49043.44791850802
+                },
+                {
+                  "value": 4176.049999999999
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataset": [
+            {
+              "seriesname": "息税前利润（EBIT）",
+              "data": [
+                {
+                  "value": 4319.790533562875
+                },
+                {
+                  "value": -8674.805355115343
+                },
+                {
+                  "value": 1448.3081197380143
+                },
+                {
+                  "value": 838.707189375451
+                },
+                {
+                  "value": -3584.9497686183586
+                },
+                {
+                  "value": 1795.146403788226
+                },
+                {
+                  "value": 5180.56482581656
+                },
+                {
+                  "value": 7265.847049490678
+                },
+                {
+                  "value": 4608.578772729519
+                },
+                {
+                  "value": -8445.122605115343
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataset": [
+            {
+              "seriesname": "利润",
+              "data": [
+                {
+                  "value": 3083.71453875715
+                },
+                {
+                  "value": -13317.459112803044
+                },
+                {
+                  "value": 552.2413031059207
+                },
+                {
+                  "value": 141.38099563341507
+                },
+                {
+                  "value": -4384.114982330377
+                },
+                {
+                  "value": 1079.3441886361895
+                },
+                {
+                  "value": 3579.5727368389926
+                },
+                {
+                  "value": 5213.1879974733965
+                },
+                {
+                  "value": 3339.5759009625262
+                },
+                {
+                  "value": -12899.279380620275
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "summary:Graphs.Summary.Costs.summary",
+    "panel": "summary",
+    "chart_id": "Graphs.Summary.Costs.summary",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_summary.json",
+    "prior_sha256": "5b004ae61eb18625e93b80de9441950861a4bb6c21272eff476f44fee777406e",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_summary.json",
+      "sha256": "d41463002291b27a7c8442392e89d89735f2a12236ef1bd556cbad0273d30251"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": "千 美元",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "从库存中出售, 复合梁",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "从库存中出售, 连接件",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 89.7475894085
+                },
+                {
+                  "value": 1410.1771354085
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "新生产, 复合梁",
+              "data": [
+                {
+                  "value": 26641.602925227035
+                },
+                {
+                  "value": 2670.9372585563533
+                },
+                {
+                  "value": 26865.68132295675
+                },
+                {
+                  "value": 22010.88759938665
+                },
+                {
+                  "value": 6008.577491356495
+                },
+                {
+                  "value": 26302.281799011682
+                },
+                {
+                  "value": 23338.147858956247
+                },
+                {
+                  "value": 28629.926527767242
+                },
+                {
+                  "value": 25507.2363781642
+                },
+                {
+                  "value": 2858.8595085563534
+                }
+              ]
+            },
+            {
+              "seriesname": "新生产, 连接件",
+              "data": [
+                {
+                  "value": 6440.345893876688
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 7006.773529169472
+                },
+                {
+                  "value": 6354.238472143978
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 13368.829715717919
+                },
+                {
+                  "value": 5127.613019487079
+                },
+                {
+                  "value": 4303.543711421131
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataset": [
+            {
+              "seriesname": "销货成本",
+              "data": [
+                {
+                  "value": 33081.94881910372
+                },
+                {
+                  "value": 2670.9372585563533
+                },
+                {
+                  "value": 33872.45485212622
+                },
+                {
+                  "value": 28365.126071530627
+                },
+                {
+                  "value": 6008.577491356495
+                },
+                {
+                  "value": 26302.281799011682
+                },
+                {
+                  "value": 36706.977574674165
+                },
+                {
+                  "value": 33847.287136662824
+                },
+                {
+                  "value": 31220.957224993832
+                },
+                {
+                  "value": 2858.8595085563534
+                }
+              ]
+            },
+            {
+              "seriesname": "库存增长, 复合梁",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "库存增长, 连接件",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "summary:Graphs.Results.Summary.Profits.TimeSeries.summary",
+    "panel": "summary",
+    "chart_id": "Graphs.Results.Summary.Profits.TimeSeries.summary",
+    "chart_type": "msline",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_summary.json",
+    "prior_sha256": "5b004ae61eb18625e93b80de9441950861a4bb6c21272eff476f44fee777406e",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_summary.json",
+      "sha256": "d41463002291b27a7c8442392e89d89735f2a12236ef1bd556cbad0273d30251"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "0"
+            },
+            {
+              "label": "1"
+            },
+            {
+              "label": "2"
+            },
+            {
+              "label": "3"
+            },
+            {
+              "label": "4"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": "千 美元",
+        "xAxisName": "年",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "seriesname": "来都来了队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 3241
+            },
+            {
+              "value": 3272
+            },
+            {
+              "value": 4368
+            },
+            {
+              "value": 3084
+            }
+          ]
+        },
+        {
+          "seriesname": "八方来财",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": -7067
+            },
+            {
+              "value": -7042
+            },
+            {
+              "value": -11696
+            },
+            {
+              "value": -13317
+            }
+          ]
+        },
+        {
+          "seriesname": "艾斯帕汉化队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 851
+            },
+            {
+              "value": 509
+            },
+            {
+              "value": 1038
+            },
+            {
+              "value": 552
+            }
+          ]
+        },
+        {
+          "seriesname": "启策",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 2698
+            },
+            {
+              "value": 1468
+            },
+            {
+              "value": -4126
+            },
+            {
+              "value": 141
+            }
+          ]
+        },
+        {
+          "seriesname": "现金流保护协会",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 1838
+            },
+            {
+              "value": -1814
+            },
+            {
+              "value": -3071
+            },
+            {
+              "value": -4384
+            }
+          ]
+        },
+        {
+          "seriesname": "潘山越岭，吴所不能",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 2921
+            },
+            {
+              "value": 2773
+            },
+            {
+              "value": 708
+            },
+            {
+              "value": 1079
+            }
+          ]
+        },
+        {
+          "seriesname": "深藏blue队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 2960
+            },
+            {
+              "value": 2186
+            },
+            {
+              "value": 2360
+            },
+            {
+              "value": 3580
+            }
+          ]
+        },
+        {
+          "seriesname": "别慌先借一亿",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 3181
+            },
+            {
+              "value": 4785
+            },
+            {
+              "value": 6137
+            },
+            {
+              "value": 5213
+            }
+          ]
+        },
+        {
+          "seriesname": "商业精英队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 3231
+            },
+            {
+              "value": 3721
+            },
+            {
+              "value": 4090
+            },
+            {
+              "value": 3340
+            }
+          ]
+        },
+        {
+          "seriesname": "清风小队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": -6688
+            },
+            {
+              "value": -6690
+            },
+            {
+              "value": -11345
+            },
+            {
+              "value": -12899
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "summary:Graphs.Results.Summary.CumulEarnings.TimeSeries.summary",
+    "panel": "summary",
+    "chart_id": "Graphs.Results.Summary.CumulEarnings.TimeSeries.summary",
+    "chart_type": "msline",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_summary.json",
+    "prior_sha256": "5b004ae61eb18625e93b80de9441950861a4bb6c21272eff476f44fee777406e",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_summary.json",
+      "sha256": "d41463002291b27a7c8442392e89d89735f2a12236ef1bd556cbad0273d30251"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "0"
+            },
+            {
+              "label": "1"
+            },
+            {
+              "label": "2"
+            },
+            {
+              "label": "3"
+            },
+            {
+              "label": "4"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": "千 美元",
+        "xAxisName": "年",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "seriesname": "来都来了队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 4534
+            },
+            {
+              "value": 7806
+            },
+            {
+              "value": 12173
+            },
+            {
+              "value": 15257
+            }
+          ]
+        },
+        {
+          "seriesname": "八方来财",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": -5774
+            },
+            {
+              "value": -12816
+            },
+            {
+              "value": -24513
+            },
+            {
+              "value": -37830
+            }
+          ]
+        },
+        {
+          "seriesname": "艾斯帕汉化队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 2144
+            },
+            {
+              "value": 2653
+            },
+            {
+              "value": 3692
+            },
+            {
+              "value": 4244
+            }
+          ]
+        },
+        {
+          "seriesname": "启策",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 3991
+            },
+            {
+              "value": 5459
+            },
+            {
+              "value": 1333
+            },
+            {
+              "value": 1475
+            }
+          ]
+        },
+        {
+          "seriesname": "现金流保护协会",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 3131
+            },
+            {
+              "value": 1317
+            },
+            {
+              "value": -1754
+            },
+            {
+              "value": -6138
+            }
+          ]
+        },
+        {
+          "seriesname": "潘山越岭，吴所不能",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 4214
+            },
+            {
+              "value": 6987
+            },
+            {
+              "value": 7694
+            },
+            {
+              "value": 8774
+            }
+          ]
+        },
+        {
+          "seriesname": "深藏blue队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 4252
+            },
+            {
+              "value": 6438
+            },
+            {
+              "value": 8798
+            },
+            {
+              "value": 12378
+            }
+          ]
+        },
+        {
+          "seriesname": "别慌先借一亿",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 4473
+            },
+            {
+              "value": 9259
+            },
+            {
+              "value": 15395
+            },
+            {
+              "value": 20609
+            }
+          ]
+        },
+        {
+          "seriesname": "商业精英队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": 4524
+            },
+            {
+              "value": 8245
+            },
+            {
+              "value": 12335
+            },
+            {
+              "value": 15674
+            }
+          ]
+        },
+        {
+          "seriesname": "清风小队",
+          "data": [
+            {
+              "value": 1293
+            },
+            {
+              "value": -5395
+            },
+            {
+              "value": -12086
+            },
+            {
+              "value": -23430
+            },
+            {
+              "value": -36329
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Market.MarketShare.Global",
+    "panel": "market",
+    "chart_id": "Graphs.Market.MarketShare.Global",
+    "chart_type": "pie2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_market.json",
+      "sha256": "62dec4588d3d3abeeb95e7cf03b3646da8153ddb7f671d4d9593bc6e76b34ba4"
+    },
+    "data": {
+      "data": [
+        {
+          "label": "来都来了队",
+          "value": 17.470997252669747
+        },
+        {
+          "label": "八方来财",
+          "value": 0.09356352283936209
+        },
+        {
+          "label": "艾斯帕汉化队",
+          "value": 17.92444840554692
+        },
+        {
+          "label": "启策",
+          "value": 15.662943614960142
+        },
+        {
+          "label": "现金流保护协会",
+          "value": 0.20143438733381913
+        },
+        {
+          "label": "潘山越岭，吴所不能",
+          "value": 0.7123670795622803
+        },
+        {
+          "label": "深藏blue队",
+          "value": 18.240478933466072
+        },
+        {
+          "label": "别慌先借一亿",
+          "value": 14.188282256317489
+        },
+        {
+          "label": "商业精英队",
+          "value": 15.4119210244648
+        },
+        {
+          "label": "清风小队",
+          "value": 0.09356352283936209
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      }
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Clobal.Product.MarketValue.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Clobal.Product.MarketValue.overview",
+    "chart_type": "pie2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_market.json",
+      "sha256": "62dec4588d3d3abeeb95e7cf03b3646da8153ddb7f671d4d9593bc6e76b34ba4"
+    },
+    "data": {
+      "data": [
+        {
+          "label": "复合梁",
+          "value": 84.46852861610995
+        },
+        {
+          "label": "连接件",
+          "value": 15.531471383890056
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      }
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Clobal.Product.MarketSize.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Clobal.Product.MarketSize.overview",
+    "chart_type": "pie2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_market.json",
+      "sha256": "62dec4588d3d3abeeb95e7cf03b3646da8153ddb7f671d4d9593bc6e76b34ba4"
+    },
+    "data": {
+      "data": [
+        {
+          "label": "复合梁",
+          "value": 6.109386245764121
+        },
+        {
+          "label": "连接件",
+          "value": 93.89061375423587
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      }
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Market.Prod1.Mark1.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Market.Prod1.Mark1.overview",
+    "chart_type": "msstackedcolumn2dlinedy",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_market.json",
+      "sha256": "62dec4588d3d3abeeb95e7cf03b3646da8153ddb7f671d4d9593bc6e76b34ba4"
+    },
+    "data": {
+      "lineset": [
+        {
+          "seriesname": "价格",
+          "data": [
+            {
+              "value": 1880
+            },
+            {
+              "value": 1800
+            },
+            {
+              "value": 1900
+            },
+            {
+              "value": 1900
+            },
+            {
+              "value": 3000
+            },
+            {
+              "value": 1949
+            },
+            {
+              "value": 1950
+            },
+            {
+              "value": 1800
+            },
+            {
+              "value": 1950
+            },
+            {
+              "value": 1800
+            }
+          ]
+        }
+      ],
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "sYAxisName": "美元",
+        "xAxisName": " ",
+        "caption": " ",
+        "pYAxisName": "千单位"
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "已售出",
+              "data": [
+                {
+                  "value": 5.495532789400219
+                },
+                {
+                  "value": 2.0880249999999996
+                },
+                {
+                  "value": 4.789068029924673
+                },
+                {
+                  "value": 3.626889969917923
+                },
+                {
+                  "value": 0.7571978791305938
+                },
+                {
+                  "value": 3.780135706614116
+                },
+                {
+                  "value": 4.382150125368425
+                },
+                {
+                  "value": 6.159042142795694
+                },
+                {
+                  "value": 4.175015848092612
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Market.Prod1.Mark2.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Market.Prod1.Mark2.overview",
+    "chart_type": "msstackedcolumn2dlinedy",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_market.json",
+      "sha256": "62dec4588d3d3abeeb95e7cf03b3646da8153ddb7f671d4d9593bc6e76b34ba4"
+    },
+    "data": {
+      "lineset": [
+        {
+          "seriesname": "价格",
+          "data": [
+            {
+              "value": 2250
+            },
+            {
+              "value": 2000
+            },
+            {
+              "value": 2100
+            },
+            {
+              "value": 2200
+            },
+            {
+              "value": 3600
+            },
+            {
+              "value": 2199
+            },
+            {
+              "value": 2350
+            },
+            {
+              "value": 2450
+            },
+            {
+              "value": 2200
+            },
+            {
+              "value": 2000
+            }
+          ]
+        }
+      ],
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "sYAxisName": "美元",
+        "xAxisName": " ",
+        "caption": " ",
+        "pYAxisName": "千单位"
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "已售出",
+              "data": [
+                {
+                  "value": 14.398711585488762
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 14.424689962594192
+                },
+                {
+                  "value": 11.917642441257408
+                },
+                {
+                  "value": 3.738144149993513
+                },
+                {
+                  "value": 12.117515708850386
+                },
+                {
+                  "value": 12.684352601776723
+                },
+                {
+                  "value": 15.070576122184494
+                },
+                {
+                  "value": 14.648359200275724
+                },
+                {
+                  "value": 2.0880249999999996
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Market.Prod2.Mark1.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Market.Prod2.Mark1.overview",
+    "chart_type": "msstackedcolumn2dlinedy",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_market.json",
+      "sha256": "62dec4588d3d3abeeb95e7cf03b3646da8153ddb7f671d4d9593bc6e76b34ba4"
+    },
+    "data": {
+      "lineset": [
+        {
+          "seriesname": "价格",
+          "data": [
+            {
+              "value": 26
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 25
+            },
+            {
+              "value": 25
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 27
+            },
+            {
+              "value": 26.5
+            },
+            {
+              "value": 27
+            },
+            {
+              "value": 26.5
+            },
+            {
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "sYAxisName": "美元",
+        "xAxisName": " ",
+        "caption": " ",
+        "pYAxisName": "千单位"
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "已售出",
+              "data": [
+                {
+                  "value": 276.1921004016878
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 190.46499828745306
+                },
+                {
+                  "value": 156.50687289912577
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 236.06490991151585
+                },
+                {
+                  "value": 196.07959049983003
+                },
+                {
+                  "value": 204.88176337507673
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "market:Graphs.Market.Prod2.Mark2.overview",
+    "panel": "market",
+    "chart_id": "Graphs.Market.Prod2.Mark2.overview",
+    "chart_type": "msstackedcolumn2dlinedy",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_market.json",
+    "prior_sha256": "b34e0e51928c731859a8b4793f726a1f3e85f0ecc4765ad467ead73a0e51d01d",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_market.json",
+      "sha256": "62dec4588d3d3abeeb95e7cf03b3646da8153ddb7f671d4d9593bc6e76b34ba4"
+    },
+    "data": {
+      "lineset": [
+        {
+          "seriesname": "价格",
+          "data": [
+            {
+              "value": 27.5
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 26
+            },
+            {
+              "value": 25.5
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 28
+            },
+            {
+              "value": 26.5
+            },
+            {
+              "value": 29
+            },
+            {
+              "value": 27
+            },
+            {
+              "value": 0
+            }
+          ]
+        }
+      ],
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "sYAxisName": "美元",
+        "xAxisName": " ",
+        "caption": " ",
+        "pYAxisName": "千单位"
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "已售出",
+              "data": [
+                {
+                  "value": 93.80789959831219
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 190.33500171254695
+                },
+                {
+                  "value": 177.49312710087423
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 153.93509008848415
+                },
+                {
+                  "value": 99.32581265385645
+                },
+                {
+                  "value": 120.23740906227026
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.Capacity.Domestic",
+    "panel": "production",
+    "chart_id": "Graph.Production.Capacity.Domestic",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_production.json",
+      "sha256": "950e1923dae809bda01fd98e42c9418dc5810c8b7092126c96447db131f28b92"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "生产能力",
+              "data": [
+                {
+                  "value": 804.09375
+                },
+                {
+                  "value": 10.440124999999998
+                },
+                {
+                  "value": 508.26675
+                },
+                {
+                  "value": 359.13025
+                },
+                {
+                  "value": 54.172625000000004
+                },
+                {
+                  "value": 79.944625
+                },
+                {
+                  "value": 779.574
+                },
+                {
+                  "value": 798.172625
+                },
+                {
+                  "value": 751.032625
+                },
+                {
+                  "value": 10.440124999999998
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataset": [
+            {
+              "seriesname": "复合梁 生产",
+              "data": [
+                {
+                  "value": 19.89424437488898
+                },
+                {
+                  "value": 2.0880249999999996
+                },
+                {
+                  "value": 19.213757992518865
+                },
+                {
+                  "value": 15.544532411175332
+                },
+                {
+                  "value": 4.495342029124107
+                },
+                {
+                  "value": 18.8976514154645
+                },
+                {
+                  "value": 17.06650272714515
+                },
+                {
+                  "value": 21.22961826498019
+                },
+                {
+                  "value": 18.823375048368337
+                },
+                {
+                  "value": 2.0880249999999996
+                }
+              ]
+            },
+            {
+              "seriesname": "连接件 生产",
+              "data": [
+                {
+                  "value": 370
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 380.8
+                },
+                {
+                  "value": 334
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 740
+                },
+                {
+                  "value": 296
+                },
+                {
+                  "value": 244.99999999999997
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.CapacityUtil",
+    "panel": "production",
+    "chart_id": "Graph.Production.CapacityUtil",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_production.json",
+      "sha256": "950e1923dae809bda01fd98e42c9418dc5810c8b7092126c96447db131f28b92"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "yAxisMaxValue": "100",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "产能利用, %",
+              "data": [
+                {
+                  "value": 48.488655007564596
+                },
+                {
+                  "value": 20
+                },
+                {
+                  "value": 78.701539692006
+                },
+                {
+                  "value": 97.33085208254536
+                },
+                {
+                  "value": 8.298180177025031
+                },
+                {
+                  "value": 23.638426492668522
+                },
+                {
+                  "value": 97.11284659662138
+                },
+                {
+                  "value": 39.74448738641973
+                },
+                {
+                  "value": 35.128084488788794
+                },
+                {
+                  "value": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.Personnel",
+    "panel": "production",
+    "chart_id": "Graph.Production.Personnel",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_production.json",
+      "sha256": "950e1923dae809bda01fd98e42c9418dc5810c8b7092126c96447db131f28b92"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "生产工资合计",
+              "data": [
+                {
+                  "value": 4624.493714386999
+                },
+                {
+                  "value": 406.5524469938538
+                },
+                {
+                  "value": 5846.860003739713
+                },
+                {
+                  "value": 5252.448858989695
+                },
+                {
+                  "value": 797.114662598077
+                },
+                {
+                  "value": 4807.911087071974
+                },
+                {
+                  "value": 6108.906547200442
+                },
+                {
+                  "value": 4872.733600236231
+                },
+                {
+                  "value": 4252.435753912845
+                },
+                {
+                  "value": 406.5524469938538
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.change.in.workforce",
+    "panel": "production",
+    "chart_id": "Graph.Production.change.in.workforce",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_production.json",
+      "sha256": "950e1923dae809bda01fd98e42c9418dc5810c8b7092126c96447db131f28b92"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "泰国",
+              "data": [
+                {
+                  "value": 8.861899159529656
+                },
+                {
+                  "value": -2.1713900000743447
+                },
+                {
+                  "value": 19.411192242459308
+                },
+                {
+                  "value": -59.51795361286028
+                },
+                {
+                  "value": -3.3117397468230365
+                },
+                {
+                  "value": 4.766525316639431
+                },
+                {
+                  "value": 19.56304237172543
+                },
+                {
+                  "value": -15.80838991666269
+                },
+                {
+                  "value": -18.65185593521511
+                },
+                {
+                  "value": -2.1713900000743447
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.co2.emissions",
+    "panel": "production",
+    "chart_id": "Graph.Production.co2.emissions",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_production.json",
+      "sha256": "950e1923dae809bda01fd98e42c9418dc5810c8b7092126c96447db131f28b92"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "复合梁",
+              "data": [
+                {
+                  "value": 26962.96781495266
+                },
+                {
+                  "value": 2829.9316028749995
+                },
+                {
+                  "value": 26040.694413630707
+                },
+                {
+                  "value": 21067.737944852095
+                },
+                {
+                  "value": 6092.604482202339
+                },
+                {
+                  "value": 25612.270428150274
+                },
+                {
+                  "value": 23130.48714364073
+                },
+                {
+                  "value": 28772.820078801626
+                },
+                {
+                  "value": 25511.602553679335
+                },
+                {
+                  "value": 2829.9316028749995
+                }
+              ]
+            },
+            {
+              "seriesname": "连接件",
+              "data": [
+                {
+                  "value": 849.52
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 874.3168
+                },
+                {
+                  "value": 766.8639999999999
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 1699.04
+                },
+                {
+                  "value": 679.616
+                },
+                {
+                  "value": 562.5199999999999
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.energy.consumption",
+    "panel": "production",
+    "chart_id": "Graph.Production.energy.consumption",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_production.json",
+      "sha256": "950e1923dae809bda01fd98e42c9418dc5810c8b7092126c96447db131f28b92"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "复合梁",
+              "data": [
+                {
+                  "value": 95062.31911881512
+                },
+                {
+                  "value": 9977.383163574998
+                },
+                {
+                  "value": 91810.69455756627
+                },
+                {
+                  "value": 74277.72941650922
+                },
+                {
+                  "value": 21480.465931152135
+                },
+                {
+                  "value": 90300.2162635815
+                },
+                {
+                  "value": 81550.28650084401
+                },
+                {
+                  "value": 101443.24701387083
+                },
+                {
+                  "value": 89945.29533374743
+                },
+                {
+                  "value": 9977.383163574998
+                }
+              ]
+            },
+            {
+              "seriesname": "连接件",
+              "data": [
+                {
+                  "value": 2920.78
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 3006.0352000000003
+                },
+                {
+                  "value": 2636.596
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 5841.56
+                },
+                {
+                  "value": 2336.6240000000003
+                },
+                {
+                  "value": 1934.0299999999997
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "production:Graph.Production.water.consumption",
+    "panel": "production",
+    "chart_id": "Graph.Production.water.consumption",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_production.json",
+    "prior_sha256": "d2cc7aa0ce870469a575cd6e905c1403dfcd823cd700bd198c4a6c8e54b0ed47",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_production.json",
+      "sha256": "950e1923dae809bda01fd98e42c9418dc5810c8b7092126c96447db131f28b92"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "复合梁",
+              "data": [
+                {
+                  "value": 205052.7619661932
+                },
+                {
+                  "value": 21521.565998499995
+                },
+                {
+                  "value": 198038.89355501087
+                },
+                {
+                  "value": 160219.6717965217
+                },
+                {
+                  "value": 46334.119642066245
+                },
+                {
+                  "value": 194780.7388103908
+                },
+                {
+                  "value": 175906.83291906683
+                },
+                {
+                  "value": 218816.64760370788
+                },
+                {
+                  "value": 194015.1618960392
+                },
+                {
+                  "value": 21521.565998499995
+                }
+              ]
+            },
+            {
+              "seriesname": "连接件",
+              "data": [
+                {
+                  "value": 6867.2
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 7067.648
+                },
+                {
+                  "value": 6199.04
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 13734.4
+                },
+                {
+                  "value": 5493.759999999999
+                },
+                {
+                  "value": 4547.199999999999
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "productionhr:Graphs.Results.No.Of.Employees.Finland.TimeSeries",
+    "panel": "productionhr",
+    "chart_id": "Graphs.Results.No.Of.Employees.Finland.TimeSeries",
+    "chart_type": "msline",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_productionhr.json",
+    "prior_sha256": "0b01ceb09904d93a2fd379a90bd0a1991cacba6838ce333ecbee08acdfa2bbb4",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_productionhr.json",
+      "sha256": "1e884d91626e2a6fa68a4c547515794f8401acf3c42524ed3536f9029ee914f9"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "0"
+            },
+            {
+              "label": "1"
+            },
+            {
+              "label": "2"
+            },
+            {
+              "label": "3"
+            },
+            {
+              "label": "4"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": "年",
+        "caption": "生产人员数量, 泰国"
+      },
+      "dataset": [
+        {
+          "seriesname": "来都来了队",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 110.5511247133863
+            },
+            {
+              "value": 124.19454864713097
+            },
+            {
+              "value": 126.66930152993069
+            },
+            {
+              "value": 135.53120068946035
+            }
+          ]
+        },
+        {
+          "seriesname": "八方来财",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 20.01651475105604
+            },
+            {
+              "value": 17.039430114706065
+            },
+            {
+              "value": 14.491161121100216
+            },
+            {
+              "value": 12.319771121025871
+            }
+          ]
+        },
+        {
+          "seriesname": "艾斯帕汉化队",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 100.67129477737005
+            },
+            {
+              "value": 95.75098445080499
+            },
+            {
+              "value": 114.14505333564234
+            },
+            {
+              "value": 133.55624557810165
+            }
+          ]
+        },
+        {
+          "seriesname": "启策",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 125.46717683124264
+            },
+            {
+              "value": 124.17313770771902
+            },
+            {
+              "value": 175.10602262063267
+            },
+            {
+              "value": 115.58806900777239
+            }
+          ]
+        },
+        {
+          "seriesname": "现金流保护协会",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 62.853258828210656
+            },
+            {
+              "value": 41.21313867298447
+            },
+            {
+              "value": 27.46672952252234
+            },
+            {
+              "value": 24.154989775699303
+            }
+          ]
+        },
+        {
+          "seriesname": "潘山越岭，吴所不能",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 97.957394128448
+            },
+            {
+              "value": 120.64486333151437
+            },
+            {
+              "value": 105.76349895600454
+            },
+            {
+              "value": 110.53002427264397
+            }
+          ]
+        },
+        {
+          "seriesname": "深藏blue队",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 97.52994976003757
+            },
+            {
+              "value": 119.4099258504568
+            },
+            {
+              "value": 120.06891432357318
+            },
+            {
+              "value": 139.6319566952986
+            }
+          ]
+        },
+        {
+          "seriesname": "别慌先借一亿",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 100.19666653429314
+            },
+            {
+              "value": 120.36727701330783
+            },
+            {
+              "value": 154.75956612647053
+            },
+            {
+              "value": 138.95117620980784
+            }
+          ]
+        },
+        {
+          "seriesname": "商业精英队",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 101.9236133965812
+            },
+            {
+              "value": 108.82384425915136
+            },
+            {
+              "value": 140.34060622320547
+            },
+            {
+              "value": 121.68875028799036
+            }
+          ]
+        },
+        {
+          "seriesname": "清风小队",
+          "data": [
+            {
+              "value": 106.3146659696356
+            },
+            {
+              "value": 20.01651475105604
+            },
+            {
+              "value": 17.039430114706065
+            },
+            {
+              "value": 14.491161121100216
+            },
+            {
+              "value": 12.319771121025871
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "logistics:Graphs.Logistics.RubbanaDomDeliveries",
+    "panel": "logistics",
+    "chart_id": "Graphs.Logistics.RubbanaDomDeliveries",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_logistics.json",
+    "prior_sha256": "298a55d3c10234965fda3efcc4ce7c1213e2ef51662fb7ea8e0ff4055ef5c517",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_logistics.json",
+      "sha256": "76b88733e5b83c835e1083849fb2ce0b31579110eb231e70e7d0e0c4652cf619"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "运往 泰国",
+              "data": [
+                {
+                  "value": 5.495532789400219
+                },
+                {
+                  "value": 2.0880249999999996
+                },
+                {
+                  "value": 4.789068029924673
+                },
+                {
+                  "value": 3.626889969917923
+                },
+                {
+                  "value": 0.7571978791305938
+                },
+                {
+                  "value": 3.780135706614116
+                },
+                {
+                  "value": 4.382150125368425
+                },
+                {
+                  "value": 6.159042142795694
+                },
+                {
+                  "value": 4.175015848092612
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "运往 印尼",
+              "data": [
+                {
+                  "value": 14.398711585488762
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 14.424689962594192
+                },
+                {
+                  "value": 11.917642441257408
+                },
+                {
+                  "value": 3.738144149993513
+                },
+                {
+                  "value": 12.117515708850386
+                },
+                {
+                  "value": 12.684352601776723
+                },
+                {
+                  "value": 15.070576122184494
+                },
+                {
+                  "value": 14.648359200275724
+                },
+                {
+                  "value": 2.0880249999999996
+                }
+              ]
+            },
+            {
+              "seriesname": "大客户订单",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 3
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "logistics:Graphs.Logistics.AndyOxDomDeliveries",
+    "panel": "logistics",
+    "chart_id": "Graphs.Logistics.AndyOxDomDeliveries",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_logistics.json",
+    "prior_sha256": "298a55d3c10234965fda3efcc4ce7c1213e2ef51662fb7ea8e0ff4055ef5c517",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_logistics.json",
+      "sha256": "76b88733e5b83c835e1083849fb2ce0b31579110eb231e70e7d0e0c4652cf619"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "运往 泰国",
+              "data": [
+                {
+                  "value": 276.1921004016878
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 190.46499828745306
+                },
+                {
+                  "value": 156.50687289912577
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 236.06490991151585
+                },
+                {
+                  "value": 196.07959049983003
+                },
+                {
+                  "value": 204.88176337507673
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "运往 印尼",
+              "data": [
+                {
+                  "value": 93.80789959831219
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 190.33500171254695
+                },
+                {
+                  "value": 177.49312710087423
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 153.93509008848415
+                },
+                {
+                  "value": 99.32581265385645
+                },
+                {
+                  "value": 120.23740906227026
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "大客户订单",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 350
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "logistics:Graphs.Logistics.Inventories",
+    "panel": "logistics",
+    "chart_id": "Graphs.Logistics.Inventories",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_logistics.json",
+    "prior_sha256": "298a55d3c10234965fda3efcc4ce7c1213e2ef51662fb7ea8e0ff4055ef5c517",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_logistics.json",
+      "sha256": "76b88733e5b83c835e1083849fb2ce0b31579110eb231e70e7d0e0c4652cf619"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "期初库存 复合梁, 千单位",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "期初库存 连接件, 千单位",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 111.32664
+                },
+                {
+                  "value": 111.31593
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataset": [
+            {
+              "seriesname": "期末库存 复合梁, 千单位",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "期末库存 连接件, 千单位",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 111.92124
+                },
+                {
+                  "value": 31.19675
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "logistics:Graphs.Logistics.Transportation.Emissions",
+    "panel": "logistics",
+    "chart_id": "Graphs.Logistics.Transportation.Emissions",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_logistics.json",
+    "prior_sha256": "298a55d3c10234965fda3efcc4ce7c1213e2ef51662fb7ea8e0ff4055ef5c517",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_logistics.json",
+      "sha256": "76b88733e5b83c835e1083849fb2ce0b31579110eb231e70e7d0e0c4652cf619"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "复合梁",
+              "data": [
+                {
+                  "value": 699499.9320766306
+                },
+                {
+                  "value": 8186.102012499999
+                },
+                {
+                  "value": 697953.4132860897
+                },
+                {
+                  "value": 575354.2658882035
+                },
+                {
+                  "value": 178976.86870108606
+                },
+                {
+                  "value": 585365.9786795757
+                },
+                {
+                  "value": 614415.3512096029
+                },
+                {
+                  "value": 733735.5590882142
+                },
+                {
+                  "value": 706077.3535619094
+                },
+                {
+                  "value": 98313.40430999998
+                }
+              ]
+            },
+            {
+              "seriesname": "连接件",
+              "data": [
+                {
+                  "value": 8701.079542564721
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 15360.840616966956
+                },
+                {
+                  "value": 14193.58058098971
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 12931.766653043465
+                },
+                {
+                  "value": 8615.46650381125
+                },
+                {
+                  "value": 10227.95390806461
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "incomestatement:Graphs.IS.summary",
+    "panel": "incomestatement",
+    "chart_id": "Graphs.IS.summary",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_incomestatement.json",
+    "prior_sha256": "49f1463478b288c20e6591960826ae06a838523aaf66e34abf54a5b883261c53",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_incomestatement.json",
+      "sha256": "0b781203bfab0d0aeae5362396a10829188d9ad9a38cf82534d828adcfc4274b"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "净销售额",
+              "data": [
+                {
+                  "value": 52489.4145608196
+                },
+                {
+                  "value": 3758.4449999999993
+                },
+                {
+                  "value": 49101.41318001723
+                },
+                {
+                  "value": 41548.650877160784
+                },
+                {
+                  "value": 15728.912577368428
+                },
+                {
+                  "value": 39413.90153595291
+                },
+                {
+                  "value": 56038.421358643725
+                },
+                {
+                  "value": 56183.78486684151
+                },
+                {
+                  "value": 49043.44791850802
+                },
+                {
+                  "value": 4176.049999999999
+                }
+              ]
+            },
+            {
+              "seriesname": "利息收入",
+              "data": [
+                {
+                  "value": 123.4695919008618
+                },
+                {
+                  "value": 20
+                },
+                {
+                  "value": 196.61232335356334
+                },
+                {
+                  "value": 175.32859147724565
+                },
+                {
+                  "value": 106.72344932793759
+                },
+                {
+                  "value": 162.98393232973592
+                },
+                {
+                  "value": 146.19366683340166
+                },
+                {
+                  "value": 126.67127767132774
+                },
+                {
+                  "value": 95.0492567951647
+                },
+                {
+                  "value": 20
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataset": [
+            {
+              "seriesname": "可变成本总和",
+              "data": [
+                {
+                  "value": 33081.94881910372
+                },
+                {
+                  "value": 2670.9372585563533
+                },
+                {
+                  "value": 33872.45485212622
+                },
+                {
+                  "value": 28365.126071530627
+                },
+                {
+                  "value": 6008.577491356495
+                },
+                {
+                  "value": 26302.281799011682
+                },
+                {
+                  "value": 36706.977574674165
+                },
+                {
+                  "value": 33847.287136662824
+                },
+                {
+                  "value": 31220.957224993832
+                },
+                {
+                  "value": 2858.8595085563534
+                }
+              ]
+            },
+            {
+              "seriesname": "固定成本总和",
+              "data": [
+                {
+                  "value": 12650
+                },
+                {
+                  "value": 8058.342263405988
+                },
+                {
+                  "value": 11750
+                },
+                {
+                  "value": 10385.184908101706
+                },
+                {
+                  "value": 11006.526521477292
+                },
+                {
+                  "value": 9351
+                },
+                {
+                  "value": 12000
+                },
+                {
+                  "value": 12620.992347535008
+                },
+                {
+                  "value": 10862.053587631668
+                },
+                {
+                  "value": 8058.342263405988
+                }
+              ]
+            },
+            {
+              "seriesname": "折旧总计",
+              "data": [
+                {
+                  "value": 2437.6752081529994
+                },
+                {
+                  "value": 1703.970833153
+                },
+                {
+                  "value": 2030.6502081529998
+                },
+                {
+                  "value": 1959.6327081529998
+                },
+                {
+                  "value": 2298.7583331530004
+                },
+                {
+                  "value": 1965.4733331529997
+                },
+                {
+                  "value": 2150.878958153
+                },
+                {
+                  "value": 2449.658333153
+                },
+                {
+                  "value": 2351.858333153001
+                },
+                {
+                  "value": 1703.970833153
+                }
+              ]
+            },
+            {
+              "seriesname": "融资费用总计",
+              "data": [
+                {
+                  "value": 100.00021172127123
+                },
+                {
+                  "value": 4662.653757687702
+                },
+                {
+                  "value": 867.1157908297176
+                },
+                {
+                  "value": 872.6547852192816
+                },
+                {
+                  "value": 905.8886630399558
+                },
+                {
+                  "value": 437.9272535317798
+                },
+                {
+                  "value": 285.10675062321224
+                },
+                {
+                  "value": 50.000020861447844
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 4474.156775504934
+                }
+              ]
+            },
+            {
+              "seriesname": "直接税",
+              "data": [
+                {
+                  "value": 1259.5453749853148
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 225.5633491559394
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 440.8588939499928
+                },
+                {
+                  "value": 1462.0790051877575
+                },
+                {
+                  "value": 2129.330308827162
+                },
+                {
+                  "value": 1364.0521285621583
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "balancesheet:Graphs.BS.summary",
+    "panel": "balancesheet",
+    "chart_id": "Graphs.BS.summary",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_balancesheet.json",
+    "prior_sha256": "34f902d1a8325b2804f2c12f880180d0f29b8053a12a96038ec90a96a6077345",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_balancesheet.json",
+      "sha256": "09db37f18ecdb23578d12909cce28a54ae62cbf8637eae122644da5552f0dd26"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "厂房",
+              "data": [
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                },
+                {
+                  "value": 12723.545635996998
+                }
+              ]
+            },
+            {
+              "seriesname": "机器",
+              "data": [
+                {
+                  "value": 8727.82284375
+                },
+                {
+                  "value": 4570.16471875
+                },
+                {
+                  "value": 6421.34784375
+                },
+                {
+                  "value": 6018.91534375
+                },
+                {
+                  "value": 7940.627218749998
+                },
+                {
+                  "value": 6052.012218749999
+                },
+                {
+                  "value": 7102.644093749999
+                },
+                {
+                  "value": 8795.727218749998
+                },
+                {
+                  "value": 8241.527218749998
+                },
+                {
+                  "value": 4570.16471875
+                }
+              ]
+            },
+            {
+              "seriesname": "成品库存",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 1826.6308331957123
+                },
+                {
+                  "value": 504.3213615921366
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "应收帐款",
+              "data": [
+                {
+                  "value": 4314.198457053665
+                },
+                {
+                  "value": 308.9132876712328
+                },
+                {
+                  "value": 4035.7325901384024
+                },
+                {
+                  "value": 3414.957606341982
+                },
+                {
+                  "value": 1292.7873351261721
+                },
+                {
+                  "value": 3239.498756379691
+                },
+                {
+                  "value": 4605.897645915923
+                },
+                {
+                  "value": 4617.84533152122
+                },
+                {
+                  "value": 4030.9683220691527
+                },
+                {
+                  "value": 343.23698630136977
+                }
+              ]
+            },
+            {
+              "seriesname": "现金及现金等价物",
+              "data": [
+                {
+                  "value": 12173.157871643612
+                },
+                {
+                  "value": 2000
+                },
+                {
+                  "value": 20173.593294361875
+                },
+                {
+                  "value": 18054.726995408964
+                },
+                {
+                  "value": 9294.619257583205
+                },
+                {
+                  "value": 15896.60967113128
+                },
+                {
+                  "value": 15989.780283875778
+                },
+                {
+                  "value": 14830.726224678252
+                },
+                {
+                  "value": 12501.796999635391
+                },
+                {
+                  "value": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dataset": [
+            {
+              "seriesname": "股东权益合计",
+              "data": [
+                {
+                  "value": 35257.09205107069
+                },
+                {
+                  "value": -17830.042124157073
+                },
+                {
+                  "value": 24243.940664843827
+                },
+                {
+                  "value": 21474.56911055209
+                },
+                {
+                  "value": 13861.976467095943
+                },
+                {
+                  "value": 28773.841781791183
+                },
+                {
+                  "value": 32377.87465326198
+                },
+                {
+                  "value": 40608.59517886702
+                },
+                {
+                  "value": 35674.430081354534
+                },
+                {
+                  "value": -16329.461726449277
+                }
+              ]
+            },
+            {
+              "seriesname": "长期贷款",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 17000
+                },
+                {
+                  "value": 17000
+                },
+                {
+                  "value": 17000
+                },
+                {
+                  "value": 17000
+                },
+                {
+                  "value": 7500
+                },
+                {
+                  "value": 5700
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 17000
+                }
+              ]
+            },
+            {
+              "seriesname": "短期贷款",
+              "data": [
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 20251.700501241397
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 18785.44380216374
+                }
+              ]
+            },
+            {
+              "seriesname": "已收预付款",
+              "data": [
+                {
+                  "value": 525
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 410
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "应付账款",
+              "data": [
+                {
+                  "value": 2156.632757373583
+                },
+                {
+                  "value": 180.96526533390406
+                },
+                {
+                  "value": 2110.27869940345
+                },
+                {
+                  "value": 1737.5764709458515
+                },
+                {
+                  "value": 389.60298036043383
+                },
+                {
+                  "value": 1637.8245004667867
+                },
+                {
+                  "value": 2343.9930062767176
+                },
+                {
+                  "value": 2185.88006527516
+                },
+                {
+                  "value": 1917.7294566891408
+                },
+                {
+                  "value": 180.96526533390406
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "cashflow:Graphs.CFS.summary",
+    "panel": "cashflow",
+    "chart_id": "Graphs.CFS.summary",
+    "chart_type": "mscolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_cashflow.json",
+    "prior_sha256": "ea8ca0fafa0268a5a61200b41e2452d5aa62eb3532bbf0909c0663836c4946f3",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_cashflow.json",
+      "sha256": "d717997e4e718cf480499d2bea170e5a2cf0461fd9cbf6810c602382f54bd0e7"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "seriesname": "经营活动现金流",
+          "data": [
+            {
+              "value": 6012.4
+            },
+            {
+              "value": -11590.9
+            },
+            {
+              "value": 2396.7
+            },
+            {
+              "value": 2143.7
+            },
+            {
+              "value": -1955.5
+            },
+            {
+              "value": 2496.4
+            },
+            {
+              "value": 4636.8
+            },
+            {
+              "value": 7759.2
+            },
+            {
+              "value": 7385.7
+            },
+            {
+              "value": -11166.7
+            }
+          ]
+        },
+        {
+          "seriesname": "资本支出总计",
+          "data": [
+            {
+              "value": -2360
+            },
+            {
+              "value": -800
+            },
+            {
+              "value": -1372
+            },
+            {
+              "value": -1100
+            },
+            {
+              "value": -800
+            },
+            {
+              "value": -800
+            },
+            {
+              "value": -1896
+            },
+            {
+              "value": -1432
+            },
+            {
+              "value": -1392
+            },
+            {
+              "value": -800
+            }
+          ]
+        },
+        {
+          "seriesname": "融资总计",
+          "data": [
+            {
+              "value": -4000
+            },
+            {
+              "value": 12390.9
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": -2500
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": -2000
+            },
+            {
+              "value": 0
+            },
+            {
+              "value": 11966.7
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  },
+  {
+    "requirement_id": "societalimpact:Graph.Firm.Results.Valuecreation",
+    "panel": "societalimpact",
+    "chart_id": "Graph.Firm.Results.Valuecreation",
+    "chart_type": "msstackedcolumn2d",
+    "formal4_status": "web_original_json",
+    "prior_source": "output/round_close/20261014_resume_verified/raw/market8_formal3_societalimpact.json",
+    "prior_sha256": "331f265c8e30b24a306981f221a1441642d9acd2a0040ce200b7101d523246c8",
+    "independent_sample": false,
+    "fulfillment": "Original formal4 JSON and preserved SVG; or explicitly justified printed/reconstructed sequence where no original precision requirement remains.",
+    "market": 7,
+    "round": 4,
+    "source": {
+      "source": "output/round_close/20261014_formal4_close/raw/market7_formal4_societalimpact.json",
+      "sha256": "3d55fc9bedca9db2f7fb89c7b19232ac94eb2b4fdbff6db39a1935ef61d4df4f"
+    },
+    "data": {
+      "categories": [
+        {
+          "category": [
+            {
+              "label": "来都来了队"
+            },
+            {
+              "label": "八方来财"
+            },
+            {
+              "label": "艾斯帕汉化队"
+            },
+            {
+              "label": "启策"
+            },
+            {
+              "label": "现金流保护协会"
+            },
+            {
+              "label": "潘山越岭，吴所不能"
+            },
+            {
+              "label": "深藏blue队"
+            },
+            {
+              "label": "别慌先借一亿"
+            },
+            {
+              "label": "商业精英队"
+            },
+            {
+              "label": "清风小队"
+            }
+          ]
+        }
+      ],
+      "chart": {
+        "yAxisName": " ",
+        "xAxisName": " ",
+        "caption": " "
+      },
+      "dataset": [
+        {
+          "dataset": [
+            {
+              "seriesname": "股东",
+              "data": [
+                {
+                  "value": 3083.71453875715
+                },
+                {
+                  "value": -13317.459112803044
+                },
+                {
+                  "value": 552.2413031059207
+                },
+                {
+                  "value": 141.38099563341507
+                },
+                {
+                  "value": -4384.114982330377
+                },
+                {
+                  "value": 1079.3441886361895
+                },
+                {
+                  "value": 3579.5727368389926
+                },
+                {
+                  "value": 5213.1879974733965
+                },
+                {
+                  "value": 3339.5759009625262
+                },
+                {
+                  "value": -12899.279380620275
+                }
+              ]
+            },
+            {
+              "seriesname": "债权方",
+              "data": [
+                {
+                  "value": 100.00021172127123
+                },
+                {
+                  "value": 4662.653757687702
+                },
+                {
+                  "value": 867.1157908297176
+                },
+                {
+                  "value": 872.6547852192816
+                },
+                {
+                  "value": 905.8886630399558
+                },
+                {
+                  "value": 437.9272535317798
+                },
+                {
+                  "value": 285.10675062321224
+                },
+                {
+                  "value": 50.000020861447844
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 4474.156775504934
+                }
+              ]
+            },
+            {
+              "seriesname": "人员",
+              "data": [
+                {
+                  "value": 4624.493714386999
+                },
+                {
+                  "value": 406.5524469938538
+                },
+                {
+                  "value": 5846.860003739713
+                },
+                {
+                  "value": 5252.448858989695
+                },
+                {
+                  "value": 797.114662598077
+                },
+                {
+                  "value": 4807.911087071974
+                },
+                {
+                  "value": 6108.906547200442
+                },
+                {
+                  "value": 4872.733600236231
+                },
+                {
+                  "value": 4252.435753912845
+                },
+                {
+                  "value": 406.5524469938538
+                }
+              ]
+            },
+            {
+              "seriesname": "政府",
+              "data": [
+                {
+                  "value": 1259.5453749853148
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 225.5633491559394
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": "NaN"
+                },
+                {
+                  "value": 440.8588939499928
+                },
+                {
+                  "value": 1462.0790051877575
+                },
+                {
+                  "value": 2129.330308827162
+                },
+                {
+                  "value": 1364.0521285621583
+                },
+                {
+                  "value": "NaN"
+                }
+              ]
+            },
+            {
+              "seriesname": "供应商",
+              "data": [
+                {
+                  "value": 26239.031881378596
+                },
+                {
+                  "value": 2201.7440615624996
+                },
+                {
+                  "value": 25675.057509408645
+                },
+                {
+                  "value": 21140.513729841194
+                },
+                {
+                  "value": 4740.169594385278
+                },
+                {
+                  "value": 19926.86475567924
+                },
+                {
+                  "value": 28518.581576366734
+                },
+                {
+                  "value": 26594.87412751445
+                },
+                {
+                  "value": 23332.375056384546
+                },
+                {
+                  "value": 2201.7440615624996
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "svg_pairing_status": "not_checked"
+  }
+]

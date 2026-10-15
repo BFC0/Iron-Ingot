@@ -1,0 +1,80 @@
+{
+  "status": "PRINT_IDENTITY_AND_LAYOUT_VALIDATED",
+  "market": 4,
+  "round": 4,
+  "sources": [
+    {
+      "source": "output/round_close/20261014_formal4_close/raw/market4_formal4_print.json",
+      "sha256": "7dc2d995a844a99699439b0563b7305213ff88c0e4570c27d4fdf547e573d669"
+    },
+    {
+      "source": "output/round_close/20261014_formal4_close/raw/market4_formal4_summary.json",
+      "sha256": "2dbe3419c114a9ad139c980eaad7ad9a149dc8787cdf1bcceb995dcae7ea602e"
+    }
+  ],
+  "script_sha256": "1cd132e08fa63160b584438735d5790ee2e6749ffbbbdd6be8849dee550dc697",
+  "printable_html_complete": true,
+  "summary_html_complete": true,
+  "printable_actual_html_length": 672350,
+  "printable_declared_html_length": 672350,
+  "summary_actual_html_length": 300430,
+  "summary_declared_html_length": 300430,
+  "selected_valid": true,
+  "selected": [
+    "市场 4",
+    "回合4"
+  ],
+  "team_header_matches": true,
+  "html_table_checks": {
+    "pass": 173
+  },
+  "labels_and_widths_match_253_row_layout": true,
+  "table_rows": 426,
+  "empty_trailing_rows": 173,
+  "summary_print_pairing": [
+    {
+      "print_row": 2,
+      "summary_row": 4,
+      "status": "pass"
+    },
+    {
+      "print_row": 3,
+      "summary_row": 9,
+      "status": "pass"
+    },
+    {
+      "print_row": 4,
+      "summary_row": 13,
+      "status": "pass"
+    },
+    {
+      "print_row": 5,
+      "summary_row": 17,
+      "status": "pass"
+    },
+    {
+      "print_row": 6,
+      "summary_row": 21,
+      "status": "pass"
+    }
+  ],
+  "financial_numerical_counts": {
+    "pass": 190
+  },
+  "cumulative_numerical_counts": {
+    "pass": 10
+  },
+  "field_status_counts": {
+    "web_supplement_direct_verified": 16,
+    "print_direct_verified": 135,
+    "calculate_or_targeted_web_supplement_required": 49
+  },
+  "original_sequence_count_required": 28,
+  "sequence_status_counts": {
+    "web_original_json": 5,
+    "missing": 23
+  },
+  "chart_parse_errors": [],
+  "supplemental_source_count": 0,
+  "all_field_coverage_verified": false
+}

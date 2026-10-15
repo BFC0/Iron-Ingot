@@ -1,0 +1,346 @@
+[
+  {
+    "key": [
+      1,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "aftertax_profit",
+    "status": "pending",
+    "missing_or_ambiguous_labels": [
+      "直接税"
+    ],
+    "reason": "原件有11或12个值，而已核团队队列为10；不能截列或猜测附加列归属。",
+    "evidence": [
+      {
+        "source": "raw/market01_formal1_incomestatement.json",
+        "sha256": "6c04d7803ec88b4e31e36bf7264ac9a26eca73a617b4dee4b23d48d2b5cbddf3",
+        "html_source": "raw/market01_formal1_incomestatement.json",
+        "html_sha256": "6c04d7803ec88b4e31e36bf7264ac9a26eca73a617b4dee4b23d48d2b5cbddf3",
+        "table_index": 0,
+        "row_index": 48,
+        "label": "直接税",
+        "width": 12,
+        "expected_width": 11,
+        "display_values_in_original_order": [
+          "1 686",
+          "1 694",
+          "1 742",
+          "1 877",
+          "0",
+          "1 175",
+          "1 617",
+          "1 247",
+          "1 994",
+          "1 538",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "key": [
+      2,
+      "practice",
+      1,
+      "balancesheet"
+    ],
+    "check": "assets_equal_liabilities_equity",
+    "status": "pending",
+    "missing_or_ambiguous_labels": [
+      "资产 总计"
+    ],
+    "reason": "原件有11或12个值，而已核团队队列为10；不能截列或猜测附加列归属。",
+    "evidence": [
+      {
+        "source": "raw/market02_practice1_balancesheet.json",
+        "sha256": "16772b56672dd815bebcf92bcdf7cb9f47fede6336d268766658a0fb83ad856e",
+        "html_source": "raw/market02_practice1_balancesheet.json",
+        "html_sha256": "16772b56672dd815bebcf92bcdf7cb9f47fede6336d268766658a0fb83ad856e",
+        "table_index": 0,
+        "row_index": 19,
+        "label": "资产 总计",
+        "width": 13,
+        "expected_width": 11,
+        "display_values_in_original_order": [
+          "29 144",
+          "43 457",
+          "50 885",
+          "32 456",
+          "31 478",
+          "35 444",
+          "31 478",
+          "37 373",
+          "44 168",
+          "44 044",
+          "24 267",
+          "24 267"
+        ]
+      }
+    ]
+  },
+  {
+    "key": [
+      3,
+      "formal",
+      1,
+      "cashflow"
+    ],
+    "check": "working_capital_movements",
+    "status": "pending",
+    "missing_or_ambiguous_labels": [
+      "已收预付款变化(增 + / 减 -)"
+    ],
+    "reason": "原件有11或12个值，而已核团队队列为10；不能截列或猜测附加列归属。",
+    "evidence": [
+      {
+        "source": "raw/market03_formal1_cashflow.json",
+        "sha256": "2c8a5d588732355c6e78a1ca1ef4e5730b57730c3bee41e327667471ef6b3958",
+        "html_source": "raw/market03_formal1_cashflow.json",
+        "html_sha256": "2c8a5d588732355c6e78a1ca1ef4e5730b57730c3bee41e327667471ef6b3958",
+        "table_index": 0,
+        "row_index": 19,
+        "label": "已收预付款变化(增 + / 减 -)",
+        "width": 13,
+        "expected_width": 11,
+        "display_values_in_original_order": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      1,
+      "incomestatement"
+    ],
+    "check": "gross_profit",
+    "status": "pending",
+    "missing_or_ambiguous_labels": [
+      "净销售额"
+    ],
+    "reason": "原件有11或12个值，而已核团队队列为10；不能截列或猜测附加列归属。",
+    "evidence": [
+      {
+        "source": "raw/market04_formal1_incomestatement.json",
+        "sha256": "7d47e21f7dd4e047ee86e171dc8886d37de2519e7c306aa72ff1e4b91765ffcd",
+        "html_source": "raw/market04_formal1_incomestatement.json",
+        "html_sha256": "7d47e21f7dd4e047ee86e171dc8886d37de2519e7c306aa72ff1e4b91765ffcd",
+        "table_index": 0,
+        "row_index": 12,
+        "label": "净销售额",
+        "width": 12,
+        "expected_width": 11,
+        "display_values_in_original_order": [
+          "34 091",
+          "34 077",
+          "31 989",
+          "34 384",
+          "20 025",
+          "36 220",
+          "36 100",
+          "6 120",
+          "30 904",
+          "32 634",
+          "0"
+        ]
+      }
+    ]
+  },
+  {
+    "key": [
+      4,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "fixed_assets_components",
+    "status": "pending",
+    "missing_or_ambiguous_labels": [
+      "固定资产总和",
+      "厂房",
+      "机器"
+    ],
+    "reason": "原件有11或12个值，而已核团队队列为10；不能截列或猜测附加列归属。",
+    "evidence": [
+      {
+        "source": "raw/market04_formal2_balancesheet.json",
+        "sha256": "e109c205b7d289d54e410bee8305fb257027b8cb0a0f8534dd00a2b7be6ed58d",
+        "html_source": "raw/market04_formal2_balancesheet.json",
+        "html_sha256": "e109c205b7d289d54e410bee8305fb257027b8cb0a0f8534dd00a2b7be6ed58d",
+        "table_index": 0,
+        "row_index": 11,
+        "label": "厂房",
+        "width": 13,
+        "expected_width": 11,
+        "display_values_in_original_order": [
+          "12 926",
+          "12 926",
+          "12 926",
+          "12 926",
+          "12 926",
+          "12 926",
+          "12 926",
+          "12 926",
+          "12 926",
+          "12 926",
+          "12 926",
+          "12 926"
+        ]
+      },
+      {
+        "source": "raw/market04_formal2_balancesheet.json",
+        "sha256": "e109c205b7d289d54e410bee8305fb257027b8cb0a0f8534dd00a2b7be6ed58d",
+        "html_source": "raw/market04_formal2_balancesheet.json",
+        "html_sha256": "e109c205b7d289d54e410bee8305fb257027b8cb0a0f8534dd00a2b7be6ed58d",
+        "table_index": 0,
+        "row_index": 12,
+        "label": "机器",
+        "width": 12,
+        "expected_width": 11,
+        "display_values_in_original_order": [
+          "7 413",
+          "6 784",
+          "7 962",
+          "6 869",
+          "9 084",
+          "7 537",
+          "7 991",
+          "6 495",
+          "6 555",
+          "6 967",
+          "6 325"
+        ]
+      },
+      {
+        "source": "raw/market04_formal2_balancesheet.json",
+        "sha256": "e109c205b7d289d54e410bee8305fb257027b8cb0a0f8534dd00a2b7be6ed58d",
+        "html_source": "raw/market04_formal2_balancesheet.json",
+        "html_sha256": "e109c205b7d289d54e410bee8305fb257027b8cb0a0f8534dd00a2b7be6ed58d",
+        "table_index": 0,
+        "row_index": 13,
+        "label": "固定资产总和",
+        "width": 12,
+        "expected_width": 11,
+        "display_values_in_original_order": [
+          "20 339",
+          "19 710",
+          "20 888",
+          "19 795",
+          "22 010",
+          "20 463",
+          "20 917",
+          "19 421",
+          "19 481",
+          "19 893",
+          "19 251"
+        ]
+      }
+    ]
+  },
+  {
+    "key": [
+      7,
+      "formal",
+      2,
+      "balancesheet"
+    ],
+    "check": "current_assets_components",
+    "status": "pending",
+    "missing_or_ambiguous_labels": [
+      "总流动资产",
+      "应收帐款",
+      "现金及现金等价物"
+    ],
+    "reason": "原件有11或12个值，而已核团队队列为10；不能截列或猜测附加列归属。",
+    "evidence": [
+      {
+        "source": "raw/market07_formal2_balancesheet.json",
+        "sha256": "05bd11f1b1125c050891bfee6e927bdb53cd8805f35585b7cd3b5c6fa1fd2552",
+        "html_source": "raw/market07_formal2_balancesheet.json",
+        "html_sha256": "05bd11f1b1125c050891bfee6e927bdb53cd8805f35585b7cd3b5c6fa1fd2552",
+        "table_index": 0,
+        "row_index": 16,
+        "label": "应收帐款",
+        "width": 13,
+        "expected_width": 11,
+        "display_values_in_original_order": [
+          "3 624",
+          "428",
+          "2 704",
+          "2 894",
+          "1 998",
+          "3 473",
+          "3 408",
+          "3 779",
+          "3 243",
+          "475",
+          "0",
+          "0"
+        ]
+      },
+      {
+        "source": "raw/market07_formal2_balancesheet.json",
+        "sha256": "05bd11f1b1125c050891bfee6e927bdb53cd8805f35585b7cd3b5c6fa1fd2552",
+        "html_source": "raw/market07_formal2_balancesheet.json",
+        "html_sha256": "05bd11f1b1125c050891bfee6e927bdb53cd8805f35585b7cd3b5c6fa1fd2552",
+        "table_index": 0,
+        "row_index": 17,
+        "label": "现金及现金等价物",
+        "width": 12,
+        "expected_width": 11,
+        "display_values_in_original_order": [
+          "17 211",
+          "4 755",
+          "18 608",
+          "20 637",
+          "14 605",
+          "14 661",
+          "12 260",
+          "8 896",
+          "7 046",
+          "5 438",
+          "2 000"
+        ]
+      },
+      {
+        "source": "raw/market07_formal2_balancesheet.json",
+        "sha256": "05bd11f1b1125c050891bfee6e927bdb53cd8805f35585b7cd3b5c6fa1fd2552",
+        "html_source": "raw/market07_formal2_balancesheet.json",
+        "html_sha256": "05bd11f1b1125c050891bfee6e927bdb53cd8805f35585b7cd3b5c6fa1fd2552",
+        "table_index": 0,
+        "row_index": 18,
+        "label": "总流动资产",
+        "width": 12,
+        "expected_width": 11,
+        "display_values_in_original_order": [
+          "20 835",
+          "5 183",
+          "21 312",
+          "23 531",
+          "16 602",
+          "18 135",
+          "15 668",
+          "12 675",
+          "10 288",
+          "5 914",
+          "2 000"
+        ]
+      }
+    ]
+  }
+]

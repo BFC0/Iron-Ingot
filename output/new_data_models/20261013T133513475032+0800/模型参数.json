@@ -1,0 +1,45 @@
+{
+  "models": {
+    "A/B2|practice|1|泰国|复合梁": {
+      "technology_scale": 0.17099529846730455,
+      "rho": 0.5,
+      "curve_parameters": [
+        0.44999999999999984,
+        0.7499999999999997,
+        400.1058201058195
+      ],
+      "calibration_coefficients": {
+        "co2": 1355.32,
+        "energy": 4778.38,
+        "water": 10307.14
+      },
+      "interpretation": "旧效率代理的校准训练候选；历史条件曲线与累计机制未修复"
+    },
+    "A/B2|practice|2|泰国|复合梁": {
+      "technology_scale": 0.17068277486877093,
+      "rho": 0.5,
+      "curve_parameters": [
+        0.44999999999999984,
+        0.7499999999999997,
+        400.1058201058195
+      ],
+      "calibration_coefficients": {
+        "co2": 1355.32,
+        "energy": 4778.38,
+        "water": 10307.14
+      },
+      "interpretation": "旧效率代理的校准训练候选；历史条件曲线与累计机制未修复"
+    }
+  },
+  "enabled": false,
+  "scope": "research_only",
+  "coefficient_definitions": {
+    "technology_scale": "乘数到生产效率的技术尺度",
+    "rho": "旧单期历史投入代理，不是累计机制",
+    "k_C/k_E/k_W": "单位生产资源强度",
+    "delta_N": "已公布自然离职率",
+    "kappa_F": "已公布补偿比例",
+    "b1/b2": "有效工资班次斜率，仅非派生且有效增量时训练",
+    "beta_H/beta_F": "上期人员事件对下期效率残差的关联"
+  }
+}

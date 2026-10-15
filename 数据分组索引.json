@@ -38,7 +38,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "output/formal_update/20261011T223000+0800_sources/formal2_outlook.json",
@@ -429,7 +429,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_model_v2_round1_budget_cashflow.json",
@@ -452,7 +452,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_model_v2_round1_budget_income.json",
@@ -474,7 +474,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_model_v2_round1_checklist.json",
@@ -495,7 +495,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_model_v2_round1_checklist_final.json",
@@ -516,7 +516,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_model_v2_round1_demand.json",
@@ -537,7 +537,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_model_v2_round1_finance.json",
@@ -559,7 +559,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_model_v2_round1_investments.json",
@@ -580,7 +580,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_model_v2_round1_outlook.json",
@@ -620,7 +620,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_model_v2_round1_production_svg.json",
@@ -656,7 +656,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "试验前基准预算",
-    "budget_assumption": "基准方案；不得套用后续全部售出假设"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_modeltest_baseline_production.json",
@@ -679,7 +679,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "试验前基准预算",
-    "budget_assumption": "基准方案；不得套用后续全部售出假设"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_modeltest_baseline_sales.json",
@@ -701,7 +701,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "试验前基准预算",
-    "budget_assumption": "基准方案；不得套用后续全部售出假设"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_modeltest_C_checklist_readback.json",
@@ -722,7 +722,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "手填试验后网页预算",
-    "budget_assumption": "假设全部售出（用户说明）；须同时检查保存有效性"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_modeltest_C_sales.json",
@@ -744,7 +744,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "手填试验后网页预算",
-    "budget_assumption": "假设全部售出（用户说明）；须同时检查保存有效性"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_modeltest_C_sales_retry.json",
@@ -766,7 +766,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "手填试验后网页预算",
-    "budget_assumption": "假设全部售出（用户说明）；须同时检查保存有效性"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_modeltest_D_production.json",
@@ -789,7 +789,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "手填试验后网页预算",
-    "budget_assumption": "假设全部售出（用户说明）；须同时检查保存有效性"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_modeltest_final_checklist.json",
@@ -810,7 +810,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_native_25_checklist.json",
@@ -831,7 +831,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "手填试验后网页预算",
-    "budget_assumption": "假设全部售出（用户说明）；须同时检查保存有效性"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_native_25_input.json",
@@ -851,7 +851,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "手填试验后网页预算",
-    "budget_assumption": "假设全部售出（用户说明）；须同时检查保存有效性"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_native_25_readback.json",
@@ -871,7 +871,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "手填试验后网页预算",
-    "budget_assumption": "假设全部售出（用户说明）；须同时检查保存有效性"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_operations_help.json",
@@ -907,7 +907,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_practice1_outlook.json",
@@ -945,7 +945,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_practice2_outlook.json",
@@ -983,7 +983,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "试验前基准预算",
-    "budget_assumption": "基准方案；不得套用后续全部售出假设"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_probe_B_budget.json",
@@ -1004,7 +1004,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "手填试验后网页预算",
-    "budget_assumption": "假设全部售出（用户说明）；须同时检查保存有效性"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_probe_B_input.json",
@@ -1024,7 +1024,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "手填试验后网页预算",
-    "budget_assumption": "假设全部售出（用户说明）；须同时检查保存有效性"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_probe_B_input_saved.json",
@@ -1044,7 +1044,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "手填试验后网页预算",
-    "budget_assumption": "假设全部售出（用户说明）；须同时检查保存有效性"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_probe_B_se_input.json",
@@ -1064,7 +1064,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "手填试验后网页预算",
-    "budget_assumption": "假设全部售出（用户说明）；须同时检查保存有效性"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_probe_B_server_readback.json",
@@ -1084,7 +1084,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "手填试验后网页预算",
-    "budget_assumption": "假设全部售出（用户说明）；须同时检查保存有效性"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_production_strategy_help.json",
@@ -1166,7 +1166,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_round1_budget_cashflow.json",
@@ -1189,7 +1189,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_round1_budget_income_restored.json",
@@ -1211,7 +1211,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_round1_budget_ratios.json",
@@ -1233,7 +1233,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_round1_checklist.json",
@@ -1254,7 +1254,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_round1_checklist_restored.json",
@@ -1275,7 +1275,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_round1_demand_baseline.json",
@@ -1296,7 +1296,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "试验前基准预算",
-    "budget_assumption": "基准方案；不得套用后续全部售出假设"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_round1_demand_se.json",
@@ -1317,7 +1317,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_round1_finance.json",
@@ -1339,7 +1339,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_round1_investments.json",
@@ -1360,7 +1360,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_round1_outlook.json",
@@ -1400,7 +1400,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_round1_sales_indonesia.json",
@@ -1422,7 +1422,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_round1_sales_thailand.json",
@@ -1444,7 +1444,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_schedule.json",
@@ -1529,7 +1529,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_user_practice2_demand.json",
@@ -1553,7 +1553,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_user_practice2_investments.json",
@@ -1578,7 +1578,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_user_practice2_production.json",
@@ -1604,7 +1604,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_user_practice2_sales_indonesia.json",
@@ -1629,7 +1629,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_user_practice2_sales_thailand.json",
@@ -1654,7 +1654,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_user_probe_B_budget_income.json",
@@ -1675,7 +1675,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "手填试验后网页预算",
-    "budget_assumption": "假设全部售出（用户说明）；须同时检查保存有效性"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_user_probe_B_checklist.json",
@@ -1696,7 +1696,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "手填试验后网页预算",
-    "budget_assumption": "假设全部售出（用户说明）；须同时检查保存有效性"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_user_probe_B_demand.json",
@@ -1717,7 +1717,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "手填试验后网页预算",
-    "budget_assumption": "假设全部售出（用户说明）；须同时检查保存有效性"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_user_probe_B_demand_readback.json",
@@ -1738,7 +1738,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "手填试验后网页预算",
-    "budget_assumption": "假设全部售出（用户说明）；须同时检查保存有效性"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261011_user_probe_B_logistics.json",
@@ -1760,7 +1760,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "手填试验后网页预算",
-    "budget_assumption": "假设全部售出（用户说明）；须同时检查保存有效性"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/20261012_round2_production_chart_code.json",
@@ -1795,7 +1795,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/cross_market/checklist_before.json",
@@ -1819,7 +1819,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/cross_market/home_verified.json",
@@ -3020,7 +3020,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/round1_budget_cashflow.json",
@@ -3043,7 +3043,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/round1_budget_income.json",
@@ -3065,7 +3065,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/round1_budget_ratios.json",
@@ -3087,7 +3087,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/round1_bulk.json",
@@ -3109,7 +3109,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/round1_checklist.json",
@@ -3130,7 +3130,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/round1_demand.json",
@@ -3151,7 +3151,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/round1_finance.json",
@@ -3173,7 +3173,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/round1_investments.json",
@@ -3194,7 +3194,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/round1_logistics.json",
@@ -3216,7 +3216,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/round1_outlook.json",
@@ -3256,7 +3256,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/round1_sales_indonesia.json",
@@ -3278,7 +3278,7 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   },
   {
     "file": "raw/round1_sales_thailand.json",
@@ -3300,6 +3300,6 @@
     ],
     "data_label": "逐单元格区分",
     "budget_subtype": "常规网页预算",
-    "budget_assumption": "依赖当时决策及手填预测；具体销量假设未确认"
+    "budget_assumption": "预算销量 = min{决策填写的需求预估数量，产量}（用户2026-10-13更正）；须同时检查保存有效性"
   }
 ]

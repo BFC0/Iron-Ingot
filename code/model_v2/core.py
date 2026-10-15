@@ -58,9 +58,11 @@ def predict(rows, x, beta):
     return old.predict_shares(rows, x, np.asarray(beta))
 
 
-def fit(rows, params, penalty, standardized=False, piecewise=False, rho=.5, loss='log', multiplier=1):
+def fit(rows, params, penalty, standardized=False, piecewise=False, rho=.5, loss='log', multiplier=1, feature_values=None):
     assert rows and penalty >= 0 and multiplier > 0
-    x = features(rows, params, rho, piecewise)
+    x = features(rows, params, rho, piecewise) if feature_values is None else np.asarray(feature_values, float)
+    if x.shape != (len(rows), 7 if piecewise else 5) or not np.all(np.isfinite(x)):
+        raise ValueError('Invalid prepared demand features')
     keep = [i for i, r in enumerate(rows) if loss == 'share' or r['demand'] > 0]
     rr = [rows[i] for i in keep]
     xx = x[keep].copy()

@@ -1,0 +1,63 @@
+{
+  "category": "SYNTHETIC_QUANTITY_CARRYOVER_NOT_FORMAL4_DEMAND_PREDICTION",
+  "product": {
+    "capacity": 80.0,
+    "efficiency": 17.0,
+    "material_cost": 14.2,
+    "prices": {
+      "泰国": 29.25,
+      "印尼": 30.375
+    },
+    "transport_costs": {
+      "泰国": 0.5,
+      "印尼": 2.0
+    },
+    "demand": {
+      "泰国": 10.0,
+      "印尼": 5.0
+    }
+  },
+  "plan": {
+    "allocation_pct": 0.0,
+    "opening_inventory_kunits": 38.29517517140276,
+    "holding_cost_per_unit": 0.6,
+    "country_priority": [
+      "泰国",
+      "印尼"
+    ]
+  },
+  "prediction": {
+    "production_strategy": "FREE_PRODUCTION_FIXED_PLAN",
+    "production_kunits": 0.0,
+    "capacity_allocation_pct": 0.0,
+    "workers": 0.0,
+    "shift_production_kunits": [
+      0.0,
+      0,
+      0
+    ],
+    "payroll_kusd": 0.0,
+    "material_expenditure_kusd": 0.0,
+    "production_expenditure_kusd": 0.0,
+    "sales_kunits": {
+      "泰国": 10.0,
+      "印尼": 5.0
+    },
+    "sales_revenue_kusd": 444.375,
+    "transport_expenditure_kusd": 15.0,
+    "opening_inventory_kunits": 38.29517517140276,
+    "closing_inventory_kunits": 23.29517517140276,
+    "inventory_holding_kusd": 13.977105102841657,
+    "unmet_demand_kunits": {
+      "泰国": 0.0,
+      "印尼": 0.0
+    },
+    "next_state": {
+      "opening_inventory_kunits": 23.29517517140276
+    },
+    "contribution_kusd": 415.3978948971583,
+    "inventory_book_value_kusd": null,
+    "actual_validation": false,
+    "scope": "固定计划数量结转；持有费按输入单价乘期末数量假设；不含期初库存成本转出/库存计价、订单、税、利息、收款或跨期优化"
+  }
+}

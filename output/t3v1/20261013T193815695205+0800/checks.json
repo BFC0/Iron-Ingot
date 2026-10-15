@@ -1,0 +1,24 @@
+{
+  "equal_inputs_equal_product_response": true,
+  "product_groups_isolated": true,
+  "guards": true,
+  "demand_to_joint_allocation": true,
+  "allocation": {
+    "dedicated_capacity": true,
+    "shared_labor": true,
+    "shift_costs": true,
+    "negative_margin_idle": true,
+    "zero_capacity": true,
+    "unequal_efficiencies": true,
+    "invalid_inputs_rejected": true
+  },
+  "same_estimator_replay_max_beta_difference": 0.0,
+  "actual_training_rows": 200,
+  "connector_actual_rows": 0,
+  "synthetic_training_rows": 0,
+  "formal3_not_used_as_actual_labels": true,
+  "joint_actual_validation": false,
+  "example_prediction_replay": true,
+  "nested_market_disjoint": true,
+  "input_hashes_unchanged": true
+}
