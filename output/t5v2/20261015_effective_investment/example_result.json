@@ -1,0 +1,192 @@
+{
+  "profit_5_to_6": 8427.91518762827,
+  "sampled_minimum_cash": 5962.0,
+  "feasible": true,
+  "penalty": 0.0,
+  "balance_error_max": 3.865352482534945e-12,
+  "quantity_error_max": 0.0,
+  "periods": [
+    {
+      "round": 5,
+      "profit": 3649.6282798946086,
+      "cash": 13775.391155480485,
+      "minimum_sampled_cash": 5962.0,
+      "revenue": 48784.69779480561,
+      "ebitda": 7458.109559291366,
+      "ebit": 5396.379559291366,
+      "tax": 1490.6932410837132,
+      "rate": 0.05012272650525279,
+      "long_interest": 385.94499409044647,
+      "cash_interest": 129.88695577740245,
+      "long_debt": 5200.0,
+      "assets": 37053.36234409465,
+      "equity": 30751.62827989461,
+      "demand": [
+        [
+          6.181918897155952,
+          9.572393560595204
+        ],
+        [
+          316.36625098834253,
+          191.69787282244283
+        ]
+      ],
+      "sales": [
+        [
+          6.181918897155951,
+          9.572393560595204
+        ],
+        [
+          281.1813771775571,
+          191.69787282244283
+        ]
+      ],
+      "production": [
+        15.754312457751155,
+        270.47925
+      ],
+      "opening_inventory": [
+        0.0,
+        202.4
+      ],
+      "closing_inventory": [
+        0.0,
+        0.0
+      ],
+      "inventory_book": [
+        0.0,
+        0.0
+      ],
+      "capacity": [
+        41.67,
+        812.25
+      ],
+      "efficiency": [
+        0.1644956432064209,
+        16.44591687694633
+      ],
+      "workers": 112.22002284092214,
+      "materials": [
+        10885.479646271608,
+        2518.951468162142
+      ],
+      "payroll": [
+        4486.599233080971,
+        715.426659579753
+      ],
+      "firing": 0.0,
+      "transport": 1858.131228419767,
+      "holding": 0.0,
+      "spending": 7296.0,
+      "machine_capex": 440.00000000000006,
+      "depreciation": 2061.73,
+      "priority": [
+        1,
+        1
+      ],
+      "balance_error": 3.865352482534945e-12,
+      "effective_rd_kusd": [
+        2400.0,
+        767.0
+      ],
+      "effective_operations_kusd": 825.5,
+      "future_mapping_assumption": false
+    },
+    {
+      "round": 6,
+      "profit": 4778.286907733661,
+      "cash": 19660.184518575228,
+      "minimum_sampled_cash": 12975.391155480485,
+      "revenue": 51055.637489209046,
+      "ebitda": 8702.98514908718,
+      "ebit": 6823.2602490871805,
+      "tax": 1951.6946524545938,
+      "rate": 0.05008780139792382,
+      "long_interest": 260.45656726920384,
+      "cash_interest": 167.17787837027856,
+      "long_debt": 5200.0,
+      "assets": 42045.08338481159,
+      "equity": 35529.91518762827,
+      "demand": [
+        [
+          6.730135441014807,
+          10.16328806986948
+        ],
+        [
+          289.1266388851422,
+          175.67518318993172
+        ]
+      ],
+      "sales": [
+        [
+          6.730135441014806,
+          10.16328806986948
+        ],
+        [
+          289.1266388851422,
+          175.67518318993172
+        ]
+      ],
+      "production": [
+        16.893423510884286,
+        464.8018220750739
+      ],
+      "opening_inventory": [
+        0.0,
+        0.0
+      ],
+      "closing_inventory": [
+        0.0,
+        0.0
+      ],
+      "inventory_book": [
+        0.0,
+        0.0
+      ],
+      "capacity": [
+        35.4195,
+        690.4125
+      ],
+      "efficiency": [
+        0.16211686545900705,
+        16.208091848026836
+      ],
+      "workers": 132.8823656157638,
+      "materials": [
+        11672.551136504937,
+        4328.661929225425
+      ],
+      "payroll": [
+        5420.143564371514,
+        1667.8833925827753
+      ],
+      "firing": 0.0,
+      "transport": 1917.4123174372162,
+      "holding": 0.0,
+      "spending": 7296.0,
+      "machine_capex": 0.0,
+      "depreciation": 1879.7249000000002,
+      "priority": [
+        1,
+        1
+      ],
+      "balance_error": -6.821210263296962e-13,
+      "effective_rd_kusd": [
+        3250.0,
+        195.0
+      ],
+      "effective_operations_kusd": 760.05,
+      "future_mapping_assumption": true
+    }
+  ],
+  "investment_mapping_status": "FORMAL5_INTERVAL_VALIDATED_FORMAL6_ASSUMED",
+  "version": "t5v2",
+  "base_version": "t5v1",
+  "marketing_training_round": 4,
+  "importance_round": 5,
+  "inference_training_performed": false,
+  "country_product_marketing_allocation_identified": false,
+  "independent_forward_validation": false,
+  "full_global_optimum": false,
+  "scope": "正式5—6条件税后利润；营销合计费用代理；正式6同价同投入、同曲线及投入滞后权重为情景；基准为同投入反事实归一化，非历史有效存量已识别；非实际成绩或已核平台候选预算"
+}

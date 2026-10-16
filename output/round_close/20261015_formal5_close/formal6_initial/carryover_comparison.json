@@ -1,0 +1,355 @@
+[
+  {
+    "metric": "复合梁库存数量",
+    "ending": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_marketdetails.json",
+      "sha256": "4be122ce5a18e23a1d6850f8de9063349332b3bca4087b821075bc51f803d05c",
+      "table": 0,
+      "row": 44,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "0.00",
+      "value": 0.0
+    },
+    "opening": {
+      "source": "output/round_close/20261015_formal5_close/own_formal6_logistics.json",
+      "sha256": "76e2b9f7df609bb7ae9be93ce135d35e24ed14f616f3536bb8c92f42ffe29033",
+      "table": 1,
+      "row": 10,
+      "column": 1,
+      "indexing": "zero_based",
+      "display": "0.00",
+      "value": 0.0
+    },
+    "status": "MATCHED_EXPLICIT_OPENING",
+    "note": "千单位；数量不等于账面价值。"
+  },
+  {
+    "metric": "连接件库存数量",
+    "ending": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_marketdetails.json",
+      "sha256": "4be122ce5a18e23a1d6850f8de9063349332b3bca4087b821075bc51f803d05c",
+      "table": 0,
+      "row": 45,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "6.02",
+      "value": 6.02
+    },
+    "opening": {
+      "source": "output/round_close/20261015_formal5_close/own_formal6_logistics.json",
+      "sha256": "76e2b9f7df609bb7ae9be93ce135d35e24ed14f616f3536bb8c92f42ffe29033",
+      "table": 2,
+      "row": 10,
+      "column": 1,
+      "indexing": "zero_based",
+      "display": "6.02",
+      "value": 6.02
+    },
+    "status": "MATCHED_EXPLICIT_OPENING",
+    "note": "千单位；数量不等于账面价值。"
+  },
+  {
+    "metric": "长期贷款",
+    "ending": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_balancesheet.json",
+      "sha256": "9a562036fbbc21ee5f3bb6567b73cac6fad44c0488ade971d83fec45b93188f9",
+      "table": 0,
+      "row": 30,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "7 600",
+      "value": 7600.0
+    },
+    "opening": {
+      "source": "output/round_close/20261015_formal5_close/own_formal6_corporate.json",
+      "sha256": "88123331d0c78cf8ff23b56d880b4a1bdedeb2d4ab4278c29760064e49ce056b",
+      "table": 1,
+      "row": 5,
+      "column": 2,
+      "indexing": "zero_based",
+      "display": "7 600",
+      "value": 7600.0
+    },
+    "status": "MATCHED_LAST_YEAR_REFERENCE",
+    "note": "千美元；去年余额，不是今年最终融资方案。"
+  },
+  {
+    "metric": "复合梁机器可用产能",
+    "ending": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_productiondetails.json",
+      "sha256": "a73fc452355f5fb331d84aa3fb2875133ad6eef5e75cb812f81bfffdf3d5f441",
+      "table": 0,
+      "row": 2,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "61.67",
+      "value": 61.67
+    },
+    "opening": {
+      "source": "output/round_close/20261015_formal5_close/own_formal6_productioninvestments.json",
+      "sha256": "88730c1fd709a2a8458f16cb2613e542f51e29b868de83989f9272d29b902853",
+      "table": 3,
+      "row": 3,
+      "column": 2,
+      "indexing": "zero_based",
+      "display": "52.42",
+      "value": 52.42
+    },
+    "status": "MATCHED_CONDITIONAL_DECAY",
+    "note": "千单位；当前个人投资0，容量与公布15%衰减相容。"
+  },
+  {
+    "metric": "连接件机器可用产能",
+    "ending": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_productiondetails.json",
+      "sha256": "a73fc452355f5fb331d84aa3fb2875133ad6eef5e75cb812f81bfffdf3d5f441",
+      "table": 0,
+      "row": 3,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "812.25",
+      "value": 812.25
+    },
+    "opening": {
+      "source": "output/round_close/20261015_formal5_close/own_formal6_productioninvestments.json",
+      "sha256": "88730c1fd709a2a8458f16cb2613e542f51e29b868de83989f9272d29b902853",
+      "table": 3,
+      "row": 4,
+      "column": 2,
+      "indexing": "zero_based",
+      "display": "690.41",
+      "value": 690.41
+    },
+    "status": "MATCHED_CONDITIONAL_DECAY",
+    "note": "千单位；当前个人投资0，容量与公布15%衰减相容。"
+  },
+  {
+    "metric": "现金及现金等价物",
+    "ending": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_balancesheet.json",
+      "sha256": "9a562036fbbc21ee5f3bb6567b73cac6fad44c0488ade971d83fec45b93188f9",
+      "table": 0,
+      "row": 17,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "10 703",
+      "value": 10703.0
+    },
+    "opening": null,
+    "status": "UNKNOWN_NO_INDEPENDENT_OPENING",
+    "note": "期末已知；预算投影不作为独立期初披露。"
+  },
+  {
+    "metric": "短期贷款",
+    "ending": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_balancesheet.json",
+      "sha256": "9a562036fbbc21ee5f3bb6567b73cac6fad44c0488ade971d83fec45b93188f9",
+      "table": 0,
+      "row": 32,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "0",
+      "value": 0.0
+    },
+    "opening": null,
+    "status": "UNKNOWN_NO_INDEPENDENT_OPENING",
+    "note": "期末已知；预算投影不作为独立期初披露。"
+  },
+  {
+    "metric": "机器账面价值",
+    "ending": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_balancesheet.json",
+      "sha256": "9a562036fbbc21ee5f3bb6567b73cac6fad44c0488ade971d83fec45b93188f9",
+      "table": 0,
+      "row": 12,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "7 962",
+      "value": 7962.0
+    },
+    "opening": null,
+    "status": "UNKNOWN_NO_INDEPENDENT_OPENING",
+    "note": "期末已知；预算投影不作为独立期初披露。"
+  },
+  {
+    "metric": "厂房账面价值",
+    "ending": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_balancesheet.json",
+      "sha256": "9a562036fbbc21ee5f3bb6567b73cac6fad44c0488ade971d83fec45b93188f9",
+      "table": 0,
+      "row": 11,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "12 633",
+      "value": 12633.0
+    },
+    "opening": null,
+    "status": "UNKNOWN_NO_INDEPENDENT_OPENING",
+    "note": "期末已知；预算投影不作为独立期初披露。"
+  },
+  {
+    "metric": "库存账面价值",
+    "ending": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_balancesheet.json",
+      "sha256": "9a562036fbbc21ee5f3bb6567b73cac6fad44c0488ade971d83fec45b93188f9",
+      "table": 0,
+      "row": 15,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "72",
+      "value": 72.0
+    },
+    "opening": null,
+    "status": "UNKNOWN_NO_INDEPENDENT_OPENING",
+    "note": "期末已知；预算投影不作为独立期初披露。"
+  },
+  {
+    "metric": "应收账款",
+    "ending": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_balancesheet.json",
+      "sha256": "9a562036fbbc21ee5f3bb6567b73cac6fad44c0488ade971d83fec45b93188f9",
+      "table": 0,
+      "row": 16,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "3 313",
+      "value": 3313.0
+    },
+    "opening": null,
+    "status": "UNKNOWN_NO_INDEPENDENT_OPENING",
+    "note": "期末已知；预算投影不作为独立期初披露。"
+  },
+  {
+    "metric": "应付账款",
+    "ending": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_balancesheet.json",
+      "sha256": "9a562036fbbc21ee5f3bb6567b73cac6fad44c0488ade971d83fec45b93188f9",
+      "table": 0,
+      "row": 34,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "899",
+      "value": 899.0
+    },
+    "opening": null,
+    "status": "UNKNOWN_NO_INDEPENDENT_OPENING",
+    "note": "期末已知；预算投影不作为独立期初披露。"
+  },
+  {
+    "metric": "已收预付款",
+    "ending": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_balancesheet.json",
+      "sha256": "9a562036fbbc21ee5f3bb6567b73cac6fad44c0488ade971d83fec45b93188f9",
+      "table": 0,
+      "row": 33,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "0",
+      "value": 0.0
+    },
+    "opening": null,
+    "status": "UNKNOWN_NO_INDEPENDENT_OPENING",
+    "note": "期末已知；预算投影不作为独立期初披露。"
+  },
+  {
+    "metric": "留存收益",
+    "ending": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_balancesheet.json",
+      "sha256": "9a562036fbbc21ee5f3bb6567b73cac6fad44c0488ade971d83fec45b93188f9",
+      "table": 0,
+      "row": 25,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "16 102",
+      "value": 16102.0
+    },
+    "opening": null,
+    "status": "UNKNOWN_NO_INDEPENDENT_OPENING",
+    "note": "期末已知；预算投影不作为独立期初披露。"
+  },
+  {
+    "metric": "生产人员",
+    "ending": {
+      "value": 86.96000000000001,
+      "inputs": [
+        {
+          "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_productiondetails.json",
+          "sha256": "a73fc452355f5fb331d84aa3fb2875133ad6eef5e75cb812f81bfffdf3d5f441",
+          "table": 0,
+          "row": 7,
+          "column": 6,
+          "indexing": "zero_based",
+          "display": "70.51",
+          "value": 70.51
+        },
+        {
+          "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_productiondetails.json",
+          "sha256": "a73fc452355f5fb331d84aa3fb2875133ad6eef5e75cb812f81bfffdf3d5f441",
+          "table": 0,
+          "row": 14,
+          "column": 6,
+          "indexing": "zero_based",
+          "display": "16.45",
+          "value": 16.45
+        }
+      ]
+    },
+    "opening": null,
+    "status": "UNKNOWN_NO_INDEPENDENT_OPENING",
+    "note": "期末已知；预算投影不作为独立期初披露。"
+  },
+  {
+    "metric": "税亏结转余额",
+    "ending": null,
+    "opening": null,
+    "status": "UNKNOWN_NO_INDEPENDENT_OPENING",
+    "note": "未披露真实存量，不能用上期投入或历史权重补零或补造。"
+  },
+  {
+    "metric": "研发持续存量",
+    "ending": null,
+    "opening": null,
+    "status": "UNKNOWN_NO_INDEPENDENT_OPENING",
+    "note": "未披露真实存量，不能用上期投入或历史权重补零或补造。"
+  },
+  {
+    "metric": "运营持续存量",
+    "ending": null,
+    "opening": null,
+    "status": "UNKNOWN_NO_INDEPENDENT_OPENING",
+    "note": "未披露真实存量，不能用上期投入或历史权重补零或补造。"
+  },
+  {
+    "metric": "复合梁下期大客户承诺",
+    "ending": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_marketdetails.json",
+      "sha256": "4be122ce5a18e23a1d6850f8de9063349332b3bca4087b821075bc51f803d05c",
+      "table": 0,
+      "row": 41,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "0.00",
+      "value": 0.0
+    },
+    "opening": null,
+    "status": "UNKNOWN_NO_INDEPENDENT_OPENING",
+    "note": "上期结果下一回合订单数量已保存；本期真实合同和收付款衔接尚未独立核验。"
+  },
+  {
+    "metric": "连接件下期大客户承诺",
+    "ending": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_marketdetails.json",
+      "sha256": "4be122ce5a18e23a1d6850f8de9063349332b3bca4087b821075bc51f803d05c",
+      "table": 0,
+      "row": 42,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "0.00",
+      "value": 0.0
+    },
+    "opening": null,
+    "status": "UNKNOWN_NO_INDEPENDENT_OPENING",
+    "note": "上期结果下一回合订单数量已保存；本期真实合同和收付款衔接尚未独立核验。"
+  }
+]

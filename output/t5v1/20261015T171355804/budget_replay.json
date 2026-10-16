@@ -1,0 +1,175 @@
+{
+  "model": {
+    "profit_5_to_6": 5647.85092892957,
+    "sampled_minimum_cash": 11402.0,
+    "feasible": true,
+    "penalty": 0.0,
+    "balance_error_max": 6.480149750132114e-12,
+    "quantity_error_max": 0.0,
+    "periods": [
+      {
+        "round": 5,
+        "profit": 4434.549904507104,
+        "cash": 18097.68078507811,
+        "minimum_sampled_cash": 11402.0,
+        "revenue": 49650.2,
+        "ebitda": 8600.076532000108,
+        "ebit": 6604.346532000108,
+        "tax": 1811.2950314183943,
+        "rate": 0.05,
+        "long_interest": 510.0,
+        "cash_interest": 151.49840392539056,
+        "long_debt": 10200.0,
+        "assets": 42960.93760713132,
+        "equity": 31536.549904507105,
+        "demand": [
+          [
+            4.47,
+            12.2
+          ],
+          [
+            285.0,
+            140.0
+          ]
+        ],
+        "sales": [
+          [
+            4.469999999999999,
+            12.2
+          ],
+          [
+            285.0,
+            140.0
+          ]
+        ],
+        "production": [
+          16.669999999999998,
+          362.78
+        ],
+        "opening_inventory": [
+          0.0,
+          202.4
+        ],
+        "closing_inventory": [
+          0.0,
+          140.17999999999995
+        ],
+        "inventory_book": [
+          0.0,
+          1888.1484658888305
+        ],
+        "capacity": [
+          41.67,
+          412.25
+        ],
+        "efficiency": [
+          0.17,
+          17.0
+        ],
+        "workers": 119.39882352941176,
+        "materials": [
+          11518.176130502508,
+          3378.5409180920974
+        ],
+        "payroll": [
+          4727.938235294117,
+          1507.9086499999999
+        ],
+        "firing": 0.0,
+        "transport": 2020.6,
+        "holding": 84.10799999999996,
+        "spending": 6135.0,
+        "machine_capex": 0.0,
+        "depreciation": 1995.73,
+        "priority": [
+          1,
+          0
+        ],
+        "balance_error": 4.774847184307873e-12
+      },
+      {
+        "round": 6,
+        "profit": 1213.301024422466,
+        "cash": 22725.0231153401,
+        "minimum_sampled_cash": 17297.68078507811,
+        "revenue": 40094.9356,
+        "ebitda": 3838.3860627830727,
+        "ebit": 2014.7611627830725,
+        "tax": 495.5736578626974,
+        "rate": 0.05,
+        "long_interest": 510.0,
+        "cash_interest": 204.1135195020911,
+        "long_debt": 10200.0,
+        "assets": 43891.14237424421,
+        "equity": 32749.85092892957,
+        "demand": [
+          [
+            3.7878000000000003,
+            11.627999999999998
+          ],
+          [
+            115.8061,
+            110.3615
+          ]
+        ],
+        "sales": [
+          [
+            3.7878000000000003,
+            11.627999999999998
+          ],
+          [
+            115.8061,
+            110.36149999999999
+          ]
+        ],
+        "production": [
+          15.415799999999999,
+          85.98760000000004
+        ],
+        "opening_inventory": [
+          0.0,
+          140.17999999999995
+        ],
+        "closing_inventory": [
+          0.0,
+          0.0
+        ],
+        "inventory_book": [
+          0.0,
+          0.0
+        ],
+        "capacity": [
+          35.4195,
+          350.41249999999997
+        ],
+        "efficiency": [
+          0.17,
+          17.0
+        ],
+        "workers": 95.73927058823529,
+        "materials": [
+          10651.583658824271,
+          800.795592503821
+        ],
+        "payroll": [
+          4544.942691176469,
+          220.02709411764718
+        ],
+        "firing": 178.43198470588248,
+        "transport": 1787.6200499999998,
+        "holding": 0.0,
+        "spending": 6135.0,
+        "machine_capex": 0.0,
+        "depreciation": 1823.6249,
+        "priority": [
+          1,
+          0
+        ],
+        "balance_error": 6.480149750132114e-12
+      }
+    ]
+  },
+  "display_profit": 4435,
+  "error_kusd": -0.45009549289625284,
+  "scope": "latest paired draft budget, not actual outcome or new-candidate platform validation"
+}

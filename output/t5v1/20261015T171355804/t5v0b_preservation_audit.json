@@ -1,0 +1,330 @@
+{
+  "version": "t5v0b",
+  "scope": "entire conversation baseline versus original manifest",
+  "checked": 64,
+  "all_match": true,
+  "restored_files": [],
+  "original_version_modified": false,
+  "checks": [
+    {
+      "category": "source_code",
+      "path": "code\\archive_and_report.py",
+      "sha256": "dbaf906c2151ec38948a5cc345f63f0d55ff32c2e88f8e4b68b04abda72c2d25"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\audit_incremental.py",
+      "sha256": "487a087fc9c9d6f1fc17893ec81fed2fb7242297c53568a5cde975fbcdd2fa04"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\build_model_inputs.py",
+      "sha256": "f7f7f0a79e461b28335636891d22311cc407d172803fbdae9d300ba039bfc453"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\cross_market_validation.py",
+      "sha256": "d93426261a25ce196048aef0654973a7dcadebd87ff882264ec350627f60ba23"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\fit_demand.py",
+      "sha256": "4ee9ae875af480b625cf871a506c325fcc2d644f89c6fb5ab3dd9741b5ee2733"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\formal_update_state.py",
+      "sha256": "0a026168652cb9042b42f3e2c02b1732c3085296981a49f7fa30e1c6dbcf88a8"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\formal_update_train.py",
+      "sha256": "d4bd816fff9f516035b4958723894ccaa393c0789d4bcdaed7213d987fa2b5b6"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\interest_rate_model.py",
+      "sha256": "cec8c9adf47f4245b08aacd0655efcc402bc6ba3fbbfaed260de3e72236ca059"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\material_unit_cost_model.py",
+      "sha256": "3079c079852fbb7dbbacc9c4da3c00ea112299063e6e015af2054eda1c4fba49"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\model_v2\\connector_free_production.py",
+      "sha256": "8b7b37cd234fa24bd1597ae5624eef9d5091170e084d356b65f35870146cf251"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\model_v2\\context.py",
+      "sha256": "046e871672991efc94db69be998c53098cbe103447ffc19e43c4e2b1fd316a68"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\model_v2\\core.py",
+      "sha256": "029c594d21654305ec8c0ca488313168039bdf4b76aeae7eef63d4995871247f"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\model_v2\\country_demand.py",
+      "sha256": "7470e0fa5f7a8d003a836547ea155c2b1e97c36a047bc571593a7cf6a6c0523b"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\model_v2\\demand.py",
+      "sha256": "2574bdcd1e028860e6ce9df0855ae9748ee3dff21cca07418045a3eaa82d63bf"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\model_v2\\finance.py",
+      "sha256": "db324be6387f12f2421adbae7348ff7eb9cb7d2f5f9c08fc244b102893772677"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\model_v2\\horizon.py",
+      "sha256": "966dba4d6735d04bc9cb96c4f96575efae3bd72389ea2422c5df10bdcacbe41b"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\model_v2\\t4v1a.py",
+      "sha256": "784ad5951a25f3411ca3754799b5272941de119dd6a869eafdac3241e6af2cc8"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\model_v2\\t5v0a.py",
+      "sha256": "3b33a9111ce54e5f6a91f9ae0bc44ee356108441b56a5051e5720226e8437fa9"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\model_v2\\t5v0b.py",
+      "sha256": "87bc640f441d2e7a82452fd8812ada8731d6e83d0c3357aaeb5b4d5110b21c43"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\model_v2\\verify_t5v0a.py",
+      "sha256": "c1b7e11b6a0c6e26af262d1777e5e504c5ac6f2e0ca8eff4be9906b143085c0c"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\model_v2\\verify_t5v0b.py",
+      "sha256": "4b0bc4c26fd910132793c925fb428d88c8822adbbbf7f273cb8bfa043ee997cf"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\operations_rho.py",
+      "sha256": "a1495cbe8ebc8ed02058a57804fdbbb9ea1f3d0497eb3e6c9194bf8913d3e4c7"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\parameter_priority.py",
+      "sha256": "366639591159823a4027c7313d1eaa9fb7d4d6336f1101b7946fdbdfdacc7b09"
+    },
+    {
+      "category": "source_code",
+      "path": "code\\stepwise_model.py",
+      "sha256": "3bd9c9e6fc3092521d8a4074598dbaa81ce3855366ff9350cb0926a012f43170"
+    },
+    {
+      "category": "source_code",
+      "path": "work\\finalize_t5v0b.py",
+      "sha256": "59ff628440b9ea10b3c9b4a357f11f259159d0223643d683c5d26502aa093e98"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\acceptance.json",
+      "sha256": "0d62e615cbf983f90621b56b08c2f5255a1e241cf2792ecffa341a393bade244"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\archive_and_report.py",
+      "sha256": "dbaf906c2151ec38948a5cc345f63f0d55ff32c2e88f8e4b68b04abda72c2d25"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\audit_incremental.py",
+      "sha256": "487a087fc9c9d6f1fc17893ec81fed2fb7242297c53568a5cde975fbcdd2fa04"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\build_model_inputs.py",
+      "sha256": "f7f7f0a79e461b28335636891d22311cc407d172803fbdae9d300ba039bfc453"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\cross_market_validation.py",
+      "sha256": "d93426261a25ce196048aef0654973a7dcadebd87ff882264ec350627f60ba23"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\fit_demand.py",
+      "sha256": "4ee9ae875af480b625cf871a506c325fcc2d644f89c6fb5ab3dd9741b5ee2733"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\formal_update_state.py",
+      "sha256": "0a026168652cb9042b42f3e2c02b1732c3085296981a49f7fa30e1c6dbcf88a8"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\formal_update_train.py",
+      "sha256": "d4bd816fff9f516035b4958723894ccaa393c0789d4bcdaed7213d987fa2b5b6"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\interest_rate_model.py",
+      "sha256": "cec8c9adf47f4245b08aacd0655efcc402bc6ba3fbbfaed260de3e72236ca059"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\material_unit_cost_model.py",
+      "sha256": "3079c079852fbb7dbbacc9c4da3c00ea112299063e6e015af2054eda1c4fba49"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\model_v2\\connector_free_production.py",
+      "sha256": "8b7b37cd234fa24bd1597ae5624eef9d5091170e084d356b65f35870146cf251"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\model_v2\\context.py",
+      "sha256": "046e871672991efc94db69be998c53098cbe103447ffc19e43c4e2b1fd316a68"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\model_v2\\core.py",
+      "sha256": "029c594d21654305ec8c0ca488313168039bdf4b76aeae7eef63d4995871247f"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\model_v2\\country_demand.py",
+      "sha256": "7470e0fa5f7a8d003a836547ea155c2b1e97c36a047bc571593a7cf6a6c0523b"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\model_v2\\demand.py",
+      "sha256": "2574bdcd1e028860e6ce9df0855ae9748ee3dff21cca07418045a3eaa82d63bf"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\model_v2\\finance.py",
+      "sha256": "db324be6387f12f2421adbae7348ff7eb9cb7d2f5f9c08fc244b102893772677"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\model_v2\\horizon.py",
+      "sha256": "966dba4d6735d04bc9cb96c4f96575efae3bd72389ea2422c5df10bdcacbe41b"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\model_v2\\t4v1a.py",
+      "sha256": "784ad5951a25f3411ca3754799b5272941de119dd6a869eafdac3241e6af2cc8"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\model_v2\\t5v0a.py",
+      "sha256": "3b33a9111ce54e5f6a91f9ae0bc44ee356108441b56a5051e5720226e8437fa9"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\model_v2\\t5v0b.py",
+      "sha256": "87bc640f441d2e7a82452fd8812ada8731d6e83d0c3357aaeb5b4d5110b21c43"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\model_v2\\verify_t5v0a.py",
+      "sha256": "c1b7e11b6a0c6e26af262d1777e5e504c5ac6f2e0ca8eff4be9906b143085c0c"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\model_v2\\verify_t5v0b.py",
+      "sha256": "4b0bc4c26fd910132793c925fb428d88c8822adbbbf7f273cb8bfa043ee997cf"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\operations_rho.py",
+      "sha256": "a1495cbe8ebc8ed02058a57804fdbbb9ea1f3d0497eb3e6c9194bf8913d3e4c7"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\parameter_priority.py",
+      "sha256": "366639591159823a4027c7313d1eaa9fb7d4d6336f1101b7946fdbdfdacc7b09"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\code\\stepwise_model.py",
+      "sha256": "3bd9c9e6fc3092521d8a4074598dbaa81ce3855366ff9350cb0926a012f43170"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\code_snapshot\\work\\finalize_t5v0b.py",
+      "sha256": "59ff628440b9ea10b3c9b4a357f11f259159d0223643d683c5d26502aa093e98"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\document_hashes.json",
+      "sha256": "a8e91ffb5c659cff950724e0a86947382e907fe21bdbd1a3f138e7b4c7cef06f"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\example_request.json",
+      "sha256": "5a083f1f2881a3a9b69b9cfb8b35f5c62a046d1582c366d586ce678ad9b27315"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\example_result.json",
+      "sha256": "d3b4eda1b4beb47d1d8dea462933823841c85a37ea875bce60ebfc0935d90872"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\link_checks.json",
+      "sha256": "59bf54319f6cb1a4de87f3ad13663db02d707307facc5077566099eb2cb8234a"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\model_adjustments.json",
+      "sha256": "12a01a2277e146ff83644a6ebd6214bf7c9a3b108a8f93cd4eb208b05a192aa7"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\models_full.json",
+      "sha256": "a31894a7f83b7e52216b584e2441b7d397ca4b3a0ef93610c470b0a72db77fd7"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\own_share_held_request.json",
+      "sha256": "7695af40b51362300854352bae07da4d93e8965cbb35bc99cb2a5dcef7f0af59"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\own_share_held_result.json",
+      "sha256": "019ada5edc83245fed0b2c1bbd88ed6a09dabf8c581192311da4185aa75e5c69"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\report.md",
+      "sha256": "0cce0c3da2de62dfd4c673274a11b911fd22db77c71f5ad3c01660e9f7642966"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\unit_investment_request.json",
+      "sha256": "eba5d88e2720db66b29d15081a2cc848c29d1423a41a28f93ddbb7f593274202"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\unit_investment_result.json",
+      "sha256": "3994074db700393db04b99dedeb22304efab0a0f64b8ab3fda53c225c6c5ebd7"
+    },
+    {
+      "category": "outputs",
+      "path": "output\\t5v0b\\20261015T153107587428+0800\\work_log.md",
+      "sha256": "b5b9c07621119ccd87a6bb0888537641808b4deb05a510c44a9ec0c6bdbd6ac3"
+    },
+    {
+      "category": "version_document",
+      "path": "code/model_v2/t5v0b_README.md",
+      "sha256": "c0dec46ad71e576e4f75edd2a9c2254fdf743b29e89804e5f5c96a67f3083a7c"
+    }
+  ]
+}

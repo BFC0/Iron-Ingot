@@ -1,0 +1,122 @@
+{
+  "version": "t6v0",
+  "models": {
+    "ABS": {
+      "status": "RETRAINED_ACTUAL_DEMAND_COMPANY_EXPENSE_PROXY_SCREENED",
+      "artifact": "models_full.json"
+    },
+    "SHARE": {
+      "status": "RETRAINED_ACTUAL_DEMAND_COMPANY_EXPENSE_PROXY_SCREENED",
+      "artifact": "models_full.json"
+    },
+    "COUNTRY": {
+      "status": "RETRAINED_ACTUAL_DEMAND_COMPANY_EXPENSE_PROXY_SCREENED",
+      "artifact": "models_full.json"
+    },
+    "EFF": {
+      "status": "OWN_FINAL_DECISION_CALIBRATION_RHO_UNIDENTIFIABLE",
+      "artifact": "models_full.json"
+    },
+    "RISK_POWER": {
+      "status": "RETRAINED_CONDITIONAL_ACTUAL_STATE",
+      "artifact": "models_full.json"
+    },
+    "RISK_EXP": {
+      "status": "RETRAINED_CONDITIONAL_ACTUAL_STATE",
+      "artifact": "models_full.json"
+    },
+    "MATERIAL": {
+      "status": "RETRAINED_SEPARATE_PRODUCTS",
+      "artifact": "models_full.json"
+    },
+    "MATERIAL_PROP": {
+      "status": "RETRAINED_SEPARATE_PRODUCTS",
+      "artifact": "models_full.json"
+    },
+    "INTEREST": {
+      "status": "RETRAINED_CONDITIONAL_ACTUAL_STATE",
+      "artifact": "models_full.json"
+    },
+    "RD": {
+      "status": "RETRAINED_FORMAL5_CURVES",
+      "artifact": "formal5_curves.json"
+    },
+    "OPS": {
+      "status": "RETRAINED_FORMAL5_CURVES",
+      "artifact": "formal5_curves.json"
+    },
+    "TOTAL": {
+      "status": "ACTUAL_TOTALS_AND_GROWTH_DIAGNOSTICS_NOT_SUPERVISED_FIT",
+      "artifact": "industry.json"
+    },
+    "BASELINE": {
+      "status": "ACTUAL_TOTALS_AND_GROWTH_DIAGNOSTICS_NOT_SUPERVISED_FIT",
+      "artifact": "industry.json"
+    },
+    "GROWTH": {
+      "status": "ACTUAL_TOTALS_AND_GROWTH_DIAGNOSTICS_NOT_SUPERVISED_FIT",
+      "artifact": "industry.json"
+    },
+    "CAPACITY": {
+      "status": "OWN_ACTUAL_CAPACITY_BOUND_CHECKED_TIMING_UNRESOLVED",
+      "artifact": "capacity_checks.json"
+    },
+    "LABOR": {
+      "status": "CONDITIONAL_WAGE_FIT_IDENTIFIABILITY_RECORDED",
+      "artifact": "models_full.json"
+    },
+    "OPERATING": {
+      "status": "SOURCE_EXPENSE_ACCOUNTING_ONLY_NOT_FORWARD_PROFIT_MODEL",
+      "artifact": "archive_acceptance.json"
+    },
+    "FINANCE": {
+      "status": "1900_SOURCE_EQUATIONS_ACCEPTED_NO_COMPLETE_FORWARD_FORECAST",
+      "artifact": "archive_acceptance.json"
+    },
+    "HORIZON": {
+      "status": "BLOCKED_MISSING_CAPTURED_COMPETITOR_FINAL_DECISIONS_OR_HISTORY",
+      "artifact": "data_gaps.json"
+    },
+    "METRICS": {
+      "status": "SOURCE_HASH_AND_DECISION_GUARDS_CHECKED",
+      "artifact": "checks.json"
+    },
+    "A": {
+      "status": "BLOCKED_MISSING_CAPTURED_COMPETITOR_FINAL_DECISIONS_OR_HISTORY",
+      "artifact": "data_gaps.json"
+    },
+    "B": {
+      "status": "PUBLISHED_RULE_CHECKED_WITH_DISPLAY_INTERVALS",
+      "artifact": "severance_checks.csv"
+    },
+    "C": {
+      "status": "CONDITIONAL_WAGE_FIT_IDENTIFIABILITY_RECORDED",
+      "artifact": "models_full.json"
+    },
+    "D": {
+      "status": "BLOCKED_MISSING_CAPTURED_COMPETITOR_FINAL_DECISIONS_OR_HISTORY",
+      "artifact": "data_gaps.json"
+    },
+    "E": {
+      "status": "ACTUAL_INTENSITY_FORMULA_CHECKED",
+      "artifact": "physics_checks.csv"
+    },
+    "F": {
+      "status": "ROUTE_FORMULA_CHECKED_WITH_MISSING_ROWS_RECORDED",
+      "artifact": "physics_checks.csv"
+    },
+    "CONNECTOR": {
+      "status": "RULE_SELF_CHECK_ONLY_NO_ACTUAL_LIFECYCLE_TRAINING",
+      "artifact": "checks.json"
+    },
+    "CONNECTOR_V2": {
+      "status": "RULE_SELF_CHECK_ONLY_NO_ACTUAL_LIFECYCLE_TRAINING",
+      "artifact": "checks.json"
+    },
+    "JOINT_ALLOCATION": {
+      "status": "RULE_SELF_CHECK_ONLY_NO_ACTUAL_LIFECYCLE_TRAINING",
+      "artifact": "checks.json"
+    }
+  },
+  "count": 29
+}

@@ -1,0 +1,551 @@
+{
+  "captured_at": "2026-10-15T08:55:38.333Z",
+  "main_text": "快速教程\n市场前景\n需求\n生产\n销售\n物流\n财务\n决策列表\n结果预估\n泰国\n泰国\n印尼\n大客户订单\n复合梁\n \t今年\t收入占比%\tΔ %\t去年\n预计销售额, 千单位\t4.47\t-\t+26\t3.54\n每单位价格, 美元\t\t-\t+0\t1 860.0\n总收入, 千 美元\t8 314\t100\t+26\t6 593\n已销售产品成本, 千 美元\n原材料\t3 089\t37\t-17\t3 738\n生产工资\t1 268\t15\t+84\t688\n运输\t134\t2\t+26\t106\n毛利\t3 824\t46\t+86\t2 061\n\n营销, 千 美元\n\n一般营销\t\t1\t+0\t100\n设计师营销\t\t5\t+0\t375\n产品层面税息折旧及摊销前利润 EBITDA\t3 349\t40\t+111\t1 586\n\n需求乘数\n\n\n较于其他竞争对手，%\n-17\n-8\n0\n10\nRelative importance (3 - highest)\n0\n1\n2\n3\n价格\n一般营销\n设计师营销\n研发\n\n可用产品, 千单位\n需求\t4.47\n全球可用产品\t16.67\n全球未满足需求\t0.00\n全球期末库存\t0.00\n连接件\n \t今年\t收入占比%\tΔ %\t去年\n预计销售额, 千单位\t285.00\t-\t+163\t108.23\n每单位价格, 美元\t\t-\t+0\t36.0\n总收入, 千 美元\t10 260\t100\t+163\t3 896\n已销售产品成本, 千 美元\n原材料\t2 654\t26\t+72\t1 539\n生产工资\t1 185\t12\t+247\t341\n运输\t143\t1\t+163\t54\n毛利\t6 279\t61\t+220\t1 962\n\n营销, 千 美元\n\n一般营销\t\t4\t+0\t425\n设计师营销\t\t3\t+0\t325\n产品层面税息折旧及摊销前利润 EBITDA\t5 529\t54\t+356\t1 212\n\n需求乘数\n\n\n较于其他竞争对手，%\n-60\n-46\n-32\n-18\n0\n10\nRelative importance (3 - highest)\n0\n1\n2\n3\n价格\n一般营销\n设计师营销\n研发\n\n可用产品, 千单位\n需求\t285.00\n全球可用产品\t565.18\n全球未满足需求\t0.00\n全球期末库存\t140.18",
+  "scripts": [
+    "\n/*<![CDATA[*/\nWicket.Event.add(window, \"domready\", function(event) { \nWicket.Ajax.ajax({\"u\":\"./Decisions?27-1.0-panel-content-pricing~market~1~product~1-r-4-c-2-decision&panel=marketreportdomestic&sim=se\",\"m\":\"POST\",\"c\":\"decision17c8\",\"ep\":[{\"name\":\"decidx\",\"value\":\"d.prices.prod1.mark1\"}],\"dep\":[function(attrs){return {\"dvalx\": attrs.event.currentTarget.value,\"exvalx\": $('#decision17c8').attr('value')}}],\"e\":\"change\"});;\nWicket.Ajax.ajax({\"u\":\"./Decisions?27-1.0-panel-content-pricing~market~1~product~1-r-11-c-1-link&panel=marketreportdomestic&sim=se\",\"c\":\"link17c9\",\"e\":\"click\",\"pd\":true});;\nWicket.Ajax.ajax({\"u\":\"./Decisions?27-1.0-panel-content-pricing~market~1~product~1-r-12-c-2-decision&panel=marketreportdomestic&sim=se\",\"m\":\"POST\",\"c\":\"decision17ca\",\"ep\":[{\"name\":\"decidx\",\"value\":\"d.ad.prod1.mark1\"}],\"dep\":[function(attrs){return {\"dvalx\": attrs.event.currentTarget.value,\"exvalx\": $('#decision17ca').attr('value')}}],\"e\":\"change\"});;\nWicket.Ajax.ajax({\"u\":\"./Decisions?27-1.0-panel-content-pricing~market~1~product~1-r-13-c-2-decision&panel=marketreportdomestic&sim=se\",\"m\":\"POST\",\"c\":\"decision17cb\",\"ep\":[{\"name\":\"decidx\",\"value\":\"d.ps.prod1.mark1\"}],\"dep\":[function(attrs){return {\"dvalx\": attrs.event.currentTarget.value,\"exvalx\": $('#decision17cb').attr('value')}}],\"e\":\"change\"});;\nWicket.Ajax.ajax({\"u\":\"./Decisions?27-1.0-panel-content-pricing~market~1~product~1-r-15-c-1-link&panel=marketreportdomestic&sim=se\",\"c\":\"link17cc\",\"e\":\"click\",\"pd\":true});;\nChart.create(\"Graphs.Sales.Market1.Product1\", \"scatter\", {\"chart\":{\"yAxisName\":\"较于其他竞争对手，%\",\"xaxisminvalue\":\"0.00\",\"xAxisName\":\"Relative importance (3 - highest)\",\"yaxisminvalue\":\"-10.00\",\"caption\":\" \",\"yaxismaxvalue\":\"10.00\",\"xaxismaxvalue\":\"3.00\"},\"dataset\":[{\"seriesname\":\"价格\",\"data\":[{\"x\":3,\"y\":6.7911810397553785}]},{\"seriesname\":\"一般营销\",\"data\":[{\"x\":0.20424330982437544,\"y\":-16.717973384231577}]},{\"seriesname\":\"设计师营销\",\"data\":[{\"x\":0.3173327980924189,\"y\":-7.064789969646901}]},{\"seriesname\":\"研发\",\"data\":[{\"x\":0.8497097187378326,\"y\":-4.857385667246772}]}]}, \"cc-Graphs-Sales-Market1-Product1\");;\nWicket.Ajax.ajax({\"u\":\"./Decisions?27-1.0-panel-content-pricing~market~1~product~2-r-4-c-2-decision&panel=marketreportdomestic&sim=se\",\"m\":\"POST\",\"c\":\"decision17cd\",\"ep\":[{\"name\":\"decidx\",\"value\":\"d.prices.prod2.mark1\"}],\"dep\":[function(attrs){return {\"dvalx\": attrs.event.currentTarget.value,\"exvalx\": $('#decision17cd').attr('value')}}],\"e\":\"change\"});;\nWicket.Ajax.ajax({\"u\":\"./Decisions?27-1.0-panel-content-pricing~market~1~product~2-r-11-c-1-link&panel=marketreportdomestic&sim=se\",\"c\":\"link17ce\",\"e\":\"click\",\"pd\":true});;\nWicket.Ajax.ajax({\"u\":\"./Decisions?27-1.0-panel-content-pricing~market~1~product~2-r-12-c-2-decision&panel=marketreportdomestic&sim=se\",\"m\":\"POST\",\"c\":\"decision17cf\",\"ep\":[{\"name\":\"decidx\",\"value\":\"d.ad.prod2.mark1\"}],\"dep\":[function(attrs){return {\"dvalx\": attrs.event.currentTarget.value,\"exvalx\": $('#decision17cf').attr('value')}}],\"e\":\"change\"});;\nWicket.Ajax.ajax({\"u\":\"./Decisions?27-1.0-panel-content-pricing~market~1~product~2-r-13-c-2-decision&panel=marketreportdomestic&sim=se\",\"m\":\"POST\",\"c\":\"decision17d0\",\"ep\":[{\"name\":\"decidx\",\"value\":\"d.ps.prod1.mark5\"}],\"dep\":[function(attrs){return {\"dvalx\": attrs.event.currentTarget.value,\"exvalx\": $('#decision17d0').attr('value')}}],\"e\":\"change\"});;\nWicket.Ajax.ajax({\"u\":\"./Decisions?27-1.0-panel-content-pricing~market~1~product~2-r-15-c-1-link&panel=marketreportdomestic&sim=se\",\"c\":\"link17d1\",\"e\":\"click\",\"pd\":true});;\nChart.create(\"Graphs.Sales.Market1.Product2\", \"scatter\", {\"chart\":{\"yAxisName\":\"较于其他竞争对手，%\",\"xaxisminvalue\":\"0.00\",\"xAxisName\":\"Relative importance (3 - highest)\",\"yaxisminvalue\":\"-10.00\",\"caption\":\" \",\"yaxismaxvalue\":\"10.00\",\"xaxismaxvalue\":\"3.00\"},\"dataset\":[{\"seriesname\":\"价格\",\"data\":[{\"x\":3,\"y\":-59.72034884069257}]},{\"seriesname\":\"一般营销\",\"data\":[{\"x\":0.33289344969531526,\"y\":9.025700766005397}]},{\"seriesname\":\"设计师营销\",\"data\":[{\"x\":0.22045993028007538,\"y\":5.991287770536369}]},{\"seriesname\":\"研发\",\"data\":[{\"x\":0.5618618149505239,\"y\":0.037057387579753076}]}]}, \"cc-Graphs-Sales-Market1-Product2\");;\nWicket.Ajax.ajax({\"u\":\"./Decisions?27-1.0-panel-projections-view-content-r-47-c-1-link&panel=marketreportdomestic&sim=se\",\"c\":\"link17d2\",\"e\":\"click\",\"pd\":true});;\nWicket.Ajax.ajax({\"u\":\"./Decisions?27-1.0-panel-projections-top~ctrl-1-tabs-1-l&panel=marketreportdomestic&sim=se\",\"c\":\"l17d3\",\"e\":\"click\",\"pd\":true});;\nWicket.Ajax.ajax({\"u\":\"./Decisions?27-1.0-panel-projections-top~ctrl-1-tabs-2-l&panel=marketreportdomestic&sim=se\",\"c\":\"l17d4\",\"e\":\"click\",\"pd\":true});;\nWicket.Ajax.ajax({\"u\":\"./Decisions?27-1.0-panel-projections-top~ctrl-1-tabs-3-l&panel=marketreportdomestic&sim=se\",\"c\":\"l17d5\",\"e\":\"click\",\"pd\":true});;\nWicket.Ajax.ajax({\"u\":\"./Decisions?27-1.0-panel-projections-top~ctrl-1-tabs-4-l&panel=marketreportdomestic&sim=se\",\"c\":\"l17d6\",\"e\":\"click\",\"pd\":true});;\nWicket.Ajax.ajax({\"u\":\"./Decisions?27-1.0-main~menu-logout&panel=marketreportdomestic&sim=se\",\"c\":\"logout\",\"e\":\"click\",\"pd\":true});;\nWicket.Event.publish(Wicket.Event.Topic.AJAX_HANDLERS_BOUND);\n;});\n/*]]>*/\n"
+  ],
+  "svg": [
+    "<svg class=\"zgrvlqbfvsytxext\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" fill=\"rgba(255,255,255,1)\" aria-label=\"Navigation\">\n\t\t\t\t\t\t\t<path d=\"M6,10H26a1,1,0,0,0,0-2H6a1,1,0,0,0,0,2Z\"></path>\n\t\t\t\t\t\t\t<path d=\"M26,15H6a1,1,0,0,0,0,2H26a1,1,0,0,0,0-2Z\"></path>\n\t\t\t\t\t\t\t<path d=\"M26,22H6a1,1,0,0,0,0,2H26a1,1,0,0,0,0-2Z\"></path>\n\t\t\t\t\t\t</svg>",
+    "<svg class=\"projections-handle__icon\" width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-label=\"结果预估\">\n\t\t<path d=\"M4,13.5a.5.5,0,0,0-.5.5v6a.5.5,0,0,0,1,0V14A.5.5,0,0,0,4,13.5Z\"></path>\n\t\t<path d=\"M12,10.5a.5.5,0,0,0-.5.5v9a.5.5,0,0,0,1,0V11A.5.5,0,0,0,12,10.5Z\"></path>\n\t\t<path d=\"M8,7.5a.5.5,0,0,0-.5.5V20a.5.5,0,0,0,1,0V8A.5.5,0,0,0,8,7.5Z\"></path>\n\t\t<path d=\"M20,7.5a.5.5,0,0,0-.5.5V20a.5.5,0,0,0,1,0V8A.5.5,0,0,0,20,7.5Z\"></path>\n\t\t<path d=\"M16,3.5a.5.5,0,0,0-.5.5V20a.5.5,0,0,0,1,0V4A.5.5,0,0,0,16,3.5Z\"></path>\n\t</svg>",
+    "<svg class=\"projections-handle__icon-close\" width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-label=\"结果预估\">\n\t\t<path d=\"M12,2.5A9.5,9.5,0,1,0,21.5,12,9.51,9.51,0,0,0,12,2.5Zm0,18A8.5,8.5,0,1,1,20.5,12,8.51,8.51,0,0,1,12,20.5Z\"></path>\n\t\t<path d=\"M16.35,7.65a.48.48,0,0,0-.7,0L12,11.29,8.35,7.65a.49.49,0,0,0-.7.7L11.29,12,7.65,15.65a.48.48,0,0,0,0,.7.48.48,0,0,0,.7,0L12,12.71l3.65,3.64a.48.48,0,0,0,.7,0,.48.48,0,0,0,0-.7L12.71,12l3.64-3.65A.48.48,0,0,0,16.35,7.65Z\"></path>\n\t</svg>",
+    "<svg width=\"24\" height=\"24\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" aria-label=\"结果预估\">\n\t\t\t\t\t<path d=\"M12,2.5A9.5,9.5,0,1,0,21.5,12,9.51,9.51,0,0,0,12,2.5Zm0,18A8.5,8.5,0,1,1,20.5,12,8.51,8.51,0,0,1,12,20.5Z\"></path>\n\t\t\t\t\t<path d=\"M16.35,7.65a.48.48,0,0,0-.7,0L12,11.29,8.35,7.65a.49.49,0,0,0-.7.7L11.29,12,7.65,15.65a.48.48,0,0,0,0,.7.48.48,0,0,0,.7,0L12,12.71l3.65,3.64a.48.48,0,0,0,.7,0,.48.48,0,0,0,0-.7L12.71,12l3.64-3.65A.48.48,0,0,0,16.35,7.65Z\"></path>\n\t\t\t\t</svg>",
+    "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"#000000\" height=\"24\" viewBox=\"0 0 24 24\" width=\"24\">\n\t\t\t\t\t<path d=\"M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z\"></path>\n\t\t\t\t</svg>",
+    "<svg height=\"284\" version=\"1.1\" width=\"891\" xmlns=\"http://www.w3.org/2000/svg\" id=\"raphael-paper-6\" style=\"overflow: hidden; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); user-select: none; cursor: default; vertical-align: middle; position: relative; background-color: rgba(255, 255, 255, 0);\"><desc></desc><defs><clipPath id=\"rr-BFDB7E83-F500-4A8C-A347-04833C989123\"><rect x=\"43.4\" y=\"36.8\" width=\"844.6\" height=\"171.89999999999998\" transform=\"matrix(1,0,0,1,0,0)\"></rect></clipPath><clipPath id=\"rr-BCC5E2B3-18F2-4796-A666-96083F8B36B5\"><rect x=\"43.4\" y=\"36.8\" width=\"844.6\" height=\"171.89999999999998\" transform=\"matrix(1,0,0,1,0,0)\"></rect></clipPath><clipPath id=\"rr-C5B7671D-5145-44B9-B878-5E46A07BA112\"><rect x=\"43.4\" y=\"36.8\" width=\"844.6\" height=\"171.89999999999998\" transform=\"matrix(1,0,0,1,0,0)\"></rect></clipPath><clipPath id=\"rr-91CCFB77-590C-4EAF-BE52-A940E7FF4F60\"><rect x=\"43.4\" y=\"36.8\" width=\"844.6\" height=\"171.89999999999998\" transform=\"matrix(1,0,0,1,0,0)\"></rect></clipPath><clipPath id=\"rr-85384395-F359-4861-85BD-03ED12A83AC2\"><rect x=\"43.4\" y=\"36.8\" width=\"844.6\" height=\"171.89999999999998\" transform=\"matrix(1,0,0,1,0,0)\"></rect></clipPath><clipPath id=\"rr-52CDC813-4042-450E-95DE-0A4AE9BFBE67\"><rect x=\"43.4\" y=\"0\" width=\"844.6\" height=\"208.7\" transform=\"matrix(1,0,0,1,0,0)\"></rect></clipPath></defs><g class=\"raphael-group-7-parentgroup\"><g class=\"raphael-group-8-background\"><rect x=\"0\" y=\"0\" width=\"891\" height=\"284\" stroke=\"none\" fill-opacity=\"0.5\" fill=\"#ffffff\" ry=\"0\" rx=\"0\"></rect><rect x=\"0\" y=\"0\" width=\"891\" height=\"284\" stroke=\"#767575\" stroke-opacity=\"0.5\" stroke-width=\"0\" stroke-dasharray=\"none\" fill=\"none\" ry=\"0\" rx=\"0\"></rect></g><g class=\"raphael-group-32-canvas\"><rect x=\"42.4\" y=\"35.8\" width=\"846.6\" height=\"173.89999999999998\" ry=\"0\" rx=\"0\" stroke-width=\"2\" stroke=\"#ffffff\" stroke-opacity=\"1\" stroke-linejoin=\"miter\" fill=\"none\"></rect><rect x=\"43.4\" y=\"36.8\" width=\"844.6\" height=\"171.89999999999998\" ry=\"0\" rx=\"0\" stroke-width=\"0\" stroke=\"none\" fill-opacity=\"0.3\" fill=\"#eeeeee\"></rect></g><g class=\"raphael-group-9-axisbottom\"><g class=\"raphael-group-107-dataset-Name-group\"><g class=\"raphael-group-117-dataset-axis-name\"><text font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" font-weight=\"bold\" font-style=\"normal\" transform=\"matrix(0,-1,1,0,-115.55,129.95)\" fill-opacity=\"1\" fill=\"#555555\" x=\"7.199999999999999\" stroke=\"none\" text-anchor=\"middle\" y=\"126\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; font-size: 12px; font-weight: bold; font-style: normal; text-anchor: middle;\">较于其他竞争对手，%</text></g></g><g class=\"raphael-group-110-dataset-Label-group\"><g class=\"raphael-group-113-dataset-axis\" transform=\"matrix(1,0,0,1,0,0)\" font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" font-weight=\"normal\" font-style=\"normal\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; font-size: 12px; font-weight: normal; font-style: normal;\"><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#555555\" font-size=\"12px\" opacity=\"1\" text-anchor=\"end\" x=\"37.4\" stroke=\"none\" y=\"207\" style=\"font-size: 12px; text-anchor: end;\">-17</text><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#555555\" font-size=\"12px\" opacity=\"1\" text-anchor=\"end\" x=\"37.4\" stroke=\"none\" y=\"152\" style=\"font-size: 12px; text-anchor: end;\">-8</text><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#555555\" font-size=\"12px\" opacity=\"1\" text-anchor=\"end\" x=\"37.4\" stroke=\"none\" y=\"102\" style=\"font-size: 12px; text-anchor: end;\">0</text><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#555555\" font-size=\"12px\" opacity=\"1\" text-anchor=\"end\" x=\"37.4\" stroke=\"none\" y=\"40\" style=\"font-size: 12px; text-anchor: end;\">10</text></g></g><g class=\"raphael-group-118-axis-line-tick-bottom\"></g><g class=\"raphael-group-124-dataset-Name-group\"><g class=\"raphael-group-134-dataset-axis-name\"><text font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" font-weight=\"bold\" font-style=\"normal\" transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#555555\" x=\"465.7\" stroke=\"none\" text-anchor=\"middle\" y=\"245\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; font-size: 12px; font-weight: bold; font-style: normal; text-anchor: middle;\">Relative importance (3 - highest)</text></g></g><g class=\"raphael-group-127-dataset-Label-group\"><g class=\"raphael-group-130-dataset-axis\" transform=\"matrix(1,0,0,1,0,0)\" font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" font-weight=\"normal\" font-style=\"normal\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; font-size: 12px; font-weight: normal; font-style: normal;\"><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#000000\" opacity=\"1\" x=\"43.4\" text-anchor=\"middle\" stroke=\"none\" y=\"226\" style=\"text-anchor: middle;\">0</text><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#000000\" opacity=\"1\" x=\"322.9333333333333\" text-anchor=\"middle\" stroke=\"none\" y=\"226\" style=\"text-anchor: middle;\">1</text><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#000000\" opacity=\"1\" x=\"602.4666666666666\" text-anchor=\"middle\" stroke=\"none\" y=\"226\" style=\"text-anchor: middle;\">2</text><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#000000\" opacity=\"1\" x=\"882\" text-anchor=\"middle\" stroke=\"none\" y=\"226\" style=\"text-anchor: middle;\">3</text></g></g><g class=\"raphael-group-135-axis-line-tick-bottom\"></g></g><g class=\"raphael-group-34-axisReferenceVisualsFloor\" clip-path=\"url('#rr-BFDB7E83-F500-4A8C-A347-04833C989123')\"><rect fill-opacity=\"0.5\" fill=\"#eeeeee\" stroke-width=\"0\" x=\"43.4\" y=\"98.53909979767614\" width=\"844.6\" height=\"49.39127983814093\" ry=\"0\" rx=\"0\" stroke=\"#000000\"></rect><rect fill-opacity=\"0.5\" fill=\"#eeeeee\" stroke-width=\"0\" x=\"43.4\" y=\"36.80000000000001\" width=\"844.6\" height=\"55.56518981790853\" ry=\"0\" rx=\"0\" stroke=\"#000000\"></rect></g><g class=\"raphael-group-33-axisReferenceVisualsBottom\"><path stroke-dasharray=\"none\" stroke=\"#717170\" stroke-opacity=\"0.1\" stroke-width=\"1\" d=\"M43.4,147.5L888,147.5\" stroke-linecap=\"butt\" fill=\"none\"></path><path stroke-dasharray=\"none\" stroke=\"#717170\" stroke-opacity=\"0.1\" stroke-width=\"1\" d=\"M43.4,98.5L888,98.5\" stroke-linecap=\"butt\" fill=\"none\"></path><path stroke-dasharray=\"none\" stroke=\"#717170\" stroke-opacity=\"0.1\" stroke-width=\"1\" d=\"M43.4,92.5L888,92.5\" stroke-linecap=\"butt\" fill=\"none\"></path><path stroke=\"#717170\" stroke-opacity=\"0.4\" stroke-width=\"1\" stroke-dasharray=\"none\" d=\"M43.5,208.7L43.5,36.8\" stroke-linecap=\"butt\" fill=\"none\"></path><path stroke=\"#717170\" stroke-opacity=\"0.1\" stroke-width=\"1\" stroke-dasharray=\"none\" d=\"M322.5,208.7L322.5,36.8\" stroke-linecap=\"butt\" fill=\"none\"></path><path stroke=\"#717170\" stroke-opacity=\"0.1\" stroke-width=\"1\" stroke-dasharray=\"none\" d=\"M602.5,208.7L602.5,36.8\" stroke-linecap=\"butt\" fill=\"none\"></path><path stroke=\"#717170\" stroke-opacity=\"0.1\" stroke-width=\"1\" stroke-dasharray=\"none\" d=\"M882.5,208.7L882.5,36.8\" stroke-linecap=\"butt\" fill=\"none\"></path></g><g class=\"raphael-group-10-belowplot\"></g><g class=\"raphael-group-35-crossline\"></g><g class=\"raphael-group-36-crosslineBottom\"></g><g class=\"raphael-group-39-axisReferenceVisualsMiddle\" clip-path=\"url('#rr-BCC5E2B3-18F2-4796-A666-96083F8B36B5')\"></g><g class=\"raphael-group-41-quadrant\" clip-path=\"url('#rr-85384395-F359-4861-85BD-03ED12A83AC2')\"><g class=\"raphael-group-101-quadrant-child-container\" style=\"display: none;\"><g class=\"raphael-group-102-quadrantLineGroup\"></g><g class=\"raphael-group-103-quadrantTLGroup\"></g><g class=\"raphael-group-104-quadrantTRGroup\"></g><g class=\"raphael-group-105-quadrantBLGroup\"></g><g class=\"raphael-group-106-quadrantBRGroup\"></g></g></g><g class=\"raphael-group-11-plots\" clip-path=\"url('#rr-C5B7671D-5145-44B9-B878-5E46A07BA112')\"><g class=\"raphael-group-43-column-shadow-group\"><g class=\"raphael-group-62-vcanvas-column-shadow\" transform=\"matrix(1,0,0,1,0,0)\"></g></g><g class=\"raphael-group-44-column\"><g class=\"raphael-group-63-vcanvas-column-plot\" transform=\"matrix(1,0,0,1,0,0)\"><g class=\"raphael-group-71-columnTrendGroup\"></g></g></g><g class=\"raphael-group-45-area-shadow-group\"><g class=\"raphael-group-64-vcanvas-area-shadow\" transform=\"matrix(1,0,0,1,0,0)\"></g></g><g class=\"raphael-group-46-area\"><g class=\"raphael-group-65-vcanvas-area-plot\" transform=\"matrix(1,0,0,1,0,0)\"></g></g><g class=\"raphael-group-47-line-shadow-group\"><g class=\"raphael-group-66-vcanvas-line-shadow\" transform=\"matrix(1,0,0,1,0,0)\"><g class=\"raphael-group-73-shadow-group\"></g><g class=\"raphael-group-74-error-shadow-group\"></g><g class=\"raphael-group-80-shadow-group\"></g><g class=\"raphael-group-81-error-shadow-group\"></g><g class=\"raphael-group-87-shadow-group\"></g><g class=\"raphael-group-88-error-shadow-group\"></g><g class=\"raphael-group-94-shadow-group\"></g><g class=\"raphael-group-95-error-shadow-group\"></g></g></g><g class=\"raphael-group-48-line\"><g class=\"raphael-group-67-vcanvas-line-plot\" transform=\"matrix(1,0,0,1,0,0)\"><g class=\"raphael-group-75-common-elems-group\"></g><g class=\"raphael-group-76-plot-group\"><path d=\"M882,50.610959401921804L876.8038475772934,59.610959401921804L887.1961524227066,59.610959401921804Z\" fill-opacity=\"1\" fill=\"#ffffff\" stroke=\"#7cb342\" stroke-opacity=\"1\" stroke-width=\"2\" stroke-linecap=\"round\"></path></g><g class=\"raphael-group-77-error-plot-group\"></g><g class=\"raphael-group-82-common-elems-group\"></g><g class=\"raphael-group-83-plot-group\"><path d=\"M100.49281320624041,195.75436251607283L94.49281320624041,201.75436251607283L100.49281320624041,207.75436251607283L106.49281320624041,201.75436251607283Z\" fill-opacity=\"1\" fill=\"#ffffff\" stroke=\"#ffab40\" stroke-opacity=\"1\" stroke-width=\"2\" stroke-linecap=\"round\"></path></g><g class=\"raphael-group-84-error-plot-group\"></g><g class=\"raphael-group-89-common-elems-group\"></g><g class=\"raphael-group-90-plot-group\"><path d=\"M132.1050948267675,136.15647709624128L126.39875572899658,140.3023751299916L128.57838331301267,147.01057906249096L135.63180634052233,147.01057906249096L137.81143392453842,140.3023751299916Z\" fill-opacity=\"1\" fill=\"#ffffff\" stroke=\"#ed242d\" stroke-opacity=\"1\" stroke-width=\"2\" stroke-linecap=\"round\"></path></g><g class=\"raphael-group-91-error-plot-group\"></g><g class=\"raphael-group-96-common-elems-group\"></g><g class=\"raphael-group-97-plot-group\"><path d=\"M280.9221900445155,122.52816164427117L275.72603762180887,125.52816164427117L275.72603762180887,131.52816164427117L280.9221900445155,134.52816164427117L286.11834246722213,131.52816164427117L286.11834246722213,125.52816164427118Z\" fill-opacity=\"1\" fill=\"#ffffff\" stroke=\"#9c27b0\" stroke-opacity=\"1\" stroke-width=\"2\" stroke-linecap=\"round\"></path></g><g class=\"raphael-group-98-error-plot-group\"></g></g></g><g class=\"raphael-group-49-default-shadow-group\"><g class=\"raphael-group-68-vcanvas-default-shadow\" transform=\"matrix(1,0,0,1,0,0)\"></g></g><g class=\"raphael-group-50-default\"><g class=\"raphael-group-69-vcanvas-default-plot\" transform=\"matrix(1,0,0,1,0,0)\"></g></g></g><g class=\"raphael-group-12-axistop\"><g class=\"raphael-group-108-axis-Line-group\"><g class=\"raphael-group-112-scroller-container\"></g><g class=\"raphael-group-115-axis-line-tick\"></g></g><g class=\"raphael-group-109-dataset-Trend-group-top\"><g class=\"raphael-group-116-dataset-axis-trend-label\"></g></g><g class=\"raphael-group-111-dataset-Label-group\"><g class=\"raphael-group-114-dataset-top-label\" transform=\"matrix(1,0,0,1,0,0)\"></g></g><g class=\"raphael-group-125-axis-Line-group\"><g class=\"raphael-group-129-scroller-container\"></g><g class=\"raphael-group-132-axis-line-tick\"></g></g><g class=\"raphael-group-126-dataset-Trend-group-top\"><g class=\"raphael-group-133-dataset-axis-trend-label\"></g></g><g class=\"raphael-group-128-dataset-Label-group\"><g class=\"raphael-group-131-dataset-top-label\" transform=\"matrix(1,0,0,1,0,0)\"></g></g></g><g class=\"raphael-group-13-sumlabels fusioncharts-datalabels\" clip-path=\"url('#rr-52CDC813-4042-450E-95DE-0A4AE9BFBE67')\"><g class=\"raphael-group-72-vcanvas-sumLabelsLayer\" transform=\"matrix(1,0,0,1,0,0)\"></g></g><g class=\"raphael-group-40-axisReferenceVisualsTop\"></g><g class=\"raphael-group-42-axisReferenceVisualsCeil\"></g><g class=\"raphael-group-14-datalabel\" font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" font-weight=\"normal\" font-style=\"normal\" clip-path=\"url('#rr-91CCFB77-590C-4EAF-BE52-A940E7FF4F60')\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; font-size: 12px; font-weight: normal; font-style: normal;\"><g class=\"raphael-group-38-canvasdatalabel\"><g class=\"raphael-group-70-vcanvas-label\" transform=\"matrix(1,0,0,1,0,0)\"><g class=\"raphael-group-78-label-group fusioncharts-datalabels\"></g><g class=\"raphael-group-85-label-group fusioncharts-datalabels\"></g><g class=\"raphael-group-92-label-group fusioncharts-datalabels\"></g><g class=\"raphael-group-99-label-group fusioncharts-datalabels\"></g></g></g></g><g class=\"raphael-group-37-crosslineTop\"></g><g class=\"raphael-group-15-aboveplot\"></g><g class=\"raphael-group-16-caption\"><text fill-opacity=\"1\" fill=\"#333333\" x=\"465.3\" text-anchor=\"middle\" direction=\"\" stroke=\"none\" y=\"19\" font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"14px\" font-weight=\"bold\" style=\"text-anchor: middle; font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; font-size: 14px; font-weight: bold;\"> </text></g><g class=\"raphael-group-17-chartdefault\"></g><g class=\"raphael-group-18-chartdefault-shadow\"></g><g class=\"raphael-group-19-tracker\"></g><g class=\"raphael-group-20-toolbar-master\"><g class=\"raphael-group-26-toolbar\"><rect fill-opacity=\"0\" fill=\"#eeeeee\" stroke=\"#eeeeee\" stroke-opacity=\"0\" stroke-width=\"1\" width=\"22.25\" height=\"22.25\" x=\"858.75\" y=\"6\" ry=\"0\" rx=\"0\"></rect><g class=\"raphael-group-28-button\" stroke-linecap=\"round\"><rect x=\"861.5\" y=\"8.5\" width=\"17\" height=\"17\" ry=\"2.3\" rx=\"2.3\" fill=\"#ffffff\" stroke=\"#bbbbbb\" stroke-width=\"1\" fill-opacity=\"1\" stroke-opacity=\"1\"></rect><path d=\"M865.8,17L874.2,17M865.8,20L874.2,20M865.8,14L874.2,14\" fill=\"#ffffff\" stroke=\"#9a9a9a\" stroke-linecap=\"round\" fill-opacity=\"1\" stroke-opacity=\"1\" stroke-width=\"1\"></path><rect x=\"861.5\" y=\"8.5\" width=\"17\" height=\"17\" ry=\"2.3\" rx=\"2.3\" fill=\"#c0c0c0\" stroke=\"#c0c0c0\" fill-opacity=\"0.000001\" stroke-opacity=\"0.000001\" stroke-width=\"1\" style=\"cursor: pointer;\"></rect></g></g></g><g class=\"raphael-group-22-legend\"><g class=\"raphael-group-141-legendGroup\" transform=\"matrix(1,0,0,1,318.5,257.5)\"><rect x=\"0\" y=\"0\" width=\"295\" height=\"27\" ry=\"0\" rx=\"0\" stroke=\"#ffffff\" stroke-opacity=\"1\" stroke-width=\"1\" fill-opacity=\"0\" fill=\"#ffffff\" style=\"cursor: default;\"></rect><g class=\"raphael-group-143-item\" transform=\"matrix(1,0,0,1,0,0)\"><text fill-opacity=\"1\" fill=\"#555555\" font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" text-anchor=\"start\" direction=\"initial\" font-weight=\"normal\" x=\"25\" stroke=\"none\" y=\"17\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; cursor: pointer; font-size: 12px; text-anchor: start; font-weight: normal;\">价格</text><path d=\"M13.5,7L7.8708348754011475,16.75L19.12916512459885,16.750000000000004Z\" stroke=\"#7cb342\" fill-opacity=\"1\" fill=\"#ffffff\" stroke-width=\"2\" opacity=\"1\" stroke-linecap=\"round\" style=\"cursor: pointer;\"></path><rect x=\"4\" y=\"4\" width=\"48\" height=\"19\" ry=\"0\" rx=\"0\" fill-opacity=\"0.000001\" fill=\"#c0c0c0\" opacity=\"1\" stroke-width=\"1\" stroke=\"none\" style=\"cursor: pointer;\"></rect><text fill-opacity=\"1\" fill=\"#555555\" font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" text-anchor=\"start\" direction=\"initial\" font-weight=\"normal\" x=\"83.95\" stroke=\"none\" y=\"17\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; cursor: pointer; font-size: 12px; text-anchor: start; font-weight: normal;\">一般营销</text><path d=\"M72.45,7L65.95,13.5L72.45,20L78.95,13.500000000000002Z\" stroke=\"#ffab40\" fill-opacity=\"1\" fill=\"#ffffff\" stroke-width=\"2\" opacity=\"1\" stroke-linecap=\"round\" style=\"cursor: pointer;\"></path><rect x=\"62.95\" y=\"4\" width=\"72\" height=\"19\" ry=\"0\" rx=\"0\" fill-opacity=\"0.000001\" fill=\"#c0c0c0\" opacity=\"1\" stroke-width=\"1\" stroke=\"none\" style=\"cursor: pointer;\"></rect><text fill-opacity=\"1\" fill=\"#555555\" font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" text-anchor=\"start\" direction=\"initial\" font-weight=\"normal\" x=\"166.9\" stroke=\"none\" y=\"17\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; cursor: pointer; font-size: 12px; text-anchor: start; font-weight: normal;\">设计师营销</text><path d=\"M155.4,7L149.21813264408152,11.491389536562842L151.57939586009894,18.758610463437158L159.22060413990107,18.758610463437158L161.58186735591852,11.491389536562844Z\" stroke=\"#ed242d\" fill-opacity=\"1\" fill=\"#ffffff\" stroke-width=\"2\" opacity=\"1\" stroke-linecap=\"round\" style=\"cursor: pointer;\"></path><rect x=\"145.9\" y=\"4\" width=\"84\" height=\"19\" ry=\"0\" rx=\"0\" fill-opacity=\"0.000001\" fill=\"#c0c0c0\" opacity=\"1\" stroke-width=\"1\" stroke=\"none\" style=\"cursor: pointer;\"></rect><text fill-opacity=\"1\" fill=\"#555555\" font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" text-anchor=\"start\" direction=\"initial\" font-weight=\"normal\" x=\"261.85\" stroke=\"none\" y=\"17\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; cursor: pointer; font-size: 12px; text-anchor: start; font-weight: normal;\">研发</text><path d=\"M250.35000000000002,7L244.72083487540118,10.249999999999998L244.72083487540118,16.749999999999996L250.35000000000002,20L255.97916512459886,16.750000000000007L255.9791651245989,10.25000000000001Z\" stroke=\"#9c27b0\" fill-opacity=\"1\" fill=\"#ffffff\" stroke-width=\"2\" opacity=\"1\" stroke-linecap=\"round\" style=\"cursor: pointer;\"></path><rect x=\"240.85000000000002\" y=\"4\" width=\"48\" height=\"19\" ry=\"0\" rx=\"0\" fill-opacity=\"0.000001\" fill=\"#c0c0c0\" opacity=\"1\" stroke-width=\"1\" stroke=\"none\" style=\"cursor: pointer;\"></rect></g></g></g></g><g class=\"raphael-group-21-logo\"></g></svg>",
+    "<svg height=\"284\" version=\"1.1\" width=\"891\" xmlns=\"http://www.w3.org/2000/svg\" id=\"raphael-paper-156\" style=\"overflow: hidden; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); user-select: none; cursor: default; vertical-align: middle; position: relative; top: -0.400024px; background-color: rgba(255, 255, 255, 0);\"><desc></desc><defs><clipPath id=\"rr-6FD59654-1207-4296-AB9C-1D0244E12994\"><rect x=\"43.4\" y=\"36.8\" width=\"844.6\" height=\"171.89999999999998\" transform=\"matrix(1,0,0,1,0,0)\"></rect></clipPath><clipPath id=\"rr-975A587B-5749-44C5-AC26-B582C6C782CF\"><rect x=\"43.4\" y=\"36.8\" width=\"844.6\" height=\"171.89999999999998\" transform=\"matrix(1,0,0,1,0,0)\"></rect></clipPath><clipPath id=\"rr-36C82D40-3309-4676-BEB3-E2E3CD0C3005\"><rect x=\"43.4\" y=\"36.8\" width=\"844.6\" height=\"171.89999999999998\" transform=\"matrix(1,0,0,1,0,0)\"></rect></clipPath><clipPath id=\"rr-377D1340-D473-440B-9D2C-3ABDBE9EE4D9\"><rect x=\"43.4\" y=\"36.8\" width=\"844.6\" height=\"171.89999999999998\" transform=\"matrix(1,0,0,1,0,0)\"></rect></clipPath><clipPath id=\"rr-D71C5554-73CC-4DA9-8849-A035D9C2EC00\"><rect x=\"43.4\" y=\"36.8\" width=\"844.6\" height=\"171.89999999999998\" transform=\"matrix(1,0,0,1,0,0)\"></rect></clipPath><clipPath id=\"rr-F99BF36A-7A32-459D-AF6C-1D800F0F4558\"><rect x=\"43.4\" y=\"0\" width=\"844.6\" height=\"208.7\" transform=\"matrix(1,0,0,1,0,0)\"></rect></clipPath></defs><g class=\"raphael-group-157-parentgroup\"><g class=\"raphael-group-158-background\"><rect x=\"0\" y=\"0\" width=\"891\" height=\"284\" stroke=\"none\" fill-opacity=\"0.5\" fill=\"#ffffff\" ry=\"0\" rx=\"0\"></rect><rect x=\"0\" y=\"0\" width=\"891\" height=\"284\" stroke=\"#767575\" stroke-opacity=\"0.5\" stroke-width=\"0\" stroke-dasharray=\"none\" fill=\"none\" ry=\"0\" rx=\"0\"></rect></g><g class=\"raphael-group-182-canvas\"><rect x=\"42.4\" y=\"35.8\" width=\"846.6\" height=\"173.89999999999998\" ry=\"0\" rx=\"0\" stroke-width=\"2\" stroke=\"#ffffff\" stroke-opacity=\"1\" stroke-linejoin=\"miter\" fill=\"none\"></rect><rect x=\"43.4\" y=\"36.8\" width=\"844.6\" height=\"171.89999999999998\" ry=\"0\" rx=\"0\" stroke-width=\"0\" stroke=\"none\" fill-opacity=\"0.3\" fill=\"#eeeeee\"></rect></g><g class=\"raphael-group-159-axisbottom\"><g class=\"raphael-group-260-dataset-Name-group\"><g class=\"raphael-group-270-dataset-axis-name\"><text font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" font-weight=\"bold\" font-style=\"normal\" transform=\"matrix(0,-1,1,0,-115.55,129.95)\" fill-opacity=\"1\" fill=\"#555555\" x=\"7.199999999999999\" stroke=\"none\" text-anchor=\"middle\" y=\"126\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; font-size: 12px; font-weight: bold; font-style: normal; text-anchor: middle;\">较于其他竞争对手，%</text></g></g><g class=\"raphael-group-263-dataset-Label-group\"><g class=\"raphael-group-266-dataset-axis\" transform=\"matrix(1,0,0,1,0,0)\" font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" font-weight=\"normal\" font-style=\"normal\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; font-size: 12px; font-weight: normal; font-style: normal;\"><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#555555\" font-size=\"12px\" opacity=\"1\" text-anchor=\"end\" x=\"37.4\" stroke=\"none\" y=\"206\" style=\"font-size: 12px; text-anchor: end;\">-60</text><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#555555\" font-size=\"12px\" opacity=\"1\" text-anchor=\"end\" x=\"37.4\" stroke=\"none\" y=\"174\" style=\"font-size: 12px; text-anchor: end;\">-46</text><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#555555\" font-size=\"12px\" opacity=\"1\" text-anchor=\"end\" x=\"37.4\" stroke=\"none\" y=\"142\" style=\"font-size: 12px; text-anchor: end;\">-32</text><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#555555\" font-size=\"12px\" opacity=\"1\" text-anchor=\"end\" x=\"37.4\" stroke=\"none\" y=\"109\" style=\"font-size: 12px; text-anchor: end;\">-18</text><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#555555\" font-size=\"12px\" opacity=\"1\" text-anchor=\"end\" x=\"37.4\" stroke=\"none\" y=\"68\" style=\"font-size: 12px; text-anchor: end;\">0</text><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#555555\" font-size=\"12px\" opacity=\"1\" text-anchor=\"end\" x=\"37.4\" stroke=\"none\" y=\"45\" style=\"font-size: 12px; text-anchor: end;\">10</text></g></g><g class=\"raphael-group-271-axis-line-tick-bottom\"></g><g class=\"raphael-group-279-dataset-Name-group\"><g class=\"raphael-group-289-dataset-axis-name\"><text font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" font-weight=\"bold\" font-style=\"normal\" transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#555555\" x=\"465.7\" stroke=\"none\" text-anchor=\"middle\" y=\"245\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; font-size: 12px; font-weight: bold; font-style: normal; text-anchor: middle;\">Relative importance (3 - highest)</text></g></g><g class=\"raphael-group-282-dataset-Label-group\"><g class=\"raphael-group-285-dataset-axis\" transform=\"matrix(1,0,0,1,0,0)\" font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" font-weight=\"normal\" font-style=\"normal\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; font-size: 12px; font-weight: normal; font-style: normal;\"><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#000000\" opacity=\"1\" x=\"43.4\" text-anchor=\"middle\" stroke=\"none\" y=\"226\" style=\"text-anchor: middle;\">0</text><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#000000\" opacity=\"1\" x=\"322.9333333333333\" text-anchor=\"middle\" stroke=\"none\" y=\"226\" style=\"text-anchor: middle;\">1</text><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#000000\" opacity=\"1\" x=\"602.4666666666666\" text-anchor=\"middle\" stroke=\"none\" y=\"226\" style=\"text-anchor: middle;\">2</text><text transform=\"matrix(1,0,0,1,0,0)\" fill-opacity=\"1\" fill=\"#000000\" opacity=\"1\" x=\"882\" text-anchor=\"middle\" stroke=\"none\" y=\"226\" style=\"text-anchor: middle;\">3</text></g></g><g class=\"raphael-group-290-axis-line-tick-bottom\"></g></g><g class=\"raphael-group-184-axisReferenceVisualsFloor\" clip-path=\"url('#rr-6FD59654-1207-4296-AB9C-1D0244E12994')\"><rect fill-opacity=\"0.5\" fill=\"#eeeeee\" stroke-width=\"0\" x=\"43.4\" y=\"137.99500578916428\" width=\"844.6\" height=\"32.19586877888176\" ry=\"0\" rx=\"0\" stroke=\"#000000\"></rect><rect fill-opacity=\"0.5\" fill=\"#eeeeee\" stroke-width=\"0\" x=\"43.4\" y=\"73.60326823140073\" width=\"844.6\" height=\"32.195868778881774\" ry=\"0\" rx=\"0\" stroke=\"#000000\"></rect><rect fill-opacity=\"0.5\" fill=\"#eeeeee\" stroke-width=\"0\" x=\"43.4\" y=\"41.40739945251897\" width=\"844.6\" height=\"22.997049127772698\" ry=\"0\" rx=\"0\" stroke=\"#000000\"></rect></g><g class=\"raphael-group-183-axisReferenceVisualsBottom\"><path stroke-dasharray=\"none\" stroke=\"#717170\" stroke-opacity=\"0.1\" stroke-width=\"1\" d=\"M43.4,170.5L888,170.5\" stroke-linecap=\"butt\" fill=\"none\"></path><path stroke-dasharray=\"none\" stroke=\"#717170\" stroke-opacity=\"0.1\" stroke-width=\"1\" d=\"M43.4,137.5L888,137.5\" stroke-linecap=\"butt\" fill=\"none\"></path><path stroke-dasharray=\"none\" stroke=\"#717170\" stroke-opacity=\"0.1\" stroke-width=\"1\" d=\"M43.4,105.5L888,105.5\" stroke-linecap=\"butt\" fill=\"none\"></path><path stroke-dasharray=\"none\" stroke=\"#717170\" stroke-opacity=\"0.1\" stroke-width=\"1\" d=\"M43.4,73.5L888,73.5\" stroke-linecap=\"butt\" fill=\"none\"></path><path stroke-dasharray=\"none\" stroke=\"#717170\" stroke-opacity=\"0.1\" stroke-width=\"1\" d=\"M43.4,64.5L888,64.5\" stroke-linecap=\"butt\" fill=\"none\"></path><path stroke=\"#717170\" stroke-opacity=\"0.4\" stroke-width=\"1\" stroke-dasharray=\"none\" d=\"M43.5,208.7L43.5,36.8\" stroke-linecap=\"butt\" fill=\"none\"></path><path stroke=\"#717170\" stroke-opacity=\"0.1\" stroke-width=\"1\" stroke-dasharray=\"none\" d=\"M322.5,208.7L322.5,36.8\" stroke-linecap=\"butt\" fill=\"none\"></path><path stroke=\"#717170\" stroke-opacity=\"0.1\" stroke-width=\"1\" stroke-dasharray=\"none\" d=\"M602.5,208.7L602.5,36.8\" stroke-linecap=\"butt\" fill=\"none\"></path><path stroke=\"#717170\" stroke-opacity=\"0.1\" stroke-width=\"1\" stroke-dasharray=\"none\" d=\"M882.5,208.7L882.5,36.8\" stroke-linecap=\"butt\" fill=\"none\"></path></g><g class=\"raphael-group-160-belowplot\"></g><g class=\"raphael-group-185-crossline\"></g><g class=\"raphael-group-186-crosslineBottom\"></g><g class=\"raphael-group-189-axisReferenceVisualsMiddle\" clip-path=\"url('#rr-975A587B-5749-44C5-AC26-B582C6C782CF')\"></g><g class=\"raphael-group-191-quadrant\" clip-path=\"url('#rr-D71C5554-73CC-4DA9-8849-A035D9C2EC00')\"><g class=\"raphael-group-254-quadrant-child-container\" style=\"display: none;\"><g class=\"raphael-group-255-quadrantLineGroup\"></g><g class=\"raphael-group-256-quadrantTLGroup\"></g><g class=\"raphael-group-257-quadrantTRGroup\"></g><g class=\"raphael-group-258-quadrantBLGroup\"></g><g class=\"raphael-group-259-quadrantBRGroup\"></g></g></g><g class=\"raphael-group-161-plots\" clip-path=\"url('#rr-36C82D40-3309-4676-BEB3-E2E3CD0C3005')\"><g class=\"raphael-group-193-column-shadow-group\"><g class=\"raphael-group-215-vcanvas-column-shadow\" transform=\"matrix(1,0,0,1,0,0)\"></g></g><g class=\"raphael-group-194-column\"><g class=\"raphael-group-216-vcanvas-column-plot\" transform=\"matrix(1,0,0,1,0,0)\"><g class=\"raphael-group-224-columnTrendGroup\"></g></g></g><g class=\"raphael-group-195-area-shadow-group\"><g class=\"raphael-group-217-vcanvas-area-shadow\" transform=\"matrix(1,0,0,1,0,0)\"></g></g><g class=\"raphael-group-196-area\"><g class=\"raphael-group-218-vcanvas-area-plot\" transform=\"matrix(1,0,0,1,0,0)\"></g></g><g class=\"raphael-group-197-line-shadow-group\"><g class=\"raphael-group-219-vcanvas-line-shadow\" transform=\"matrix(1,0,0,1,0,0)\"><g class=\"raphael-group-226-shadow-group\"></g><g class=\"raphael-group-227-error-shadow-group\"></g><g class=\"raphael-group-233-shadow-group\"></g><g class=\"raphael-group-234-error-shadow-group\"></g><g class=\"raphael-group-240-shadow-group\"></g><g class=\"raphael-group-241-error-shadow-group\"></g><g class=\"raphael-group-247-shadow-group\"></g><g class=\"raphael-group-248-error-shadow-group\"></g></g></g><g class=\"raphael-group-198-line\"><g class=\"raphael-group-220-vcanvas-line-plot\" transform=\"matrix(1,0,0,1,0,0)\"><g class=\"raphael-group-228-common-elems-group\"></g><g class=\"raphael-group-229-plot-group\"><path d=\"M882,195.74362820200466L876.8038475772934,204.74362820200466L887.1961524227066,204.74362820200466Z\" fill-opacity=\"1\" fill=\"#ffffff\" stroke=\"#7cb342\" stroke-opacity=\"1\" stroke-width=\"2\" stroke-linecap=\"round\"></path></g><g class=\"raphael-group-230-error-plot-group\"></g><g class=\"raphael-group-235-common-elems-group\"></g><g class=\"raphael-group-236-plot-group\"><path d=\"M136.4548156381638,37.64800018745149L130.4548156381638,43.64800018745149L136.4548156381638,49.64800018745149L142.4548156381638,43.64800018745149Z\" fill-opacity=\"1\" fill=\"#ffffff\" stroke=\"#ffab40\" stroke-opacity=\"1\" stroke-width=\"2\" stroke-linecap=\"round\"></path></g><g class=\"raphael-group-237-error-plot-group\"></g><g class=\"raphael-group-242-common-elems-group\"></g><g class=\"raphael-group-243-plot-group\"><path d=\"M105.02589917762374,44.6262546605268L99.31956007985282,48.77215269427711L101.49918766386891,55.480356626776484L108.55261069137858,55.480356626776484L110.73223827539466,48.77215269427711Z\" fill-opacity=\"1\" fill=\"#ffffff\" stroke=\"#ed242d\" stroke-opacity=\"1\" stroke-width=\"2\" stroke-linecap=\"round\"></path></g><g class=\"raphael-group-244-error-plot-group\"></g><g class=\"raphael-group-249-common-elems-group\"></g><g class=\"raphael-group-250-plot-group\"><path d=\"M200.45910600583647,58.31922752401982L195.26295358312984,61.31922752401982L195.26295358312984,67.31922752401982L200.45910600583647,70.31922752401982L205.6552584285431,67.31922752401982L205.6552584285431,61.31922752401983Z\" fill-opacity=\"1\" fill=\"#ffffff\" stroke=\"#9c27b0\" stroke-opacity=\"1\" stroke-width=\"2\" stroke-linecap=\"round\"></path></g><g class=\"raphael-group-251-error-plot-group\"></g></g></g><g class=\"raphael-group-199-default-shadow-group\"><g class=\"raphael-group-221-vcanvas-default-shadow\" transform=\"matrix(1,0,0,1,0,0)\"></g></g><g class=\"raphael-group-200-default\"><g class=\"raphael-group-222-vcanvas-default-plot\" transform=\"matrix(1,0,0,1,0,0)\"></g></g></g><g class=\"raphael-group-162-axistop\"><g class=\"raphael-group-261-axis-Line-group\"><g class=\"raphael-group-265-scroller-container\"></g><g class=\"raphael-group-268-axis-line-tick\"></g></g><g class=\"raphael-group-262-dataset-Trend-group-top\"><g class=\"raphael-group-269-dataset-axis-trend-label\"></g></g><g class=\"raphael-group-264-dataset-Label-group\"><g class=\"raphael-group-267-dataset-top-label\" transform=\"matrix(1,0,0,1,0,0)\"></g></g><g class=\"raphael-group-280-axis-Line-group\"><g class=\"raphael-group-284-scroller-container\"></g><g class=\"raphael-group-287-axis-line-tick\"></g></g><g class=\"raphael-group-281-dataset-Trend-group-top\"><g class=\"raphael-group-288-dataset-axis-trend-label\"></g></g><g class=\"raphael-group-283-dataset-Label-group\"><g class=\"raphael-group-286-dataset-top-label\" transform=\"matrix(1,0,0,1,0,0)\"></g></g></g><g class=\"raphael-group-163-sumlabels fusioncharts-datalabels\" clip-path=\"url('#rr-F99BF36A-7A32-459D-AF6C-1D800F0F4558')\"><g class=\"raphael-group-225-vcanvas-sumLabelsLayer\" transform=\"matrix(1,0,0,1,0,0)\"></g></g><g class=\"raphael-group-190-axisReferenceVisualsTop\"></g><g class=\"raphael-group-192-axisReferenceVisualsCeil\"></g><g class=\"raphael-group-164-datalabel\" font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" font-weight=\"normal\" font-style=\"normal\" clip-path=\"url('#rr-377D1340-D473-440B-9D2C-3ABDBE9EE4D9')\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; font-size: 12px; font-weight: normal; font-style: normal;\"><g class=\"raphael-group-188-canvasdatalabel\"><g class=\"raphael-group-223-vcanvas-label\" transform=\"matrix(1,0,0,1,0,0)\"><g class=\"raphael-group-231-label-group fusioncharts-datalabels\"></g><g class=\"raphael-group-238-label-group fusioncharts-datalabels\"></g><g class=\"raphael-group-245-label-group fusioncharts-datalabels\"></g><g class=\"raphael-group-252-label-group fusioncharts-datalabels\"></g></g></g></g><g class=\"raphael-group-187-crosslineTop\"></g><g class=\"raphael-group-165-aboveplot\"></g><g class=\"raphael-group-166-caption\"><text fill-opacity=\"1\" fill=\"#333333\" x=\"465.3\" text-anchor=\"middle\" direction=\"\" stroke=\"none\" y=\"19\" font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"14px\" font-weight=\"bold\" style=\"text-anchor: middle; font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; font-size: 14px; font-weight: bold;\"> </text></g><g class=\"raphael-group-167-chartdefault\"></g><g class=\"raphael-group-168-chartdefault-shadow\"></g><g class=\"raphael-group-169-tracker\"></g><g class=\"raphael-group-170-toolbar-master\"><g class=\"raphael-group-176-toolbar\"><rect fill-opacity=\"0\" fill=\"#eeeeee\" stroke=\"#eeeeee\" stroke-opacity=\"0\" stroke-width=\"1\" width=\"22.25\" height=\"22.25\" x=\"858.75\" y=\"6\" ry=\"0\" rx=\"0\"></rect><g class=\"raphael-group-178-button\" stroke-linecap=\"round\"><rect x=\"861.5\" y=\"8.5\" width=\"17\" height=\"17\" ry=\"2.3\" rx=\"2.3\" fill=\"#ffffff\" stroke=\"#bbbbbb\" stroke-width=\"1\" fill-opacity=\"1\" stroke-opacity=\"1\"></rect><path d=\"M865.8,17L874.2,17M865.8,20L874.2,20M865.8,14L874.2,14\" fill=\"#ffffff\" stroke=\"#9a9a9a\" stroke-linecap=\"round\" fill-opacity=\"1\" stroke-opacity=\"1\" stroke-width=\"1\"></path><rect x=\"861.5\" y=\"8.5\" width=\"17\" height=\"17\" ry=\"2.3\" rx=\"2.3\" fill=\"#c0c0c0\" stroke=\"#c0c0c0\" fill-opacity=\"0.000001\" stroke-opacity=\"0.000001\" stroke-width=\"1\" style=\"cursor: pointer;\"></rect></g></g></g><g class=\"raphael-group-172-legend\"><g class=\"raphael-group-296-legendGroup\" transform=\"matrix(1,0,0,1,318.5,257.5)\"><rect x=\"0\" y=\"0\" width=\"295\" height=\"27\" ry=\"0\" rx=\"0\" stroke=\"#ffffff\" stroke-opacity=\"1\" stroke-width=\"1\" fill-opacity=\"0\" fill=\"#ffffff\" style=\"cursor: default;\"></rect><g class=\"raphael-group-298-item\" transform=\"matrix(1,0,0,1,0,0)\"><text fill-opacity=\"1\" fill=\"#555555\" font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" text-anchor=\"start\" direction=\"initial\" font-weight=\"normal\" x=\"25\" stroke=\"none\" y=\"17\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; cursor: pointer; font-size: 12px; text-anchor: start; font-weight: normal;\">价格</text><path d=\"M13.5,7L7.8708348754011475,16.75L19.12916512459885,16.750000000000004Z\" stroke=\"#7cb342\" fill-opacity=\"1\" fill=\"#ffffff\" stroke-width=\"2\" opacity=\"1\" stroke-linecap=\"round\" style=\"cursor: pointer;\"></path><rect x=\"4\" y=\"4\" width=\"48\" height=\"19\" ry=\"0\" rx=\"0\" fill-opacity=\"0.000001\" fill=\"#c0c0c0\" opacity=\"1\" stroke-width=\"1\" stroke=\"none\" style=\"cursor: pointer;\"></rect><text fill-opacity=\"1\" fill=\"#555555\" font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" text-anchor=\"start\" direction=\"initial\" font-weight=\"normal\" x=\"83.95\" stroke=\"none\" y=\"17\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; cursor: pointer; font-size: 12px; text-anchor: start; font-weight: normal;\">一般营销</text><path d=\"M72.45,7L65.95,13.5L72.45,20L78.95,13.500000000000002Z\" stroke=\"#ffab40\" fill-opacity=\"1\" fill=\"#ffffff\" stroke-width=\"2\" opacity=\"1\" stroke-linecap=\"round\" style=\"cursor: pointer;\"></path><rect x=\"62.95\" y=\"4\" width=\"72\" height=\"19\" ry=\"0\" rx=\"0\" fill-opacity=\"0.000001\" fill=\"#c0c0c0\" opacity=\"1\" stroke-width=\"1\" stroke=\"none\" style=\"cursor: pointer;\"></rect><text fill-opacity=\"1\" fill=\"#555555\" font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" text-anchor=\"start\" direction=\"initial\" font-weight=\"normal\" x=\"166.9\" stroke=\"none\" y=\"17\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; cursor: pointer; font-size: 12px; text-anchor: start; font-weight: normal;\">设计师营销</text><path d=\"M155.4,7L149.21813264408152,11.491389536562842L151.57939586009894,18.758610463437158L159.22060413990107,18.758610463437158L161.58186735591852,11.491389536562844Z\" stroke=\"#ed242d\" fill-opacity=\"1\" fill=\"#ffffff\" stroke-width=\"2\" opacity=\"1\" stroke-linecap=\"round\" style=\"cursor: pointer;\"></path><rect x=\"145.9\" y=\"4\" width=\"84\" height=\"19\" ry=\"0\" rx=\"0\" fill-opacity=\"0.000001\" fill=\"#c0c0c0\" opacity=\"1\" stroke-width=\"1\" stroke=\"none\" style=\"cursor: pointer;\"></rect><text fill-opacity=\"1\" fill=\"#555555\" font-family=\"-apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif\" font-size=\"12px\" text-anchor=\"start\" direction=\"initial\" font-weight=\"normal\" x=\"261.85\" stroke=\"none\" y=\"17\" style=\"font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Open Sans&quot;, &quot;Helvetica Neue&quot;, &quot;Segoe UI&quot;, sans-serif; cursor: pointer; font-size: 12px; text-anchor: start; font-weight: normal;\">研发</text><path d=\"M250.35000000000002,7L244.72083487540118,10.249999999999998L244.72083487540118,16.749999999999996L250.35000000000002,20L255.97916512459886,16.750000000000007L255.9791651245989,10.25000000000001Z\" stroke=\"#9c27b0\" fill-opacity=\"1\" fill=\"#ffffff\" stroke-width=\"2\" opacity=\"1\" stroke-linecap=\"round\" style=\"cursor: pointer;\"></path><rect x=\"240.85000000000002\" y=\"4\" width=\"48\" height=\"19\" ry=\"0\" rx=\"0\" fill-opacity=\"0.000001\" fill=\"#c0c0c0\" opacity=\"1\" stroke-width=\"1\" stroke=\"none\" style=\"cursor: pointer;\"></rect></g></g></g></g><g class=\"raphael-group-171-logo\"></g></svg>"
+  ],
+  "tables": [
+    [
+      [
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    [
+      [
+        "复合梁"
+      ],
+      [
+        " ",
+        "今年",
+        "收入占比%",
+        "Δ %",
+        "去年"
+      ],
+      [
+        "预计销售额, 千单位",
+        "4.47",
+        "-",
+        "+26",
+        "3.54"
+      ],
+      [
+        "每单位价格, 美元",
+        "",
+        "-",
+        "+0",
+        "1 860.0"
+      ],
+      [
+        "总收入, 千 美元",
+        "8 314",
+        "100",
+        "+26",
+        "6 593"
+      ],
+      [
+        "已销售产品成本, 千 美元"
+      ],
+      [
+        "原材料",
+        "3 089",
+        "37",
+        "-17",
+        "3 738"
+      ],
+      [
+        "生产工资",
+        "1 268",
+        "15",
+        "+84",
+        "688"
+      ],
+      [
+        "运输",
+        "134",
+        "2",
+        "+26",
+        "106"
+      ],
+      [
+        "毛利",
+        "3 824",
+        "46",
+        "+86",
+        "2 061"
+      ],
+      [
+        "营销, 千 美元"
+      ],
+      [
+        "一般营销",
+        "",
+        "1",
+        "+0",
+        "100"
+      ],
+      [
+        "设计师营销",
+        "",
+        "5",
+        "+0",
+        "375"
+      ],
+      [
+        "产品层面税息折旧及摊销前利润 EBITDA",
+        "3 349",
+        "40",
+        "+111",
+        "1 586"
+      ],
+      [
+        "需求乘数"
+      ],
+      [
+        "较于其他竞争对手，%\n-17\n-8\n0\n10\nRelative importance (3 - highest)\n0\n1\n2\n3\n价格\n一般营销\n设计师营销\n研发"
+      ],
+      [
+        "可用产品, 千单位"
+      ],
+      [
+        "需求",
+        "4.47"
+      ],
+      [
+        "全球可用产品",
+        "16.67"
+      ],
+      [
+        "全球未满足需求",
+        "0.00"
+      ],
+      [
+        "全球期末库存",
+        "0.00"
+      ]
+    ],
+    [
+      [
+        "连接件"
+      ],
+      [
+        " ",
+        "今年",
+        "收入占比%",
+        "Δ %",
+        "去年"
+      ],
+      [
+        "预计销售额, 千单位",
+        "285.00",
+        "-",
+        "+163",
+        "108.23"
+      ],
+      [
+        "每单位价格, 美元",
+        "",
+        "-",
+        "+0",
+        "36.0"
+      ],
+      [
+        "总收入, 千 美元",
+        "10 260",
+        "100",
+        "+163",
+        "3 896"
+      ],
+      [
+        "已销售产品成本, 千 美元"
+      ],
+      [
+        "原材料",
+        "2 654",
+        "26",
+        "+72",
+        "1 539"
+      ],
+      [
+        "生产工资",
+        "1 185",
+        "12",
+        "+247",
+        "341"
+      ],
+      [
+        "运输",
+        "143",
+        "1",
+        "+163",
+        "54"
+      ],
+      [
+        "毛利",
+        "6 279",
+        "61",
+        "+220",
+        "1 962"
+      ],
+      [
+        "营销, 千 美元"
+      ],
+      [
+        "一般营销",
+        "",
+        "4",
+        "+0",
+        "425"
+      ],
+      [
+        "设计师营销",
+        "",
+        "3",
+        "+0",
+        "325"
+      ],
+      [
+        "产品层面税息折旧及摊销前利润 EBITDA",
+        "5 529",
+        "54",
+        "+356",
+        "1 212"
+      ],
+      [
+        "需求乘数"
+      ],
+      [
+        "较于其他竞争对手，%\n-60\n-46\n-32\n-18\n0\n10\nRelative importance (3 - highest)\n0\n1\n2\n3\n价格\n一般营销\n设计师营销\n研发"
+      ],
+      [
+        "可用产品, 千单位"
+      ],
+      [
+        "需求",
+        "285.00"
+      ],
+      [
+        "全球可用产品",
+        "565.18"
+      ],
+      [
+        "全球未满足需求",
+        "0.00"
+      ],
+      [
+        "全球期末库存",
+        "140.18"
+      ]
+    ]
+  ],
+  "url": "http://sim.cesim.cn/ul/Decisions?panel=marketreportdomestic&sim=se"
+}

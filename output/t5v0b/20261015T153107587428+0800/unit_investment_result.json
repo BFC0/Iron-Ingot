@@ -1,0 +1,126 @@
+{
+  "version": "t5v0b",
+  "application_round": 5,
+  "training_performed": false,
+  "full_profit_available": false,
+  "complete_profit": null,
+  "deployment_enabled": false,
+  "remaining_profit_ranking": false,
+  "materials": {},
+  "labor": {},
+  "curves": {},
+  "finance": {
+    "status": "SKIPPED_MISSING_EVIDENCE",
+    "reason": "缺显式财务状态；不推定计息时点或自动短贷",
+    "value": null
+  },
+  "market_totals": {
+    "status": "USER_ASSUMPTION_COUNTRY_DEMAND_RATIO",
+    "totals_kunits": {
+      "复合梁": {
+        "泰国": 48.5031,
+        "印尼": 130.3115
+      },
+      "连接件": {
+        "泰国": 2451.3165,
+        "印尼": 1222.1085
+      }
+    },
+    "product_growth": {
+      "复合梁": {
+        "泰国": 0.07,
+        "印尼": -0.05
+      },
+      "连接件": {
+        "泰国": 0.07,
+        "印尼": -0.05
+      }
+    },
+    "forecast_validated": false,
+    "mapping_empirically_verified": false
+  },
+  "demand": {
+    "status": "SKIPPED_MISSING_EVIDENCE",
+    "reason": "缺99队最终决策；SHARE/COUNTRY/ABS沿用暂停，不重训或调用旧响应冒充正式5预测",
+    "value": null
+  },
+  "connector": {
+    "status": "SKIPPED_MISSING_EVIDENCE",
+    "reason": "缺显式生产/需求/价格/效率及订单前数量情景",
+    "value": null
+  },
+  "administration": {
+    "base_cost_kusd": 10000.0,
+    "increase_kusd": 4000.0,
+    "pretax_profit_delta_kusd": -4000.0,
+    "cash_delta_kusd": null,
+    "scope": "仅行政基础费较正式4的税前增量，不重复叠加；付款时点和税亏未知"
+  },
+  "new_tender_available": false,
+  "existing_orders": {
+    "status": "SKIPPED_MISSING_EVIDENCE",
+    "reason": "没有新招标不代表没有历史合同；交付及收付款未核验",
+    "value": null
+  },
+  "investment_timing": {
+    "status": "SKIPPED_MISSING_EVIDENCE",
+    "reason": "机器单价和采购金额可计算；产能生效、支付时点及正式6参数仍未知",
+    "value": null
+  },
+  "spending_to_curve": {
+    "status": "SKIPPED_MISSING_EVIDENCE",
+    "reason": "研发/运营存量及衰减不可识别，自动支出映射跳过",
+    "value": null
+  },
+  "horizon": {
+    "start_round": 5,
+    "end_round": 6,
+    "remaining_rounds": 2,
+    "remaining_profit": null,
+    "complete_profit_path": false,
+    "terminal_state": null,
+    "terminal_reward": null,
+    "ranking_eligible": false,
+    "scope": "仅剩余回合利润小计；需独立验证状态结转和计分规则才可用于完整决策排名；无自动变现、清债或第7回合收益"
+  },
+  "assumptions": {
+    "country_growth_is_product_demand_growth": true,
+    "country_growth": {
+      "泰国": 0.07,
+      "印尼": -0.05
+    },
+    "basis": "USER_ASSUMPTION_2026_10_15",
+    "formal5_machine_prices_stable": true,
+    "formal6_machine_prices_known": false
+  },
+  "equal_share_baseline_kunits": {
+    "复合梁": {
+      "泰国": 4.85031,
+      "印尼": 13.03115
+    },
+    "连接件": {
+      "泰国": 245.13164999999998,
+      "印尼": 122.21085000000001
+    }
+  },
+  "machines": {
+    "status": "FORMAL5_STABLE_PUBLISHED_UNIT_PRICES",
+    "unit_prices_usd": {
+      "复合梁": 78.0,
+      "连接件": 1.1
+    },
+    "future_round6_unit_prices": null,
+    "investment_purchase_amount_kusd": {
+      "复合梁": 78.0,
+      "连接件": 1.1
+    },
+    "cash_payment_kusd": null,
+    "incremental_capacity_kunits": null,
+    "scope": "趋稳按正式5公布固定价解释；不改回正式4旧价，不再自动叠加上涨趋势。金额不代表付款时点或生效产能",
+    "investment_quantity_kunits": {
+      "复合梁": 1.0,
+      "连接件": 1.0
+    },
+    "total_purchase_amount_kusd": 79.1
+  }
+}

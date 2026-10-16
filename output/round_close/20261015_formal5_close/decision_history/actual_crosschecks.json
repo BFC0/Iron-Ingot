@@ -1,0 +1,292 @@
+[
+  {
+    "kind": "retail_price",
+    "submitted": {
+      "source": "output/round_close/20261015_formal5_close/own_formal5_decisionchecklist.json",
+      "sha256": "7a4e85961efccc94c52d1b61ba1573092c2a03d3a43e505fe3a63ed305d9f2b7",
+      "table": 1,
+      "row": 7,
+      "column": 1,
+      "indexing": "zero_based",
+      "display": "1 700.0",
+      "value": 1700.0
+    },
+    "actual": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_marketdetails.json",
+      "sha256": "4be122ce5a18e23a1d6850f8de9063349332b3bca4087b821075bc51f803d05c",
+      "table": 0,
+      "row": 3,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "1 700.0",
+      "value": 1700.0
+    },
+    "status": "pass"
+  },
+  {
+    "kind": "retail_price",
+    "submitted": {
+      "source": "output/round_close/20261015_formal5_close/own_formal5_decisionchecklist.json",
+      "sha256": "7a4e85961efccc94c52d1b61ba1573092c2a03d3a43e505fe3a63ed305d9f2b7",
+      "table": 1,
+      "row": 8,
+      "column": 1,
+      "indexing": "zero_based",
+      "display": "2 759.0",
+      "value": 2759.0
+    },
+    "actual": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_marketdetails.json",
+      "sha256": "4be122ce5a18e23a1d6850f8de9063349332b3bca4087b821075bc51f803d05c",
+      "table": 0,
+      "row": 4,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "2 759.0",
+      "value": 2759.0
+    },
+    "status": "pass"
+  },
+  {
+    "kind": "retail_price",
+    "submitted": {
+      "source": "output/round_close/20261015_formal5_close/own_formal5_decisionchecklist.json",
+      "sha256": "7a4e85961efccc94c52d1b61ba1573092c2a03d3a43e505fe3a63ed305d9f2b7",
+      "table": 1,
+      "row": 11,
+      "column": 1,
+      "indexing": "zero_based",
+      "display": "26.4",
+      "value": 26.4
+    },
+    "actual": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_marketdetails.json",
+      "sha256": "4be122ce5a18e23a1d6850f8de9063349332b3bca4087b821075bc51f803d05c",
+      "table": 0,
+      "row": 6,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "26.4",
+      "value": 26.4
+    },
+    "status": "pass"
+  },
+  {
+    "kind": "retail_price",
+    "submitted": {
+      "source": "output/round_close/20261015_formal5_close/own_formal5_decisionchecklist.json",
+      "sha256": "7a4e85961efccc94c52d1b61ba1573092c2a03d3a43e505fe3a63ed305d9f2b7",
+      "table": 1,
+      "row": 12,
+      "column": 1,
+      "indexing": "zero_based",
+      "display": "29.0",
+      "value": 29.0
+    },
+    "actual": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_marketdetails.json",
+      "sha256": "4be122ce5a18e23a1d6850f8de9063349332b3bca4087b821075bc51f803d05c",
+      "table": 0,
+      "row": 7,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "29.0",
+      "value": 29.0
+    },
+    "status": "pass"
+  },
+  {
+    "kind": "expenditure_sum",
+    "inputs": [
+      {
+        "source": "output/round_close/20261015_formal5_close/own_formal5_decisionchecklist.json",
+        "sha256": "7a4e85961efccc94c52d1b61ba1573092c2a03d3a43e505fe3a63ed305d9f2b7",
+        "table": 1,
+        "row": 16,
+        "column": 1,
+        "indexing": "zero_based",
+        "display": "189",
+        "value": 189.0
+      },
+      {
+        "source": "output/round_close/20261015_formal5_close/own_formal5_decisionchecklist.json",
+        "sha256": "7a4e85961efccc94c52d1b61ba1573092c2a03d3a43e505fe3a63ed305d9f2b7",
+        "table": 1,
+        "row": 17,
+        "column": 1,
+        "indexing": "zero_based",
+        "display": "853",
+        "value": 853.0
+      },
+      {
+        "source": "output/round_close/20261015_formal5_close/own_formal5_decisionchecklist.json",
+        "sha256": "7a4e85961efccc94c52d1b61ba1573092c2a03d3a43e505fe3a63ed305d9f2b7",
+        "table": 1,
+        "row": 19,
+        "column": 1,
+        "indexing": "zero_based",
+        "display": "805",
+        "value": 805.0
+      },
+      {
+        "source": "output/round_close/20261015_formal5_close/own_formal5_decisionchecklist.json",
+        "sha256": "7a4e85961efccc94c52d1b61ba1573092c2a03d3a43e505fe3a63ed305d9f2b7",
+        "table": 1,
+        "row": 20,
+        "column": 1,
+        "indexing": "zero_based",
+        "display": "853",
+        "value": 853.0
+      }
+    ],
+    "actual": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_incomestatement.json",
+      "sha256": "050564ade2fc2666e5ed01d639d76d33710c60c0240f648c9e127091a2d6644d",
+      "table": 0,
+      "row": 30,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "2 700",
+      "value": 2700.0
+    },
+    "status": "pass"
+  },
+  {
+    "kind": "expenditure_sum",
+    "inputs": [
+      {
+        "source": "output/round_close/20261015_formal5_close/own_formal5_decisionchecklist.json",
+        "sha256": "7a4e85961efccc94c52d1b61ba1573092c2a03d3a43e505fe3a63ed305d9f2b7",
+        "table": 1,
+        "row": 23,
+        "column": 1,
+        "indexing": "zero_based",
+        "display": "510",
+        "value": 510.0
+      },
+      {
+        "source": "output/round_close/20261015_formal5_close/own_formal5_decisionchecklist.json",
+        "sha256": "7a4e85961efccc94c52d1b61ba1573092c2a03d3a43e505fe3a63ed305d9f2b7",
+        "table": 1,
+        "row": 24,
+        "column": 1,
+        "indexing": "zero_based",
+        "display": "1 156",
+        "value": 1156.0
+      },
+      {
+        "source": "output/round_close/20261015_formal5_close/own_formal5_decisionchecklist.json",
+        "sha256": "7a4e85961efccc94c52d1b61ba1573092c2a03d3a43e505fe3a63ed305d9f2b7",
+        "table": 1,
+        "row": 25,
+        "column": 1,
+        "indexing": "zero_based",
+        "display": "0.0",
+        "value": 0.0
+      },
+      {
+        "source": "output/round_close/20261015_formal5_close/own_formal5_decisionchecklist.json",
+        "sha256": "7a4e85961efccc94c52d1b61ba1573092c2a03d3a43e505fe3a63ed305d9f2b7",
+        "table": 1,
+        "row": 27,
+        "column": 1,
+        "indexing": "zero_based",
+        "display": "422",
+        "value": 422.0
+      },
+      {
+        "source": "output/round_close/20261015_formal5_close/own_formal5_decisionchecklist.json",
+        "sha256": "7a4e85961efccc94c52d1b61ba1573092c2a03d3a43e505fe3a63ed305d9f2b7",
+        "table": 1,
+        "row": 28,
+        "column": 1,
+        "indexing": "zero_based",
+        "display": "286",
+        "value": 286.0
+      },
+      {
+        "source": "output/round_close/20261015_formal5_close/own_formal5_decisionchecklist.json",
+        "sha256": "7a4e85961efccc94c52d1b61ba1573092c2a03d3a43e505fe3a63ed305d9f2b7",
+        "table": 1,
+        "row": 29,
+        "column": 1,
+        "indexing": "zero_based",
+        "display": "0.0",
+        "value": 0.0
+      }
+    ],
+    "actual": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_incomestatement.json",
+      "sha256": "050564ade2fc2666e5ed01d639d76d33710c60c0240f648c9e127091a2d6644d",
+      "table": 0,
+      "row": 31,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "2 374",
+      "value": 2374.0
+    },
+    "status": "pass"
+  },
+  {
+    "kind": "expenditure_sum",
+    "inputs": [
+      {
+        "source": "output/round_close/20261015_formal5_close/own_formal5_decisionchecklist.json",
+        "sha256": "7a4e85961efccc94c52d1b61ba1573092c2a03d3a43e505fe3a63ed305d9f2b7",
+        "table": 1,
+        "row": 49,
+        "column": 1,
+        "indexing": "zero_based",
+        "display": "2 600",
+        "value": 2600.0
+      },
+      {
+        "source": "output/round_close/20261015_formal5_close/own_formal5_decisionchecklist.json",
+        "sha256": "7a4e85961efccc94c52d1b61ba1573092c2a03d3a43e505fe3a63ed305d9f2b7",
+        "table": 1,
+        "row": 50,
+        "column": 1,
+        "indexing": "zero_based",
+        "display": "231",
+        "value": 231.0
+      }
+    ],
+    "actual": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_incomestatement.json",
+      "sha256": "050564ade2fc2666e5ed01d639d76d33710c60c0240f648c9e127091a2d6644d",
+      "table": 0,
+      "row": 38,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "2 831",
+      "value": 2831.0
+    },
+    "status": "pass"
+  },
+  {
+    "kind": "expenditure_sum",
+    "inputs": [
+      {
+        "source": "output/round_close/20261015_formal5_close/own_formal5_decisionchecklist.json",
+        "sha256": "7a4e85961efccc94c52d1b61ba1573092c2a03d3a43e505fe3a63ed305d9f2b7",
+        "table": 1,
+        "row": 47,
+        "column": 1,
+        "indexing": "zero_based",
+        "display": "754",
+        "value": 754.0
+      }
+    ],
+    "actual": {
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_incomestatement.json",
+      "sha256": "050564ade2fc2666e5ed01d639d76d33710c60c0240f648c9e127091a2d6644d",
+      "table": 0,
+      "row": 39,
+      "column": 6,
+      "indexing": "zero_based",
+      "display": "754",
+      "value": 754.0
+    },
+    "status": "pass"
+  }
+]

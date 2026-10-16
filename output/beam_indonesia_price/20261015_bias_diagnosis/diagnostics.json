@@ -1,0 +1,115 @@
+{
+  "profiles": {
+    "original_shared_5_6_price": {
+      "price": 2759.0,
+      "profit56": 9608.62293229693,
+      "feasible_at_peak": true
+    },
+    "only_formal5_price_varies": {
+      "price": 2592.0,
+      "profit56": 9640.586193991032,
+      "feasible_at_peak": true
+    },
+    "price_elasticity_plus20pct": {
+      "price": 2310.0,
+      "profit56": 9227.419812741296,
+      "feasible_at_peak": true
+    },
+    "no_incremental_rd_response": {
+      "price": 2494.0,
+      "profit56": 4480.600667214769,
+      "feasible_at_peak": true
+    },
+    "no_incremental_marketing_response": {
+      "price": 2583.0,
+      "profit56": 5178.168094916676,
+      "feasible_at_peak": true
+    },
+    "common_rival_defaults_frozen_both_periods": {
+      "price": 2730.0,
+      "profit56": 11524.915422523842,
+      "feasible_at_peak": true
+    }
+  },
+  "coefficients": {
+    "price": 1.8535369329501035,
+    "general": 0.09983125961794792,
+    "designer": 0.18410248102183505,
+    "rd": 1.0719582205561318,
+    "tail": 2.6857094559091492
+  },
+  "sensitivity": [
+    {
+      "price": 2180,
+      "profit5": 3755.450356357442,
+      "profit6": 4628.867353906309,
+      "beam_demand": [
+        6.5697292123567745,
+        14.464154738883822
+      ],
+      "beam_sales": [
+        6.5697292123567745,
+        14.464154738883822
+      ],
+      "beam_production": 21.033883951240597,
+      "beam_materials": 14533.412121112135,
+      "beam_payroll": 5455.768087153512,
+      "beam_efficiency": 0.1701808536888729,
+      "beam_capacity": 61.67
+    },
+    {
+      "price": 2600,
+      "profit5": 4101.602119630552,
+      "profit6": 5433.337937892519,
+      "beam_demand": [
+        6.5697292123567745,
+        10.767342170638157
+      ],
+      "beam_sales": [
+        6.5697292123567745,
+        10.767342170638157
+      ],
+      "beam_production": 17.33707138299493,
+      "beam_materials": 11979.090688448132,
+      "beam_payroll": 4431.536150001049,
+      "beam_efficiency": 0.1701808536888729,
+      "beam_capacity": 61.67
+    },
+    {
+      "price": 2759,
+      "profit5": 4069.8142032766054,
+      "profit6": 5538.808729020326,
+      "beam_demand": [
+        6.5697292123567745,
+        9.729313216211457
+      ],
+      "beam_sales": [
+        6.5697292123567745,
+        9.729313216211457
+      ],
+      "beam_production": 16.29904242856823,
+      "beam_materials": 11261.862114624011,
+      "beam_payroll": 4166.205129861068,
+      "beam_efficiency": 0.1701808536888729,
+      "beam_capacity": 61.67
+    }
+  ],
+  "rival_factor": [
+    [
+      1.0703616787430366,
+      0.9781139396009505
+    ],
+    [
+      0.5155890717116719,
+      0.7293082517420096
+    ]
+  ],
+  "validation": "PASS: frozen replay, archived optimum, sales bounds",
+  "scope": "Fixed other decisions, diagnostic counterfactuals; not reoptimized recommendations",
+  "source_hashes": {
+    "output\\formal5_two_policies_t5v2\\20261015T214235442505+0800\\full_result.json": "a10f757c42c43f90623daec4b34bf4fe9e084aa6f30eb5ea57ba7d702a99d67c",
+    "output\\beam_indonesia_price\\20261015T215842559575+0800\\price_isolation_runtime.py": "972058da6f1698acb9cdbbf92acaf34ee13b99ba3b4b403aa64092da4a88be44",
+    "code\\model_v2\\t5v2.py": "e86bee3c36aed25272b5f5eaa31d92a2658094c0b919ffdfc831ee07a86fbe02",
+    "code\\model_v2\\t5v3.py": "1cd5a40afa5f39ae6464089d9b284eb1f5aa1c89b9762db6e20e0078cf9a6b02"
+  }
+}

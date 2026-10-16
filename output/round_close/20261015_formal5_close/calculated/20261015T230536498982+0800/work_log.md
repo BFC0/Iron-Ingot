@@ -1,0 +1,8 @@
+# 打印缺项计算
+
+不要输出真名，姓名统一用首字母替代。
+
+开始：2026-10-15T23:05:36.498982+08:00
+授权：正式5结算只读采集流程；只计算缺项，不覆盖直接值，不重训。
+
+完成：{"status": "CALCULATED_AND_CHECKED", "markets": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "calculated_count": 700, "direct_preserved": 300, "remaining_gaps": 0, "no_cross_product_quantity_sum": true, "no_direct_value_overwrites": true, "no_training": true}

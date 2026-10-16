@@ -1,0 +1,594 @@
+{
+  "actual": {
+    "team_id": "M05-05014677bb16a61e",
+    "price": 2759.0,
+    "demand": 6.45,
+    "sales": 6.45,
+    "general": 2700.0,
+    "designer": 2374.0,
+    "rd": 2831.0,
+    "previous_rd": 2200.0,
+    "supply_evidence": false,
+    "sources": {
+      "general": {
+        "value": 2700.0,
+        "half": 0.5,
+        "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_incomestatement.json",
+        "sha256": "050564ade2fc2666e5ed01d639d76d33710c60c0240f648c9e127091a2d6644d",
+        "table": 0,
+        "row": 30,
+        "column": 6,
+        "phase": "formal",
+        "round": 5,
+        "product": null,
+        "category": "actual_result"
+      },
+      "designer": {
+        "value": 2374.0,
+        "half": 0.5,
+        "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_incomestatement.json",
+        "sha256": "050564ade2fc2666e5ed01d639d76d33710c60c0240f648c9e127091a2d6644d",
+        "table": 0,
+        "row": 31,
+        "column": 6,
+        "phase": "formal",
+        "round": 5,
+        "product": null,
+        "category": "actual_result"
+      },
+      "rd": {
+        "value": 2831.0,
+        "half": 0.5,
+        "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_incomestatement.json",
+        "sha256": "050564ade2fc2666e5ed01d639d76d33710c60c0240f648c9e127091a2d6644d",
+        "table": 0,
+        "row": 38,
+        "column": 6,
+        "phase": "formal",
+        "round": 5,
+        "product": null,
+        "category": "actual_result"
+      },
+      "previous_rd": {
+        "value": 2200.0,
+        "half": 0.5,
+        "source": "output/round_close/20261014_formal4_close/raw/market5_formal4_incomestatement.json",
+        "sha256": "871c880eab6c99cd036df84c878ddf77e2401ce49a819b940715c9c5e2165455",
+        "table": 0,
+        "row": 38,
+        "column": 6,
+        "phase": "formal",
+        "round": 4,
+        "product": null,
+        "category": "actual_result"
+      },
+      "price": {
+        "value": 2759.0,
+        "half": 0.05,
+        "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_marketdetails.json",
+        "sha256": "4be122ce5a18e23a1d6850f8de9063349332b3bca4087b821075bc51f803d05c",
+        "table": 0,
+        "row": 4,
+        "column": 6,
+        "phase": "formal",
+        "round": 5,
+        "product": "复合梁",
+        "category": "actual_result"
+      },
+      "demand": {
+        "value": 6.45,
+        "half": 0.005,
+        "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_marketdetails.json",
+        "sha256": "4be122ce5a18e23a1d6850f8de9063349332b3bca4087b821075bc51f803d05c",
+        "table": 0,
+        "row": 21,
+        "column": 6,
+        "phase": "formal",
+        "round": 5,
+        "product": "复合梁",
+        "category": "actual_result"
+      },
+      "sales": {
+        "value": 6.45,
+        "half": 0.005,
+        "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_marketdetails.json",
+        "sha256": "4be122ce5a18e23a1d6850f8de9063349332b3bca4087b821075bc51f803d05c",
+        "table": 0,
+        "row": 11,
+        "column": 6,
+        "phase": "formal",
+        "round": 5,
+        "product": "复合梁",
+        "category": "actual_result"
+      }
+    }
+  },
+  "total": 120.62,
+  "actual_share": 0.053473719117890894,
+  "fit_share": 0.054213869748064275,
+  "fit_demand": 6.539276969011513,
+  "held_market_share": 0.05580302825221842,
+  "held_market_demand": 6.730961267782586,
+  "held_market_beta": [
+    0.0,
+    1.8914302496979334,
+    0.0052263902061367926,
+    0.3888073403303529,
+    0.6533489829027395
+  ],
+  "beta": [
+    0.0,
+    1.977238105088027,
+    3.6580436774308753e-10,
+    0.3774829940418865,
+    0.7274328723811708
+  ],
+  "own_screening": {
+    "key": [
+      5,
+      "formal",
+      5,
+      "M05-05014677bb16a61e",
+      "印尼",
+      "actual_demand",
+      "T6V0_ACTUAL_COMPANY_EXPENSE_PROXY"
+    ],
+    "excluded": false,
+    "reasons": [],
+    "observed_demand": 6.45,
+    "preliminary_implied_demand": 6.539276969011516,
+    "log_share_residual": -0.013746473352733981,
+    "supply_evidence": false,
+    "supply_refs": {
+      "production": {
+        "value": 12.05,
+        "half": 0.005,
+        "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_productiondetails.json",
+        "sha256": "a73fc452355f5fb331d84aa3fb2875133ad6eef5e75cb812f81bfffdf3d5f441",
+        "table": 0,
+        "row": 9,
+        "column": 6,
+        "phase": "formal",
+        "round": 5,
+        "product": "复合梁",
+        "category": "actual_result"
+      },
+      "capacity": {
+        "value": 61.67,
+        "half": 0.005,
+        "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_productiondetails.json",
+        "sha256": "a73fc452355f5fb331d84aa3fb2875133ad6eef5e75cb812f81bfffdf3d5f441",
+        "table": 0,
+        "row": 2,
+        "column": 6,
+        "phase": "formal",
+        "round": 5,
+        "product": null,
+        "category": "actual_result"
+      },
+      "demand": {
+        "value": 6.45,
+        "half": 0.005,
+        "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_marketdetails.json",
+        "sha256": "4be122ce5a18e23a1d6850f8de9063349332b3bca4087b821075bc51f803d05c",
+        "table": 0,
+        "row": 21,
+        "column": 6,
+        "phase": "formal",
+        "round": 5,
+        "product": "复合梁",
+        "category": "actual_result"
+      },
+      "sales": {
+        "value": 6.45,
+        "half": 0.005,
+        "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_marketdetails.json",
+        "sha256": "4be122ce5a18e23a1d6850f8de9063349332b3bca4087b821075bc51f803d05c",
+        "table": 0,
+        "row": 11,
+        "column": 6,
+        "phase": "formal",
+        "round": 5,
+        "product": "复合梁",
+        "category": "actual_result"
+      },
+      "retail_sales": [
+        {
+          "value": 5.6,
+          "half": 0.005,
+          "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_marketdetails.json",
+          "sha256": "4be122ce5a18e23a1d6850f8de9063349332b3bca4087b821075bc51f803d05c",
+          "table": 0,
+          "row": 10,
+          "column": 6,
+          "phase": "formal",
+          "round": 5,
+          "product": "复合梁",
+          "category": "actual_result"
+        },
+        {
+          "value": 6.45,
+          "half": 0.005,
+          "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_marketdetails.json",
+          "sha256": "4be122ce5a18e23a1d6850f8de9063349332b3bca4087b821075bc51f803d05c",
+          "table": 0,
+          "row": 11,
+          "column": 6,
+          "phase": "formal",
+          "round": 5,
+          "product": "复合梁",
+          "category": "actual_result"
+        }
+      ]
+    }
+  },
+  "residual_odds_factor": 0.9855762884614498,
+  "original_estimate": 9.73,
+  "original_estimate_error_pct": 50.852713178294586,
+  "market_rows": [
+    {
+      "team_id": "M05-05014677bb16a61e",
+      "price": 2759.0,
+      "demand": 6.45,
+      "sales": 6.45
+    },
+    {
+      "team_id": "M05-0674566aadcef903",
+      "price": 2130.0,
+      "demand": 10.41,
+      "sales": 10.41
+    },
+    {
+      "team_id": "M05-47116eac50536c21",
+      "price": 2100.0,
+      "demand": 14.24,
+      "sales": 14.24
+    },
+    {
+      "team_id": "M05-50c5056c615383d9",
+      "price": 2200.0,
+      "demand": 11.04,
+      "sales": 11.04
+    },
+    {
+      "team_id": "M05-523d8923a7806a12",
+      "price": 2200.0,
+      "demand": 9.65,
+      "sales": 9.65
+    },
+    {
+      "team_id": "M05-7a7556b4aa6f461d",
+      "price": 2200.0,
+      "demand": 14.2,
+      "sales": 14.2
+    },
+    {
+      "team_id": "M05-83b2f0f59fe65e7b",
+      "price": 2200.0,
+      "demand": 8.9,
+      "sales": 8.9
+    },
+    {
+      "team_id": "M05-9c64541246150811",
+      "price": 2020.0,
+      "demand": 13.83,
+      "sales": 13.83
+    },
+    {
+      "team_id": "M05-beb028ec87fa6a6e",
+      "price": 1399.0,
+      "demand": 19.49,
+      "sales": 19.49
+    },
+    {
+      "team_id": "M05-cf49b104531d4b54",
+      "price": 1900.0,
+      "demand": 12.41,
+      "sales": 12.41
+    }
+  ],
+  "candidates": [
+    {
+      "name": "中性",
+      "price": 2508.2,
+      "demand": 8.594009922868496,
+      "share": 0.06785583945542077,
+      "total": 126.65100000000001,
+      "local_elasticity": 1.8430709536640335,
+      "residual_calibrated_share": 0.06694262536110629,
+      "residual_calibrated_demand": 8.478350444609474,
+      "general_total": 2989.0,
+      "designer_total": 4000.0,
+      "beam_rd": 229.0,
+      "connector_rd": 1592.0,
+      "profiles": [
+        {
+          "price": 1800.0,
+          "demand": 15.581162090828064,
+          "share": 0.12302439057589803,
+          "profit": 238.18915244732344,
+          "production": 22.148940000000003,
+          "feasible": true
+        },
+        {
+          "price": 2000.0,
+          "demand": 12.950663082365962,
+          "share": 0.10225472426088986,
+          "profit": 1770.727122504812,
+          "production": 22.148940000000003,
+          "feasible": true
+        },
+        {
+          "price": 2200.0,
+          "demand": 10.918027110977228,
+          "share": 0.08620561314934132,
+          "profit": 2347.5619818182226,
+          "production": 20.46057378253028,
+          "feasible": true
+        },
+        {
+          "price": 2400.0,
+          "demand": 9.319342688430508,
+          "share": 0.07358285910439323,
+          "profit": 2606.0415520833185,
+          "production": 18.86188935998356,
+          "feasible": true
+        },
+        {
+          "price": 2508.2,
+          "demand": 8.594009922868496,
+          "share": 0.06785583945542077,
+          "profit": 2679.574747369841,
+          "production": 18.136556594421545,
+          "feasible": true
+        },
+        {
+          "price": 2759.0,
+          "demand": 7.201946447067031,
+          "share": 0.056864505191960825,
+          "profit": 2565.525484937344,
+          "production": 16.74449311862008,
+          "feasible": true
+        }
+      ],
+      "stresses": [
+        {
+          "price_elasticity_scale": 1.0,
+          "demand": 8.594009922868496,
+          "share": 0.06785583945542077,
+          "profit": 2679.574747369841
+        },
+        {
+          "price_elasticity_scale": 1.2,
+          "demand": 7.793120398022745,
+          "share": 0.0615322452884126,
+          "profit": 2011.542367673679
+        },
+        {
+          "price_elasticity_scale": 1.5,
+          "demand": 6.661502384529819,
+          "share": 0.05259731375614735,
+          "profit": 1099.8906322394164
+        }
+      ]
+    },
+    {
+      "name": "稳健",
+      "price": 2509.1,
+      "demand": 7.510767346584306,
+      "share": 0.05930286651178676,
+      "total": 126.65100000000001,
+      "local_elasticity": 1.8599822176799736,
+      "residual_calibrated_share": 0.05849753595939004,
+      "residual_calibrated_demand": 7.4087714267927085,
+      "general_total": 2198.0,
+      "designer_total": 2564.0,
+      "beam_rd": 0.0,
+      "connector_rd": 919.0,
+      "profiles": [
+        {
+          "price": 1800.0,
+          "demand": 13.728243314333437,
+          "share": 0.1083942749313739,
+          "profit": -546.212415991963,
+          "production": 22.119346954607238,
+          "feasible": true
+        },
+        {
+          "price": 2000.0,
+          "demand": 11.378517659019261,
+          "share": 0.08984151454800404,
+          "profit": 357.4867261565786,
+          "production": 19.769621299293064,
+          "feasible": true
+        },
+        {
+          "price": 2200.0,
+          "demand": 9.571860685919521,
+          "share": 0.07557666884524812,
+          "profit": 789.9987216948934,
+          "production": 17.962964326193323,
+          "feasible": true
+        },
+        {
+          "price": 2400.0,
+          "demand": 8.156398394957536,
+          "share": 0.06440058424297902,
+          "profit": 907.7157266444165,
+          "production": 16.54750203523134,
+          "feasible": true
+        },
+        {
+          "price": 2509.1,
+          "demand": 7.510767346584306,
+          "share": 0.05930286651178676,
+          "profit": 895.8231399187923,
+          "production": 15.901870986858107,
+          "feasible": true
+        },
+        {
+          "price": 2759.0,
+          "demand": 6.289065565558182,
+          "share": 0.049656659367539,
+          "profit": 793.3958072396329,
+          "production": 14.680169205831984,
+          "feasible": true
+        }
+      ],
+      "stresses": [
+        {
+          "price_elasticity_scale": 1.0,
+          "demand": 7.510767346584306,
+          "share": 0.05930286651178676,
+          "profit": 895.8231399187923
+        },
+        {
+          "price_elasticity_scale": 1.2,
+          "demand": 6.804094551376945,
+          "share": 0.0537231806411078,
+          "profit": 519.2491991775678
+        },
+        {
+          "price_elasticity_scale": 1.5,
+          "demand": 5.807891935309007,
+          "share": 0.04585745027918458,
+          "profit": 70.22002475727592
+        }
+      ]
+    }
+  ],
+  "price_only": [
+    {
+      "price": 2200.0,
+      "share": 0.08230665184898955,
+      "demand": 9.92782834602512
+    },
+    {
+      "price": 2508.2,
+      "share": 0.06472802527544612,
+      "demand": 7.807494408724311
+    },
+    {
+      "price": 2759.0,
+      "share": 0.054213869748064275,
+      "demand": 6.539276969011513
+    }
+  ],
+  "pairwise": [
+    {
+      "team_id": "M05-0674566aadcef903",
+      "price": 2130.0,
+      "demand": 10.41,
+      "observed_ratio": 0.6195965417867435,
+      "predicted_ratio": 0.6671379686076407,
+      "price_log_effect": -0.5116030745850452,
+      "general_log_effect": 1.629449454152406e-10,
+      "designer_log_effect": 0.10569736165599475,
+      "rd_log_effect": 0.0011473077959045085
+    },
+    {
+      "team_id": "M05-47116eac50536c21",
+      "price": 2100.0,
+      "demand": 14.24,
+      "observed_ratio": 0.4529494382022472,
+      "predicted_ratio": 0.5124740870430011,
+      "price_log_effect": -0.5396494753979058,
+      "general_log_effect": 0.0,
+      "designer_log_effect": -0.10022383251578787,
+      "rd_log_effect": -0.028631823201489423
+    },
+    {
+      "team_id": "M05-50c5056c615383d9",
+      "price": 2200.0,
+      "demand": 11.04,
+      "observed_ratio": 0.5842391304347827,
+      "predicted_ratio": 0.6489584724669681,
+      "price_log_effect": -0.44766832783530536,
+      "general_log_effect": 1.434107080475884e-10,
+      "designer_log_effect": 0.014134468616866411,
+      "rd_log_effect": 0.0011473077959045085
+    },
+    {
+      "team_id": "M05-523d8923a7806a12",
+      "price": 2200.0,
+      "demand": 9.65,
+      "observed_ratio": 0.6683937823834197,
+      "predicted_ratio": 0.5837024422824585,
+      "price_log_effect": -0.44766832783530536,
+      "general_log_effect": -1.2631950406633503e-11,
+      "designer_log_effect": -0.12512184367875387,
+      "rd_log_effect": 0.03442622888544403
+    },
+    {
+      "team_id": "M05-7a7556b4aa6f461d",
+      "price": 2200.0,
+      "demand": 14.2,
+      "observed_ratio": 0.4542253521126761,
+      "predicted_ratio": 0.5440665784000335,
+      "price_log_effect": -0.44766832783530536,
+      "general_log_effect": -9.755361262706376e-12,
+      "designer_log_effect": -0.14468492546270173,
+      "rd_log_effect": -0.016330399542313752
+    },
+    {
+      "team_id": "M05-83b2f0f59fe65e7b",
+      "price": 2200.0,
+      "demand": 8.9,
+      "observed_ratio": 0.7247191011235955,
+      "predicted_ratio": 0.7420853099149277,
+      "price_log_effect": -0.44766832783530536,
+      "general_log_effect": 7.671668623864039e-11,
+      "designer_log_effect": 0.03197162906736686,
+      "rd_log_effect": 0.11740562919875377
+    },
+    {
+      "team_id": "M05-9c64541246150811",
+      "price": 2020.0,
+      "demand": 13.83,
+      "observed_ratio": 0.46637744034707157,
+      "predicted_ratio": 0.48369594397941496,
+      "price_log_effect": -0.616445073826091,
+      "general_log_effect": 1.434107080475884e-10,
+      "designer_log_effect": -0.07356690181191053,
+      "rd_log_effect": -0.03628680909915207
+    },
+    {
+      "team_id": "M05-beb028ec87fa6a6e",
+      "price": 1399.0,
+      "demand": 19.49,
+      "observed_ratio": 0.3309389430477168,
+      "predicted_ratio": 0.2778926943165533,
+      "price_log_effect": -1.3427633550030034,
+      "general_log_effect": 2.032769426726306e-11,
+      "designer_log_effect": 0.09117699479946234,
+      "rd_log_effect": -0.028933871289319894
+    },
+    {
+      "team_id": "M05-cf49b104531d4b54",
+      "price": 1900.0,
+      "demand": 12.41,
+      "observed_ratio": 0.5197421434327155,
+      "predicted_ratio": 0.5292171769039333,
+      "price_log_effect": -0.7375383033457695,
+      "general_log_effect": 1.660450009835317e-10,
+      "designer_log_effect": 0.05069363090397628,
+      "rd_log_effect": 0.05048828325393822
+    }
+  ],
+  "checks": {
+    "training_recipe_reproduced": true,
+    "actual_demand_equals_sales": true,
+    "designer_reallocation_invariant": true,
+    "connector_rd_has_no_beam_demand_effect": true
+  },
+  "source_hashes": {
+    "output\\t6v0\\20261015T235330003362+0800\\demand_actual_rows.json": "bf025bad6ffe5bf7419eda9fa8ed0a818d2639daaf21b47efcab83e58d9f4bc2",
+    "output\\t6v0\\20261015T235330003362+0800\\demand_screening.json": "46161617e9e59b08cb9d7d24451351a9815e294145a609755237a1d1fa43d901",
+    "output\\t6v1n_optimization\\20261016T173718998\\models_full.json": "d1c6608574fbc2fad9a827601576519abc8e476e46bb36440a120f6c1e69d79f",
+    "output\\t6v1n_optimization\\20261016T173718998\\result.json": "9c11000a4a5cd5304e85aafcbcf60d305cde11410ae84819cc60de3bc2915c6b",
+    "code\\model_v2\\t6v1.py": "0e784e26da3c209f836416b9e20ada81d2cd00679f666abcf5aebe0cffd7b0bf",
+    "code\\model_v2\\t6v1n.py": "ee1e91d4ff64a9d2e974deb98f41ee37c7a7ae10a1ed2a0e24b8b1e35d62d3d5",
+    "code\\model_v2\\t6v0_demand.py": "a0b8fea63e7e5f706caafe76f549a6e7907756c357ff276f1c14b6a50ada7fd0",
+    "work\\diagnose_t6_indonesia_beam.py": "ce21a77795286a6c92174e5d9dbb0bc07287354551628d63cf7dc522a2fa2282"
+  }
+}

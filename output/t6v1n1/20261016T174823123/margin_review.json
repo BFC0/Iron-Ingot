@@ -1,0 +1,44 @@
+{
+  "formula": "sales_kunits * (price_USD - ph_freight_USD - inventory_weighted_manufacturing_cost_USD)",
+  "scope": "中性产品毛贡献，不是净利润；未扣营销研发固定税费融资及机会成本",
+  "plans": [
+    {
+      "name": "中性",
+      "unit_margins": [
+        488.62874301861586,
+        11.873629963997235
+      ]
+    },
+    {
+      "name": "稳健",
+      "unit_margins": [
+        589.8670717257371,
+        16.669207638710294
+      ]
+    },
+    {
+      "name": "份额10%",
+      "unit_margins": [
+        455.98165221722013,
+        11.961269450851882
+      ]
+    },
+    {
+      "name": "份额20%",
+      "unit_margins": [
+        143.34472513185847,
+        5.660795457979299
+      ]
+    },
+    {
+      "name": "份额30%",
+      "unit_margins": [
+        -29.97125698138416,
+        1.5572794826299692
+      ]
+    }
+  ],
+  "source_before_sha256": "10e00074b913ba279b8a725972e371bd64bc68a8ac6bb89bc10901d857de3c7f",
+  "source_after_sha256": "88bfc6e8752dd191ece5b6c37f0b2de549d496c48ee2db35cecdd2bbfb192f26",
+  "reason": "30%目标梁毛贡献为负；抢占推荐加入产品毛贡献非负筛选，未更改搜索结果"
+}

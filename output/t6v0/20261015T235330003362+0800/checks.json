@@ -1,0 +1,54 @@
+{
+  "final_decision_guards": true,
+  "financial_selfchecks": true,
+  "connector": {
+    "overproduction_inventory": true,
+    "two_round_carryover": true,
+    "payroll_and_materials_on_production": true,
+    "priority": true,
+    "zero_capacity": true,
+    "invalid_plan_rejected": true
+  },
+  "joint_allocation": {
+    "connector_free_path": {
+      "overproduction_inventory": true,
+      "two_round_carryover": true,
+      "payroll_and_materials_on_production": true,
+      "priority": true,
+      "zero_capacity": true,
+      "invalid_plan_rejected": true
+    },
+    "fixed_plan_reserves_shared_workers": true,
+    "infeasible_plan_rejected": true,
+    "dedicated_capacity": true,
+    "shared_labor": true,
+    "shift_costs": true,
+    "negative_margin_idle": true,
+    "zero_capacity": true,
+    "unequal_efficiencies": true,
+    "invalid_inputs_rejected": true
+  },
+  "version": "t6v0",
+  "training_round": 5,
+  "state_pairs": 100,
+  "curve_points": 600,
+  "captured_group_fields": 42,
+  "actual_decision_fields": 29,
+  "player_estimates_excluded": 13,
+  "own_decision_pairs": 4,
+  "decision_expense_proxies_used": false,
+  "research_company_expense_proxies": true,
+  "budget_used_as_actual": false,
+  "severance_failures": 0,
+  "physics_failures": 0,
+  "route_checks": 400,
+  "route_missing": 0,
+  "capacity_checks_passed": true,
+  "financial_source_checks": {
+    "financial": 1900,
+    "cumulative": 100,
+    "print_web": 10910,
+    "svg_point_checks": 7946
+  },
+  "model_count": 29
+}

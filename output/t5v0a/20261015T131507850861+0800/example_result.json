@@ -1,0 +1,66 @@
+{
+  "version": "t5v0a",
+  "application_round": 5,
+  "training_performed": false,
+  "full_profit_available": false,
+  "complete_profit": null,
+  "deployment_enabled": false,
+  "remaining_profit_ranking": false,
+  "materials": {},
+  "labor": {},
+  "curves": {},
+  "finance": {
+    "status": "SKIPPED_MISSING_EVIDENCE",
+    "reason": "缺显式财务状态；不推定计息时点或自动短贷",
+    "value": null
+  },
+  "market_totals": {
+    "status": "SKIPPED_MISSING_EVIDENCE",
+    "reason": "建筑市场增速到产品需求的映射未核验；需显式产品/国家增长情景",
+    "value": null
+  },
+  "demand": {
+    "status": "SKIPPED_MISSING_EVIDENCE",
+    "reason": "缺99队最终决策；SHARE/COUNTRY/ABS沿用暂停，不重训或调用旧响应冒充正式5预测",
+    "value": null
+  },
+  "connector": {
+    "status": "SKIPPED_MISSING_EVIDENCE",
+    "reason": "缺显式生产/需求/价格/效率及订单前数量情景",
+    "value": null
+  },
+  "administration": {
+    "base_cost_kusd": 10000.0,
+    "increase_kusd": 4000.0,
+    "pretax_profit_delta_kusd": -4000.0,
+    "cash_delta_kusd": null,
+    "scope": "仅行政基础费较正式4的税前增量，不重复叠加；付款时点和税亏未知"
+  },
+  "new_tender_available": false,
+  "existing_orders": {
+    "status": "SKIPPED_MISSING_EVIDENCE",
+    "reason": "没有新招标不代表没有历史合同；交付及收付款未核验",
+    "value": null
+  },
+  "investment_timing": {
+    "status": "SKIPPED_MISSING_EVIDENCE",
+    "reason": "公布机器价格已更新；生效时点未知，不推断扩产收益",
+    "value": null
+  },
+  "spending_to_curve": {
+    "status": "SKIPPED_MISSING_EVIDENCE",
+    "reason": "研发/运营存量及衰减不可识别，自动支出映射跳过",
+    "value": null
+  },
+  "horizon": {
+    "start_round": 5,
+    "end_round": 6,
+    "remaining_rounds": 2,
+    "remaining_profit": null,
+    "complete_profit_path": false,
+    "terminal_state": null,
+    "terminal_reward": null,
+    "ranking_eligible": false,
+    "scope": "仅剩余回合利润小计；需独立验证状态结转和计分规则才可用于完整决策排名；无自动变现、清债或第7回合收益"
+  }
+}

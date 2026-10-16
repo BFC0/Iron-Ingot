@@ -1,0 +1,996 @@
+{
+  "复合梁": {
+    "SHARE": {
+      "beta_general": 0.09983125961794792,
+      "beta_designer": 0.18410248102183505,
+      "n": 144,
+      "market_count": 10,
+      "known_coefficient_prior": [
+        0.10075704780158765,
+        0.18944116921558665
+      ],
+      "penalty": 1.0,
+      "selection_path": [
+        {
+          "penalty": 0.0,
+          "held_market_log_change_rmse": 0.10006047538504767
+        },
+        {
+          "penalty": 0.0001,
+          "held_market_log_change_rmse": 0.10004425038779267
+        },
+        {
+          "penalty": 0.001,
+          "held_market_log_change_rmse": 0.09992572010332096
+        },
+        {
+          "penalty": 0.01,
+          "held_market_log_change_rmse": 0.09875607960657648
+        },
+        {
+          "penalty": 0.1,
+          "held_market_log_change_rmse": 0.09505730238188138
+        },
+        {
+          "penalty": 1.0,
+          "held_market_log_change_rmse": 0.09417791959684185
+        }
+      ],
+      "in_sample_log_change_rmse": 0.09897998044129479,
+      "old_coefficient_error": 0.09928646185656148,
+      "nested_holdouts": [
+        {
+          "held_market": 1,
+          "train_n": 130,
+          "test_n": 14,
+          "penalty": 1.0,
+          "beta": [
+            0.09954494856269307,
+            0.1835765607776865
+          ],
+          "log_change_rmse": 0.10653366951369166,
+          "old_beta_log_change_rmse": 0.10652832715981914
+        },
+        {
+          "held_market": 2,
+          "train_n": 126,
+          "test_n": 18,
+          "penalty": 1.0,
+          "beta": [
+            0.09986151278199096,
+            0.18340494522112072
+          ],
+          "log_change_rmse": 0.061492174121000755,
+          "old_beta_log_change_rmse": 0.06138091614995461
+        },
+        {
+          "held_market": 3,
+          "train_n": 128,
+          "test_n": 16,
+          "penalty": 1.0,
+          "beta": [
+            0.09944151318526691,
+            0.18397104326854194
+          ],
+          "log_change_rmse": 0.137482465979652,
+          "old_beta_log_change_rmse": 0.13761531823907963
+        },
+        {
+          "held_market": 4,
+          "train_n": 128,
+          "test_n": 16,
+          "penalty": 1.0,
+          "beta": [
+            0.09939987435764853,
+            0.18516977850302835
+          ],
+          "log_change_rmse": 0.12021543362788963,
+          "old_beta_log_change_rmse": 0.12073693883995615
+        },
+        {
+          "held_market": 5,
+          "train_n": 138,
+          "test_n": 6,
+          "penalty": 0.0,
+          "beta": [
+            0.1250118259154424,
+            4.852408638166051e-15
+          ],
+          "log_change_rmse": 0.12908799689044748,
+          "old_beta_log_change_rmse": 0.055718227242374435
+        },
+        {
+          "held_market": 6,
+          "train_n": 132,
+          "test_n": 12,
+          "penalty": 1.0,
+          "beta": [
+            0.09994340170764328,
+            0.18381313871330546
+          ],
+          "log_change_rmse": 0.06286743490302117,
+          "old_beta_log_change_rmse": 0.06312571580236954
+        },
+        {
+          "held_market": 7,
+          "train_n": 126,
+          "test_n": 18,
+          "penalty": 1.0,
+          "beta": [
+            0.10002827400544903,
+            0.1851228929199186
+          ],
+          "log_change_rmse": 0.10352275116263382,
+          "old_beta_log_change_rmse": 0.10418887263731046
+        },
+        {
+          "held_market": 8,
+          "train_n": 132,
+          "test_n": 12,
+          "penalty": 1.0,
+          "beta": [
+            0.10148617347944304,
+            0.18655202547150943
+          ],
+          "log_change_rmse": 0.14460676154681887,
+          "old_beta_log_change_rmse": 0.1451080985387877
+        },
+        {
+          "held_market": 9,
+          "train_n": 128,
+          "test_n": 16,
+          "penalty": 1.0,
+          "beta": [
+            0.10028525038338112,
+            0.18428234401478708
+          ],
+          "log_change_rmse": 0.08041403145250457,
+          "old_beta_log_change_rmse": 0.08090984708096663
+        },
+        {
+          "held_market": 10,
+          "train_n": 128,
+          "test_n": 16,
+          "penalty": 1.0,
+          "beta": [
+            0.0994190398064931,
+            0.18312779801663215
+          ],
+          "log_change_rmse": 0.06677106928470405,
+          "old_beta_log_change_rmse": 0.06632697694260323
+        }
+      ],
+      "nested_market_mean_rmse": 0.10129937884823641,
+      "old_nested_market_mean_rmse": 0.09416392386332215,
+      "own_market_rows": 6,
+      "scope": "formal4 actual initial/final changes; aggregate marketing expense proxy; two marketing coefficients fit, price/RD offset held at known coefficients"
+    },
+    "COUNTRY/泰国": {
+      "beta_general": 0.07178794849398037,
+      "beta_designer": 0.14816600418611875,
+      "n": 72,
+      "market_count": 10,
+      "known_coefficient_prior": [
+        0.0766929622321904,
+        0.19433784963552073
+      ],
+      "penalty": 0.1,
+      "selection_path": [
+        {
+          "penalty": 0.0,
+          "held_market_log_change_rmse": 0.11498609266542772
+        },
+        {
+          "penalty": 0.0001,
+          "held_market_log_change_rmse": 0.11497348728727778
+        },
+        {
+          "penalty": 0.001,
+          "held_market_log_change_rmse": 0.11484812261154428
+        },
+        {
+          "penalty": 0.01,
+          "held_market_log_change_rmse": 0.11381920307660147
+        },
+        {
+          "penalty": 0.1,
+          "held_market_log_change_rmse": 0.11105577551423411
+        },
+        {
+          "penalty": 1.0,
+          "held_market_log_change_rmse": 0.11157084180801828
+        }
+      ],
+      "in_sample_log_change_rmse": 0.1152116381869645,
+      "old_coefficient_error": 0.11768567819062152,
+      "nested_holdouts": [
+        {
+          "held_market": 1,
+          "train_n": 65,
+          "test_n": 7,
+          "penalty": 0.1,
+          "beta": [
+            0.07192884512245054,
+            0.14638869883102545
+          ],
+          "log_change_rmse": 0.09474564638260509,
+          "old_beta_log_change_rmse": 0.09602095517286598
+        },
+        {
+          "held_market": 2,
+          "train_n": 63,
+          "test_n": 9,
+          "penalty": 0.1,
+          "beta": [
+            0.07320026787003443,
+            0.142705124568314
+          ],
+          "log_change_rmse": 0.07867778316629127,
+          "old_beta_log_change_rmse": 0.07692021848755602
+        },
+        {
+          "held_market": 3,
+          "train_n": 64,
+          "test_n": 8,
+          "penalty": 0.1,
+          "beta": [
+            0.06758838114399503,
+            0.14933124029072484
+          ],
+          "log_change_rmse": 0.18289272722291824,
+          "old_beta_log_change_rmse": 0.18403657710772167
+        },
+        {
+          "held_market": 4,
+          "train_n": 64,
+          "test_n": 8,
+          "penalty": 0.1,
+          "beta": [
+            0.06524786778426465,
+            0.15731196099710706
+          ],
+          "log_change_rmse": 0.13813766965634752,
+          "old_beta_log_change_rmse": 0.14243542336747597
+        },
+        {
+          "held_market": 5,
+          "train_n": 69,
+          "test_n": 3,
+          "penalty": 0.0,
+          "beta": [
+            0.08685863356788544,
+            1.0945415700898872e-11
+          ],
+          "log_change_rmse": 0.13667547682214717,
+          "old_beta_log_change_rmse": 0.08722063929683038
+        },
+        {
+          "held_market": 6,
+          "train_n": 66,
+          "test_n": 6,
+          "penalty": 0.1,
+          "beta": [
+            0.07293082406809429,
+            0.14682419809573227
+          ],
+          "log_change_rmse": 0.07085755182380181,
+          "old_beta_log_change_rmse": 0.07297649385413721
+        },
+        {
+          "held_market": 7,
+          "train_n": 63,
+          "test_n": 9,
+          "penalty": 0.1,
+          "beta": [
+            0.07388934729353813,
+            0.1505780750832615
+          ],
+          "log_change_rmse": 0.12244490180592792,
+          "old_beta_log_change_rmse": 0.1266937867747513
+        },
+        {
+          "held_market": 8,
+          "train_n": 66,
+          "test_n": 6,
+          "penalty": 0.1,
+          "beta": [
+            0.08243223404462476,
+            0.1635940559520803
+          ],
+          "log_change_rmse": 0.15224954105834138,
+          "old_beta_log_change_rmse": 0.15786900407339188
+        },
+        {
+          "held_market": 9,
+          "train_n": 64,
+          "test_n": 8,
+          "penalty": 0.1,
+          "beta": [
+            0.07507560481025716,
+            0.1480438861801337
+          ],
+          "log_change_rmse": 0.09162249088087862,
+          "old_beta_log_change_rmse": 0.09471246062953032
+        },
+        {
+          "held_market": 10,
+          "train_n": 64,
+          "test_n": 8,
+          "penalty": 0.1,
+          "beta": [
+            0.07044246105580501,
+            0.14215988649632333
+          ],
+          "log_change_rmse": 0.08226870027133008,
+          "old_beta_log_change_rmse": 0.07954706969110853
+        }
+      ],
+      "nested_market_mean_rmse": 0.11505724890905891,
+      "old_nested_market_mean_rmse": 0.11184326284553692,
+      "own_market_rows": 3,
+      "scope": "formal4 actual initial/final changes; aggregate marketing expense proxy; two marketing coefficients fit, price/RD offset held at known coefficients"
+    },
+    "COUNTRY/印尼": {
+      "beta_general": 0.12090869209652824,
+      "beta_designer": 0.16669315894829287,
+      "n": 72,
+      "market_count": 10,
+      "known_coefficient_prior": [
+        0.12258832142126597,
+        0.1733684817834371
+      ],
+      "penalty": 1.0,
+      "selection_path": [
+        {
+          "penalty": 0.0,
+          "held_market_log_change_rmse": 0.10624910664476132
+        },
+        {
+          "penalty": 0.0001,
+          "held_market_log_change_rmse": 0.10623641712350451
+        },
+        {
+          "penalty": 0.001,
+          "held_market_log_change_rmse": 0.10614139343369489
+        },
+        {
+          "penalty": 0.01,
+          "held_market_log_change_rmse": 0.10591920587807531
+        },
+        {
+          "penalty": 0.1,
+          "held_market_log_change_rmse": 0.10156391542613023
+        },
+        {
+          "penalty": 1.0,
+          "held_market_log_change_rmse": 0.10065564747514759
+        }
+      ],
+      "in_sample_log_change_rmse": 0.10695553345565902,
+      "old_coefficient_error": 0.10741349861320655,
+      "nested_holdouts": [
+        {
+          "held_market": 1,
+          "train_n": 65,
+          "test_n": 7,
+          "penalty": 1.0,
+          "beta": [
+            0.12021192595013054,
+            0.16575632100166768
+          ],
+          "log_change_rmse": 0.11998636750083992,
+          "old_beta_log_change_rmse": 0.11973517418534915
+        },
+        {
+          "held_market": 2,
+          "train_n": 63,
+          "test_n": 9,
+          "penalty": 1.0,
+          "beta": [
+            0.12093591779892983,
+            0.16599247414693635
+          ],
+          "log_change_rmse": 0.06586304524951346,
+          "old_beta_log_change_rmse": 0.06591208064758339
+        },
+        {
+          "held_market": 3,
+          "train_n": 64,
+          "test_n": 8,
+          "penalty": 1.0,
+          "beta": [
+            0.12055926943448346,
+            0.16619659748848978
+          ],
+          "log_change_rmse": 0.07547948562357044,
+          "old_beta_log_change_rmse": 0.07560822682927038
+        },
+        {
+          "held_market": 4,
+          "train_n": 64,
+          "test_n": 8,
+          "penalty": 1.0,
+          "beta": [
+            0.12042124270016724,
+            0.16762857118261337
+          ],
+          "log_change_rmse": 0.11537048150551525,
+          "old_beta_log_change_rmse": 0.11610016961651069
+        },
+        {
+          "held_market": 5,
+          "train_n": 69,
+          "test_n": 3,
+          "penalty": 0.001,
+          "beta": [
+            0.11471035125133683,
+            9.016694750705855e-12
+          ],
+          "log_change_rmse": 0.10809117840900198,
+          "old_beta_log_change_rmse": 0.0351486394438966
+        },
+        {
+          "held_market": 6,
+          "train_n": 66,
+          "test_n": 6,
+          "penalty": 1.0,
+          "beta": [
+            0.12090530710313206,
+            0.16634596371897922
+          ],
+          "log_change_rmse": 0.08975527627450076,
+          "old_beta_log_change_rmse": 0.09004970073635067
+        },
+        {
+          "held_market": 7,
+          "train_n": 63,
+          "test_n": 9,
+          "penalty": 1.0,
+          "beta": [
+            0.12106924234709057,
+            0.16774147214080137
+          ],
+          "log_change_rmse": 0.12651102129415798,
+          "old_beta_log_change_rmse": 0.12731497367340935
+        },
+        {
+          "held_market": 8,
+          "train_n": 66,
+          "test_n": 6,
+          "penalty": 1.0,
+          "beta": [
+            0.12316144048935687,
+            0.16986397510063234
+          ],
+          "log_change_rmse": 0.17970505775542542,
+          "old_beta_log_change_rmse": 0.18036729485206018
+        },
+        {
+          "held_market": 9,
+          "train_n": 64,
+          "test_n": 8,
+          "penalty": 1.0,
+          "beta": [
+            0.12142089157101547,
+            0.1669458575605411
+          ],
+          "log_change_rmse": 0.09898493756023277,
+          "old_beta_log_change_rmse": 0.09966677207880499
+        },
+        {
+          "held_market": 10,
+          "train_n": 64,
+          "test_n": 8,
+          "penalty": 1.0,
+          "beta": [
+            0.1200796922194803,
+            0.16516409479665756
+          ],
+          "log_change_rmse": 0.09820814639880249,
+          "old_beta_log_change_rmse": 0.09736798597984918
+        }
+      ],
+      "nested_market_mean_rmse": 0.10779549975715605,
+      "old_nested_market_mean_rmse": 0.10072710180430847,
+      "own_market_rows": 3,
+      "scope": "formal4 actual initial/final changes; aggregate marketing expense proxy; two marketing coefficients fit, price/RD offset held at known coefficients"
+    }
+  },
+  "连接件": {
+    "SHARE": {
+      "beta_general": 0.8072389315993697,
+      "beta_designer": 2.704832134923186e-12,
+      "n": 120,
+      "market_count": 10,
+      "known_coefficient_prior": [
+        1.1050832502730366,
+        0.17536721387540005
+      ],
+      "penalty": 0.01,
+      "selection_path": [
+        {
+          "penalty": 0.0,
+          "held_market_log_change_rmse": 0.32859530720234487
+        },
+        {
+          "penalty": 0.0001,
+          "held_market_log_change_rmse": 0.3285583181292724
+        },
+        {
+          "penalty": 0.001,
+          "held_market_log_change_rmse": 0.32827002466495697
+        },
+        {
+          "penalty": 0.01,
+          "held_market_log_change_rmse": 0.32770075718567393
+        },
+        {
+          "penalty": 0.1,
+          "held_market_log_change_rmse": 0.3337411223491669
+        },
+        {
+          "penalty": 1.0,
+          "held_market_log_change_rmse": 0.3401251317234667
+        }
+      ],
+      "in_sample_log_change_rmse": 0.44092692004881884,
+      "old_coefficient_error": 0.45172768411628283,
+      "nested_holdouts": [
+        {
+          "held_market": 1,
+          "train_n": 109,
+          "test_n": 11,
+          "penalty": 0.01,
+          "beta": [
+            0.8215913293399035,
+            0.0351110815522455
+          ],
+          "log_change_rmse": 0.4388352014683048,
+          "old_beta_log_change_rmse": 0.46731030535380624
+        },
+        {
+          "held_market": 2,
+          "train_n": 106,
+          "test_n": 14,
+          "penalty": 0.01,
+          "beta": [
+            0.8081949174691143,
+            4.116726488963952e-14
+          ],
+          "log_change_rmse": 0.11223275022061215,
+          "old_beta_log_change_rmse": 0.13266090834490177
+        },
+        {
+          "held_market": 3,
+          "train_n": 104,
+          "test_n": 16,
+          "penalty": 0.01,
+          "beta": [
+            0.7837657952244882,
+            1.619800317111718e-10
+          ],
+          "log_change_rmse": 0.15120597660765261,
+          "old_beta_log_change_rmse": 0.14767200413767217
+        },
+        {
+          "held_market": 4,
+          "train_n": 105,
+          "test_n": 15,
+          "penalty": 0.01,
+          "beta": [
+            0.9128471200609235,
+            1.2515310289942385e-17
+          ],
+          "log_change_rmse": 1.1789911187717335,
+          "old_beta_log_change_rmse": 1.182595270547707
+        },
+        {
+          "held_market": 5,
+          "train_n": 114,
+          "test_n": 6,
+          "penalty": 0.1,
+          "beta": [
+            1.033813307166541,
+            0.1115271072381581
+          ],
+          "log_change_rmse": 0.223180795330414,
+          "old_beta_log_change_rmse": 0.2693956995017315
+        },
+        {
+          "held_market": 6,
+          "train_n": 110,
+          "test_n": 10,
+          "penalty": 0.01,
+          "beta": [
+            0.8362154019558042,
+            2.1521453068936968e-10
+          ],
+          "log_change_rmse": 0.1879519321775855,
+          "old_beta_log_change_rmse": 0.21938734744394706
+        },
+        {
+          "held_market": 7,
+          "train_n": 108,
+          "test_n": 12,
+          "penalty": 0.01,
+          "beta": [
+            0.7529847859659681,
+            1.4345095884814654e-16
+          ],
+          "log_change_rmse": 0.28242338429959146,
+          "old_beta_log_change_rmse": 0.2570832218776656
+        },
+        {
+          "held_market": 8,
+          "train_n": 114,
+          "test_n": 6,
+          "penalty": 0.01,
+          "beta": [
+            0.740713796920286,
+            0.006847166618646847
+          ],
+          "log_change_rmse": 0.2184470428969242,
+          "old_beta_log_change_rmse": 0.19213040194233813
+        },
+        {
+          "held_market": 9,
+          "train_n": 106,
+          "test_n": 14,
+          "penalty": 0.01,
+          "beta": [
+            0.785223519484362,
+            5.195213927677121e-11
+          ],
+          "log_change_rmse": 0.19606400038551888,
+          "old_beta_log_change_rmse": 0.20201048667407667
+        },
+        {
+          "held_market": 10,
+          "train_n": 104,
+          "test_n": 16,
+          "penalty": 0.01,
+          "beta": [
+            0.7520021387294518,
+            0.0007921059172628162
+          ],
+          "log_change_rmse": 0.3533018506549821,
+          "old_beta_log_change_rmse": 0.3460398979505946
+        }
+      ],
+      "nested_market_mean_rmse": 0.3342634052813319,
+      "old_nested_market_mean_rmse": 0.34162855437744405,
+      "own_market_rows": 6,
+      "scope": "formal4 actual initial/final changes; aggregate marketing expense proxy; two marketing coefficients fit, price/RD offset held at known coefficients"
+    },
+    "COUNTRY/泰国": {
+      "beta_general": 0.7021703454258091,
+      "beta_designer": 8.863530249867395e-15,
+      "n": 60,
+      "market_count": 10,
+      "known_coefficient_prior": [
+        1.2307802379602588,
+        0.13984624032110993
+      ],
+      "penalty": 0.01,
+      "selection_path": [
+        {
+          "penalty": 0.0,
+          "held_market_log_change_rmse": 0.4113668317081583
+        },
+        {
+          "penalty": 0.0001,
+          "held_market_log_change_rmse": 0.41125798458224255
+        },
+        {
+          "penalty": 0.001,
+          "held_market_log_change_rmse": 0.4104045818811966
+        },
+        {
+          "penalty": 0.01,
+          "held_market_log_change_rmse": 0.40797606220572274
+        },
+        {
+          "penalty": 0.1,
+          "held_market_log_change_rmse": 0.4137906312135583
+        },
+        {
+          "penalty": 1.0,
+          "held_market_log_change_rmse": 0.42120102240969376
+        }
+      ],
+      "in_sample_log_change_rmse": 0.5721259278647945,
+      "old_coefficient_error": 0.5884970972223864,
+      "nested_holdouts": [
+        {
+          "held_market": 1,
+          "train_n": 54,
+          "test_n": 6,
+          "penalty": 0.01,
+          "beta": [
+            0.7207854363179585,
+            2.8965413645613447e-14
+          ],
+          "log_change_rmse": 0.45712748236155,
+          "old_beta_log_change_rmse": 0.4912570860144199
+        },
+        {
+          "held_market": 2,
+          "train_n": 53,
+          "test_n": 7,
+          "penalty": 0.01,
+          "beta": [
+            0.6891268817941156,
+            5.4728241821397e-16
+          ],
+          "log_change_rmse": 0.13670149299319892,
+          "old_beta_log_change_rmse": 0.15303502111345818
+        },
+        {
+          "held_market": 3,
+          "train_n": 52,
+          "test_n": 8,
+          "penalty": 0.01,
+          "beta": [
+            0.6655769770969648,
+            6.133063258868525e-12
+          ],
+          "log_change_rmse": 0.18224185132629311,
+          "old_beta_log_change_rmse": 0.16777987532164543
+        },
+        {
+          "held_market": 4,
+          "train_n": 53,
+          "test_n": 7,
+          "penalty": 0.01,
+          "beta": [
+            0.9031681305546598,
+            3.3067413112860156e-17
+          ],
+          "log_change_rmse": 1.597169313178118,
+          "old_beta_log_change_rmse": 1.6107907166966438
+        },
+        {
+          "held_market": 5,
+          "train_n": 57,
+          "test_n": 3,
+          "penalty": 0.1,
+          "beta": [
+            1.1213375646217285,
+            0.08602806841760442
+          ],
+          "log_change_rmse": 0.3164821399993234,
+          "old_beta_log_change_rmse": 0.37240931770591895
+        },
+        {
+          "held_market": 6,
+          "train_n": 55,
+          "test_n": 5,
+          "penalty": 0.01,
+          "beta": [
+            0.7223877658399886,
+            9.41532744633446e-17
+          ],
+          "log_change_rmse": 0.224255694533609,
+          "old_beta_log_change_rmse": 0.2830802356332441
+        },
+        {
+          "held_market": 7,
+          "train_n": 54,
+          "test_n": 6,
+          "penalty": 0.01,
+          "beta": [
+            0.6339647183231917,
+            1.4073590226920251e-16
+          ],
+          "log_change_rmse": 0.31078543272644177,
+          "old_beta_log_change_rmse": 0.2766661072214333
+        },
+        {
+          "held_market": 8,
+          "train_n": 57,
+          "test_n": 3,
+          "penalty": 0.01,
+          "beta": [
+            0.6196828026303092,
+            5.790314257851998e-16
+          ],
+          "log_change_rmse": 0.2796871379438244,
+          "old_beta_log_change_rmse": 0.2339021099625647
+        },
+        {
+          "held_market": 9,
+          "train_n": 53,
+          "test_n": 7,
+          "penalty": 0.01,
+          "beta": [
+            0.6721318690904247,
+            7.061466841299893e-14
+          ],
+          "log_change_rmse": 0.20839223797547998,
+          "old_beta_log_change_rmse": 0.21974334584857638
+        },
+        {
+          "held_market": 10,
+          "train_n": 52,
+          "test_n": 8,
+          "penalty": 0.01,
+          "beta": [
+            0.5981509358558749,
+            1.694038299149267e-11
+          ],
+          "log_change_rmse": 0.4548903638706434,
+          "old_beta_log_change_rmse": 0.42115755115045783
+        }
+      ],
+      "nested_market_mean_rmse": 0.4167733146908482,
+      "old_nested_market_mean_rmse": 0.42298213666683626,
+      "own_market_rows": 3,
+      "scope": "formal4 actual initial/final changes; aggregate marketing expense proxy; two marketing coefficients fit, price/RD offset held at known coefficients"
+    },
+    "COUNTRY/印尼": {
+      "beta_general": 0.8835012808686499,
+      "beta_designer": 0.03702340875272762,
+      "n": 60,
+      "market_count": 10,
+      "known_coefficient_prior": [
+        0.9857986782404232,
+        0.1967931820740956
+      ],
+      "penalty": 0.01,
+      "selection_path": [
+        {
+          "penalty": 0.0,
+          "held_market_log_change_rmse": 0.2487585973880359
+        },
+        {
+          "penalty": 0.0001,
+          "held_market_log_change_rmse": 0.2487384883685296
+        },
+        {
+          "penalty": 0.001,
+          "held_market_log_change_rmse": 0.2485714963746227
+        },
+        {
+          "penalty": 0.01,
+          "held_market_log_change_rmse": 0.24723697035687814
+        },
+        {
+          "penalty": 0.1,
+          "held_market_log_change_rmse": 0.24865351977161657
+        },
+        {
+          "penalty": 1.0,
+          "held_market_log_change_rmse": 0.25346598162594053
+        }
+      ],
+      "in_sample_log_change_rmse": 0.30607613679215884,
+      "old_coefficient_error": 0.31168458299697266,
+      "nested_holdouts": [
+        {
+          "held_market": 1,
+          "train_n": 55,
+          "test_n": 5,
+          "penalty": 0.01,
+          "beta": [
+            0.9032031634134337,
+            0.095670485689453
+          ],
+          "log_change_rmse": 0.44343869346910947,
+          "old_beta_log_change_rmse": 0.4595919946178728
+        },
+        {
+          "held_market": 2,
+          "train_n": 53,
+          "test_n": 7,
+          "penalty": 0.01,
+          "beta": [
+            0.8951358059733208,
+            0.03565155147787485
+          ],
+          "log_change_rmse": 0.09822668416266586,
+          "old_beta_log_change_rmse": 0.11325422501264236
+        },
+        {
+          "held_market": 3,
+          "train_n": 52,
+          "test_n": 8,
+          "penalty": 0.01,
+          "beta": [
+            0.8651333745856686,
+            0.045515692387166046
+          ],
+          "log_change_rmse": 0.11816419751620573,
+          "old_beta_log_change_rmse": 0.12007333295214534
+        },
+        {
+          "held_market": 4,
+          "train_n": 52,
+          "test_n": 8,
+          "penalty": 0.01,
+          "beta": [
+            0.9307654631897966,
+            7.638833787091903e-13
+          ],
+          "log_change_rmse": 0.7095605538675467,
+          "old_beta_log_change_rmse": 0.7056102819096306
+        },
+        {
+          "held_market": 5,
+          "train_n": 57,
+          "test_n": 3,
+          "penalty": 0.1,
+          "beta": [
+            0.948539655158598,
+            0.12660467451516075
+          ],
+          "log_change_rmse": 0.08136265826816082,
+          "old_beta_log_change_rmse": 0.11748133031771928
+        },
+        {
+          "held_market": 6,
+          "train_n": 55,
+          "test_n": 5,
+          "penalty": 0.01,
+          "beta": [
+            0.9448399495703245,
+            0.014964099403124442
+          ],
+          "log_change_rmse": 0.16883484230901388,
+          "old_beta_log_change_rmse": 0.17479986737641764
+        },
+        {
+          "held_market": 7,
+          "train_n": 54,
+          "test_n": 6,
+          "penalty": 0.01,
+          "beta": [
+            0.865964192242998,
+            5.1623913334810195e-15
+          ],
+          "log_change_rmse": 0.2760590557599451,
+          "old_beta_log_change_rmse": 0.2597512992564714
+        },
+        {
+          "held_market": 8,
+          "train_n": 57,
+          "test_n": 3,
+          "penalty": 0.01,
+          "beta": [
+            0.8220529699102774,
+            0.059087594313716886
+          ],
+          "log_change_rmse": 0.16101676198842002,
+          "old_beta_log_change_rmse": 0.14911172303425071
+        },
+        {
+          "held_market": 9,
+          "train_n": 53,
+          "test_n": 7,
+          "penalty": 0.01,
+          "beta": [
+            0.8698831807340778,
+            0.036760700631799904
+          ],
+          "log_change_rmse": 0.19165603207983947,
+          "old_beta_log_change_rmse": 0.1931117817672006
+        },
+        {
+          "held_market": 10,
+          "train_n": 52,
+          "test_n": 8,
+          "penalty": 0.01,
+          "beta": [
+            0.8611582829142972,
+            0.06221602029666692
+          ],
+          "log_change_rmse": 0.24170791429072908,
+          "old_beta_log_change_rmse": 0.2525152198979065
+        }
+      ],
+      "nested_market_mean_rmse": 0.24900273937116363,
+      "old_nested_market_mean_rmse": 0.25453010561422573,
+      "own_market_rows": 3,
+      "scope": "formal4 actual initial/final changes; aggregate marketing expense proxy; two marketing coefficients fit, price/RD offset held at known coefficients"
+    }
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "ABS": {
+    "action": "缺数据跳过",
+    "historical_status": "BLOCKED_MISSING_CAPTURED_COMPETITOR_FINAL_DECISIONS_OR_HISTORY",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "保留独立绝对需求诊断，不与总量再次相乘以免双计；缺数据仍暂停"
+  },
+  "SHARE": {
+    "action": "缺数据跳过",
+    "historical_status": "BLOCKED_MISSING_CAPTURED_COMPETITOR_FINAL_DECISIONS_OR_HISTORY",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "市场总量已接通；缺竞争输入，份额响应不重训，支持显式本组历史份额保持情景"
+  },
+  "COUNTRY": {
+    "action": "缺数据跳过",
+    "historical_status": "BLOCKED_MISSING_CAPTURED_COMPETITOR_FINAL_DECISIONS_OR_HISTORY",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "国别外生需求分别更新；缺竞争输入，国别响应系数不变"
+  },
+  "EFF": {
+    "action": "缺数据跳过",
+    "historical_status": "OWN_FINAL_DECISION_CALIBRATION_RHO_UNIDENTIFIABLE",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "不由这两项假设直接改变；沿用t5v0a冻结参数、正式5输入与限制"
+  },
+  "RISK_POWER": {
+    "action": "沿用历史证据",
+    "historical_status": "RETRAINED_CONDITIONAL_ACTUAL_STATE",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "不由这两项假设直接改变；沿用t5v0a冻结参数、正式5输入与限制"
+  },
+  "RISK_EXP": {
+    "action": "条件应用调整",
+    "historical_status": "RETRAINED_CONDITIONAL_ACTUAL_STATE",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "不由这两项假设直接改变；沿用t5v0a冻结参数、正式5输入与限制"
+  },
+  "MATERIAL": {
+    "action": "条件应用调整",
+    "historical_status": "RETRAINED_SEPARATE_PRODUCTS",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "不由这两项假设直接改变；沿用t5v0a冻结参数、正式5输入与限制"
+  },
+  "MATERIAL_PROP": {
+    "action": "条件应用调整",
+    "historical_status": "RETRAINED_SEPARATE_PRODUCTS",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "不由这两项假设直接改变；沿用t5v0a冻结参数、正式5输入与限制"
+  },
+  "INTEREST": {
+    "action": "条件应用调整",
+    "historical_status": "RETRAINED_CONDITIONAL_ACTUAL_STATE",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "不由这两项假设直接改变；沿用t5v0a冻结参数、正式5输入与限制"
+  },
+  "RD": {
+    "action": "条件应用调整",
+    "historical_status": "RETRAINED_FORMAL4_CURVES",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "不由这两项假设直接改变；沿用t5v0a冻结参数、正式5输入与限制"
+  },
+  "OPS": {
+    "action": "条件应用调整",
+    "historical_status": "RETRAINED_FORMAL4_CURVES",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "不由这两项假设直接改变；沿用t5v0a冻结参数、正式5输入与限制"
+  },
+  "TOTAL": {
+    "action": "条件应用调整",
+    "historical_status": "ACTUAL_TOTALS_AND_GROWTH_DIAGNOSTICS_NOT_SUPERVISED_FIT",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "正式4两国两产品总量分别乘1.07/0.95"
+  },
+  "BASELINE": {
+    "action": "条件应用调整",
+    "historical_status": "ACTUAL_TOTALS_AND_GROWTH_DIAGNOSTICS_NOT_SUPERVISED_FIT",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "按相同总量重算十队等份额基线；非本组预测"
+  },
+  "GROWTH": {
+    "action": "条件应用调整",
+    "historical_status": "ACTUAL_TOTALS_AND_GROWTH_DIAGNOSTICS_NOT_SUPERVISED_FIT",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "两产品按国别固定需求变化率；公司份额变化仍需额外信息"
+  },
+  "CAPACITY": {
+    "action": "条件应用调整",
+    "historical_status": "OWN_ACTUAL_CAPACITY_BOUND_CHECKED_TIMING_UNRESOLVED",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "正式5机器固定价78/1.10计算采购金额，不推断生效产能"
+  },
+  "LABOR": {
+    "action": "条件应用调整",
+    "historical_status": "CONDITIONAL_WAGE_FIT_IDENTIFIABILITY_RECORDED",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "不由这两项假设直接改变；沿用t5v0a冻结参数、正式5输入与限制"
+  },
+  "OPERATING": {
+    "action": "条件应用调整",
+    "historical_status": "SOURCE_EXPENSE_ACCOUNTING_ONLY_NOT_FORWARD_PROFIT_MODEL",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "不由这两项假设直接改变；沿用t5v0a冻结参数、正式5输入与限制"
+  },
+  "FINANCE": {
+    "action": "条件应用调整",
+    "historical_status": "1900_SOURCE_EQUATIONS_ACCEPTED_NO_COMPLETE_FORWARD_FORECAST",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "投资金额改用稳定公布价，支付时点、融资和完整现金链未解"
+  },
+  "HORIZON": {
+    "action": "条件应用调整",
+    "historical_status": "BLOCKED_MISSING_CAPTURED_COMPETITOR_FINAL_DECISIONS_OR_HISTORY",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "仅正式5-6；没有把一次正式5增速重复施加正式6，也未固定正式6机器价"
+  },
+  "METRICS": {
+    "action": "沿用历史证据",
+    "historical_status": "SOURCE_HASH_AND_DECISION_GUARDS_CHECKED",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "不由这两项假设直接改变；沿用t5v0a冻结参数、正式5输入与限制"
+  },
+  "A": {
+    "action": "缺数据跳过",
+    "historical_status": "BLOCKED_MISSING_CAPTURED_COMPETITOR_FINAL_DECISIONS_OR_HISTORY",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "不由这两项假设直接改变；沿用t5v0a冻结参数、正式5输入与限制"
+  },
+  "B": {
+    "action": "沿用历史证据",
+    "historical_status": "PUBLISHED_RULE_CHECKED_WITH_DISPLAY_INTERVALS",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "不由这两项假设直接改变；沿用t5v0a冻结参数、正式5输入与限制"
+  },
+  "C": {
+    "action": "沿用历史证据",
+    "historical_status": "CONDITIONAL_WAGE_FIT_IDENTIFIABILITY_RECORDED",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "不由这两项假设直接改变；沿用t5v0a冻结参数、正式5输入与限制"
+  },
+  "D": {
+    "action": "缺数据跳过",
+    "historical_status": "BLOCKED_MISSING_CAPTURED_COMPETITOR_FINAL_DECISIONS_OR_HISTORY",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "不由这两项假设直接改变；沿用t5v0a冻结参数、正式5输入与限制"
+  },
+  "E": {
+    "action": "沿用历史证据",
+    "historical_status": "ACTUAL_INTENSITY_FORMULA_CHECKED",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "不由这两项假设直接改变；沿用t5v0a冻结参数、正式5输入与限制"
+  },
+  "F": {
+    "action": "沿用历史证据",
+    "historical_status": "ROUTE_FORMULA_CHECKED_WITH_MISSING_ROWS_RECORDED",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "不由这两项假设直接改变；沿用t5v0a冻结参数、正式5输入与限制"
+  },
+  "CONNECTOR": {
+    "action": "条件应用调整",
+    "historical_status": "RULE_SELF_CHECK_ONLY_NO_ACTUAL_LIFECYCLE_TRAINING",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "订单前数量场景可接入显式份额保持需求，库存和当期成本一致重算"
+  },
+  "CONNECTOR_V2": {
+    "action": "缺数据跳过",
+    "historical_status": "RULE_SELF_CHECK_ONLY_NO_ACTUAL_LIFECYCLE_TRAINING",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "正式5库存数量/成本可沿用，但历史合同及库存计价仍缺数据跳过"
+  },
+  "JOINT_ALLOCATION": {
+    "action": "缺数据跳过",
+    "historical_status": "RULE_SELF_CHECK_ONLY_NO_ACTUAL_LIFECYCLE_TRAINING",
+    "retrained": false,
+    "full_forward_validation": false,
+    "t5v0b_impact": "需求总量条件已更新；缺完整需求响应及生命周期，联合完整优化继续跳过"
+  }
+}

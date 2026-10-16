@@ -1,0 +1,441 @@
+{
+  "models": {
+    "rd_beam": {
+      "current_weight": 0.75,
+      "previous_weight": 0.5,
+      "previous_input": 900,
+      "coefficient_intervals": [
+        [
+          0.745565326633166,
+          0.7629773869346734
+        ],
+        [
+          0.4907900614182021,
+          0.5008347292015634
+        ]
+      ],
+      "distinct_inputs": [
+        0.0,
+        1200.0,
+        2600.0
+      ],
+      "held_input": 2600,
+      "status": "SIMPLE_COEFFICIENTS_COMPATIBLE_WITH_INTERVALS_NOT_SOURCE_CODE",
+      "historic_weight_scope": "one fixed prior state; dependence on previous input is not independently identified"
+    },
+    "rd_connector": {
+      "current_weight": 0.75,
+      "previous_weight": 0.5,
+      "previous_input": 1300,
+      "coefficient_intervals": [
+        [
+          0.7442616930807887,
+          0.760492848859683
+        ],
+        [
+          0.4894491689215307,
+          0.5050618477000386
+        ]
+      ],
+      "distinct_inputs": [
+        0.0,
+        381.0,
+        2600.0
+      ],
+      "held_input": 381,
+      "status": "SIMPLE_COEFFICIENTS_COMPATIBLE_WITH_INTERVALS_NOT_SOURCE_CODE",
+      "historic_weight_scope": "one fixed prior state; dependence on previous input is not independently identified"
+    },
+    "operations": {
+      "current_weight": 1.0,
+      "previous_weight": 0.35,
+      "previous_input": 750,
+      "coefficient_intervals": [
+        [
+          0.9938065326633166,
+          1.009962311557789
+        ],
+        [
+          0.34452596314907874,
+          0.3533634840871022
+        ]
+      ],
+      "distinct_inputs": [
+        0.0,
+        900.0,
+        1200.0
+      ],
+      "held_input": 900,
+      "status": "SIMPLE_COEFFICIENTS_COMPATIBLE_WITH_INTERVALS_NOT_SOURCE_CODE",
+      "historic_weight_scope": "one fixed prior state; dependence on previous input is not independently identified"
+    }
+  },
+  "records": [
+    {
+      "key": "rd_beam",
+      "input": 2600.0,
+      "lower": 2392.263819095477,
+      "upper": 2412.5603015075376,
+      "plotted_label": 2412.0,
+      "grid_index": 125,
+      "grid_step": 19.2964824120603,
+      "multiplier": 1.1695045413242298,
+      "at": "2026-10-15T11:11:28.616Z"
+    },
+    {
+      "key": "rd_connector",
+      "input": 381.0,
+      "lower": 925.7311557788944,
+      "upper": 946.0276381909547,
+      "plotted_label": 946.0,
+      "grid_index": 49,
+      "grid_step": 19.2964824120603,
+      "multiplier": 0.9727320229814532,
+      "at": "2026-10-15T11:11:28.616Z"
+    },
+    {
+      "key": "operations",
+      "input": 900.0,
+      "lower": 1158.4949748743718,
+      "upper": 1168.8417085427134,
+      "plotted_label": 1168.0,
+      "grid_index": 125,
+      "grid_step": 9.346733668341708,
+      "multiplier": 1.0087151553989109,
+      "at": "2026-10-15T11:11:28.616Z"
+    },
+    {
+      "key": "rd_beam",
+      "input": 2600.0,
+      "lower": 2392.263819095477,
+      "upper": 2412.5603015075376,
+      "plotted_label": 2412.0,
+      "grid_index": 125,
+      "grid_step": 19.2964824120603,
+      "multiplier": 1.1695045413242298,
+      "at": "2026-10-15T11:14:01.657Z"
+    },
+    {
+      "key": "rd_connector",
+      "input": 381.0,
+      "lower": 925.7311557788944,
+      "upper": 946.0276381909547,
+      "plotted_label": 946.0,
+      "grid_index": 49,
+      "grid_step": 19.2964824120603,
+      "multiplier": 0.9727320229814532,
+      "at": "2026-10-15T11:14:01.657Z"
+    },
+    {
+      "key": "operations",
+      "input": 900.0,
+      "lower": 1158.4949748743718,
+      "upper": 1168.8417085427134,
+      "plotted_label": 1168.0,
+      "grid_index": 125,
+      "grid_step": 9.346733668341708,
+      "multiplier": 1.0087151553989109,
+      "at": "2026-10-15T11:14:01.657Z"
+    },
+    {
+      "key": "rd_beam",
+      "input": 0.0,
+      "lower": 441.7110552763819,
+      "upper": 450.751256281407,
+      "plotted_label": 450.0,
+      "grid_index": 56,
+      "grid_step": 8.040201005025125,
+      "multiplier": 0.8360173047779641,
+      "at": "2026-10-15T11:18:53.194Z"
+    },
+    {
+      "key": "rd_connector",
+      "input": 381.0,
+      "lower": 932.1633165829145,
+      "upper": 941.2035175879396,
+      "plotted_label": 941.0,
+      "grid_index": 117,
+      "grid_step": 8.040201005025125,
+      "multiplier": 0.9718368231585602,
+      "at": "2026-10-15T11:18:53.194Z"
+    },
+    {
+      "key": "operations",
+      "input": 900.0,
+      "lower": 1158.4949748743718,
+      "upper": 1168.8417085427134,
+      "plotted_label": 1168.0,
+      "grid_index": 125,
+      "grid_step": 9.346733668341708,
+      "multiplier": 1.0087151553989109,
+      "at": "2026-10-15T11:18:53.194Z"
+    },
+    {
+      "key": "rd_beam",
+      "input": 1200.0,
+      "lower": 1345.4296482412062,
+      "upper": 1357.28391959799,
+      "plotted_label": 1357.0,
+      "grid_index": 125,
+      "grid_step": 10.85427135678392,
+      "multiplier": 1.042380834983487,
+      "at": "2026-10-15T11:26:20.312Z"
+    },
+    {
+      "key": "rd_connector",
+      "input": 381.0,
+      "lower": 932.9673366834171,
+      "upper": 944.8216080402011,
+      "plotted_label": 944.0,
+      "grid_index": 87,
+      "grid_step": 10.85427135678392,
+      "multiplier": 0.972508574766018,
+      "at": "2026-10-15T11:26:20.312Z"
+    },
+    {
+      "key": "operations",
+      "input": 900.0,
+      "lower": 1158.4949748743718,
+      "upper": 1168.8417085427134,
+      "plotted_label": 1168.0,
+      "grid_index": 125,
+      "grid_step": 9.346733668341708,
+      "multiplier": 1.0087151553989109,
+      "at": "2026-10-15T11:26:20.312Z"
+    },
+    {
+      "key": "rd_beam",
+      "input": 2600.0,
+      "lower": 2392.263819095477,
+      "upper": 2412.5603015075376,
+      "plotted_label": 2412.0,
+      "grid_index": 125,
+      "grid_step": 19.2964824120603,
+      "multiplier": 1.1695045413242298,
+      "at": "2026-10-15T11:29:14.993Z"
+    },
+    {
+      "key": "rd_connector",
+      "input": 381.0,
+      "lower": 925.7311557788944,
+      "upper": 946.0276381909547,
+      "plotted_label": 946.0,
+      "grid_index": 49,
+      "grid_step": 19.2964824120603,
+      "multiplier": 0.9727320229814532,
+      "at": "2026-10-15T11:29:14.993Z"
+    },
+    {
+      "key": "operations",
+      "input": 900.0,
+      "lower": 1158.4949748743718,
+      "upper": 1168.8417085427134,
+      "plotted_label": 1168.0,
+      "grid_index": 125,
+      "grid_step": 9.346733668341708,
+      "multiplier": 1.0087151553989109,
+      "at": "2026-10-15T11:29:14.993Z"
+    },
+    {
+      "key": "rd_beam",
+      "input": 2600.0,
+      "lower": 2392.263819095477,
+      "upper": 2412.5603015075376,
+      "plotted_label": 2412.0,
+      "grid_index": 125,
+      "grid_step": 19.2964824120603,
+      "multiplier": 1.1695045413242298,
+      "at": "2026-10-15T11:31:57.012Z"
+    },
+    {
+      "key": "rd_connector",
+      "input": 0.0,
+      "lower": 636.2839195979899,
+      "upper": 656.5804020100502,
+      "plotted_label": 656.0,
+      "grid_index": 34,
+      "grid_step": 19.2964824120603,
+      "multiplier": 0.9108023113036532,
+      "at": "2026-10-15T11:31:57.012Z"
+    },
+    {
+      "key": "operations",
+      "input": 900.0,
+      "lower": 1158.4949748743718,
+      "upper": 1168.8417085427134,
+      "plotted_label": 1168.0,
+      "grid_index": 125,
+      "grid_step": 9.346733668341708,
+      "multiplier": 1.0087151553989109,
+      "at": "2026-10-15T11:31:57.012Z"
+    },
+    {
+      "key": "rd_beam",
+      "input": 2600.0,
+      "lower": 2382.6155778894476,
+      "upper": 2404.520100502513,
+      "plotted_label": 2404.0,
+      "grid_index": 115,
+      "grid_step": 20.90452261306533,
+      "multiplier": 1.168723829986438,
+      "at": "2026-10-15T11:34:38.312Z"
+    },
+    {
+      "key": "rd_connector",
+      "input": 2600.0,
+      "lower": 2591.660804020101,
+      "upper": 2613.565326633166,
+      "plotted_label": 2613.0,
+      "grid_index": 125,
+      "grid_step": 20.90452261306533,
+      "multiplier": 1.168043186577726,
+      "at": "2026-10-15T11:34:38.312Z"
+    },
+    {
+      "key": "operations",
+      "input": 900.0,
+      "lower": 1158.4949748743718,
+      "upper": 1168.8417085427134,
+      "plotted_label": 1168.0,
+      "grid_index": 125,
+      "grid_step": 9.346733668341708,
+      "multiplier": 1.0087151553989109,
+      "at": "2026-10-15T11:34:38.312Z"
+    },
+    {
+      "key": "rd_beam",
+      "input": 2600.0,
+      "lower": 2392.263819095477,
+      "upper": 2412.5603015075376,
+      "plotted_label": 2412.0,
+      "grid_index": 125,
+      "grid_step": 19.2964824120603,
+      "multiplier": 1.1695045413242298,
+      "at": "2026-10-15T11:37:23.552Z"
+    },
+    {
+      "key": "rd_connector",
+      "input": 381.0,
+      "lower": 925.7311557788944,
+      "upper": 946.0276381909547,
+      "plotted_label": 946.0,
+      "grid_index": 49,
+      "grid_step": 19.2964824120603,
+      "multiplier": 0.9727320229814532,
+      "at": "2026-10-15T11:37:23.552Z"
+    },
+    {
+      "key": "operations",
+      "input": 900.0,
+      "lower": 1158.4949748743718,
+      "upper": 1168.8417085427134,
+      "plotted_label": 1168.0,
+      "grid_index": 125,
+      "grid_step": 9.346733668341708,
+      "multiplier": 1.0087151553989109,
+      "at": "2026-10-15T11:37:23.552Z"
+    },
+    {
+      "key": "rd_beam",
+      "input": 2600.0,
+      "lower": 2392.263819095477,
+      "upper": 2412.5603015075376,
+      "plotted_label": 2412.0,
+      "grid_index": 125,
+      "grid_step": 19.2964824120603,
+      "multiplier": 1.1695045413242298,
+      "at": "2026-10-15T11:40:20.105Z"
+    },
+    {
+      "key": "rd_connector",
+      "input": 381.0,
+      "lower": 925.7311557788944,
+      "upper": 946.0276381909547,
+      "plotted_label": 946.0,
+      "grid_index": 49,
+      "grid_step": 19.2964824120603,
+      "multiplier": 0.9727320229814532,
+      "at": "2026-10-15T11:40:20.105Z"
+    },
+    {
+      "key": "operations",
+      "input": 0.0,
+      "lower": 258.39447236180905,
+      "upper": 265.02261306532665,
+      "plotted_label": 265.0,
+      "grid_index": 47,
+      "grid_step": 5.628140703517588,
+      "multiplier": 0.7485480943738659,
+      "at": "2026-10-15T11:40:20.105Z"
+    },
+    {
+      "key": "rd_beam",
+      "input": 2600.0,
+      "lower": 2392.263819095477,
+      "upper": 2412.5603015075376,
+      "plotted_label": 2412.0,
+      "grid_index": 125,
+      "grid_step": 19.2964824120603,
+      "multiplier": 1.1695045413242298,
+      "at": "2026-10-15T11:43:21.353Z"
+    },
+    {
+      "key": "rd_connector",
+      "input": 381.0,
+      "lower": 925.7311557788944,
+      "upper": 946.0276381909547,
+      "plotted_label": 946.0,
+      "grid_index": 49,
+      "grid_step": 19.2964824120603,
+      "multiplier": 0.9727320229814532,
+      "at": "2026-10-15T11:43:21.353Z"
+    },
+    {
+      "key": "operations",
+      "input": 1200.0,
+      "lower": 1457.5904522613066,
+      "upper": 1470.3492462311558,
+      "plotted_label": 1470.0,
+      "grid_index": 125,
+      "grid_step": 11.758793969849247,
+      "multiplier": 1.0395592582639073,
+      "at": "2026-10-15T11:43:21.353Z"
+    },
+    {
+      "key": "rd_beam",
+      "input": 2600.0,
+      "lower": 2392.263819095477,
+      "upper": 2412.5603015075376,
+      "plotted_label": 2412.0,
+      "grid_index": 125,
+      "grid_step": 19.2964824120603,
+      "multiplier": 1.1695045413242298,
+      "at": "2026-10-15T11:46:26.254Z"
+    },
+    {
+      "key": "rd_connector",
+      "input": 381.0,
+      "lower": 925.7311557788944,
+      "upper": 946.0276381909547,
+      "plotted_label": 946.0,
+      "grid_index": 49,
+      "grid_step": 19.2964824120603,
+      "multiplier": 0.9727320229814532,
+      "at": "2026-10-15T11:46:26.254Z"
+    },
+    {
+      "key": "operations",
+      "input": 900.0,
+      "lower": 1158.4949748743718,
+      "upper": 1168.8417085427134,
+      "plotted_label": 1168.0,
+      "grid_index": 125,
+      "grid_step": 9.346733668341708,
+      "multiplier": 1.0087151553989109,
+      "at": "2026-10-15T11:46:26.254Z"
+    }
+  ],
+  "grid_rule": "ceil(E/(xmax/199)); labels ±0.5; inferred from all trials",
+  "source_function_found": false,
+  "curve_parameters_retrained": false
+}

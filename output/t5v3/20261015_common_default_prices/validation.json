@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scenarios": 3,
+  "normalized_markets": 12,
+  "original_price_replay": true,
+  "independent_scalar_formula": true,
+  "price_monotonicity": true,
+  "symmetric_market": true,
+  "batch_prediction": true,
+  "invalid_inputs_rejected": true,
+  "formal6_requires_explicit_assumption": true,
+  "source_and_runtime_hashes": true,
+  "t5v2_preserved": true,
+  "empirical_accuracy_improvement_verified": false,
+  "document_link_checks": {
+    "README.md": {
+      "before": "22d9dccd5dc01bfbf8b2e6ce74d31e0e7d1c9434a548cda376c98b61089d14e2",
+      "backup": "output\\t5v3\\20261015_common_default_prices\\documents_before\\README.md",
+      "after": "aad0c5b1aada671727c59cd5354a8ef13c6cf549b4fd640a3ca3321761f2acb5",
+      "unavailable_local_links": []
+    },
+    "code/model_v2/README.md": {
+      "before": "27489311aa1bb6d80352bd339871f6c894ffe15212239f717758a0ae1ae9c1e7",
+      "backup": "output\\t5v3\\20261015_common_default_prices\\documents_before\\code__model_v2__README.md",
+      "after": "9ae74a7960ac9c3d3c8370f15c07f04ba0da979c5f579b5838d41aa7d19455bf",
+      "unavailable_local_links": []
+    }
+  }
+}

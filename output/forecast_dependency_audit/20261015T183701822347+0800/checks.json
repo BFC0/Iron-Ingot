@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "unique_training_source_cells": 6420,
+  "source_categories": {
+    "FORMAL3_GROUP_FINAL_DECISION": 15,
+    "actual_result": 6190,
+    "historical_result_reference_without_category": 200,
+    "ROUND_4_GROUP_FINAL_DECISION": 15
+  },
+  "marketing_pairs_rebuilt": 376,
+  "marketing_fit_pairs": 264,
+  "player_estimate_fields_rejected": 13,
+  "forecast_current_mutation_ignored_in_forward": true,
+  "decision_dependency_checks": [
+    {
+      "decision_index": 0,
+      "output": "demand",
+      "before": [
+        [
+          3.7878000000000003,
+          11.627999999999998
+        ],
+        [
+          115.8061,
+          110.3615
+        ]
+      ],
+      "after": [
+        [
+          5.180160278948924,
+          11.627999999999998
+        ],
+        [
+          115.8061,
+          110.3615
+        ]
+      ]
+    },
+    {
+      "decision_index": 4,
+      "output": "demand",
+      "before": [
+        [
+          3.7878000000000003,
+          11.627999999999998
+        ],
+        [
+          115.8061,
+          110.3615
+        ]
+      ],
+      "after": [
+        [
+          3.786465638074819,
+          11.623631917472208
+        ],
+        [
+          115.43861010879496,
+          110.02706814862668
+        ]
+      ]
+    },
+    {
+      "decision_index": 12,
+      "output": "demand",
+      "before": [
+        [
+          3.7878000000000003,
+          11.627999999999998
+        ],
+        [
+          115.8061,
+          110.3615
+        ]
+      ],
+      "after": [
+        [
+          3.6701794349970975,
+          11.390912443600445
+        ],
+        [
+          115.8061,
+          110.3615
+        ]
+      ]
+    },
+    {
+      "decision_index": 14,
+      "output": "efficiency",
+      "before": [
+        0.17007755277897457,
+        17.00398406374502
+      ],
+      "after": [
+        0.16678111330329165,
+        16.674413209768442
+      ]
+    },
+    {
+      "decision_index": 15,
+      "output": "capacity",
+      "before": [
+        41.67,
+        412.25
+      ],
+      "after": [
+        42.67,
+        412.25
+      ]
+    },
+    {
+      "decision_index": 19,
+      "output": "rate",
+      "before": 0.05030874519889756,
+      "after": 0.050313742059574194
+    }
+  ],
+  "final_decision_selfcheck": {
+    "final_decision_guards": true,
+    "financial_selfchecks": true,
+    "connector": {
+      "overproduction_inventory": true,
+      "two_round_carryover": true,
+      "payroll_and_materials_on_production": true,
+      "priority": true,
+      "zero_capacity": true,
+      "invalid_plan_rejected": true
+    },
+    "joint_allocation": {
+      "connector_free_path": {
+        "overproduction_inventory": true,
+        "two_round_carryover": true,
+        "payroll_and_materials_on_production": true,
+        "priority": true,
+        "zero_capacity": true,
+        "invalid_plan_rejected": true
+      },
+      "fixed_plan_reserves_shared_workers": true,
+      "infeasible_plan_rejected": true,
+      "dedicated_capacity": true,
+      "shared_labor": true,
+      "shift_costs": true,
+      "negative_margin_idle": true,
+      "zero_capacity": true,
+      "unequal_efficiencies": true,
+      "invalid_inputs_rejected": true
+    }
+  },
+  "scope": "t4v1/t5v0 saved datasets, t5v1 marketing training pairs and frozen forward inference; not all historical versions or live UI"
+}
