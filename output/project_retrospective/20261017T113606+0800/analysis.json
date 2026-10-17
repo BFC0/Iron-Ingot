@@ -1,0 +1,457 @@
+{
+  "unit": "千美元",
+  "market": 5,
+  "team": "本组",
+  "indexing": "zero_based",
+  "rank_definition": "1 + 同市场显示值严格高于本组的队数；非平台综合成绩",
+  "initial_cumulative": 1293.0,
+  "six_round_profit_sum": 8003.0,
+  "six_round_cumulative_increment": 8002.0,
+  "total_rounding_residual": -1.0,
+  "rounds": [
+    {
+      "round": 0,
+      "source": "output/round_close/20261012T221044.031+0800/raw/market05_initial0_summary.json",
+      "revenue": 31136.0,
+      "revenue_source_cell": {
+        "table": 0,
+        "row": 4,
+        "column": 6
+      },
+      "profit": 1293.0,
+      "profit_source_cell": {
+        "table": 0,
+        "row": 17,
+        "column": 6
+      },
+      "profit_rank": 1,
+      "cumulative": 1293.0,
+      "cumulative_source_cell": {
+        "table": 0,
+        "row": 21,
+        "column": 6
+      },
+      "cumulative_rank": 1,
+      "cash": 15004.0,
+      "cash_source_cell": {
+        "table": 0,
+        "row": 28,
+        "column": 6
+      }
+    },
+    {
+      "round": 1,
+      "source": "output/round_close/20261012T221044.031+0800/raw/market05_formal1_summary.json",
+      "revenue": 32045.0,
+      "revenue_source_cell": {
+        "table": 0,
+        "row": 4,
+        "column": 6
+      },
+      "profit": 1860.0,
+      "profit_source_cell": {
+        "table": 0,
+        "row": 17,
+        "column": 6
+      },
+      "profit_rank": 8,
+      "cumulative": 3153.0,
+      "cumulative_source_cell": {
+        "table": 0,
+        "row": 21,
+        "column": 6
+      },
+      "cumulative_rank": 8,
+      "cash": 16372.0,
+      "cash_source_cell": {
+        "table": 0,
+        "row": 28,
+        "column": 6
+      },
+      "cumulative_rounding_residual": 0.0
+    },
+    {
+      "round": 2,
+      "source": "output/round_close/20261012T221044.031+0800/raw/market05_formal2_summary.json",
+      "revenue": 33847.0,
+      "revenue_source_cell": {
+        "table": 0,
+        "row": 4,
+        "column": 6
+      },
+      "profit": 2180.0,
+      "profit_source_cell": {
+        "table": 0,
+        "row": 17,
+        "column": 6
+      },
+      "profit_rank": 5,
+      "cumulative": 5332.0,
+      "cumulative_source_cell": {
+        "table": 0,
+        "row": 21,
+        "column": 6
+      },
+      "cumulative_rank": 6,
+      "cash": 17926.0,
+      "cash_source_cell": {
+        "table": 0,
+        "row": 28,
+        "column": 6
+      },
+      "cumulative_rounding_residual": -1.0
+    },
+    {
+      "round": 3,
+      "source": "output/round_close/20261014_resume_verified/raw/market5_formal3_summary_complete.json",
+      "revenue": 41061.0,
+      "revenue_source_cell": {
+        "table": 0,
+        "row": 4,
+        "column": 6
+      },
+      "profit": 1419.0,
+      "profit_source_cell": {
+        "table": 0,
+        "row": 17,
+        "column": 6
+      },
+      "profit_rank": 5,
+      "cumulative": 6752.0,
+      "cumulative_source_cell": {
+        "table": 0,
+        "row": 21,
+        "column": 6
+      },
+      "cumulative_rank": 5,
+      "cash": 17698.0,
+      "cash_source_cell": {
+        "table": 0,
+        "row": 30,
+        "column": 6
+      },
+      "cumulative_rounding_residual": 1.0
+    },
+    {
+      "round": 4,
+      "source": "output/round_close/20261014_formal4_close/raw/market5_formal4_summary_complete.json",
+      "revenue": 40892.0,
+      "revenue_source_cell": {
+        "table": 0,
+        "row": 4,
+        "column": 6
+      },
+      "profit": 351.0,
+      "profit_source_cell": {
+        "table": 0,
+        "row": 17,
+        "column": 6
+      },
+      "profit_rank": 3,
+      "cumulative": 7102.0,
+      "cumulative_source_cell": {
+        "table": 0,
+        "row": 21,
+        "column": 6
+      },
+      "cumulative_rank": 5,
+      "cash": 12202.0,
+      "cash_source_cell": {
+        "table": 0,
+        "row": 30,
+        "column": 6
+      },
+      "cumulative_rounding_residual": -1.0
+    },
+    {
+      "round": 5,
+      "source": "output/round_close/20261015_formal5_close/raw/market5_formal5_summary_complete.json",
+      "revenue": 40305.0,
+      "revenue_source_cell": {
+        "table": 0,
+        "row": 4,
+        "column": 6
+      },
+      "profit": -919.0,
+      "profit_source_cell": {
+        "table": 0,
+        "row": 17,
+        "column": 6
+      },
+      "profit_rank": 6,
+      "cumulative": 6183.0,
+      "cumulative_source_cell": {
+        "table": 0,
+        "row": 21,
+        "column": 6
+      },
+      "cumulative_rank": 4,
+      "cash": 10703.0,
+      "cash_source_cell": {
+        "table": 0,
+        "row": 30,
+        "column": 6
+      },
+      "cumulative_rounding_residual": 0.0
+    },
+    {
+      "round": 6,
+      "source": "output/round_close/20261016_formal6_close/m05_summary_complete.json",
+      "revenue": 65658.0,
+      "revenue_source_cell": {
+        "table": 0,
+        "row": 4,
+        "column": 6
+      },
+      "profit": 3112.0,
+      "profit_source_cell": {
+        "table": 0,
+        "row": 17,
+        "column": 6
+      },
+      "profit_rank": 1,
+      "cumulative": 9295.0,
+      "cumulative_source_cell": {
+        "table": 0,
+        "row": 21,
+        "column": 6
+      },
+      "cumulative_rank": 4,
+      "cash": 5084.0,
+      "cash_source_cell": {
+        "table": 0,
+        "row": 30,
+        "column": 6
+      },
+      "cumulative_rounding_residual": 0.0
+    }
+  ],
+  "income_comparison": {
+    "复合梁": {
+      "round5": 27308.0,
+      "round6": 51153.0,
+      "change": 23845.0
+    },
+    "连接件": {
+      "round5": 12997.0,
+      "round6": 15665.0,
+      "change": 2668.0
+    },
+    "净销售额": {
+      "round5": 40305.0,
+      "round6": 65658.0,
+      "change": 25353.0
+    },
+    "可变成本总和": {
+      "round5": 19593.0,
+      "round6": 38434.0,
+      "change": 18841.0
+    },
+    "毛利": {
+      "round5": 20712.0,
+      "round6": 27224.0,
+      "change": 6512.0
+    },
+    "营销和销售成本总和": {
+      "round5": 5124.0,
+      "round6": 5450.0,
+      "change": 326.0
+    },
+    "行政管理成本": {
+      "round5": 10000.0,
+      "round6": 12000.0,
+      "change": 2000.0
+    },
+    "解雇成本": {
+      "round5": 292.0,
+      "round6": 0.0,
+      "change": -292.0
+    },
+    "研发": {
+      "round5": 2831.0,
+      "round6": 2600.0,
+      "change": -231.0
+    },
+    "运营改进": {
+      "round5": 754.0,
+      "round6": 700.0,
+      "change": -54.0
+    },
+    "库存持有成本": {
+      "round5": 4.0,
+      "round6": 0.0,
+      "change": -4.0
+    },
+    "杂费成本总和": {
+      "round5": 13881.0,
+      "round6": 15300.0,
+      "change": 1419.0
+    },
+    "税息折旧及摊销前利润（EBITDA）": {
+      "round5": 1707.0,
+      "round6": 6474.0,
+      "change": 4767.0
+    },
+    "厂房": {
+      "round5": 891.0,
+      "round6": 884.0,
+      "change": -7.0
+    },
+    "机器": {
+      "round5": 1405.0,
+      "round6": 1471.0,
+      "change": 66.0
+    },
+    "息税前利润（EBIT）": {
+      "round5": -588.0,
+      "round6": 4119.0,
+      "change": 4707.0
+    },
+    "利息收入": {
+      "round5": 115.0,
+      "round6": 79.0,
+      "change": -36.0
+    },
+    "长期贷款利息": {
+      "round5": 445.0,
+      "round6": 190.0,
+      "change": -255.0
+    },
+    "短期贷款利息": {
+      "round5": 0.0,
+      "round6": 0.0,
+      "change": 0.0
+    },
+    "税前利润": {
+      "round5": -919.0,
+      "round6": 4008.0,
+      "change": 4927.0
+    },
+    "直接税": {
+      "round5": 0.0,
+      "round6": 896.0,
+      "change": 896.0
+    },
+    "本回合利润": {
+      "round5": -919.0,
+      "round6": 3112.0,
+      "change": 4031.0
+    }
+  },
+  "round6_cash_bridge": {
+    "经营活动现金流": 4625.0,
+    "资本支出总计": -2644.0,
+    "融资总计": -7600.0,
+    "流动资产变化": -5619.0,
+    "1月1日的流动资产": 10703.0,
+    "12月31日的流动资产": 5084.0
+  },
+  "sources": [
+    {
+      "path": "output/round_close/20261012T221044.031+0800/raw/market05_initial0_summary.json",
+      "sha256": "959fffd19f4624c7f7d2714f416c6e7c7668d3a29909e23642883cbe2bf564b3"
+    },
+    {
+      "path": "output/round_close/20261012T221044.031+0800/raw/market05_formal1_summary.json",
+      "sha256": "9bbbed28023ae30b24dc6ea3d99dde001d278905c4da95583cc62a98274feda8"
+    },
+    {
+      "path": "output/round_close/20261012T221044.031+0800/raw/market05_formal2_summary.json",
+      "sha256": "fbd3f9c6228caf7d36e57087a655f7ba14fd250ef4d65b1c28456271beb53be2"
+    },
+    {
+      "path": "output/round_close/20261014_resume_verified/raw/market5_formal3_summary_complete.json",
+      "sha256": "50fdb185724460aacc2a6c45c13c3e370a4ba22f6e7d4c0d8d9d4723c3711196"
+    },
+    {
+      "path": "output/round_close/20261014_formal4_close/raw/market5_formal4_summary_complete.json",
+      "sha256": "e0943f1bf0718208431510ffaff5ab78ad2b2d4090b1275627691cb9ee42f8f5"
+    },
+    {
+      "path": "output/round_close/20261015_formal5_close/raw/market5_formal5_summary_complete.json",
+      "sha256": "f3a2a50f9b6d3f51c2ee5489b116aefc2f464dae3615f3f39f158ddc4bb3ef2d"
+    },
+    {
+      "path": "output/round_close/20261016_formal6_close/m05_summary_complete.json",
+      "sha256": "d69d5682ee0c252ce1cc00ab7dcefd790e1f0ba6ad727bde0ecdec0634b540da"
+    },
+    {
+      "path": "output/round_close/20261015_formal5_close/raw/market5_formal5_incomestatement.json",
+      "sha256": "050564ade2fc2666e5ed01d639d76d33710c60c0240f648c9e127091a2d6644d"
+    },
+    {
+      "path": "output/round_close/20261016_formal6_close/m05_incomestatement.json",
+      "sha256": "c83b9ad946b49ad150b4f57606baeb020b363402895e74d84f9b776ad0b751b0"
+    },
+    {
+      "path": "output/round_close/20261016_formal6_close/m05_cashflow.json",
+      "sha256": "1e60602d9816532660c31539211818ea55935ae5143d825e9c37f8944e356592"
+    },
+    {
+      "path": "output/round_close/20261016_formal6_close/delivery/20261017T112539912574+0800/player_demand_estimate_errors.json",
+      "sha256": "338d38d69d2f90e8cb933d3f90ea309459540b59d724f20ac785ca1c0c7c502b"
+    }
+  ],
+  "derived_metrics": {
+    "round5_gross_margin_pct": 51.38816524004466,
+    "round6_gross_margin_pct": 41.463340339334124,
+    "round6_revenue_growth_pct": 62.90286564942315,
+    "beam_share_of_revenue_increase_pct": 94.05198595826924
+  },
+  "player_demand_errors": [
+    {
+      "product": "复合梁",
+      "country": "泰国",
+      "estimate": 9.6,
+      "actual": 7.0,
+      "unit": "千单位",
+      "error": 2.5999999999999996,
+      "relative_error_pct": 37.142857142857146
+    },
+    {
+      "product": "复合梁",
+      "country": "印尼",
+      "estimate": 10.5,
+      "actual": 11.26,
+      "unit": "千单位",
+      "error": -0.7599999999999998,
+      "relative_error_pct": -6.749555950266428
+    },
+    {
+      "product": "复合梁",
+      "country": "菲律宾",
+      "estimate": 4.5,
+      "actual": 9.21,
+      "unit": "千单位",
+      "error": -4.710000000000001,
+      "relative_error_pct": -51.14006514657981
+    },
+    {
+      "product": "连接件",
+      "country": "泰国",
+      "estimate": 367.0,
+      "actual": 317.74,
+      "unit": "千单位",
+      "error": 49.25999999999999,
+      "relative_error_pct": 15.503241644111544
+    },
+    {
+      "product": "连接件",
+      "country": "印尼",
+      "estimate": 150.59,
+      "actual": 144.55,
+      "unit": "千单位",
+      "error": 6.039999999999992,
+      "relative_error_pct": 4.178484953303352
+    },
+    {
+      "product": "连接件",
+      "country": "菲律宾",
+      "estimate": 40.0,
+      "actual": 140.25,
+      "unit": "千单位",
+      "error": -100.25,
+      "relative_error_pct": -71.4795008912656
+    }
+  ]
+}
